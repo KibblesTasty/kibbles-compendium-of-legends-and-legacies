@@ -1,0 +1,39 @@
+{
+"name": "kibbles-compendium-of-legends-and-legacies",
+"title": "Kibbles' Compendium of Legends and Legends",
+"description": "The FoundryVTT module for Kibbles' Compendium of Legends and Legacies",
+"author": "KibblesTasty",
+"version": "0.9.7.1",
+"minimumCoreVersion": "0.6.0",
+"compatibleCoreVersion": "9",
+"manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/download/archive/module.json",
+"download": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/download/archive/kibbles-compendium-of-legends-and-legacies.zip",
+"keywords" : [
+			"subclasses",
+			"spells",
+			"feats",
+			"classes",
+			"backgrounds",
+			"races",
+			"creatures",
+			"monsters",
+			"crafting"
+		],
+"packs": [
+			{
+				"name": "kcll-feature-library",
+				"label": "KCLL Feature Library",
+				"system": "dnd5e",
+				"path": "./packs/kcll-feature-library.db",
+				"type": "Item",
+				"entity": "Item",
+				"module": "kibbles-compendium-of-legends-and-legacies"
+			}
+		],
+"authors": [
+			{
+			  "name": "KibblesTasty",
+			  "url": "https://kthomebrew.com"
+			}
+		]
+}

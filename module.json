@@ -2,10 +2,16 @@
 "name": "kibbles-compendium-of-legends-and-legacies",
 "title": "Kibbles' Compendium of Legends and Legends",
 "description": "The FoundryVTT module for Kibbles' Compendium of Legends and Legacies",
-"author": "KibblesTasty",
 "version": "0.9.7.2",
 "minimumCoreVersion": "0.6.0",
 "compatibleCoreVersion": "10",
+"authors": [
+			{
+			  "name": "KibblesTasty",
+			  "url": "https://kthomebrew.com"
+			}
+		],
+"id": "kibbles-compendium-of-legends-and-legacies",
 "manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/download/archive/module.json",
 "download": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/download/archive/kibbles-compendium-of-legends-and-legacies-main.zip",
 "keywords" : [
@@ -27,9 +33,7 @@
 				"path": "./packs/kcll-feature-library.db",
 				"entity": "Item",
 				"module": "kibbles-compendium-of-legends-and-legacies"
-			}
-		],
-		[
+			},
 			{
 				"name": "kcll-classes",
 				"label": "KCLL Classes",
@@ -37,9 +41,7 @@
 				"path": "./packs/kcll-classes.db",
 				"entity": "Item",
 				"module": "kibbles-compendium-of-legends-and-legacies"
-			}
-		],
-		[
+			},
 			{
 				"name": "kcll-subclasses",
 				"label": "KCLL Subclasses",
@@ -47,12 +49,6 @@
 				"path": "./packs/kcll-subclasses.db",
 				"entity": "Item",
 				"module": "kibbles-compendium-of-legends-and-legacies"
-			}
-		],
-"authors": [
-			{
-			  "name": "KibblesTasty",
-			  "url": "https://kthomebrew.com"
 			}
 		]
 }

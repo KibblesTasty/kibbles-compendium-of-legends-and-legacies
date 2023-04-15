@@ -3,9 +3,9 @@
 "title": "Kibbles' Compendium of Legends and Legends",
 "description": "The FoundryVTT module for Kibbles' Compendium of Legends and Legacies",
 "author": "KibblesTasty",
-"version": "0.9.7.1",
+"version": "0.9.7.2",
 "minimumCoreVersion": "0.6.0",
-"compatibleCoreVersion": "9",
+"compatibleCoreVersion": "10",
 "manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/download/archive/module.json",
 "download": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/download/archive/kibbles-compendium-of-legends-and-legacies-main.zip",
 "keywords" : [
@@ -18,14 +18,33 @@
 			"creatures",
 			"monsters",
 			"crafting"
-		],
+		 ],
 "packs": [
 			{
 				"name": "kcll-feature-library",
 				"label": "KCLL Feature Library",
 				"system": "dnd5e",
 				"path": "./packs/kcll-feature-library.db",
-				"type": "Item",
+				"entity": "Item",
+				"module": "kibbles-compendium-of-legends-and-legacies"
+			}
+		],
+		[
+			{
+				"name": "kcll-classes",
+				"label": "KCLL Classes",
+				"system": "dnd5e",
+				"path": "./packs/kcll-classes.db",
+				"entity": "Item",
+				"module": "kibbles-compendium-of-legends-and-legacies"
+			}
+		],
+		[
+			{
+				"name": "kcll-subclasses",
+				"label": "KCLL Subclasses",
+				"system": "dnd5e",
+				"path": "./packs/kcll-subclasses.db",
 				"entity": "Item",
 				"module": "kibbles-compendium-of-legends-and-legacies"
 			}

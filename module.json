@@ -2,7 +2,7 @@
 "name": "kibbles-compendium-of-legends-and-legacies",
 "title": "Kibbles' Compendium of Legends and Legends",
 "description": "The FoundryVTT module for Kibbles' Compendium of Legends and Legacies",
-"version": "0.9.7.4",
+"version": "0.9.7.5",
 "minimumCoreVersion": "0.6.0",
 "compatibleCoreVersion": "10",
 "authors": [
@@ -26,6 +26,15 @@
 			"crafting"
 		 ],
 "packs": [
+			{
+				"name": "kcll-monsters",
+				"label": "KCLL Monsters",
+				"system": "dnd5e",
+				"path": "./packs/kcll-monsters.db",
+				"type": "Actor",
+				"entity": "Actor",
+				"module": "kibbles-compendium-of-legends-and-legacies"
+			},
 			{
 				"name": "kcll-feature-library",
 				"label": "KCLL Feature Library",

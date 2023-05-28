@@ -4,7 +4,10 @@
 "description": "The FoundryVTT module for Kibbles' Compendium of Legends and Legacies",
 "version": "0.9.9.6",
 "minimumCoreVersion": "0.6.0",
-"compatibleCoreVersion": "10",
+"compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
 "authors": [
 			{
 			  "name": "KibblesTasty",

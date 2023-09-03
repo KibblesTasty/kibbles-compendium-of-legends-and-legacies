@@ -1,9 +1,8 @@
 {
-"name": "kibbles-compendium-of-legends-and-legacies",
+"id": "kibbles-compendium-of-legends-and-legacies",
 "title": "Kibbles' Compendium of Legends and Legends",
 "description": "The FoundryVTT module for Kibbles' Compendium of Legends and Legacies",
-"version": "0.9.9.7",
-"minimumCoreVersion": "0.6.0",
+"version": "0.9.9.8",
 "compatibility": {
     "minimum": "10",
     "verified": "11"
@@ -33,7 +32,7 @@
 				"name": "kcll-monsters",
 				"label": "KCLL Monsters",
 				"system": "dnd5e",
-				"path": "./packs/kcll-monsters.db",
+				"path": "./packs/kcll-monsters",
 				"type": "Actor",
 				"entity": "Actor",
 				"module": "kibbles-compendium-of-legends-and-legacies"
@@ -42,7 +41,7 @@
 				"name": "kcll-feature-library",
 				"label": "KCLL Feature Library",
 				"system": "dnd5e",
-				"path": "./packs/kcll-feature-library.db",
+				"path": "./packs/kcll-feature-library",
 				"type": "Item",
 				"entity": "Item",
 				"module": "kibbles-compendium-of-legends-and-legacies"
@@ -51,7 +50,7 @@
 				"name": "kcll-classes",
 				"label": "KCLL Classes",
 				"system": "dnd5e",
-				"path": "./packs/kcll-classes.db",
+				"path": "./packs/kcll-classes",
 				"type": "Item",
 				"entity": "Item",
 				"module": "kibbles-compendium-of-legends-and-legacies"
@@ -60,7 +59,7 @@
 				"name": "kcll-subclasses",
 				"label": "KCLL Subclasses",
 				"system": "dnd5e",
-				"path": "./packs/kcll-subclasses.db",
+				"path": "./packs/kcll-subclasses",
 				"type": "Item",
 				"entity": "Item",
 				"module": "kibbles-compendium-of-legends-and-legacies"

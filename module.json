@@ -7,12 +7,22 @@
 		"minimum": "12",
 		"verified": "12.331"
 	},
+	"relationships": {
+		"systems": [{
+		"id": "dnd5e",
+		"type": "system",
+		"compatibility": {
+			"minimum": "4.0",
+			"verified": "4.0.3"
+		}
+		}]
+	},
 	"authors": [{
 		"name": "KibblesTasty",
 		"url": "https://kthomebrew.com"
 	}],
-	"manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/download/archive/module.json",
-	"download": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/download/archive/kibbles-compendium-of-legends-and-legacies-main.zip",
+	"manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/latest/download/module.json",
+	"download": "AUTOMATIC",
 	"keywords": [
 		"subclasses",
 		"spells",
@@ -24,41 +34,68 @@
 		"monsters",
 		"crafting"
 	],
-	"packs": [{
+	"packs": [
+		{
 			"name": "kcll-monsters",
 			"label": "KCLL Monsters",
 			"system": "dnd5e",
-			"path": "./packs/kcll-monsters",
-			"type": "Actor",
-			"entity": "Actor",
-			"module": "kibbles-compendium-of-legends-and-legacies"
+			"type": "Actor"
 		},
 		{
 			"name": "kcll-feature-library",
 			"label": "KCLL Feature Library",
 			"system": "dnd5e",
-			"path": "./packs/kcll-feature-library",
-			"type": "Item",
-			"entity": "Item",
-			"module": "kibbles-compendium-of-legends-and-legacies"
+			"type": "Item"
 		},
 		{
 			"name": "kcll-classes",
 			"label": "KCLL Classes",
 			"system": "dnd5e",
-			"path": "./packs/kcll-classes",
-			"type": "Item",
-			"entity": "Item",
-			"module": "kibbles-compendium-of-legends-and-legacies"
+			"type": "Item"
 		},
 		{
 			"name": "kcll-subclasses",
 			"label": "KCLL Subclasses",
 			"system": "dnd5e",
-			"path": "./packs/kcll-subclasses",
-			"type": "Item",
-			"entity": "Item",
-			"module": "kibbles-compendium-of-legends-and-legacies"
+			"type": "Item"
 		}
-	]
+	],
+  "packFolders": [{
+    "name": "KibblesTasty",
+    "sorting": "a",
+    "color": "#4169E1",
+    "folders": [{
+      "name": "KCLL",
+      "sorting": "a",
+      "color": "#CD5C5C",
+      "packs": ["kcll-roll-tables", "kcll-journals"],
+      "folders": [{
+          "name": "Character Features",
+          "sorting": "a",
+          "color": "#592d86",
+          "packs": ["kcll-backgrounds", "kcll-feats", "kcll-subclasses", "kcll-classes", "kcll-races"]
+        },
+        {
+          "name": "Items & Spells",
+          "sorting": "a",
+          "color": "#4d2673",
+          "packs": ["kcll-spells", "kcll-items"]
+        },
+        {
+          "name": "Monsters",
+          "sorting": "a",
+          "color": "#402060",
+          "packs": ["kcll-monsters"]
+        }
+      ]
+    }]
+  }],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "KCLL": "Kibbles' Compendium of Legends and Legacies"
+      },
+      "spellLists": []
+    }
+  }
 }

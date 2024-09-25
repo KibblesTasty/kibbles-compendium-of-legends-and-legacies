@@ -1,0 +1,26 @@
+{
+  "name": "kibbles-compendium-of-legends-and-legacies",
+  "version": "1.0.0",
+  "description": "Kibbles' Compendium of Legends and Legacies for Foundry VTT",
+  "main": "kcll.js",
+  "scripts": {
+    "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
+    "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies.git"
+  },
+  "keywords": [
+    "fvtt"
+  ],
+  "author": "KibblesTasty",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/issues"
+  },
+  "homepage": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies#readme",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3"
+  }
+}

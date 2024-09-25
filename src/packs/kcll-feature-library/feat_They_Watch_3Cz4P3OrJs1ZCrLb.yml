@@ -1,0 +1,91 @@
+folder: null
+name: They Watch
+type: feat
+img: icons/magic/perception/eye-winged-pink.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, when you use your Void Gaze ability, you can
+      create up to three spectral eyes at points within 60 feet of you, each of
+      which last for 1 minute or until you dismiss them as a bonus action. Each
+      eye projects a 30 foot cone in a direction of your choice. You can see
+      through these eyes into their cones of vision as if you were seeing from
+      your own eyes. When a creature starts its turn or enters into the gaze of
+      these spectral eyes for the first time on their turn, you can subject them
+      to the effect of your Void Gaze.</p><p>Once you use this feature, you
+      cannot create spectral eyes in this way again until you complete a long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Voidwatcher
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Voidwatcher 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core: {}
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693767479350
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: 3Cz4P3OrJs1ZCrLb
+sort: 4000000
+_key: '!items!3Cz4P3OrJs1ZCrLb'
+

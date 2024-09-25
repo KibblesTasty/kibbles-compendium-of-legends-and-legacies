@@ -1,0 +1,118 @@
+name: Leadership Dice
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-white-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.vF4qyXvaCbIv324X
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, you have access to Leadership Dice. These
+      represent your ability to focus your battlefield presence for powerful
+      results. Your Warlord level determines the number and size of the dice, as
+      shown on the Leadership Dice column of the Warlord table. You can spend
+      these to fuel various features.</p>
+
+      <p>You know three such features: Rallying Mark, Urgent Orders, and Helpful
+      Word. When you get this feature, you can spend one Leadership Die per
+      turn. Starting at 6th level, you can spend two Leadership Dice per turn.
+      The number you can expend increases to three at 11th level, and to four at
+      17th level.</p>
+
+      <p>A Leadership Die is expended when you use it. You regain all of your
+      expended Leadership Dice when you finish a short or long rest.</p>
+
+      <p>@Compendium[kibbles-warlord.kibbles-warlord.fnuNMwCR6wyN31e3]{Rallying
+      Mark}</p>
+
+      <p>@Compendium[kibbles-warlord.kibbles-warlord.7p1H9Q1Qd6KOzOrM]{Helpful
+      Word}</p>
+
+      <p>@Compendium[kibbles-warlord.kibbles-warlord.cWWwuXNteeFp4UkH]{Urgent
+      Orders}</p>
+    chat: ''
+    unidentified: ''
+  source: Warlord
+  activation:
+    type: bonus
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '@classes.warlord.levels'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742595519
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 36400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: RheFEteQyj3j1rcZ
+_key: '!items!RheFEteQyj3j1rcZ'
+

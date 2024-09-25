@@ -1,0 +1,92 @@
+name: Sword Spirit (2 Ki)
+type: feat
+img: icons/creatures/magical/spirit-undead-ghost-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.u1MQD7xN7TaYK0Rg
+system:
+  description:
+    value: |-
+      <p><em>(Requires 6th level)</em></p>
+      <p>You can cast spirit echo.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742070404
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 8400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 3Jb4STln56VhO7V1
+_key: '!items!3Jb4STln56VhO7V1'
+

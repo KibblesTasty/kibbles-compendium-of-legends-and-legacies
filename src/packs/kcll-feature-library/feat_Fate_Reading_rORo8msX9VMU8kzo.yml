@@ -1,0 +1,96 @@
+name: Fate Reading
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: AC Bonus
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.8Vn58l3cfSizM22v
+system:
+  description:
+    value: "<p>Starting at 3rd level, your connection to the flow of fate gives you the ability to read from it, tracing outcomes and glimpsing the unknowable future. When you are hit by an attack, you can use your reaction to add your Wisdom modifier to your AC until the start of your next turn (including against the triggering attack). You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p>\n<p>Additionally, you learn the spell @Compendium[dnd5e.spells.4v2H3hHb3Ph9XLNd]{Augury} and can cast it at will without expending spell slot.</p>\n<blockquote>\n<h3><strong>Winding Paths of Fate</strong></h3>\n<p>This does not negate the normal drawback of casting augury multiple times. As you delve further for more information, it becomes harder to read as the flow becomes more turbulent for your changes to it.</p>\n</blockquote>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 2
+    max: '@prof'
+    per: day
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: null
+  ability: wis
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: '@mod'
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742233973
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 65300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: rORo8msX9VMU8kzo
+_key: '!items!rORo8msX9VMU8kzo'
+

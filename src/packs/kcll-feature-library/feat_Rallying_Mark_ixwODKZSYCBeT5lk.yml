@@ -1,0 +1,108 @@
+name: Rallying Mark
+type: feat
+img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.kdDZkPgM9qhKK1vy
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can expend a number of Leadership Dice (up to
+      your per turn limit) to rally your allies to attack a hostile creature
+      within 60 feet of you.</p>
+
+      <p>The next time damage is rolled against that target by an allied
+      creature before the start of your next turn, they can add the Leadership
+      Dice to the damage roll, and the attacking creature regains hit points
+      equal to the amount rolled on the Leadership Dice.</p>
+    chat: ''
+    unidentified: ''
+  source: Warlord
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742628087
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 56000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: ixwODKZSYCBeT5lk
+_key: '!items!ixwODKZSYCBeT5lk'
+

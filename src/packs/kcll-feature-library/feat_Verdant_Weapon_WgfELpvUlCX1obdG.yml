@@ -1,0 +1,92 @@
+name: Verdant Weapon
+type: feat
+img: icons/magic/nature/hand-weapon-wood-bark-brown.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Additionally at 3rd
+      level, you learn the
+      @UUID[Compendium.dnd5e.spells.VzgFzcmocr1X1cp4]{Shillelagh}<em
+      style="box-sizing:border-box;user-select:text;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">
+      </em>cantrip. You can target any weapon with it, but when targeting a
+      weapon other than a club, quarterstaff, or greatclub, its effect does not
+      change the damage dice. When you target a greatclub, the damage dice
+      becomes 1d12.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Green Knight
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Green Knight 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.qiOn1652X9TEoDqW
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682997702608
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 41500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: WgfELpvUlCX1obdG
+_key: '!items!WgfELpvUlCX1obdG'
+

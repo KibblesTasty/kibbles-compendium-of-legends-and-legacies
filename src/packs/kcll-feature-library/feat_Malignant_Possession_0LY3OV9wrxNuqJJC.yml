@@ -1,0 +1,108 @@
+folder: null
+name: Malignant Possession
+type: feat
+img: icons/creatures/magical/construct-golem-stone-blue.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when you hit a creature with an attack or it
+      fails a saving throw against one of your spells, you can afflict them with
+      a malignant spirit. This spirit haunts them for 1 minute, and while it
+      persists any time the creature makes an attack roll, saving throw, or
+      ability check, you can use your reaction to cause the spirit hindering
+      them to bring them misfortune. Roll a d6 spirit die and subtract it from
+      the result of their roll. You can do this after they roll, but before the
+      outcome is determined.</p><p>The spirit can be removed by effects that
+      remove or prevent possession (such as protection from evil and good), or
+      the target can attempt to rid itself of the spirit as an action, making a
+      Wisdom saving throw against your spell save DC, removing the spirit and
+      ending the effect on success).</p><p>The size of the spirit die increases
+      at 5th level (to a d8), 11th level (to a d10), and 17th level (to a d12).
+      Once you use this ability, you cannot use it again until you complete a
+      short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Spiritualist
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d6
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Spiritualist 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickOther:
+      context: Hindrance
+      value: true
+    quickSave:
+      value: true
+    quickDamage:
+      context: []
+      value:
+        '0': true
+        '1': true
+    consumeUses:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693769266089
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: 0LY3OV9wrxNuqJJC
+sort: 400000
+_key: '!items!0LY3OV9wrxNuqJJC'
+

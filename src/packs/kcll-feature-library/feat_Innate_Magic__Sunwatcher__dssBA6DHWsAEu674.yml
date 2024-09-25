@@ -1,0 +1,96 @@
+name: Innate Magic (Sunwatcher)
+type: feat
+img: icons/magic/light/beam-strike-orange-gold.webp
+system:
+  description:
+    value: >-
+      <p>Additionally when you select this bond, you gain access to several
+      innate magical abilities by channeling the power of your primal
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Wisdom is your
+      spellcasting modifier for these spells. Once you cast a spell, you cannot
+      cast that spell again until you complete a long rest, or expend endurance
+      dice equal to the level of the spell to cast it
+      again.</p><table><tbody><tr><th>Warden Level</th><th>Innate Spells (1/long
+      rest
+      each)</th></tr><tr><td>1</td><td>@UUID[Compendium.dnd5e.spells.ge3Saet9zPTDyaoL]{Heroism}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells.7buEm5KhI5lP8m1z]{Guiding
+      Bolt}</td></tr><tr><td>5</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.WoLHo6hfMqljwf6z]{Blazing
+      Beacon}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells.BP3GCwa66IAw1yTG]{Daylight}</td></tr><tr><td>13</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.kAdgqzFDRQ3avk61]{Brilliant
+      Blade}</td></tr><tr><td>17</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.3Qocq042q6vRxCTB]{Heavenly
+      Ray}</td></tr></tbody></table>
+    chat: ''
+    unidentified: ''
+  source: Sunwatcher
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.uBND573Ph6Us1UAM
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681242936958
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 49500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: dssBA6DHWsAEu674
+_key: '!items!dssBA6DHWsAEu674'
+

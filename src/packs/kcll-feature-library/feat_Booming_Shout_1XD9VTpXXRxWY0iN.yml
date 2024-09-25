@@ -1,0 +1,99 @@
+name: Booming Shout
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.wmd7U8LuTk7D9fY6
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, when you unleash your Warcry you can attempt to
+      frighten enemies. Any number of creatures of your choice within range of
+      your Warcry must make a Wisdom saving throw (DC of 8 + Charisma modifier +
+      your proficiency bonus) or become frightened of you until the end of their
+      turn. Once you have used Booming Shout, you cannot use it again until you
+      complete a short or long rest.</p>
+
+      <p>Additionally, the range of your Rallying Mark, Urgent Orders, Helpful
+      Word, and Warcry is doubled.</p>
+    chat: ''
+    unidentified: ''
+  source: Chieftain
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Chieftain 15
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742523359
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 7000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 1XD9VTpXXRxWY0iN
+_key: '!items!1XD9VTpXXRxWY0iN'
+

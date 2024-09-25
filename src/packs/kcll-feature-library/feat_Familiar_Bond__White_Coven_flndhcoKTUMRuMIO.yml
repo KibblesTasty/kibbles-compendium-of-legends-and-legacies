@@ -1,0 +1,111 @@
+name: 'Familiar Bond: White Coven'
+type: feat
+img: icons/creatures/birds/dove-pigeon-flying-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.l40YqRo0zfs1YViE
+system:
+  description:
+    value: >-
+      <p>When you complete a long rest, your familiar gains temporary hit points
+      equal to your Wisdom modifier + your twice Occultist level. While it has
+      one or more temporary hit points, as its action, or as a reaction to a
+      creature within 30 feet of it taking damage, it can teleport to allied
+      targets giving that target some of its temporary hit points (minimum
+      one).</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: 6
+    max: '6'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 6
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '6'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742232506
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 52100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: flndhcoKTUMRuMIO
+_key: '!items!flndhcoKTUMRuMIO'
+

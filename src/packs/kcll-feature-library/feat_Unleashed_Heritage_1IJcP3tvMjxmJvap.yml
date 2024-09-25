@@ -1,0 +1,126 @@
+name: Unleashed Heritage
+type: feat
+img: icons/creatures/unholy/demon-fire-horned-winged-roar.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.eZzd1cHKx10lDWw2
+system:
+  description:
+    value: "<h4 id=\"sorcerer-origin-fiend-bloodline-variant-origin-spells-unleashed-heritage\">Unleashed Heritage</h4>\n<p>Starting at 18th level, when you gain a feature through Embraced Heritage, you can expend an additional sorcery point to ascend that aspect. It lasts for 1 minute per sorcery point instead, and gains an additional effect:</p>\n<ul>\n<li><strong>Blood of the Fiend.\_</strong>You additionally are immune to spells of 2nd level or below.</li>\n<li><strong>Eyes of the Fiend.\_</strong>You additionally gain truesight of 120 feet.</li>\n<li><strong>Skin of the Fiend.</strong>\_You gain resistance to poison, fire, lightning, and cold damage.</li>\n</ul>"
+    chat: ''
+    unidentified: ''
+  source: Fiend Origin
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fiend Origin 18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741870499
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 6700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 1IJcP3tvMjxmJvap
+_key: '!items!1IJcP3tvMjxmJvap'
+

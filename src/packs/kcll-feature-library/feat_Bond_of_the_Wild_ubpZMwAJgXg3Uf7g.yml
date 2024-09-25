@@ -1,0 +1,94 @@
+name: Bond of the Wild
+type: feat
+img: icons/magic/nature/wolf-paw-glow-large-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VNPDBTpsw5qSP1FD
+system:
+  description:
+    value: >-
+      <p>You gain proficiency in Animal Handling. If you already have
+      proficiency in Animal Handling, you gain expertise in the Animal Handling
+      skill, allowing you to add twice your proficiency bonus to checks made
+      with it.</p>
+    chat: ''
+    unidentified: ''
+  source: Beasthide
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Beasthide 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742709551
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 68400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: ubpZMwAJgXg3Uf7g
+_key: '!items!ubpZMwAJgXg3Uf7g'
+

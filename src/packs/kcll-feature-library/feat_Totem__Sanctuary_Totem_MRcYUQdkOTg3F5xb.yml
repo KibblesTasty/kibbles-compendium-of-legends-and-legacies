@@ -1,0 +1,90 @@
+folder: null
+name: 'Totem: Sanctuary Totem'
+type: feat
+img: icons/magic/symbols/mask-yellow-orange.webp
+system:
+  description:
+    value: >-
+      <p style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Sanctuary Totem.</strong>
+      All creatures of your choice within 10 feet of the totem are under the
+      effect of sanctuary. This effect is broken under the normal conditions of
+      sanctuary and cannot be regained from a totem for 1 minute once
+      lost.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Spiritualist
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: 15
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Spiritualist 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693770766636
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: MRcYUQdkOTg3F5xb
+sort: 2500000
+_key: '!items!MRcYUQdkOTg3F5xb'
+

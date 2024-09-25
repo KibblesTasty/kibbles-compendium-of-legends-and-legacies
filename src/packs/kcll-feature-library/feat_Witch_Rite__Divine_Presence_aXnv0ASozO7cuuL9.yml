@@ -1,0 +1,93 @@
+name: 'Witch Rite: Divine Presence'
+type: feat
+img: icons/magic/holy/angel-wings-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Q4n5rTNTo6j1gKP5
+system:
+  description:
+    value: >-
+      <p>Your familiar is always under the effect of Sanctuary. If it deals
+      damage (such as channeling one of your spells), the effect is suppressed
+      until the start of its next turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch White 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742443877
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 45500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: aXnv0ASozO7cuuL9
+_key: '!items!aXnv0ASozO7cuuL9'
+

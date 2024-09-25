@@ -1,0 +1,104 @@
+name: Martial Advantage
+type: feat
+img: icons/skills/melee/strike-sword-dagger-runes-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.ZRs5xivkmdFgVkwJ
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, you've learned to leverage fighting alongside
+      an ally. Once per turn, you can deal an extra 2d6 damage to a creature you
+      hit with a weapon attack if that creature is within 5 feet of an ally that
+      isn't incapacitated.</p>
+    chat: ''
+    unidentified: ''
+  source: Commander
+  activation:
+    type: none
+    cost: 0
+    condition: Once per turn against a creature within 5 feet of an ally.
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Commander 11
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742598050
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 58700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: lkoPgcRxYae3B8eC
+_key: '!items!lkoPgcRxYae3B8eC'
+

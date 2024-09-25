@@ -1,0 +1,103 @@
+name: Ranged Spellstrike
+type: feat
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.rl4IoLczBUjX6vT2
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level when you select this archetype, you gain the
+      ability to apply your Spellstrike to pieces of ammunition ammunition as
+      well as melee weapons, and can trigger the spell strike on a ranged weapon
+      attack made with the infused piece of ammunition.</p><p>Spells infused
+      into a ranged weapon target the target of the ranged weapon when fired,
+      but only have a range equal to the range of the spell or the normal range
+      of the weapon (whichever is shorter range). If you attack a target beyond
+      that range, the spell fails and is lost.</p>
+    chat: ''
+    unidentified: ''
+  source: Arcane Archer
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Arcane Archer 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678743015437
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 10200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 4VCPomDn5eCafTpN
+_key: '!items!4VCPomDn5eCafTpN'
+

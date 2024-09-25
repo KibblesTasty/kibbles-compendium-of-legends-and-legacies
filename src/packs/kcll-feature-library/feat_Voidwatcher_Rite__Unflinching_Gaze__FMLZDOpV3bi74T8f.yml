@@ -1,0 +1,83 @@
+folder: null
+name: 'Voidwatcher Rite: Unflinching Gaze.'
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+system:
+  description:
+    value: >-
+      <p>You no longer need to make a Wisdom save when you use Void Gaze to
+      avoid becoming blind.</p>
+    chat: ''
+    unidentified: ''
+  source: Voidwatcher
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Voidwatcher
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693767647261
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: FMLZDOpV3bi74T8f
+sort: 4400000
+_key: '!items!FMLZDOpV3bi74T8f'
+

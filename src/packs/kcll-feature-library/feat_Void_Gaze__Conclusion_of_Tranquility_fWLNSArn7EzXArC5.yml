@@ -1,0 +1,94 @@
+folder: null
+name: 'Void Gaze: Conclusion of Tranquility'
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  description:
+    value: >-
+      <p><strong>Conclusion of Tranquility.</strong> The target gains [[/r 1d8]]
+      temporary hit points.</p>
+    chat: ''
+    unidentified: ''
+  source: Voidwatcher
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Voidwatcher 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickOther:
+      context: ''
+    quickAttack:
+      value: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693766664196
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: fWLNSArn7EzXArC5
+sort: 3800000
+_key: '!items!fWLNSArn7EzXArC5'
+

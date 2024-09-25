@@ -1,0 +1,96 @@
+name: Adventurer's Intuition
+type: feat
+img: icons/skills/social/thumbsup-approval-like.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.qWu2S8Vf52Htyvnv
+system:
+  description:
+    value: >-
+      <p>Starting at 18, you have survived so many dangerous situations and seen
+      every trick in the book. At key moments, your intuition checks in. When
+      you make an attack roll, saving throw, or ability check, you can replace
+      the roll with your Fighter level. You can use this after you roll, but
+      before you know the outcome. Once you do this, you cannot do so again
+      until you complete a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Adventurer
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Adventurer  18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741996363
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 16700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 9ck7pWsgHXYfXjXa
+_key: '!items!9ck7pWsgHXYfXjXa'
+

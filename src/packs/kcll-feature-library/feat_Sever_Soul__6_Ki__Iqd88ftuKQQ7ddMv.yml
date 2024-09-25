@@ -1,0 +1,111 @@
+name: Sever Soul (6 Ki)
+type: feat
+img: icons/skills/melee/strike-blade-hooked-blue-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickSave:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.M9rarQMzqrJNqByt
+system:
+  description:
+    value: >-
+      <p><em>(17th level required)</em></p>
+
+      <p>When you strike a creature, you can attempt to sever its soul. The
+      target must make a Constitution saving throw. On failure, they take
+      necrotic damage equal to 6 rolls of your Martial Die. If this damage
+      reduces them to 0 hit points, they die. Otherwise, they gain a level of
+      exhaustion. On pass, they take half as much damage, and suffer none of the
+      other effects.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 6@scale.monk.die
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: wis
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 17
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742062668
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 26700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Iqd88ftuKQQ7ddMv
+_key: '!items!Iqd88ftuKQQ7ddMv'
+

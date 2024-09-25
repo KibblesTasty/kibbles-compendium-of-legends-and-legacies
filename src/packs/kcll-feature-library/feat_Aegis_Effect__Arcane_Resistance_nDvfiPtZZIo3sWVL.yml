@@ -1,0 +1,84 @@
+name: 'Aegis Effect: Arcane Resistance'
+type: feat
+img: icons/magic/defensive/armor-shield-barrier-steel.webp
+system:
+  description:
+    value: >-
+      <p>You gain resistance to acid, cold, fire, lightning, poison, or thunder
+      damage during the effect.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 13
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.pq7WVlddej8oTS8W
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667600537671
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 60400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: nDvfiPtZZIo3sWVL
+_key: '!items!nDvfiPtZZIo3sWVL'
+

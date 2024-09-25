@@ -1,0 +1,84 @@
+name: 'Aegis Effect: Weapon Focus'
+type: feat
+img: icons/skills/melee/sword-engraved-glow-purple.webp
+system:
+  description:
+    value: >-
+      <p>You turn your weapon into an arcane focus for your Spellblade
+      spells.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.fVxwPHkTH0TjdSm0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667600311765
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 14900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 8YfLLZcNlrnhXTZr
+_key: '!items!8YfLLZcNlrnhXTZr'
+

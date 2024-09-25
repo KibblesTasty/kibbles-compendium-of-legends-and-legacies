@@ -1,0 +1,111 @@
+name: Relieve Suffering
+type: feat
+img: icons/magic/life/cross-beam-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.OY1ADXZmzkBNLwqW
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when you cast a spell of 1st level or higher
+      that restores hit points, you can expend some of your own hit points to
+      increase the amount healed, expending a number of hit points up to your
+      Cleric level.</p>
+
+      <p>Additionally, you can touch a creature suffering a disease or the
+      blinded, deafened, paralyzed or poisoned condition and transfer that
+      disease or condition to yourself. Starting at 9th level, the range of
+      conditions you can take increases, including exhaustion (1 level at a
+      time), petrified, stunned, the effect of a curse, or any reduction to
+      their ability scores. You are afflicted by the effect in the same manner
+      the creature you took it was, for the same duration and possible methods
+      of ending the effect.</p>
+
+      <p>You can do this a number of times equal to your Wisdom modifier,
+      regaining all uses on a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Martyr
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 3
+    max: '3'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Martyr 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742016645
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 32900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Oi6PMJLS82e4ydXY
+_key: '!items!Oi6PMJLS82e4ydXY'
+

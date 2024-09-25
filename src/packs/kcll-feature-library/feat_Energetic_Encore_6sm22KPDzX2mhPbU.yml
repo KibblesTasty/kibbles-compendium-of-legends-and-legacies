@@ -1,0 +1,91 @@
+name: Energetic Encore
+type: feat
+img: icons/skills/social/diplomacy-unity-alliance.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, you can build off the success of others and
+      encourage them to greater heights. When another creature scores a critical
+      strike while within 30 feet of you, you can use your reaction to make a
+      single weapon attack against the same target. When you deal a critical
+      strike or a creature fails a saving throw against one of your spells by 5
+      or more, you can use your reaction to take the Help action to encourage an
+      ally to follow up on success.</p><p>You can expend a use of Bardic
+      Inspiration to take one of these reactions even when the attack was not a
+      critical hit.</p>
+    chat: ''
+    unidentified: ''
+  source: College of Fools
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: College of Fools 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.YRm0r7DcDGgA6DBG
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681848361539
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 12700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 6sm22KPDzX2mhPbU
+_key: '!items!6sm22KPDzX2mhPbU'
+

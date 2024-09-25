@@ -1,0 +1,104 @@
+name: Agile Parry (1 Ki)
+type: feat
+img: icons/skills/melee/swords-parry-block-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: AC Boost
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': Damage Blocked
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.2HkJeHyUgDwPLhGJ
+system:
+  description:
+    value: >-
+      <p>As a reaction to being attacked, you can attempt to parry the attack,
+      rolling your Martial Arts die and increasing your AC by the value rolled
+      against the attack. If you the attack still hits, you reduce the damage
+      taken by the value rolled + your proficiency bonus.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: dex
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1@scale.monk.die + @mod
+        - healing
+    versatile: ''
+  formula: 1@scale.monk.die
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742048434
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 40400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: VVkcLcyitoAFDAte
+_key: '!items!VVkcLcyitoAFDAte'
+

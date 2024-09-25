@@ -1,0 +1,138 @@
+name: Seismic Backlash
+type: feat
+img: icons/magic/earth/explosion-lava-stone-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.iSBy7aUjL5oT1Z2D
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickSave:
+      value: true
+    quickTemplate:
+      value: true
+    consumeUses:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, each time you roll an Endurance die, you store a
+      d12 in a special pool of charged power. As a bonus action on your turn,
+      you can unleash all of this stored power in an explosive tremor, rolling
+      all the stored dice.</p>
+
+      <p>All creatures of your choice within your Primal Interdiction must make
+      a Strength saving throw. On a failed save, they take damage equal to the
+      amount rolled and fall prone. On a successful save, they take half as much
+      damage and do not fall prone.</p>
+    chat: ''
+    unidentified: ''
+  source: Stoneblood
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '@prof'
+    per: charges
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 3
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@scale.warden.endurance-die'
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: str
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneblood 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742835449
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 10900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 5EHcnp5eRY0j6e5I
+_key: '!items!5EHcnp5eRY0j6e5I'
+

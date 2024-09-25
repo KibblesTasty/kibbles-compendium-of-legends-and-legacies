@@ -1,0 +1,94 @@
+name: Empowered Techniques
+type: feat
+img: icons/weapons/swords/sword-flanged-lightning.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Uj06rg1vELEYE4gq
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, at the start of your turn, you gain 1 free ki
+      point you can spend on a Mystic Technique before the start of your next
+      turn. If it is not spent before the start of your next turn, it is
+      lost.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 11
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742055631
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 15100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 8dUBUyz6FNBuKUmQ
+_key: '!items!8dUBUyz6FNBuKUmQ'
+

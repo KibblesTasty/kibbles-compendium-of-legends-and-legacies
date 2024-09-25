@@ -1,0 +1,102 @@
+name: Primeval Guardian
+type: feat
+img: icons/magic/nature/tree-animated-strike.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.jC8bTk9O19TWGfFy
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, as a bonus action you can take root, merging
+      with the ground into wrathful treant. While rooted, your movement speed is
+      reduced to zero. When you do so, you can choose to grow one size larger
+      (up to a maximum of Large), your reach increases by 5 feet, you are immune
+      to effects that would move you, the prone condition, and have advantage on
+      Strength ability checks and saving throws.</p>
+
+      <p>Creatures two sizes larger than you that you are grappling can no
+      longer drag you, meaning they cannot leave your reach without breaking the
+      grapple.</p>
+
+      <p>You can end your tree form at any time as an action.</p>
+    chat: ''
+    unidentified: ''
+  source: Elderheart
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elderheart 14
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742828159
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 65000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: qXnbv3WO2HotjWhI
+_key: '!items!qXnbv3WO2HotjWhI'
+

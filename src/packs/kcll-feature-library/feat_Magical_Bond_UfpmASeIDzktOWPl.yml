@@ -1,0 +1,88 @@
+name: Magical Bond
+type: feat
+img: icons/magic/nature/wolf-paw-glow-large-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, your Beast Companions count as magical for the
+      purpose of overcoming resistance and immunity to nonmagical attacks and
+      damage.</p><p>Additionally, whenever you expend a spell slot of 3rd level
+      or higher on your turn, you beast can take one additional action on its
+      turn. That action can be used only to take the Attack (one weapon attack
+      only), Dash, Disengage, or Hide.</p>
+    chat: ''
+    unidentified: ''
+  source: Circle of the Wild
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of the Wild 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.8ibfrlLnCUueNYU6
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665627723219
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 38900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: UfpmASeIDzktOWPl
+_key: '!items!UfpmASeIDzktOWPl'
+

@@ -1,0 +1,122 @@
+name: Endurance Die
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context: []
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.Gw0PedqeHJv5iws1
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Additionally at 2nd level, you gain access to three d8 endurance dice.
+      You have two ways to use these dice, though other features may grant
+      additional ways to use them:</p><ul><li><p>Once per turn, when you take
+      damage, you can roll an Endurance Die to reduce the damage taken by the
+      amount rolled (no action required).</p></li><li><p>When you make a saving
+      throw, you can roll an Endurance Die and add it to the saving throw (no
+      action required). You can do this after you roll the save, but before you
+      know the outcome of the save.</p></li></ul><p>You gain another die at 5th
+      level (4 dice), 9th level (5 dice), 13th level (6 dice), and 17th level (7
+      dice). The size of the dice increase at 5th (to d10) and 11th level to
+      (d12). You regain all expended endurance dice when you complete a short or
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: none
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 3
+    max: '@prof + 1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: con
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 2
+  recharge:
+    value: null
+    charged: false
+  attunement: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742729321
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 30100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: M9Hd7FvIRs06IDmg
+_key: '!items!M9Hd7FvIRs06IDmg'
+

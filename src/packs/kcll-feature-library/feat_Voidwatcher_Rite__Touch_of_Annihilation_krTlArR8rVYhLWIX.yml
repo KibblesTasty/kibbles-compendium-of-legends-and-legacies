@@ -1,0 +1,86 @@
+folder: null
+name: 'Voidwatcher Rite: Touch of Annihilation'
+type: feat
+img: icons/magic/acid/dissolve-bone-white.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Conclusion of Annihilation)</em></p><p>Your
+      Occultist spells that force the target to make a saving throw gain the
+      ability to critical strike when the creature making the save rolls a 1.
+      When the spell critical strikes, additional dice equal to half the spell's
+      damage dice (rounded up) are added to the damage roll.</p>
+    chat: ''
+    unidentified: ''
+  source: Voidwatcher
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693767631979
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: krTlArR8rVYhLWIX
+sort: 4200000
+_key: '!items!krTlArR8rVYhLWIX'
+

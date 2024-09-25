@@ -1,0 +1,98 @@
+name: Urgent Orders
+type: feat
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.bDt7wyJY7RrKUUJ2
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can expend a number of Leadership Dice (up to
+      your per turn limit) to guide your allies in expeditious action.</p>
+
+      <p>Target an allied creature within 60 feet of you that can see or hear
+      you, that creature can immediately use its reaction to move up to its
+      movement speed (up to a maximum of 30 feet) without provoking opportunity
+      attacks. Roll the leadership dice expended, the target gains temporary hit
+      points equal to the value rolled.</p>
+    chat: ''
+    unidentified: ''
+  source: Warlord
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742658266
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 53400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: gdbkqOTXMXEB6MR4
+_key: '!items!gdbkqOTXMXEB6MR4'
+

@@ -1,0 +1,98 @@
+name: Battlefield Presence
+type: feat
+img: icons/skills/melee/hand-grip-sword-white-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.afgZua1eX8fkmbaY
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when you take the Attack action, in place of
+      making an attack, you can use your Battlefield Presence to grant a
+      friendly creature that can see or hear you an additional attack the next
+      time they take the Attack action during their turn.</p>
+
+      <p>Any additional attacks granted that are unused at the start of your
+      next turn are lost. A friendly creature can only gain one additional
+      attack from this feature per round from this feature.</p>
+    chat: ''
+    unidentified: ''
+  source: Warlord
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: spec
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742520134
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 18600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: BNMczVE8rGcKsg5L
+_key: '!items!BNMczVE8rGcKsg5L'
+

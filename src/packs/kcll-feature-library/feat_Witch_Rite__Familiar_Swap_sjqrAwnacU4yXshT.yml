@@ -1,0 +1,94 @@
+name: 'Witch Rite: Familiar Swap'
+type: feat
+img: icons/creatures/birds/corvid-flying-wings-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1ArQ5sQNZAZ8Fc3o
+system:
+  description:
+    value: >-
+      <p>If your familiar is within 60 feet of you, as an action, you can swap
+      places with your familiar. If you cannot fit into the space where your
+      familiar is, the ability fails and you take 1d6 force damage. Once you do
+      this, you cannot do so again until you complete a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742446013
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 66300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: sjqrAwnacU4yXshT
+_key: '!items!sjqrAwnacU4yXshT'
+

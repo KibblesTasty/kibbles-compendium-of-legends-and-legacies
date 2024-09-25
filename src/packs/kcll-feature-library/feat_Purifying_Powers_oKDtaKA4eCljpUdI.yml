@@ -1,0 +1,93 @@
+name: Purifying Powers
+type: feat
+img: icons/magic/light/orbs-hand-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.edEUl5AZ7O8pq2L5
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, your powers shield from the foul magics of
+      heretics. When you are concentrating on a cleric spell, you have
+      advantages on saving throws against spells.</p>
+    chat: ''
+    unidentified: ''
+  source: Crusader
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Crusader 15
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741901577
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 62500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: oKDtaKA4eCljpUdI
+_key: '!items!oKDtaKA4eCljpUdI'
+

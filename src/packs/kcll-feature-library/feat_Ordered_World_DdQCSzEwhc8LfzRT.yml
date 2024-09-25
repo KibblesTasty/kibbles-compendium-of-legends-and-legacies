@@ -1,0 +1,89 @@
+name: Ordered World
+type: feat
+img: icons/magic/light/explosion-glow-spiral-yellow.webp
+system:
+  description:
+    value: >-
+      <p>At 20th level, as an action, you can bring ordered tranquility to the
+      world around you for 1 minute. Your Aura of Serenity doubles in size, and
+      you can use Rebuke without expending your reaction a number of times equal
+      to your Charisma modifier without spending your reaction, regaining all
+      uses at the start of your next turn.</p><p>For the duration, all creatures
+      of your choice have advantage on saving throws against the charmed
+      condition, the frightened condition, or the effects of spells.</p>
+    chat: ''
+    unidentified: ''
+  source: Oath of Silence
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oath of Silence 20
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.qKxcDvLeB9VeTBQB
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665628023263
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 21400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: DdQCSzEwhc8LfzRT
+_key: '!items!DdQCSzEwhc8LfzRT'
+

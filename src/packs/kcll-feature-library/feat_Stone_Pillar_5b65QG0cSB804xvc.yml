@@ -1,0 +1,106 @@
+name: Stone Pillar
+type: feat
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PuM26OPtg8gcN1sy
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">When you manifest the
+      power, a stone eruption fills an unoccupied space within 5 feet of the
+      point, rising up to 10 feet and blocking the space. It has an AC of 16 and
+      hit points equal to your Wisdom modifier + your Druid level. The pillar is
+      three quarters cover for creatures behind it. It becomes difficult terrain
+      when destroyed.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Circle of Elements
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Elements 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741944602
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 11000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 5b65QG0cSB804xvc
+_key: '!items!5b65QG0cSB804xvc'
+

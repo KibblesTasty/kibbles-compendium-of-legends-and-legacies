@@ -1,0 +1,98 @@
+name: 'Rite: Alchemical Rites'
+type: feat
+img: icons/tools/laboratory/mortar-powder-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.YO3x6Lk6LtADE0ie
+system:
+  description:
+    value: >-
+      <p>You gain proficiency with alchemy tools. During a long rest, you can
+      use them to concoct an improvised potion of healing spending 1 hour of the
+      long rest to tend to it's simmering. Due to its improvised nature, it
+      expires in 24 hours, and has no value in gold pieces.</p>
+
+      <p>During this process, you can expend a 5th level spell to make it a
+      greater healing potion. The expended spell slot is regained when the long
+      rest is completed as normal.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742353976
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 33200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: OluAMtboTUgeRuTJ
+_key: '!items!OluAMtboTUgeRuTJ'
+

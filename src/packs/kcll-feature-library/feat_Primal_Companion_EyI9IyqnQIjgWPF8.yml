@@ -1,0 +1,117 @@
+name: Primal Companion
+type: feat
+img: icons/creatures/abilities/cougar-roar-rush-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level when you join this circle, you form a bond with a
+      beast spirit and can allow it to take form by expending a use of your
+      Wildshape. Its statblock becomes that of your Beast Companion, applying
+      the modifications from the customization table that best fit the form it
+      takes. At the GM's discretion, custom abilities can replace those powers
+      to better represent the beast companion. Once selected, the traits cannot
+      be changed, as the beasts spirit takes on that form permanently.</p><p>The
+      beast's soul becomes entangled with your own, granting you the ability to
+      call it forth from wherever it is, and even return it to life should it
+      ever fall, by expending a use of your Wildshape ability. You can expend a
+      use of Wildshape to call it to an empty space within 10 feet of you, where
+      it appears at full hit points, and free of any conditions or spells that
+      were affecting it. You can cause it to return to its spirit form as a
+      bonus action, but must expend a use of Wildshape to call it forth once
+      more after doing so.</p><p>In combat, the Beast Companion shares your
+      initiative count, but it takes its turn immediately after yours. The only
+      action it takes on its turn is the Dodge action, unless you take a bonus
+      action on your turn to command it to take another action. You can command
+      your Beast Companion as part of the same bonus action used to summon it.
+      That action can be the one in its stat block or some other action. If you
+      are incapacitated, the Beast Spirit can take an take any action of its
+      choice, not just Dodge.</p><p>When you manifest the beast, it lasts until
+      you complete a long rest (unless you expend a use of Wildshape to keep it
+      manifested), it is reduced to zero hit points, or you die, at which point
+      it vanishes, fading away until you expend a use of Wildshape to call it
+      forth again.</p><blockquote><h3>Spirit Animal</h3><p>At your GM's
+      discretion, you can form a bond with a normal willing animal, its
+      statblock getting replaced with the Beast Companion statblock, with
+      customizations selected to best represent its original stats. It gains all
+      the same properties as a Primal Companion, it's soul becoming entangled
+      with your own, and it becomes a spirit beast.</p><h3>Form
+      Permanency</h3><p>This rule is to prevent having to rebuild the stat block
+      and save time, as well as a balance consideration, but at the GM's
+      discretion they can allow it to be changed to a new permanent form if
+      there is a good reason.</p></blockquote>
+    chat: ''
+    unidentified: ''
+  source: Circle of the Wild
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of the Wild 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.Fd574FkdXbGdya5p
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665627662564
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 22500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: EyI9IyqnQIjgWPF8
+_key: '!items!EyI9IyqnQIjgWPF8'
+

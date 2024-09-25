@@ -1,0 +1,102 @@
+name: Overseer's Gaze
+type: feat
+img: icons/magic/perception/eye-winged-pink.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, as a bonus action, you can summon a spectral eye
+      that immediately fires on ray at a creature of your choice, rolling on the
+      Eye Ray Effect table below, after which the spectral eye fades
+      away.</p><table
+      border="1"><tbody><tr><td><strong>1d6</strong></td><td><strong>Effects</strong></td></tr><tr><td>1.
+      Fear Ray</td><td>The targeted creature must make a Wisdom saving throw or
+      become frightened of you until the start of your next
+      turn.</td></tr><tr><td>2. Telekinetic Ray</td><td>The target creature must
+      make a Strength saving throw or be moved 10 feet in a direction of your
+      choice.</td></tr><tr><td>3. Slowing Ray</td><td>The targets movement speed
+      is halved until the start of your next turn.</td></tr><tr><td>4.
+      Petrification Ray</td><td>The target must succeed a Constitution saving
+      throw or be affected by the slow spell until the start of your next
+      turn.</td></tr><tr><td>5. Enervation Ray</td><td>The target must succeed a
+      Constitution saving throw or take 1d8 + your Charisma modifier necrotic
+      damage.</td></tr><tr><td>6. Disintegration Ray</td><td>The target must
+      succeed a Constitution saving throw or take 1d10 + your Charisma modifier
+      force damage.</td></tr></tbody></table><p>You can do this a number of
+      times equal to your Proficiency bonus, regaining all uses on a long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.K7sPLQyHF9HEheid
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665616689383
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 64600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: qIBYC7yXp3qEQrAt
+_key: '!items!qIBYC7yXp3qEQrAt'
+

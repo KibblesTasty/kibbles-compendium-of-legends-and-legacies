@@ -1,0 +1,106 @@
+name: Spiked Interdiction
+type: feat
+img: icons/magic/nature/vines-throned-entwined-glow-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.aaO3eDUmiUUMcSds
+system:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, the difficult terrain caused by your Primal
+      Interdiction becomes overgrown with spiky thorns. Creatures of your choice
+      take [[/r 1d4]] piercing damage for each 5 feet they move within your
+      Primal Interdiction.</p>
+
+      <p>This damage increases to [[/r 2d4]] piercing damage at 11th level.</p>
+    chat: ''
+    unidentified: ''
+  source: Elderheart
+  activation:
+    type: none
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elderheart 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742836590
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 11400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 5pcWzy6a8ZW6q7uz
+_key: '!items!5pcWzy6a8ZW6q7uz'
+

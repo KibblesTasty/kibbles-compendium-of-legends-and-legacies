@@ -1,0 +1,101 @@
+name: Arcane Warrior
+type: feat
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.fNJi2NiAQNkeo6pt
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level when you select this archetype, whenever you
+      finish a long rest, you can touch one weapon that you are proficient with
+      and that lacks the two-handed property. When you attack with that weapon,
+      you can use your Intelligence modifier, instead of Strength or Dexterity,
+      for the attack and damage rolls. This benefit lasts until you finish a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Battlemage
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Battlemage 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742990282
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 21200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: DXwPoLADCuB4C8J9
+_key: '!items!DXwPoLADCuB4C8J9'
+

@@ -1,0 +1,95 @@
+name: Mystery of Light
+type: feat
+img: icons/magic/light/explosion-star-glow-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.8K49RbQd3iu9oiRa
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: "<p>Your understanding of the nature of fire unlocks its secrets for you. You learn the following spells at the following levels.</p><table style=\"width:100%\" border=\"1\"><tbody><tr><td style=\"text-align:center;width:26.428%\"><strong>Occultist Level</strong></td><td style=\"text-align:center;width:73.572%\"><strong>Spells Learned</strong></td></tr><tr><td style=\"text-align:center;width:26.428%\">1st</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.LWTUqKkUQdMAmOe0]{Color Spray}</td></tr><tr><td style=\"text-align:center;width:26.428%\">3rd</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.bV3yun6MIuFj71Er]{Moonbeam}</td></tr><tr><td style=\"text-align:center;width:26.428%\">5th</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.BP3GCwa66IAw1yTG]{Daylight}</td></tr><tr><td style=\"text-align:center;width:26.428%\">7th</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.tEpDmYZNGc9f5OhJ]{Greater Invisibility}</td></tr><tr><td style=\"text-align:center;width:26.428%\">9th</td><td style=\"text-align:center;width:73.572%\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.eIhG97IA5t3W4H4p]{Field of Stars}</td></tr></tbody></table>"
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742269991
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 33100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: OjnlRbpBtxjWfb8j
+_key: '!items!OjnlRbpBtxjWfb8j'
+

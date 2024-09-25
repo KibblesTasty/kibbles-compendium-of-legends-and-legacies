@@ -1,0 +1,94 @@
+name: Tyrant of the Skies
+type: feat
+img: icons/creatures/abilities/wing-batlike-purple-blue.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">By 14th level, when you
+      enter a rage, you can massive dragon wings sprout from your back. If you
+      are not wearing heavy armor, you gain a flying speed equal to your
+      movement speed.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">If you choose to manifest natural
+      weapons and wings when you enter a rage, you can choose entirely take on a
+      draconic form while raging, becoming Large sized. When you take on a full
+      draconic form, you choose whether your equipment falls to the ground in
+      your space, merges into your new form, or is worn by it.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Path of the Dragon
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of the Dragon 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.7CCJSFeRibHJL4bj
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681846992417
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 29000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: LQCuCwlwn7mwZDpP
+_key: '!items!LQCuCwlwn7mwZDpP'
+

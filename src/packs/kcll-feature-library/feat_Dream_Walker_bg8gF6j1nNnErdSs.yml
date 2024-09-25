@@ -1,0 +1,103 @@
+name: Dream Walker
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, you can physically enter dreams to travel, gain
+      information, or influence them. When you fall asleep or as an action while
+      awake, you can enter the ethereal realm of dreams for up to an hour. You
+      can exit the realm of dreams as a bonus action. You can only exit the
+      realm of dreams within 120 feet of where you entered, or within 5 feet of
+      a sleeping creature. While in the realm of dreams, you can do any of the
+      following:</p><ul><li><p>Teleport to a location you've been to before or a
+      person you are familiar with (though you can only exit the dream realm
+      there if there is a sleeping person to use as a
+      conduit).</p></li><li><p>Cast the dream spell once without expending a
+      spell slot, after which you cannot do so again until next you enter the
+      dream realm.</p></li><li><p>Search for information from the dreams of
+      others, making a Wisdom (Insight) check with a DC based on the difficulty
+      of finding the information, or contested by a Deception check using
+      Intelligence, Wisdom, or Charisma by the target if you are trying to
+      acquire it from a specific target (their choice of which). If you fail a
+      check to acquire a piece of information, you cannot attempt to
+      again.</p></li></ul><p>You can enter the dream realm in this way once,
+      after which you must complete a long rest before doing so again.</p>
+    chat: ''
+    unidentified: ''
+  source: Dream Domain
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dream Domain 18
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.zvSuLbI9FfLIBWfH
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1683755285883
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 47200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: bg8gF6j1nNnErdSs
+_key: '!items!bg8gF6j1nNnErdSs'
+

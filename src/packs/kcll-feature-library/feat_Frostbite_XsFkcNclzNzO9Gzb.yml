@@ -1,0 +1,95 @@
+name: Frostbite
+type: feat
+img: icons/magic/water/snowflake-ice-blue.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 3rd level,
+      you gain a new option for your Arcane Surge</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">When you hit a creature with a
+      weapon attack, you can expend an Arcane Surge to remove any immunity or
+      resistance to cold damage they have and give the disadvantage on saving
+      throws against spells that deal cold damage (including the triggering
+      spell if used with Spellstrike on a spell that triggers a saving throw for
+      additional effects). These effects last until the end of your next
+      turn.</span></li></ul>
+    chat: ''
+    unidentified: ''
+  source: Iceblade
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Iceblade 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.v90WJWFtXcHClgoY
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1684703680282
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 43000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: XsFkcNclzNzO9Gzb
+_key: '!items!XsFkcNclzNzO9Gzb'
+

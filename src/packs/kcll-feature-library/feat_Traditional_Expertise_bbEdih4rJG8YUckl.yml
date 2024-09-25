@@ -1,0 +1,100 @@
+name: Traditional Expertise
+type: feat
+img: icons/sundries/documents/document-symbol-eye.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.iUDGLhBMSSyTx163
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, your passed down knowledge of tradition gives
+      you expertise in a skill of your tradition; choose one of your skill
+      proficiencies from Animal Handling, Arcana, Medicine, Nature, Survival.
+      Your Proficiency Bonus is doubled for any ability check you make that use
+      of the chosen Proficiency. If you have proficiency in none of the selected
+      skills, you can instead gain proficiency in one of your choices.</p>
+
+      <p>Additionally, when you make a Wisdom ability check, you can draw upon
+      your Tradition and expend a a spell slot of 1st level or higher to gain
+      advantage on the check.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 10
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742438765
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 46900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: bbEdih4rJG8YUckl
+_key: '!items!bbEdih4rJG8YUckl'
+

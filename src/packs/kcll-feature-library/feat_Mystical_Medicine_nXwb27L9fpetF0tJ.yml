@@ -1,0 +1,86 @@
+folder: null
+name: Mystical Medicine
+type: feat
+img: icons/magic/nature/beam-hand-leaves-green.webp
+system:
+  description:
+    value: >-
+      <p>At 1st level when you select this tradition, you gain proficiency in
+      the Medicine skill (Or another skill if you are already proficient), and
+      gain advantage on ability checks to determine the nature of magical
+      ailments, curses, hexes, bewitchments, or enchantments that affect a
+      creature.</p>
+    chat: ''
+    unidentified: ''
+  source: Spiritualist
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Spiritualist 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693769257839
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: nXwb27L9fpetF0tJ
+sort: 500000
+_key: '!items!nXwb27L9fpetF0tJ'
+

@@ -1,0 +1,97 @@
+folder: null
+name: 'Totem: Agonizing Totem'
+type: feat
+img: icons/magic/symbols/mask-yellow-orange.webp
+system:
+  description:
+    value: >-
+      <p><strong>Agonizing Totem.</strong> Any creature of your choice that
+      starts its turn within 10 feet of the totem or enters within 10 feet of it
+      for the first time on their turn takes 1d6 necrotic damage. Any creature
+      that damages the totem from within 10 feet of it takes 1d6 necrotic
+      damage.</p>
+    chat: ''
+    unidentified: ''
+  source: Spiritualist
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: 15
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Spiritualist 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    quickOther:
+      context: ''
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693770700228
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: 9kQqZa7H8ujnitX1
+sort: 2100000
+_key: '!items!9kQqZa7H8ujnitX1'
+

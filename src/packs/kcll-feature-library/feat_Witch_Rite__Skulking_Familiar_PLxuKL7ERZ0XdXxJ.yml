@@ -1,0 +1,92 @@
+name: 'Witch Rite: Skulking Familiar'
+type: feat
+img: icons/creatures/mammals/rodent-rat-diseaed-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.U9OdPF0wHDiNUsNy
+system:
+  description:
+    value: >-
+      <p>Any familiar summoned by you gains proficiency in the Stealth skill,
+      and its movement doesn't provoke opportunity attacks.</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742451173
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 33900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: PLxuKL7ERZ0XdXxJ
+_key: '!items!PLxuKL7ERZ0XdXxJ'
+

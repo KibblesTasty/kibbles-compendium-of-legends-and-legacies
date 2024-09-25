@@ -1,0 +1,146 @@
+name: Primal Claw (Offhand)
+type: weapon
+img: icons/creatures/claws/claw-bear-paw-swipe-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.gPUGzQpdAiCoCkuO
+system:
+  description:
+    value: >-
+      <p>A vicious set of claws extending from one of your hands. This becomes a
+      natural one handed melee weapon that deals [[/r 1d8]] slashing damage on
+      hit, and has the Light and Special properties.</p>
+
+      <p><strong>Special:</strong> This weapon counts as a free hand for the
+      purposes of grappling. When you succeed a grapple check with it, the
+      target takes [[/r 1d6]] slashing damage.</p>
+    chat: ''
+    unidentified: ''
+  source: Beasthide
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: true
+    lod: false
+    mgc: false
+    rch: false
+    rel: false
+    ret: false
+    sil: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+  proficient: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742814468
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 72600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: yRIu2zzd6gCiRDoQ
+_key: '!items!yRIu2zzd6gCiRDoQ'
+

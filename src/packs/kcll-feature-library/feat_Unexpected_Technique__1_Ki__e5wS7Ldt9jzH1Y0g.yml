@@ -1,0 +1,86 @@
+name: Unexpected Technique (1 Ki)
+type: feat
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  description:
+    value: >-
+      <p>When you make a grapple check, you can expend a ki point to add your
+      Martial Arts die to the roll. You can do this after the contested roll,
+      and it can potentially turn a failure into a success. On success, the
+      target takes damage equal to amount rolled on the added die.</p>
+    chat: ''
+    unidentified: ''
+  source: Way of the Outcast
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Outcast 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.o4n5aAQ3Q5kuIgAc
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667084149358
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 49700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: e5wS7Ldt9jzH1Y0g
+_key: '!items!e5wS7Ldt9jzH1Y0g'
+

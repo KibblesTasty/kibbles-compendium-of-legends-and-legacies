@@ -1,0 +1,97 @@
+name: Stand Defiant
+type: feat
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.6XBuuxqjEEu3bEFq
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, when you are reduced to zero hit points, you
+      instantly regain a number of hit points equal to your Charisma modifier
+      (minimum 1). Additionally, you can expend a number of Leadership Dice
+      equal to the number of friendly creatures within 60 feet of you, regaining
+      additional hit points equal to the value rolled this way. Once you use
+      this feature, you cannot use it again until you complete a short or long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Paragon
+  activation:
+    type: none
+    cost: 1
+    condition: You are reduced to 0 hit points.
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paragon 7
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742634849
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 55900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: inkN8cU1qWE0h7A7
+_key: '!items!inkN8cU1qWE0h7A7'
+

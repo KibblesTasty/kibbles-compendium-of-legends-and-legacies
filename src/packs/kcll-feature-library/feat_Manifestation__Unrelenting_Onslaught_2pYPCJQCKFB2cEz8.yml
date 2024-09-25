@@ -1,0 +1,92 @@
+name: 'Manifestation: Unrelenting Onslaught'
+type: feat
+img: icons/magic/lightning/strike-arrow-spear-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.9gYSzeqOxEO0O9Qu
+system:
+  description:
+    value: >-
+      <p>If you cast a spell as an action, you can make a single weapon attack
+      with a natural weapon as a bonus action.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742797298
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 8100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 2pYPCJQCKFB2cEz8
+_key: '!items!2pYPCJQCKFB2cEz8'
+

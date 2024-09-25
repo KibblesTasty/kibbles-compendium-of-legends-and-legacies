@@ -1,0 +1,105 @@
+name: Cantrip Mastery
+type: feat
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.HD9QNbDVnWM07YWC
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, you can cast an Occultist cantrip with a
+      casting time of one action as a bonus action. When you cast a cantrip in
+      this way, it is cast as if you are a 1st level caster.</p>
+
+      <blockquote>
+
+      <h3>Bonus Action Casting</h3>
+
+      <p>This does not remove the restrictions around bonus action spells,
+      meaning that when you do this, you cannot cast a leveled spell with your
+      action, but can cast 2 cantrips. This works particularly well with
+      non-scaling cantrips that do things beside damage, such as provide
+      defenses or utility.</p>
+
+      </blockquote>
+    chat: ''
+    unidentified: ''
+  source: Hedge Mage
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 14
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742211021
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 58000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: lIju5oCPirb7n3Dv
+_key: '!items!lIju5oCPirb7n3Dv'
+

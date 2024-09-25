@@ -1,0 +1,85 @@
+name: Kick 'em While They're Down (1 Ki)
+type: feat
+img: icons/skills/movement/feet-bladed-boots-fire.webp
+system:
+  description:
+    value: >-
+      <p>When you hit a target that is prone, restrained, or incapacitated, you
+      can expend a Ki point to deal additional damage equal to two rolls of your
+      Martial Arts die.</p>
+    chat: ''
+    unidentified: ''
+  source: Way of the Outcast
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Outcast 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.79mjbtnLzaUn67Y4
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667084134659
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 41100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: WN5duHdWit7BTDVx
+_key: '!items!WN5duHdWit7BTDVx'
+

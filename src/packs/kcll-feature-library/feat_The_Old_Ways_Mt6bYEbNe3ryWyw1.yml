@@ -1,0 +1,103 @@
+name: The Old Ways
+type: feat
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.65glnXt1Txv3Nq6Z
+system:
+  description:
+    value: >-
+      <p>At 20th level, your master of ritual and tradition is extensive and
+      unparalleled, you've unlocked ancient secrets and perfected techniques to
+      master rituals completely. Any Occultist spell you know of 3rd level or
+      lower becomes a ritual spell for you. When you cast a spell that is not
+      normally a ritual as a ritual, it requires additional consumed material
+      components worth 10 gold per level of the spell.</p>
+
+      <p>Additionally, your mastery of rituals allows you to work them more
+      quickly, and a spell only takes additional turns equal to the spells level
+      to cast (for example, casting a 3rd level spell as a ritual would take
+      four turns to cast, casting as your action or bonus action on the fourth
+      turn). Spells with a casting time of a reaction cannot be cast as a
+      ritual.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 20
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742411624
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 31300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Mt6bYEbNe3ryWyw1
+_key: '!items!Mt6bYEbNe3ryWyw1'
+

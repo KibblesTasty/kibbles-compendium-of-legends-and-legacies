@@ -1,0 +1,118 @@
+name: Phoenix Spark
+type: feat
+img: icons/magic/fire/elemental-fire-humanoid.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.4QwE2d19Vlajb3Xn
+system:
+  description:
+    value: >-
+      <p>When you choose this origin at 1st level, spark ignites within you. As
+      a bonus action, you can rekindle that spark which ignites, burning until
+      the start of your next turn. You regain 1d6 hit points, and gain the
+      following benefits while the spark is burning:</p><ul><li><p>You form
+      immaterial wings for fire, allowing you to use your Charisma modifier to
+      calculate jumping distance instead of your Strength modifier, and reducing
+      any fall damage you take by your Charisma ability score. If you reduce
+      fall damage to 0, you don't fall prone. These wings shed bright light for
+      10 feet and dim light for an additional 10 feet.</p></li><li><p>When you
+      roll to deal fire damage or restore hit points with a spell you cast, you
+      can add your Charisma modifier to the amount rolled.</p></li><li><p>You
+      have resistance to fire damage.</p></li></ul><p>You can use this feature a
+      number of times equal to your proficiency bonus, regaining all uses when
+      you complete a long rest. While you have no uses remaining, you can use a
+      Sorcery Point to activate this ability instead of a use of the
+      feature.</p>
+    chat: ''
+    unidentified: ''
+  source: Phoenix Spark
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 2
+    max: '@prof'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Phoenix Spark 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741846583
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 15300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 8mHP2nW9PLHqXMTQ
+_key: '!items!8mHP2nW9PLHqXMTQ'
+

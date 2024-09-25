@@ -1,0 +1,95 @@
+name: Perfect Strike
+type: feat
+img: icons/skills/melee/strike-sword-dagger-runes-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: Attack Roll Bonus
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.NZRLKRtNQzt0v9fP
+system:
+  description:
+    value: >-
+      <p><span style="color:#191813;font-size:12px">When you make a weapon
+      attack roll against a creature, you can expend one focus die to add it to
+      the roll. You can use this ability after making the attack roll, but
+      before any effects of the attack are applied.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Path of Instinct
+  activation:
+    type: none
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d8
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of Instinct 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741857455
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 51200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: f1pAWzDQixY0TkKE
+_key: '!items!f1pAWzDQixY0TkKE'
+

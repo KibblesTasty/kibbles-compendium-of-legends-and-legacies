@@ -1,0 +1,134 @@
+name: Instinctive Strike
+type: feat
+img: icons/magic/movement/trail-streak-impact-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.dBz5PcBH2TJaBJJQ
+system:
+  description:
+    value: >-
+      <h3 id="barbarian-path-path-of-instinct-instinctive-strike">Instinctive
+      Strike</h3>
+
+      <p>Starting at 14th level, when a creature ends their turn within range of
+      your blindsight, you can expend a focus die as a reaction to move toward
+      that creature (up to your movement speed). If you can reach the creature
+      after your movement, you can make one weapon attack against them as part
+      of this reaction. This movement does not trigger opportunity attacks.</p>
+    chat: ''
+    unidentified: ''
+  source: Path of Instinct
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of Instinct 14
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741860644
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 16800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 9fmnzmFGrJUAf92m
+_key: '!items!9fmnzmFGrJUAf92m'
+

@@ -1,0 +1,92 @@
+name: 'Aegis Effect: Shockwave'
+type: feat
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+system:
+  description:
+    value: >-
+      <p>Whenever you teleport using an arcane surge or 1st level or higher
+      spell during the effect, your Aegis sends out a shockwave. Creatures of
+      your choice within 5 feet of your destination must make a Strength saving
+      throw against your Spell Save DC or be knocked prone.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 7
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: 9th Level
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+  core:
+    sourceId: Item.N8VkBpCqwIVmpMLR
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667600071139
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 15600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 8zzjX93f41RB1SJd
+_key: '!items!8zzjX93f41RB1SJd'
+

@@ -1,0 +1,93 @@
+name: 'Rite: Markings of Protections'
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.2oVENNttjm54Vy0O
+system:
+  description:
+    value: >-
+      <p>You mark yourself with magical symbols and patterns, protecting you
+      from harm. You are under the effect of the
+      @Compendium[dnd5e.spells.CKZTpZlxj7hjjo2H]{Mage Armor} spell.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742372118
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 73900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: zcLOxdoYysATM484
+_key: '!items!zcLOxdoYysATM484'
+

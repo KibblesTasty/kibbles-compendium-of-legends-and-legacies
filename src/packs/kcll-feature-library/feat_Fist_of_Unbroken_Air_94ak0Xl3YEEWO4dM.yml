@@ -1,0 +1,97 @@
+name: Fist of Unbroken Air
+type: feat
+img: icons/magic/air/air-pressure-shield-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.W5SJGgIrXTSX1UES
+system:
+  description:
+    value: >-
+      <p>As an attack as part of the attack action, you can launch a blast of
+      compressed air at a creature within 30 feet. On hit, the target takes
+      damage equal to two rolls of your martial arts die + your Dexterity
+      modifier and must make a Strength saving throw or be knocked 10 feet away
+      from you. You can spend additional ki on this technique, increasing the
+      damage dealt by your martial arts die and the distance knocked back by 10
+      feet for each ki point spent.</p>
+    chat: ''
+    unidentified: ''
+  source: Way of the Four Elements
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Four Elements 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741798769
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 15700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 94ak0Xl3YEEWO4dM
+_key: '!items!94ak0Xl3YEEWO4dM'
+

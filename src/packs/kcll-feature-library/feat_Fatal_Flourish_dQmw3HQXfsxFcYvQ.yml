@@ -1,0 +1,86 @@
+name: Fatal Flourish
+type: feat
+img: icons/skills/ranged/dagger-thrown-jeweled-green.webp
+system:
+  description:
+    value: >-
+      <p>Additionally at 6th level, when you use your Action to make make an
+      ability check, cast vicious mockery, or make a weapon attack with a light
+      melee weapon, you can make a single weapon attack with a melee weapon or
+      dart as bonus action.</p>
+    chat: ''
+    unidentified: ''
+  source: College of Fools
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: College of Fools 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.Za68Qni3Hof0EJs7
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665616104163
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 49000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: dQmw3HQXfsxFcYvQ
+_key: '!items!dQmw3HQXfsxFcYvQ'
+

@@ -1,0 +1,114 @@
+name: Hardened Core
+type: feat
+img: icons/magic/nature/root-vine-sword-broken.webp
+effects:
+  - _id: 1bEaFvoKk0FGX57o
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '+1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    icon: icons/magic/nature/root-vine-sword-broken.webp
+    label: Hardened Core
+    origin: Item.nWqviQQIqbf6IE3F
+    transfer: true
+    flags: {}
+    tint: null
+    _key: '!items.effects!31esqQtUw6oVqkPb.1bEaFvoKk0FGX57o'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.nWqviQQIqbf6IE3F
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you gain a +1 bonus to Armor Class, and any
+      critical hit against you becomes a normal hit.</p>
+    chat: ''
+    unidentified: ''
+  source: Elderheart
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elderheart 7
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742748176
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 8200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 31esqQtUw6oVqkPb
+_key: '!items!31esqQtUw6oVqkPb'
+

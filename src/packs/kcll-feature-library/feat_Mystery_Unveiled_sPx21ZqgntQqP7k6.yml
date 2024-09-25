@@ -1,0 +1,120 @@
+name: Mystery Unveiled
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.n8sMTbyWvi9PHwhd
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Additionally at 1st level, the touch of the divine inside of you has
+      opened up new pathways of magic and understanding that most cannot
+      comprehend - a connection to magic. Select one of the following options:
+      Mystery of Life, Mystery of Fire, Mystery of Death, Mystery of Souls, or
+      Mystery of War.</p><p>Some oracles are burdened with too much power for
+      their mortal body. Optionally you can select to be one of these by
+      selecting the "Oracle's Curse" feature, gaining an additional divine boon
+      and curse.</p><p>You can select an additional Mystery at 5th (two
+      Mysteries) and again at 11th level (three
+      Mysteries).</p><p>@UUID[Compendium.world.kcll-feature-library.99TGBdHZ5TTwHVt7]{Mystery
+      of
+      Darkness}</p><p>@UUID[Compendium.world.kcll-feature-library.0dRhH7IIOCCcPfky]{Mystery
+      of
+      Death}</p><p>@UUID[Compendium.world.kcll-feature-library.JTj9jNfrDmRDPey3]{Mystery
+      of
+      Fire}</p><p>@UUID[Compendium.world.kcll-feature-library.9bUyT76YTKrGkmtu]{Mystery
+      of
+      Life}</p><p>@UUID[Compendium.world.kcll-feature-library.OjnlRbpBtxjWfb8j]{Mystery
+      of
+      Light}</p><p>@UUID[Compendium.world.kcll-feature-library.T5sXQaxhd0lcvEuB]{Mystery
+      of
+      Souls}</p><p>@UUID[Compendium.world.kcll-feature-library.3E7KkrQwbq1DCGOa]{Mystery
+      of
+      War}</p><p>@UUID[Compendium.world.kcll-feature-library.K6lxqUPlxCyQFoAe]{Mystery
+      of Blood}</p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742275815
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 66200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: sPx21ZqgntQqP7k6
+_key: '!items!sPx21ZqgntQqP7k6'
+

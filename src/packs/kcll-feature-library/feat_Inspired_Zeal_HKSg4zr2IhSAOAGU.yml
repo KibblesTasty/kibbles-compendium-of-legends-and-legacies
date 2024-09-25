@@ -1,0 +1,93 @@
+name: Inspired Zeal
+type: feat
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.jogUgDJFwXkerM2w
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, creatures within 30 feet of you are embolded
+      with zeal. Creatures of your choice within the radius deal an extra 1d4
+      radiant damage when they hit with weapon attacks.</p>
+    chat: ''
+    unidentified: ''
+  source: Noble
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 11
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742587851
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 25300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: HKSg4zr2IhSAOAGU
+_key: '!items!HKSg4zr2IhSAOAGU'
+

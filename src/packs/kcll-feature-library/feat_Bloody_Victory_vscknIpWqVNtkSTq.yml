@@ -1,0 +1,97 @@
+name: Bloody Victory
+type: feat
+img: icons/skills/melee/blade-tip-chipped-blood-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MPt0bazEVcBJ3Xt9
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, when you or an ally reduces a hostile creature
+      that has dealt damage to you to 0 hit points, you can unleash a Warcry as
+      a reaction. When you unleash your Warcry in this way, you do not expend
+      any Leadership Dice and you use a d12 in place of your Leadership Die.</p>
+
+      <p>You can use this reaction a number of times equal to your Charisma
+      modifier, regaining all uses on a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Chieftain
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Chieftain 18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742522440
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 70500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: vscknIpWqVNtkSTq
+_key: '!items!vscknIpWqVNtkSTq'
+

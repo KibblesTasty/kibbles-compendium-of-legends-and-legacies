@@ -1,0 +1,125 @@
+name: 'Oracle Rite: Revelation of Life'
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.9wbSL2YSsESVF3Dr
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Mystery of Life</em></p>
+
+      <p>Your powers are tied to the nature of life and its ever shifting
+      balance. When you cast a spell of 1st level or higher that restores hit
+      points or grants temporary hit points, you can heal a creature other than
+      yourself within 30 feet for a number of hit points equal to your Occultist
+      level. Your current hit points are reduced by half as many hit points as
+      you restore with this feature.</p>
+
+      <p>You can only use this ability on creatures that have vibrant life
+      pulsing within them, it does not work on undead, constructs, or creatures
+      at zero hit points. A spell can only trigger one revelation. If multiple
+      revelations apply, choose one.</p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classes.occultist.levels'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742339179
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 28100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: KmJwBiZ4pFW74ZYw
+_key: '!items!KmJwBiZ4pFW74ZYw'
+

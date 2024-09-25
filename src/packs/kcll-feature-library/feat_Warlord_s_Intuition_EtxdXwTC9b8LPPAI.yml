@@ -1,0 +1,99 @@
+name: Warlord's Intuition
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.8TCW0457cJi9IUhd
+system:
+  description:
+    value: >-
+      <p>Starting at 13th level, before rolling an ability check you are
+      proficient in, you can exercise this ability, choosing for the d20 to be
+      equal to your Warlord level rather than rolling. Once you do this, you
+      cannot do this until you complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Warlord
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 13
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742666264
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 22400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: EtxdXwTC9b8LPPAI
+_key: '!items!EtxdXwTC9b8LPPAI'
+

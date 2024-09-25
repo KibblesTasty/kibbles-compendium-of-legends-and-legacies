@@ -1,0 +1,99 @@
+name: Improvised Ritual
+type: feat
+img: icons/magic/symbols/runes-carved-stone-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.tIxvJe2AyDXwUAuc
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can cast a spell with the ritual tag without
+      knowing that spell. When you do so, it takes the additional time as if
+      casting it as a ritual, but still consumes a spell slot. You can improvise
+      spells of a level equal to one-third of your Occultist level (for example,
+      a 3rd level Occultist can improvise 1st level rituals).</p>
+
+      <p>Spells improvised this way can be from any spell list, but if it is not
+      on the Occultist list, you must have seen the spell been cast or otherwise
+      seen the spell in a written form.</p>
+    chat: ''
+    unidentified: ''
+  source: Hedge Mage
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742256934
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 50000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: eD8JQQRtYznqFDqG
+_key: '!items!eD8JQQRtYznqFDqG'
+

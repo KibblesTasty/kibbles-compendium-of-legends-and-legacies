@@ -1,0 +1,126 @@
+name: Warcry
+type: feat
+img: icons/creatures/abilities/mouth-teeth-human.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.hifvFWbqJHNpVIzo
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, as an action or in place of an attack as part of
+      the Attack action, you can expend a number of Leadership Dice (up to your
+      per turn limit) to inspire your allies with a mighty Warcry. You and
+      friendly creatures within 20 feet of you gain temporary hit points equal
+      to the Leadership Dice roll + your Charisma modifier (minimum 1). This can
+      affect a number of creatures up to your 1 + Charisma modifier (minimum
+      1).</p><p>You can make a single weapon attack as a bonus action after
+      unleashing a War Cry, but the attack roll has disadvantage unless made
+      with a weapon with light property.</p>
+    chat: ''
+    unidentified: ''
+  source: Chieftain
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: cha
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Chieftain 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742659725
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 18200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: B3EIp48ESvRjty1r
+_key: '!items!B3EIp48ESvRjty1r'
+

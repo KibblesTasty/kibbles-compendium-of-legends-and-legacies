@@ -1,0 +1,87 @@
+name: Boon of Fiendish Talent (2nd level)
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">You gain proficiency in
+      on skill or tool of your choice. If you were already proficient in that
+      skill or tool, you gain expertise (meaning you can add twice your
+      proficiency modifier to ability checks made with that skill or
+      tool).</span></p>
+    chat: ''
+    unidentified: ''
+  source: Cultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cultist 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.xFM6iznurygGnEMT
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1683759316507
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 70400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: vrc06T0qQl6CLLoW
+_key: '!items!vrc06T0qQl6CLLoW'
+

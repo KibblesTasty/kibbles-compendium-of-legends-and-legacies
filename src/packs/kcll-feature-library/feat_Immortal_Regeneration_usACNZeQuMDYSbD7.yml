@@ -1,0 +1,85 @@
+name: Immortal Regeneration
+type: feat
+img: icons/skills/wounds/blood-cells-vessel-red-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, your Second Wind feature restores an additional
+      1d10 hit points, and you can use your Second Wind feature while you are
+      Incapacitated and could otherwise not take actions.</p>
+    chat: ''
+    unidentified: ''
+  source: Green Knight
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Green Knight 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.wKXFvFwf8ugbccbu
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682997784146
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 69200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: usACNZeQuMDYSbD7
+_key: '!items!usACNZeQuMDYSbD7'
+

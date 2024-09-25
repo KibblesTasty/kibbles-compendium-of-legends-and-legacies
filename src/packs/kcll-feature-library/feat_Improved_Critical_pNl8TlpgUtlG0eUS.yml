@@ -1,0 +1,124 @@
+name: Improved Critical
+type: feat
+img: icons/skills/melee/blade-tip-chipped-blood-red.webp
+effects:
+  - label: Improved Critical
+    icon: icons/skills/melee/blade-tip-chipped-blood-red.webp
+    origin: Compendium.world.kcll-feature-library.pNl8TlpgUtlG0eUS
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: false
+    _id: E6HR0RkP0B1mZf98
+    changes:
+      - key: flags.dnd5e.weaponCriticalThreshold
+        mode: 5
+        value: '19'
+        priority: 50
+    tint: null
+    transfer: true
+    flags: {}
+    _key: '!items.effects!pNl8TlpgUtlG0eUS.E6HR0RkP0B1mZf98'
+flags:
+  core:
+    sourceId: Compendium.dnd5e.classfeatures.YgLQV1O849wE5TgM
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Beginning when you choose this archetype at 3rd level, your weapon
+      attacks score a critical hit on a roll of 19 or 20. This bonus increases
+      at 7th level (to scoring a critical hit on a roll of 18-20), and again at
+      15th level (to scoring a critical hit on a 17-20).</p>
+    chat: ''
+    unidentified: ''
+  source: PHB pg. 72
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Champion 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741760768
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 63300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: pNl8TlpgUtlG0eUS
+_key: '!items!pNl8TlpgUtlG0eUS'
+

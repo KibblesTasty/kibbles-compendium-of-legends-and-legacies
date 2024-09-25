@@ -1,0 +1,136 @@
+name: Chieftain's Presence
+type: subclass
+img: icons/weapons/axes/axe-battle-heavy-jagged.webp
+effects: []
+flags:
+  core:
+    sourceId: Item.QpB6U2OEBRLfHRd5
+system:
+  description:
+    value: >-
+      <p>A chieftain is a Warlord that rules by the sheer force of their
+      personality, marked by their booming voice and fearless attitude, it is
+      easy to believe that your band is infallible while your chieftain
+      stands.</p>
+
+      <p>They can be lawful or chaotic, good or evil, with such things depending
+      on how they got to where they are in life. An orc that cut their way to
+      the top may be chaotic, believing that strength needs room to rise to the
+      top unfettered by rules, while someone that inherited their authority may
+      have a more lawful bent.</p>
+
+      <p>A Warlord with the Presence of a Chieftain need not literally rule
+      anything, but is an exemplar of someone that has or could walk that path
+      through their force of personality and the boisterous inspiration they
+      give those around them.</p>
+
+      <p>1st Level:
+      @Compendium[kibbles-warlord.kibbles-warlord.X7TMpknPEBen27by]{Chieftain's
+      Proficiency},
+      @Compendium[kibbles-warlord.kibbles-warlord.vVmmFN8bdLajPuFb]{Wolfpack
+      Movement}</p>
+
+      <p>3rd Level:
+      @Compendium[kibbles-warlord.kibbles-warlord.JqxL9zTrtIKu6FDL]{Warcry},
+      @Compendium[kibbles-warlord.kibbles-warlord.gSzxuRyi145EwkNi]{Savage
+      Momentum}</p>
+
+      <p>7th Level:
+      @Compendium[kibbles-warlord.kibbles-warlord.KDbtj9F1jz7jtAGV]{Reckless
+      Assault}</p>
+
+      <p>11th Level:
+      @Compendium[kibbles-warlord.kibbles-warlord.zNdeR4XCXLIv8zm1]{Wolfpack
+      Tactics}</p>
+
+      <p>15th Level:
+      @Compendium[kibbles-warlord.kibbles-warlord.8JtJOjdbU8FCTbMa]{Booming
+      Shout}</p>
+
+      <p>18th Level:
+      @Compendium[kibbles-warlord.kibbles-warlord.pi21tH2uxcC5KYyC]{Bloody
+      Victory}</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Warlord
+  identifier: chieftain
+  classIdentifier: warlord
+  advancement:
+    - _id: epnppupoagcpswr1
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.kibbles-warlord.kibbles-warlord.X7TMpknPEBen27by
+          - Compendium.kibbles-warlord.kibbles-warlord.vVmmFN8bdLajPuFb
+        optional: false
+      value: {}
+      level: 1
+    - _id: 1gpympl7x3tturlp
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.kibbles-warlord.kibbles-warlord.JqxL9zTrtIKu6FDL
+          - Compendium.kibbles-warlord.kibbles-warlord.gSzxuRyi145EwkNi
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: cri3z0cic0w6ngax
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.kibbles-warlord.kibbles-warlord.KDbtj9F1jz7jtAGV
+        optional: false
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: u5xiv3kzz7qhj3pl
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.kibbles-warlord.kibbles-warlord.zNdeR4XCXLIv8zm1
+        optional: false
+      value: {}
+      level: 11
+      title: ''
+      icon: ''
+    - _id: 05bmiin2o0nwpzii
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.kibbles-warlord.kibbles-warlord.8JtJOjdbU8FCTbMa
+        optional: false
+      value: {}
+      level: 15
+      title: ''
+      icon: ''
+    - _id: xmrnvrq2n450ydli
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.kibbles-warlord.kibbles-warlord.pi21tH2uxcC5KYyC
+        optional: false
+      value: {}
+      level: 18
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742528401
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 61400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: nlEkl2nEXJlz75gW
+_key: '!items!nlEkl2nEXJlz75gW'
+

@@ -1,0 +1,98 @@
+name: 'Familiar Bond: Black Coven'
+type: feat
+img: icons/creatures/birds/corvid-call-sound-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: Attack Penality
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.h3hquxusFb3lMwXd
+system:
+  description:
+    value: >-
+      <p>As a reaction to a creature within 30 feet of your familiar hitting
+      with an attack, you can have your familiar subtract 1d4 + half your
+      Occultist level (rounded down) from the attack roll. You can choose to use
+      this feature after the creature makes its roll, but before the GM
+      determines whether the attack roll succeeds or fails, or before the
+      creature deals its damage. It can do this a number of times equal to your
+      Wisdom modifier, regaining all uses after you complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d4 + 1
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742229569
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 40800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: W48wtuXnX3ImNOYP
+_key: '!items!W48wtuXnX3ImNOYP'
+

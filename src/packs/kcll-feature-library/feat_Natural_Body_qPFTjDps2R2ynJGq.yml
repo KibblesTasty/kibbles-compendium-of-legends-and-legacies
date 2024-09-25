@@ -1,0 +1,93 @@
+name: Natural Body
+type: feat
+img: icons/magic/nature/leaf-juggle-humanoid-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.oqn02ly4oI1KxiuK
+system:
+  description:
+    value: >-
+      <p>At 9th level, you sustain yourself from the forces of nature. You no
+      longer need to eat or drink, though can if you choose. You become immune
+      to disease.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 9
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742806951
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 64900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: qPFTjDps2R2ynJGq
+_key: '!items!qPFTjDps2R2ynJGq'
+

@@ -1,0 +1,111 @@
+name: Aether Blade
+type: feat
+img: icons/skills/melee/strike-dagger-arcane-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.292RvnsZEv3Q8N8G
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level when you select this archetype, when you roll
+      initiative or as a bonus action at any time, you can manifest an oversized
+      melee weapon of pure force energy. This cane take the shape of any bladed
+      melee weapon, but deals 1d10 damage with a range of 5 feet regardless of
+      its form.</p><p>When you attack with this weapon, you can use your
+      Intelligence modifier (in place of your Strength) for attack and damage
+      rolls. This weapon lasts until you let go of it, become incapacitated, or
+      dismiss it as a bonus action.</p><p>While this weapon is temporary and
+      magical, it counts as having a value of 1 sp for purposes of being treated
+      as a material component in spells.</p><p>As a ritual taking 1 hour, you
+      can absorb the power from a magical weapon with a bonus to attack and
+      damage rolls. This cannot target artifacts, sentient weapons, or cursed
+      items. At your GM's discretion, this might not work other weapons
+      depending on their origin and type. This drains the power from the weapon,
+      leaving it as a mundane weapon, but your Aether Blade gains the bonus to
+      attack and damage rolls previously possessed by the magical weapon</p>
+    chat: ''
+    unidentified: ''
+  source: Aethersword
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aethersword 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742980521
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 8900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 3YF9E1RMt33yRmdx
+_key: '!items!3YF9E1RMt33yRmdx'
+

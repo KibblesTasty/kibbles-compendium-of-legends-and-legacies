@@ -1,0 +1,93 @@
+name: Gift of the Depths
+type: feat
+img: icons/magic/water/orb-water-bubbles-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PCKpyIMFEVAB8wgF
+system:
+  description:
+    value: >-
+      <p>Additionally, you gain a swimming speed of 30 feet. If you already have
+      a swimming speed, your swimming speed increases by 10 feet. At 6th level,
+      you also gain the ability to breath underwater.</p>
+    chat: ''
+    unidentified: ''
+  source: Sea Soul
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sea Soul 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741835743
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 13700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 7SJ1xpx5FA7MR1Y8
+_key: '!items!7SJ1xpx5FA7MR1Y8'
+

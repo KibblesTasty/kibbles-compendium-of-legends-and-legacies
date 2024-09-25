@@ -1,0 +1,98 @@
+name: Stolen Techniques
+type: feat
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.n6uyJnqmVJzOyhN9
+system:
+  description:
+    value: >-
+      <p>At 6th level, you can learn one new 1st or 2nd level spell from the
+      Cleric, Bard, Druid, or Wizard spell list. The spell becomes an Occultist
+      spell for you, but does not count against your spells known.</p>
+
+      <p>Additionally, you can delve the rites of another tradition. You learn
+      one additional Occult Rite that does not count against your rites known.
+      This rite can be selected from any occultist subclass or from the general
+      Occultist Rites, but cannot be a rite with a prerequisite.</p>
+    chat: ''
+    unidentified: ''
+  source: Hedge Mage
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742409989
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 5900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 0Z1uF8pSDn3e3xOA
+_key: '!items!0Z1uF8pSDn3e3xOA'
+

@@ -1,0 +1,100 @@
+name: 'Witch Rite: Witch''s Hat'
+type: feat
+img: icons/equipment/head/hat-pointed-leather-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.iwPuEBUkKCIV4H5R
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>You invest some of your magic, turning a hat (traditionally a floppy
+      wide brimmed black witch's hat) into a hat of disguise. If your hat is
+      lost or destroyed, you can create a new one with 2 hours of work. If a
+      previous hat still exists when you make a new one, it loses its magic upon
+      the completion of the new one.</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742456613
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 59900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: mxGB3NGRCKWTb5ig
+_key: '!items!mxGB3NGRCKWTb5ig'
+

@@ -1,0 +1,98 @@
+name: Cut the Weave (3 Ki)
+type: feat
+img: icons/skills/melee/strike-blade-scimitar-green-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0vRs1I0ANv5ovy62
+system:
+  description:
+    value: >-
+      <p><em>(6th level required)</em></p>
+
+      <p>You cast @Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dispel Magic} with
+      a range of 5 feet. Alternatively, as an attack as part of the attack
+      action, you can attempt to open a 5-foot by 5-foot hole a magical barrier,
+      lasting until the start of your next turn. Make a weapon attack treating
+      the magical effect as having an AC equal to the spell casters spell DC
+      (your DM determines what magical barriers this might work on).</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742049528
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 55800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: inhgd05RrKVIu4bQ
+_key: '!items!inhgd05RrKVIu4bQ'
+

@@ -1,0 +1,95 @@
+name: 'Witch Rite: Form of the Familiar'
+type: feat
+img: icons/creatures/birds/corvid-call-sound-glowing.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VWkzy8eQpoYck46I
+system:
+  description:
+    value: >-
+      <p>You learn the
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.xMZdWaWDATxw3pxe]{Form
+      of Familiar} spell, and gain the ability to cast it once without expending
+      a spell slot as an action. You regain the ability to cast it in this way
+      again after completing a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742447749
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 66100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: sPvmAdwkcVEIyHtO
+_key: '!items!sPvmAdwkcVEIyHtO'
+

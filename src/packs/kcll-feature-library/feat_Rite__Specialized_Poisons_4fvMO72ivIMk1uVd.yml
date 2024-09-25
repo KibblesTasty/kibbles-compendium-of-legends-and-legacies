@@ -1,0 +1,96 @@
+name: 'Rite: Specialized Poisons'
+type: feat
+img: icons/magic/acid/dissolve-bone-ribs-skull.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OjvvUXsV1zrql93v
+system:
+  description:
+    value: >-
+      <p>When you deal poison damage with an Occultist spell or created poison,
+      you can (but don't have to) specify a creature type (such as beast or
+      monstrosity) it is created to effect. The poison damage from that spell or
+      poison bypasses any resistance or immunity to poison damage a creature of
+      that type has. All other creature types beside the specified type have
+      resistance to damage by that spell effect or poison.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742379870
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 10400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 4fvMO72ivIMk1uVd
+_key: '!items!4fvMO72ivIMk1uVd'
+

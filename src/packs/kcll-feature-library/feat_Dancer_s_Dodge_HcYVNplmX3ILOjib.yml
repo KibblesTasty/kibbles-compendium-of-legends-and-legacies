@@ -1,0 +1,100 @@
+name: Dancer's Dodge
+type: feat
+img: icons/skills/movement/ball-spinning-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EZPGqph63azloW2Y
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, when you take the Dodge action while you are not
+      wearing armor or carrying a shield, you can use Distract, Helpful Word,
+      Urgent Orders, or Rallying Mark without expending a leadership die. When
+      you do so, it applies as if you had spent 1 leadership die on it for its
+      effect.</p>
+
+      <p>Additionally, when you take the Dodge action, you can expend leadership
+      dice to grant enough attacks through Battlefield Presence. You can grant a
+      number of attacks equal to the leadership dice spent, up to your per turn
+      limit.</p>
+    chat: ''
+    unidentified: ''
+  source: Dancer
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742534778
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 25400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: HcYVNplmX3ILOjib
+_key: '!items!HcYVNplmX3ILOjib'
+

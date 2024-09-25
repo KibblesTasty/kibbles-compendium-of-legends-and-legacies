@@ -1,0 +1,109 @@
+name: Perfect Dodge
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: Dexterity Bonus
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        resource: true
+      altValue:
+        resource: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.7R6Qid8BbRHkF8hb
+system:
+  description:
+    value: >-
+      <p><span style="color:#191813;font-size:12px">When you make a Dexterity
+      saving throw or Dexterity ability check, you can expend a focus die,
+      expending it and adding to the roll. You can do this after rolling the
+      d20, but before the outcome is determined.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Path of Instinct
+  activation:
+    type: none
+    cost: 1
+    condition: When you make a Dexterity Saving Throw
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+  formula: 1d8
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of Instinct 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741856280
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 39500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Uy1tU1T1d2H9rX5g
+_key: '!items!Uy1tU1T1d2H9rX5g'
+

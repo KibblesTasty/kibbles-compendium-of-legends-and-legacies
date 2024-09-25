@@ -1,0 +1,84 @@
+name: Dreadlord Proficiency
+type: feat
+img: icons/equipment/head/helm-barbute-horned-glowing.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level when you select this Presence, you gain
+      proficiency in heavy armor and the Intimidation skill.</p>
+    chat: ''
+    unidentified: ''
+  source: Dreadlord
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dreadlord 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.W8fRe3fltv2xBsfv
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682202905320
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 48700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: d57QU2dp5ze4eyhB
+_key: '!items!d57QU2dp5ze4eyhB'
+

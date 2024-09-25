@@ -1,0 +1,114 @@
+name: Witch's Touch
+type: feat
+img: icons/magic/unholy/hand-light-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.DExlt95yRy70WpWG
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, whenever you cast a spell with a range of touch
+      (including through your familiar), you can add one of the following
+      modifiers to the spell:</p>
+
+      <ul>
+
+      <li>It grants one affected target temporary hit points equal to your
+      Wisdom modifier. Only one creature can have these temporary hit points at
+      a time.</li>
+
+      <li>It deals additional damage equal to your Wisdom modifier to one
+      affected creature.</li>
+
+      <li>It adds or subtracts 1d4 from the target's next attack roll or saving
+      throw before the start of your next turn.</li>
+
+      </ul>
+
+      <p>You can also confer these effects to another spell with a range longer
+      than touch by making its range touch, or confer these effects as an action
+      without casting a spell by touching a target (making a melee spell attack
+      to do if the target is an unwilling creature). If you make the range of a
+      curse spell touch, you no longer need the material component for the
+      spell.</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742459350
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 5500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 0N0smp4xYLb16R1v
+_key: '!items!0N0smp4xYLb16R1v'
+

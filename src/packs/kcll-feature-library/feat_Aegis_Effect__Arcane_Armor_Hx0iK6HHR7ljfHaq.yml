@@ -1,0 +1,82 @@
+name: 'Aegis Effect: Arcane Armor'
+type: feat
+img: icons/magic/defensive/shield-barrier-blue.webp
+system:
+  description:
+    value: <p>You are under the effect of the mage armor spell during the effect.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.ZYVCQoSlHLwYIyuY
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667600292462
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 25600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Hx0iK6HHR7ljfHaq
+_key: '!items!Hx0iK6HHR7ljfHaq'
+

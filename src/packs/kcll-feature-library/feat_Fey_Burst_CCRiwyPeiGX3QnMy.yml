@@ -1,0 +1,121 @@
+name: Fey Burst
+type: feat
+img: icons/magic/light/hand-sparks-smoke-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.vO0apnvYcuIcJSHE
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, your patron bestows upon the ability to draw on
+      dazzling fey magic, using it to boost your abilities or unleashing it
+      small bursts.</p>
+
+      <ul>
+
+      <li>When you hit a creature with an attack roll, you can expend one use to
+      cause it glow with colorful lights with the effect of faerie fire until
+      the start of your next turn.</li>
+
+      <li>You can project a supernatural aura bolstering your presence and
+      presentation to give yourself advantage on Persuasion, Intimidation, or
+      Performance ability check.</li>
+
+      <li>As an action, you can cause each creature in a 10-foot cube
+      originating from you to make a Wisdom saving throw against your warlock
+      spell save DC. The creatures that fail their saving throws are all charmed
+      or frightened by you (your choice) until the end of your next turn.</li>
+
+      <li>Create a glamour, casting disguise self without expending a spell
+      slot.</li>
+
+      </ul>
+
+      <p>You can use this ability a number of times equal to your proficiency
+      bonus, and regain all expended uses when you finish a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: The Fey
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 2
+    max: '@prof'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Fey
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741773156
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 19500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: CCRiwyPeiGX3QnMy
+_key: '!items!CCRiwyPeiGX3QnMy'
+

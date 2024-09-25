@@ -1,0 +1,106 @@
+name: Deft Strike (1 Ki)
+type: feat
+img: icons/skills/melee/strike-dagger-white-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.X1cHPD1cMyjKlFs0
+system:
+  description:
+    value: >-
+      <p>When you make an attack roll, you can gain advantage on the attack. If
+      the attack hits, you can add your Martial Arts die to the damage
+      dealt.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: dex
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod + 1@scale.monk.die
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742051853
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 47900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: cSf3fkTuivhMcLFy
+_key: '!items!cSf3fkTuivhMcLFy'
+

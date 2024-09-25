@@ -1,0 +1,113 @@
+name: Endurance (Bolster Save)
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context: []
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        resource: true
+      altValue:
+        resource: true
+  core:
+    sourceId: Item.dIcIFvU4b4h3ezOg
+  rsr5e:
+    quickOther:
+      context: Save Bonus
+      value: true
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>When you make a saving throw, you can roll an endurance die and add it
+      to the saving throw (no action required). You can do this after you roll
+      the save, but before you know the outcome of the save.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: none
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: '@scale.warden.endurance-die'
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742727476
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 48900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: dPpXYIf8h2I9SiIZ
+_key: '!items!dPpXYIf8h2I9SiIZ'
+

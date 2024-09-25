@@ -1,0 +1,204 @@
+name: 'Oracle Rite: Truth of War'
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OtFbNmkGA1xrNygh
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text">(Prerequisite: Revelation
+      of War, 5th level Occultist)</em></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">There are many paths to victory.
+      When you cast a spell of 1st level or higher on your turn, the next time
+      you hit a creature with a melee weapon attack before the end of your turn,
+      you can force them to make a Saving Throw against your Spell Save DC, or
+      suffer from a condition based on the level of spell slot cast (you can
+      select the condition of a lower level effect instead of you choose) until
+      the start of your next turn. The type of saves and conditions are listed
+      on the table below.</span></p><table
+      style="box-sizing:border-box;user-select:text;width:618px;border-collapse:collapse;background:rgba(0,
+      0, 0, 0.05);border-top:1px solid
+      var(--color-border-light-tertiary);border-bottom:1px solid
+      var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><thead
+      style="box-sizing:border-box;user-select:text;background:rgba(0, 0, 0,
+      0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px
+      var(--color-shadow-dark);border-bottom:1px solid
+      var(--color-border-dark)"><tr
+      style="box-sizing:border-box;user-select:text"><th id="spell_level"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika, sans-serif">Spell
+      Level</span></th><th id="condition"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Condition</span></th><th id="save"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Save</span></th></tr></thead><tbody
+      style="box-sizing:border-box;user-select:text"><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">1st</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Prone</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Strength</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2nd</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Poisoned</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Constitution</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3rd</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Frightened</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Wisdom</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Blinded</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Constitution</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">5th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Restrained</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Strength</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">6th+</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Stunned</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Constitution</span></td></tr></tbody></table><hr
+      style="box-sizing:border-box;user-select:text;border-right:none;border-left:none;border-image:initial;border-top:1px
+      solid var(--color-border-light-primary);border-bottom:1px solid
+      var(--color-border-light-highlight);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"
+      /><p style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"></p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742348767
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 69700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: v4CRFC3SG8nqKqUc
+_key: '!items!v4CRFC3SG8nqKqUc'
+

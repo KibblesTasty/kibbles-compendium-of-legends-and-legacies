@@ -1,0 +1,112 @@
+name: 'Manifestation: Primal Intuition'
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+effects:
+  - _id: IL2ao3Lxwc9f51GS
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 5
+        value: '10'
+        priority: 50
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    icon: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+    label: Primal Intuition
+    origin: Item.TQUeFrTfwRdkhkdF
+    transfer: true
+    flags: {}
+    tint: null
+    _key: '!items.effects!bSkz1geJEyb8zryO.IL2ao3Lxwc9f51GS'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.TQUeFrTfwRdkhkdF
+system:
+  description:
+    value: <p>You gain a blindsight of 10 feet.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742786134
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 46800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: bSkz1geJEyb8zryO
+_key: '!items!bSkz1geJEyb8zryO'
+

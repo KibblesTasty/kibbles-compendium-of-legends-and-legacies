@@ -1,0 +1,126 @@
+name: Focused Rage
+type: feat
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.vWQoQ94fPb02tlk1
+system:
+  description:
+    value: "<h3 id=\"barbarian-path-path-of-instinct-focused-rage\">Focused Rage</h3>\n<p>Starting when you choose this path at 3rd level, your rage becomes a state of pure focus. You can perform impossible feats in this state of extreme focus by expending focus dice. When you enter a rage, you gain a number of d8 focus dice equal to your proficiency bonus. You can expend the on the following abilities:</p>\n<hr />\n<p><strong>Perfect Dodge.\_</strong>When you make a Dexterity saving throw or Dexterity ability check, you can expend a focus die, expending it and adding to the roll. You can do this after rolling the d20, but before the outcome is determined. @Item[7R6Qid8BbRHkF8hb]{Perfect Dodge}</p>\n<hr />\n<p><strong>Perfect Intuition.\_</strong>When you make a Wisdom saving throw or ability check, you can expend a focus die to add it to the roll. When you do this with the Search action, you can take the Search action as a bonus action. @Item[0bJ3MMqZBwzqX9MH]{Perfect Intuition}</p>\n<hr />\n<p><strong>Perfect Parry.</strong> When another creature damages you with a weapon attack, you can use your reaction and expend one focus die to reduce the damage by the number you roll on your focus die + your Strength or Dexterity modifier (your choice). @Item[4tFFBonr3plNzE8B]{Perfect Parry}</p>\n<hr />\n<p><strong>Perfect Strike.</strong> When you make a weapon attack roll against a creature, you can expend one focus die to add it to the roll. You can use this ability after making the attack roll, but before any effects of the attack are applied. @Item[NZRLKRtNQzt0v9fP]{Perfect Strike}</p>"
+    chat: ''
+    unidentified: ''
+  source: Path of Instinct
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 2
+    max: '@prof'
+    per: charges
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of Instinct 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741854045
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 42900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: XrtDSi7MNJPGOeN9
+_key: '!items!XrtDSi7MNJPGOeN9'
+

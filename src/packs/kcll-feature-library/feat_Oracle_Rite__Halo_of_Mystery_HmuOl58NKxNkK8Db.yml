@@ -1,0 +1,130 @@
+name: 'Oracle Rite: Halo of Mystery'
+type: feat
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">When you roll initiative
+      or as a bonus action at any time, you can invoke the power of a mystery
+      you know, causing its power to swirl around you forming a halo. This halo
+      lasts until you invoke another Mystery this way, or dismiss it as a bonus
+      action. It's effect depends on the Mystery Invoked.</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Darkness.</strong> You
+      shrouded in darkness and difficult to make out. You have half cover
+      against attacks and considered to in dim light regardless of the
+      surrounding light.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Death.</strong> You gain
+      resistance to necrotic damage. If you are reduced to 0 hit points, you can
+      make a Wisdom saving throw with a DC of 10 + the damage taken to be
+      reduced to 1 hit point instead on success.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Fire.</strong> You shed
+      bright light in a 5 foot radius and dim light for an additional 5 feet.
+      You gain resistance to fire damage, and immunity to the fire damage of
+      your own spells.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Life.</strong> When you
+      restore hit points to another creature, they gain temporary hit points
+      equal half the hit points restored.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Light.</strong> You shed
+      bright light in a 20 foot radius and dim light for an additional 20 feet
+      (this light interacts with Truth of Light if you have that Rite). You gain
+      resistance to radiant damage.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Souls.</strong> You become
+      ghostly and translucent, gaining a flying speed of 20 feet and cast pass
+      through objects less than a foot thick, as well as through creatures, and
+      ignore all difficult terrain.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">War.</strong> When you take
+      damage, you can subtract your Wisdom modifier from the damage taken
+      (reducing it to a minimum of 1).</span></li></ul>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.KUTKPwfKgF8mKyZ7
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682445038635
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 25500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: HmuOl58NKxNkK8Db
+_key: '!items!HmuOl58NKxNkK8Db'
+

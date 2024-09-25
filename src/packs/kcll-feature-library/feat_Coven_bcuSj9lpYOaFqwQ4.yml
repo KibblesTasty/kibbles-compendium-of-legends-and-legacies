@@ -1,0 +1,114 @@
+name: Coven
+type: feat
+img: icons/equipment/head/hat-pointed-leather-black-glowing.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.C7os5iVerndzNO0C
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you select the Coven you belong to, selecting
+      from Black Coven, White Coven, or Green Coven. Based on which Coven you
+      select, you gain access to additional spells and manifest different
+      special powers. Spells gained from this feature added to your spells known
+      and are Occultist spells for you, but do not count against the number of
+      spells you can know.</p>
+
+      <p>While the Covens are often associated with Evil, Good, and Neutral
+      respectively, you do not have to have a particular alignment to join a
+      particular coven - it is merely your area of expertise and what traditions
+      you know.</p>
+
+      <p>A Witch of the Black Coven specializes in inflicting pain, curses, and
+      eventual agonizing death to those that cross her, a Witch of the White
+      Coven focuses on binding and healing, and the focus of a Witch of the
+      Green coven is the closest to the Witch's roots in Hag-like fey magic,
+      drawing power from nature to baffle her foes and control her
+      surroundings.</p>
+
+      <p>@Item[kpSz3UGIvnqJFIpx]{Coven: Black Coven}</p>
+
+      <p>@Item[OvYCp2P4QwdUSVPm]{Coven: White Coven}</p>
+
+      <p>@Item[RolEQiC0c1cwP570]{Coven: Green Coven}</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742216534
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 47000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: bcuSj9lpYOaFqwQ4
+_key: '!items!bcuSj9lpYOaFqwQ4'
+

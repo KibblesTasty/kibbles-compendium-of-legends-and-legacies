@@ -1,0 +1,92 @@
+name: 'Hedge Rite: Mastered Basics'
+type: feat
+img: icons/magic/symbols/star-solid-gold.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.qb3oc5zy8rfdS7Qd
+system:
+  description:
+    value: >-
+      <p>When you cast a 1st level Occultist spell you know, it is cast as if
+      you spend a 2nd level spell slot on it.</p>
+    chat: ''
+    unidentified: ''
+  source: Hedge Mage
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 15
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742247142
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 52300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: frtq7yqCDufTxDIP
+_key: '!items!frtq7yqCDufTxDIP'
+

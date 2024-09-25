@@ -1,0 +1,143 @@
+name: Touch of Damnation
+type: feat
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        '0': true
+      altValue:
+        '0': true
+      context:
+        '0': ''
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: Debuff
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.ov79oln7Pa4C1iBj
+system:
+  description:
+    value: >-
+      <h3
+      id="sorcerer-origin-fiend-bloodline-variant-origin-spells-touch-of-damnation">Touch
+      of Damnation</h3>
+
+      <p>Starting at 1st level, your power carries a corrupting influence you
+      can focus to weaken those that stand against you. As a reaction to a
+      creature you can see within 30 feet making an attack roll or saving throw,
+      you can bestow misfortune on them, rolling 1d6 and subtracting it from the
+      total, possibly changing the outcome.</p>
+
+      <p>Once you use this feature, you can’t use it again until you finish a
+      short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      s a reaction to a creature you can see within 30 feet making an attack
+      roll or saving throw.
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d6
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741869477
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 74300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: zsAy9qOTvbmf2YiB
+_key: '!items!zsAy9qOTvbmf2YiB'
+

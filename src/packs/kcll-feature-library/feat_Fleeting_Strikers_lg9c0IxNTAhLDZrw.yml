@@ -1,0 +1,97 @@
+name: Fleeting Strikers
+type: feat
+img: icons/skills/ranged/arrows-flying-triple-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.jkWryweCRMlkOvI6
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, if you are not in the same spot you were at the
+      end of your last turn or are obscured from your target, the first attack
+      you make during your turn deals an additional [[/r 1d10]] damage.</p>
+
+      <p>Additionally, a creature that you grant an Attack with Battlefield
+      Presence can take the Dash action instead of making the attack you
+      granted.</p>
+    chat: ''
+    unidentified: ''
+  source: Packleader
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Packleader 11
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742572222
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 58400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: lg9c0IxNTAhLDZrw
+_key: '!items!lg9c0IxNTAhLDZrw'
+

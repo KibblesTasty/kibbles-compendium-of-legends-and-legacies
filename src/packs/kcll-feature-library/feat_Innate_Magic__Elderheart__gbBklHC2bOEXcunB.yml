@@ -1,0 +1,175 @@
+name: Innate Magic (Elderheart)
+type: feat
+img: icons/magic/nature/leaf-hand-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.CQNuADrZ1Tv13Ijz
+system:
+  description:
+    value: >-
+      <p>Additionally when you select this bond, you gain access to several
+      innate magical abilities by channeling the power of your primal
+      connection.</p>
+
+      <p>You gain the following spells at the listed levels, and can cast each
+      spell once before without components or spell slots. Wisdom is your
+      spellcasting modifier for these spells. Once you cast a spell, you cannot
+      cast that spell again until you complete a long rest, or expend Endurance
+      Dice equal to the level of the spell to cast it again.</p>
+
+      <table border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center"><strong>Warden Level</strong></td>
+
+      <td style="text-align:center"><strong>Innate Spells (1/long rest
+      each)</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">1st</td>
+
+      <td
+      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.3ekUpTBRLqfXlOB4]{Grasping
+      Roots}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">3rd</td>
+
+      <td
+      style="text-align:center">@Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">5th</td>
+
+      <td
+      style="text-align:center">@Compendium[dnd5e.spells.2VXGS206tuChoeXy]{Speak
+      with Plants}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">9th</td>
+
+      <td
+      style="text-align:center">@Compendium[dnd5e.spells.YWtwzp6ZnQJMEmVW]{Plant
+      Growth}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">13th</td>
+
+      <td
+      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.8VhAQIgBygVBgYfz]{Summon
+      Plant}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">17th</td>
+
+      <td
+      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.ALPKh8YIjgSCmpDe]{Carnivorous
+      Garden}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Elderheart
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elderheart 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742752181
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 53300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: gbBklHC2bOEXcunB
+_key: '!items!gbBklHC2bOEXcunB'
+

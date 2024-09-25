@@ -1,0 +1,123 @@
+name: Pseudopod Whip
+type: weapon
+img: icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source: The Ooze
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4 + @mod
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: simpleM
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: true
+    fir: false
+    foc: false
+    hvy: false
+    lgt: false
+    lod: false
+    mgc: false
+    rch: true
+    rel: false
+    ret: false
+    sil: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+  proficient: true
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: false
+    quickFooter:
+      value: true
+    consumeQuantity:
+      value: false
+    quickOther:
+      context: ''
+    quickAttack:
+      value: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  core:
+    sourceId: Item.NWlSVfSVBWwbYvsh
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1683757980467
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 13800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 7SnryvyGgbNVNS0k
+_key: '!items!7SnryvyGgbNVNS0k'
+

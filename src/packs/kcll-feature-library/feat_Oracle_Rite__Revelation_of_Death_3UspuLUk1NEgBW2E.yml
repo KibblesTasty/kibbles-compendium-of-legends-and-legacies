@@ -1,0 +1,104 @@
+name: 'Oracle Rite: Revelation of Death'
+type: feat
+img: icons/magic/death/skull-energy-light-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.iNwBWbuTRj98RvTh
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Mystery of Death</em></p>
+
+      <p>You can directly touch on the negative energy. When you cast a spell of
+      1st level or higher that deals cold or necrotic damage, you can add your
+      Wisdom modifier to one damage roll of that spell. Channeling the power of
+      death in this way temporarily withers and weakens you, reducing your
+      movement speed by 5 feet until the end of your next turn. If you use this
+      while already weakened in this way, the duration is extended and the
+      effect stacks.</p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742288114
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 8800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 3UspuLUk1NEgBW2E
+_key: '!items!3UspuLUk1NEgBW2E'
+

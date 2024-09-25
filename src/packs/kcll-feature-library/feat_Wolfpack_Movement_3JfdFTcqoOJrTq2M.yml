@@ -1,0 +1,101 @@
+name: Wolfpack Movement
+type: feat
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.YXvL1ze9OpvQS3DA
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, the first time an allied creature moves, it can
+      bring a number of willing creatures equal to your Charisma modifier
+      (minimum 1) within 20 feet of you along with it in the same distance and
+      direction that they move, but cannot move more than half of their movement
+      speed and cannot move more than 20 feet from you. Creatures can stop this
+      movement at any point along the path.</p>
+    chat: ''
+    unidentified: ''
+  source: Chieftain
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Chieftain 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742676934
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 8500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 3JfdFTcqoOJrTq2M
+_key: '!items!3JfdFTcqoOJrTq2M'
+

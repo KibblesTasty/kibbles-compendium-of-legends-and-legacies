@@ -1,0 +1,113 @@
+name: Casting Style
+type: feat
+img: icons/magic/light/orbs-firefly-hand-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.36R1oviudUEnYLNN
+system:
+  description:
+    value: >-
+      <p>Additionally, your self-taught casting style has resulted in some
+      practical advantages. Select one of the following casting styles:</p>
+
+      <p><strong>Reliable Casting</strong>. When you roll a 1 or 2 on a damage
+      die for an Occultist cantrip, you can reroll the die and must use the new
+      roll, even if the new roll is a 1 or a 2.</p>
+
+      <p>@Item[QrbGXvVURweEMjTc]{Casting Style: Reliable Casting}</p>
+
+      <p><strong>Habitual Casting.</strong> When you cast an Occultist cantrip
+      that requires concentration, you can instead cause the effect to persist
+      without concentration a number of rounds equal to your Occultist level
+      (for example, as 1st level Occultist, it would end at the start of your
+      next turn). You can end a spell persisting in this way early as an
+      action.</p>
+
+      <p>@Item[AlBiaUFviGipN0Md]{Casting Style: Habitual Casting}</p>
+
+      <p><strong>Tactical Casting</strong>. When you take the Ready action with
+      an Occultist cantrip, it does not require concentration to keep the spell
+      readied.</p>
+
+      <p>@Item[yJmOcBcsp64n7krx]{Casting Style: Tactical Casting}</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742212103
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 40900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: WADlbQLDY4XcXZSX
+_key: '!items!WADlbQLDY4XcXZSX'
+

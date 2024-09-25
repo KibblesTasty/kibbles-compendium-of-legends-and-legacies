@@ -1,0 +1,913 @@
+name: Circle of Elements
+type: subclass
+img: icons/magic/lightning/bolt-forked-large-blue.webp
+effects: []
+flags:
+  core:
+    sourceId: Item.cTBQ9x617Vnxw5Jm
+system:
+  description:
+    value: >-
+      <h2 data-anchor="circle-of-elements-druid"
+      style="box-sizing:border-box;user-select:text;margin:0px 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.5em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Circle of Elements
+      Druid</span></h2><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The Circle of Elements allows
+      druids to deeply tap the purest primal powers, unleashing devastating
+      elemental powers that reshape the battlefield. These druids follow ancient
+      practices drawing on the oldest and most primal forms of power, feeling a
+      deep connection to the untamed power to the raw forms of these
+      powers.</span></p><h3 data-anchor="invoke-element"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Invoke Element</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you choose this circle at 2nd
+      level, you gain an alternate use for Wild Shape. As a bonus action, you
+      can invoke primal powers to manifest elemental powers at a point within 60
+      feet. When you invoke this power, select an element to invoke, which has a
+      different effect.</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Air: Coalesced
+      Lightning.</strong> When you manifest the power, and as a bonus action on
+      subsequent turns, you can force one creature within 30 feet of the point
+      to make a Dexterity saving throw, or be struck by an arc of lightning,
+      taking 1d6 + your Wisdom modifier damage.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Earth: Stone
+      Pillar.</strong> When you manifest the power, a stone eruption fills an
+      unoccupied space within 5 feet of the point, rising up to 10 feet and
+      blocking the space. It has an AC of 16 and hit points equal to your Wisdom
+      modifier + your Druid level. The pillar is three quarters cover for
+      creatures behind it. It becomes difficult terrain when
+      destroyed.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Fire: Wild Fire.</strong>
+      The area within 5 feet of the point is filled with flames. Creatures that
+      start their turn in the area take 1d6 fire damage.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Water: Icy
+      Blizzard.</strong> The area within 5 feet of the point is filled with an
+      icy storm of sleet, becoming difficult terrain.</span></li></ul><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You can move an elemental
+      manifestation up to 20 feet on subsequent turns as a bonus action. If you
+      move a stone pillar, the pillar is destroyed and you can create a new
+      pillar.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Instead of moving a Wild Fire or
+      Icy Blizzard, you can expand their radius by 5 feet as a bonus action, up
+      to a number of times equal to your proficiency bonus. Their radius is
+      reset to the base size if you move them. You are unaffected by the effects
+      of your own elemental manifestations (though cannot move through stone
+      pillars you create unless otherwise able to).</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The manifested elemental lasts for
+      1 minute, ending early if you dismiss it (no action required), are
+      incapacitated, die, or use this feature
+      again.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.NKf04c8mz76l2yLV]{Invoke
+      Element}</p><ul><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.LnoPUmMle0VUbyYM]{Coalesced
+      Lighting}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.5b65QG0cSB804xvc]{Stone
+      Pillar}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.BpXviwgCfw9nO0xm]{Fiery
+      Blaze}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.8UaS6qv6I7X7ZX5S]{Icy
+      Blizzard}</p></li></ul><h3 data-anchor="elemental-spells"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Elemental Spells</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally at 2nd level, your
+      mystical connection to the primal powers allows you to learn additional
+      elemental spells. When you pick a druid spell, you can additionally select
+      from the Circle of Elements Expanded Spells listed at the end of this
+      subclass. The number of spells you can prepare increases by 1 when you
+      gain this feature, and again at 3rd, 5th, 7th, and 9th
+      levels.</span></p><p>@UUID[Compendium.world.kcll-feature-library.xxlW8kRPIfURVRXa]{Elemental
+      Spells}</p><h3 data-anchor="primal-sculpting"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Primal Sculpting</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 6th level, when you
+      deal bludgeoning, cold, fire, or lightning damage with Invoke Elements or
+      a druid spell, you can choose a number of creatures equal to your
+      proficiency bonus that you can see to exclude from the
+      effect.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The chosen creatures automatically
+      pass their saving throw (if applicable) against the effect, and take no
+      damage from the
+      effect.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.FS8or106g6tjDGyx]{Primal
+      Sculpting}</p><h3 data-anchor="paraelemental-manifestations"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Paraelemental
+      Manifestations</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 10th level, when you
+      invoke an element, you can expend 2 uses of Wild Shape to invoke two
+      elements at once in the same area.</span></p><table
+      style="box-sizing:border-box;user-select:text;width:618px;border-collapse:collapse;background:rgba(0,
+      0, 0, 0.05);border-top:1px solid
+      var(--color-border-light-tertiary);border-bottom:1px solid
+      var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><thead
+      style="box-sizing:border-box;user-select:text;background:rgba(0, 0, 0,
+      0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px
+      var(--color-shadow-dark);border-bottom:1px solid
+      var(--color-border-dark)"><tr
+      style="box-sizing:border-box;user-select:text"><th id
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"></th><th id="air"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Air</span></th><th id="earth"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Earth</span></th><th id="fire"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Fire</span></th><th id="water"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Water</span></th></tr></thead><tbody
+      style="box-sizing:border-box;user-select:text"><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Air</strong></span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Dust</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Smoke</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Fog</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Earth</strong></span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Dust</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Magma</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Mud</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Fire</strong></span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Smoke</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Magma</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Steam</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Water</strong></span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Fog</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Mud</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Steam</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr></tbody></table><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Dust: Dust Cloud.</strong>
+      The area within 10 feet of the point becomes heavily obscured. Creatures
+      attempt to speak in the area must make a Constitution saving throw against
+      your spell save DC, or be muted until the start of their next turn or they
+      exit the dust cloud. You can expand or move this Dust Cloud with your
+      Invoke Elements feature.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Fog, Smoke, or Steam:
+      Obscuring Cloud.</strong> Has the effect of both contributing powers in
+      addition the area covered by Wild Fire or Icy Blizzard also becomes
+      heavily obscured.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Mud: Mud Mire.</strong> The
+      area within 5 feet of the point is filed with thick icy mud, creating
+      difficult terrain. The difficult terrain generated on the ground requires
+      an additional foot of movement for each foot of movement through it. You
+      can expand or move this Mud Mire with your Invoke Elements
+      feature.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Magma: Magma
+      Pillar.</strong> Has the effect of Stone Pillar, but additionally
+      creatures that start their within 5 feet of the stone pillar take 1d6
+      damage and creatures that hit the magma pillar with a melee attack take
+      2d6 fire
+      damage.</span></li></ul><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.owMkPKD1thVY9zzZ]{Paraelemental
+      Manifestations}</p><h3 data-anchor="empowered-manifestations"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Empowered
+      Manifestations</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally at 10th level, the
+      damage of the Coalesced Lightning, Wild Fire, and Magma Pillar all
+      increase by
+      1d6.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Mh7nogjEEMTTkRWf]{Empowered
+      Manifestions}</p><h3 data-anchor="elemental-adaptation"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Elemental Adaptation</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 14th level, when you
+      complete a long or short rest, you can gain resistance to one damage type
+      from the following list: cold, fire, or lightning.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you have resistance to cold
+      damage you can see through the obscurement of steam or fog. When you have
+      resistance to fire damage from this feature, you can see through the
+      obscurement of steam or smoke. When you have resistance to lightning
+      damage you can see through the obscurement of dust, smoke, or
+      steam.</span></p><p>@UUID[Compendium.world.kcll-feature-library.RDr4ewbQzMtW5t4g]{Elemental
+      Adaptation}</p><h2 data-anchor="circle-of-elements-expanded-spells"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.5em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Circle of Elements Expanded
+      Spells</span></h2><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The following spells are
+      additionally considered Druid spells for you when you gain take this
+      subclass:</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika,
+      sans-serif"><strong>Cantrip</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true" data-pack="dnd5e.spells"
+      data-uuid="Compendium.dnd5e.spells.EOmsUcFQJTfG2oio"
+      data-id="EOmsUcFQJTfG2oio"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Fire
+      Bolt</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true" data-pack="dnd5e.spells"
+      data-uuid="Compendium.dnd5e.spells.ctW81uiX56xZR2c5"
+      data-id="ctW81uiX56xZR2c5"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Ray
+      of Frost</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true" data-pack="dnd5e.spells"
+      data-uuid="Compendium.dnd5e.spells.XvbiNhNqXXIFisIy"
+      data-id="XvbiNhNqXXIFisIy"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Shocking
+      Grasp</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true" data-pack="dnd5e.spells"
+      data-uuid="Compendium.dnd5e.spells.eCPQuQkIabFKTl9u"
+      data-id="eCPQuQkIabFKTl9u"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Produce
+      Flame</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong>1st
+      Level</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.soerdsQlAzfiCCRx"
+      data-id="soerdsQlAzfiCCRx" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Arctic
+      Breath</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true" data-pack="dnd5e.spells"
+      data-uuid="Compendium.dnd5e.spells.5SuJewoa1CRWaj1F"
+      data-id="5SuJewoa1CRWaj1F"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Burning
+      Hands</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.NTtWUt0fnWBd1hUu"
+      data-id="NTtWUt0fnWBd1hUu" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Crashing
+      Wave</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.njw1xQKxHYiMtbBF"
+      data-id="njw1xQKxHYiMtbBF" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Entomb</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.71CGjte7pld4Eqcu"
+      data-id="71CGjte7pld4Eqcu" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Gale
+      Bolt</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.vgRGbHfmXzfahpkq"
+      data-id="vgRGbHfmXzfahpkq" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Lightning
+      Tendril</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.tAlTCcr9KyFpA814"
+      data-id="tAlTCcr9KyFpA814" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Stone
+      Fist</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.8wYXpF4x7eORdwuC"
+      data-id="8wYXpF4x7eORdwuC" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Water
+      Blast</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong>2nd
+      Level</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.AvufHn4de2MS9pYP"
+      data-id="AvufHn4de2MS9pYP" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Become
+      Fire</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.xA2DG0aEon2eBrgC"
+      data-id="xA2DG0aEon2eBrgC" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Become
+      Stone</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.6AF59UdoX7xW9hGZ"
+      data-id="6AF59UdoX7xW9hGZ" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Become
+      Water</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.BCNtGDoY9cYjVkuU"
+      data-id="BCNtGDoY9cYjVkuU" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Become
+      Wind</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.K2daUPbGZom7mCBo"
+      data-id="K2daUPbGZom7mCBo" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Cold
+      Snap</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.AJSnvZ7QsICrcXPJ"
+      data-id="AJSnvZ7QsICrcXPJ" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Crackle</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.aRNu7hLKaPA5eMId"
+      data-id="aRNu7hLKaPA5eMId" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Dancing
+      Wave</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.Augvc9zPdVDS3EY8"
+      data-id="Augvc9zPdVDS3EY8" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Earth
+      Ripple</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.RH4sgPaJFLVmyvg8"
+      data-id="RH4sgPaJFLVmyvg8" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Hurricane
+      Slash</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.DwabUomoH4YxJ0Ra"
+      data-id="DwabUomoH4YxJ0Ra" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Lightning
+      Charged</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true" data-pack="dnd5e.spells"
+      data-uuid="Compendium.dnd5e.spells.7u2obDvuvtZBkTfq"
+      data-id="7u2obDvuvtZBkTfq"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Scorching
+      Ray</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong>3rd
+      Level</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.IqBNzGw6TK5aIMi8"
+      data-id="IqBNzGw6TK5aIMi8" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Electrocute</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true" data-pack="dnd5e.spells"
+      data-uuid="Compendium.dnd5e.spells.ztgcdrWPshKRpFd0"
+      data-id="ztgcdrWPshKRpFd0"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Fireball</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.jfXMxFnbSNQROqUj"
+      data-id="jfXMxFnbSNQROqUj" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Fire
+      Cyclone</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.FRJEbnOESH5IwP9A"
+      data-id="FRJEbnOESH5IwP9A" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Flash
+      Freeze</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.xSr7ZjFS7M2rlNqM"
+      data-id="xSr7ZjFS7M2rlNqM" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Vortex
+      Blast</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.aas0237nlRG6XLtB"
+      data-id="aas0237nlRG6XLtB" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Water
+      Cannon</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong>4th
+      Level</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.BpcnmRSyBCMEYIvx"
+      data-id="BpcnmRSyBCMEYIvx" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Aero
+      Barrage</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.89Bgi1WZmaT5001r"
+      data-id="89Bgi1WZmaT5001r" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Ice
+      Spikes</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.AR1DIzX5Ouppp9au"
+      data-id="AR1DIzX5Ouppp9au" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Jumping
+      Jolt</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.zxrurVQ2q5pEqkSH"
+      data-id="zxrurVQ2q5pEqkSH" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Suffocate</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong>5th
+      Level</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true" data-pack="dnd5e.spells"
+      data-uuid="Compendium.dnd5e.spells.RpKjTlYASrfqUPVA"
+      data-id="RpKjTlYASrfqUPVA"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Cone
+      of Cold</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.RKEC4m1y7DnE3XgF"
+      data-id="RKEC4m1y7DnE3XgF" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Fissure</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.RY8wvL8hhn0XKMh5"
+      data-id="RY8wvL8hhn0XKMh5" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Pressure
+      Cutter</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.wzT0FmWpu5oRbHRT"
+      data-id="wzT0FmWpu5oRbHRT" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Sky
+      Burst</a></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><a class="content-link"
+      draggable="true"
+      data-uuid="Compendium.kibbles-casting-compendium.kibbles-casting-compendium.fPaey11cSYIOn9gy"
+      data-id="fPaey11cSYIOn9gy" data-type="Item"
+      data-pack="kibbles-casting-compendium.kibbles-casting-compendium"
+      data-tooltip="Spell Item"
+      style="box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221,
+      221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all">Tornado</a></span></p>
+    chat: ''
+    unidentified: ''
+  source: KCLL
+  identifier: circle-of-elements-druid
+  classIdentifier: druid
+  advancement:
+    - _id: IaMxKbRYTtIlia4Z
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.NKf04c8mz76l2yLV
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.LnoPUmMle0VUbyYM
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.5b65QG0cSB804xvc
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.BpXviwgCfw9nO0xm
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.8UaS6qv6I7X7ZX5S
+          - Compendium.world.kcll-feature-library.xxlW8kRPIfURVRXa
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+    - _id: f8U83sEpC5y4pqUK
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.FS8or106g6tjDGyx
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: bXD2254FNqx0Nfos
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.owMkPKD1thVY9zzZ
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Mh7nogjEEMTTkRWf
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: KpmZnJZIUQxgmdtn
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.world.kcll-feature-library.RDr4ewbQzMtW5t4g
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1678761736284
+  modifiedTime: 1707857103947
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 0
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: QxwCfOeG7HocT359
+_key: '!items!QxwCfOeG7HocT359'
+

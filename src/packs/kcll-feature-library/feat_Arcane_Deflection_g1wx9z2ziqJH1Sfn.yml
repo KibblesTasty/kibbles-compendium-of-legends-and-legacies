@@ -1,0 +1,91 @@
+name: Arcane Deflection
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">At 2nd level, you learn
+      the @UUID[Compendium.dnd5e.spells.z1mx84ONwkXKUZd7]{Shield}<em
+      style="box-sizing:border-box;user-select:text"> </em>spell, incorporating
+      it into your Aegis, allowing you to cast it without components, and
+      allowing you to cast it without expending a spell slot once, after which
+      you must expend a spell slot as normal until you complete a short or long
+      rest.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.2Na5I45WqOzFqW4h
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682455252146
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 52600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: g1wx9z2ziqJH1Sfn
+_key: '!items!g1wx9z2ziqJH1Sfn'
+

@@ -1,0 +1,127 @@
+name: Graceful Entrance
+type: feat
+img: icons/skills/movement/feet-winged-sandals-tan.webp
+effects:
+  - _id: pVhoEUNuBRA6EaEp
+    changes:
+      - key: system.attributes.init.value
+        mode: 2
+        value: '@abilities.cha.mod'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    icon: icons/skills/movement/feet-winged-sandals-tan.webp
+    label: Graceful Entrace
+    origin: Item.93HlrlpAK9Ql2OBW
+    transfer: true
+    flags: {}
+    tint: null
+    _key: '!items.effects!VITdDEsyO4tGfiOX.pVhoEUNuBRA6EaEp'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.93HlrlpAK9Ql2OBW
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you can give yourself a bonus to your initiative
+      rolls equal to your Charisma modifier. Additionally when you roll
+      initiative and are not surprised, you can move up to your half movement
+      speed, and you and any creature you end this movement within 5 feet of
+      gains temporary hit points equal to your Charisma modifier.</p>
+    chat: ''
+    unidentified: ''
+  source: Dancer
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: 15
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: cha
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@mod'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742577863
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 39900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: VITdDEsyO4tGfiOX
+_key: '!items!VITdDEsyO4tGfiOX'
+

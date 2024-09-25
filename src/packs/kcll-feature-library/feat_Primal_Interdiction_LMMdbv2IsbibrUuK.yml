@@ -1,0 +1,112 @@
+name: Primal Interdiction
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1pCQXOYIsdxlglpm
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, nature hinders your foes with aspects of your
+      primal power. This effect has a 5 foot radius centered on you, turning the
+      ground within range into difficult terrain for creatures of your
+      choice.</p><p>Additionally, at the end of your turn, you can choose to
+      recklessly defend your allies within this area at the cost of your own
+      safety, giving attacks against you advantage, and giving attacks against
+      allies within the effect disadvantage if you are also in range of the
+      attack being made (or have been at any point since the start of the
+      attacker's turn) and not behind total cover.</p><p>The range of this
+      effect increases by 5 feet at 5th level (to 10 feet), and again at 11th
+      level (to 15 feet), and 17th level (to 20 feet).</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: none
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 2
+  recharge:
+    value: null
+    charged: false
+  attunement: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742818844
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 28800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: LMMdbv2IsbibrUuK
+_key: '!items!LMMdbv2IsbibrUuK'
+

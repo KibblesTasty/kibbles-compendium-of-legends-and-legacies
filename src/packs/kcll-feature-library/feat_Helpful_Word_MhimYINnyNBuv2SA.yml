@@ -1,0 +1,94 @@
+name: Helpful Word
+type: feat
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.J3OOXTuCIq5kMQQw
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can spend a Leadership Die to take the Help
+      action. When you use the Help action to aid an ally in attacking a
+      creature, the target of that attack can be within 30 feet of you, rather
+      than within 5 feet of you, if your ally can see or hear you.</p>
+    chat: ''
+    unidentified: ''
+  source: Warlord
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742581085
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 31100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: MhimYINnyNBuv2SA
+_key: '!items!MhimYINnyNBuv2SA'
+

@@ -1,0 +1,113 @@
+name: Control the Field
+type: feat
+img: icons/tools/navigation/map-marked-black.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.k8Su9n7oS8wVx1jK
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, when you use an ability that moves allied
+      creatures (such as Urgent Orders or Shift the Field), it gains the
+      following properties:</p>
+
+      <ul>
+
+      <li><strong>Deceptive Movement: </strong>You can attempt to move creatures
+      that are not allies up to 5 feet (or half their movement speed, whichever
+      is less). The creature must make an Intelligence Saving Throw with a DC of
+      8 + your Intelligence modifier + your Proficiency bonus, or feel compelled
+      to move to the new position immediately. Targets moved this way do not
+      gain temporary hit points.</li>
+
+      <li><strong>Flanking Maneuvers:</strong> If two allies you move are on
+      opposite sides of a creature after the movement you grant, the first one
+      to attack that enemy has advantage on their first attack if they attack
+      before the creature moves.</li>
+
+      <li><strong>Coordinated Transitions:</strong> Allies can move through each
+      other's spaces during the movement you grant without it being difficult
+      terrain.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Tactician
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Tactician 7
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742533447
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 51500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: fIlXcmJ0e4yUwzfA
+_key: '!items!fIlXcmJ0e4yUwzfA'
+

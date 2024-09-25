@@ -1,0 +1,95 @@
+name: Concealed Approach
+type: feat
+img: icons/magic/nature/stealth-hide-eyes-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.hyCsKgdwoWh1fzvD
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, if you have at least a minute to prepare, you
+      can add your Wisdom modifier to a Dexterity (Stealth) check for you and up
+      five friendly creatures. You and friendly creatures within 30 feet of you
+      that roll for initiative while hidden can add your Wisdom modifier to the
+      initiative result.</p>
+    chat: ''
+    unidentified: ''
+  source: Packleader
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Packleader 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742532221
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 28700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: LHcQclh8KQBKKKJs
+_key: '!items!LHcQclh8KQBKKKJs'
+

@@ -1,0 +1,103 @@
+name: Magical Sensitivity
+type: feat
+img: icons/magic/perception/eye-slit-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RWVmm1zRnsmLrVs5
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Additionally at 14th level, you learn the detect magic spell, and it
+      does not count against your spells known, and the detect magic spell no
+      longer requires concentration for you.</p>
+
+      <p>For the duration of detect magic, you gain proficiency in the Arcana
+      skill. If you are already proficient in the arcana skill, for the duration
+      you gain expertise, allowing you to add double your proficiency bonus to
+      ability checks made using the Arcana skill.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 14
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678743007060
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 16400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 9OkvP0zYe4JxB2uB
+_key: '!items!9OkvP0zYe4JxB2uB'
+

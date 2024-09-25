@@ -1,0 +1,126 @@
+name: Circle Spells
+type: feat
+img: icons/magic/nature/elemental-plant-humanoid.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.ueV11XdpCwkIRUNn
+system:
+  description:
+    value: "<h3 id=\"druid-circle-circle-of-growth-circle-spells\">Circle Spells</h3>\n<p>At 2nd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Growth Spells table. Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</p>\n<table style=\"width:98.533%;height:104px\">\n<thead>\n<tr style=\"height:16px\">\n<th style=\"width:26.0546%;height:16px\">Druid Level</th>\n<th style=\"width:73.201%;height:16px\">Circle Spells</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:20px\">\n<td style=\"width:26.0546%;height:20px\">2nd</td>\n<td style=\"width:73.201%;height:20px\"><em>bramble binding<sup>K</sup>,\_entangle</em></td>\n</tr>\n<tr style=\"height:20px\">\n<td style=\"width:26.0546%;height:20px\">3rd</td>\n<td style=\"width:73.201%;height:20px\"><em>barkskin,\_sprout tree<sup>K</sup></em></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:26.0546%;height:16px\">5th</td>\n<td style=\"width:73.201%;height:16px\"><em>plant growth,\_speak with plants</em></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:26.0546%;height:16px\">7th</td>\n<td style=\"width:73.201%;height:16px\"><em>grasping vine,\_guardian of nature</em></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:26.0546%;height:16px\">9th</td>\n<td style=\"width:73.201%;height:16px\"><em>tree stride,\_wrath of nature</em></td>\n</tr>\n</tbody>\n</table>"
+    chat: ''
+    unidentified: ''
+  source: Circle of Growth
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Growth 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741922702
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 56700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: jXacu5qZ6wGVW54x
+_key: '!items!jXacu5qZ6wGVW54x'
+

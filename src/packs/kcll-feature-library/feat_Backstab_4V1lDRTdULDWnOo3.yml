@@ -1,0 +1,94 @@
+name: Backstab
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RIiLCtYxTGe5OaYV
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you are pragmatic and deadly in eliminating your
+      foes. You have advantage on attack rolls against any creature that hasn't
+      taken a turn in the combat yet, or when an allied creature within 5 feet
+      of the target is directly on the other side of a creature.</p>
+    chat: ''
+    unidentified: ''
+  source: Cutthroat
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cutthroat 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741753256
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 10100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 4V1lDRTdULDWnOo3
+_key: '!items!4V1lDRTdULDWnOo3'
+

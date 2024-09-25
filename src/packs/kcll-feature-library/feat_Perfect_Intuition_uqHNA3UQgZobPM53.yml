@@ -1,0 +1,103 @@
+name: Perfect Intuition
+type: feat
+img: icons/creatures/eyes/human-single-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: Wisdom Bonus
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0bJ3MMqZBwzqX9MH
+  rsr5e:
+    quickOther:
+      context: ''
+      value: true
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p><span style="color:#191813;font-size:12px">When you make a Wisdom
+      saving throw or ability check, you can expend a focus die to add it to the
+      roll. When you do this with the Search action, you can take the Search
+      action as a bonus action.</span></p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: none
+    cost: 1
+    condition: When you make a Wisdom saving throw or ability check.
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d8
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741861642
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 68900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: uqHNA3UQgZobPM53
+_key: '!items!uqHNA3UQgZobPM53'
+

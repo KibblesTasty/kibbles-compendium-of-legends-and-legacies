@@ -1,0 +1,108 @@
+name: 'Rite: Blood Magic'
+type: feat
+img: icons/skills/wounds/blood-cells-vessel-red-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ZViK5zUq6Rh75EA5
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Blood Rituals</em></p>
+
+      <p>You can sacrifice the blood of living creatures to power spells. When
+      you cast a spell, instead of expending a spell slot, you can sacrifice
+      blood to power the spell, sacrificing one hit die per level of spell you
+      cast, rolling them and taking damage equal to the number rolled. Willing
+      creatures within 10 feet can use their reaction to contribute blood to the
+      spell, sacrificing hit dice by rolling them and taking necrotic damage
+      equal to the number rolled. All sacrificed hit dice are added together to
+      the level of the spell you can cast.</p>
+
+      <p>Creatures that lose hit points in this way cannot regain those hit
+      points until they complete a long rest.</p>
+
+      <p>You can cast a total number of spell levels in this manner equal to
+      your Occultist level. You regain all levels of usage of this rite when you
+      complete a long rest. Some spells (marked as blood magic) can only be cast
+      via blood magic using this rite.</p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 5
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742355379
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 62000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: nrw5IaGvs9flWUbH
+_key: '!items!nrw5IaGvs9flWUbH'
+

@@ -1,0 +1,133 @@
+name: 'Channel Divinity: Bear the Burden'
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': Self Temporary Hit Points
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.AM9wNIuD4AGTyB4N
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    consumeUses:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, you can use your Channel Divinity to bring all
+      the suffering your allies suffer onto yourself.</p>
+
+      <p>As an action, you present your holy symbol and enter a divine trance.
+      Until the start of your next turn, your movement speed becomes zero and
+      you gain temporary hit points equal to twice your Cleric level. Any time
+      an allied creature within 30 feet of you takes damage, they have
+      resistance to the damage take, but you take damage equal to the damage
+      they take.</p>
+    chat: ''
+    unidentified: ''
+  source: Martyr
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classes.cleric.levels * 2'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Martyr 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742018971
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 43100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: XuEWtvQ8pxgNdHmx
+_key: '!items!XuEWtvQ8pxgNdHmx'
+

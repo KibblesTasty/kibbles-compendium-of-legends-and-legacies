@@ -1,0 +1,88 @@
+name: Armor Bond
+type: feat
+img: icons/equipment/chest/breastplate-layered-steel-green.webp
+system:
+  description:
+    value: >-
+      <p>As an action, you can touch a set of metal armor worn by a creature of
+      your choice (including yourself) and fortify it. The creature gains
+      temporary hit points equal to 1d8 + your Warden level. Once you use this
+      ability, you cannot use it again until you complete a short or long rest.
+      Any temporary hit points remaining from this feature fade when you use it
+      again.</p>
+    chat: ''
+    unidentified: ''
+  source: Ironbound
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ironbound 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.rNDyo9dCv7DE8wDf
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681519348068
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 64400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: qEzOAfUIFu6YyYly
+_key: '!items!qEzOAfUIFu6YyYly'
+

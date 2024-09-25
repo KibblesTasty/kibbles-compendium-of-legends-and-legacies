@@ -1,0 +1,97 @@
+name: 'Rite: Spirit Sense'
+type: feat
+img: icons/creatures/magical/spirit-undead-masked-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PkAB0Ej7FTWq9ZB4
+system:
+  description:
+    value: >-
+      <p>You gain the ability to gaze into the spiritual world around you. As an
+      action, you can gain a special site that lasts 1 minute. While under the
+      effect of this special sight, you blind beyond 30 feet, but within 30 feet
+      you can see into the ethereal plane. Within this sight range you have
+      advantage on ability checks and saving throws to detect and see through
+      illusions, find invisible creatures, or see the true nature of transformed
+      creatures.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742381170
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 54500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: hp9bwAroktP0CANq
+_key: '!items!hp9bwAroktP0CANq'
+

@@ -1,0 +1,126 @@
+name: Elemental Magic
+type: feat
+img: icons/magic/fire/flame-burning-earth-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.OEmuJTbBEqK176W1
+system:
+  description:
+    value: "<h4 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic\">Elemental Magic</h4>\n<h4 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-acid-black-copper\"><em>Prerequisite: Dragon patron, Pact of the Tome</em></h4>\n<p>You gain the following spells at the following levels based on the damage type selected for the Draconic Blast. They are warlock spells for you, and do not count against your spells known.</p>\n<h4 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-acid-black-copper\">Acid (Black / Copper)</h4>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>caustic brew</em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>acid arrow</em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>erode<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>vitriolic sphere</em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>acid rain<sup>K</sup></em></td>\n</tr>\n</tbody>\n</table>\n<section id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-lightning-blue-bronze\">\n<h5 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-lightning-blue-bronze\">Lightning (Blue / Bronze)</h5>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>lightning tendril<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>crackle<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>lightning bolt</em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>jumping jolt<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>sky burst<sup>K</sup></em></td>\n</tr>\n</tbody>\n</table>\n</section>\n<section id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-fire-red-gold-brass\">\n<h5 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-fire-red-gold-brass\">Fire (Red / Gold / Brass)</h5>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>burning hands</em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>aganazar's scorcher</em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>fireball</em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>wall of fire</em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>immolation</em></td>\n</tr>\n</tbody>\n</table>\n</section>\n<section id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-poison-green\">\n<h5 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-poison-green\">Poison (Green)</h5>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>bad blood<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>poison dart<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>stinking cloud</em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>poison puff<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>cloudkill</em></td>\n</tr>\n</tbody>\n</table>\n<div>\_</div>\n</section>\n<section id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-white-silver\">\n<h5 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-white-silver\">White / Silver</h5>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>arctic breath</em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>cold snap<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>flash freeze<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>ice storm</em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>cone of cold</em></td>\n</tr>\n</tbody>\n</table>\n<p>K\_Spells marked with the\_K\_are part of Kibbles' Generic Elemental Spells, a free expansion to 5e spells introducing more elemental spells.</p>\n</section>"
+    chat: ''
+    unidentified: ''
+  source: The Dragon
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Dragon
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741884755
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 35300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: QVLC03fG5psTtJFM
+_key: '!items!QVLC03fG5psTtJFM'
+

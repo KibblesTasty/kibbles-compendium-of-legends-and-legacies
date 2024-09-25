@@ -1,0 +1,100 @@
+name: 'Oracle Rite: Truth of Death'
+type: feat
+img: icons/magic/death/grave-tombstone-glow-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.sBlW9zsXVJ8Dnmaj
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Mystery of Death</em></p><p>The march of death is
+      inexorable. Necrotic damage you deal ignores resistance to Necrotic
+      damage, and treats immunity as resistance, and leaves the touch of death
+      on the target until the start of your next turn. While under the Touch of
+      Death, any hit points the target regains is halved (rounded down).</p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742344428
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 49200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: df8v2up4LxrAlctk
+_key: '!items!df8v2up4LxrAlctk'
+

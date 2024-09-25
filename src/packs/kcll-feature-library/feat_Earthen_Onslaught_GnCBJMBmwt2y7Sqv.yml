@@ -1,0 +1,100 @@
+name: Earthen Onslaught
+type: feat
+img: icons/magic/earth/strike-fist-stone-light.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.eSEUck4R27iTb1Yd
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, while empowered by your Strength of Stone, you
+      can attack twice, instead of once, whenever you take the Attack
+      action.</p><p>Additionally, when you cast a spell using your action, you
+      can expend 1 sorcery point to make a single melee weapon attack as a bonus
+      action.</p>
+    chat: ''
+    unidentified: ''
+  source: Stoneheart
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneheart 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741822080
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 25000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: GnCBJMBmwt2y7Sqv
+_key: '!items!GnCBJMBmwt2y7Sqv'
+

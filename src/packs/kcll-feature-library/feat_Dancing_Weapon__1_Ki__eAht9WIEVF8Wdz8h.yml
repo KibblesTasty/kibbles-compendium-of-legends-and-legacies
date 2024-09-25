@@ -1,0 +1,96 @@
+name: Dancing Weapon (1 Ki)
+type: feat
+img: icons/skills/melee/sword-twirl-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.oAKm82nIh8QNngJ1
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you infuse a monk weapon you are holding with ki
+      causing it to animate with your will. For 1 minute or until you end the
+      effect (no action required), when you make an attack as part of the attack
+      action, you can attack with it as if you were holding it, causing it to
+      fly up to 30 feet before striking a target. It returns to your side after
+      making any attacks made this way.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742050743
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 49900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: eAht9WIEVF8Wdz8h
+_key: '!items!eAht9WIEVF8Wdz8h'
+

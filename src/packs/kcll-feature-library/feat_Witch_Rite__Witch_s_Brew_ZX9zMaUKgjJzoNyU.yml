@@ -1,0 +1,101 @@
+name: 'Witch Rite: Witch''s Brew'
+type: feat
+img: icons/consumables/potions/potion-flask-corked-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.vbJBRPAj63bBJgHQ
+system:
+  description:
+    value: >-
+      <p>During a short or long rest, you can infuse a spell with a casting time
+      of one action or bonus action into a concoction, expending the spell slot
+      on completion of the rest.</p>
+
+      <p>This spell can subsequently be cast by anyone carrying the potion by
+      drinking the potion as an action, with the drinker as the target, acting
+      as the caster of the spell, but using the Witch's spell casting ability
+      modifier.</p>
+
+      <p>The potion remains potent until you complete a long rest and recharge
+      the spell slot expended to create the potion.</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742452364
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 44400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: ZX9zMaUKgjJzoNyU
+_key: '!items!ZX9zMaUKgjJzoNyU'
+

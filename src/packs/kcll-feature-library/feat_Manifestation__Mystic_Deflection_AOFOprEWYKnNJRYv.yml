@@ -1,0 +1,114 @@
+name: 'Manifestation: Mystic Deflection'
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+effects:
+  - _id: q8PD6aeblrXJN2lt
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    icon: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+    label: Mystic Reinforcement
+    origin: Item.aYQOqhLJh7caCYLR
+    transfer: true
+    flags: {}
+    tint: null
+    _key: '!items.effects!AOFOprEWYKnNJRYv.q8PD6aeblrXJN2lt'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.aYQOqhLJh7caCYLR
+system:
+  description:
+    value: >-
+      <p>Your AC is increased by 1 while you are wearing light or medium
+      armor.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742781935
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 17500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: AOFOprEWYKnNJRYv
+_key: '!items!AOFOprEWYKnNJRYv'
+

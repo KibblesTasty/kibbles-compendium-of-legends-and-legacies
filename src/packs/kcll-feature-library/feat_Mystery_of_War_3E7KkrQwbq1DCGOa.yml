@@ -1,0 +1,95 @@
+name: Mystery of War
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.dFSy1hURWx4ZVEUi
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: "<p>Your understanding of the nature of war unlocks its secrets for you. You gain proficiency with martial weapons and shields. You learn the following spells at the following levels.</p><table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\"><tbody><tr><td style=\"text-align:center\"><strong>Occultist Level</strong></td><td style=\"text-align:center\"><strong>Spells Learned</strong></td></tr><tr><td style=\"text-align:center\">1st</td><td style=\"text-align:center\">\_@UUID[Compendium.world.spells-all.2TmUt0k0GW6QNQ3Z]{Bless}</td></tr><tr><td style=\"text-align:center\">3rd</td><td style=\"text-align:center\">@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.wORzndtyR5yza7Je]{Iron Wind Strike}</td></tr><tr><td style=\"text-align:center\">5th</td><td style=\"text-align:center\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.3zqoG8lXKut9m1RL]{Whirling Conflagration}</td></tr><tr><td style=\"text-align:center\">7th</td><td style=\"text-align:center\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.kX1BmIiM5IAhvjK3]{Dimension Cutter}</td></tr><tr><td style=\"text-align:center\">9th</td><td style=\"text-align:center\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.SLgu4ROL6hWHfGX1]{Flickering Strikes}</td></tr></tbody></table>"
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742274402
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 8300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 3E7KkrQwbq1DCGOa
+_key: '!items!3E7KkrQwbq1DCGOa'
+

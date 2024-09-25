@@ -1,0 +1,118 @@
+name: Primordial Avatar
+type: feat
+img: icons/magic/earth/construct-stone.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.i8fbRzHrVmZDtvbQ
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, as an action you draw on the strength of the
+      world beneath your feet to become an embodiment of its power for 1 minute.
+      If you start your turn in contact with the ground you gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li>You have advantage on Strength checks and saving throws.</li>
+
+      <li>You regain hit points equal to your Warden level.</li>
+
+      <li>Creatures lose their flying speed in range of your Primal
+      Interdiction.</li>
+
+      <li>If you are targeted by a magic missile, a line spell, or a spell that
+      requires a ranged attack roll, roll a d6. On a 4-5 you are uneffected. On
+      a 6, you are uneffected and the effect is reflected back at the caster as
+      though it originized from you, turning the cast into the target.</li>
+
+      <li>You can add number of bonus dice to your Seismic Reverberation pool
+      equal to your proficiency bonus, up to a maximum of of your Warden
+      level.</li>
+
+      </ul>
+
+      <p>Once you use this feature, you cannot use it again until you complete a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Stoneblood
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneblood 17
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742829514
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 14100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 84CvdbfHvXPv6xf1
+_key: '!items!84CvdbfHvXPv6xf1'
+

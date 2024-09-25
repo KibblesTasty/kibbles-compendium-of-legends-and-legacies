@@ -1,0 +1,102 @@
+name: One with the Waves
+type: feat
+img: icons/magic/water/elemental-water.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RxyjLTfGPtTjGtcy
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, you learn the
+      @Compendium[kibbles-generic-spells.kibbles-generic-spells.iINyBglF47J9FMhL]{Form
+      of Water} spell. If you already know the form of water spell, you can
+      learn one additional spell of 6th level or lower. This spell does not
+      count against your spells known. You form of water does not require
+      concentration for you, though you can end it early at any time (no action
+      required). You can cast it by expending 4 sorcery points in place of a
+      spell slot.</p>
+
+      <p>While in the watery form granted by the form of water spell, the
+      sorcery point cost of all Metamagic options is reduced by 1 for all spells
+      that control or manipulate water or ice.</p>
+    chat: ''
+    unidentified: ''
+  source: Sea Soul
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sea Soul 18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741840570
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 28600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: L8PGydsfr2vlAPIr
+_key: '!items!L8PGydsfr2vlAPIr'
+

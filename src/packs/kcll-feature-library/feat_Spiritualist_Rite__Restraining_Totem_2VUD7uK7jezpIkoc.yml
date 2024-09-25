@@ -1,0 +1,83 @@
+folder: null
+name: 'Spiritualist Rite: Restraining Totem'
+type: feat
+img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Grappling Totem)</em></p><p>Your Grappling Totem
+      restrains creatures while they are grappled by it.</p>
+    chat: ''
+    unidentified: ''
+  source: Spiritualist
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spiritualist
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693772577044
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: 2VUD7uK7jezpIkoc
+sort: 1300000
+_key: '!items!2VUD7uK7jezpIkoc'
+

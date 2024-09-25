@@ -1,0 +1,85 @@
+folder: null
+name: 'Voidwatcher Rite: Piercing Gaze'
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 15th level Voidwatcher)</em></p><p>If a creature
+      ends its turn within the cone of sight of one the eyes created by They
+      Watch, it has disadvantage on saving throws against your spells until the
+      start of its next turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Voidwatcher
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: 15th level Voidwatcher
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693767610474
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: ahCohC4eu1489LM0
+sort: 4800000
+_key: '!items!ahCohC4eu1489LM0'
+

@@ -1,0 +1,102 @@
+name: 'Shaman Rite: Detonate Spirit'
+type: feat
+img: icons/magic/fire/barrier-shield-explosion-yellow.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">As an action you can
+      detonate a manifested spirit, causing it to erupt in a flare of power. All
+      creatures within 10 feet of the spirit must make a Dexterity saving throw.
+      A creature takes damage equal to twice the spirit's manifested damage on a
+      failed saving throw, or half as much damage on a successful one if the
+      spirit was empowered with a spell slot. The spirit is immediately released
+      and disappears.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Shaman
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d4
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman Rite
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  core:
+    sourceId: Item.U4eAiLfz1oIy2fIK
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682446685149
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 28400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: KuooQ06rQOC5OYrr
+_key: '!items!KuooQ06rQOC5OYrr'
+

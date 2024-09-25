@@ -1,0 +1,85 @@
+name: Where it Hurts
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  description:
+    value: >-
+      <p>At 11th level, when you use Stunning Strike on a critical hit or on an
+      attack made against an enemy that was unaware of you, the target has
+      disadvantage on their saving throw against being stunned.</p>
+    chat: ''
+    unidentified: ''
+  source: Way of the Outcast 3
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Outcast 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.PaTsIImRCnBwUSeH
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667084265501
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 29400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Lke7QE6zi5TJJAfE
+_key: '!items!Lke7QE6zi5TJJAfE'
+

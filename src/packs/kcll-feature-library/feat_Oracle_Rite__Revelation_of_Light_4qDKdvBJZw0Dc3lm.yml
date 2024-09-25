@@ -1,0 +1,106 @@
+name: 'Oracle Rite: Revelation of Light'
+type: feat
+img: icons/magic/light/beam-explosion-orange.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text">(Prerequisite: Mystery of
+      Light)</em></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">You grasp that looking into the
+      light blinds as surely as looking away from it. When you cast <em
+      style="box-sizing:border-box;user-select:text">prismatic flash</em> or a
+      1st level spell or higher spell that shreds 5 feet or more or bright
+      light, as a bonus action you can force one creature within 30 feet of the
+      light to make a Dexterity saving throw, or become blinded until the start
+      of your next turn.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">A creature is unaffected by this
+      effect if it can't see, if it relies on senses other than sight, such as
+      blindsight, or if it can perceive illusions as false, as with
+      truesight.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Mystery of Light
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+  core:
+    sourceId: Item.k72682gYB9RjTtyj
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682444944727
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 10600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 4qDKdvBJZw0Dc3lm
+_key: '!items!4qDKdvBJZw0Dc3lm'
+

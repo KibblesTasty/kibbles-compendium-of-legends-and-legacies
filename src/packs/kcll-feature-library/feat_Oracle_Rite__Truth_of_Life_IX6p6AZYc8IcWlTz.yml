@@ -1,0 +1,118 @@
+name: 'Oracle Rite: Truth of Life'
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.XwnaKUQH4ZNMsUvM
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Mystery of Life</em></p><p>The breath of life is
+      shared by all creatures. When a creature dies within 60 feet of you, you
+      can use your reaction to transfer some of that dispersing life force to
+      another creature within 60 feet of you (including yourself). The target
+      creature gains hit points equal to your Wisdom modifier, or the maximum
+      hit points of the creature (whichever was lower).</p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@mod'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742346648
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 26500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: IX6p6AZYc8IcWlTz
+_key: '!items!IX6p6AZYc8IcWlTz'
+

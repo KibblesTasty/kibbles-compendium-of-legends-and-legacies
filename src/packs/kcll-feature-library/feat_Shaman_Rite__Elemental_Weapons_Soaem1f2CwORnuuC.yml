@@ -1,0 +1,95 @@
+name: 'Shaman Rite: Elemental Weapons'
+type: feat
+img: icons/magic/fire/flame-burning-fist-strike.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.bOdAwQifiSjLgB2K
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: fists of fire or ice weapon cantrip</em></p>
+
+      <p>When you create a weapon with fists of fire or ice weapon the damage
+      die of the weapon is increased by one size (for example, from a d6 to a
+      d8).</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742386969
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 37100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Soaem1f2CwORnuuC
+_key: '!items!Soaem1f2CwORnuuC'
+

@@ -1,0 +1,87 @@
+name: Corrosive Conduit
+type: feat
+img: icons/creatures/slimes/slime-face-skull-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 6th level,
+      you can easily channel the melting powers of your patron. You have
+      resistance to acid damage, and when you cast a spell that deals acid, you
+      can add your Charisma modifier to the damage roll of that
+      spell.</span></p>
+    chat: ''
+    unidentified: ''
+  source: The Ooze
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Ooze 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.wDX52NYiI2f3PwyH
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1683756636880
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 45400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: aRaihD6lC5tQn81q
+_key: '!items!aRaihD6lC5tQn81q'
+

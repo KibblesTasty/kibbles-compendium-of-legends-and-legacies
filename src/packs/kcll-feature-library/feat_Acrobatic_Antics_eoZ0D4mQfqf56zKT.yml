@@ -1,0 +1,103 @@
+name: Acrobatic Antics
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 6th level,
+      your acrobatic mastery gives you proficiency in Acrobatics. If you already
+      have proficiency in Acrobatics, you can select another skill of your
+      choice to gain proficiency in. You can use your acrobatic foolery to
+      tumble around the most dangerous places safely. You gain the following
+      benefits:</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">You gain a climbing speed of 20
+      feet, falls of 20 feet or less deal no damage to you, and you can choose
+      to land on your feet.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">As a bonus action, you can leap
+      and tumble, spending up to 10 feet of movement while ignoring difficult
+      terrain, not provoking opportunity attacks, and moving through creatures'
+      spaces (including hostile creatures).</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">You gain advantage on a save or
+      ability check to avoid falling.</span></li></ul>
+    chat: ''
+    unidentified: ''
+  source: College of Fools
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: College of Fools 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.ZPgbsQjLoeNCCarE
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681848347412
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 50700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: eoZ0D4mQfqf56zKT
+_key: '!items!eoZ0D4mQfqf56zKT'
+

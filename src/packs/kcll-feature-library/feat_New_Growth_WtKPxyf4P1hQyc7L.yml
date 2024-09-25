@@ -1,0 +1,107 @@
+name: New Growth
+type: feat
+img: icons/magic/nature/tree-spirit-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.9P3qm9A4Jq9gpUhT
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, as an action, you can cause a tree to sprout
+      from the ground at a point within 30 feet of you that morphs into a
+      tree-like-clone of you. It shares all of your statistics and abilities,
+      and is under your control, but has its own actions. It is under your
+      control, and acts immediately after you in initiative.</p>
+
+      <p>It has hit points equal to half your maximum hit points. It is in Tree
+      Form, and cannot end the effect of that ability. It lasts for 1 minute, or
+      until it is reduced to 0 hit points. If you die while it exists, you
+      become the tree clone, after which you can end the Tree Form as
+      normal.</p>
+
+      <p>Once you use this feature, you cannot use it again until you complete a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Elderheart
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elderheart 18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742808384
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 41900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: WtKPxyf4P1hQyc7L
+_key: '!items!WtKPxyf4P1hQyc7L'
+

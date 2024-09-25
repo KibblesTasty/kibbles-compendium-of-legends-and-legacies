@@ -1,0 +1,148 @@
+name: Primal Flare
+type: weapon
+img: icons/magic/fire/flame-burning-fist-strike.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.dLDnNmmqJNRpbbDQ
+system:
+  description:
+    value: >-
+      <p>You conjure flames around one of your hands. This becomes a one handed
+      natural melee weapon that deals 1d6 fire damage on hit, and has the Light,
+      Thrown (30/90), and Special properties. It sheds 20 feet of bright light
+      and an additional 20 feet of dim light while manifested.</p>
+
+      <p><strong>Special:</strong> This weapon counts as a free hand for the
+      purposes of grappling. When you succeed a grapple check with it, the
+      target takes 1d6 fire damage. When you throw it, the flames reignite in
+      your hand immediately.</p>
+    chat: ''
+    unidentified: ''
+  source: Elemental Soul
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: 90
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: false
+    lod: false
+    mgc: false
+    rch: false
+    rel: false
+    ret: false
+    sil: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+  proficient: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742817728
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 20600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Cuc92BzjS2jUiuh5
+_key: '!items!Cuc92BzjS2jUiuh5'
+

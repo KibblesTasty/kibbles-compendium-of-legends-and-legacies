@@ -1,0 +1,87 @@
+name: Fool's Fumble
+type: feat
+img: icons/skills/social/thumbsup-approval-like.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Also at 3rd level, when
+      you fail an ability check or attack roll, you can expend a use of Bardic
+      Inspiration to fail to pass it off as an intentional failure, recovering
+      in spectacular fashion. When you do so, reroll the check and add your
+      Bardic Inspiration to the result.</span></p>
+    chat: ''
+    unidentified: ''
+  source: College of Fools
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: College of Fools 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.gBx2cjar3PmRCuTO
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681848337026
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 63200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: pJeZkcjohY1b4wVJ
+_key: '!items!pJeZkcjohY1b4wVJ'
+

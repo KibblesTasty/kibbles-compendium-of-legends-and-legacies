@@ -1,0 +1,99 @@
+name: Unlimited Surges
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.Yeo5eJJgVpS8g5i0
+system:
+  description:
+    value: >-
+      <p>Starting at 20th level, you can enter a state of perfect arcane
+      resonance for 1 minute (no action required). During this state the first
+      Arcane Surge you use on your turn does not consume a use of your Arcane
+      Surge feature.</p>
+    chat: ''
+    unidentified: ''
+  source: Battlemage
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Battlemage 20
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678743035568
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 45100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: aGLi6Ns5eUxHd91Q
+_key: '!items!aGLi6Ns5eUxHd91Q'
+

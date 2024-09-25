@@ -1,0 +1,104 @@
+name: Massive Blade
+type: feat
+img: icons/magic/light/beam-rays-magenta-large.webp
+effects: []
+flags:
+  core:
+    sourceId: Item.pnmJ4vRKKpm3FbdH
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 20th level, you can overcharge your Aethersword for 1
+      minute (no action required). For the duration, when you attack with your
+      Aethersword, you ignore all non-magical armor and defenses to treat the
+      target's AC as 10 + their dexterity for that attack (magical defenses like
+      mage armor or shield are not bypassed). While attacking in this way with
+      your Aethersword, your attacks can target up to 2 creatures as long as
+      they are within 10 feet of each other, though if an attack triggers a
+      spell through Spellstrike, it does not effect the second target unless the
+      spell can target multiple creatures.</p>
+    chat: ''
+    unidentified: ''
+  source: Aethersword
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aethersword 20
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678743009616
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 38300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: TztBNCoEttS6SRnL
+_key: '!items!TztBNCoEttS6SRnL'
+

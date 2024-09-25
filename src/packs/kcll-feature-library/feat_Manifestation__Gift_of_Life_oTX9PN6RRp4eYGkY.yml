@@ -1,0 +1,108 @@
+name: 'Manifestation: Gift of Life'
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+        '1': ''
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.DZV3o13YlqGjO8ha
+system:
+  description:
+    value: >-
+      <p>As an action, you can expend an Endurance Die to heal a creature you
+      touch for 1 hit point and give them a number of temporary hit points equal
+      to a roll of your Endurance die + your Wisdom modifier.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: wis
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '1'
+        - healing
+      - - 1d12 + @mod
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742776818
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 62600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: oTX9PN6RRp4eYGkY
+_key: '!items!oTX9PN6RRp4eYGkY'
+

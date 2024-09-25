@@ -1,0 +1,103 @@
+name: Vaulting Strike (1 Ki)
+type: feat
+img: icons/skills/movement/arrow-upward-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.aUDFwXVDxiwloDb6
+system:
+  description:
+    value: >-
+      <p>When you hit a target with an attack, you can expend a ki point to deal
+      additionally damage to the target equal to your Martial Arts die and leap
+      over the target, landing in an occupied space adjacent to them.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1@scale.monk.die
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742072948
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 40600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Vq3Hv5SPvajmrn1C
+_key: '!items!Vq3Hv5SPvajmrn1C'
+

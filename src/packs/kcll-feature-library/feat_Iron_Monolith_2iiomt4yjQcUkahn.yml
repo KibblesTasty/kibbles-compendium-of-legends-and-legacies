@@ -1,0 +1,92 @@
+name: Iron Monolith
+type: feat
+img: icons/equipment/chest/breastplate-helmet-metal.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, as an action you can empower yourself for 1
+      minute. You gain the following benefits:</p><ul><li><p>Metal weapons are
+      carrying grow larger and more powerful, increasing their damage by 1d8
+      while you wield them.</p></li><li><p>You can generate an unlimited number
+      of chains with Binding Interdiction, and they no longer have any size
+      limit on what they can restrain.</p></li><li><p>You are immune to any
+      effect that would move you against your will or knock you
+      prone.</p></li><li><p>You gain resistance to bludgeoning, piercing, and
+      slashing damage.</p></li></ul><p>Once you use this ability, you cannot use
+      it again until you complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Ironbound
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ironbound 17
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.xg3PTWbepOqflPCA
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681519384822
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 8000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 2iiomt4yjQcUkahn
+_key: '!items!2iiomt4yjQcUkahn'
+

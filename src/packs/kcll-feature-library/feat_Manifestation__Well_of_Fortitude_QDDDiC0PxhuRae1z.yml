@@ -1,0 +1,94 @@
+name: 'Manifestation: Well of Fortitude'
+type: feat
+img: icons/magic/life/heart-shadow-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.T0gNhRanuCNK9tsH
+system:
+  description:
+    value: >-
+      <p>When you complete a short rest, you can roll 1 hit die for free without
+      expending it. You can do this a number of times equal to your proficiency
+      modifier before you need to complete a long rest to do so again, but not
+      more than once per short rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742798550
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 35000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: QDDDiC0PxhuRae1z
+_key: '!items!QDDDiC0PxhuRae1z'
+

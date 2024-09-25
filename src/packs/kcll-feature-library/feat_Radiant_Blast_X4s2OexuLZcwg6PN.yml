@@ -1,0 +1,91 @@
+name: Radiant Blast
+type: feat
+img: icons/magic/light/beam-rays-orange-large.webp
+system:
+  description:
+    value: >-
+      <p>At 1st level, you gain the ability to gather and release fiery radiant
+      power from your hands. Radiant Blasts are a ranged natural weapon attack
+      with a normal range of 60 feet, and a long range of 120 feet, that deal
+      1d6 fire or radiant damage (your choice). If the damage die increases to
+      1d8 (through Warden features that increase the damage of your natural
+      weapons), the damage becomes 1d4 fire damage and 1d4 radiant damage. You
+      choose which damage type to add your modifier to when you deal damage. You
+      can use your Strength or Wisdom (your choice) in place of your Dexterity
+      for the attack and damage rolls of this ability.</p>
+    chat: ''
+    unidentified: ''
+  source: Sunwatcher
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.d5XwwrJjp7tJk3a3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681242930885
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 42100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: X4s2OexuLZcwg6PN
+_key: '!items!X4s2OexuLZcwg6PN'
+

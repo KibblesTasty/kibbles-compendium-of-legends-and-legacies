@@ -1,0 +1,97 @@
+name: Invincible Legion
+type: feat
+img: icons/sundries/flags/banner-symbol-axe-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.tAFcBjIdSLeVdRjw
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, your allies will never fall so long as their
+      symbol of hope remains. When a friendly creature within 60 feet of you is
+      reduced to 0 hit points, but not killed outright, they can drop to 1 hit
+      point instead so long as they can see or hear you.</p>
+
+      <p>Once a creature benefits from this effect, they cannot benefit from it
+      again until they complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Paragon
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paragon 18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742590617
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 23000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: FE5SWkpDGONasEH5
+_key: '!items!FE5SWkpDGONasEH5'
+

@@ -1,0 +1,98 @@
+name: Prepare for Battle
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.w9IFAgbwayiwPwrf
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, you can spend a minute preparing up to five
+      allies for combat. You can expend a number of Leadership Dice up to your
+      per turn limit, rolling them and causing your allies to gain temporary hit
+      points equal to the number rolled. Allies that have benefited from this
+      ability can expend a number of hit dice equal to the number of Leadership
+      Dice you expended, using them as they would during a short rest. Any
+      temporary hit points gained from this last until you complete a short or
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Warlord
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: spec
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: spec
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742625414
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 63500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: pUSUWE8yjV9fAEwP
+_key: '!items!pUSUWE8yjV9fAEwP'
+

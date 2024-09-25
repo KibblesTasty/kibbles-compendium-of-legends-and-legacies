@@ -1,0 +1,112 @@
+name: Sacrificial Casting
+type: feat
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+system:
+  description:
+    value: >-
+      <p style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 3rd level, you gain
+      the Hemomancy, granting you the feature and the included ability to cast
+      Blood Magic spells with your hit points.</span></p><blockquote
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px 0.5em
+      10px;padding:0px 0px 0px 20px;border-left:3px solid
+      var(--color-border-light-tertiary);font-style:italic;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><h4
+      data-anchor="rite:-hemomancy"
+      style="box-sizing:border-box;user-select:text;margin:0px 0px
+      0.5rem;padding:0px;font-weight:normal"><span style="font-family:Signika,
+      sans-serif"><em
+      style="box-sizing:border-box;user-select:text;font-style:normal">Rite:
+      Hemomancy</em></span></h4><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text;font-style:normal">You can
+      sacrifice your essence to cast blood magic spells in place of expending a
+      spell slot. To do so, sacrifice 5 hit points per level of the spell. These
+      hit points sacrificed can count towards the Material component of the
+      spell.</em></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text;font-style:normal">You can
+      cast a total number of spell levels in this manner equal to your Occultist
+      level. You regain all levels of usage of this rite when you complete a
+      long rest.</em></span></p></blockquote>
+    chat: ''
+    unidentified: ''
+  source: Cultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cultist 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.aTkFUvG4bKSMIBgI
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1674455803340
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 19200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: C07iQjPbWyLJ8Kun
+_key: '!items!C07iQjPbWyLJ8Kun'
+

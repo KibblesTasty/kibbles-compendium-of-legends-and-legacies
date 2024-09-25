@@ -1,0 +1,99 @@
+name: 'Oracle Rite: Revelation of Fire'
+type: feat
+img: icons/magic/fire/elemental-fire-humanoid.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.tpIrKyzl5Ivd0s5f
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Mystery of Fire</em></p>
+
+      <p>Your powers draw flames all around you. When you cast a spell of 1st
+      level or higher that deals fire damage, you can shroud yourself in flames
+      until the start of your next turn. You gain you half cover, and any
+      creature that strikes you with a melee weapon or attack or ends their turn
+      within 5 feet of you takes 1d6 fire damage. At the start of your next
+      turn, you take 1 fire damage. A spell can only trigger one revelation. If
+      multiple revelations apply, choose one.</p>
+    chat: ''
+    unidentified: ''
+  source: Oracle
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742289380
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 27200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: JvsAwWoU1P6IeHvG
+_key: '!items!JvsAwWoU1P6IeHvG'
+

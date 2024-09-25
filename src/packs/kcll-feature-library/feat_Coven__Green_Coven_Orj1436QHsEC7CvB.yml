@@ -1,0 +1,95 @@
+name: 'Coven: Green Coven'
+type: feat
+img: icons/equipment/head/hood-green-horns.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RolEQiC0c1cwP570
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: "<table style=\"width:100%\" border=\"1\"><tbody><tr><td style=\"text-align:center;width:25.5453%\"></td></tr></tbody></table><table style=\"box-sizing:border-box;user-select:text;width:618px;border-collapse:collapse;background:rgba(0, 0, 0, 0.05);border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><thead style=\"box-sizing:border-box;user-select:text;background:rgba(0, 0, 0, 0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px var(--color-shadow-dark);border-bottom:1px solid var(--color-border-dark)\"><tr style=\"box-sizing:border-box;user-select:text\"><th id=\"witch_level\" style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">Witch Level</span></th><th id=\"bonus_spells\" style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">Bonus Spells</span></th></tr></thead><tbody style=\"box-sizing:border-box;user-select:text\"><tr style=\"box-sizing:border-box;user-select:text\"><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em 2px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">1st</span></td><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.UH1cftERkiudORAU]{Befuddling Curse},\_@UUID[Compendium.dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}</span></td></tr><tr style=\"box-sizing:border-box;user-select:text;background-color:rgba(255, 255, 255, 0.2)\"><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em 2px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">3rd</span></td><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">@UUID[Compendium.dnd5e.spells.8RTDOt80u8aBv9qx]{Alter Self},\_@UUID[Compendium.dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce}</span></td></tr><tr style=\"box-sizing:border-box;user-select:text\"><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em 2px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">5th</span></td><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.RB8XUo6hgWtVKc3b]{Curse of Misfortune},\_@UUID[Compendium.dnd5e.spells.nslx2nT3p4lNkmdp]{Major Image}</span></td></tr><tr style=\"box-sizing:border-box;user-select:text;background-color:rgba(255, 255, 255, 0.2)\"><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em 2px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">7th</span></td><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">@UUID[Compendium.dnd5e.spells.tEpDmYZNGc9f5OhJ]{Greater Invisibility},\_@UUID[Compendium.dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph}</span></td></tr><tr style=\"box-sizing:border-box;user-select:text\"><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em 2px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">9th</span></td><td style=\"box-sizing:border-box;user-select:text;padding:0.25em 0px;text-align:center\"><span style=\"font-family:Signika, sans-serif\">@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.dEwv773xELNSXSPD]{Swapping Curse},\_@UUID[Compendium.dnd5e.spells.mbFw57uyfLkyiw5k]{Seeming}</span></td></tr></tbody></table>"
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742218909
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 33300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Orj1436QHsEC7CvB
+_key: '!items!Orj1436QHsEC7CvB'
+

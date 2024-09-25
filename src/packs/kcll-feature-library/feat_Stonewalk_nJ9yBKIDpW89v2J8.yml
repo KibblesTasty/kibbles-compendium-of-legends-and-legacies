@@ -1,0 +1,100 @@
+name: Stonewalk
+type: feat
+img: icons/magic/movement/trail-streak-impact-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.8GCEND84Nak8WzJ6
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, you gain a burrowing speed of 15 feet, allowing
+      you to travel through the earth. You can pass through soil and stone, but
+      when you pass through stone you leave no hole behind you, becoming one
+      with it and passing through. If you would end your turn inside of stone,
+      you get pushed to where you entered the stone surface.</p>
+    chat: ''
+    unidentified: ''
+  source: Stoneheart
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneheart 14
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741823242
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 60500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: nJ9yBKIDpW89v2J8
+_key: '!items!nJ9yBKIDpW89v2J8'
+

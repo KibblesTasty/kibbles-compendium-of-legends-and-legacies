@@ -1,0 +1,100 @@
+name: Warlord of the Wilds
+type: feat
+img: icons/magic/nature/leaf-oak-wreath-glow-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.CUA4x4RWNceLnc2h
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, you can pick five additional spells from the
+      Druid spell list of 4th level or lower. You can cast these spells using
+      Leadership Dice equal to the level of the spell. You can change the list
+      of spells you have selected when you complete a long rest.</p>
+
+      <p>The spell Save DC for these spells is 8 + your Proficiency modifier +
+      your Wisdom Modifier.</p>
+
+      <p>Any time you use Leadership Dice to cast a spell, you can take the
+      Attack action (one weapon attack only) as a bonus action.</p>
+    chat: ''
+    unidentified: ''
+  source: Packleader
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Packleader 18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742662242
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 52800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: gF8JIDwKlx9OqsfA
+_key: '!items!gF8JIDwKlx9OqsfA'
+

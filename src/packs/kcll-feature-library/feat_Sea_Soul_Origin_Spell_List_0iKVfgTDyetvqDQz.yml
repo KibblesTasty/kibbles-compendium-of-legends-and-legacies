@@ -1,0 +1,90 @@
+name: Sea Soul Origin Spell List
+type: feat
+img: icons/magic/water/wave-water-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.HziIBhyduoNeNnt0
+system:
+  description:
+    value: "<table style=\"width:100%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width:35.8424%;text-align:center\"><strong>Sorcerer Level</strong></td>\n<td style=\"width:64.1576%;text-align:center\"><strong>Spell</strong></td>\n</tr>\n<tr>\n<td style=\"width:35.8424%;text-align:center\">1st</td>\n<td style=\"width:64.1576%;text-align:center\">@Compendium[kibbles-generic-spells.kibbles-generic-spells.zo9bPb4DG2EeMsV0]{Crashing Wave}</td>\n</tr>\n<tr>\n<td style=\"width:35.8424%;text-align:center\">3rd</td>\n<td style=\"width:64.1576%;text-align:center\">@Compendium[kibbles-generic-spells.kibbles-generic-spells.ZZSJm8xLt7u6Ds96]{Become Water}</td>\n</tr>\n<tr>\n<td style=\"width:35.8424%;text-align:center\">5th</td>\n<td style=\"width:64.1576%;text-align:center\">@Compendium[kibbles-generic-spells.kibbles-generic-spells.4REdxzhtUFQFHAsd]{Water Cannon}</td>\n</tr>\n<tr>\n<td style=\"width:35.8424%;text-align:center\">7th</td>\n<td style=\"width:64.1576%;text-align:center\">@Compendium[kibbles-generic-spells.kibbles-generic-spells.f84zzMjNnwPTKDbs]{Geyser}</td>\n</tr>\n<tr>\n<td style=\"width:35.8424%;text-align:center\">9th</td>\n<td style=\"width:64.1576%;text-align:center\">\_</td>\n</tr>\n</tbody>\n</table>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741833305
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 6200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 0iKVfgTDyetvqDQz
+_key: '!items!0iKVfgTDyetvqDQz'
+

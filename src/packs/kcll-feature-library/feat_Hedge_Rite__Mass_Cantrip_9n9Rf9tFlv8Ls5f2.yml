@@ -1,0 +1,101 @@
+name: 'Hedge Rite: Mass Cantrip'
+type: feat
+img: icons/magic/light/projectile-beams-salvo-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.StxlGM7WzuF3NiAx
+system:
+  description:
+    value: >-
+      <p>When you cast an Occultist cantrip that targets one or more creatures,
+      you can make the cantrip target a number additional creatures with in
+      range equal to your proficiency bonus with the spell. Once you do so, you
+      cannot do so again until you complete a long rest. You can expend a spell
+      slot to gain a similar effect, causing the cantrip to target a number of
+      additional creatures equal to the spell slot spent.</p>
+    chat: ''
+    unidentified: ''
+  source: Hedge Mage
+  activation:
+    type: none
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742245954
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 17100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 9n9Rf9tFlv8Ls5f2
+_key: '!items!9n9Rf9tFlv8Ls5f2'
+

@@ -1,0 +1,110 @@
+name: Rejuvenating Flames
+type: feat
+img: icons/magic/fire/projectile-feathers-embers-gold.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.apahdzn30hdWLqfn
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, when you cast a spell that deals fire damage to
+      creatures that you can see, you can expend 1 sorcery point per creature to
+      protect creatures of your choice that would be affected from the flames.
+      The chosen creatures automatically succeed any saving throws against the
+      spell, and instead of taking fire damage regain hit points equal to half
+      the fire damage they would have taken from the spell a failed save or
+      hit.</p><p>Once you do so, you cannot do so again until you complete a
+      short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Phoenix Spark
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Phoenix Spark 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741847752
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 57600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: kml9j6esubAnF7qW
+_key: '!items!kml9j6esubAnF7qW'
+

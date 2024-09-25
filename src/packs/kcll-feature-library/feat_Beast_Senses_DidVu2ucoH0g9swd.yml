@@ -1,0 +1,89 @@
+name: Beast Senses
+type: feat
+img: icons/magic/perception/eye-slit-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, your bond with your companion enhances your
+      senses with it, and its senses with yours. You gain expertise in
+      Perception, allowing you to add twice your proficiency modifier to ability
+      checks made for that skill, you gain any darkvision or blindsight range
+      your beast has, it and it gains any darkvision or blindsight range you
+      have (if both of you already have one type of vision, the ranges are added
+      together).</p>
+    chat: ''
+    unidentified: ''
+  source: Circle of the Wild
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of the Wild 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.di9pHHzpv7L6FAtO
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665627739191
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 21500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: DidVu2ucoH0g9swd
+_key: '!items!DidVu2ucoH0g9swd'
+

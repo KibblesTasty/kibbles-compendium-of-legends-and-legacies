@@ -1,0 +1,102 @@
+name: Demoralization Dice
+type: feat
+img: icons/magic/control/control-influence-rally-purple.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, whenever you spend a Leadership Die, you gain a
+      Demoralization Die of equal size. Demoralization Dice last until you have
+      gone 1 minute without earning or spending one. You can spend
+      Demoralization Die as a reaction on one of the following
+      effects:</p><ul><li><p><strong>Make it Excruciating.</strong> When a
+      creature within 30 feet of you takes damage from a weapon attack roll made
+      by an ally of yours, as a reaction you can expend up Demoralization Dice
+      (up to your Leadership Die limit), rolling them and causing the target to
+      take additional damage equal the value of the rolled
+      dice.</p></li><li><p><strong>Don't Touch That.</strong> When a creature
+      attacks an allied creature within 30 feet of you, as a reaction you can
+      expend one Demoralization Dice, rolling it and reducing the attacker's
+      attack roll.</p></li><li><p><strong>Are You Sure?</strong> When a creature
+      ends their turn within 5 feet of you, as a reaction you can expend
+      Demoralization Dice (up to your Leadership Die limit) and force the
+      creature to make a Wisdom saving throw (DC 8 + your Charisma modifier +
+      your proficiency bonus. On failure, the creature uses their reaction to
+      move a number of feet away from you equal to 10 x the Demoralization Dice
+      spent. The target automatically passes if they are immune to the
+      frightened condition.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source: Dreadlord
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dreadlord 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.rTIWX4N1P4HMZgYV
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682202926599
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 60000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: mxo5ke7ZjWew4G0t
+_key: '!items!mxo5ke7ZjWew4G0t'
+

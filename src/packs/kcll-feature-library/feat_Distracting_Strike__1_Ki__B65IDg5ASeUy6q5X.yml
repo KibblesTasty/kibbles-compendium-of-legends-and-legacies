@@ -1,0 +1,93 @@
+name: Distracting Strike (1 Ki)
+type: feat
+img: icons/skills/melee/strikes-sword-scimitar.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.eSSAGdxMGaH3smWV
+system:
+  description:
+    value: >-
+      <p>When you hit a creature with a weapon attack, deal additional damge
+      equal to your Martial Arts die and leave an opening for the next attack.
+      The next attack against that creature has advantage.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742054387
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 18400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: B65IDg5ASeUy6q5X
+_key: '!items!B65IDg5ASeUy6q5X'
+

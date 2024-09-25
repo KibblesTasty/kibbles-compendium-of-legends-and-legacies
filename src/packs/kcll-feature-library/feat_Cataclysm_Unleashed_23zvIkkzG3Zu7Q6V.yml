@@ -1,0 +1,100 @@
+name: Cataclysm Unleashed
+type: feat
+img: icons/magic/water/projectiles-ice-explosion.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.eemNpT97RySoDTIw
+system:
+  description:
+    value: >-
+      <p>When you use your Elemental Form ability, you can instead cast
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.xnrxF69jS4aR78w1]{Form
+      of the Elements}, and are no longer limited to using the action they grant
+      in place of an attack once per turn, as long as you use two different
+      actions granted by the different forms.</p>
+
+      <p>While in this form, the damage dice of your Elemental Weapons and
+      Elemental Shroud effects are doubled.</p>
+
+      <p>Once you do this, you cannot do so until you complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Elemental Soul
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elemental Soul 17
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742710825
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 7600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 23zvIkkzG3Zu7Q6V
+_key: '!items!23zvIkkzG3Zu7Q6V'
+

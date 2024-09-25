@@ -1,0 +1,95 @@
+name: Fangs of the Fire Snake
+type: feat
+img: icons/magic/fire/projectile-smoke-swirl-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ALwQIS45LF9ZSI79
+system:
+  description:
+    value: >-
+      <p>Your unarmed strikes become tendrils of fire until the start of your
+      next turn (no action required). Your reach with unarmed strikes increases
+      to 15 feet, and your unarmed strikes do fire damage. You can spend an
+      additional ki point to increase the damage of your unarmed strikes during
+      the duration by your martial arts die for the duration.</p>
+    chat: ''
+    unidentified: ''
+  source: Way of the Four Elements
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Four Elements 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741797586
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 40000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: VIo68F3qAMzkDIHG
+_key: '!items!VIo68F3qAMzkDIHG'
+

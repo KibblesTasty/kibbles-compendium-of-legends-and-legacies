@@ -1,0 +1,108 @@
+name: Wolfpack Tactics
+type: feat
+img: icons/creatures/mammals/humanoid-wolf-dog-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.SgwZPGQq2STwbnq5
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, you excel at taking down prey in coordination
+      with your allies. The first creature you hit that has taken damage from
+      one of your allies since the end of your last turn suffers an additional
+      1d12 damage.</p>
+
+      <p>The first time a creature you grant a creature an attack with
+      Battlefield Presence deals damage to a creature you had dealt damage to
+      during your turn, that attack deals an additional 1d4 damage.</p>
+    chat: ''
+    unidentified: ''
+  source: Chieftain
+  activation:
+    type: none
+    cost: null
+    condition: Once per turn against a creature that has been hit by an ally this turn.
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d12
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Chieftain 11
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742688758
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 16500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 9VJCrK3jlahMRQnw
+_key: '!items!9VJCrK3jlahMRQnw'
+

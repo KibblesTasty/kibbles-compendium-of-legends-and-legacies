@@ -1,0 +1,176 @@
+name: Empowered Spirits
+type: feat
+img: icons/creatures/magical/construct-golem-stone-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.9IOIZyo6CqLDTzYF
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, when you call a spirit, you expend a spell slot
+      of 1st level or higher to empower that spirit. An empowered spirit adds
+      additional damage to your weapon and deals additional manifested damage.
+      While the spirit is called and not manifested you gain temporary hit
+      points equal to the level of the spell slot spent to empower at the start
+      of each of your turns.</p>
+
+      <table border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center"><strong>Spell Slot</strong></td>
+
+      <td style="text-align:center"><strong>Weapon Damage</strong></td>
+
+      <td style="text-align:center"><strong>Manifested Damage</strong></td>
+
+      <td style="text-align:center"><strong>Temporary Hit Points</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">1st</td>
+
+      <td style="text-align:center">1d6</td>
+
+      <td style="text-align:center">2d4</td>
+
+      <td style="text-align:center">1</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">2nd</td>
+
+      <td style="text-align:center">1d8</td>
+
+      <td style="text-align:center">2d6</td>
+
+      <td style="text-align:center">2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">3rd</td>
+
+      <td style="text-align:center">1d10</td>
+
+      <td style="text-align:center">2d6</td>
+
+      <td style="text-align:center">3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">4th</td>
+
+      <td style="text-align:center">1d12</td>
+
+      <td style="text-align:center">2d8</td>
+
+      <td style="text-align:center">4</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">5th</td>
+
+      <td style="text-align:center">1d12</td>
+
+      <td style="text-align:center">2d8</td>
+
+      <td style="text-align:center">5</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Shaman
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742224625
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 54700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: husZ3Qc8h8ZVFRVt
+_key: '!items!husZ3Qc8h8ZVFRVt'
+

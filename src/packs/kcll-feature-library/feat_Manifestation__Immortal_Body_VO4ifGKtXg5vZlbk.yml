@@ -1,0 +1,105 @@
+name: 'Manifestation: Immortal Body'
+type: feat
+img: icons/magic/life/heart-cross-strong-flame-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.FJkHxb32lLBIcYnq
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 16th level</em></p>
+
+      <p>At the start of each of your turns, you regain [[/r 1d6]] hit points if
+      you have no more than half of your hit points left. You don't gain this
+      benefit if you have 0 hit points.</p>
+    chat: ''
+    unidentified: ''
+  source: Warden
+  activation:
+    type: none
+    cost: 1
+    condition: Start your turn with less than half hit point, but at least 1 hit point.
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 16
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742780629
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 40200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: VO4ifGKtXg5vZlbk
+_key: '!items!VO4ifGKtXg5vZlbk'
+

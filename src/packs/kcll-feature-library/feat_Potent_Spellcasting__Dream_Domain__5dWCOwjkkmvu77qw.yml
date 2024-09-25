@@ -1,0 +1,84 @@
+name: Potent Spellcasting (Dream Domain)
+type: feat
+img: icons/magic/lightning/bolt-strike-beam-purple.webp
+system:
+  description:
+    value: >-
+      <p>At 8th level, you add your Wisdom modifier to the damage you deal with
+      any cleric cantrip.</p>
+    chat: ''
+    unidentified: ''
+  source: Dream Domain
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dream Domain 8
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.VwpQ2AdFE2f8Qq24
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1683755282152
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 11100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 5dWCOwjkkmvu77qw
+_key: '!items!5dWCOwjkkmvu77qw'
+

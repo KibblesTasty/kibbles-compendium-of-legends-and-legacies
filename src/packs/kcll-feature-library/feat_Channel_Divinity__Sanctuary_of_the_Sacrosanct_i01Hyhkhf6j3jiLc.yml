@@ -1,0 +1,100 @@
+name: 'Channel Divinity: Sanctuary of the Sacrosanct'
+type: feat
+img: icons/magic/light/explosion-star-glow-blue-purple.webp
+system:
+  description:
+    value: >-
+      <p>Sanctuary of the Sacrosanct. As an action, you present your holy symbol
+      and whisper prayer to bring refugees from the turmoil of the world. All
+      creatures of your choice within 30 feet gain temporary hit points equal to
+      your Paladin level + your Charisma modifier, and if they are under the
+      effect of a condition or spell they can normally save against the end of
+      their turn, they can immediately make a save against the effect, ending it
+      on success as normal.</p>
+    chat: ''
+    unidentified: ''
+  source: Oath of Silence
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: cha
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classes.paladin.levels + @mod'
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oath of Silence 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    quickOther:
+      context: ''
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  core:
+    sourceId: Item.zqhf11RAHk2TkCoF
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665627982296
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 54800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: i01Hyhkhf6j3jiLc
+_key: '!items!i01Hyhkhf6j3jiLc'
+

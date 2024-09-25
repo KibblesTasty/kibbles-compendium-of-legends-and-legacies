@@ -1,0 +1,88 @@
+name: Phantom Sword Surge
+type: feat
+img: icons/magic/light/swords-light-glowing-white.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you gain a new option for your Arcane
+      Surge:</p><ul><li><p>When you make an attack with your flying sword, you
+      can spend an Arcane Surge to make two phantom copies of it that strike
+      other targets within range. The phantom swords use their own attack rolls.
+      On hit, the target takes damage equal to your Flying Sword's weapon damage
+      (including modifier) as force damage.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source: Flying Sword
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Flying Sword 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.T4wWDBPEBG5PiCe1
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1684711844146
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 67700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: tpHAyLJ9h0jeAY7S
+_key: '!items!tpHAyLJ9h0jeAY7S'
+

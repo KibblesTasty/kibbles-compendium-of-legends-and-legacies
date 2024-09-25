@@ -1,0 +1,93 @@
+name: Radiant Aura
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+system:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, your Primal Interdiction is filled with
+      bright light, and it casts dim light for an additional radius equal to the
+      radius of your Primal Interdiction. This light is difficult to quench, and
+      counts as a spell equal to half your Warden level (rounded down) for the
+      purposes of countering magical darkness. You can dim, extinguish, or
+      relight this light at any time, no action required.</p><p>Creatures inside
+      your Primal Interdiction remain comfortably warm, ignoring the effects of
+      cold weather, or heat caused by the sun (though other sources of heat may
+      still cause discomfort, such as lava). You and all friendly creatures
+      within range of Primal Interdiction can apply the damage reduction of your
+      Mystic Bulwark to cold and necrotic damage.</p>
+    chat: ''
+    unidentified: ''
+  source: Sunwatcher
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.hfBYgGzj33d6XJs3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681242949190
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 64000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: puTpf3xG3J5R6uY0
+_key: '!items!puTpf3xG3J5R6uY0'
+

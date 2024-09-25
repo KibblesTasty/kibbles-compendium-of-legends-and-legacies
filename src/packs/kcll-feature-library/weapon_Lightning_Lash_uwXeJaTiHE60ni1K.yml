@@ -1,0 +1,147 @@
+name: Lightning Lash
+type: weapon
+img: icons/magic/lightning/bolt-strike-purple-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.k7ebf2dJ2tKfECi4
+system:
+  description:
+    value: >-
+      <p>You conjure a whip of lightning, tethered to one of your hands. This
+      becomes a one handed natural melee weapon that deals 1d6 lightning damage
+      on hit, and has the Reach, Light, and Special properties. It sheds 10 feet
+      of bright light and an additional 10 feet of dim light while
+      manifested.</p>
+
+      <p><strong>Special:</strong> If you hit a creature with this weapon you
+      can pull the creature up to 5 feet toward you.</p>
+    chat: ''
+    unidentified: ''
+  source: Elemental Soul
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: true
+    lod: false
+    mgc: false
+    rch: true
+    rel: false
+    ret: false
+    sil: false
+    spc: true
+    thr: false
+    two: false
+    ver: false
+  proficient: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742761589
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 69500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: uwXeJaTiHE60ni1K
+_key: '!items!uwXeJaTiHE60ni1K'
+

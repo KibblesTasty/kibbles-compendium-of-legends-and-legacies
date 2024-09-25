@@ -1,0 +1,97 @@
+name: Urban Tracker
+type: feat
+img: icons/sundries/documents/document-symbol-circle-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.quBsL3S4QmT8rkfX
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you excel at tracking prey even if they take
+      refugee in the trappings of civilization. When you make a Intelligence or
+      Wisdom check related tracking a creature in cities or towns, your
+      proficiency bonus is doubled if you are using a skill that you're
+      proficient in. You can only gain this benefit if you are familiar with the
+      target's race or general appearance (such as sketch from a wanted
+      poster).</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741986737
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 44100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: YzogIhLUj2rKH7JC
+_key: '!items!YzogIhLUj2rKH7JC'
+

@@ -1,0 +1,90 @@
+name: Overseer Expanded Spells
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+system:
+  description:
+    value: >-
+      <table border="1"><tbody><tr><td>Spell
+      Level</td><td>Spells</td></tr><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.KhwiSi9fwVfUPtku]{Sleep}</td></tr><tr><td>2nd</td><td>@UUID[Compendium.dnd5e.spells.zwGsAv6kmwzYGhh3]{Blindness/Deafness},
+      @UUID[Compendium.dnd5e.spells.DQzlB5Y3k791W5bH]{See
+      Invisibility}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance},
+      @UUID[Compendium.dnd5e.spells.yqUDoxk4x0NWG5Bz]{Slow}</td></tr><tr><td>4th</td><td>@UUID[Compendium.dnd5e.spells.ImlCJQwR1VL40Qem]{Arcane
+      Eye},
+      @UUID[Compendium.dnd5e.spells.7Fw7Bf1k3xxDVr5L]{Fabricate}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.lnaGnxMzpYnbw1uU]{Creation},
+      @UUID[Compendium.dnd5e.spells.HQfd7jJyULIoGxrZ]{Telekinesis}</td></tr></tbody></table>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.56N8sH0dSjGvKJIt
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665616680252
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 37000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: SnLuXFKs1iClt0D2
+_key: '!items!SnLuXFKs1iClt0D2'
+

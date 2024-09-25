@@ -1,0 +1,105 @@
+name: Fey Trickery
+type: feat
+img: icons/magic/nature/leaf-hand-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.YFWrD7yeKWNix0qG
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, the touch of fey illusions and glamour on leave
+      things never quite as they seem. As an action, or as a reaction when you
+      take damage, you can turn invisible and teleport up to 60 feet to an
+      unoccupied space you can see. you remain invisible until the start of your
+      next or cast a spell. When you do so, you can choose to leave behind a
+      mirror image yourself. If this mirror takes any damage, it vanishes into a
+      puff of mist.</p>
+
+      <p>Once you use this feature, you can't use it again until you finish a
+      short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: The Fey
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Fey 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741778302
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 69800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: vBgX79bx1eAcCgeX
+_key: '!items!vBgX79bx1eAcCgeX'
+

@@ -1,0 +1,102 @@
+name: Perfect State
+type: feat
+img: icons/weapons/swords/sword-guard-gold-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OgThP1t3ienlXHV1
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">At 6th level, weapon
+      becomes an extension of yourself, flowing naturally with your
+      abilities.</span></p><p><strong>Magic Kensei Weapons.</strong> Your
+      attacks with your kensei weapons count as magical for the purpose of
+      overcoming resistance and immunity to nonmagical attacks and
+      damage.</p><p><strong>Blade Flurry.</strong> When you make a Flurry of
+      Blows, you can make the additional attacks with your Monk Weapon.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742061581
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 55100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: iQwuZzUyJxhv7kuM
+_key: '!items!iQwuZzUyJxhv7kuM'
+

@@ -1,0 +1,84 @@
+name: Brawler's Resilience
+type: feat
+img: icons/magic/control/buff-strength-muscle-damage-red.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, when you spend an Arcane Surge, resistance to
+      damage until the start of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellfist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellfist 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.y8fF7fe70OzpCREx
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1684714206600
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 61700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: npSk75weviArXJ6T
+_key: '!items!npSk75weviArXJ6T'
+

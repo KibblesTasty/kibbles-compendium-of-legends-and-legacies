@@ -1,0 +1,92 @@
+folder: null
+name: Totemic Technique
+type: feat
+img: icons/magic/symbols/runes-carved-stone-purple.webp
+system:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, you can select a technique to specialize in
+      for using your totems, granting you a bonus to them. Select one of the
+      following when you gain this feature:</p><ul><li><p><strong>Dancing
+      Totems.</strong> Instead of placing your totems at a point, you can summon
+      your totems as Tiny sized mobile objects that orbit you in your space and
+      emit their effects from your space. The totems can still be targeted and
+      destroyed individually.</p></li><li><p><strong>Sturdy Totems.</strong>
+      Your totems add your proficiency bonus to their AC and have hit points
+      equal to twice your Occultist level.</p></li><li><p><strong>Swift
+      Totems.</strong> You can place a totem as a bonus action instead of an
+      action.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source: Spiritualist
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Spiritualist 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693769301358
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: ewnJd21tPIi2XjVs
+sort: 2900000
+_key: '!items!ewnJd21tPIi2XjVs'
+

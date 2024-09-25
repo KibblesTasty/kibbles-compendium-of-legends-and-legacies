@@ -1,0 +1,127 @@
+name: Coalesced Lighting
+type: feat
+img: icons/magic/lightning/orb-ball-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.ppm13KvLOOP3Ux9y
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickSave:
+      value: true
+    quickTemplate:
+      value: true
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">When you manifest the
+      power, and as a bonus action on subsequent turns, you can force one
+      creature within 30 feet of the point to make a Dexterity saving throw, or
+      be struck by an arc of lightning, taking 1d6 + your Wisdom modifier
+      damage.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Circle of Elements
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: wis
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Elements 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741932277
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 29600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: LnoPUmMle0VUbyYM
+_key: '!items!LnoPUmMle0VUbyYM'
+

@@ -1,0 +1,91 @@
+name: Dreadful Terror
+type: feat
+img: icons/magic/control/fear-fright-monster-grin-red-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, when a target becomes frightened of you, you
+      can expend demoralization Dice to enhance the effect (no action
+      required)</p><ul><li><p><strong>Panicked Terror.</strong> The target
+      immediately spends their reaction to move up to half of their movement
+      speed away from you.</p></li><li><p><strong>Blind Terror.</strong> You can
+      expend 2 Demoralization Dice to cause the target become blinded until the
+      start of your next turn.</p></li><li><p><strong>Paralyzing
+      Terror.</strong> You can expend 3 Demoralization Dice to cause the target
+      to become paralyzed until the start of your next turn.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source: Dreadlord
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dreadlord 18
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.isKBALMm6Uc7y480
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682203010605
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 53100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: gQgfCgAcpX3fHxqx
+_key: '!items!gQgfCgAcpX3fHxqx'
+

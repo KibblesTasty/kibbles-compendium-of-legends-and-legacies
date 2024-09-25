@@ -1,0 +1,97 @@
+name: Piercing Gaze
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.aVGeMbWQmsvuKAwA
+system:
+  description:
+    value: >-
+      <p>At 13th level, you can attempt pierce the veil of magic and treachery
+      around your foes. If a creature is shrouded from your sight by a spell or
+      magical effect, as a bonus action, you can make a Wisdom (Perception)
+      check against the spell save DC to see through the effect (including
+      illusions, magical darkness, or other magical impediment to seeing the
+      creature) until the end of your turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Divine Agent
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: wis
+  actionType: abil
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Divine Agent 13
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741894390
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 13500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 7Eg6y32x3FyivBgp
+_key: '!items!7Eg6y32x3FyivBgp'
+

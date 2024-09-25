@@ -1,0 +1,139 @@
+name: Lashing Vine
+type: weapon
+img: icons/magic/nature/root-vine-coiled-crook.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.5j095Jlu3IGvX1a8
+system:
+  description:
+    value: "<p>A natural one handed melee weapon. Deals 1d6 slashing damage on hit, and has the Light, Reach, and Special Properties.</p>\n<p><strong>Special:\_</strong>This weapon has the following benefits:</p>\n<ul>\n<li>When you hit a creature with this weapon, you can attempt to initiate a grapple against that creature as a bonus action.</li>\n<li>You can make a grapple check with this weapon targeting a Large or smaller creature you are currently grappling with it. On success, the creature is restrained while grappled by it.</li>\n<li>You can grapple creatures with this weapon with a reach equal to the weapon's reach. If a creature more than 5 feet away from you is grappled or restrained by you with this weapon their movement is not reduced to zero, but they can only move toward you. Once they are within 5 feet of you, their movement speed becomes zero.</li>\n<li>You can attempt to grapple creatures up to two sizes larger than you when initiating a grapple with this weapon, but creatures two sizes larger than you have their movement speed reduced by half, rather than reduced to zero. If they move out of range of your grapple, you can choose to release them or be pulled along with their movement.</li>\n</ul>"
+    chat: ''
+    unidentified: ''
+  source: Elderheart
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: true
+    lod: false
+    mgc: false
+    rch: true
+    rel: false
+    ret: false
+    sil: false
+    spc: true
+    thr: false
+    two: false
+    ver: false
+  proficient: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742758313
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 16000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 9Bh8sqtf4RnwLOBF
+_key: '!items!9Bh8sqtf4RnwLOBF'
+

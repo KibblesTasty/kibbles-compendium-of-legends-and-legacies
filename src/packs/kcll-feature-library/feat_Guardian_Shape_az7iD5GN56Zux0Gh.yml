@@ -1,0 +1,142 @@
+name: Guardian Shape
+type: feat
+img: icons/magic/nature/tree-animated-strike.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.IlUnIAeNBp7JFX8C
+system:
+  description:
+    value: >-
+      <p>When you choose this circle at 2nd level, you gain an alternate use for
+      Wild Shape. As a bonus action, you assume a treelike form, covered in
+      leaves and bark, which lasts up to one hour, or until you end it as a
+      bonus action or until you are incapacitated.</p>
+
+      <p>You gain the following properties when you transform:</p>
+
+      <ul>
+
+      <li>You can make yourself Large sized. If you do so, reach becomes 10
+      feet.</li>
+
+      <li>You can make a Wisdom (Athletics) check to initiate, maintain, or
+      contest a grapple, and have a number of grappling appendages (in the form
+      of grasping roots or branches) equal to your Wisdom modifier.</li>
+
+      <li>Each appendage serves as a natural weapon under the effect of
+      shillelagh. While in this form, you can cast shillelagh on any weapon you
+      are carrying.</li>
+
+      <li>Your AC is 10 + your Constitution modifier + your Wisdom modifier. You
+      cannot benefit from the AC of armor or shields while in this form.</li>
+
+      <li>You gain temporary hit points equal to your Wisdom modifier + twice
+      your Druid level when you transform into tree form. When the form ends,
+      you lose any temporary hit points you have from it.</li>
+
+      <li>Any speed you have becomes 15 feet, unless the speed was lower. If you
+      don't move during your turn, you have advantage on Ability Checks and
+      Saving Throws against effects that would move you or knock you prone.</li>
+
+      </ul>
+
+      <p>You choose whether your equipment falls to the ground in your space,
+      merges into your new form, or is worn by it. Worn equipment functions as
+      normal, but the GM decides whether it is practical for the new form to
+      wear a piece of equipment. Your equipment doesn't change to match the new
+      form, and any equipment that the new form can't wear must either fall to
+      the ground or merge with it. Equipment that merges with the form has no
+      effect until you leave the form. You can cast spells as normal while in
+      this form.</p>
+    chat: ''
+    unidentified: ''
+  source: Circle of the Ancients
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: wis
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@mod + 4'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of the Ancients 2
+  recharge:
+    value: null
+    charged: false
+  attunement: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742004239
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 45900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: az7iD5GN56Zux0Gh
+_key: '!items!az7iD5GN56Zux0Gh'
+

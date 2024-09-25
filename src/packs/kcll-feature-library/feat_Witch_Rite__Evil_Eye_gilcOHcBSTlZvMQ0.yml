@@ -1,0 +1,102 @@
+name: 'Witch Rite: Evil Eye'
+type: feat
+img: icons/creatures/eyes/humanoid-single-blind.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.SxVPxvdI2u6lLUxA
+system:
+  description:
+    value: >-
+      <p>You gain the ability to lay the most unsettling gaze upon a creature.
+      As a reaction to a creature hitting you with a melee attack, you can
+      unleash a terrifying glare at them. The target creature must make a Wisdom
+      saving throw or become frightened of you until the end of your next turn.
+      Once a creature has passed a save against this ability, they are immune to
+      it for 24 hours.</p>
+
+      <p>Additionally, you gain proficiency in the Intimidation skill.</p>
+    chat: ''
+    unidentified: ''
+  source: Witch
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 15
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742444847
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 53500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: gilcOHcBSTlZvMQ0
+_key: '!items!gilcOHcBSTlZvMQ0'
+

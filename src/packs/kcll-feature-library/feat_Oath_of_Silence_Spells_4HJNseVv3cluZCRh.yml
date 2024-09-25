@@ -1,0 +1,106 @@
+name: Oath of Silence Spells
+type: feat
+img: icons/magic/symbols/runes-star-blue.webp
+system:
+  description:
+    value: >-
+      <table style="width:100%;height:102px" border="1"><tbody><tr
+      style="height:17px"><td
+      style="text-align:center;width:30.4041%;height:17px"><strong>Sorcerer
+      Level</strong></td><td
+      style="text-align:center;width:69.5959%;height:17px"><strong>Spells</strong></td></tr><tr
+      style="height:17px"><td
+      style="text-align:center;width:30.4041%;height:17px">1st</td><td
+      style="text-align:center;width:69.5959%;height:17px">@UUID[Compendium.dnd5e.spells.gvdA9nPuWLck4tBl]{Sanctuary},
+      @UUID[Compendium.dnd5e.spells.KhwiSi9fwVfUPtku]{Sleep}</td></tr><tr
+      style="height:17px"><td
+      style="text-align:center;width:30.4041%;height:17px">3rd</td><td
+      style="text-align:center;width:69.5959%;height:17px">@UUID[Compendium.dnd5e.spells.zwGsAv6kmwzYGhh3]{Blindness/Deafness},
+      @UUID[Compendium.dnd5e.spells.5VhqFROQYjr1P9lp]{Silence}</td></tr><tr
+      style="height:17px"><td
+      style="text-align:center;width:30.4041%;height:17px">5th</td><td
+      style="text-align:center;width:69.5959%;height:17px">@UUID[Compendium.dnd5e.spells.Ek45cBpVXvJdv1Qy]{Counterspell},
+      @UUID[Compendium.dnd5e.spells.15Fa6q1nH27XfbR8]{Dispel Magic}</td></tr><tr
+      style="height:17px"><td
+      style="text-align:center;width:30.4041%;height:17px">7th</td><td
+      style="text-align:center;width:69.5959%;height:17px">@UUID[Compendium.dnd5e.spells.pxpb2eOB6bv4phAf]{Banishment}</td></tr><tr
+      style="height:17px"><td
+      style="text-align:center;width:30.4041%;height:17px">9th</td><td
+      style="text-align:center;width:69.5959%;height:17px">@UUID[Compendium.dnd5e.spells.SLxA9QhrggTz0taU]{Hallow},
+      @UUID[Compendium.dnd5e.spells.MBMaQLwoy05qzMJ3]{Mislead}</td></tr></tbody></table>
+    chat: ''
+    unidentified: ''
+  source: Oath of Silence
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oath of Silence 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.pyt42a4SVSH5RZZt
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665627995313
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 9800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 4HJNseVv3cluZCRh
+_key: '!items!4HJNseVv3cluZCRh'
+

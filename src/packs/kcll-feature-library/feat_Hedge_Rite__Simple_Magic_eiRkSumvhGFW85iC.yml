@@ -1,0 +1,95 @@
+name: 'Hedge Rite: Simple Magic'
+type: feat
+img: icons/magic/light/orbs-smoke-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.qNLOI7Lovlfmzvfq
+system:
+  description:
+    value: >-
+      <p>Even as you gain power, you are adept with using it small bursts for
+      simple magic. You can sacrifice a spell slot of 3rd level or higher to
+      gain two 1st level spell slots. If the spell slot is 5th level or higher,
+      you can gain 2nd level spell slots. You cannot store more than twice your
+      usual maximum number of any spell slot level this way.</p>
+    chat: ''
+    unidentified: ''
+  source: Hedge Mage
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742253403
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 50400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: eiRkSumvhGFW85iC
+_key: '!items!eiRkSumvhGFW85iC'
+

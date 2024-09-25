@@ -1,0 +1,113 @@
+name: Elemental Interdiction
+type: feat
+img: icons/magic/lightning/bolt-strike-explosion-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.6Lsnga68CMWvAZRh
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, your Primal Interdiction becomes a buffeting
+      maelstrom of elemental power when you manifest an Elemental Weapon. The
+      difficult terrain of your Primal Interdiction affects flying creatures
+      within range, and you can select one of the following effects.</p>
+
+      <ul>
+
+      <li><strong>Creeping Frost:</strong> Creatures that start their turn
+      within the area of your Primal Interdiction have their movement speed
+      reduced by 10 feet.</li>
+
+      <li><strong>Blazing Pyre:</strong> Fire burns fiercely around you,
+      creatures of your choice that start their turn within the area of your
+      Primal Interdiction take [[/r 1d6]] fire damage.</li>
+
+      <li><strong>Charged Field:</strong> Creatures of your choice take [[/r
+      1d4]] lightning damage for each 5 feet they move within the area of your
+      Primal Interdiction.</li>
+
+      </ul>
+
+      <p>The damage of the Blazing Pyre and Charged Field effects increases by
+      one additional die of damage at 11th level.</p>
+    chat: ''
+    unidentified: ''
+  source: Elemental Soul
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elemental Soul 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742718349
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 39100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: UlE7HxcLMIWKmezC
+_key: '!items!UlE7HxcLMIWKmezC'
+

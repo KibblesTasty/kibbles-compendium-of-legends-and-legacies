@@ -1,0 +1,86 @@
+name: Regrowth
+type: feat
+img: icons/magic/nature/leaf-drip-light-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Beginning at 7th level,
+      you gain an additional use of your Second Wind feature, allowing you to
+      use it again before you need to complete a rest to use it
+      again.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Green Knight
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Green Knight 7
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.vAbiNgFZwlXbR74e
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682997724632
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 26800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: IxgRzDpDGwHimpLh
+_key: '!items!IxgRzDpDGwHimpLh'
+

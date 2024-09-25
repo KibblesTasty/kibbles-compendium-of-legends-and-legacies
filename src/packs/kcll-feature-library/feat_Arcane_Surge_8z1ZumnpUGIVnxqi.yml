@@ -1,0 +1,117 @@
+name: Arcane Surge
+type: feat
+img: icons/magic/fire/explosion-flame-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+        resource: true
+      altValue:
+        use: true
+        resource: true
+  core:
+    sourceId: Item.F2lbzXc6BeK9WcgN
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Your affinity for magic gives you a pool of arcane surges. Once during
+      your turn, you can expend a use of Arcane Surge to do any of the
+      following:</p><ul><li><p>Cast detect magic without expending a spell
+      slot.</p></li><li><p>Gain advantage on an attack roll (no action
+      required).</p></li><li><p>Add your Intelligence modifier to a Strength or
+      Dexterity ability check (no action required).</p></li><li><p>Teleport up 5
+      feet to an unoccupied space you can see (no action required). This
+      distance increases by 5 at 5th (10 feet), 9th (15 feet), and 13th (20
+      feet), and 17th (25 feet) level.</p></li></ul><p>You can use this feature
+      a number of times equal to your Proficiency bonus. You can regain expended
+      uses when you complete a short or long rest. As you level, you may gain
+      additional uses for your arcane surges, but can still only spend a single
+      use of Arcane Surge a turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: action
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 2
+    max: '@prof'
+    per: sr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742988912
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 15500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 8z1ZumnpUGIVnxqi
+_key: '!items!8z1ZumnpUGIVnxqi'
+

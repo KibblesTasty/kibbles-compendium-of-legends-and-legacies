@@ -1,0 +1,101 @@
+name: Distract
+type: feat
+img: icons/skills/social/wave-halt-stop.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: Attack Reduction
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context: []
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.XPvkKIzi7VlpzfCY
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you attempt to distract a creature within 30 feet.
+      Until the start of its next turn, if that creature attacks a creature
+      other than you while you are within range of its attack, you can roll your
+      leadership die and subtract it from their attack.</p>
+    chat: ''
+    unidentified: ''
+  source: Dancer
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d6
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742541810
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 56500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: jNZZQLzrpC9dkAgb
+_key: '!items!jNZZQLzrpC9dkAgb'
+

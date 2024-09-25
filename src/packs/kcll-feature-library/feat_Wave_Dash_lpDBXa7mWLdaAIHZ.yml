@@ -1,0 +1,94 @@
+name: Wave Dash
+type: feat
+img: icons/magic/water/pseudopod-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.4hWTUrobEwYs64Ie
+system:
+  description:
+    value: >-
+      <p>Additionally at 6th level, you can cast
+      @Compendium[kibbles-generic-spells.kibbles-generic-spells.ZZSJm8xLt7u6Ds96]{Become
+      Water} as a reaction to taking damage. Additionally, you can cast it by
+      expending 2 sorcery points instead of expending spell slot.</p>
+    chat: ''
+    unidentified: ''
+  source: Sea Soul
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sea Soul 6
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741838297
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 58800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: lpDBXa7mWLdaAIHZ
+_key: '!items!lpDBXa7mWLdaAIHZ'
+

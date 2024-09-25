@@ -1,0 +1,93 @@
+name: 'Shaman Rite: Warding Power'
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.dGhTYpeby4XMNKQP
+system:
+  description:
+    value: >-
+      <p>You learn the spell @Compendium[dnd5e.spells.z1mx84ONwkXKUZd7]{Shield},
+      and it becomes an Occultist spell for you, but do not count against your
+      spells known.</p>
+    chat: ''
+    unidentified: ''
+  source: Shaman
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742406228
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 48100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: cWiJuEChEKzMNE1f
+_key: '!items!cWiJuEChEKzMNE1f'
+

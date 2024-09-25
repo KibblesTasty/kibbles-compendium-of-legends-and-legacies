@@ -1,0 +1,106 @@
+name: Survivor
+type: feat
+img: icons/magic/life/heart-glowing-red.webp
+effects: []
+flags:
+  core:
+    sourceId: Compendium.dnd5e.classfeatures.ipG5yx1tRNmeJfSH
+  betterRolls5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+      value: true
+      altValue: true
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p>You attain the pinnacle of resilience in battle.</p><p>At the start of
+      each of your turns, you regain hit points equal to 5 + your Constitution
+      modifier if you have no more than half of your hit points left.</p><p>You
+      don't gain this benefit if you have 0 hit points.</p>
+    chat: ''
+    unidentified: ''
+  source: PHB pg. 73
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: con
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 5 + @mod
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Champion 18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741766918
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 58900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: lrhNrtX6T3nOePlX
+_key: '!items!lrhNrtX6T3nOePlX'
+

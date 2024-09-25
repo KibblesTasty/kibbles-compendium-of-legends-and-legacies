@@ -1,0 +1,120 @@
+name: Spellstrike
+type: feat
+img: icons/weapons/swords/sword-flanged-lightning.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PhCWICj2Ct1C2EfW
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, you can infuse spells into your weapon. When you
+      cast a 1st level or higher Swordmage spell with a casting time of 1
+      action, you can infuse it into a melee weapon as a bonus action. The next
+      time you make an attack with that weapon before the end of your turn, the
+      spell is cast against the target.</p>
+
+      <p>If the spell requires an attack roll (melee or ranged) it automatically
+      hits the target if the attack hits and misses the target if the attack
+      misses. If the spell has a saving throw, it automatically deals damage as
+      if they failed saving throw on hit, but if it has any effects besides
+      dealing damage, the target makes the save against those effects as normal
+      for being targeted by the spell (regardless if the attack hits or misses).
+      If a spell does half damage to targets that pass their save, they take
+      half damage on a missed attack, treating it as if they had passed their
+      saving throw.</p>
+
+      <p>If the spell has an area of effect, that area of effect is triggered
+      from the target's space (for example, a cone spell would hit the target as
+      part of the attack, and then cast the cone area behind them, while a
+      radius spell would be centered on the target, casting the area of effect
+      around them with them at the center). Other creatures caught in the area
+      of effect treat the spell as if you had cast it normally. The target is
+      not affected by the spell again (having already resolved as part of the
+      attack).</p>
+
+      <p>Spells that have multiple attack rolls (such as <em>scorching ray
+      </em>or <em>crackle</em>) tie the outcome of only the first attack roll to
+      the melee weapon attack. You resolve all subsequent attack rolls of the
+      spell as if you had cast the spell, but can ignore the disadvantage on
+      ranged attack rolls from being within 5 feet of hostile creatures.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: turn
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678743022892
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 47700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: c77Eb3b6Qu595YaX
+_key: '!items!c77Eb3b6Qu595YaX'
+

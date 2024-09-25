@@ -1,0 +1,100 @@
+name: Perfect Parry
+type: feat
+img: icons/skills/melee/swords-parry-block-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: Damage Blocked
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        resource: true
+      altValue:
+        resource: true
+  core:
+    sourceId: Item.4tFFBonr3plNzE8B
+system:
+  description:
+    value: >-
+      <p><span style="color:#191813;font-size:12px">When another creature
+      damages you with a weapon attack, you can use your reaction and expend one
+      focus die to reduce the damage by the number you roll on your focus die +
+      your Strength or Dexterity modifier (your choice).</span></p>
+    chat: ''
+    unidentified: ''
+  source: Path of Instinct
+  activation:
+    type: reaction
+    cost: 1
+    condition: You are attacked by a weapon attack.
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: resources.primary.value
+    amount: 1
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d8 + @mod
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of Instinct 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741862787
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 34400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Pp7W4ljRZ7vsBn83
+_key: '!items!Pp7W4ljRZ7vsBn83'
+

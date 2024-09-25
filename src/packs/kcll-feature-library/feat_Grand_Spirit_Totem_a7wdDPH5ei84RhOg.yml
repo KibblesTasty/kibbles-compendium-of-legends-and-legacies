@@ -1,0 +1,109 @@
+folder: null
+name: Grand Spirit Totem
+type: feat
+img: icons/magic/symbols/mask-metal-silver-white.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, as an action you can place a Medium sized grand
+      totem on an empty space within 30 feet of you that attracts and binds a
+      swarm of powerful malevolent spirits. It has the normal AC and hit points
+      of your totems, but gains a number of temporary hit points equal to 5
+      times your Wisdom modifier. If you have the Dancing Totems specialization,
+      you can choose to make it a tiny sized object that orbits you as other
+      totems do instead.</p><p>Any creature other than you that starts its turn
+      or enters within 20 feet of the totem for the first time on their turn
+      must make a Charisma saving throw. On failure, it is plagued by the
+      spirits and subtracts your Malignant Possession die from all attack rolls,
+      saving throws, or ability checks it makes for the full duration of the
+      totem while within 20 feet of the totem. It is treated as if under the
+      effect of Malignant Possession for rites and features that modify your
+      Malignant Possession, but can take damage from Rotting Affliction only
+      once per turn.</p><p>If a creature exits the range of the totem, it is no
+      longer under the effect, but it automatically under the effect once more
+      if it enters range of the totem (without getting to make another save).
+      This effect only ends once the totem's effect ends, or the totem is
+      destroyed.</p><p>The totem lasts for 1 minute, and can be dismissed early
+      as a bonus action, after which it crumbles to dust.</p><p>This totem does
+      not consume a use of your Totem Binding feature, but once you invoke this
+      totem, you cannot invoke it again until you complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Spiritualist
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Spiritualist 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693769328717
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: a7wdDPH5ei84RhOg
+sort: 300000
+_key: '!items!a7wdDPH5ei84RhOg'
+

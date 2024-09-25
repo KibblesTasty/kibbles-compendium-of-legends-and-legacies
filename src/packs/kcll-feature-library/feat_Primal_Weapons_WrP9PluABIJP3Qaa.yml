@@ -1,0 +1,86 @@
+name: Primal Weapons
+type: feat
+img: icons/creatures/claws/claw-talons-yellow-red.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Additionally at 6th
+      level, the natural weapons you gain while raging now count as magical for
+      the purpose of overcoming resistance and immunity to nonmagical attacks
+      and damage.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Path of the Dragon
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of the Dragon 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.Y49rdwITAOMs4zap
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1681846977134
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 41700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: WrP9PluABIJP3Qaa
+_key: '!items!WrP9PluABIJP3Qaa'
+

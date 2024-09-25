@@ -1,0 +1,102 @@
+name: 'Rite: Sympathetic Bond'
+type: feat
+img: icons/magic/control/energy-stream-link-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.nFkTPxGymFML9XNR
+system:
+  description:
+    value: >-
+      <p>You learn the @Compendium[dnd5e.spells.JVhKeanAXZH62DrF]{Warding Bond}
+      spell. It is an Occultist spell for you, but does not count against your
+      spells known.</p>
+
+      <p>When you cast warding bond you can choose to increase the power of the
+      bond. When you do so, if either bonded creature makes an Intelligence,
+      Wisdom, or Charisma saving throw, both creatures make the save. If either
+      passes, both pass the save, but if both fail, both are affected by the
+      condition being saved against, even if only one was targeted. If both
+      creatures are saving against the same effect, they do not roll twice, but
+      both pass if either passes their saving throws, and both fail if both fail
+      their saving throw.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742382248
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 56100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: j4p3VaFnCjIUmZ85
+_key: '!items!j4p3VaFnCjIUmZ85'
+

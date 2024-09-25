@@ -1,0 +1,94 @@
+name: 'Rite: Commune Beyond Death'
+type: feat
+img: icons/magic/death/skull-trio-badge-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.tV88EkUPPQ6IxILi
+system:
+  description:
+    value: >-
+      <p>You learn the speak with dead spell, and it's an Occultist spell for
+      you, but does not count against your spells known. You can cast it without
+      expending a spell slot. Once you cast it this way, you must finish a short
+      or long rest before you can cast it this way again.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742357978
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 26100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: IKq6UuFE94mNbnhk
+_key: '!items!IKq6UuFE94mNbnhk'
+

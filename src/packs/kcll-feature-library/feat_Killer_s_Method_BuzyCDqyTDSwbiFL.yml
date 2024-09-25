@@ -1,0 +1,113 @@
+name: Killer's Method
+type: feat
+img: icons/equipment/head/hood-purple-mask.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.zzgHSWdky9n4zFGb
+system:
+  description:
+    value: >-
+      <p>Starting at 9th level, you have mastered one technique of your choice
+      for approaching a target. Select one of the following benefits:</p>
+
+      <ul>
+
+      <li><strong>False Face: </strong>You gain expertise with the disguise kit,
+      and can assume a prepared disguise with the bonus action granted by
+      Cunning Action.</li>
+
+      <li><strong>Blade in the Dark:</strong> You gain expertise with the
+      Stealth skill. You can attempt hide even when you are only lightly
+      obscured by dim light.</li>
+
+      <li><strong>Poisoner's Path: </strong>You gain expertise with the
+      poisoner's kit. During a long rest, you can create one a single use
+      Injury, Touch, Ingested, or Inhaled poison. On effect, the target must
+      make a Constitution saving throw (DC 10 + your proficiency bonus) or take
+      2d6 + your proficiency bonus damage.</li>
+
+      </ul>
+
+      <p>If you gain expertise in a skill you already have expertise in, you can
+      select another skill or tool to gain proficiency in.</p>
+    chat: ''
+    unidentified: ''
+  source: Cutthroat
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cutthroat 9
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741755199
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 19000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: BuzyCDqyTDSwbiFL
+_key: '!items!BuzyCDqyTDSwbiFL'
+

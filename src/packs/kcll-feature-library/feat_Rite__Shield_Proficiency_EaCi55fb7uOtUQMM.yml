@@ -1,0 +1,84 @@
+name: 'Rite: Shield Proficiency'
+type: feat
+img: icons/equipment/shield/round-wooden-boss-steel-red.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Vestaments of War</em></p><p>You gain proficiency
+      with shields.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Vestaments of War
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.JdYGIBtxmS1eDexr
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682470972086
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 22300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: EaCi55fb7uOtUQMM
+_key: '!items!EaCi55fb7uOtUQMM'
+

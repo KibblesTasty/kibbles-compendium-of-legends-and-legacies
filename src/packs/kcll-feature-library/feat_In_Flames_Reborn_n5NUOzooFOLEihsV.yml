@@ -1,0 +1,134 @@
+name: In Flames Reborn
+type: feat
+img: icons/magic/fire/projectile-wave-arrow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.YrKz1UB9N6myLdSd
+system:
+  description:
+    value: >-
+      <p>At 18th level, when you are reduced to 0 hit points, or as an action at
+      any time, you can explode into fire, dealing 8d6 fire damage to all
+      creatures within a 30 foot radius and being temporarily reborn as a
+      phoenix. You can apply Rejuvenating Flames to this fire damage without
+      expending a use of the feature or sorcery points.</p><p>You assume the
+      form of a Fire Elemental as if by the shapechange spell. This form has the
+      following modification: you gain a flying speed of 60 feet, gain the Flyby
+      feature (meaning your movement does not provoke attacks of opportunity
+      when you fly out of an enemy's reach), you add your Charisma modifier
+      (minimum +1) to all attack and damage rolls with your Touch attack, and
+      can understand and speak any languages you can normally speak. It does not
+      require concentration, and you cannot change your form as an action. You
+      return to your normal form after 1 hour, or you can end the effect early
+      as an action.</p><p>Once you have assumed this form, you cannot assume it
+      again until you complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Phoenix Spark
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: object
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 6d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Phoenix Spark 18
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741849760
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 60200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: n5NUOzooFOLEihsV
+_key: '!items!n5NUOzooFOLEihsV'
+

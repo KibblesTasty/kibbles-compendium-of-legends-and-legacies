@@ -1,0 +1,119 @@
+name: Tactical Insight
+type: feat
+img: icons/skills/targeting/target-glowing-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ncAPFSuGTQIv9V57
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can tactically assess a creature's options.
+      As a bonus action, make an Intelligence (Investigation) check contested by
+      a Charisma (Deception) check against any creature you can see within 60
+      feet.</p>
+
+      <p>On a success, you can see through their tactics, granting one of the
+      following effects:</p>
+
+      <ul>
+
+      <li><strong>Determine Attack</strong>: You can cause them to have
+      disadvantage on their next attack against a creature that can see or hear
+      you.</li>
+
+      <li><strong>Predict Movement:</strong> You deduce where they are planning
+      to move on their next turn. They can choose to change their plans, but if
+      they move anywhere else, their movement speed is reduced by 10 feet as
+      they scramble to adapt.</li>
+
+      <li><strong>Outwit Response:</strong> You can find their openings,
+      negating their ability to use their reaction until the end of their next
+      turn.</li>
+
+      <li><strong>Expose Weakness: </strong>You can use Helpful Word to grant
+      advantage against that target as part of the bonus action without
+      expending a Leadership Die.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Tactician
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: int
+  actionType: abil
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Tactician 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742639313
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 72000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: xX8UU1LYIRu0LdAd
+_key: '!items!xX8UU1LYIRu0LdAd'
+

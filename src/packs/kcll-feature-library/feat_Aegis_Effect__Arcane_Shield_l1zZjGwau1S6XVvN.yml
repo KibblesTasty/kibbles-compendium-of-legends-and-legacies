@@ -1,0 +1,86 @@
+name: 'Aegis Effect: Arcane Shield'
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+system:
+  description:
+    value: >-
+      <p>You can create a shield of arcane power that protects you, blocking
+      incoming attacks. You gain a +2 to AC as if you had a shield equipped.
+      This counts as an equipped shield, and you cannot benefit from both this
+      and an equipped shield.</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 9
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.yyHAA6iQY6J8TWSt
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667600523607
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 57700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: l1zZjGwau1S6XVvN
+_key: '!items!l1zZjGwau1S6XVvN'
+

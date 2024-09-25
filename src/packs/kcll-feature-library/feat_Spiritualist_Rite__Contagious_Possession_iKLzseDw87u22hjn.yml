@@ -1,0 +1,87 @@
+folder: null
+name: 'Spiritualist Rite: Contagious Possession'
+type: feat
+img: icons/creatures/magical/spirit-mischief-fire-ice-blue.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 9th level Spiritualist)</em></p><p>If a creature
+      dies while under the effect of Malignant Possession, you can force another
+      creature within 30 feet of it to make a Charisma saving throw. On failure,
+      it becomes under the effect of Malignant Possession. You cannot use this
+      feature if the creature died from the effects of Destructive
+      Possession.</p>
+    chat: ''
+    unidentified: ''
+  source: Spiritualist
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spiritualist 9
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1693772539391
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_id: iKLzseDw87u22hjn
+sort: 700000
+_key: '!items!iKLzseDw87u22hjn'
+

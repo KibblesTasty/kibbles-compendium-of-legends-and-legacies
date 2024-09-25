@@ -1,0 +1,104 @@
+name: Imparted Force (1-3 Ki)
+type: feat
+img: icons/skills/melee/strike-hammer-destructive-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.Mbwhg0wpCxiHL8De
+system:
+  description:
+    value: >-
+      <p>When you hit a target with an attack, you can expend up to 3 ki points,
+      dealing a number of rolls of your Martial Arts die equal to the ki spent,
+      and forcing the target to make a Strength saving. On failure, they are
+      pushed 10 feet for each ki point spent.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1@scale.monk.die
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742056650
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 10300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 4bcvDcbZLATKxC2V
+_key: '!items!4bcvDcbZLATKxC2V'
+

@@ -1,0 +1,90 @@
+name: 'Rite: Protective Ward'
+type: feat
+img: icons/magic/symbols/runes-carved-stone-green.webp
+system:
+  description:
+    value: >-
+      <p>You make a ward against supernatural harm. While you wear this charm,
+      you can use it to cast protection from evil and good without expending a
+      spell slot, material components, or requiring concentration, but the spell
+      lasts a number of rounds equal to your Wisdom modifier. You can cast this
+      as a reaction to being attacked or making a save it would affect, but when
+      you do so it only lasts until the start of your next turn.</p><p>Once you
+      use this charm, you cannot use it again until you complete a short or long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist Rite
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.QHNw0DGoJOoEkP43
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682471115491
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 33000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: OiZsLb58sORgz3Ul
+_key: '!items!OiZsLb58sORgz3Ul'
+

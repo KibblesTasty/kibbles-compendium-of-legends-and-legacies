@@ -1,0 +1,112 @@
+name: Improved Fighting Style
+type: feat
+img: icons/skills/melee/strike-sword-steel-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.jb5r5QbTLrnGwCNw
+system:
+  description:
+    value: >-
+      <p>Additionally, your selected Fighting Style is further refined. You gain
+      the following the bonus based on your Fighting
+      Style:</p><ul><li><p><strong>Archery:</strong> You gain a +1 bonus to
+      damage rolls you make when benefiting from this Fighting
+      Style.</p></li><li><p><strong>Defense:</strong> You gain 1 damage
+      resistance when benefiting from this Fighting
+      Style</p></li><li><p><strong>Dueling:</strong> You gain a +1 to attcak
+      rolls you make when benefiting from this Fighting
+      Style.</p></li><li><p><strong>Great Weapon Fighting:</strong> You can add
+      half of your Strength modifier (rounded down) to attacks made while
+      benefiting from this Fighting
+      Style.</p></li><li><p><strong>Protection:</strong> You gain a second
+      reaction action which can only be used on this reaction (allowing you to
+      use it and one other reaction, or use it
+      twice).</p></li><li><p><strong>Two Weapon Fighting:</strong> Attacking
+      with your second weapon no longer requires your bonus action, but you can
+      make that attack only once per turn.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source: Champion
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Champion 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741759689
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 35400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: QgbRbd1pgvYIkN4X
+_key: '!items!QgbRbd1pgvYIkN4X'
+

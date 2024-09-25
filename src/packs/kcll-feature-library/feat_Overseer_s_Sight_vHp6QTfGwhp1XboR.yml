@@ -1,0 +1,85 @@
+name: Overseer's Sight
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: The Overseer subclass, 15th level</em></p><p>You gain
+      truesight with a range of 30 feet. This range is doubled while you have a
+      spectral eye manifested from Lingering Gaze.</p>
+    chat: ''
+    unidentified: ''
+  source: The Overseer
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Overseer 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.e1xzH35MM6GjnKGy
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665616757249
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 70000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: vHp6QTfGwhp1XboR
+_key: '!items!vHp6QTfGwhp1XboR'
+

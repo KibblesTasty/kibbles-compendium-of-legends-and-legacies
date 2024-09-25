@@ -1,0 +1,84 @@
+name: 'Cultist Rite: Empowered Blood Magic'
+type: feat
+img: icons/skills/wounds/blood-cells-vessel-red-orange.webp
+system:
+  description:
+    value: >-
+      <p>When you cast a spell that deals damage damage on cast and has a blood
+      magic tag, you can add your Spellcasting modifier to the damage dealt.</p>
+    chat: ''
+    unidentified: ''
+  source: Cultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cultist 5
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.t8qX5DkAUCsZHpq4
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678593483520
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 19400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: CAF8CTBBTEl5Lc9t
+_key: '!items!CAF8CTBBTEl5Lc9t'
+

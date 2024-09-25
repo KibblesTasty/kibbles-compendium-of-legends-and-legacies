@@ -1,0 +1,106 @@
+name: Bestial Claws
+type: feat
+img: icons/creatures/claws/claw-bear-paw-swipe-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.by6Ryu50yCHQVUrn
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when you roll initiative or as a bonus action at
+      any time, you can manifest one or both of your arms into clawed natural
+      weapons. You cannot wield weapons or shields in hands that you have
+      morphed, but they can be used to grapple creatures. While you are
+      grappling a creature with a claw, that claw can only attack that creature.
+      The claws last until you dismiss them as a bonus action.</p>
+
+      <h2>Bestial Claws</h2>
+
+      <p>A vicious set of claws extending from one of your hands. This becomes a
+      natural one handed melee weapon that deals 1d8 slashing damage on hit, and
+      has the Light and Special properties.</p>
+
+      <p><strong>Special:</strong> This weapon counts as a free hand for the
+      purposes of grappling. When you succeed a grapple check with it, the
+      target takes 1d6 slashing damage.</p>
+    chat: ''
+    unidentified: ''
+  source: Beasthide
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Beasthide 1
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742706784
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 23500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: FouDnj6raZbcZHQc
+_key: '!items!FouDnj6raZbcZHQc'
+

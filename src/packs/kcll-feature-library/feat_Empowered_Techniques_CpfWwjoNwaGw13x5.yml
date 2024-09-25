@@ -1,0 +1,94 @@
+name: Empowered Techniques
+type: feat
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.KSRD7qPVSmDssHgB
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, at the start of your turn, you gain 1 free ki
+      point you can spend on an Elemental Technique before the start of your
+      next turn. If it is not spent before the start of your next turn, it is
+      lost.</p>
+    chat: ''
+    unidentified: ''
+  source: Way of the Four Elements
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Four Elements 11
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741790568
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 20500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: CpfWwjoNwaGw13x5
+_key: '!items!CpfWwjoNwaGw13x5'
+

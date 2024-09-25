@@ -1,0 +1,156 @@
+name: Gigantification
+type: feat
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects:
+  - _id: jSKLH1YAjgfccAfk
+    changes:
+      - key: system.bonuses.mwak.damage
+        mode: 2
+        value: +1d8
+        priority: 20
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '+20'
+        priority: 20
+      - key: system.traits.size
+        mode: 5
+        value: huge
+        priority: 50
+    disabled: true
+    duration:
+      rounds: 1
+      startTime: null
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    icon: icons/creatures/magical/construct-iron-stomping-yellow.webp
+    label: Gigantification
+    origin: Item.G6XoWLGp8WEzUAzr
+    transfer: true
+    flags: {}
+    tint: null
+    _key: '!items.effects!WveuRGVdQ6T2fr9y.jSKLH1YAjgfccAfk'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.G6XoWLGp8WEzUAzr
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, as a bonus action or when you manifest your
+      bestial claws, you can unleash the bestial power within swelling to
+      massive size. You become Large or Huge (your choice) for 1 minute. Upon
+      transforming, you gain temporary hit points equal to half of your maximum
+      hit points. For the duration of your transformation, you gain the
+      following benefits:</p>
+
+      <ul>
+
+      <li>Your natural weapons deal an additional die of damage.</li>
+
+      <li>You have advantage on all grappling checks against creatures smaller
+      than you.</li>
+
+      <li>Your reach increases by 5 feet with all weapons.</li>
+
+      <li>Your movement speed increases by 20 feet.</li>
+
+      <li>The distance you can long or high jump with a running start.</li>
+
+      <li>You have advantage on Strength and Constitution saving throws.</li>
+
+      </ul>
+
+      <p>Additionally while in this form, when you make an attack, you can throw
+      medium or small objects or creatures you are holding with a range of
+      50/100. On hit, both the target and the thrown creature or object takes
+      3d6 + your Strength modifier damage.</p>
+
+      <p>Once you use this feature, you cannot use it again until you complete a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Beasthide
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Beasthide 17
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742745253
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 42000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: WveuRGVdQ6T2fr9y
+_key: '!items!WveuRGVdQ6T2fr9y'
+

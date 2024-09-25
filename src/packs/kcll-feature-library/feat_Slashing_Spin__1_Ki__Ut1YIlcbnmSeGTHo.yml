@@ -1,0 +1,110 @@
+name: Slashing Spin (1 Ki)
+type: feat
+img: icons/skills/melee/strike-sword-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.RaF5kXK0zLqOoNYw
+system:
+  description:
+    value: >-
+      <p>As an attack as part of the attack action, you can whirl your blade in
+      a circle, forcing all creatures within 5 feet to make a Dexterity saving
+      throw. On failure they take damage equal to your Martial Arts die + your
+      Dexterity modifier, or half as much on success.</p>
+    chat: ''
+    unidentified: ''
+  source: Sword Saint
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 7
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1@scale.monk.die + @mod
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: wis
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742066172
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 39300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Ut1YIlcbnmSeGTHo
+_key: '!items!Ut1YIlcbnmSeGTHo'
+

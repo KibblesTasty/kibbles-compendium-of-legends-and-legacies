@@ -1,0 +1,95 @@
+name: Purging Surge
+type: feat
+img: icons/magic/unholy/projectiles-binary-pink.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 3rd level,
+      you gain a new option for your Arcane Surge feature.</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">On your turn, you can expend a use
+      of Arcane Surge to end a magical effect or supernatural condition (such as
+      being Charmed or Frightened) on yourself (no action required). If the
+      spell is of a level greater than half your Spellblade level (rounded up)
+      you must make an Intelligence saving throw with a DC of 10 + the spell's
+      level to end it. You cannot do use this ability if you are
+      incapacitated.</span></li></ul>
+    chat: ''
+    unidentified: ''
+  source: Mage Hunter
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Mage Hunter 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.R4r14xaRHeFRTPb4
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682459918130
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 61800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: npnz1nA7MRCt4FfI
+_key: '!items!npnz1nA7MRCt4FfI'
+

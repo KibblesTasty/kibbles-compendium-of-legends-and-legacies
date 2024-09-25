@@ -1,0 +1,134 @@
+name: Evasion
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.tXlgLLYqNfMyhZnn
+system:
+  description:
+    value: >-
+      <h3 id="barbarian-path-path-of-instinct-evasion">Evasion</h3>
+
+      <p>Beginning at 10th level, you can nimbly dodge out of the way of certain
+      area effects, such as an ancient red dragon’s fiery breath or an ice storm
+      spell. When you are subjected to an effect that allows you to make a
+      Dexterity saving throw to take only half damage, you instead take no
+      damage if you succeed on the saving throw, and only half damage if you
+      fail.</p>
+    chat: ''
+    unidentified: ''
+  source: Path of Instinct
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of Instinct 10
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678741859532
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 73700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: zQgFJkgH4yiy6E5H
+_key: '!items!zQgFJkgH4yiy6E5H'
+

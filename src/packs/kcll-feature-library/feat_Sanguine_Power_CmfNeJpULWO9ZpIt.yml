@@ -1,0 +1,88 @@
+name: Sanguine Power
+type: feat
+img: icons/skills/wounds/blood-drip-droplet-red.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Beginning at 6th level,
+      when you deal piercing or slashing damage to creature that has blood, you
+      can use the blood of the creatures you damaged to fuel blood magic spells
+      until the end of your next turn, reducing the hit points needed to cast
+      spells by up to half the piercing or slashing you've dealt in that
+      time.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Cultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cultist 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.JMkS4oOK1Ve7ACy2
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1683759158672
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 20400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: CmfNeJpULWO9ZpIt
+_key: '!items!CmfNeJpULWO9ZpIt'
+

@@ -1,0 +1,98 @@
+name: Adaptive Absorption
+type: feat
+img: icons/creatures/slimes/slime-movement-swirling-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 1st level
+      when you make the pact, as a reaction to taking damage you can manipulate
+      your body gaining resistance to the damage type of the attack until the
+      start of your next turn. If the trigger of the reaction is being struck by
+      a melee weapon, you can force the attacker to make a Strength saving throw
+      against your spell save DC. On failure, their weapon becomes stuck,
+      forcing them to either release it, or become grappled by you (their
+      choice).</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">You can do this a number of times
+      equal to your proficiency bonus, regaining all uses when you complete a
+      long rest.</span></p>
+    chat: ''
+    unidentified: ''
+  source: The Ooze
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '@prof'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Ooze 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.trwgOY1arZCLwiWu
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1683756613458
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 65800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: sDS1auto2mKPaIY4
+_key: '!items!sDS1auto2mKPaIY4'
+

@@ -1,0 +1,89 @@
+name: Rimeblade
+type: feat
+img: icons/magic/water/strike-ice-blade-fang.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 3rd level
+      when you select this archetype, whenever you finish a long rest, you can
+      touch one weapon that you are proficient with and that lacks the
+      two-handed property. That weapon is imbued with frost energy. Its damage
+      becomes cold damage, and when you attack with that weapon, you can use
+      your Intelligence modifier, instead of Strength or Dexterity, for the
+      attack and damage rolls.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Iceblade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Iceblade 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.5MJdWONIAn1I5Otk
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1684703644463
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 66400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: so2ycrXE0r4oiOVW
+_key: '!items!so2ycrXE0r4oiOVW'
+

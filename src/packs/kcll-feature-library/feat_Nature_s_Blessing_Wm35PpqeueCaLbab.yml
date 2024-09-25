@@ -1,0 +1,87 @@
+name: Nature's Blessing
+type: feat
+img: icons/magic/nature/elemental-plant-humanoid.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 3rd level,
+      you gain proficiency with the Nature skill and gain the ability to use a
+      druidic focus as your spell casting focus for your druid spells. If you
+      are already proficient in Nature, you gain proficiency in another skill of
+      your choice.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Green Knight
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Green Knight 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.HnGaMLW81gbudEe1
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1682997673231
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 41600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Wm35PpqeueCaLbab
+_key: '!items!Wm35PpqeueCaLbab'
+

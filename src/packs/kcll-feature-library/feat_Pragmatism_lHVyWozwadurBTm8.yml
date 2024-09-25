@@ -1,0 +1,98 @@
+name: Pragmatism
+type: feat
+img: icons/equipment/chest/shirt-simple-grey.webp
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you embrace a more pragmatic view, gaining the following
+      benefits:</p><ul><li><p>You have proficiency in improvised weapons.
+      Improvised melee weapons count as Monk weapons for you.</p></li><li><p>You
+      gain proficiency in Light armor and Medium armor, and gain the benefits of
+      Martial Arts and Unarmored Movement while wearing it.</p></li><li><p>You
+      can use your Strength modifier in place of your Wisdom modifier for
+      calculating your Ki save DC.</p></li><li><p>You gain the following
+      additional Pragmatic Techniques you can spend Ki
+      on.</p></li></ul><p><strong>Kick 'em While Their Down (1 Ki).</strong>
+      When you hit a target that is prone, restrained, or incapacitated, you can
+      expend a Ki point to deal additional damage equal to two rolls of your
+      Martial Arts die.</p><p><strong>Unexpected Technique (1 Ki).</strong> When
+      you make a grapple check, you can expend a ki point to add your Martial
+      Arts die to the roll. You can do this after the contested roll, and it can
+      potentially turn a failure into a success. On success, the target takes
+      damage equal to amount rolled on the added die.</p>
+    chat: ''
+    unidentified: ''
+  source: Way of the Outcast
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Outcast 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.hZo0qeJ23A97L6Xl
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1667084047091
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 57900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: lHVyWozwadurBTm8
+_key: '!items!lHVyWozwadurBTm8'
+

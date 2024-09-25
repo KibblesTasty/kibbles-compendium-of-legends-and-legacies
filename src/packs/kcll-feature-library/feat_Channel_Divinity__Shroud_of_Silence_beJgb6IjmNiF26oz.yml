@@ -1,0 +1,94 @@
+name: 'Channel Divinity: Shroud of Silence'
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  description:
+    value: >-
+      <p>Shroud of Silence. As a bonus action, you present your holy symbol and
+      whisper a prayer shrouded in target in an aura of silence. For 10 minutes,
+      the target makes no noise. It cannot speak (including the verbal
+      components of spells) and gains advantage on Stealth (Dexterity) ability
+      checks.</p><p>An unwilling target makes a Wisdom saving throw against your
+      spell save DC to prevent the effect when targeted, and can repeat the
+      saving throw at the end of each of their turns to end the effect on a
+      success.</p>
+    chat: ''
+    unidentified: ''
+  source: Oath of Silence
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oath of Silence 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+  core:
+    sourceId: Item.XuFHUbWk9XKZvg3q
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1665627963846
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 47100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: beJgb6IjmNiF26oz
+_key: '!items!beJgb6IjmNiF26oz'
+

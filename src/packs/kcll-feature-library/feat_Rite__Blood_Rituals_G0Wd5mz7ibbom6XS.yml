@@ -1,0 +1,104 @@
+name: 'Rite: Blood Rituals'
+type: feat
+img: icons/skills/wounds/blood-drip-droplet-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1aFrXhGZt8oze5C1
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 5th level Occultist</em></p>
+
+      <p>Whenever you cast a ritual spell that requires a material component,
+      you can instead use blood.</p>
+
+      <p>Willing living creatures within 10 feet of you can expend hit dice,
+      rolling them and taking necrotic damage equal to the value rolled to fuel
+      the ritual instead of a material component, with each 10 hit points
+      sacrificed in this manner able to replace up to 100 gp of material
+      components (for example, to replace a diamond worth 500 gold, 50 hit
+      points would have to be expended in this manner).</p>
+
+      <p>Creatures that lose hit points in this way cannot regain those hit
+      points until they complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Occultist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 5
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742356739
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 24000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: G0Wd5mz7ibbom6XS
+_key: '!items!G0Wd5mz7ibbom6XS'
+

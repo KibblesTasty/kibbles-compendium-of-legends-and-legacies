@@ -1,0 +1,114 @@
+name: On Your Feet!
+type: feat
+img: icons/skills/social/diplomacy-handshake.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+        '1': If target is at 0
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.IkgWo3kjQQX8FKFc
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you can use a bonus action and expend one
+      Leadership Die to restore the will to fight in an allied creature. Choose
+      a friendly creature within 5 feet of you. That creature regains hit points
+      equal to your Leadership die.</p>
+
+      <p>When you use this feature to restore hit points to a creature at 0 hit
+      points, you can add your Wisdom modifier to the amount of hit points
+      restored. If the creature is prone, it can choose to stand
+      immediately.</p>
+    chat: ''
+    unidentified: ''
+  source: Commander
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: wis
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - healing
+      - - '@mod'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Commander 7
+  recharge:
+    value: null
+    charged: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.307'
+  createdTime: 1678742622833
+  modifiedTime: 1693773473063
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+folder: null
+sort: 32600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: Obsb96sl8CtLkEzo
+_key: '!items!Obsb96sl8CtLkEzo'
+

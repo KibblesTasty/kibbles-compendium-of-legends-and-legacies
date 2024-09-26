@@ -23,17 +23,6 @@
 	}],
 	"manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/latest/download/module.json",
 	"download": "AUTOMATIC",
-	"keywords": [
-		"subclasses",
-		"spells",
-		"feats",
-		"classes",
-		"backgrounds",
-		"races",
-		"creatures",
-		"monsters",
-		"crafting"
-	],
 	"packs": [
 		{
 			"name": "kcll-monsters",
@@ -58,6 +47,42 @@
 			"label": "KCLL Subclasses",
 			"system": "dnd5e",
 			"type": "Item"
+		},
+		{
+			"name": "kcll-journals",
+			"label": "KCLL Journals",
+			"system": "dnd5e",
+			"type": "JournalEntry"
+		},
+		{
+			"name": "kcll-tables",
+			"label": "KCLL Tables",
+			"system": "dnd5e",
+			"type": "RollTable"
+		},
+		{
+			"name": "kcll-origins",
+			"label": "KCLL Origins",
+			"system": "dnd5e",
+			"type": "Item"
+		},
+		{
+			"name": "kcll-feats",
+			"label": "KCLL Feats",
+			"system": "dnd5e",
+			"type": "Item"
+		},
+		{
+			"name": "kcll-spells",
+			"label": "KCLL Spells",
+			"system": "dnd5e",
+			"type": "Item"
+		},
+		{
+			"name": "kcll-items",
+			"label": "KCLL Items",
+			"system": "dnd5e",
+			"type": "Item"
 		}
 	],
   "packFolders": [{
@@ -68,12 +93,12 @@
       "name": "KCLL",
       "sorting": "a",
       "color": "#CD5C5C",
-      "packs": ["kcll-roll-tables", "kcll-journals"],
+      "packs": ["kcll-tables", "kcll-journals"],
       "folders": [{
           "name": "Character Features",
           "sorting": "a",
           "color": "#592d86",
-          "packs": ["kcll-backgrounds", "kcll-feats", "kcll-subclasses", "kcll-classes", "kcll-races"]
+          "packs": ["kcll-origins", "kcll-feats", "kcll-subclasses", "kcll-classes"]
         },
         {
           "name": "Items & Spells",

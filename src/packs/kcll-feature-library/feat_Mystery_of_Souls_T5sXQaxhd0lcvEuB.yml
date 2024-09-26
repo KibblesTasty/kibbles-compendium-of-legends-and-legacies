@@ -121,69 +121,38 @@ system:
       sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"></p><p><br
       class="Apple-interchange-newline" /></p>
     chat: ''
-    unidentified: ''
-  source: Oracle
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Oracle 1
-  recharge:
-    value: null
-    charged: false
+  identifier: mystery-of-souls
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.9EoUKmEJUNHhqz3r
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742271424
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317505525
+  modifiedTime: 1727317505525
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 37400000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: T5sXQaxhd0lcvEuB
 _key: '!items!T5sXQaxhd0lcvEuB'
 

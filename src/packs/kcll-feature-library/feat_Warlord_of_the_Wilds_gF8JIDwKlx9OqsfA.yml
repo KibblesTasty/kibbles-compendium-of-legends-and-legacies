@@ -32,69 +32,38 @@ system:
       <p>Any time you use Leadership Dice to cast a spell, you can take the
       Attack action (one weapon attack only) as a bonus action.</p>
     chat: ''
-    unidentified: ''
-  source: Packleader
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Packleader 18
-  recharge:
-    value: null
-    charged: false
+  identifier: warlord-of-the-wilds
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.CUA4x4RWNceLnc2h
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742662242
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317515254
+  modifiedTime: 1727317515254
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 52800000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: gF8JIDwKlx9OqsfA
 _key: '!items!gF8JIDwKlx9OqsfA'
 

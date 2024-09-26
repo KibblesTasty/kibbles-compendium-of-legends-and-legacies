@@ -23,6 +23,11 @@ flags:
         use: true
   core:
     sourceId: Item.Yeo5eJJgVpS8g5i0
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 system:
   description:
     value: >-
@@ -31,69 +36,99 @@ system:
       Arcane Surge you use on your turn does not consume a use of your Arcane
       Surge feature.</p>
     chat: ''
-    unidentified: ''
-  source: Battlemage
-  activation:
-    type: special
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    custom: Battlemage
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: lr
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Battlemage 20
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: unlimited-surges
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.Yeo5eJJgVpS8g5i0
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678743035568
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317510496
+  modifiedTime: 1727317510496
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 45100000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: aGLi6Ns5eUxHd91Q
 _key: '!items!aGLi6Ns5eUxHd91Q'
 

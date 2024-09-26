@@ -51,8 +51,9 @@ system:
       @Compendium[kibbles-warlord.kibbles-warlord.pi21tH2uxcC5KYyC]{Bloody
       Victory}</p>
     chat: ''
-    unidentified: ''
-  source: Kibbles' Warlord
+  source:
+    rules: '2014'
+    revision: 1
   identifier: chieftain
   classIdentifier: warlord
   advancement:
@@ -60,77 +61,90 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.kibbles-warlord.kibbles-warlord.X7TMpknPEBen27by
-          - Compendium.kibbles-warlord.kibbles-warlord.vVmmFN8bdLajPuFb
+          - uuid: Compendium.kibbles-warlord.kibbles-warlord.X7TMpknPEBen27by
+            optional: false
+          - uuid: Compendium.kibbles-warlord.kibbles-warlord.vVmmFN8bdLajPuFb
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 1
     - _id: 1gpympl7x3tturlp
       type: ItemGrant
       configuration:
         items:
-          - Compendium.kibbles-warlord.kibbles-warlord.JqxL9zTrtIKu6FDL
-          - Compendium.kibbles-warlord.kibbles-warlord.gSzxuRyi145EwkNi
+          - uuid: Compendium.kibbles-warlord.kibbles-warlord.JqxL9zTrtIKu6FDL
+            optional: false
+          - uuid: Compendium.kibbles-warlord.kibbles-warlord.gSzxuRyi145EwkNi
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 3
       title: ''
-      icon: ''
     - _id: cri3z0cic0w6ngax
       type: ItemGrant
       configuration:
         items:
-          - Compendium.kibbles-warlord.kibbles-warlord.KDbtj9F1jz7jtAGV
+          - uuid: Compendium.kibbles-warlord.kibbles-warlord.KDbtj9F1jz7jtAGV
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 7
       title: ''
-      icon: ''
     - _id: u5xiv3kzz7qhj3pl
       type: ItemGrant
       configuration:
         items:
-          - Compendium.kibbles-warlord.kibbles-warlord.zNdeR4XCXLIv8zm1
+          - uuid: Compendium.kibbles-warlord.kibbles-warlord.zNdeR4XCXLIv8zm1
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 11
       title: ''
-      icon: ''
     - _id: 05bmiin2o0nwpzii
       type: ItemGrant
       configuration:
         items:
-          - Compendium.kibbles-warlord.kibbles-warlord.8JtJOjdbU8FCTbMa
+          - uuid: Compendium.kibbles-warlord.kibbles-warlord.8JtJOjdbU8FCTbMa
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 15
       title: ''
-      icon: ''
     - _id: xmrnvrq2n450ydli
       type: ItemGrant
       configuration:
         items:
-          - Compendium.kibbles-warlord.kibbles-warlord.pi21tH2uxcC5KYyC
+          - uuid: Compendium.kibbles-warlord.kibbles-warlord.pi21tH2uxcC5KYyC
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 18
       title: ''
-      icon: ''
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 _stats:
+  compendiumSource: Item.QpB6U2OEBRLfHRd5
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742528401
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317520440
+  modifiedTime: 1727317520440
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 61400000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: nlEkl2nEXJlz75gW
 _key: '!items!nlEkl2nEXJlz75gW'
 

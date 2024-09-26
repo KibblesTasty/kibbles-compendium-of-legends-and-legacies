@@ -12,57 +12,23 @@ system:
       which point they go back to being affected by any ongoing effects of a
       spell.</span></p>
     chat: ''
-    unidentified: ''
-  source: Spellblade
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Spellblade 18
-  recharge:
-    value: null
-    charged: false
+  identifier: blast-zone-control
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -73,17 +39,20 @@ flags:
   core:
     sourceId: Item.tg6ZMqDgIK4VpqE9
 _stats:
+  compendiumSource: Item.tg6ZMqDgIK4VpqE9
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1682454734183
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317509918
+  modifiedTime: 1727317509918
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 44300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: ZSVQVjYKyco9vgue
 _key: '!items!ZSVQVjYKyco9vgue'
 

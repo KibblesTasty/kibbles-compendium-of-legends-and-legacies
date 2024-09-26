@@ -32,6 +32,10 @@ flags:
         '0': true
   core:
     sourceId: Item.RaF5kXK0zLqOoNYw
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -40,71 +44,105 @@ system:
       throw. On failure they take damage equal to your Martial Arts die + your
       Dexterity modifier, or half as much on success.</p>
     chat: ''
-    unidentified: ''
-  source: Sword Saint
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 7
-    width: null
-    units: ft
-    type: radius
-  range:
-    value: null
-    long: null
-    units: self
+  source:
+    custom: Sword Saint
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1@scale.monk.die + @mod
-        - ''
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: null
-    scaling: wis
+    recovery: []
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Sword Saint 3
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '7'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types: []
+            custom:
+              enabled: true
+              formula: 1@scale.monk.die + @mod
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: dex
+        dc:
+          calculation: wis
+          formula: ''
+      sort: 0
+  identifier: slashing-spin-1-ki
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.RaF5kXK0zLqOoNYw
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742066172
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317506629
+  modifiedTime: 1727317506629
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 39300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: Ut1YIlcbnmSeGTHo
 _key: '!items!Ut1YIlcbnmSeGTHo'
 

@@ -23,6 +23,11 @@ flags:
         use: true
   core:
     sourceId: Item.OY1ADXZmzkBNLwqW
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 3
 system:
   description:
     value: >-
@@ -43,69 +48,99 @@ system:
       <p>You can do this a number of times equal to your Wisdom modifier,
       regaining all uses on a long rest.</p>
     chat: ''
-    unidentified: ''
-  source: Martyr
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: null
-    long: null
-    units: touch
+  source:
+    custom: Martyr
+    revision: 1
+    rules: '2014'
   uses:
-    value: 3
     max: '3'
-    per: lr
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Martyr 1
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: relieve-suffering
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.OY1ADXZmzkBNLwqW
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742016645
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317502807
+  modifiedTime: 1727317502807
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 32900000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: Oi6PMJLS82e4ydXY
 _key: '!items!Oi6PMJLS82e4ydXY'
 

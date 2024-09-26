@@ -26,7 +26,8 @@ system:
       grappled by more than one chain.</p>
     chat: ''
     unidentified: ''
-  source: IronboundIronbound
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -76,6 +77,7 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: binding-interdiction
 effects: []
 flags:
   rsr5e:
@@ -87,11 +89,13 @@ flags:
     sourceId: Item.VWOVbPQC2MZwI2G0
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1681519368062
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483824
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.VWOVbPQC2MZwI2G0
+  duplicateSource: null
 folder: null
 sort: 74000000
 ownership:

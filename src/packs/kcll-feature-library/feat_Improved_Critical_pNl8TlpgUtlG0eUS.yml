@@ -2,9 +2,7 @@ name: Improved Critical
 type: feat
 img: icons/skills/melee/blade-tip-chipped-blood-red.webp
 effects:
-  - label: Improved Critical
-    icon: icons/skills/melee/blade-tip-chipped-blood-red.webp
-    origin: Compendium.world.kcll-feature-library.pNl8TlpgUtlG0eUS
+  - origin: Compendium.world.kcll-feature-library.pNl8TlpgUtlG0eUS
     duration:
       startTime: null
       seconds: null
@@ -20,9 +18,25 @@ effects:
         mode: 5
         value: '19'
         priority: 50
-    tint: null
+    tint: '#ffffff'
     transfer: true
     flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Improved Critical
+    img: icons/skills/melee/blade-tip-chipped-blood-red.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!pNl8TlpgUtlG0eUS.E6HR0RkP0B1mZf98'
 flags:
   core:
@@ -53,72 +67,38 @@ system:
       at 7th level (to scoring a critical hit on a roll of 18-20), and again at
       15th level (to scoring a critical hit on a 17-20).</p>
     chat: ''
-    unidentified: ''
-  source: PHB pg. 72
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: ''
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: 0
-    max: 0
-    per: null
-    recovery: ''
-    type: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: ''
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-    value: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-    value: ''
+    max: '0'
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Champion 3
-  recharge:
-    value: null
-    charged: false
+  identifier: improved-critical
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Compendium.dnd5e.classfeatures.YgLQV1O849wE5TgM
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678741760768
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317521440
+  modifiedTime: 1727317521440
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 63300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: pNl8TlpgUtlG0eUS
 _key: '!items!pNl8TlpgUtlG0eUS'
 

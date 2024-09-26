@@ -27,69 +27,38 @@ system:
   description:
     value: "<p>Your understanding of the nature of fire unlocks its secrets for you. You learn the following spells at the following levels.</p><table style=\"width:100%\" border=\"1\"><tbody><tr><td style=\"text-align:center;width:26.428%\"><strong>Occultist Level</strong></td><td style=\"text-align:center;width:73.572%\"><strong>Spells Learned</strong></td></tr><tr><td style=\"text-align:center;width:26.428%\">1st</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.LWTUqKkUQdMAmOe0]{Color Spray}</td></tr><tr><td style=\"text-align:center;width:26.428%\">3rd</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.bV3yun6MIuFj71Er]{Moonbeam}</td></tr><tr><td style=\"text-align:center;width:26.428%\">5th</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.BP3GCwa66IAw1yTG]{Daylight}</td></tr><tr><td style=\"text-align:center;width:26.428%\">7th</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.tEpDmYZNGc9f5OhJ]{Greater Invisibility}</td></tr><tr><td style=\"text-align:center;width:26.428%\">9th</td><td style=\"text-align:center;width:73.572%\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.eIhG97IA5t3W4H4p]{Field of Stars}</td></tr></tbody></table>"
     chat: ''
-    unidentified: ''
-  source: Oracle
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Oracle 1
-  recharge:
-    value: null
-    charged: false
+  identifier: mystery-of-light
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.8K49RbQd3iu9oiRa
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742269991
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317502930
+  modifiedTime: 1727317502930
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 33100000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: OjnlRbpBtxjWfb8j
 _key: '!items!OjnlRbpBtxjWfb8j'
 

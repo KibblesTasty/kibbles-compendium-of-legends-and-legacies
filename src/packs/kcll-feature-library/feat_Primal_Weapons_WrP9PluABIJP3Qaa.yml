@@ -9,57 +9,23 @@ system:
       the purpose of overcoming resistance and immunity to nonmagical attacks
       and damage.</span></p>
     chat: ''
-    unidentified: ''
-  source: Path of the Dragon
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Path of the Dragon 6
-  recharge:
-    value: null
-    charged: false
+  identifier: primal-weapons
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -70,17 +36,20 @@ flags:
   core:
     sourceId: Item.Y49rdwITAOMs4zap
 _stats:
+  compendiumSource: Item.Y49rdwITAOMs4zap
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1681846977134
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317508253
+  modifiedTime: 1727317508253
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 41700000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: WrP9PluABIJP3Qaa
 _key: '!items!WrP9PluABIJP3Qaa'
 

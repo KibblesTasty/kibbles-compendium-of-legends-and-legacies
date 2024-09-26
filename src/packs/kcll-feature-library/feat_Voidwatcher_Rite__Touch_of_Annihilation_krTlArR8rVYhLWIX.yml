@@ -11,61 +11,28 @@ system:
       When the spell critical strikes, additional dice equal to half the spell's
       damage dice (rounded up) are added to the damage roll.</p>
     chat: ''
-    unidentified: ''
-  source: Voidwatcher
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: ''
-  recharge:
-    value: null
-    charged: false
+  identifier: voidwatcher-rite-touch-of-annihilation
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 flags:
   rsr5e:
     quickDesc:
@@ -74,12 +41,14 @@ flags:
       value: true
   core: {}
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1693767631979
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317518224
+  modifiedTime: 1727317518224
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _id: krTlArR8rVYhLWIX
 sort: 4200000
 _key: '!items!krTlArR8rVYhLWIX'

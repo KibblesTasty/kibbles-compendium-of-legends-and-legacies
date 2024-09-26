@@ -28,61 +28,86 @@ system:
       not consume a use of your Totem Binding feature, but once you invoke this
       totem, you cannot invoke it again until you complete a long rest.</p>
     chat: ''
-    unidentified: ''
-  source: Spiritualist
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: '1'
-    units: minute
-  cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ft
-    type: cube
-  range:
-    value: 30
-    long: null
-    units: ft
+  source:
+    custom: Spiritualist
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: cha
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: ''
   requirements: Spiritualist 14
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: cube
+          size: '1'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: grand-spirit-totem
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 flags:
   rsr5e:
     quickDesc:
@@ -96,13 +121,19 @@ flags:
     quickSave:
       value: true
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1693769328717
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317510380
+  modifiedTime: 1727317510380
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _id: a7wdDPH5ei84RhOg
 sort: 300000
 _key: '!items!a7wdDPH5ei84RhOg'

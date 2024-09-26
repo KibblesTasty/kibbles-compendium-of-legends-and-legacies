@@ -23,6 +23,11 @@ flags:
         use: true
   core:
     sourceId: Item.vF4qyXvaCbIv324X
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 system:
   description:
     value: >-
@@ -50,69 +55,99 @@ system:
       <p>@Compendium[kibbles-warlord.kibbles-warlord.cWWwuXNteeFp4UkH]{Urgent
       Orders}</p>
     chat: ''
-    unidentified: ''
-  source: Warlord
-  activation:
-    type: bonus
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    custom: Warlord
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '@classes.warlord.levels'
-    per: sr
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Warlord 2
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: leadership-dice
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.vF4qyXvaCbIv324X
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742595519
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317504892
+  modifiedTime: 1727317504892
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 36400000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: RheFEteQyj3j1rcZ
 _key: '!items!RheFEteQyj3j1rcZ'
 

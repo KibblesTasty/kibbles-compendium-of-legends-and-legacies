@@ -29,7 +29,8 @@ system:
       minute. When you do so, these spells do not require concentration.</p>
     chat: ''
     unidentified: ''
-  source: Shaman
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -79,13 +80,16 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: shaman-rite-avatar-of-the-elements
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678742384521
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483395
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.bb3S5sNGZDOeEK0b
+  duplicateSource: null
 folder: null
 sort: 73300000
 ownership:

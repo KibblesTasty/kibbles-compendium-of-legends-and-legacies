@@ -142,57 +142,23 @@ system:
       sans-serif">2</span></td></tr></tbody></table><p><br
       class="Apple-interchange-newline" /></p>
     chat: ''
-    unidentified: ''
-  source: Cultist
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Cultist Boon
-  recharge:
-    value: null
-    charged: false
+  identifier: boon-of-demonic-claws-1st-level
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -203,17 +169,20 @@ flags:
   core:
     sourceId: Item.nfjQIbdYgdTkUEoL
 _stats:
+  compendiumSource: Item.nfjQIbdYgdTkUEoL
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1674890200884
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317487801
+  modifiedTime: 1727317487801
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 9400000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: 3vzuPzX7ixOEihQo
 _key: '!items!3vzuPzX7ixOEihQo'
 

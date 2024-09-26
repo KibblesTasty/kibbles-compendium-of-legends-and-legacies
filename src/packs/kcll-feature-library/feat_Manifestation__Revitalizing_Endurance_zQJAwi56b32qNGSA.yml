@@ -27,7 +27,8 @@ system:
       die, rolling it and regaining hit points equal to the number rolled.</p>
     chat: ''
     unidentified: ''
-  source: Warden
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -77,13 +78,16 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: manifestation-revitalizing-endurance
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678742793587
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483606
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.PYHvAY27XghjT8kF
+  duplicateSource: null
 folder: null
 sort: 73600000
 ownership:

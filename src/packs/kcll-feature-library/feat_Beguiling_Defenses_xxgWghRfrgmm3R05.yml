@@ -23,6 +23,10 @@ flags:
         use: true
   core:
     sourceId: Item.KXSenJ94vlrGLaHZ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -39,7 +43,10 @@ system:
       Fey Burst.</p>
     chat: ''
     unidentified: ''
-  source: The Fey
+  source:
+    custom: The Fey
+    revision: 1
+    rules: '2014'
   activation:
     type: reaction
     cost: 1
@@ -62,7 +69,10 @@ system:
     value: 1
     max: '1'
     per: sr
-    recovery: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   consume:
     type: charges
     target: ''
@@ -89,13 +99,79 @@ system:
   recharge:
     value: null
     charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: beguiling-defenses
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678741777323
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317482757
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.KXSenJ94vlrGLaHZ
+  duplicateSource: null
 folder: null
 sort: 72200000
 ownership:

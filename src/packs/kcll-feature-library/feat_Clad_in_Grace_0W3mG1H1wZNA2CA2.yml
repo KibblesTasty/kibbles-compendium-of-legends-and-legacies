@@ -17,12 +17,26 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    icon: icons/magic/holy/meditation-chi-focus-blue.webp
-    label: Unarmored Defense
     origin: Item.Cj5yZ01ziAAH52Ui
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Unarmored Defense
+    img: icons/magic/holy/meditation-chi-focus-blue.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!0W3mG1H1wZNA2CA2.uRd72lEbkrYdz6eA'
 flags:
   betterRolls5e:
@@ -47,69 +61,38 @@ system:
       Class equals 10 + your Constitution modifier + your Wisdom modifier. You
       can use a shield and still gain this benefit.</p>
     chat: ''
-    unidentified: ''
-  source: Martyr
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Martyr 1
-  recharge:
-    value: null
-    charged: false
+  identifier: clad-in-grace
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.Cj5yZ01ziAAH52Ui
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742017742
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317485313
+  modifiedTime: 1727317485313
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 5800000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: 0W3mG1H1wZNA2CA2
 _key: '!items!0W3mG1H1wZNA2CA2'
 

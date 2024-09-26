@@ -51,61 +51,28 @@ system:
       equal to your Wisdom modifier, regaining all uses when you complete a long
       rest.</p>
     chat: ''
-    unidentified: ''
-  source: Spiritualist
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Spiritualist 3
-  recharge:
-    value: null
-    charged: false
+  identifier: totem-binding
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 flags:
   rsr5e:
     quickDesc:
@@ -114,12 +81,14 @@ flags:
       value: true
   core: {}
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1693769290183
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317493233
+  modifiedTime: 1727317493233
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _id: AWT0ltXH7jE2JsNe
 sort: 2000000
 _key: '!items!AWT0ltXH7jE2JsNe'

@@ -10,61 +10,28 @@ system:
       regain the ability to cast it again without a spell slot when you complete
       a long rest.</p>
     chat: ''
-    unidentified: ''
-  source: Spiritualist
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Spiritualist 5
-  recharge:
-    value: null
-    charged: false
+  identifier: spiritualist-rite-ghost-step
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 flags:
   rsr5e:
     quickDesc:
@@ -73,12 +40,14 @@ flags:
       value: true
   core: {}
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1693772565116
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317490704
+  modifiedTime: 1727317490704
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _id: 7UqHExVQeyJiUqI0
 sort: 1100000
 _key: '!items!7UqHExVQeyJiUqI0'

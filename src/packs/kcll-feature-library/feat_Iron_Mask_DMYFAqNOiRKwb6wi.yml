@@ -11,57 +11,23 @@ system:
       concentrating on a spell). You cannot lose concentration on the effect,
       but cannot maintain it while concentrating on spell.</p>
     chat: ''
-    unidentified: ''
-  source: Dreadlord
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Dreadlord 7
-  recharge:
-    value: null
-    charged: false
+  identifier: iron-mask
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -72,17 +38,20 @@ flags:
   core:
     sourceId: Item.8TQdsWXu7KAA4KSO
 _stats:
+  compendiumSource: Item.8TQdsWXu7KAA4KSO
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1682202948421
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317495369
+  modifiedTime: 1727317495369
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 21000000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: DMYFAqNOiRKwb6wi
 _key: '!items!DMYFAqNOiRKwb6wi'
 

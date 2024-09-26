@@ -13,61 +13,86 @@ system:
       radius must make a Charisma saving throw against your spell save DC, or
       the attempt fails.</span></p>
     chat: ''
-    unidentified: ''
-  source: Spiritualist
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: '1'
-    units: minute
-  cover: null
-  crewed: false
-  target:
-    value: 10
-    width: null
-    units: ''
-    type: radius
-  range:
-    value: 15
-    long: null
-    units: ft
+  source:
+    custom: Spiritualist
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: cha
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: ''
   requirements: Spiritualist 3
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '15'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '10'
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: totem-binding-totem
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 flags:
   rsr5e:
     quickDesc:
@@ -81,13 +106,19 @@ flags:
     quickSave:
       value: true
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1693770707231
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317494190
+  modifiedTime: 1727317494190
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _id: Bzs0tGmpLptcHP3O
 sort: 2200000
 _key: '!items!Bzs0tGmpLptcHP3O'

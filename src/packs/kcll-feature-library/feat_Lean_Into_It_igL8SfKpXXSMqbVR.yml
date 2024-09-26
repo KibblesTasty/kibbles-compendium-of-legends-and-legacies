@@ -9,57 +9,23 @@ system:
       bonus to an unarmed strike or attack with a melee monk weapon. When you do
       so, you can add twice your Proficiency bonus to the damage roll.</p>
     chat: ''
-    unidentified: ''
-  source: Way of the Outcast
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Way of the Outcast 17
-  recharge:
-    value: null
-    charged: false
+  identifier: lean-into-it
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -70,17 +36,20 @@ flags:
   core:
     sourceId: Item.YjjfsC162rDV5NaX
 _stats:
+  compendiumSource: Item.YjjfsC162rDV5NaX
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1667084297697
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317516996
+  modifiedTime: 1727317516996
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 55600000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: igL8SfKpXXSMqbVR
 _key: '!items!igL8SfKpXXSMqbVR'
 

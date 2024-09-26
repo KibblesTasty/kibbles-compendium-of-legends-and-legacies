@@ -28,7 +28,8 @@ system:
       rest.</p>
     chat: ''
     unidentified: ''
-  source: Warden
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -78,13 +79,16 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: manifestation-devouring-earth
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678742769816
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483506
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.Q0KOE8db4Bfl56tp
+  duplicateSource: null
 folder: null
 sort: 73500000
 ownership:

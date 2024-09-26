@@ -7,57 +7,23 @@ system:
       <p>You turn your weapon into an arcane focus for your Spellblade
       spells.</p>
     chat: ''
-    unidentified: ''
-  source: Spellblade
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Spellblade 2
-  recharge:
-    value: null
-    charged: false
+  identifier: aegis-effect-weapon-focus
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -68,17 +34,20 @@ flags:
   core:
     sourceId: Item.fVxwPHkTH0TjdSm0
 _stats:
+  compendiumSource: Item.fVxwPHkTH0TjdSm0
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1667600311765
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317491322
+  modifiedTime: 1727317491322
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 14900000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: 8YfLLZcNlrnhXTZr
 _key: '!items!8YfLLZcNlrnhXTZr'
 

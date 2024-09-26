@@ -26,59 +26,101 @@ system:
       that cannot be charmed automatically passes their saving throw against
       this ability.</p>
     chat: ''
-    unidentified: ''
-  source: Dream Domain
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: 10
-    units: minute
-  cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: 60
-    long: null
-    units: ft
+  source:
+    custom: Dream Domain
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: sr
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 4 * @classes.cleric.levels
-        - psychic
-    versatile: ''
-  formula: ''
-  save:
-    ability: wis
-    dc: null
-    scaling: spell
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Dream Domain 2
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '10'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: true
+              formula: 4 * @classes.cleric.levels
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: channel-divinity-dream-trance
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -99,18 +141,26 @@ flags:
         '0': true
   core:
     sourceId: Item.YMcily7ZpaBihW5M
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 _stats:
+  compendiumSource: Item.YMcily7ZpaBihW5M
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1683755274000
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317499617
+  modifiedTime: 1727317499617
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 27900000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: Ki9fdn5FAkgyKZaa
 _key: '!items!Ki9fdn5FAkgyKZaa'
 

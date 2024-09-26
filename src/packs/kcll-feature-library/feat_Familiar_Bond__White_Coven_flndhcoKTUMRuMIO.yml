@@ -31,6 +31,11 @@ flags:
         use: true
   core:
     sourceId: Item.l40YqRo0zfs1YViE
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 6
 system:
   description:
     value: >-
@@ -41,71 +46,108 @@ system:
       targets giving that target some of its temporary hit points (minimum
       one).</p>
     chat: ''
-    unidentified: ''
-  source: ''
-  activation:
-    type: reaction
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: 30
-    long: null
-    units: ft
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 6
     max: '6'
-    per: lr
-    recovery: ''
-  consume:
-    type: charges
-    target: ''
-    amount: 6
-  ability: ''
-  actionType: heal
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - '6'
-        - temphp
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: ''
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '6'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '6'
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: familiar-bond-white-coven
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.l40YqRo0zfs1YViE
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742232506
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317514869
+  modifiedTime: 1727317514869
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 52100000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: flndhcoKTUMRuMIO
 _key: '!items!flndhcoKTUMRuMIO'
 

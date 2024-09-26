@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.w9IFAgbwayiwPwrf
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -30,69 +34,91 @@ system:
       temporary hit points gained from this last until you complete a short or
       long rest.</p>
     chat: ''
-    unidentified: ''
-  source: Warlord
-  activation:
-    type: minute
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: spec
-  cover: null
-  crewed: false
-  target:
-    value: 5
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: null
-    long: null
-    units: spec
+  source:
+    custom: Warlord
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Warlord 6
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: minute
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: spec
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: spec
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '5'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: prepare-for-battle
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.w9IFAgbwayiwPwrf
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742625414
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317521643
+  modifiedTime: 1727317521643
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 63500000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: pUSUWE8yjV9fAEwP
 _key: '!items!pUSUWE8yjV9fAEwP'
 

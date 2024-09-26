@@ -18,57 +18,23 @@ system:
       of movement</em>, and deals an additional 1d8 on hit with its
       attacks.</span></p>
     chat: ''
-    unidentified: ''
-  source: Circle of the Wild
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Circle of the Wild 14
-  recharge:
-    value: null
-    charged: false
+  identifier: empowered-frenzy
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -79,17 +45,20 @@ flags:
   core:
     sourceId: Item.Pgp9wvCXCez5Croz
 _stats:
+  compendiumSource: Item.Pgp9wvCXCez5Croz
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1665627762140
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317499262
+  modifiedTime: 1727317499262
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 27300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: K1WwXhTHhWrhosZm
 _key: '!items!K1WwXhTHhWrhosZm'
 

@@ -9,57 +9,23 @@ system:
       Additionally, when you use Adaptive Absorption against a melee weapon
       attack, the triggering attacker takes [[/r 3d6]] acid damage.</span></p>
     chat: ''
-    unidentified: ''
-  source: The Ooze
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: The Ooze 10
-  recharge:
-    value: null
-    charged: false
+  identifier: acidic-adaption
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -70,17 +36,20 @@ flags:
   core:
     sourceId: Item.ZiK0izXxHAy5CiKB
 _stats:
+  compendiumSource: Item.ZiK0izXxHAy5CiKB
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1683756884835
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317522151
+  modifiedTime: 1727317522151
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 64300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: qBjRvUD49utwszuV
 _key: '!items!qBjRvUD49utwszuV'
 

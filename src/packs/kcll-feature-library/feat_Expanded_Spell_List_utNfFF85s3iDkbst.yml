@@ -122,72 +122,38 @@ system:
 
       </table>
     chat: ''
-    unidentified: ''
-  source: The Dragon
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: ''
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: 0
-    max: 0
-    per: null
-    recovery: ''
-    type: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: ''
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-    value: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-    value: ''
+    max: '0'
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: The Dragon 1
-  recharge:
-    value: null
-    charged: false
+  identifier: expanded-spell-list
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Compendium.dnd5e.classfeatures.4IHsIcBhAVDt8QjY
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678741886975
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317524906
+  modifiedTime: 1727317524906
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 69300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: utNfFF85s3iDkbst
 _key: '!items!utNfFF85s3iDkbst'
 

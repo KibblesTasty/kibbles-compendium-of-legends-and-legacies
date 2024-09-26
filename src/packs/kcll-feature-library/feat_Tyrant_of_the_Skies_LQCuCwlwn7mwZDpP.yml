@@ -17,57 +17,23 @@ system:
       draconic form, you choose whether your equipment falls to the ground in
       your space, merges into your new form, or is worn by it.</span></p>
     chat: ''
-    unidentified: ''
-  source: Path of the Dragon
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Path of the Dragon 14
-  recharge:
-    value: null
-    charged: false
+  identifier: tyrant-of-the-skies
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -78,17 +44,20 @@ flags:
   core:
     sourceId: Item.7CCJSFeRibHJL4bj
 _stats:
+  compendiumSource: Item.7CCJSFeRibHJL4bj
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1681846992417
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317500356
+  modifiedTime: 1727317500356
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 29000000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: LQCuCwlwn7mwZDpP
 _key: '!items!LQCuCwlwn7mwZDpP'
 

@@ -42,7 +42,7 @@ system:
       0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px
       var(--color-shadow-dark);border-bottom:1px solid
       var(--color-border-dark)"><tr
-      style="box-sizing:border-box;user-select:text"><th id
+      style="box-sizing:border-box;user-select:text"><th
       style="box-sizing:border-box;user-select:text;padding:0.25em
       0px;text-align:center"></th><th id="air"
       style="box-sizing:border-box;user-select:text;padding:0.25em
@@ -161,69 +161,38 @@ system:
       damage and creatures that hit the magma pillar with a melee attack take
       2d6 fire damage.</span></li></ul>
     chat: ''
-    unidentified: ''
-  source: Circle of Elements
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Circle of Elements 10
-  recharge:
-    value: null
-    charged: false
+  identifier: paraelemental-manifestations
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.i82xjXL2yxAJ7Vsw
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678741941806
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317521243
+  modifiedTime: 1727317521243
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 62900000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: owMkPKD1thVY9zzZ
 _key: '!items!owMkPKD1thVY9zzZ'
 

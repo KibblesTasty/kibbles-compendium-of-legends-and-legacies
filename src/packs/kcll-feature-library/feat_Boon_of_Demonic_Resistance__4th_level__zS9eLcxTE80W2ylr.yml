@@ -9,7 +9,8 @@ system:
       times.</p>
     chat: ''
     unidentified: ''
-  source: Cultist
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -59,6 +60,7 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: boon-of-demonic-resistance-4th-level
 effects: []
 flags:
   rsr5e:
@@ -70,11 +72,13 @@ flags:
     sourceId: Item.xpeacWgwIP035mGb
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1674890273962
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483712
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.xpeacWgwIP035mGb
+  duplicateSource: null
 folder: null
 sort: 73800000
 ownership:

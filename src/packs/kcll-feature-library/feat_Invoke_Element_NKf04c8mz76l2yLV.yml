@@ -91,69 +91,38 @@ system:
       1 minute, ending early if you dismiss it (no action required), are
       incapacitated, die, or use this feature again.</span></p>
     chat: ''
-    unidentified: ''
-  source: Circle of Elements
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ft
-    type: radius
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Circle of Elements 2
-  recharge:
-    value: null
-    charged: false
+  identifier: invoke-element
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.EZg1dlfEkSjJnOK2
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678741940506
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317502089
+  modifiedTime: 1727317502089
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 31700000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: NKf04c8mz76l2yLV
 _key: '!items!NKf04c8mz76l2yLV'
 

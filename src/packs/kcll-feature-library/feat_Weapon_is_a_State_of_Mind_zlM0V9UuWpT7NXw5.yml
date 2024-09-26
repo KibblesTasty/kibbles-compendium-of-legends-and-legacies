@@ -59,7 +59,8 @@ system:
     value: "<p>Beginning when you choose this archetype at 3rd level, you gain a remarkably ability to turn anything into a weapon - fists, improvised weapons, goblins, etc.</p>\n<p>\_</p>\n<p>You can add your proficiency bonus when wielding improvised weapon, and all attacks you made deal 1d8 damage bludgeoning, piercing, or slashing damage (depending on their nature) if their damage die would be lower. You can use creatures you are grappling as improvised weapons with the Thrown 5/10 property. If they one size or more smaller than you, they gain the Light property. When you make an attack using a creature or object as a weapon, you can choose to deal damage equal to your Strength modifier to the creature or object you are using as a weapon.</p>"
     chat: ''
     unidentified: ''
-  source: Brawler
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -109,13 +110,16 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: weapon-is-a-state-of-mind
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678741970239
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483948
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.SygZ9Y2ZowRD8nFq
+  duplicateSource: null
 folder: null
 sort: 74200000
 ownership:

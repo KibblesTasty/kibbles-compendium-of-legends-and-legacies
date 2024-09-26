@@ -31,85 +31,65 @@ system:
       increases your Armor Class by 2. You can benefit from only one shield at a
       time.</p>
     chat: ''
-    unidentified: ''
-  source: Elemental Soul
+  source:
+    rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   armor:
     value: 2
-    type: shield
     dex: null
+    magicalBonus: null
   hp:
     value: 0
     max: 0
     dt: null
     conditions: ''
-  baseItem: ''
   speed:
     value: null
     conditions: ''
   strength: 0
-  stealth: false
-  proficient: true
+  proficient: 1
+  identifier: frost-shield
+  unidentified:
+    description: ''
+  type:
+    value: shield
+    baseItem: ''
+  activities: {}
+  container: null
+  attuned: false
+  properties: []
 _stats:
+  compendiumSource: Item.yWn1JRfcm0I2g6qC
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742743931
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317493293
+  modifiedTime: 1727317493293
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 17800000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: Acax7hZyOeBhObQh
 _key: '!items!Acax7hZyOeBhObQh'
 

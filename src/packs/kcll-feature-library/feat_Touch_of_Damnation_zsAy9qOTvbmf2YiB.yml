@@ -57,6 +57,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.ov79oln7Pa4C1iBj
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -74,7 +78,10 @@ system:
       short or long rest.</p>
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: reaction
     cost: 1
@@ -99,7 +106,8 @@ system:
     value: null
     max: ''
     per: ''
-    recovery: ''
+    recovery: []
+    spent: 0
   consume:
     type: ''
     target: ''
@@ -126,13 +134,76 @@ system:
   recharge:
     value: null
     charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: >-
+          s a reaction to a creature you can see within 30 feet making an attack
+          roll or saving throw.
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: 1d6
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: touch-of-damnation
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678741869477
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317484000
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.ov79oln7Pa4C1iBj
+  duplicateSource: null
 folder: null
 sort: 74300000
 ownership:

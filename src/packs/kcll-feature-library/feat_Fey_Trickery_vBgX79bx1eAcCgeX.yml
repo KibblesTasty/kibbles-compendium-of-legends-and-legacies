@@ -23,6 +23,11 @@ flags:
         use: true
   core:
     sourceId: Item.YFWrD7yeKWNix0qG
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 system:
   description:
     value: >-
@@ -37,69 +42,99 @@ system:
       <p>Once you use this feature, you can't use it again until you finish a
       short or long rest.</p>
     chat: ''
-    unidentified: ''
-  source: The Fey
-  activation:
-    type: reaction
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
+  source:
+    custom: The Fey
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: sr
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: The Fey 6
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: fey-trickery
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.YFWrD7yeKWNix0qG
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678741778302
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317525277
+  modifiedTime: 1727317525277
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 69800000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: vBgX79bx1eAcCgeX
 _key: '!items!vBgX79bx1eAcCgeX'
 

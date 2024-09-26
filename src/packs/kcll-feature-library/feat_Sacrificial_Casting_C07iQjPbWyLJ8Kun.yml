@@ -35,57 +35,23 @@ system:
       level. You regain all levels of usage of this rite when you complete a
       long rest.</em></span></p></blockquote>
     chat: ''
-    unidentified: ''
-  source: Cultist
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Cultist 3
-  recharge:
-    value: null
-    charged: false
+  identifier: sacrificial-casting
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -96,17 +62,20 @@ flags:
   core:
     sourceId: Item.aTkFUvG4bKSMIBgI
 _stats:
+  compendiumSource: Item.aTkFUvG4bKSMIBgI
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1674455803340
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317494252
+  modifiedTime: 1727317494252
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 19200000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: C07iQjPbWyLJ8Kun
 _key: '!items!C07iQjPbWyLJ8Kun'
 

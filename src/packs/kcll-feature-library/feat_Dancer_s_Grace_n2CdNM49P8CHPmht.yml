@@ -21,12 +21,26 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    icon: icons/magic/movement/trail-streak-zigzag-yellow.webp
-    label: Dancer's Grace
     origin: Compendium.world.kibbles-warlord.bZRJB9p7MA1YEMX2
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Dancer's Grace
+    img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!n2CdNM49P8CHPmht.ZvWFJbK59b4C7nkj'
 flags:
   betterRolls5e:
@@ -56,69 +70,38 @@ system:
       gain an unarmored defense that is 10 + your Dexterity modifier + your
       Charisma modifier.</p>
     chat: ''
-    unidentified: ''
-  source: Dancer
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Dancer 1
-  recharge:
-    value: null
-    charged: false
+  identifier: dancers-grace
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.0PHqfSIUKDeZcWaY
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742536065
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317519638
+  modifiedTime: 1727317519638
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 60100000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: n2CdNM49P8CHPmht
 _key: '!items!n2CdNM49P8CHPmht'
 

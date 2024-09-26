@@ -27,57 +27,26 @@ system:
       spell levels this way equal to your Spellblade level divided by four
       (rounded up).</span></p>
     chat: ''
-    unidentified: ''
-  source: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: 1
-    units: round
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: self
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: sr
-    recovery: ''
-  consume:
-    type: charges
-    target: ''
-    amount: 1
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: ''
-  recharge:
-    value: null
-    charged: false
+  activities: {}
+  identifier: aegis
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -89,18 +58,26 @@ flags:
       value: true
   core:
     sourceId: Item.zjy6FJy1rZ3GI5nN
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 _stats:
+  compendiumSource: Item.zjy6FJy1rZ3GI5nN
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1664578096598
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317507483
+  modifiedTime: 1727317507483
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 40500000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: Vcv1uZnRdZImuq34
 _key: '!items!Vcv1uZnRdZImuq34'
 

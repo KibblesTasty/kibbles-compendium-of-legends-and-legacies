@@ -22,69 +22,38 @@ system:
   description:
     value: "<p>At 2nd level, you learn the shillelagh cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Thickets Spells table. Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</p>\n<table style=\"width:100%;height:102px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:47.5263%;height:17px\"><strong>Druid Level</strong></td>\n<td style=\"text-align:center;width:51.233%;height:17px\"><strong>Circle Spells</strong></td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:47.5263%;height:17px\">2nd</td>\n<td style=\"text-align:center;width:51.233%;height:17px\">@Compendium[kibbles-generic-spells.kibbles-generic-spells.KQEu3kLCjALZoFhA]{Bramble Binding}, @Compendium[kibbles-generic-spells.kibbles-generic-spells.yHrrlxloZKHVdzpJ]{Grasping Roots}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:47.5263%;height:17px\">3rd</td>\n<td style=\"text-align:center;width:51.233%;height:17px\">@Compendium[dnd5e.spells.JPwIEfgUPVebr5AH]{Barkskin} @Compendium[kibbles-generic-spells.kibbles-generic-spells.o0GiWBL2rlDwJZnx]{Sprout Tree}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:47.5263%;height:17px\">5th</td>\n<td style=\"text-align:center;width:51.233%;height:17px\">@Compendium[kibbles-generic-spells.kibbles-generic-spells.bOJsjliT199lG3ai]{Bramble Barrier} @Compendium[dnd5e.spells.YWtwzp6ZnQJMEmVW]{Plant Growth}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:47.5263%;height:17px\">7th</td>\n<td style=\"text-align:center;width:51.233%;height:17px\">\_</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:47.5263%;height:17px\">9th</td>\n<td style=\"text-align:center;width:51.233%;height:17px\">@Compendium[dnd5e.spells.DUBgwHPakcLDkB6W]{Tree Stride}</td>\n</tr>\n</tbody>\n</table>"
     chat: ''
-    unidentified: ''
-  source: Circle of the Ancients
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Circle of the Ancients 2
-  recharge:
-    value: null
-    charged: false
+  identifier: circle-of-ancients-spells
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.Vyd7NkI1fMQ0sddK
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742002154
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317485494
+  modifiedTime: 1727317485494
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 6100000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: 0eNAKffXg6BYN1Cx
 _key: '!items!0eNAKffXg6BYN1Cx'
 

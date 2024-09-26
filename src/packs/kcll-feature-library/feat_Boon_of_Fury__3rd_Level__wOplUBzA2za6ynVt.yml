@@ -8,57 +8,23 @@ system:
       spell slot, you can attack twice, instead of once, whenever you take the
       Attack action on your turn.</span></p>
     chat: ''
-    unidentified: ''
-  source: Cultist
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Cultist Boon
-  recharge:
-    value: null
-    charged: false
+  identifier: boon-of-fury-3rd-level
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -69,17 +35,20 @@ flags:
   core:
     sourceId: Item.pSiLQrGOTWRRDRDi
 _stats:
+  compendiumSource: Item.pSiLQrGOTWRRDRDi
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1674890266985
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317526032
+  modifiedTime: 1727317526032
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 70900000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: wOplUBzA2za6ynVt
 _key: '!items!wOplUBzA2za6ynVt'
 

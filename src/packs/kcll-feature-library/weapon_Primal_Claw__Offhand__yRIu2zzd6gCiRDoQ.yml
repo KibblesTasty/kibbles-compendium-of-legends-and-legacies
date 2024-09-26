@@ -37,6 +37,10 @@ flags:
         '0': true
   core:
     sourceId: Item.gPUGzQpdAiCoCkuO
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -49,11 +53,18 @@ system:
       target takes [[/r 1d6]] slashing damage.</p>
     chat: ''
     unidentified: ''
-  source: Beasthide
+  source:
+    custom: Beasthide
+    revision: 1
+    rules: '2014'
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
@@ -75,11 +86,13 @@ system:
     value: 5
     long: null
     units: ft
+    reach: null
   uses:
     value: null
     max: ''
     per: ''
-    recovery: ''
+    recovery: []
+    spent: 0
   consume:
     type: ''
     target: ''
@@ -95,7 +108,31 @@ system:
     parts:
       - - 1d8
         - slashing
-    versatile: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 8
+      bonus: ''
+      types:
+        - slashing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   formula: ''
   save:
     ability: ''
@@ -111,31 +148,90 @@ system:
   weaponType: natural
   baseItem: ''
   properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: true
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: false
-    ver: false
-  proficient: true
+    - lgt
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: natural
+    baseItem: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+  identifier: primal-claw-offhand
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678742814468
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317482990
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.gPUGzQpdAiCoCkuO
+  duplicateSource: null
 folder: null
 sort: 72600000
 ownership:

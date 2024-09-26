@@ -8,57 +8,23 @@ system:
       your choice from the fighter class. If you already have a style, the one
       you choose must be different.</p>
     chat: ''
-    unidentified: ''
-  source: Spellblade
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Spellblade 5
-  recharge:
-    value: null
-    charged: false
+  identifier: aegis-effect-arcane-style
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -69,17 +35,20 @@ flags:
   core:
     sourceId: Item.BvIIpcPnWXm8f0FY
 _stats:
+  compendiumSource: Item.BvIIpcPnWXm8f0FY
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1667600475071
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317486424
+  modifiedTime: 1727317486424
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 7400000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: 1yHeYayBqao8bSl2
 _key: '!items!1yHeYayBqao8bSl2'
 

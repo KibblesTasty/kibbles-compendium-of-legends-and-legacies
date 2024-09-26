@@ -13,12 +13,26 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    icon: icons/magic/control/buff-strength-muscle-damage-orange.webp
-    label: Strength
     origin: Item.WfvRAnK9szJFw6Dc
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Strength
+    img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!03teb0Y8IDYRTn4z.Go8vfhSIFSJnMEDH'
   - _id: y9SgVJMBkVlxK6T5
     changes: []
@@ -31,12 +45,26 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    icon: icons/magic/defensive/armor-stone-skin.webp
-    label: Armor
     origin: Item.WfvRAnK9szJFw6Dc
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Armor
+    img: icons/magic/defensive/armor-stone-skin.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!03teb0Y8IDYRTn4z.y9SgVJMBkVlxK6T5'
   - _id: cLLJuiLlVt9PnWnu
     changes: []
@@ -49,12 +77,26 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    icon: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    label: Aegis
     origin: Item.WfvRAnK9szJFw6Dc
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Aegis
+    img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!03teb0Y8IDYRTn4z.cLLJuiLlVt9PnWnu'
 flags:
   betterRolls5e:
@@ -84,6 +126,11 @@ flags:
       value: true
     consumeUses:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 2
 system:
   description:
     value: >-
@@ -103,69 +150,100 @@ system:
       remaining, you can use it again by a sorcery point. You regain all
       expended uses of this ability when you complete a long rest.</p>
     chat: ''
-    unidentified: ''
-  source: Stoneheart
-  activation:
-    type: bonus
-    cost: 1
-    condition: ''
-  duration:
-    value: 1
-    units: minute
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
+  source:
+    custom: Stoneheart
+    revision: 1
+    rules: '2014'
   uses:
-    value: 2
     max: '@prof'
-    per: lr
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Stoneheart 1
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: strength-of-stone
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.WfvRAnK9szJFw6Dc
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678741819887
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317485002
+  modifiedTime: 1727317485002
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 5400000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: 03teb0Y8IDYRTn4z
 _key: '!items!03teb0Y8IDYRTn4z'
 

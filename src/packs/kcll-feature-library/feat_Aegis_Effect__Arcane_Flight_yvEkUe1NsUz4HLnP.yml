@@ -6,7 +6,8 @@ system:
     value: <p>You gain a flying speed of 30 feet during the effect.</p>
     chat: ''
     unidentified: ''
-  source: Spellblade
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -56,6 +57,7 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: aegis-effect-arcane-flight
 effects: []
 flags:
   rsr5e:
@@ -67,11 +69,13 @@ flags:
     sourceId: Item.lwnDcSXBguz0cxcy
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1667600567998
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483340
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.lwnDcSXBguz0cxcy
+  duplicateSource: null
 folder: null
 sort: 73200000
 ownership:

@@ -27,7 +27,8 @@ system:
       these cantrips.</p>
     chat: ''
     unidentified: ''
-  source: Elemental Soul
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -77,13 +78,16 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: elemental-manipulation
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678742719502
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483889
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.3n6ZETsxuQb7LZI9
+  duplicateSource: null
 folder: null
 sort: 74100000
 ownership:

@@ -57,75 +57,114 @@ flags:
       altValue: false
   core:
     sourceId: Item.4i3ChGq3yjNTsRlk
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: "<h3 id=\"otherworldly-patron-the-dragon-draconic-blast\">Draconic Blast</h3>\n<p>Beginning at 1st level, you gain the ability to unleash blasts of primal draconic energy from your hand or mouth. As an action, you can unleash this power in a 15 foot cone or a 30 foot long, 5 foot wide line. Invocations that apply to\_eldritch blast\_also apply to Draconic Blast, though Eldritch Spear has a special interaction making it a 30 foot cone or 60 foot long, 5 foot wide line.</p>\n<section>\n<p>When you gain this feature, select one damage type of acid, cold, fire, lightning, or poison. Creatures in the area of effect must make a Dexterity saving throw, or take 1d8\_elemental damage of the selected type. This feature's damage increases by 1d10 when you reach 5th level in Warlock (2d8), 11th level (3d8), and 17th level (4d8).</p>\n<p>When you use this ability, you can expend a pact magic spell slot to empower the draconic blast, dealing 1d8\_additional damage per level of the pact magic slot expended. When empowered, it deals half damage even against creatures that pass their saving throw against it.</p>\n<section>\n<blockquote>\n<section id=\"otherworldly-patron-the-dragon-draconic-blast-draconic-blast\">\n<h5 id=\"otherworldly-patron-the-dragon-draconic-blast-draconic-blast\">Draconic Blast</h5>\n<ul>\n<li>Typically the damage type of dragon blast matches the color of your dragon patron, but if it does or not is between you and your patron.</li>\n<li>Draconic Blast is not a spell, though it typically behaves similar to one.</li>\n<li>Agonizing Blast and other Invocations apply to Dragon Blast, but only once (as it does not fire multiple beams).</li>\n</ul>\n</section>\n</blockquote>\n</section>\n</section>"
     chat: ''
-    unidentified: ''
-  source: The Dragon
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 30
-    width: 5
-    units: ft
-    type: line
-  range:
-    value: null
-    long: null
-    units: self
+  source:
+    custom: The Dragon
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: cha
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8
-        - fire
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: The Dragon 1
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: line
+          size: '30'
+          width: '5'
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: draconic-blast
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.4i3ChGq3yjNTsRlk
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678741874021
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317494924
+  modifiedTime: 1727317494924
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 20300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: Ci41iB7YZZgw6dTu
 _key: '!items!Ci41iB7YZZgw6dTu'
 

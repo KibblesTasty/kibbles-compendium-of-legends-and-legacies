@@ -58,69 +58,38 @@ system:
   description:
     value: "<div id=\"p1\">\n<section>\n<h3 id=\"otherworldly-patron-the-dragon-draconic-blast-elemental-devastation\">Elemental Devastation</h3>\n<p>At 6th level, when you deal the elemental damage type you selected as part of Dragon blast to a creature, you can inflict an additional elemental ailment based on the elemental type. You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p>\n<ul>\n<li><strong>Acid.</strong>\_You can erode the creature's defenses, giving the next attack roll against them advantage.</li>\n<li><strong>Cold.</strong>\_You can freeze them, forcing them to make a Strength saving throw. On failure, they are restrained until the start of your next turn.</li>\n<li><strong>Fire.</strong>\_You can ignite them, causing them to 1d6 fire damage at the start of each of their turns, until a creature spends an action to douse the flames.</li>\n</ul>\n<div>\_</div>\n</section>\n</div>\n<div id=\"p2\">\n<ul>\n<li><strong>Lightning.</strong>\_You can shock them, forcing them to make a Constitution saving throw. On failure they are stunned until the start of their next turn.</li>\n<li><strong>Poison.</strong>\_You can poison them, forcing them to make a Constitution saving throw. On failure, they are poisoned for 1 minute. They can repeat their saving throw at the end of each of their turns.</li>\n</ul>\n</div>"
     chat: ''
-    unidentified: ''
-  source: The Dragon
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: The Dragon 6
-  recharge:
-    value: null
-    charged: false
+  identifier: elemental-devastation
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.fAXUETNSWoEG1R4d
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678741883293
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317517884
+  modifiedTime: 1727317517884
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57100000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: k44FFCtweKsRs532
 _key: '!items!k44FFCtweKsRs532'
 

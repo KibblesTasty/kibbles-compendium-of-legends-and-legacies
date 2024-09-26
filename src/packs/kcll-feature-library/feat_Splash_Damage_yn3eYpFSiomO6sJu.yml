@@ -30,6 +30,10 @@ flags:
         '0': ''
       value:
         '0': true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -40,7 +44,10 @@ system:
       damage (even if the attack roll would have hit them).</p>
     chat: ''
     unidentified: ''
-  source: Spellblade
+  source:
+    custom: Spellblade
+    revision: 1
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -63,7 +70,8 @@ system:
     value: null
     max: ''
     per: null
-    recovery: ''
+    recovery: []
+    spent: 0
   consume:
     type: ''
     target: null
@@ -92,13 +100,85 @@ system:
   recharge:
     value: null
     charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: ''
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: splash-damage
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678743025051
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483167
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.VppPh0qq1fjpftom
+  duplicateSource: null
 folder: null
 sort: 72900000
 ownership:

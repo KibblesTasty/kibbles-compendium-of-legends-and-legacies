@@ -27,69 +27,38 @@ system:
   description:
     value: "<p>Additionally at 3rd level, when you roll an Endurance Die, you can also add the die to the next damage roll or Strength (Athletics) check you make before the end of your next turn.\_</p>"
     chat: ''
-    unidentified: ''
-  source: Beasthide
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Beasthide 3
-  recharge:
-    value: null
-    charged: false
+  identifier: enduring-ferocity
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.PnA59ERmwK0NgE01
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742730763
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317502688
+  modifiedTime: 1727317502688
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 32700000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: OfoczlrIabrQa7N1
 _key: '!items!OfoczlrIabrQa7N1'
 

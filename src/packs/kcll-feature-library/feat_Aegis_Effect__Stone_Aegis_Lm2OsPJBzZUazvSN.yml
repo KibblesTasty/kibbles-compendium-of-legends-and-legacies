@@ -10,57 +10,23 @@ system:
       style="font-family:Signika, sans-serif">You reduce all damage taken by
       5.</span></p>
     chat: ''
-    unidentified: ''
-  source: Spellblade
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Spellblade 17
-  recharge:
-    value: null
-    charged: false
+  identifier: aegis-effect-stone-aegis
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -71,17 +37,20 @@ flags:
   core:
     sourceId: Item.gkzPwQHNEkE8U1AJ
 _stats:
+  compendiumSource: Item.gkzPwQHNEkE8U1AJ
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1667600588880
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317500644
+  modifiedTime: 1727317500644
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 29500000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: Lm2OsPJBzZUazvSN
 _key: '!items!Lm2OsPJBzZUazvSN'
 

@@ -37,6 +37,10 @@ flags:
         '0': true
   core:
     sourceId: Item.k7ebf2dJ2tKfECi4
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -49,59 +53,58 @@ system:
       <p><strong>Special:</strong> If you hit a creature with this weapon you
       can pull the creature up to 5 feet toward you.</p>
     chat: ''
-    unidentified: ''
-  source: Elemental Soul
+  source:
+    custom: Elemental Soul
+    revision: 1
+    rules: '2014'
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: ''
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
   cover: null
   crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
   range:
     value: 10
     long: null
     units: ft
+    reach: null
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: mwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    recovery: []
+    spent: 0
   damage:
-    parts:
-      - - 1d6 + @mod
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 6
+      bonus: ''
+      types:
         - lightning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: 10
   hp:
@@ -109,39 +112,99 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: natural
-  baseItem: ''
   properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: true
-    lod: false
-    mgc: false
-    rch: true
-    rel: false
-    ret: false
-    sil: false
-    spc: true
-    thr: false
-    two: false
-    ver: false
-  proficient: true
+    - lgt
+    - rch
+    - spc
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: natural
+    baseItem: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '10'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+  identifier: lightning-lash
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
 _stats:
+  compendiumSource: Item.k7ebf2dJ2tKfECi4
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742761589
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317525042
+  modifiedTime: 1727317525042
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 69500000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: uwXeJaTiHE60ni1K
 _key: '!items!uwXeJaTiHE60ni1K'
 

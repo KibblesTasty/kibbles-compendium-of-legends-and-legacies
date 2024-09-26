@@ -9,57 +9,23 @@ system:
       This counts as an equipped shield, and you cannot benefit from both this
       and an equipped shield.</p>
     chat: ''
-    unidentified: ''
-  source: Spellblade
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Spellblade 9
-  recharge:
-    value: null
-    charged: false
+  identifier: aegis-effect-arcane-shield
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -70,17 +36,20 @@ flags:
   core:
     sourceId: Item.yyHAA6iQY6J8TWSt
 _stats:
+  compendiumSource: Item.yyHAA6iQY6J8TWSt
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1667600523607
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317518274
+  modifiedTime: 1727317518274
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57700000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: l1zZjGwau1S6XVvN
 _key: '!items!l1zZjGwau1S6XVvN'
 

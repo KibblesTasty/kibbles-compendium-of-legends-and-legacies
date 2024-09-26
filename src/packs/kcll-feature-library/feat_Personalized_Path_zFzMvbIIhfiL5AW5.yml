@@ -25,7 +25,8 @@ system:
       the Hedge Mage Rites or from the general Occultist Rites.</p>
     chat: ''
     unidentified: ''
-  source: Hedge Mage
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -75,13 +76,16 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: personalized-path
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678742351367
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483453
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.onIHBaJFIZmJfFjx
+  duplicateSource: null
 folder: null
 sort: 73400000
 ownership:

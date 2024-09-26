@@ -32,7 +32,8 @@ system:
       property, and your weapon damage becomes force damage.</p>
     chat: ''
     unidentified: ''
-  source: Arcane Archer
+  source:
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -82,13 +83,16 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: arcane-bolts
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: 1678742985938
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1727317483055
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.p531VlCGAQ7FInna
+  duplicateSource: null
 folder: null
 sort: 72700000
 ownership:

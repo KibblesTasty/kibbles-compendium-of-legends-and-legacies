@@ -55,6 +55,11 @@ flags:
       value: true
     consumeUses:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 0
 system:
   description:
     value: >-
@@ -68,71 +73,112 @@ system:
       amount rolled and fall prone. On a successful save, they take half as much
       damage and do not fall prone.</p>
     chat: ''
-    unidentified: ''
-  source: Stoneblood
-  activation:
-    type: bonus
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 5
-    width: null
-    units: ft
-    type: radius
-  range:
-    value: null
-    long: null
-    units: self
+  source:
+    custom: Stoneblood
+    revision: 1
+    rules: '2014'
   uses:
-    value: 0
     max: '@prof'
-    per: charges
-    recovery: ''
-  consume:
-    type: charges
-    target: ''
-    amount: 3
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - '@scale.warden.endurance-die'
-        - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: str
-    dc: null
-    scaling: str
+    recovery: []
+    spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Stoneblood 3
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '3'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '5'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - bludgeoning
+            custom:
+              enabled: true
+              formula: '@scale.warden.endurance-die'
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: str
+        dc:
+          calculation: str
+          formula: ''
+      sort: 0
+  identifier: seismic-backlash
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.iSBy7aUjL5oT1Z2D
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742835449
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317488801
+  modifiedTime: 1727317488801
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 10900000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: 5EHcnp5eRY0j6e5I
 _key: '!items!5EHcnp5eRY0j6e5I'
 

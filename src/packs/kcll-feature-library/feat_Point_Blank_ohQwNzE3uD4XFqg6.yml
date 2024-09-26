@@ -10,57 +10,23 @@ system:
       still save against effects beyond damage, but any saving throw is made
       with disadvantage.</p>
     chat: ''
-    unidentified: ''
-  source: Spellfist
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Spellfist 7
-  recharge:
-    value: null
-    charged: false
+  identifier: point-blank
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 flags:
   rsr5e:
@@ -71,17 +37,20 @@ flags:
   core:
     sourceId: Item.8gDVC9tBwLsMC4QN
 _stats:
+  compendiumSource: Item.8gDVC9tBwLsMC4QN
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1684714191523
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317521147
+  modifiedTime: 1727317521147
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 62700000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: ohQwNzE3uD4XFqg6
 _key: '!items!ohQwNzE3uD4XFqg6'
 

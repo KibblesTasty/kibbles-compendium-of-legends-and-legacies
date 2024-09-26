@@ -27,69 +27,38 @@ system:
   description:
     value: "<p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Signika, sans-serif\">You can channel to power of the moon, drawing its light following ancient traditions. You learn the spells\_@UUID[Compendium.dnd5e.spells.nqBDWkVOfcGZt4YU]{Faerie Fire} and @UUID[Compendium.dnd5e.spells.bV3yun6MIuFj71Er]{Moonbeam}. When you cast either of this spells, allied creatures of your choice within the area of effect are not affected, and instead gain temporary hit points equal to your Wisdom modifier.</span></p>"
     chat: ''
-    unidentified: ''
-  source: Witch
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+  source:
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Witch 2
-  recharge:
-    value: null
-    charged: false
+  identifier: witch-rite-light-of-the-moon
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _stats:
+  compendiumSource: Item.tHqbK3nx3nsmCfqg
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.307'
-  createdTime: 1678742450184
-  modifiedTime: 1693773473063
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  systemVersion: 4.0.3
+  createdTime: 1727317487549
+  modifiedTime: 1727317487549
+  lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 9000000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _id: 3hLsjLw9LsUtEbeM
 _key: '!items!3hLsjLw9LsUtEbeM'
 

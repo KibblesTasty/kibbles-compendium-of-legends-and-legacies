@@ -11,7 +11,142 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: ffvwBfEnlYIcP40n
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Otherworldly Patron Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: ta0ZUGPw1ah8iTfI
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: HuvjdTlxCWgn5pV2
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: DwL4PqZNv05vHXJz
+    - _id: NJr7Ti3YNfSw1JAm
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 1
+      title: Expanded Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Expanded Spells
+      hint: ''
+      _id: KGv4vljZJskxs0Kw
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Expanded Spells
+      hint: ''
+      _id: g0XD1o79bBXhIO6L
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Expanded Spells
+      hint: ''
+      _id: 011EJS9fTWtapUYP
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Expanded Spells
+      hint: ''
+      _id: OwyYLThVGSP4zvae
   classIdentifier: warlock
   spellcasting:
     progression: none
@@ -31,7 +166,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729041633658
-  modifiedTime: 1729041641123
+  modifiedTime: 1729117788097
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!nNuy7UWM3UPWW2ap'
 

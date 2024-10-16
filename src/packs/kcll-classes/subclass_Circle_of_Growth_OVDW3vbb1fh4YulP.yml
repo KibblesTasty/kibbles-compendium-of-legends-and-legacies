@@ -2,7 +2,7 @@ folder: O5lvID4VIFxLwduI
 name: Circle of Growth
 type: subclass
 _id: OVDW3vbb1fh4YulP
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/nature/leaf-elm-sparkle-glow-green.webp
 system:
   description:
     value: ''
@@ -11,7 +11,47 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: nMMcfSCMH7YElqos
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Druid Circle Features
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Druid Circle Features
+      hint: ''
+      _id: N6gh7ryBuRLNtKNZ
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Druid Circle Features
+      hint: ''
+      _id: Scy7vmAHYUXux9F1
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Druid Circle Features
+      hint: ''
+      _id: hudBZVJN9CmM6iQh
   classIdentifier: druid
   spellcasting:
     progression: none
@@ -31,7 +71,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729038327774
-  modifiedTime: 1729038329864
+  modifiedTime: 1729115000430
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!OVDW3vbb1fh4YulP'
 

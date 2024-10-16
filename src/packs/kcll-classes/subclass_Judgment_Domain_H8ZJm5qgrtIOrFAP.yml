@@ -2,7 +2,7 @@ folder: URjsdnh4HxYTazz6
 name: Judgment Domain
 type: subclass
 _id: H8ZJm5qgrtIOrFAP
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/skills/social/trading-justice-scale-yellow.webp
 system:
   description:
     value: ''
@@ -11,7 +11,57 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: arC0esMCdeljMf6Z
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Divine Domain Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Divine Domain Feature
+      hint: ''
+      _id: t7D5vNEZn7Qq4VMC
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 8
+      title: Divine Domain Feature
+      hint: ''
+      _id: MeC60EFHrd1WKaLt
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Divine Domain Feature
+      hint: ''
+      _id: 4UuoH96zu8NsIeJ7
+    - _id: dCXMng1iwqatvshJ
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Divine Domain Feature
+      hint: ''
   classIdentifier: cleric
   spellcasting:
     progression: none
@@ -31,7 +81,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729038249360
-  modifiedTime: 1729038251283
+  modifiedTime: 1729114555851
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!H8ZJm5qgrtIOrFAP'
 

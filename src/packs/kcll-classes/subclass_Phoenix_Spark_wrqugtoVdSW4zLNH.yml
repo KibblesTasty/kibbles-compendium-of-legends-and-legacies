@@ -11,7 +11,47 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: KFPSv7k1DRgYDY1q
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Sorcerous Origin Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Sorcerous Origin Feature
+      hint: ''
+      _id: ymwF8gRq9rxfGQXI
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Sorcerous Origin Feature
+      hint: ''
+      _id: 762CwJWYksPTFgT1
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Sorcerous Origin Feature
+      hint: ''
+      _id: 0WKx3ZEu2UZuQW7J
   classIdentifier: sorcerer
   spellcasting:
     progression: none
@@ -31,7 +71,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729039565571
-  modifiedTime: 1729039567771
+  modifiedTime: 1729117349923
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wrqugtoVdSW4zLNH'
 

@@ -2,7 +2,7 @@ folder: tav53D5cJJJjP1rB
 name: College of Fools
 type: subclass
 _id: JbUKOdnn0v60IlIh
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/sundries/misc/admission-ticket-blue.webp
 system:
   description:
     value: ''
@@ -11,7 +11,37 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: SRIsgdCAPgqwE5oC
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Bard College Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Bard College Feature
+      hint: ''
+      _id: Q6K89jmLzXjWqWSB
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Bard College Feature
+      hint: ''
+      _id: ySzLN3hsNMZiWvqn
   classIdentifier: bard
   spellcasting:
     progression: none
@@ -31,7 +61,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729038223994
-  modifiedTime: 1729038226475
+  modifiedTime: 1729114442551
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JbUKOdnn0v60IlIh'
 

@@ -2,7 +2,7 @@ folder: pPTPgJOHaWXUTgQK
 name: Knowing Mind
 type: subclass
 _id: xLbqcpo31G6lwJWF
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 system:
   description:
     value: ''
@@ -11,7 +11,57 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: tvdcq34lexjLOqIM
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Psionic Archetype Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Psionic Archetype Feature
+      hint: ''
+      _id: Cd6Rqatz8Xmz5RPS
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Psionic Archetype Feature
+      hint: ''
+      _id: IWtt3fqHHzG2PN4x
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Psionic Archetype Feature
+      hint: ''
+      _id: vySCEoq7WDVxRZuK
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Psionic Archetype Feature
+      hint: ''
+      _id: 8wq3CyVQa6QB7Cr6
   classIdentifier: psion
   spellcasting:
     progression: none
@@ -31,7 +81,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729039460492
-  modifiedTime: 1729039473834
+  modifiedTime: 1729116825934
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xLbqcpo31G6lwJWF'
 

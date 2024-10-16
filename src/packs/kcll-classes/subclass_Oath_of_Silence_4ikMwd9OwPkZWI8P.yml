@@ -2,7 +2,7 @@ folder: WDc5BXYoZ8r5du1l
 name: Oath of Silence
 type: subclass
 _id: 4ikMwd9OwPkZWI8P
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/sonic/bell-alarm-red-purple.webp
 system:
   description:
     value: ''
@@ -11,7 +11,47 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: L0RnxPpjzT2rJzi2
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Sacred Oath Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Sacred Oath Feature
+      hint: ''
+      _id: 1slAtfu5qYSvDE3x
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Sacred Oath Feature
+      hint: ''
+      _id: vfLW980QPX7aiAFw
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Sacred Oath Feature
+      hint: ''
+      _id: iUYz7QDUKnsmmuV5
   classIdentifier: paladin
   spellcasting:
     progression: none
@@ -31,7 +71,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729039429085
-  modifiedTime: 1729039432963
+  modifiedTime: 1729116732427
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!4ikMwd9OwPkZWI8P'
 

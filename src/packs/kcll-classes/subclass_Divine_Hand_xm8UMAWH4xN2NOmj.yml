@@ -2,7 +2,7 @@ folder: GwVNprKdv3Hrb70P
 name: Divine Hand
 type: subclass
 _id: xm8UMAWH4xN2NOmj
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
   description:
     value: ''
@@ -11,13 +11,53 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: M4Nza98Xw4zro75Z
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Roguish Archetype Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Roguish Archetype Feature
+      hint: ''
+      _id: MHH3XINPAEMqlYz7
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Roguish Archetype Feature
+      hint: ''
+      _id: Igz2aEMnDus1J87y
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Roguish Archetype Feature
+      hint: ''
+      _id: 6R9mv98jS2R00qt9
   classIdentifier: rogue
   spellcasting:
-    progression: none
+    progression: third
     preparation:
       formula: ''
-    ability: ''
+    ability: wis
 effects: []
 sort: 0
 ownership:
@@ -31,7 +71,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729039504430
-  modifiedTime: 1729039516174
+  modifiedTime: 1729117267532
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xm8UMAWH4xN2NOmj'
 

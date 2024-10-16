@@ -11,13 +11,63 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: NhtARWnBZn209Dab
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Martial Archetype Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Martial Archetype Feature
+      hint: ''
+      _id: 2UUplAxJGvPfYnO8
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Martial Archetype Feature
+      hint: ''
+      _id: jhw3DEtFjHQr6r3u
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Martial Archetype Feature
+      hint: ''
+      _id: DD3ClDEi0Kz7KigV
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Martial Archetype Feature
+      hint: ''
+      _id: xw8IdluIkKZpGwja
   classIdentifier: fighter
   spellcasting:
-    progression: none
+    progression: third
     preparation:
       formula: ''
-    ability: ''
+    ability: wis
 effects: []
 sort: 0
 ownership:
@@ -31,7 +81,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729038399372
-  modifiedTime: 1729038425238
+  modifiedTime: 1729116124414
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!pRd6Y0w6oo0pt8gk'
 

@@ -2,7 +2,7 @@ folder: L1AVkVBpIkOauAsa
 name: Path of the Dragon
 type: subclass
 _id: qx2zTefvlJI3rba8
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/creatures/reptiles/dragon-horned-blue.webp
 system:
   description:
     value: ''
@@ -11,7 +11,47 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: 8vw792ec7neMegAX
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Path Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Path Feature
+      hint: ''
+      _id: zV4lFfuM8eInofXg
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Path Feature
+      hint: ''
+      _id: 4WqUsTdM3wTgbZbw
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Path Feature
+      hint: ''
+      _id: JbDIJhEQCKB1unYW
   classIdentifier: barbarian
   spellcasting:
     progression: none
@@ -31,7 +71,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729038180268
-  modifiedTime: 1729038182502
+  modifiedTime: 1729113494590
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!qx2zTefvlJI3rba8'
 

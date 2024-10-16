@@ -9,12 +9,12 @@
 	},
 	"relationships": {
 		"systems": [{
-		"id": "dnd5e",
-		"type": "system",
-		"compatibility": {
-			"minimum": "4.0",
-			"verified": "4.0.3"
-		}
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": {
+				"minimum": "4.0",
+				"verified": "4.0.3"
+			}
 		}]
 	},
 	"authors": [{
@@ -23,6 +23,12 @@
 	}],
 	"manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-legends-and-legacies/releases/latest/download/module.json",
 	"download": "AUTOMATIC",
+	"esmodules": ["kcll.mjs"],
+	"languages": [{
+		"lang": "en",
+		"name": "English",
+		"path": "lang/en.json"
+	}],
 	"packs": [
 		{
 			"name": "kcll-monsters",
@@ -91,54 +97,54 @@
 			"type": "Item"
 		}
 	],
-  "packFolders": [{
-    "name": "KibblesTasty",
-    "sorting": "a",
-    "color": "#4169E1",
-    "folders": [{
-      "name": "KCLL",
-      "sorting": "a",
-      "color": "#CD5C5C",
-      "packs": ["kcll-tables", "kcll-journals"],
-      "folders": [{
-          "name": "Character Features",
-          "sorting": "a",
-          "color": "#d25151",
-          "packs": ["kcll-origins", "kcll-feats", "kcll-subclasses", "kcll-classes", "kcll-feature-library"]
-        },
-        {
-          "name": "Items & Spells",
-          "sorting": "m",
-          "color": "#bf4545",
-          "packs": ["kcll-spells", "kcll-elemental-spells", "kcll-items"]
-        },
-        {
-          "name": "Monsters",
-          "sorting": "a",
-          "color": "#9e2e2e",
-          "packs": ["kcll-monsters"]
-        }
-      ]
-    }]
-  }],
-  "flags": {
-    "dnd5e": {
-      "sourceBooks": {
-        "KCLL": "Kibbles' Compendium of Legends and Legacies"
-      },
-      "spellLists": [
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.YwAQ6uhcVZ9icx7d",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.JEWp611fpw67JPkb",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.NhkFezw26P4Tk4He",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.70EIrE3H3ozC3wzU",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.ACWyLy5PPzcTmwCQ",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.3SCcgZZpQkO5dK5F",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.H3Xx9FYgjLm7f3iR",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.z8K8fWUUFtlmt6Yl",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.mlOnt91R4dN5aOUW",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.Ny9Tz9SGFQeSGCPQ",
-		"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.fpgKxVtIpWWbabxu"
-	  ]
-    }
-  }
+	"packFolders": [{
+		"name": "KibblesTasty",
+		"sorting": "a",
+		"color": "#4169E1",
+		"folders": [{
+			"name": "KCLL",
+			"sorting": "a",
+			"color": "#CD5C5C",
+			"packs": ["kcll-tables", "kcll-journals"],
+			"folders": [{
+					"name": "Character Features",
+					"sorting": "a",
+					"color": "#d25151",
+					"packs": ["kcll-origins", "kcll-feats", "kcll-subclasses", "kcll-classes", "kcll-feature-library"]
+				},
+				{
+					"name": "Items & Spells",
+					"sorting": "m",
+					"color": "#bf4545",
+					"packs": ["kcll-spells", "kcll-elemental-spells", "kcll-items"]
+				},
+				{
+					"name": "Monsters",
+					"sorting": "a",
+					"color": "#9e2e2e",
+					"packs": ["kcll-monsters"]
+				}
+			]
+		}]
+	}],
+	"flags": {
+		"dnd5e": {
+			"sourceBooks": {
+				"KCLL": "Kibbles' Compendium of Legends and Legacies"
+			},
+			"spellLists": [
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.YwAQ6uhcVZ9icx7d",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.JEWp611fpw67JPkb",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.NhkFezw26P4Tk4He",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.70EIrE3H3ozC3wzU",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.ACWyLy5PPzcTmwCQ",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.3SCcgZZpQkO5dK5F",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.H3Xx9FYgjLm7f3iR",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.z8K8fWUUFtlmt6Yl",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.mlOnt91R4dN5aOUW",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.Ny9Tz9SGFQeSGCPQ",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.fpgKxVtIpWWbabxu"
+			]
+		}
+	}
 }

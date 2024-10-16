@@ -1468,7 +1468,12 @@ system:
       Effect: Stone Aegis}</p>
     chat: ''
     unidentified: ''
-  source: KCLL
+  source:
+    book: KCLL
+    page: ''
+    custom: ''
+    license: ''
+    rules: '2014'
   identifier: spellblade
   levels: 1
   hitDice: d8
@@ -1603,17 +1608,20 @@ system:
   spellcasting:
     progression: half
     ability: int
+    preparation:
+      formula: ''
+  wealth: ''
 _stats:
   systemId: dnd5e
-  systemVersion: 2.0.3
+  systemVersion: 4.0.4
   coreVersion: '12.331'
   createdTime: 1682023319852
-  modifiedTime: 1682464594303
-  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  modifiedTime: 1729037949362
+  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.mqNh9qnV4yqHATvg
   duplicateSource: null
-folder: null
-sort: 0
+folder: HiElAzlnNx6VrB0z
+sort: 100000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3

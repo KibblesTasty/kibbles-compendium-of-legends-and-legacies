@@ -1,0 +1,107 @@
+name: Spatial Storage
+type: feat
+img: icons/containers/bags/satchel-worn-leather-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.xhpCFyE1Ry11Xr4I
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You can convert a pocket, ring, hat, or bag into a spatial storage
+      device, capable of carrying up to [[5 * @classes.occultist.levels]]
+      pounds, with [[0.5 * @classes.occultist.levels]] cubic feet of storage
+      space. For example, a level 5 Occultist can store up to 25 pounds, not
+      exceeding a volume of 2.5 cubic feet, within the storage space. As an
+      action, you can send an item you are holding into the storage space or
+      retrieve an item from the storage space to your hand.</p><p>If lost, you
+      can recreate the spatial storage device during a short rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: rite-spatial-storage
+  activities:
+    sm2APFkr5r0L3LnO:
+      type: utility
+      name: Interaction
+      _id: sm2APFkr5r0L3LnO
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.xhpCFyE1Ry11Xr4I
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1727317492861
+  modifiedTime: 1730494397511
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 17200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: A357aGQF0A3dEhT3
+_key: '!items!A357aGQF0A3dEhT3'
+

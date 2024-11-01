@@ -1,6 +1,6 @@
-name: 'Rite: Lost Ritual'
+name: Soulburn
 type: feat
-img: icons/magic/symbols/star-yellow.webp
+img: icons/magic/fire/flame-burning-hand-purple.webp
 effects: []
 flags:
   betterRolls5e:
@@ -17,14 +17,13 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.u0TPAHwws9kcAiVf
+    sourceId: Item.EbKN75fOmYa8nnDO
 system:
   description:
     value: >-
-      <p>You learn of a ritual lost to time. Select an Occultist spell you know
-      of 5th level or lower. This spell becomes a ritual spell for you. You can
-      cast this spell as a ritual once, and must complete a short or long rest
-      before casting it as a ritual again.</p>
+      <p>You can make your powers sear the very soul of the creature they
+      strike. When you deal cold, fire or lightning damage, you can choose to
+      deal necrotic damage instead.</p>
     chat: ''
   source:
     rules: '2014'
@@ -34,30 +33,30 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Occultist
-  identifier: rite-lost-ritual
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: rite-soulburn
   activities: {}
   enchant: {}
   prerequisites:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.u0TPAHwws9kcAiVf
+  compendiumSource: Item.EbKN75fOmYa8nnDO
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317502387
-  modifiedTime: 1727317502387
+  systemVersion: 4.0.4
+  createdTime: 1727317500957
+  modifiedTime: 1730494649194
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 32200000
+sort: 30000000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: NsZnZApy0bxg3AbT
-_key: '!items!NsZnZApy0bxg3AbT'
+_id: Lw7HS8DVwqqwJPfV
+_key: '!items!Lw7HS8DVwqqwJPfV'
 

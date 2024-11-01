@@ -24,66 +24,42 @@ system:
       <p>As a practitioner of occult magic, you have inherited and developed
       techniques to manipulate reality through mediums of rituals, spirits,
       elements, and more. See Spells Rules for the general rules of spellcasting
-      and the Spells Listing for the Occultist spell list.</p>
-
-      <h2>Cantrips</h2>
-
-      <p>At 1st level, you know three cantrips of your choice from the Occultist
-      spell list. You learn additional Occultist cantrips of your choice at
-      higher levels, as shown in the Cantrips Known column of the Occultist
-      table.</p>
-
-      <h2>Spell Slots</h2>
-
-      <p>The Occultist table shows how many spell slots you have to cast your
-      Occultist spells of 1st level and higher. To cast one of these spells, you
-      must expend a slot of the spell’s level or higher. You regain all expended
-      spell slots when you finish a long rest.</p>
-
-      <p>For example, if you know the 1st-level spell witchbolt and have a
-      1st-level and a 2nd-level spell slot available, you can cast witchbolt
-      using either slot.</p>
-
-      <h2>Spells Known of 1st Level and Higher</h2>
-
-      <p>You know four 1st-level spells of your choice from the Occultist spell
-      list.</p>
-
-      <p>The Spells Known column of the Occultist table shows when you learn
-      more Occultist spells of your choice. Each of these spells must be of a
-      level for which you have spell slots, as shown on the table. For instance,
-      when you reach 3rd level in this class, you can learn one new spell of 1st
-      or 2nd level.</p>
-
-      <p>Additionally, when you gain a level in this class, you can choose one
-      of the Occultist spells you know and replace it with another spell from
-      the Occultist spell list, which also must be of a level for which you have
-      spell slots.</p>
-
-      <h2>Spellcasting Ability</h2>
-
-      <p>Wisdom is your spellcasting ability for your Occultist spells. Your
-      magic comes from a practitioner's knowledge of tradition, ritual, and the
-      way things work learned through experience, care and cunning. You use your
-      Wisdom whenever a spell refers to your spellcasting ability. In addition,
-      you use your Wisdom modifier when setting the saving throw DC for an
-      Occultist spell you cast and when making an attack roll with one.</p>
-
-      <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your
-      Wisdom modifier.</p>
-
-      <p><strong>Spell attack modifier</strong> = your proficiency bonus + your
-      Wisdom modifier.</p>
-
-      <h2>Ritual Casting</h2>
-
-      <p>You can cast any Occultist spell you know as a ritual if that spell has
-      the ritual tag.</p>
-
-      <h2>Spellcasting Focus</h2>
-
-      <p>You can use an occult fetish as a spellcasting focus for your Occultist
-      spells.</p>
+      and the Spells Listing for the
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.70EIrE3H3ozC3wzU]{Occultist
+      spell list}.</p><h2>Cantrips</h2><p>At 1st level, you know three cantrips
+      of your choice from the Occultist spell list. You learn additional
+      Occultist cantrips of your choice at higher levels, as shown in the
+      Cantrips Known column of the Occultist table.</p><h2>Spell
+      Slots</h2><p>The Occultist table shows how many spell slots you have to
+      cast your Occultist spells of 1st level and higher. To cast one of these
+      spells, you must expend a slot of the spell’s level or higher. You regain
+      all expended spell slots when you finish a long rest.</p><p>For example,
+      if you know the 1st-level spell <em>lightning tendril</em> and have a
+      1st-level and a 2nd-level spell slot available, you can cast <em>lightning
+      tendril</em> using either slot.</p><h2>Spells Known of 1st Level and
+      Higher</h2><p>You know four 1st-level spells of your choice from the
+      Occultist spell list.</p><p>The Spells Known column of the Occultist table
+      shows when you learn more Occultist spells of your choice. Each of these
+      spells must be of a level for which you have spell slots, as shown on the
+      table. For instance, when you reach 3rd level in this class, you can learn
+      one new spell of 1st or 2nd level.</p><p>Additionally, when you gain a
+      level in this class, you can choose one of the Occultist spells you know
+      and replace it with another spell from the Occultist spell list, which
+      also must be of a level for which you have spell
+      slots.</p><h2>Spellcasting Ability</h2><p>Wisdom is your spellcasting
+      ability for your Occultist spells. Your magic comes from a practitioner's
+      knowledge of tradition, ritual, and the way things work learned through
+      experience, care and cunning. You use your Wisdom whenever a spell refers
+      to your spellcasting ability. In addition, you use your Wisdom modifier
+      when setting the saving throw DC for an Occultist spell you cast and when
+      making an attack roll with one.</p><p><strong>Spell save DC</strong> = 8 +
+      your proficiency bonus + your Wisdom modifier.</p><p><strong>Spell attack
+      modifier</strong> = your proficiency bonus + your Wisdom
+      modifier.</p><h2>Ritual Casting</h2><p>You can cast any Occultist spell
+      you know as a ritual if that spell has the ritual tag.</p><h2>Spellcasting
+      Focus</h2><p>You can use an
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-items.Item.6q1U0Dcw2e8KTiJG]{occult
+      fetish} as a spellcasting focus for your Occultist spells.</p>
     chat: ''
   source:
     rules: '2014'
@@ -93,7 +69,7 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Occultist 1
   identifier: occultist-spellcasting
@@ -107,9 +83,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317520886
-  modifiedTime: 1727317520886
+  modifiedTime: 1730495483252
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 62300000

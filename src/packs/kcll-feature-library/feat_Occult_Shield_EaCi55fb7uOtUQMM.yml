@@ -1,0 +1,91 @@
+name: Occult Shield
+type: feat
+img: icons/equipment/shield/round-wooden-boss-steel-red.webp
+system:
+  description:
+    value: >-
+      <p>You gain proficiency with shields. Your shield can serve as an Occult
+      Fetish for your Occultist spells.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: rite-shield-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects:
+  - name: Occult Shield
+    img: icons/equipment/shield/round-wooden-boss-steel-red.webp
+    _id: O0rLRHDRbC1E5Cv2
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.armorProf.value
+        mode: 2
+        value: shield
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EaCi55fb7uOtUQMM
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Myab3e2IodkZfImg.ActiveEffect.goGZvlm7XtUbCKU1
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: 1730494939025
+      modifiedTime: 1730494968459
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!EaCi55fb7uOtUQMM.O0rLRHDRbC1E5Cv2'
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.JdYGIBtxmS1eDexr
+_stats:
+  compendiumSource: Item.JdYGIBtxmS1eDexr
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1727317496156
+  modifiedTime: 1730493555784
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 22300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: EaCi55fb7uOtUQMM
+_key: '!items!EaCi55fb7uOtUQMM'
+

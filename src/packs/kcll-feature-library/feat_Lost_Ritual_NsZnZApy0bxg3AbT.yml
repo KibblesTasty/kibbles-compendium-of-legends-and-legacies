@@ -1,6 +1,6 @@
-name: Traditional Expertise
+name: Lost Ritual
 type: feat
-img: icons/sundries/documents/document-symbol-eye.webp
+img: icons/magic/symbols/star-yellow.webp
 effects: []
 flags:
   betterRolls5e:
@@ -17,7 +17,7 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.iUDGLhBMSSyTx163
+    sourceId: Item.u0TPAHwws9kcAiVf
   dnd5e:
     riders:
       activity: []
@@ -25,34 +25,30 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 10th level, your passed down knowledge of tradition gives
-      you expertise in a skill of your tradition; choose one of your skill
-      proficiencies from Animal Handling, Arcana, Medicine, Nature, Survival.
-      Your Proficiency Bonus is doubled for any ability check you make that use
-      of the chosen Proficiency. If you have proficiency in none of the selected
-      skills, you can instead gain proficiency in one of your choices.</p>
-
-      <p>Additionally, when you make a Wisdom ability check, you can draw upon
-      your Tradition and expend a a spell slot of 1st level or higher to gain
-      advantage on the check.</p>
+      <p>You learn of a ritual lost to time. Select an Occultist spell you know
+      of 5th level or lower. This spell becomes a ritual spell for you. You can
+      cast this spell as a ritual once, and must complete a short or long rest
+      before casting it as a ritual again.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: sr
+        type: recoverAll
   type:
     value: class
-    subtype: ''
-  requirements: Occultist 10
-  identifier: traditional-expertise
+    subtype: occultistRite
+  requirements: ''
+  identifier: rite-lost-ritual
   activities:
-    hhOc3IrejaymXM5E:
-      type: check
-      name: Draw Upon Tradition
-      _id: hhOc3IrejaymXM5E
+    A3qew3ro1fM2iabD:
+      type: utility
+      name: Cast Ritual
+      _id: A3qew3ro1fM2iabD
       sort: 0
       activation:
         type: special
@@ -64,7 +60,7 @@ system:
           allowed: false
         spellSlot: true
         targets:
-          - type: spellSlots
+          - type: itemUses
             value: '1'
             scaling: {}
       description:
@@ -93,12 +89,11 @@ system:
         spent: 0
         recovery: []
         max: ''
-      check:
-        associated: []
-        dc:
-          calculation: ''
-          formula: ''
-        ability: wis
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
       img: ''
       appliedEffects: []
   enchant: {}
@@ -106,20 +101,20 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.iUDGLhBMSSyTx163
+  compendiumSource: Item.u0TPAHwws9kcAiVf
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.4
-  createdTime: 1727317511597
-  modifiedTime: 1730495471237
+  createdTime: 1727317502387
+  modifiedTime: 1730493189404
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 46900000
+sort: 32200000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: bbEdih4rJG8YUckl
-_key: '!items!bbEdih4rJG8YUckl'
+_id: NsZnZApy0bxg3AbT
+_key: '!items!NsZnZApy0bxg3AbT'
 

@@ -1,4 +1,4 @@
-name: 'Rite: Forbidden Rites'
+name: Forbidden Rites
 type: feat
 img: icons/magic/death/hand-dirt-undead-zombie.webp
 effects: []
@@ -21,11 +21,11 @@ flags:
 system:
   description:
     value: >-
-      <p><em>Prerequisite: 5th level Occultist</em></p>
-
-      <p>You learn the spell @Compendium[dnd5e.spells.oyE5nVppa5mde5gT]{Animate
-      Dead}. It is an Occultist spell for you. You cannot turn this spell into a
-      ritual with Lost Ritual.</p>
+      <p><em>Prerequisite: 5th level Occultist</em></p><p>You learn the spell
+      @Compendium[dnd5e.spells.oyE5nVppa5mde5gT]{Animate Dead}. It is an
+      Occultist spell for you and does not count against the number of Occultist
+      spells you know. This spell cannot gain the ritual tag with Lost
+      Ritual.</p>
     chat: ''
   source:
     rules: '2014'
@@ -35,23 +35,23 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Occultist 5
+    value: class
+    subtype: occultistRite
+  requirements: ''
   identifier: rite-forbidden-rites
   activities: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 5
   properties: []
 _stats:
   compendiumSource: Item.XK41vjNfzBuXORn1
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317501488
-  modifiedTime: 1727317501488
+  modifiedTime: 1730492974255
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 30900000

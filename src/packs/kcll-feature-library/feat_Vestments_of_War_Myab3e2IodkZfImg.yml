@@ -1,7 +1,43 @@
-name: 'Rite: Vestments of War'
+name: Vestments of War
 type: feat
 img: icons/equipment/chest/breastplate-quilted-brown.webp
-effects: []
+effects:
+  - name: Vestments of War
+    img: icons/equipment/chest/breastplate-quilted-brown.webp
+    _id: goGZvlm7XtUbCKU1
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.armorProf.value
+        mode: 2
+        value: med
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: 1730494756601
+      modifiedTime: 1730494930971
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!Myab3e2IodkZfImg.goGZvlm7XtUbCKU1'
 flags:
   betterRolls5e:
     quickDesc:
@@ -35,9 +71,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Occultist 2
+    value: class
+    subtype: occultistRite
+  requirements: ''
   identifier: rite-vestments-of-war
   activities: {}
   enchant: {}
@@ -49,9 +85,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317501850
-  modifiedTime: 1727317501850
+  modifiedTime: 1730494726270
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 31400000

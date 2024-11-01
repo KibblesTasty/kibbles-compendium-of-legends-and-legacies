@@ -1,6 +1,6 @@
-name: 'Rite: Rite of Immortality'
+name: Root of Magic
 type: feat
-img: icons/magic/death/skull-humanoid-crown-white-blue.webp
+img: icons/sundries/books/book-open-purple.webp
 effects: []
 flags:
   betterRolls5e:
@@ -17,12 +17,14 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.1JkACznrsHLmaBe1
+    sourceId: Item.aFV1ELdeMxWpTcqU
 system:
   description:
-    value: |-
+    value: >-
       <p><em>Prerequisite: 15th-level Occultist</em></p>
-      <p>You continue to age, but you will no longer die of old age.</p>
+
+      <p>You learn 10 cantrips from any class list of your choice. They are
+      Occultist spells for you.</p>
     chat: ''
   source:
     rules: '2014'
@@ -32,30 +34,30 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Occultist 15
-  identifier: rite-rite-of-immortality
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: rite-root-of-magic
   activities: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 15
   properties: []
 _stats:
-  compendiumSource: Item.1JkACznrsHLmaBe1
+  compendiumSource: Item.aFV1ELdeMxWpTcqU
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317515805
-  modifiedTime: 1727317515805
+  systemVersion: 4.0.4
+  createdTime: 1727317505408
+  modifiedTime: 1730494264293
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 53700000
+sort: 37200000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: h41OnpeuU6cjGSob
-_key: '!items!h41OnpeuU6cjGSob'
+_id: SqMovrdVZGxxVd7c
+_key: '!items!SqMovrdVZGxxVd7c'
 

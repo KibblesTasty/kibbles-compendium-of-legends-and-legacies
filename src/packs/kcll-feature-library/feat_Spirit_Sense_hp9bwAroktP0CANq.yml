@@ -1,6 +1,6 @@
-name: Traditional Expertise
+name: Spirit Sense
 type: feat
-img: icons/sundries/documents/document-symbol-eye.webp
+img: icons/creatures/magical/spirit-undead-masked-blue.webp
 effects: []
 flags:
   betterRolls5e:
@@ -17,7 +17,7 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.iUDGLhBMSSyTx163
+    sourceId: Item.PkAB0Ej7FTWq9ZB4
   dnd5e:
     riders:
       activity: []
@@ -25,16 +25,13 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 10th level, your passed down knowledge of tradition gives
-      you expertise in a skill of your tradition; choose one of your skill
-      proficiencies from Animal Handling, Arcana, Medicine, Nature, Survival.
-      Your Proficiency Bonus is doubled for any ability check you make that use
-      of the chosen Proficiency. If you have proficiency in none of the selected
-      skills, you can instead gain proficiency in one of your choices.</p>
-
-      <p>Additionally, when you make a Wisdom ability check, you can draw upon
-      your Tradition and expend a a spell slot of 1st level or higher to gain
-      advantage on the check.</p>
+      <p>You gain the ability to gaze into the spiritual world around you. As an
+      action, you can gain a special form of sight that lasts 1 minute. While
+      under the effect of this special sight, you are blind beyond 30 feet, but
+      within 30 feet you can see into the ethereal plane. Within this sight
+      range you have advantage on ability checks and saving throws to detect and
+      see through illusions, see invisible creatures, and perceive the original
+      form of a shapechanger or transformed creature.</p>
     chat: ''
   source:
     rules: '2014'
@@ -45,17 +42,17 @@ system:
     recovery: []
   type:
     value: class
-    subtype: ''
-  requirements: Occultist 10
-  identifier: traditional-expertise
+    subtype: occultistRite
+  requirements: ''
+  identifier: rite-spirit-sense
   activities:
-    hhOc3IrejaymXM5E:
-      type: check
-      name: Draw Upon Tradition
-      _id: hhOc3IrejaymXM5E
+    Z3pmCBPrc6S9maei:
+      type: utility
+      name: Gaze
+      _id: Z3pmCBPrc6S9maei
       sort: 0
       activation:
-        type: special
+        type: action
         value: null
         override: false
         condition: ''
@@ -63,16 +60,14 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets:
-          - type: spellSlots
-            value: '1'
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
         concentration: false
         override: false
+        value: '1'
       effects: []
       range:
         override: false
@@ -82,23 +77,25 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
+          type: radius
+          size: '30'
+          count: ''
         affects:
           choice: false
           count: ''
-          type: ''
+          type: self
+          special: ''
         override: false
         prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      check:
-        associated: []
-        dc:
-          calculation: ''
-          formula: ''
-        ability: wis
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
       img: ''
       appliedEffects: []
   enchant: {}
@@ -106,20 +103,20 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.iUDGLhBMSSyTx163
+  compendiumSource: Item.PkAB0Ej7FTWq9ZB4
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.4
-  createdTime: 1727317511597
-  modifiedTime: 1730495471237
+  createdTime: 1727317516299
+  modifiedTime: 1730494596956
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 46900000
+sort: 54500000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: bbEdih4rJG8YUckl
-_key: '!items!bbEdih4rJG8YUckl'
+_id: hp9bwAroktP0CANq
+_key: '!items!hp9bwAroktP0CANq'
 

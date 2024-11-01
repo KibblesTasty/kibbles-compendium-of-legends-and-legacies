@@ -1,0 +1,174 @@
+name: Protective Ward
+type: feat
+img: icons/magic/symbols/runes-carved-stone-green.webp
+system:
+  description:
+    value: >-
+      <p>You make a ward against supernatural harm. While you wear this charm,
+      you can use it to cast
+      @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil
+      and good} without expending a spell slot, material components, or
+      requiring concentration, but the spell lasts a number of rounds equal to
+      your Wisdom modifier. You can cast this as a reaction to being attacked or
+      making a save it would affect, but when you do so it only lasts until the
+      start of your next turn.</p><p>Once you use this charm, you cannot use it
+      again until you complete a short or long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: rite-protective-ward
+  activities:
+    2FbOmsAv5t0nfcME:
+      type: utility
+      name: Cast
+      _id: 2FbOmsAv5t0nfcME
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '@abilities.wis.mod'
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    l5mIKY9UD13kW9J8:
+      type: utility
+      name: Reaction
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      _id: l5mIKY9UD13kW9J8
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties:
+    - mgc
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.QHNw0DGoJOoEkP43
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.QHNw0DGoJOoEkP43
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1727317502871
+  modifiedTime: 1730494167163
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 33000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: OiZsLb58sORgz3Ul
+_key: '!items!OiZsLb58sORgz3Ul'
+

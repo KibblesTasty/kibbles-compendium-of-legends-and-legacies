@@ -1,4 +1,4 @@
-name: 'Rite: Alchemical Rites'
+name: Alchemical Rites
 type: feat
 img: icons/tools/laboratory/mortar-powder-green.webp
 effects: []
@@ -38,9 +38,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Occultist 2
+    value: class
+    subtype: occultistRite
+  requirements: ''
   identifier: rite-alchemical-rites
   activities: {}
   enchant: {}
@@ -52,9 +52,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317502990
-  modifiedTime: 1727317502990
+  modifiedTime: 1730493348976
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 33200000

@@ -1,7 +1,47 @@
-name: 'Rite: Markings of Protections'
+name: Markings of Protections
 type: feat
 img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
-effects: []
+effects:
+  - name: Markings of Protections
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+    _id: iWfx2VHMca1T3Lql
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.calc
+        mode: 2
+        value: custom
+        priority: null
+      - key: system.attributes.ac.formula
+        mode: 2
+        value: 11 + @abilities.wis.mod
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: 1730493256917
+      modifiedTime: 1730493325991
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!zcLOxdoYysATM484.iWfx2VHMca1T3Lql'
 flags:
   betterRolls5e:
     quickDesc:
@@ -22,8 +62,8 @@ system:
   description:
     value: >-
       <p>You mark yourself with magical symbols and patterns, protecting you
-      from harm. You are under the effect of the
-      @Compendium[dnd5e.spells.CKZTpZlxj7hjjo2H]{Mage Armor} spell.</p>
+      from harm. While you are not wearing any armor, your AC becomes 11 + your
+      Wisdom modifier. You can use a shield and still gain this benefit.</p>
     chat: ''
     unidentified: ''
   source:
@@ -71,19 +111,21 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
-    subtype: ''
-  requirements: Occultist 2
+    value: class
+    subtype: occultistRite
+  requirements: ''
   recharge:
     value: null
     charged: false
   identifier: rite-markings-of-protections
+  prerequisites:
+    level: null
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   coreVersion: '12.331'
   createdTime: 1678742372118
-  modifiedTime: 1727317483769
+  modifiedTime: 1730493341131
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.2oVENNttjm54Vy0O
   duplicateSource: null

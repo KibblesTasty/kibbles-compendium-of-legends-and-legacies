@@ -1,4 +1,4 @@
-name: 'Rite: Specialized Poisons'
+name: Specialized Poisons
 type: feat
 img: icons/magic/acid/dissolve-bone-ribs-skull.webp
 effects: []
@@ -22,11 +22,11 @@ system:
   description:
     value: >-
       <p>When you deal poison damage with an Occultist spell or created poison,
-      you can (but don't have to) specify a creature type (such as beast or
-      monstrosity) it is created to effect. The poison damage from that spell or
-      poison bypasses any resistance or immunity to poison damage a creature of
-      that type has. All other creature types beside the specified type have
-      resistance to damage by that spell effect or poison.</p>
+      you can (but don’t have to) specify a creature type (such as beast or
+      monstrosity) it is created to affect. Damage from that spell or poison
+      ignores resistance and immunity to poison damage by creatures of that
+      type. Creatures without the selected creature type have resistance to
+      poison damage from the spell effect or poison.</p>
     chat: ''
   source:
     rules: '2014'
@@ -36,9 +36,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Occultist 2
+    value: class
+    subtype: occultistRite
+  requirements: ''
   identifier: rite-specialized-poisons
   activities: {}
   enchant: {}
@@ -50,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317488427
-  modifiedTime: 1727317488427
+  modifiedTime: 1730494450887
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 10400000

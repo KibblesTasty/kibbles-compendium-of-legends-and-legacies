@@ -1,0 +1,64 @@
+name: Inspiring Leader
+type: feat
+img: icons/equipment/head/crown-gold-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LuOLwnEm1o7U8u9I
+system:
+  description:
+    value: >-
+      <p>Additionally at 1st level, a creature with a CR of less than half your
+      Warlord level (or with fewer class levels than you have Warlord levels if
+      the creature does not have a CR) can choose to use your proficiency bonus
+      + Charisma modifier for the attack roll modifier on the first Attack they
+      make in a turn where they have been granted by Battlefield Presence.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 1
+  identifier: inspiring-leader
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.LuOLwnEm1o7U8u9I
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317497630
+  modifiedTime: 1727317497630
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 24600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: GNZADANlBc4X4wXq
+_key: '!items!GNZADANlBc4X4wXq'
+

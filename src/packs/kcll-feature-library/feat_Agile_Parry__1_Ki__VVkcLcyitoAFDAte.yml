@@ -1,0 +1,192 @@
+name: Agile Parry (1 Ki)
+type: feat
+img: icons/skills/melee/swords-parry-block-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: AC Boost
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': Damage Blocked
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.2HkJeHyUgDwPLhGJ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>As a reaction to being attacked, you can attempt to parry the attack,
+      rolling your Martial Arts die and increasing your AC by the value rolled
+      against the attack. If you the attack still hits, you reduce the damage
+      taken by the value rolled + your proficiency bonus.</p>
+    chat: ''
+  source:
+    custom: Sword Saint
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - healing
+            custom:
+              enabled: true
+              formula: 1@scale.monk.die + @mod
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+    dnd5eactivity300:
+      _id: dnd5eactivity300
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: 1@scale.monk.die
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: agile-parry-1-ki
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.2HkJeHyUgDwPLhGJ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317507368
+  modifiedTime: 1727317507368
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 40400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: VVkcLcyitoAFDAte
+_key: '!items!VVkcLcyitoAFDAte'
+

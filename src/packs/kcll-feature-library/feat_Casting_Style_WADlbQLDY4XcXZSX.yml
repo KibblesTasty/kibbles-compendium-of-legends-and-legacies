@@ -1,0 +1,82 @@
+name: Casting Style
+type: feat
+img: icons/magic/light/orbs-firefly-hand-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.36R1oviudUEnYLNN
+system:
+  description:
+    value: >-
+      <p>Additionally, your self-taught casting style has resulted in some
+      practical advantages. Select one of the following casting styles:</p>
+
+      <p><strong>Reliable Casting</strong>. When you roll a 1 or 2 on a damage
+      die for an Occultist cantrip, you can reroll the die and must use the new
+      roll, even if the new roll is a 1 or a 2.</p>
+
+      <p>@Item[QrbGXvVURweEMjTc]{Casting Style: Reliable Casting}</p>
+
+      <p><strong>Habitual Casting.</strong> When you cast an Occultist cantrip
+      that requires concentration, you can instead cause the effect to persist
+      without concentration a number of rounds equal to your Occultist level
+      (for example, as 1st level Occultist, it would end at the start of your
+      next turn). You can end a spell persisting in this way early as an
+      action.</p>
+
+      <p>@Item[AlBiaUFviGipN0Md]{Casting Style: Habitual Casting}</p>
+
+      <p><strong>Tactical Casting</strong>. When you take the Ready action with
+      an Occultist cantrip, it does not require concentration to keep the spell
+      readied.</p>
+
+      <p>@Item[yJmOcBcsp64n7krx]{Casting Style: Tactical Casting}</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  identifier: casting-style
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.36R1oviudUEnYLNN
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317507716
+  modifiedTime: 1727317507716
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 40900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: WADlbQLDY4XcXZSX
+_key: '!items!WADlbQLDY4XcXZSX'
+

@@ -1,0 +1,56 @@
+name: Ancient Warding
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">At 10th level, when you
+      use your Indomitable feature to reroll a saving throw against a magical
+      effect, you can add your proficiency bonus to the result (potentially
+      adding twice your proficiency bonus if you are already proficient in the
+      save).</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Green Knight 10
+  identifier: ancient-warding
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.r0aPRfTzVjCgXpT0
+_stats:
+  compendiumSource: Item.r0aPRfTzVjCgXpT0
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317485757
+  modifiedTime: 1727317485757
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 6400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 134TXkmszlOYHmyc
+_key: '!items!134TXkmszlOYHmyc'
+

@@ -1,0 +1,141 @@
+name: Innate Magic (Stoneblood)
+type: feat
+img: icons/magic/earth/projectile-boulder-dust.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EpgCsqqyEDEo41mu
+system:
+  description:
+    value: >-
+      <p>Additionally when you select this bond, you gain access to several
+      innate magical abilities by channeling the power of your primal
+      connection.</p>
+
+      <p>You gain the following spells at the listed levels, and can cast each
+      spell once before without components or spell slots. Wisdom is your
+      spellcasting modifier for these spells. Once you cast a spell, you cannot
+      cast that spell again until you complete a long rest, or expend Endurance
+      Dice equal to the level of the spell to cast it again.</p>
+
+      <table border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center"><strong>Warden Level</strong></td>
+
+      <td style="text-align:center"><strong>Innate Spells (1/long rest
+      each)</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">1</td>
+
+      <td
+      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.ghbu1TflvlteVgjU]{Create
+      Pit}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">3</td>
+
+      <td
+      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.Augvc9zPdVDS3EY8]{Earth
+      Ripple}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">5</td>
+
+      <td
+      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.xA2DG0aEon2eBrgC]{Become
+      Stone}</td>
+
+      </tr>
+
+      <tr style="text-align:center">
+
+      <td>9</td>
+
+      <td>@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.D17eLX9Vo31FkUR7]{Quicksand}</td>
+
+      </tr>
+
+      <tr style="text-align:center">
+
+      <td>13</td>
+
+      <td>@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.bWVxxEn8KPH7RudB]{Stone
+      Coffin}</td>
+
+      </tr>
+
+      <tr style="text-align:center">
+
+      <td>17</td>
+
+      <td>@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.veeCIFelonGdrBQb]{Orbital
+      Stones}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneblood 1
+  identifier: innate-magic-stoneblood
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.EpgCsqqyEDEo41mu
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317497852
+  modifiedTime: 1727317497852
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 24900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: GmECMDRSJr1wGDuo
+_key: '!items!GmECMDRSJr1wGDuo'
+

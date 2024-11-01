@@ -1,0 +1,70 @@
+name: 'Witch Rite: Witch''s Brew'
+type: feat
+img: icons/consumables/potions/potion-flask-corked-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.vbJBRPAj63bBJgHQ
+system:
+  description:
+    value: >-
+      <p>During a short or long rest, you can infuse a spell with a casting time
+      of one action or bonus action into a concoction, expending the spell slot
+      on completion of the rest.</p>
+
+      <p>This spell can subsequently be cast by anyone carrying the potion by
+      drinking the potion as an action, with the drinker as the target, acting
+      as the caster of the spell, but using the Witch's spell casting ability
+      modifier.</p>
+
+      <p>The potion remains potent until you complete a long rest and recharge
+      the spell slot expended to create the potion.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  identifier: witch-rite-witchs-brew
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.vbJBRPAj63bBJgHQ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317509974
+  modifiedTime: 1727317509974
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 44400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ZX9zMaUKgjJzoNyU
+_key: '!items!ZX9zMaUKgjJzoNyU'
+

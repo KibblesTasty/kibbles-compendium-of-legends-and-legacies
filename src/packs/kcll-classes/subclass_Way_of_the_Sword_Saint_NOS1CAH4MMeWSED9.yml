@@ -1,0 +1,77 @@
+folder: 28cTpgCIRqChQFhV
+name: Way of the Sword Saint
+type: subclass
+_id: NOS1CAH4MMeWSED9
+img: icons/skills/melee/sword-winged-holy-orange.webp
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: way-of-the-sword-saint
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: K8aqa1N0OhJppiZP
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Monastic Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Monastic Tradition Feature
+      hint: ''
+      _id: D4lVui0u0CaQVSVS
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Monastic Tradition Feature
+      hint: ''
+      _id: 4G4mV8JCOXReNp9z
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Monastic Tradition Feature
+      hint: ''
+      _id: p8f0G75dX24zlKy9
+  classIdentifier: monk
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1729039135276
+  modifiedTime: 1729116402722
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!NOS1CAH4MMeWSED9'
+

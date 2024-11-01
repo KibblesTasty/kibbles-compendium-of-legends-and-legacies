@@ -1,0 +1,64 @@
+name: 'Shaman Rite: Guidance of the Spirits'
+type: feat
+img: icons/magic/unholy/hands-praying-fire-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text">(Prerequisite: 3rd level
+      Occultist)</em></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you expend a spell slot to
+      empower a spirit with your Empowered Spirits feature, you can select a
+      number of skills equal to the spell slot expended that the spirit is
+      proficient in. While it is not manifested, you gain proficiency with these
+      skills. If you expend a spell slot of 5th level or higher, you can
+      exchange three skill proficiencies to gain expertise in one
+      skill.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 3
+  identifier: shaman-rite-guidance-of-the-spirits
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.DVE5ZJ9JDDwgjuAS
+_stats:
+  compendiumSource: Item.DVE5ZJ9JDDwgjuAS
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317493110
+  modifiedTime: 1727317493110
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 17600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: AQxfkP9OpXyQMHSM
+_key: '!items!AQxfkP9OpXyQMHSM'
+

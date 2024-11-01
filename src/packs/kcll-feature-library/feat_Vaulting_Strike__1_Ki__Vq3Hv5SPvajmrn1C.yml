@@ -1,0 +1,138 @@
+name: Vaulting Strike (1 Ki)
+type: feat
+img: icons/skills/movement/arrow-upward-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.aUDFwXVDxiwloDb6
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>When you hit a target with an attack, you can expend a ki point to deal
+      additionally damage to the target equal to your Martial Arts die and leap
+      over the target, landing in an occupied space adjacent to them.</p>
+    chat: ''
+  source:
+    custom: Sword Saint
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: special
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types: []
+            custom:
+              enabled: true
+              formula: 1@scale.monk.die
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: vaulting-strike-1-ki
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.aUDFwXVDxiwloDb6
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317507540
+  modifiedTime: 1727317507540
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 40600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Vq3Hv5SPvajmrn1C
+_key: '!items!Vq3Hv5SPvajmrn1C'
+

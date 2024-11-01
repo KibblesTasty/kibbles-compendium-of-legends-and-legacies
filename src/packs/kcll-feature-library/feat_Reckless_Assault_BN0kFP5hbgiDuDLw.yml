@@ -1,0 +1,63 @@
+name: Reckless Assault
+type: feat
+img: icons/skills/melee/strike-flail-spiked-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Y8bSSNRreZxX07D9
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, when a creature with temporary hit points from
+      one of your abilities deals damage, they can expend those temporary hit
+      points to add damage equal to half the temporary hit points sacrificed to
+      their damage dealt.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Chieftain 7
+  identifier: reckless-assault
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Y8bSSNRreZxX07D9
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317493727
+  modifiedTime: 1727317493727
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 18500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: BN0kFP5hbgiDuDLw
+_key: '!items!BN0kFP5hbgiDuDLw'
+

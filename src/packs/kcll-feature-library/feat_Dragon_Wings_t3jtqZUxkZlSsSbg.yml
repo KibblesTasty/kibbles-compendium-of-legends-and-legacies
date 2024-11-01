@@ -1,0 +1,105 @@
+name: Dragon Wings
+type: feat
+img: icons/creatures/abilities/wing-batlike-white-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.x4fclT9jPF8SVy3P
+system:
+  description:
+    value: >-
+      <h3
+      id="otherworldly-patron-the-dragon-eldritch-invocations-dragon-wings">Dragon
+      Wings</h3>
+
+      <p>Prerequisite: 15th level, Dragon patron</p>
+
+      <p>You gain the ability to sprout a pair of dragon wings from your back,
+      gaining a 30 foot flying speed. You can create these wings as a bonus
+      action on your turn. They last until you dismiss them as a bonus action on
+      your turn.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Dragon 15
+  identifier: dragon-wings
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.x4fclT9jPF8SVy3P
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317523413
+  modifiedTime: 1727317523413
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 66500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: t3jtqZUxkZlSsSbg
+_key: '!items!t3jtqZUxkZlSsSbg'
+

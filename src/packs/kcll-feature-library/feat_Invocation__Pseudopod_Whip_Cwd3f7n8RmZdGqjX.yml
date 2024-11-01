@@ -1,0 +1,60 @@
+name: 'Invocation: Pseudopod Whip'
+type: feat
+img: icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">You can create a natural
+      weapon taking the form of an acidic whip. It has the reach and finesse
+      properties, and deals 2d4 acid damage on hit. You can consume a weapon
+      with a bonus to attack and damage rolls, destroying it and granting your
+      acidic whip the bonus to attack and damage rolls of the consumed weapon
+      (this cannot be used on cursed items, artifacts, or sentient items). This
+      weapon counts as a whip for the purposes of weapon interactions (such as
+      feats). At your DM's discretion, it may be able to absorb other properties
+      from absorbed magical weapons.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Ooze
+  identifier: invocation-pseudopod-whip
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.R2Ql79LKwn5PfjPP
+_stats:
+  compendiumSource: Item.R2Ql79LKwn5PfjPP
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317495185
+  modifiedTime: 1727317495185
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 20700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Cwd3f7n8RmZdGqjX
+_key: '!items!Cwd3f7n8RmZdGqjX'
+

@@ -1,0 +1,134 @@
+name: Warlord's Intuition
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.8TCW0457cJi9IUhd
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+system:
+  description:
+    value: >-
+      <p>Starting at 13th level, before rolling an ability check you are
+      proficient in, you can exercise this ability, choosing for the d20 to be
+      equal to your Warlord level rather than rolling. Once you do this, you
+      cannot do this until you complete a long rest.</p>
+    chat: ''
+  source:
+    custom: Warlord
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 13
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: warlords-intuition
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.8TCW0457cJi9IUhd
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317496273
+  modifiedTime: 1727317496273
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 22400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: EtxdXwTC9b8LPPAI
+_key: '!items!EtxdXwTC9b8LPPAI'
+

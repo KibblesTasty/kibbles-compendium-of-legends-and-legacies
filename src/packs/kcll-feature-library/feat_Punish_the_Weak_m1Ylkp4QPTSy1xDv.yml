@@ -1,0 +1,57 @@
+name: Punish the Weak
+type: feat
+img: icons/weapons/misc/whip-red-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, when you target a creature within 60 feet of
+      you with any ability, feature, or attack, you can mark them for punishment
+      (no action required). The mark lasts until the creature ends their turn
+      more than 60 feet from you, dies, or you mark another creature. Once per
+      turn when the marked creature takes damage, they take an additional 1d8
+      damage. This is increased to 1d12 if the target is frightened of you.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dreadlord 11
+  identifier: punish-the-weak
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.f4wggZ4hIZRuit5z
+_stats:
+  compendiumSource: Item.f4wggZ4hIZRuit5z
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317519086
+  modifiedTime: 1727317519086
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 59200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: m1Ylkp4QPTSy1xDv
+_key: '!items!m1Ylkp4QPTSy1xDv'
+

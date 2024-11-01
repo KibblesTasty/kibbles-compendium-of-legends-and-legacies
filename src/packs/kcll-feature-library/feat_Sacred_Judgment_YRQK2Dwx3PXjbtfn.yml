@@ -1,0 +1,71 @@
+name: Sacred Judgment
+type: feat
+img: icons/magic/light/beams-rays-orange-purple-large.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.mtBU5bJpYGqGhVWc
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when deal damage to a creature with a cleric
+      spell, you can apply additional damage to a creature equal to your Wisdom
+      modifier damage if that target has dealt damage to another creature since
+      the end of your last turn.</p>
+
+      <p>You can do this a number of times equal to your Wisdom modifier,
+      regaining all uses on a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Judgement Domain 1
+  identifier: sacred-judgment
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.mtBU5bJpYGqGhVWc
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317509520
+  modifiedTime: 1727317509520
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 43600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: YRQK2Dwx3PXjbtfn
+_key: '!items!YRQK2Dwx3PXjbtfn'
+

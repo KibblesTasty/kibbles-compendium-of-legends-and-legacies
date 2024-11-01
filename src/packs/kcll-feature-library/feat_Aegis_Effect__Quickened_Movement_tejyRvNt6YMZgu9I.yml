@@ -1,0 +1,53 @@
+name: 'Aegis Effect: Quickened Movement'
+type: feat
+img: icons/skills/movement/arrow-upward-yellow.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Your movement speed is
+      increased by 5.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aegis Effect
+  identifier: aegis-effect-quickened-movement
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.nuLIddCzA3m9W7bt
+_stats:
+  compendiumSource: Item.nuLIddCzA3m9W7bt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317523895
+  modifiedTime: 1727317523895
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 67400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: tejyRvNt6YMZgu9I
+_key: '!items!tejyRvNt6YMZgu9I'
+

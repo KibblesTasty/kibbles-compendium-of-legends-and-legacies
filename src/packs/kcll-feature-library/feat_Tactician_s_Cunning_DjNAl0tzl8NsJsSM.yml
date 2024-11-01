@@ -1,0 +1,63 @@
+name: Tactician's Cunning
+type: feat
+img: icons/skills/trades/academics-merchant-scribe.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.V9pSaBCPeGgP7jmS
+system:
+  description:
+    value: >-
+      <p>When you take this Presence at 1st level, you gain proficiency in the
+      History and Investigation skills, or other skills of your choice if you
+      are already proficient. Additionally, if you can take a minute or more
+      making a skill check, you can treat a d20 roll of 4 or lower as a 5.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Tactician 1
+  identifier: tacticians-cunning
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.V9pSaBCPeGgP7jmS
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317495733
+  modifiedTime: 1727317495733
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 21600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: DjNAl0tzl8NsJsSM
+_key: '!items!DjNAl0tzl8NsJsSM'
+

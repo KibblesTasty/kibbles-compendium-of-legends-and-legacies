@@ -1,0 +1,97 @@
+name: Unwavering Pursuit
+type: feat
+img: icons/skills/targeting/crosshair-triple-strike-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.H0FilE5NMMhJTnHC
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, when you mark a creature with Dead or Alive,
+      you get truesight against that creature, and aware of their exact location
+      as long they are within 300 feet of you until the mark ends.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  identifier: unwavering-pursuit
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1678741985581
+  modifiedTime: 1727317484066
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.H0FilE5NMMhJTnHC
+  duplicateSource: null
+folder: null
+sort: 74400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: zyNOmuS3lbtrTLSZ
+_key: '!items!zyNOmuS3lbtrTLSZ'
+

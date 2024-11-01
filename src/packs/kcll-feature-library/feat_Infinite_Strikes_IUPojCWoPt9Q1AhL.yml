@@ -1,0 +1,69 @@
+name: Infinite Strikes
+type: feat
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.vYY1PTWTsI3axFVK
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>At 20th level, you draw on your magic to hasten yourself to blinding
+      speeds (no action required). For one minute, any time you make an attack
+      with an action or bonus action, you can immediately make another attack
+      with the same weapon. Once you use this feature, you cannot use it again
+      until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Swiftblade 20
+  identifier: infinite-strikes
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.vYY1PTWTsI3axFVK
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317498659
+  modifiedTime: 1727317498659
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 26300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: IUPojCWoPt9Q1AhL
+_key: '!items!IUPojCWoPt9Q1AhL'
+

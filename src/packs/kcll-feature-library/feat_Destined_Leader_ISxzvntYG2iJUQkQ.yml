@@ -1,0 +1,63 @@
+name: Destined Leader
+type: feat
+img: icons/skills/social/diplomacy-peace-alliance.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.YFuH0YAuahFXWY0r
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level when you take this Presence you gain proficiency
+      with rapiers, longswords and the Persuasion skill, or another skill of
+      your choice if you are already proficient. Additionally, you gain an
+      additional Leadership Die at 3rd level, 9th level, and 15th level.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 1
+  identifier: destined-leader
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.YFuH0YAuahFXWY0r
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317498605
+  modifiedTime: 1727317498605
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 26200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ISxzvntYG2iJUQkQ
+_key: '!items!ISxzvntYG2iJUQkQ'
+

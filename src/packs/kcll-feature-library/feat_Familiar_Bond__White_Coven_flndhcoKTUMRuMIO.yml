@@ -1,0 +1,153 @@
+name: 'Familiar Bond: White Coven'
+type: feat
+img: icons/creatures/birds/dove-pigeon-flying-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.l40YqRo0zfs1YViE
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 6
+system:
+  description:
+    value: >-
+      <p>When you complete a long rest, your familiar gains temporary hit points
+      equal to your Wisdom modifier + your twice Occultist level. While it has
+      one or more temporary hit points, as its action, or as a reaction to a
+      creature within 30 feet of it taking damage, it can teleport to allied
+      targets giving that target some of its temporary hit points (minimum
+      one).</p>
+    chat: ''
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '6'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '6'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '6'
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: familiar-bond-white-coven
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.l40YqRo0zfs1YViE
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317514869
+  modifiedTime: 1727317514869
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 52100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: flndhcoKTUMRuMIO
+_key: '!items!flndhcoKTUMRuMIO'
+

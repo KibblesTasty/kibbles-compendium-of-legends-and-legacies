@@ -1,0 +1,67 @@
+name: Blast Zone Immunity
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.yTsp4PfVRXvWtg0f
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, you are immune to the area of effect of your
+      own spells. You take no damage from them, and ignore all other affects
+      unless you choose to be affected.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 11
+  identifier: blast-zone-immunity
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.yTsp4PfVRXvWtg0f
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317503439
+  modifiedTime: 1727317503439
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 34000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: PQX9NjXP8vDWCOUf
+_key: '!items!PQX9NjXP8vDWCOUf'
+

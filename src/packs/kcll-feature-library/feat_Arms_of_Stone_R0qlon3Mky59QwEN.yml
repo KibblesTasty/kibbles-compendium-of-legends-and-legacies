@@ -1,0 +1,62 @@
+name: Arms of Stone
+type: feat
+img: icons/magic/earth/strike-fist-stone-light.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.anWirDAePkKQVGH6
+system:
+  description:
+    value: >-
+      <p>Your arms become stone until the start of your next turn (no action
+      required). For the duration, your melee attack damage and AC increase by
+      the number of ki points spent.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Four Elements 3
+  identifier: arms-of-stone
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.anWirDAePkKQVGH6
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504376
+  modifiedTime: 1727317504376
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 35500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: R0qlon3Mky59QwEN
+_key: '!items!R0qlon3Mky59QwEN'
+

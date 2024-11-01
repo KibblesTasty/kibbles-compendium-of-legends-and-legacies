@@ -1,0 +1,156 @@
+name: Endurance Die
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context: []
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.Gw0PedqeHJv5iws1
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 3
+system:
+  description:
+    value: >-
+      <p>Additionally at 2nd level, you gain access to three d8 endurance dice.
+      You have two ways to use these dice, though other features may grant
+      additional ways to use them:</p><ul><li><p>Once per turn, when you take
+      damage, you can roll an Endurance Die to reduce the damage taken by the
+      amount rolled (no action required).</p></li><li><p>When you make a saving
+      throw, you can roll an Endurance Die and add it to the saving throw (no
+      action required). You can do this after you roll the save, but before you
+      know the outcome of the save.</p></li></ul><p>You gain another die at 5th
+      level (4 dice), 9th level (5 dice), 13th level (6 dice), and 17th level (7
+      dice). The size of the dice increase at 5th (to d10) and 11th level to
+      (d12). You regain all expended endurance dice when you complete a short or
+      long rest.</p>
+    chat: ''
+  source:
+    custom: Warden
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '@prof + 1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 2
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: endurance-die
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Gw0PedqeHJv5iws1
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317501039
+  modifiedTime: 1727317501039
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 30100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: M9Hd7FvIRs06IDmg
+_key: '!items!M9Hd7FvIRs06IDmg'
+

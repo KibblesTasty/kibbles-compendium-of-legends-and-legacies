@@ -1,0 +1,64 @@
+name: Empowered Endurance
+type: feat
+img: icons/magic/defensive/armor-stone-skin.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LvVorvG4bhteXD1l
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, when you roll an endurance die, you can add your
+      Constitution modifier to the result rolled when blocking damage.</p>
+
+      <p>Additionally, if you roll for initiative with no endurance die
+      remaining, you regain 1 endurance die.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 6
+  identifier: empowered-endurance
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.LvVorvG4bhteXD1l
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317520682
+  modifiedTime: 1727317520682
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 61900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: nqFPRJtd3oeu87YX
+_key: '!items!nqFPRJtd3oeu87YX'
+

@@ -1,0 +1,53 @@
+name: 'Aegis Effect: Enchanted Shield'
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  description:
+    value: >-
+      <p>You touch a shield making it easy to wield. You have proficiency with
+      that shield during the effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 2
+  identifier: aegis-effect-enchanted-shield
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.SWCHMzLTrm24Nwql
+_stats:
+  compendiumSource: Item.SWCHMzLTrm24Nwql
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317492621
+  modifiedTime: 1727317492621
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 16900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 9jq46TXPVb5QVWLR
+_key: '!items!9jq46TXPVb5QVWLR'
+

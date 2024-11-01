@@ -1,0 +1,63 @@
+name: 'Hedge Rite: I Know That One!'
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.IbwajMSwqlzekp58
+system:
+  description:
+    value: >-
+      <p>When you make a saving throw against a spell you know, or make a
+      spellcasting ability check to use counterspell or dispel magic against a
+      spell you know, you have advantage on the saving throw or spellcasting
+      ability check.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 2
+  identifier: hedge-rite-i-know-that-one
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.IbwajMSwqlzekp58
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317522422
+  modifiedTime: 1727317522422
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 64800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: qMLfvz4vXQ00u0O1
+_key: '!items!qMLfvz4vXQ00u0O1'
+

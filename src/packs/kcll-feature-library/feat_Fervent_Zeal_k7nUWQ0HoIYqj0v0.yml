@@ -1,0 +1,62 @@
+name: Fervent Zeal
+type: feat
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.yYJxXqma11TkCdpO
+system:
+  description:
+    value: >-
+      <p>Beginning at 7th level, when you cast a spell with that targets
+      yourself, you can make one weapon attack as a bonus action (it does not
+      have to target only you).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Crusader 7
+  identifier: fervent-zeal
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.yYJxXqma11TkCdpO
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317517946
+  modifiedTime: 1727317517946
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 57200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: k7nUWQ0HoIYqj0v0
+_key: '!items!k7nUWQ0HoIYqj0v0'
+

@@ -1,0 +1,77 @@
+folder: WDc5BXYoZ8r5du1l
+name: Oath of the Goodest Boi
+type: subclass
+_id: ii2MKD1W3JZtvmIn
+img: icons/creatures/mammals/dog-husky-white-blue.webp
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: oath-of-the-goodest-boi
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: L0RnxPpjzT2rJzi2
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Sacred Oath Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Sacred Oath Feature
+      hint: ''
+      _id: 1slAtfu5qYSvDE3x
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Sacred Oath Feature
+      hint: ''
+      _id: vfLW980QPX7aiAFw
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Sacred Oath Feature
+      hint: ''
+      _id: iUYz7QDUKnsmmuV5
+  classIdentifier: paladin
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1729039441517
+  modifiedTime: 1729116731492
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!ii2MKD1W3JZtvmIn'
+

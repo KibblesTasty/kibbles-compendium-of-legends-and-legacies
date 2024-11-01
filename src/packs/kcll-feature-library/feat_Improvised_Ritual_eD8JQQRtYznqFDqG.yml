@@ -1,0 +1,68 @@
+name: Improvised Ritual
+type: feat
+img: icons/magic/symbols/runes-carved-stone-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.tIxvJe2AyDXwUAuc
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can cast a spell with the ritual tag without
+      knowing that spell. When you do so, it takes the additional time as if
+      casting it as a ritual, but still consumes a spell slot. You can improvise
+      spells of a level equal to one-third of your Occultist level (for example,
+      a 3rd level Occultist can improvise 1st level rituals).</p>
+
+      <p>Spells improvised this way can be from any spell list, but if it is not
+      on the Occultist list, you must have seen the spell been cast or otherwise
+      seen the spell in a written form.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 3
+  identifier: improvised-ritual
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.tIxvJe2AyDXwUAuc
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317513558
+  modifiedTime: 1727317513558
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 50000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: eD8JQQRtYznqFDqG
+_key: '!items!eD8JQQRtYznqFDqG'
+

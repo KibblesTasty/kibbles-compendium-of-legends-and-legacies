@@ -1,0 +1,99 @@
+name: Elemental Spells
+type: feat
+img: icons/magic/lightning/bolt-strike-blue-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.TPksCodagC7IptYw
+system:
+  description:
+    value: "<p><span style=\"font-family:Signika, sans-serif\">Additionally at 2nd level, your mystical connection to the primal powers allows you to learn additional elemental spells. When you pick a druid spell, you can additionally select from the Circle of Elements Expanded Spells listed at the end of this subclass. The number of spells you can prepare increases by 1 when you gain this feature, and again at 3rd, 5th, 7th, and 9th levels.</span></p><h3><strong>Cantrip</strong></h3><p>@Compendium[dnd5e.spells.EOmsUcFQJTfG2oio]{Fire Bolt}</p><p>@Compendium[dnd5e.spells.ctW81uiX56xZR2c5]{Ray of Frost}</p><p>@Compendium[dnd5e.spells.XvbiNhNqXXIFisIy]{Shocking Grasp}</p><p>@Compendium[dnd5e.spells.eCPQuQkIabFKTl9u]{Produce Flame}</p><h3><strong>1st Level</strong></h3><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.soerdsQlAzfiCCRx]{Arctic Breath}</p><p>@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Burning Hands}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.NTtWUt0fnWBd1hUu]{Crashing Wave}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.njw1xQKxHYiMtbBF]{Entomb}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.71CGjte7pld4Eqcu]{Gale Bolt}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.vgRGbHfmXzfahpkq]{Lightning Tendril}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.tAlTCcr9KyFpA814]{Stone Fist}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.8wYXpF4x7eORdwuC]{Water Blast}</p><h3><strong>2nd Level</strong></h3><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.AvufHn4de2MS9pYP]{Become Fire}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.xA2DG0aEon2eBrgC]{Become Stone}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.6AF59UdoX7xW9hGZ]{Become Water}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.BCNtGDoY9cYjVkuU]{Become Wind}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.K2daUPbGZom7mCBo]{Cold Snap}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.AJSnvZ7QsICrcXPJ]{Crackle}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.aRNu7hLKaPA5eMId]{Dancing Wave}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.Augvc9zPdVDS3EY8]{Earth Ripple}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.RH4sgPaJFLVmyvg8]{Hurricane Slash}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.DwabUomoH4YxJ0Ra]{Lightning Charged}</p><p>@Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{Scorching Ray}</p><h3><strong>3rd Level</strong></h3><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.IqBNzGw6TK5aIMi8]{Electrocute}</p><p>@Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Fireball}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.jfXMxFnbSNQROqUj]{Fire Cyclone}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.FRJEbnOESH5IwP9A]{Flash Freeze}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.xSr7ZjFS7M2rlNqM]{Vortex Blast}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.aas0237nlRG6XLtB]{Water Cannon}</p><h3><strong>4th Level</strong></h3><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.BpcnmRSyBCMEYIvx]{Aero Barrage}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.89Bgi1WZmaT5001r]{Ice Spikes}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.AR1DIzX5Ouppp9au]{Jumping Jolt}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.zxrurVQ2q5pEqkSH]{Suffocate}</p><h3><strong>5th Level</strong></h3><p>@Compendium[dnd5e.spells.RpKjTlYASrfqUPVA]{Cone of Cold}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.RKEC4m1y7DnE3XgF]{Fissure}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.RY8wvL8hhn0XKMh5]{Pressure Cutter}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.wzT0FmWpu5oRbHRT]{Sky Burst}</p><p>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.fPaey11cSYIOn9gy]{Tornado}</p><p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Elements 2
+  recharge:
+    value: null
+    charged: false
+  identifier: elemental-spells
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1678761597369
+  modifiedTime: 1727317482816
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.TPksCodagC7IptYw
+  duplicateSource: null
+folder: null
+sort: 72300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: xxlW8kRPIfURVRXa
+_key: '!items!xxlW8kRPIfURVRXa'
+

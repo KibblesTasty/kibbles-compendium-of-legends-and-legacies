@@ -1,0 +1,68 @@
+name: Ancient Fortitude
+type: feat
+img: icons/magic/nature/tree-animated-squint.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LDF2NQ6mcHZ7MDDY
+system:
+  description:
+    value: >-
+      <p>Beginning at 10th level, you gain the endurance of the of the ancient
+      forests. While in Guardian Shape, if you have no temporary hit points at
+      the start of your turn, you gain temporary hit points equal to your Wisdom
+      modifier.</p>
+
+      <p>Additionally, if you have any temporary hit points when you take damage
+      that forces you to make a Constitution saving throw to maintain
+      Concentration on a spell, you can make the check with advantage
+      (regardless if the damage exceeds your temporary hit points or not).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of the Ancients 10
+  identifier: ancient-fortitude
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.LDF2NQ6mcHZ7MDDY
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317510786
+  modifiedTime: 1727317510786
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 45600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: aYsTb2PB8gliWAfm
+_key: '!items!aYsTb2PB8gliWAfm'
+

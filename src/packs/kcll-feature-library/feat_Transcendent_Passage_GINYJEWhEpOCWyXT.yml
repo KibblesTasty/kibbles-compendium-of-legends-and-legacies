@@ -1,0 +1,62 @@
+name: Transcendent Passage
+type: feat
+img: icons/magic/light/projectile-beam-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, as a bonus action, you can transform into a
+      swirling burst of radiant sunlight, traveling up to 60 feet in a straight
+      line. You can pass through creatures and objects, but are blocked by
+      obstructions that completely block light (such as solid opaque walls).
+      This movement does not provoke attacks of opportunity.</p><p>Hostile
+      creatures of your choice in your path must make a Dexterity saving throw.
+      On failure, they take 2d6 fire damage, 2d6 radiant damage, and are blinded
+      until the start of your next turn. On a success, they take half as much
+      damage and are not blinded. Allied creatures of your choice in your path
+      gain 4d6 temporary hit points.</p><p>Once you use this ability, you cannot
+      use it again until you complete a short or long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 14
+  identifier: transcendent-passage
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.gwtUQcEIP6ItbQoe
+_stats:
+  compendiumSource: Item.gwtUQcEIP6ItbQoe
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317497511
+  modifiedTime: 1727317497511
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 24400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: GINYJEWhEpOCWyXT
+_key: '!items!GINYJEWhEpOCWyXT'
+

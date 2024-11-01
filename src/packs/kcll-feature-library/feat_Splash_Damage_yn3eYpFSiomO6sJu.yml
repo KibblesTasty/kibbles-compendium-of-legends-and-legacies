@@ -1,0 +1,189 @@
+name: Splash Damage
+type: feat
+img: icons/weapons/swords/sword-guard-flanged-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VppPh0qq1fjpftom
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickOther:
+      context: ''
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Beginning at 11th level, when you hit a creature with Spellstrike, the
+      target and creatures of your choice within 5 feet of the target that would
+      be hit by the same attack roll take [[/r 1d8]] additional force damage. On
+      a miss, the target takes half as much damage, and nearby creatures take no
+      damage (even if the attack roll would have hit them).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: Spellblade
+    revision: 1
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: []
+    spent: 0
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 11
+  recharge:
+    value: null
+    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: ''
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: splash-damage
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1678743025051
+  modifiedTime: 1727317483167
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.VppPh0qq1fjpftom
+  duplicateSource: null
+folder: null
+sort: 72900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: yn3eYpFSiomO6sJu
+_key: '!items!yn3eYpFSiomO6sJu'
+

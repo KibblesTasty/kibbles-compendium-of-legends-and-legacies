@@ -1,0 +1,56 @@
+name: Soak it Up
+type: feat
+img: icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  description:
+    value: >-
+      <p>At 6th level, your extensive training in the art of getting hit with
+      bar stools and broken bottles grants you increased endurance. When roll
+      initiative you gain temporary hit points equal to your Constitution
+      Modifier + your Proficiency bonus. This are temporary hit points are
+      refreshed any time you take the Dodge action.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Outcast 6
+  identifier: soak-it-up
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.lmHGyXvotmxZg8nj
+_stats:
+  compendiumSource: Item.lmHGyXvotmxZg8nj
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317522575
+  modifiedTime: 1727317522575
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 65100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: qfnwWWpvlrio1Mal
+_key: '!items!qfnwWWpvlrio1Mal'
+

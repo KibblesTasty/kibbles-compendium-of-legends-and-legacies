@@ -1,0 +1,67 @@
+name: Relentless Spellstrike
+type: feat
+img: icons/skills/melee/strikes-sword-triple-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.fOYUCsAKmSOL1hxD
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>At 7th level, if you miss an attack empowered by a Spellstrike, you can
+      choose to not trigger the effect. When you do so, your next attack before
+      the end of your turn will trigger it instead.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Swiftblade 7
+  identifier: relentless-spellstrike
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.fOYUCsAKmSOL1hxD
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317486244
+  modifiedTime: 1727317486244
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 7100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 1aBQa1UHIEkAliho
+_key: '!items!1aBQa1UHIEkAliho'
+

@@ -1,0 +1,71 @@
+name: Sanctification
+type: feat
+img: icons/magic/holy/chalice-glowing-gold-water.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.wrMrkyS9zSSNFAO2
+system:
+  description:
+    value: >-
+      <p>You gain proficiency with martial weapons. Additionally, at the end of
+      a long rest, you can turn flasks of water into flasks of Holy Water
+      through a special ritual. You can create a number of flasks of holy water
+      this way equal to your proficiency bonus. Any flasks created this lose
+      their divine power when you complete your next long rest.</p>
+
+      <p>You can throw or splash Holy Water using the bonus action granted by
+      your Cunning Action. When you do so, you can add your proficiency to
+      attacks made using Holy Water as an improvised weapon. Alternatively, you
+      can use your Cunning Action to apply Holy Water to a weapon you are
+      carrying. When you do so, your Sneak Attack damage becomes radiant damage
+      for 1 minute.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Divine Agent 3
+  identifier: sanctification
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.wrMrkyS9zSSNFAO2
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504783
+  modifiedTime: 1727317504783
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 36200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Rbmjy7J5X2aWIUZQ
+_key: '!items!Rbmjy7J5X2aWIUZQ'
+

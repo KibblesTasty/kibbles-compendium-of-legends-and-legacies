@@ -1,0 +1,62 @@
+name: Empowered Manifestions
+type: feat
+img: icons/magic/fire/explosion-fireball-large-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.HMFMk8RKenb74amY
+system:
+  description:
+    value: >-
+      <p>Additionally at 10th level, the damage of the Coalesced Lightning
+      manifestation increases to 2d8 + your Wisdom modifier and the damage of
+      your Fiery Blaze manifestation increases to 2d4.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Elements 10
+  identifier: empowered-manifestions
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.HMFMk8RKenb74amY
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317501609
+  modifiedTime: 1727317501609
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 31000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Mh7nogjEEMTTkRWf
+_key: '!items!Mh7nogjEEMTTkRWf'
+

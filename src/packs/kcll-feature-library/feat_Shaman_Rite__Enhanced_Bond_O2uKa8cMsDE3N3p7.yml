@@ -1,0 +1,61 @@
+name: 'Shaman Rite: Enhanced Bond'
+type: feat
+img: icons/magic/control/sihouette-hold-beam-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text">(Prerequisite: 7th level
+      Occultist)</em></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you are empowered by a spirit
+      called by a 1st level spell slot or higher, you can add the level of the
+      spell slot spent to your Strength, Dexterity, and Constitution saving
+      throws.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 7
+  identifier: shaman-rite-enhanced-bond
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.nb69DtcV3QHYV0zP
+_stats:
+  compendiumSource: Item.nb69DtcV3QHYV0zP
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317502503
+  modifiedTime: 1727317502503
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 32400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: O2uKa8cMsDE3N3p7
+_key: '!items!O2uKa8cMsDE3N3p7'
+

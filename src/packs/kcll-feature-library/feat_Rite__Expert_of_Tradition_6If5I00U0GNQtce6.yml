@@ -1,0 +1,66 @@
+name: 'Rite: Expert of Tradition'
+type: feat
+img: icons/skills/trades/academics-merchant-scribe.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.AJr7R7YOB3HVdaQM
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 10th level Occultist</em></p>
+
+      <p>You can select an additional skill you are proficient in from
+      Traditional Expertise. Your Proficiency Bonus is doubled for any ability
+      check you make that use of the chosen Proficiency. If you have proficiency
+      in none of the selected skills, you can instead gain proficiency in one of
+      your choices.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 10
+  identifier: rite-expert-of-tradition
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.AJr7R7YOB3HVdaQM
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317489536
+  modifiedTime: 1727317489536
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 12100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 6If5I00U0GNQtce6
+_key: '!items!6If5I00U0GNQtce6'
+

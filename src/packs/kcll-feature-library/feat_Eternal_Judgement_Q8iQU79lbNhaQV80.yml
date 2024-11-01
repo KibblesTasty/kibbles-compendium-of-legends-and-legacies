@@ -1,0 +1,66 @@
+name: Eternal Judgement
+type: feat
+img: icons/magic/light/projectile-beams-salvo-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.7KOr1iywYwt2csTm
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, your Sacred Judgement can be used an unlimited
+      number of times.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Judgement Domain 17
+  identifier: eternal-judgement
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.7KOr1iywYwt2csTm
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317503966
+  modifiedTime: 1727317503966
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 34900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Q8iQU79lbNhaQV80
+_key: '!items!Q8iQU79lbNhaQV80'
+

@@ -1,0 +1,63 @@
+name: Spiritual Empowerment
+type: feat
+img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.249KoXogGM8XIPya
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, when you cast a spell of 1st level or higher,
+      you can make a single weapon attack as a bonus action. If you have a
+      manifested spirit, you can attack with it in place of making a weapon
+      attack.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 14
+  identifier: spiritual-empowerment
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.249KoXogGM8XIPya
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317499500
+  modifiedTime: 1727317499500
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 27700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: KWi0Mvmpiilbvk7P
+_key: '!items!KWi0Mvmpiilbvk7P'
+

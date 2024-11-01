@@ -1,0 +1,54 @@
+name: Frozen Heart
+type: feat
+img: icons/magic/water/heart-ice-freeze.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 7th level,
+      you gain resistance to cold damage, and gain advantage on saving throws
+      against being charmed or frightened.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Iceblade 7
+  identifier: frozen-heart
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.1tj2WAjp7JYEQoUj
+_stats:
+  compendiumSource: Item.1tj2WAjp7JYEQoUj
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317513731
+  modifiedTime: 1727317513731
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 50300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: egwGtOSclZIlgqby
+_key: '!items!egwGtOSclZIlgqby'
+

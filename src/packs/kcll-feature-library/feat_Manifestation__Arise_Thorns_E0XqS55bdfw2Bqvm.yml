@@ -1,0 +1,64 @@
+name: 'Manifestation: Arise Thorns'
+type: feat
+img: icons/magic/nature/root-vines-grow-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RQvNnv3Ca30LsjuB
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 16th level, Elderheart subclass</em></p>
+
+      <p>You can cast @Compendium[dnd5e.spells.AQsBc94ES7W7s7iG]{Wall of Thorns}
+      without expending a spell slot. Once you do so, you cannot do so again
+      until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 16
+  identifier: manifestation-arise-thorns
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.RQvNnv3Ca30LsjuB
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317495846
+  modifiedTime: 1727317495846
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 21800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: E0XqS55bdfw2Bqvm
+_key: '!items!E0XqS55bdfw2Bqvm'
+

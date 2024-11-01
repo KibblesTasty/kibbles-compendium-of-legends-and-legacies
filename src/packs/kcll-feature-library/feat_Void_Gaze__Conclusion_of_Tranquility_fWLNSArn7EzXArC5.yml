@@ -1,0 +1,128 @@
+folder: null
+name: 'Void Gaze: Conclusion of Tranquility'
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  description:
+    value: >-
+      <p><strong>Conclusion of Tranquility.</strong> The target gains [[/r 1d8]]
+      temporary hit points.</p>
+    chat: ''
+  source:
+    custom: Voidwatcher
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Voidwatcher 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 1
+        denomination: 8
+        bonus: ''
+        types:
+          - temphp
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: void-gaze-conclusion-of-tranquility
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickOther:
+      context: ''
+    quickAttack:
+      value: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317514584
+  modifiedTime: 1727317514584
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: fWLNSArn7EzXArC5
+sort: 3800000
+_key: '!items!fWLNSArn7EzXArC5'
+

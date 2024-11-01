@@ -1,0 +1,71 @@
+name: 'Rite: Corrupt Item'
+type: feat
+img: icons/sundries/lights/lantern-iron-lit-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ddEqF2HkJ4Q1XOye
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 5th level Occultist</em></p>
+
+      <p>You use a dark and secret rite to corrupt a non-magical item causing it
+      to become a cursed magic item. While any creature other than you is in
+      possession of this item, they are under the effect of bane. Select one of
+      the following for the item's magical property (the item must be of a type
+      of item that could be the magical item selected): bag of tricks, brooch of
+      shielding, goggles of night, lantern of revealing, or staff of the python
+      (you can ignore attunement restrictions of this item).</p>
+
+      <p>When you change rites, you can reselect this rite to destroy the item
+      and create a new item.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 5
+  identifier: rite-corrupt-item
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.ddEqF2HkJ4Q1XOye
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317512090
+  modifiedTime: 1727317512090
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 47800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: cIxcCo27bEMhDd9K
+_key: '!items!cIxcCo27bEMhDd9K'
+

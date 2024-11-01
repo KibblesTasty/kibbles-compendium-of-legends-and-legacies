@@ -1,0 +1,63 @@
+name: Tactical Strike
+type: feat
+img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.qT1vHQCceuTaZov8
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, when you succeed on a Tactical Insight check
+      against a creature, the next time you or a friendly creature deal damage
+      against it before the start of your next turn it is increased by 2d6
+      damage.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Tactician 11
+  identifier: tactical-strike
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.qT1vHQCceuTaZov8
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317498487
+  modifiedTime: 1727317498487
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 26000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: IBuhq2AyG2XJDCQt
+_key: '!items!IBuhq2AyG2XJDCQt'
+

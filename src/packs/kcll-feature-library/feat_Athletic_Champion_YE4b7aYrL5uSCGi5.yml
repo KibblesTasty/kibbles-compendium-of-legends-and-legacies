@@ -1,0 +1,64 @@
+name: Athletic Champion
+type: feat
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.T3n3healJ6Ra8btf
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you gain proficiency in Athletics. If you
+      already have proficiency in Athletics, you gain can add twice your
+      Proficiency bonus to Athletics check. Additionally, you gain a climbing
+      and swimming speed equal to your walking speed, and your jumping distance
+      is doubled.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Champion 7
+  identifier: athletic-champion
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.T3n3healJ6Ra8btf
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317509341
+  modifiedTime: 1727317509341
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 43300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: YE4b7aYrL5uSCGi5
+_key: '!items!YE4b7aYrL5uSCGi5'
+

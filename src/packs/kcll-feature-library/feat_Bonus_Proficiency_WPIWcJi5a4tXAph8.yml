@@ -1,0 +1,61 @@
+name: Bonus Proficiency
+type: feat
+img: icons/tools/laboratory/mortar-powder-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.P2mT3rFi38ijj25h
+system:
+  description:
+    value: >-
+      <p>When you choose this archetype at 3rd level, you gain proficiency with
+      your choice of disguise kits or the poisoner’s kits.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cutthroat 3
+  identifier: bonus-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.P2mT3rFi38ijj25h
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317507917
+  modifiedTime: 1727317507917
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 41200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: WPIWcJi5a4tXAph8
+_key: '!items!WPIWcJi5a4tXAph8'
+

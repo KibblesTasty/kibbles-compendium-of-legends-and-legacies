@@ -1,0 +1,106 @@
+name: Binding Interdiction
+type: feat
+img: icons/tools/fasteners/chain-steel-grey.webp
+system:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, you gain the ability to manifest chains
+      within the range of your Primal Interdiction.</p><p>As a reaction to a
+      creature attempting to leave your Primal Interdiction or as an attack as
+      part of the Attack action, you can manifest a chain and attempt to bind a
+      Large or smaller creature with it making a grapple check against the
+      target.</p><p>On a success, they are grappled by the chain and their
+      movement speed becomes zero until they escape (contesting your grapple
+      check), the chain is destroyed, or they are no longer within your primal
+      interdiction.</p><p>The chain can be destroyed and has an AC of 18 and
+      number of hit points equal to your Warden level, but you take no damage
+      when the chain is destroyed. If a target escapes the chains, the chains
+      fall to the ground and turn to dust.</p><p>You can manifest one chain at a
+      time. If you manifest an additional chain while you already have your
+      maximum number of chains manifested, the first created one vanishes,
+      releasing the target. The number of chains you can manifest this way
+      increases by one each time you gain an effect that would increase the
+      damage die of your Warden natural weapons (such as Evolving Power or
+      Savage Weapons). Once you can manifest more than one chain, you can target
+      the same creature with multiple chains. A creature is restrained while
+      grappled by more than one chain.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ironbound 3
+  recharge:
+    value: null
+    charged: false
+  identifier: binding-interdiction
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.VWOVbPQC2MZwI2G0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1681519368062
+  modifiedTime: 1727317483824
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.VWOVbPQC2MZwI2G0
+  duplicateSource: null
+folder: null
+sort: 74000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: zdRIhVOpNngyTqhs
+_key: '!items!zdRIhVOpNngyTqhs'
+

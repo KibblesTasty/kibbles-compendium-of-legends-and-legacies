@@ -1,0 +1,68 @@
+name: Ghosts of the Wild
+type: feat
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.40iM0yVFLLRvO645
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, while under the effect of <em>pass without
+      trace</em>, you can expend one Leadership Die to take the Hide action at
+      the end of your turn without expending an action.</p>
+
+      <p>If you use Battlefield Presence to grant an attack to a creature, you
+      can expend one Leadership Die to shroud them with shadows or natural
+      phenomena, granting them advantage on the first attack they make before
+      the start of your next turn. If they are under the effect of pass without
+      trace, you can do this without expending a Leadership Die.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Packleader 15
+  identifier: ghosts-of-the-wild
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.40iM0yVFLLRvO645
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317489972
+  modifiedTime: 1727317489972
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 12800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 70EEdhGwHD1ilJF1
+_key: '!items!70EEdhGwHD1ilJF1'
+

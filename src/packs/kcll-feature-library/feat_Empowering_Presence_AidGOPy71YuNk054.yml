@@ -1,0 +1,55 @@
+name: Empowering Presence
+type: feat
+img: icons/skills/movement/arrows-up-trio-red.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, when you expend an endurance die to boost a
+      saving throw against a spell, all allies within your Primal Interdiction
+      that make a saving throw against the same spell before the start of your
+      next turn can add the same endurance die to their saving throw.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 7
+  identifier: empowering-presence
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.cI3vW5z37k0htj7K
+_stats:
+  compendiumSource: Item.cI3vW5z37k0htj7K
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317493358
+  modifiedTime: 1727317493358
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 17900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: AidGOPy71YuNk054
+_key: '!items!AidGOPy71YuNk054'
+

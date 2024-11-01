@@ -1,0 +1,57 @@
+name: Sanguine Power
+type: feat
+img: icons/skills/wounds/blood-drip-droplet-red.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Beginning at 6th level,
+      when you deal piercing or slashing damage to creature that has blood, you
+      can use the blood of the creatures you damaged to fuel blood magic spells
+      until the end of your next turn, reducing the hit points needed to cast
+      spells by up to half the piercing or slashing you've dealt in that
+      time.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cultist 6
+  identifier: sanguine-power
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.JMkS4oOK1Ve7ACy2
+_stats:
+  compendiumSource: Item.JMkS4oOK1Ve7ACy2
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317494990
+  modifiedTime: 1727317494990
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 20400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: CmfNeJpULWO9ZpIt
+_key: '!items!CmfNeJpULWO9ZpIt'
+

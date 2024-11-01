@@ -1,0 +1,63 @@
+name: Charismatic Leadership
+type: feat
+img: icons/commodities/treasure/crown-gold-laurel-wreath.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.kmqMTnkcmhcDDJM8
+system:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, you can add your Charisma modifier to the
+      damage bonus of Rallying Mark, the temporary hit points granted by Urgent
+      Orders, and the attack roll of a creature that gains advantage from
+      Helpful Word.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 3
+  identifier: charismatic-leadership
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.kmqMTnkcmhcDDJM8
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317509686
+  modifiedTime: 1727317509686
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 43900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Yg78LhxjvLDGIREl
+_key: '!items!Yg78LhxjvLDGIREl'
+

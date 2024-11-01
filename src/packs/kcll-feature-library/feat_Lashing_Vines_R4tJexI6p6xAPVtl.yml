@@ -1,0 +1,59 @@
+name: Lashing Vines
+type: feat
+img: icons/magic/nature/root-vine-entwined-thorns.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.wv5l105a2CswlfFe
+system:
+  description:
+    value: "<p>Starting at 1st level, when you roll initiative, or as a bonus action at any time, you can manifest lashing vines to wield as natural weapons. You can manifest them in one or both hands. The vines last until you dismiss them as a bonus action.</p>\n<p>\_</p>\n<h2>Lashing Vine</h2>\n<p>A natural one handed melee weapon. Deals 1d6 slashing damage on hit, and has the Light, Reach, and Special Properties.</p>\n<p><strong>Special: </strong>This weapon has the following benefits:</p>\n<ul>\n<li>When you hit a creature with this weapon, you can attempt to initiate a grapple against that creature as a bonus action.</li>\n<li>You can make a grapple check with this weapon targeting a Large or smaller creature you are currently grappling with it. On success, the creature is restrained while grappled by it.</li>\n<li>You can grapple creatures with this weapon with a reach equal to the weapon's reach. If a creature more than 5 feet away from you is grappled or restrained by you with this weapon their movement is not reduced to zero, but they can only move toward you. Once they are within 5 feet of you, their movement speed becomes zero.</li>\n<li>You can attempt to grapple creatures up to two sizes larger than you when initiating a grapple with this weapon, but creatures two sizes larger than you have their movement speed reduced by half, rather than reduced to zero. If they move out of range of your grapple, you can choose to release them or be pulled along with their movement.</li>\n</ul>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elderheart 1
+  identifier: lashing-vines
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.wv5l105a2CswlfFe
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504436
+  modifiedTime: 1727317504436
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 35600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: R4tJexI6p6xAPVtl
+_key: '!items!R4tJexI6p6xAPVtl'
+

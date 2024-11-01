@@ -1,0 +1,64 @@
+name: No One Left Behind!
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Av1CAO6QgQ2w6b4P
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, you can move up to your speed to get within 5
+      feet of a creature while using your On Your Feet feature. During this
+      movement you gain resistance to all damage and the target regains an
+      additional 1d8 hit points for each attack of opportunity made against you
+      during this movement.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Commander 18
+  identifier: no-one-left-behind
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Av1CAO6QgQ2w6b4P
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317509627
+  modifiedTime: 1727317509627
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 43800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: YaoDbBnJBlunjBDU
+_key: '!items!YaoDbBnJBlunjBDU'
+

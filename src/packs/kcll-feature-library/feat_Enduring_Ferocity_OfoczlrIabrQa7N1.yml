@@ -1,0 +1,64 @@
+name: Enduring Ferocity
+type: feat
+img: icons/creatures/claws/claw-bear-paw-swipe-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PnA59ERmwK0NgE01
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: "<p>Additionally at 3rd level, when you roll an Endurance Die, you can also add the die to the next damage roll or Strength (Athletics) check you make before the end of your next turn.\_</p>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Beasthide 3
+  identifier: enduring-ferocity
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.PnA59ERmwK0NgE01
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317502688
+  modifiedTime: 1727317502688
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 32700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: OfoczlrIabrQa7N1
+_key: '!items!OfoczlrIabrQa7N1'
+

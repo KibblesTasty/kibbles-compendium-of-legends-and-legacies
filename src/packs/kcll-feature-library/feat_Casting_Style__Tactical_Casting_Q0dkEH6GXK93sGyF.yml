@@ -1,0 +1,61 @@
+name: 'Casting Style: Tactical Casting'
+type: feat
+img: icons/magic/light/orbs-hand-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.yJmOcBcsp64n7krx
+system:
+  description:
+    value: >-
+      <p>When you take the Ready action with an Occultist cantrip, it does not
+      require concentration to keep the spell readied.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 2
+  identifier: casting-style-tactical-casting
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.yJmOcBcsp64n7krx
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317503849
+  modifiedTime: 1727317503849
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 34700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Q0dkEH6GXK93sGyF
+_key: '!items!Q0dkEH6GXK93sGyF'
+

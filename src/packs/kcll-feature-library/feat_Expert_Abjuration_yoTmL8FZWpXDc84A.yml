@@ -1,0 +1,90 @@
+name: Expert Abjuration
+type: feat
+img: icons/magic/light/explosion-impact-purple.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 15th level,
+      when you have to make a Spellcasting check to dispel or counter a magical
+      effect with Purging Surge or Nullifying Surge, you can add your
+      Proficiency bonus to the roll.</span></p>
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Mage Hunter 15
+  recharge:
+    value: null
+    charged: false
+  identifier: expert-abjuration
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.Jxv3mqEnlBywkbdS
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1682459938529
+  modifiedTime: 1727317483231
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.Jxv3mqEnlBywkbdS
+  duplicateSource: null
+folder: null
+sort: 73000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: yoTmL8FZWpXDc84A
+_key: '!items!yoTmL8FZWpXDc84A'
+

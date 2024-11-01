@@ -1,0 +1,55 @@
+name: Regrowth
+type: feat
+img: icons/magic/nature/leaf-drip-light-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Beginning at 7th level,
+      you gain an additional use of your Second Wind feature, allowing you to
+      use it again before you need to complete a rest to use it
+      again.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Green Knight 7
+  identifier: regrowth
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.vAbiNgFZwlXbR74e
+_stats:
+  compendiumSource: Item.vAbiNgFZwlXbR74e
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317498960
+  modifiedTime: 1727317498960
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 26800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: IxgRzDpDGwHimpLh
+_key: '!items!IxgRzDpDGwHimpLh'
+

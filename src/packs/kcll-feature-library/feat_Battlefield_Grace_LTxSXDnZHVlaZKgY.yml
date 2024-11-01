@@ -1,0 +1,62 @@
+name: Battlefield Grace
+type: feat
+img: icons/skills/targeting/target-glowing-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.TYNujVmWDg819fkn
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, whenever a creature misses you with an attack,
+      you regain 1 spent leadership die and can move 5 feet. You cannot regain a
+      leadership die this way again until the start of your next turn.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 7
+  identifier: battlefield-grace
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.TYNujVmWDg819fkn
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317500470
+  modifiedTime: 1727317500470
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 29200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: LTxSXDnZHVlaZKgY
+_key: '!items!LTxSXDnZHVlaZKgY'
+

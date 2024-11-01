@@ -1,0 +1,65 @@
+name: Guidance of the Spirits
+type: feat
+img: icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.4WK3j3lABM9OOrvv
+system:
+  description:
+    value: >-
+      <p>When you expend a spell slot to empower a spirit with your Call Spirit
+      feature, you can select a number of skills equal to the spell slot
+      expended that the spirit is proficient in. While it is not manifested, you
+      gain proficiency with these skills. If you expend a spell slot of 5th
+      level or higher, you can exchange three of the skills the spirit gaining
+      expertise in one skill.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman
+  identifier: guidance-of-the-spirits
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.4WK3j3lABM9OOrvv
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317492126
+  modifiedTime: 1727317492126
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 16100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 9CCGTsYqzFfTXiRD
+_key: '!items!9CCGTsYqzFfTXiRD'
+

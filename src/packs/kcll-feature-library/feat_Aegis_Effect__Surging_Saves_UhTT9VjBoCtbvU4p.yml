@@ -1,0 +1,55 @@
+name: 'Aegis Effect: Surging Saves'
+type: feat
+img: icons/magic/lightning/fist-unarmed-strike-blue.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">You can use your Arcane
+      Surge to add your Intelligence modifier to Strength or Dexterity saving
+      throws as well as ability checks (no action required), expending a use as
+      you would to empower an ability check.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aegis Effect
+  identifier: aegis-effect-surging-saves
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.Bhj7dL7r2XtefjiT
+_stats:
+  compendiumSource: Item.Bhj7dL7r2XtefjiT
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317506457
+  modifiedTime: 1727317506457
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 39000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: UhTT9VjBoCtbvU4p
+_key: '!items!UhTT9VjBoCtbvU4p'
+

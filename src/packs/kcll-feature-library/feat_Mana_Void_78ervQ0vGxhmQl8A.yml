@@ -1,0 +1,65 @@
+name: Mana Void
+type: feat
+img: icons/magic/unholy/orb-swirling-teal.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">At 20th level, you can
+      turn yourself into a magical void, devouring and nullifying magic around
+      you. For one minute, you project the effect of <em
+      style="box-sizing:border-box;user-select:text">antimagic field</em> 5 feet
+      around (no action required). You can still cast spells while within this
+      field, but are limited to Abjuration spells and Cantrips. Once per turn
+      for the duration, when you counter or end the effect of a spell, you
+      regain 1 use of Arcane Surge.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">This effect ends early if you
+      become unconscious, or you can end it at any time (no action
+      required).</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Mage Hunter 20
+  identifier: mana-void
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.hR10CsnxIHot6TTD
+_stats:
+  compendiumSource: Item.hR10CsnxIHot6TTD
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317490141
+  modifiedTime: 1727317490141
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 13100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 78ervQ0vGxhmQl8A
+_key: '!items!78ervQ0vGxhmQl8A'
+

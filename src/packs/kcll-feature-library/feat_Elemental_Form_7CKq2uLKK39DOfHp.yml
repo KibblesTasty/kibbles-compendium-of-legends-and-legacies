@@ -1,0 +1,74 @@
+name: Elemental Form
+type: feat
+img: icons/magic/water/elemental-water.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.yFTqANCcajMxFRXf
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, you can cast
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.iyNkbWK97ySCbSoO]{Form
+      of Fire},
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.DsN81ObFmZgikWp4]{Form
+      of Ice}, or
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.Uq09vadfz1v0onKz]{Form
+      of Wind} without expending a spell slot. When you cast the spell this way,
+      you can cast the spell as a bonus action, and it doesnot require
+      concentration. Once per turn during the transformation, you can use the
+      action it grants in place of an attack made as part of the Attack
+      action.</p>
+
+      <p>Once you cast the ability in this way, you cannot do so again until you
+      complete a long rest. You can use it again before completing a long rest
+      by expending 6 endurance dice.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elemental Soul 14
+  identifier: elemental-form
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.yFTqANCcajMxFRXf
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317490266
+  modifiedTime: 1727317490266
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 13300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 7CKq2uLKK39DOfHp
+_key: '!items!7CKq2uLKK39DOfHp'
+

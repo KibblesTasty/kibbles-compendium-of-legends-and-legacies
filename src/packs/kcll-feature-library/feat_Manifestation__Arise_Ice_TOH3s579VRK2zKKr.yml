@@ -1,0 +1,64 @@
+name: 'Manifestation: Arise Ice'
+type: feat
+img: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.O8rngWL2DRe57vzK
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 16th level, Elemental Soul subclass</em></p>
+
+      <p>You can cast @Compendium[dnd5e.spells.fzZnVKLmBMo2f5up]{Wall of Ice}
+      without expending a spell slot. Once you do so, you cannot do so again
+      until you complete a long rest</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 16
+  identifier: manifestation-arise-ice
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.O8rngWL2DRe57vzK
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317505641
+  modifiedTime: 1727317505641
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 37600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: TOH3s579VRK2zKKr
+_key: '!items!TOH3s579VRK2zKKr'
+

@@ -1,0 +1,159 @@
+name: Expanded Spell List
+type: feat
+img: icons/magic/control/encase-creature-monster-hold.webp
+effects: []
+flags:
+  core:
+    sourceId: Compendium.dnd5e.classfeatures.4IHsIcBhAVDt8QjY
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+system:
+  description:
+    value: >-
+      <p>The Dragon lets you choose from an expanded list of spells when you
+      learn a warlock spell. The following spells are added to the warlock spell
+      list for you.</p>
+
+      <table style="width:98.533%;height:266px" border="1"><caption>Fiend
+      Expanded Spells</caption>
+
+      <thead>
+
+      <tr style="height:33px">
+
+      <td style="width:14.7415%;height:33px"><strong>Spell Level</strong></td>
+
+      <td style="width:84.0179%;height:33px"><strong>Spells</strong></td>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height:16px">
+
+      <td style="width:14.7415%;height:16px">1st</td>
+
+      <td style="width:84.0179%;height:16px">absorb elements, chromatic orb</td>
+
+      </tr>
+
+      <tr style="height:67px">
+
+      <td style="width:14.7415%;height:67px">2nd</td>
+
+      <td style="width:84.0179%;height:67px">alter self, dragon's breath</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:14.7415%;height:50px">3rd</td>
+
+      <td style="width:84.0179%;height:50px">fear, wind wall</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:14.7415%;height:50px">4th</td>
+
+      <td style="width:84.0179%;height:50px">fire shield, secret chest</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:14.7415%;height:50px">5th</td>
+
+      <td style="width:84.0179%;height:50px">control wind, summon dragon</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: '0'
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Dragon 1
+  identifier: expanded-spell-list
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Compendium.dnd5e.classfeatures.4IHsIcBhAVDt8QjY
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317524906
+  modifiedTime: 1727317524906
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 69300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: utNfFF85s3iDkbst
+_key: '!items!utNfFF85s3iDkbst'
+

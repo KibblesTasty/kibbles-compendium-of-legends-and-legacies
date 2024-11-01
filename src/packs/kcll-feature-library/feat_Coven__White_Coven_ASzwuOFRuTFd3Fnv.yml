@@ -1,0 +1,59 @@
+name: 'Coven: White Coven'
+type: feat
+img: icons/equipment/head/hood-cloth-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OvYCp2P4QwdUSVPm
+system:
+  description:
+    value: "<table style=\"width:407px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary);height:102px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:92.5469px;height:17px\"><strong>Witch Level</strong></td>\n<td style=\"text-align:center;width:309.453px;height:17px\"><strong>Bonus Spells</strong></td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:92.5469px;height:17px\">1st</td>\n<td style=\"text-align:center;width:309.453px;height:17px\">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.633RJEqRYwlxQc2i]{Binding Curse} @Compendium[dnd5e.spells.o8Dh7fblk1d16tnO]{Healing Word}\_</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:92.5469px;height:17px\">3rd</td>\n<td style=\"text-align:center;width:309.453px;height:17px\">@Compendium[dnd5e.spells.3MYDjS6k9IYL0aTj]{Calm Emotions} @Compendium[dnd5e.spells.3Lo9boi7P2ro6QV4]{Hold Person}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:92.5469px;height:17px\">5th</td>\n<td style=\"text-align:center;width:309.453px;height:17px\">@Compendium[dnd5e.spells.LmRHHMtplpxr9fX6]{Revivify} @Compendium[dnd5e.spells.34ddoYIrnOZ2GFYi]{Mass Healing Word}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:92.5469px;height:17px\">7th</td>\n<td style=\"text-align:center;width:309.453px;height:17px\">@Compendium[dnd5e.spells.pxpb2eOB6bv4phAf]{Banishment} @Compendium[dnd5e.spells.1ADstb0Xec6HHRcU]{Resilient Sphere}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:92.5469px;height:17px\">9th</td>\n<td style=\"text-align:center;width:309.453px;height:17px\">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.mJBCMvoRc7Vml1Ah]{Curse of Impotence}</td>\n</tr>\n</tbody>\n</table>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 1
+  identifier: coven-white-coven
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.OvYCp2P4QwdUSVPm
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317493170
+  modifiedTime: 1727317493170
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 17700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ASzwuOFRuTFd3Fnv
+_key: '!items!ASzwuOFRuTFd3Fnv'
+

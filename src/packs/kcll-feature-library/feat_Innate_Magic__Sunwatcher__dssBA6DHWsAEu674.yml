@@ -1,0 +1,65 @@
+name: Innate Magic (Sunwatcher)
+type: feat
+img: icons/magic/light/beam-strike-orange-gold.webp
+system:
+  description:
+    value: >-
+      <p>Additionally when you select this bond, you gain access to several
+      innate magical abilities by channeling the power of your primal
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Wisdom is your
+      spellcasting modifier for these spells. Once you cast a spell, you cannot
+      cast that spell again until you complete a long rest, or expend endurance
+      dice equal to the level of the spell to cast it
+      again.</p><table><tbody><tr><th>Warden Level</th><th>Innate Spells (1/long
+      rest
+      each)</th></tr><tr><td>1</td><td>@UUID[Compendium.dnd5e.spells.ge3Saet9zPTDyaoL]{Heroism}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells.7buEm5KhI5lP8m1z]{Guiding
+      Bolt}</td></tr><tr><td>5</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.WoLHo6hfMqljwf6z]{Blazing
+      Beacon}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells.BP3GCwa66IAw1yTG]{Daylight}</td></tr><tr><td>13</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.kAdgqzFDRQ3avk61]{Brilliant
+      Blade}</td></tr><tr><td>17</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.3Qocq042q6vRxCTB]{Heavenly
+      Ray}</td></tr></tbody></table>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 1
+  identifier: innate-magic-sunwatcher
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.uBND573Ph6Us1UAM
+_stats:
+  compendiumSource: Item.uBND573Ph6Us1UAM
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317513283
+  modifiedTime: 1727317513283
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 49500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: dssBA6DHWsAEu674
+_key: '!items!dssBA6DHWsAEu674'
+

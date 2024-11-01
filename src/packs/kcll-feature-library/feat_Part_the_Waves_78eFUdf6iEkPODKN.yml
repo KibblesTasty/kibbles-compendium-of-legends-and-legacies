@@ -1,0 +1,69 @@
+name: Part the Waves
+type: feat
+img: icons/magic/water/vortex-water-whirlpool.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.K5uvFdXUJFog2IyG
+system:
+  description:
+    value: >-
+      <p>At 1st level, your connection to waves and waters lets you bend them to
+      your will. You learn the <em>shape water</em> cantrip, and it does not
+      count against your spells known.</p>
+
+      <p>Additionally, when you cast a spell a water or cold spell (a spell that
+      controls water, deals water based bludgeoning damage, or deals cold
+      damage) affects other creatures that you can see, you can choose a number
+      of them equal to 1 + the spell’s level. The chosen creatures automatically
+      succeed on their saving throws against the spell, and they take no damage
+      if they would normally take half damage on a successful save.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sea Soul 1
+  identifier: part-the-waves
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.K5uvFdXUJFog2IyG
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317490084
+  modifiedTime: 1727317490084
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 13000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 78eFUdf6iEkPODKN
+_key: '!items!78eFUdf6iEkPODKN'
+

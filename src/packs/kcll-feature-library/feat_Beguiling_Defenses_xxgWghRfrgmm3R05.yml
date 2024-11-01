@@ -1,0 +1,182 @@
+name: Beguiling Defenses
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.KXSenJ94vlrGLaHZ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, you frequent exposure to the fey makes you
+      immune to the charmed condition. Additionally, when a creature attempts to
+      charm you or attack you, as a reaction you can force them to make a Wisdom
+      saving throw against your Warlock spell save DC, or become charmed by you
+      instead for 1 minute. A creature that is charmed this way by you can
+      repeat their saving throw at the end of each of their turns, and the charm
+      effect ends if they take damage.</p>
+
+      <p>Once you charm target with this feature, you cannot use it again until
+      you complete a long rest. You can use it again early by expending a use of
+      Fey Burst.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: The Fey
+    revision: 1
+    rules: '2014'
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Fey 10
+  recharge:
+    value: null
+    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: beguiling-defenses
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1678741777323
+  modifiedTime: 1727317482757
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.KXSenJ94vlrGLaHZ
+  duplicateSource: null
+folder: null
+sort: 72200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: xxgWghRfrgmm3R05
+_key: '!items!xxgWghRfrgmm3R05'
+

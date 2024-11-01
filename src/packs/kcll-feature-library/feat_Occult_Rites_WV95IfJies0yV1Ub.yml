@@ -1,0 +1,64 @@
+name: Occult Rites
+type: feat
+img: icons/magic/symbols/star-inverted-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Q2MqyPw9t9jZjrUn
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: "<p>As you delve into your Tradition of occult magic, you find deviations and branches to explore that help you specialize and perfect your craft in the way that best suits you.</p><p>At 2nd Level, you gain two Occult Rites of your choice. Your Occult Rites options are detailed at the end of the subclass description for subclass specific Rites, and at the end of the class description for general Rites, you can select from either you subclass or class list.. When you gain certain Occultist levels, you gain additional Occult Rites of your choice.</p><p>Additionally, when you gain a level in this class, you can choose one of the Occult Rites you know and replace it with another Occult Rites that you could learn at that level. A level prerequisite in an Occult Rite refers to Occultist level, not character level.</p><blockquote><h3><strong>Class &amp; Subclass Rites</strong></h3><p>Each subclass has specific rites that only they can select, and for each subclass, these are added to the pool of rites with the class rites you can select. You can select from either list when you are selecting a new rite.</p></blockquote><p>\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.OluAMtboTUgeRuTJ]{Rite: Alchemical Rites}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.nrw5IaGvs9flWUbH]{Rite: Blood Magic}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.G0Wd5mz7ibbom6XS]{Rite: Blood Rituals}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.IKq6UuFE94mNbnhk]{Rite: Commune Beyond Death}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.cIxcCo27bEMhDd9K]{Rite: Corrupt Item}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.cIxcCo27bEMhDd9K]{Rite: Corrupt Item}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.tMozmEnonNvqceo2]{Rite: Emblazoned Focus}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.6If5I00U0GNQtce6]{Rite: Expert of Tradition}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.MQ9Ai5rvq2p7JcEC]{Rite: Forbidden Rites}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.NsZnZApy0bxg3AbT]{Rite: Lost Ritual}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.zcLOxdoYysATM484]{Rite: Markings of Protections}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.kcll-feature-library.OiZsLb58sORgz3Ul]{Rite: Protective Ward}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.h41OnpeuU6cjGSob]{Rite: Rite of Immortality}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.yobkUb2CtQuJC5my]{Rite: Rite of Youth}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.SqMovrdVZGxxVd7c]{Rite: Root of Magic}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Lw7HS8DVwqqwJPfV]{Rite: Soulburn}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.A357aGQF0A3dEhT3]{Rite: Spatial Storage}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.4fvMO72ivIMk1uVd]{Rite: Specialized Poisons}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.hp9bwAroktP0CANq]{Rite: Spirit Sense}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.j4p3VaFnCjIUmZ85]{Rite: Sympathetic Bond}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Myab3e2IodkZfImg]{Rite: Vestments of War}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.EaCi55fb7uOtUQMM]{Rite: Shield Proficiency}</p>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  identifier: occult-rites
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Q2MqyPw9t9jZjrUn
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317508025
+  modifiedTime: 1727317508025
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 41400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: WV95IfJies0yV1Ub
+_key: '!items!WV95IfJies0yV1Ub'
+

@@ -1,0 +1,139 @@
+name: 'Manifestation: Immortal Body'
+type: feat
+img: icons/magic/life/heart-cross-strong-flame-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.FJkHxb32lLBIcYnq
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 16th level</em></p>
+
+      <p>At the start of each of your turns, you regain [[/r 1d6]] hit points if
+      you have no more than half of your hit points left. You don't gain this
+      benefit if you have 0 hit points.</p>
+    chat: ''
+  source:
+    custom: Warden
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 16
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: ''
+        value: 1
+        condition: >-
+          Start your turn with less than half hit point, but at least 1 hit
+          point.
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 1
+        denomination: 6
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: manifestation-immortal-body
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.FJkHxb32lLBIcYnq
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317507243
+  modifiedTime: 1727317507243
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 40200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: VO4ifGKtXg5vZlbk
+_key: '!items!VO4ifGKtXg5vZlbk'
+

@@ -1,0 +1,158 @@
+name: Warcry
+type: feat
+img: icons/creatures/abilities/mouth-teeth-human.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.hifvFWbqJHNpVIzo
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, as an action or in place of an attack as part of
+      the Attack action, you can expend a number of Leadership Dice (up to your
+      per turn limit) to inspire your allies with a mighty Warcry. You and
+      friendly creatures within 20 feet of you gain temporary hit points equal
+      to the Leadership Dice roll + your Charisma modifier (minimum 1). This can
+      affect a number of creatures up to your 1 + Charisma modifier (minimum
+      1).</p><p>You can make a single weapon attack as a bonus action after
+      unleashing a War Cry, but the attack roll has disadvantage unless made
+      with a weapon with light property.</p>
+    chat: ''
+  source:
+    custom: Chieftain
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Chieftain 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '20'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 1
+        denomination: 6
+        bonus: '@mod'
+        types:
+          - temphp
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: warcry
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.hifvFWbqJHNpVIzo
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317493545
+  modifiedTime: 1727317493545
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 18200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: B3EIp48ESvRjty1r
+_key: '!items!B3EIp48ESvRjty1r'
+

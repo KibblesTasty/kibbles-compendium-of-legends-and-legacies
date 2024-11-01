@@ -1,0 +1,224 @@
+name: Theurge
+type: subclass
+img: icons/magic/light/orb-hands-humanoid-yellow.webp
+effects: []
+flags:
+  core:
+    sourceId: Item.3OLKBu6OwESW4vBV
+system:
+  description:
+    value: >-
+      <h2 data-anchor="theurge"
+      style="box-sizing:border-box;user-select:text;margin:0px 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.5em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Theurge</span></h2><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Wizards of this pursuit delve what
+      other wizards consider untouchable. The secrets of the divine. They
+      discover and delve the paths of power that divine magic activates, and
+      seek to recreate it through precise understanding and deep
+      knowledge.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Some are deeply religious, devoted
+      to gods and seeking to understand them at a higher level, some follow
+      unrestrained academic curiosity, and yet others seek this power for
+      blasphemous reasons.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Sometimes called mystic theurges
+      due to aura of mysticism and unknown that surrounds their branch of
+      magic.</span></p><h3 data-anchor="study-of-the-divine"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Study of the Divine</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Beginning at 2nd level, you delve
+      the secrets of the divine, prying into magic usually denied to the arcane
+      paths. Whenever you gain a wizard level, you can replace one of the wizard
+      spells you add to your spellbook with a spell from the cleric spell list.
+      Any cleric spell you gain from this feature is considered a Wizard spell
+      for you and is recorded in your spellbook, but other wizards are unable to
+      copy these spells into their own spellbooks. The spell must be of a level
+      for which you have spell slots, and can never be a spell level higher than
+      your proficiency bonus (meaning you will be unable to learn cleric spells
+      of 7th level or higher).</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Using arcane magic to recreate
+      divine magic strains your body. You can cast a number of spells gained
+      from this feature equal to your proficiency bonus before these spells
+      cause critical strain to you. You regain all uses when you complete a long
+      rest. When you use your Arcane Recovery feature, you can choose to reset
+      this limit instead of regain spell slots.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Using divine magic that restores
+      life strains the body even further, causing you to gain 2 levels of
+      exhaustion when you cast a spell learned through this feature that
+      restores a creature to
+      life.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.DM0BIpc6vwxW1CgG]{Study
+      of the Divine}</p><h3 data-anchor="theologian"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Theologian</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally at 2nd level, you
+      gain proficiency in the Religion skill. If you already have proficiency in
+      Religion, you can select another skill to gain proficiency
+      in.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.XdskOnsdOMmhAkx2]{Theologian}</p><h3
+      data-anchor="celestial-conduit"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Celestial Conduit</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 6th level, when you
+      cast a spell from the Cleric spell list, you gain temporary hit points
+      equal to your Intelligence modifier + the level of the
+      spell.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.F6mVAUlxlWfNYTlF]{Celestial
+      Conduit}</p><h3 data-anchor="divine-revelation"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Divine Revelation</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Beginning at 10th level, your
+      understanding of divine magic reaches complete comprehension. You can copy
+      cleric spells into your spellbook from scrolls or other written records of
+      them.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally, when you deal fire
+      or lightning damage, you can replace half the damage dealt with radiant
+      damage. When you deal poison or cold damage, you can replace half the
+      damage dealt with necrotic
+      damage.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Zk9jzdp15B8XVehF]{Divine
+      Revelation}</p><h3 data-anchor="divine-synthesis"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Divine Synthesis</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 14th level, your
+      research into the synthesis of divine and arcane reveals to a greater
+      harmony of power. When you cast a 1st level or higher spell an arcane
+      spell (a spell from the Wizard spell list) or a divine spell (a spell from
+      the Cleric spell list) as your action, you can cast a 1st level or higher
+      spell from the other list with a casting time of an action or bonus action
+      as a bonus action (regardless of its casting time).</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The total level of the two spells
+      combined cannot exceed your half your Wizard level (rounded
+      down).</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.gQNXIHDyzxyJfMUw]{Divine
+      Synthesis}</p>
+    chat: ''
+    unidentified: ''
+  source: KCLL
+  identifier: theurge
+  classIdentifier: wizard
+  advancement:
+    - _id: O9VMJzLz4j3YeFfj
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.gQNXIHDyzxyJfMUw
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: o0NNLF2k76rANqbE
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Zk9jzdp15B8XVehF
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: thRA2hfSpEJo5lqX
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.F6mVAUlxlWfNYTlF
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: u9ZhE766NLSbMBn0
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.DM0BIpc6vwxW1CgG
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.XdskOnsdOMmhAkx2
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '12.331'
+  createdTime: 1682284375599
+  modifiedTime: 1707857103956
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  compendiumSource: Item.3OLKBu6OwESW4vBV
+  duplicateSource: null
+folder: null
+sort: 0
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: qjWehFXR3j0t2vP1
+_key: '!items!qjWehFXR3j0t2vP1'
+

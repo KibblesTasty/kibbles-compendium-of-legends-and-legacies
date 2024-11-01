@@ -1,0 +1,69 @@
+name: Empowered Strike
+type: feat
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.pG5ldBw8h4EwXtCR
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Beginning at 5th level, you can use cantrips on the Spellblade class
+      list with Spellstrike</p><p>You learn 2 additional cantrips of your
+      choice, selecting the options from the Spellblade cantrip list, and an
+      additional cantrip at 9th, 13th, and 17th level (these additional cantrips
+      are included on the Spellblade table).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  identifier: empowered-strike
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.pG5ldBw8h4EwXtCR
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317491692
+  modifiedTime: 1727317491692
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 15400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 8woFA3I9gvjQ9COr
+_key: '!items!8woFA3I9gvjQ9COr'
+

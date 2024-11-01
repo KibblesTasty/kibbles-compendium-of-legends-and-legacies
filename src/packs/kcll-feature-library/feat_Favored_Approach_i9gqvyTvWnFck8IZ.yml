@@ -1,0 +1,83 @@
+name: Favored Approach
+type: feat
+img: icons/skills/melee/strike-blade-blood-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.6PDSPvwClM1fsjDf
+system:
+  description:
+    value: >-
+      <p>Starting at 13th level, you hone your skills gaining a favored approach
+      to dealing death. Select one of the following benefits:</p>
+
+      <ul>
+
+      <li><strong>Trusted Face:</strong> If you spend seven days establishing a
+      fake identity for yourself or three hours studying another person to
+      impersonate, you have advantage on any Charisma (Deception) check
+      involving maintaining your disguise and identity.</li>
+
+      <li><strong>Swift Blade:</strong> When you roll initiative while hidden,
+      you gain advantage on the roll.</li>
+
+      <li><strong>Specialized Poisons:</strong> When you create a poison, you
+      can designate one creature type (for example, Fiends). The damage of that
+      poison ignores resistance or immunity that creature type may have to
+      poison.</li>
+
+      </ul>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cutthroat 13
+  identifier: favored-approach
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.6PDSPvwClM1fsjDf
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516577
+  modifiedTime: 1727317516577
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 55000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: i9gqvyTvWnFck8IZ
+_key: '!items!i9gqvyTvWnFck8IZ'
+

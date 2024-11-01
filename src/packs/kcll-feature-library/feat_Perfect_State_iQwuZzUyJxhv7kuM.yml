@@ -1,0 +1,71 @@
+name: Perfect State
+type: feat
+img: icons/weapons/swords/sword-guard-gold-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OgThP1t3ienlXHV1
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">At 6th level, weapon
+      becomes an extension of yourself, flowing naturally with your
+      abilities.</span></p><p><strong>Magic Kensei Weapons.</strong> Your
+      attacks with your kensei weapons count as magical for the purpose of
+      overcoming resistance and immunity to nonmagical attacks and
+      damage.</p><p><strong>Blade Flurry.</strong> When you make a Flurry of
+      Blows, you can make the additional attacks with your Monk Weapon.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 6
+  identifier: perfect-state
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.OgThP1t3ienlXHV1
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516688
+  modifiedTime: 1727317516688
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 55100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: iQwuZzUyJxhv7kuM
+_key: '!items!iQwuZzUyJxhv7kuM'
+

@@ -1,0 +1,53 @@
+folder: null
+name: 'Spiritualist Rite: Lethargic Possession'
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  description:
+    value: >-
+      <p>When you use Malignant Possession, the spirit saps the target's energy.
+      They gain 1 level of exhaustion while the spirit haunts them. This level
+      of exhaustion ends if the spirit stops haunting them.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spiritualist
+  identifier: spiritualist-rite-lethargic-possession
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317521047
+  modifiedTime: 1727317521047
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: oL5AUgepOf39XAOd
+sort: 1200000
+_key: '!items!oL5AUgepOf39XAOd'
+

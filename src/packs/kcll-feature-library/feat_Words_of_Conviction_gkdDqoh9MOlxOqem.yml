@@ -1,0 +1,64 @@
+name: Words of Conviction
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.K0WvlUC1QNUMdQAs
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you can use Leadership Dice (Up to your per turn
+      limit) to cast @Compendium[dnd5e.spells.8dzaICjGy6mTUaUr]{Bless} or
+      @Compendium[dnd5e.spells.ge3Saet9zPTDyaoL]{Heroism} without providing
+      material components. The level of the spell is equal to the number of
+      Leadership Dice spent.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 7
+  identifier: words-of-conviction
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.K0WvlUC1QNUMdQAs
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317515750
+  modifiedTime: 1727317515750
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 53600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: gkdDqoh9MOlxOqem
+_key: '!items!gkdDqoh9MOlxOqem'
+

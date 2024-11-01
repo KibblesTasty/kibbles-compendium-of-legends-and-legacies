@@ -1,0 +1,64 @@
+name: Warlord's Expertise
+type: feat
+img: icons/skills/trades/academics-book-study-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VvzkVS07fo6D8CG3
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, choose one of the following skills:
+      Investigation, Insight, Intimidation, or Persuasion. If you are not
+      proficient in the chosen skill you become proficient If you are already
+      proficient in the skill you select, your proficiency bonus is doubled for
+      any ability check you make that uses that skill.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 3
+  identifier: warlords-expertise
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.VvzkVS07fo6D8CG3
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317489726
+  modifiedTime: 1727317489726
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 12400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 6fiUtPEJZWJ92zQS
+_key: '!items!6fiUtPEJZWJ92zQS'
+

@@ -1,0 +1,63 @@
+name: Force of Nature
+type: feat
+img: icons/magic/air/air-smoke-casting.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ZDHUfT9ziNKMJFH8
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, You learn the bend the earth, control the
+      flames, gust the wind, and shape the river Elemental Techniques. These do
+      not count against your Elemental Techniques. If you already know any of
+      these techniques, you select a new technique to replace it.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Four Elements 6
+  identifier: force-of-nature
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.ZDHUfT9ziNKMJFH8
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317517728
+  modifiedTime: 1727317517728
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 56800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: jv5Ujn9JTVBT2vne
+_key: '!items!jv5Ujn9JTVBT2vne'
+

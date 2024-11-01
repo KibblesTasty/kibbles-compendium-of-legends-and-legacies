@@ -1,0 +1,54 @@
+folder: null
+name: 'Spiritualist Rite: Totem Teleport'
+type: feat
+img: icons/magic/symbols/mask-yellow-orange.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 5th level Spiritualist)</em></p><p>As a bonus
+      action, you can switch places with any of your totems within 60 feet
+      (teleport to an empty space within 5 feet of it, and the totem teleporting
+      it to a point adjacent to the space you teleported from).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spiritualist 5
+  identifier: spiritualist-rite-totem-teleport
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317507424
+  modifiedTime: 1727317507424
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: VZ6HoZFCQjvqypRi
+sort: 1700000
+_key: '!items!VZ6HoZFCQjvqypRi'
+

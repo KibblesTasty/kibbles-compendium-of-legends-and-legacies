@@ -1,0 +1,59 @@
+name: Sharpen the Blade (1-3 Ki)
+type: feat
+img: icons/skills/melee/strike-polearm-light-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.A1sqbAXY5AebkYvE
+system:
+  description:
+    value: "<p>\_You can infuse a monk weapon you are holding with ki, granting it a bonus to attack and damage rolls equal to the ki spent for 1 minute (no action required). This bonus can stack with an existing bonus a weapon has, but the total bonus cannot exceed +3.</p>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  identifier: sharpen-the-blade-1-3-ki
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.A1sqbAXY5AebkYvE
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317523103
+  modifiedTime: 1727317523103
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 65900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: sMhhYn0kf6c21MrX
+_key: '!items!sMhhYn0kf6c21MrX'
+

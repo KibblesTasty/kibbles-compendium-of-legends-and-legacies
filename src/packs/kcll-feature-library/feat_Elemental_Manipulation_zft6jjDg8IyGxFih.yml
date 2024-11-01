@@ -1,0 +1,98 @@
+name: Elemental Manipulation
+type: feat
+img: icons/magic/fire/flame-burning-campfire-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.3n6ZETsxuQb7LZI9
+system:
+  description:
+    value: >-
+      <p>You learn two cantrips of your choice from the following list:<em>
+      create bonfire*, control flame*, light, lightning lure*, produce
+      flame</em>, or <em>shape water*</em>. Wisdom is your casting modifier for
+      these cantrips.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elemental Soul 1
+  recharge:
+    value: null
+    charged: false
+  identifier: elemental-manipulation
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1678742719502
+  modifiedTime: 1727317483889
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.3n6ZETsxuQb7LZI9
+  duplicateSource: null
+folder: null
+sort: 74100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: zft6jjDg8IyGxFih
+_key: '!items!zft6jjDg8IyGxFih'
+

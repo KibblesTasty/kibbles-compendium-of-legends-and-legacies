@@ -1,0 +1,57 @@
+name: Iron Mask
+type: feat
+img: icons/equipment/head/mask-carved-wood-white.webp
+system:
+  description:
+    value: >-
+      <p>Additionally at 7th level, you are exceptionally good at masking your
+      emotions. Creatures have disadvantage on Wisdom (Insight) ability checks
+      against you.</p><p>Additionally, you can suppress the effect of the
+      frightened condition on yourself, but it requires concentration (as if
+      concentrating on a spell). You cannot lose concentration on the effect,
+      but cannot maintain it while concentrating on spell.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dreadlord 7
+  identifier: iron-mask
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.8TQdsWXu7KAA4KSO
+_stats:
+  compendiumSource: Item.8TQdsWXu7KAA4KSO
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317495369
+  modifiedTime: 1727317495369
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 21000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: DMYFAqNOiRKwb6wi
+_key: '!items!DMYFAqNOiRKwb6wi'
+

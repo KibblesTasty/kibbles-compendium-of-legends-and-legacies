@@ -1,0 +1,146 @@
+name: Unlimited Power
+type: feat
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  description:
+    value: >-
+      <p style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 20th level, you can
+      channel magic directly into your muscles, causing your strength to surpass
+      all common reason and granting you the following benefits for 1
+      minute:</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">Your Strength score and maximum
+      strength score increase by 2.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">The damage from your Splash Damage
+      feature becomes a 30 foot cone.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">The distance you can jump becomes
+      equal to your movement speed.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">You have advantage on all Strength
+      ability checks and saving throws.</span></li></ul><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">Once you use this ability, you
+      cannot use it again until you complete a long rest.</span></p>
+    chat: ''
+  source:
+    custom: Spellfist
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellfist 20
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: unlimited-power
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.ogOrJHZBmH3cXO08
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+_stats:
+  compendiumSource: Item.ogOrJHZBmH3cXO08
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317524585
+  modifiedTime: 1727317524585
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 68700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ujOBEaxwqL5oc55g
+_key: '!items!ujOBEaxwqL5oc55g'
+

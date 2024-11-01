@@ -1,0 +1,165 @@
+name: Earthen Endurance
+type: feat
+img: icons/magic/earth/barrier-stone-brown-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': Damage Blocked
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.sNzT92PaPnxPBiAb
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, when you activate Strength of Stone, you can
+      confer the benefits of the stone aegis to another creature of your choice
+      within 30 feet, reducing bludgeoning, piercing, and slashing damage taken
+      by that creature equal to your proficiency bonus.</p><p>When a creature
+      under the effect of your protection takes damage (of any damage type), as
+      a reaction you can expend one or more sorcery points to reduce the damage
+      taken 1d8 per sorcery points spent. When you absorb damage in this way,
+      the next time you hit an melee attack before the end of your next turn,
+      you can add 1d8 per sorcery points to the damage roll.</p>
+    chat: ''
+  source:
+    custom: Stoneheart
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneheart 6
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: attribute
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: earthen-endurance
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.sNzT92PaPnxPBiAb
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317484879
+  modifiedTime: 1727317484879
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 5200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 02nORZyr7XiiOU1V
+_key: '!items!02nORZyr7XiiOU1V'
+

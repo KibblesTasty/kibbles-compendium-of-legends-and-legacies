@@ -1,0 +1,148 @@
+name: Ice Age
+type: feat
+img: icons/magic/water/tendrils-ice-growth.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 20th level,
+      you can release a blast of freezing energy that plunges an 30-foot radius
+      around you into a state of everfrost for 1 minute (no action required). It
+      has the following effects:</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">The area becomes difficult terrain
+      for creatures other than you.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">Allied creatures in the area gain
+      resistance to cold damage, while hostile creatures lose any resistance
+      than may have to cold damage.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">Creatures in the area when you use
+      the ability become under the effect of the <em
+      style="box-sizing:border-box;user-select:text">slow</em> spell as they
+      start to freeze. Creatures slowed in this way make make a Constitution
+      saving throw at the end of each of their turns. On success the effect
+      ends. On failure, they become restrained while under the effect. Creatures
+      automatically pass the save if they are outside of the area of effect. You
+      can exclude a number of creatures from becoming slowed equal to your
+      Intelligence modifier.</span></li></ul><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">You can end the effect letting the
+      area thaw earlier as an action. Once you use this ability, you cannot use
+      it again until you complete a long rest.</span></p>
+    chat: ''
+  source:
+    custom: Iceblade
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Iceblade 20`
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: special
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '30'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: ice-age
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+  core:
+    sourceId: Item.HufsN5xAdvAxmGu5
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.HufsN5xAdvAxmGu5
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317485813
+  modifiedTime: 1727317485813
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 6500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 13ILqJsJPUnYh2jh
+_key: '!items!13ILqJsJPUnYh2jh'
+

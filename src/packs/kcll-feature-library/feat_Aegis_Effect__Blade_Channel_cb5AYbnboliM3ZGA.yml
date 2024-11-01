@@ -1,0 +1,54 @@
+name: 'Aegis Effect: Blade Channel'
+type: feat
+img: icons/weapons/polearms/spear-flared-silver-pink.webp
+system:
+  description:
+    value: >-
+      <p>When you can cast a spell using Spellstrike, you can use the ability
+      modifier used to attack with that weapon instead of your Intelligence for
+      the spellcasting ability modifier.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aegis Effect
+  identifier: aegis-effect-blade-channel
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.SqHuxNiVxlbUgQXy
+_stats:
+  compendiumSource: Item.SqHuxNiVxlbUgQXy
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317512434
+  modifiedTime: 1727317512434
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 48200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: cb5AYbnboliM3ZGA
+_key: '!items!cb5AYbnboliM3ZGA'
+

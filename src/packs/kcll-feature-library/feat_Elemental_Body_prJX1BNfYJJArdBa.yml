@@ -1,0 +1,62 @@
+name: Elemental Body
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.JS3DPAZwcW7MiS4c
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you gain resistance to your choice of cold,
+      fire, or lightning damage. When you complete a long rest, you can change
+      which damage type you resist.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elemental Soul 7
+  identifier: elemental-body
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.JS3DPAZwcW7MiS4c
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317521922
+  modifiedTime: 1727317521922
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 63900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: prJX1BNfYJJArdBa
+_key: '!items!prJX1BNfYJJArdBa'
+

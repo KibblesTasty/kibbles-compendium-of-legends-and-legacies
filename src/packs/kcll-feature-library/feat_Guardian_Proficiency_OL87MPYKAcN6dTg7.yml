@@ -1,0 +1,69 @@
+name: Guardian Proficiency
+type: feat
+img: icons/equipment/shield/heater-embossed-gold.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.R6L8am3lVDYbUqa3
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level when you select this archetype, you gain
+      proficiency in heavy armor and shields. Additionally, you can use your a
+      melee weapon as your arcane focus, and when you do so you can perform
+      somatic components with the hand holding your arcane focus (even for
+      spells without a material component).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guardian 3
+  identifier: guardian-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.R6L8am3lVDYbUqa3
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317502562
+  modifiedTime: 1727317502562
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 32500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: OL87MPYKAcN6dTg7
+_key: '!items!OL87MPYKAcN6dTg7'
+

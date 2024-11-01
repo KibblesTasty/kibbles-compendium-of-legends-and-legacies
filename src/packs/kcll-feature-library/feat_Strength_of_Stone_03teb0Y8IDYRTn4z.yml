@@ -1,0 +1,249 @@
+name: Strength of Stone
+type: feat
+img: icons/magic/earth/strike-fist-stone-gray.webp
+effects:
+  - _id: Go8vfhSIFSJnMEDH
+    changes: []
+    disabled: false
+    duration:
+      rounds: 1
+      startTime: null
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.WfvRAnK9szJFw6Dc
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Strength
+    img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!03teb0Y8IDYRTn4z.Go8vfhSIFSJnMEDH'
+  - _id: y9SgVJMBkVlxK6T5
+    changes: []
+    disabled: false
+    duration:
+      rounds: 1
+      startTime: null
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.WfvRAnK9szJFw6Dc
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Armor
+    img: icons/magic/defensive/armor-stone-skin.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!03teb0Y8IDYRTn4z.y9SgVJMBkVlxK6T5'
+  - _id: cLLJuiLlVt9PnWnu
+    changes: []
+    disabled: false
+    duration:
+      rounds: 1
+      startTime: null
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.WfvRAnK9szJFw6Dc
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Aegis
+    img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!03teb0Y8IDYRTn4z.cLLJuiLlVt9PnWnu'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.WfvRAnK9szJFw6Dc
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 2
+system:
+  description:
+    value: >-
+      <p>At 1st level when you select this origin, you gain the ability to use
+      your magical power to draw fortitude from the earth beneath your feet. As
+      a bonus action, you can bolster your strength, gaining the following
+      benefits for 1 minute, ending early if you become incapacitated or you end
+      it as a bonus action.</p><ul><li><p>Your can use your Charisma modifier in
+      place of your Strength modifier for attacks rolls, damage rolls, and
+      ability checks.</p></li><li><p>Your skin assumes a stony appearance. If
+      you are not wearing armor, your AC equals 13 + your Charisma
+      modifier.</p></li><li><p>You form a stone aegis around yourself reducing
+      bludgeoning, piercing, and slashing damage taken by your proficiency
+      bonus.</p></li></ul><p>You can cast stone forming as part of the same
+      bonus action used to activate this ability. You can use this ability a
+      number of times equal to your Proficiency bonus. If you have no uses
+      remaining, you can use it again by a sorcery point. You regain all
+      expended uses of this ability when you complete a long rest.</p>
+    chat: ''
+  source:
+    custom: Stoneheart
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '@prof'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneheart 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: strength-of-stone
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.WfvRAnK9szJFw6Dc
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317485002
+  modifiedTime: 1727317485002
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 5400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 03teb0Y8IDYRTn4z
+_key: '!items!03teb0Y8IDYRTn4z'
+

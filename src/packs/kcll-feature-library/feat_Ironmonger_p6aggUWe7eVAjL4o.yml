@@ -1,0 +1,57 @@
+name: Ironmonger
+type: feat
+img: icons/weapons/swords/sword-guard-flanged.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level your gain proficiency in heavy armor and martial
+      melee weapons. Your Mystical Bulwark functions even when using heavy
+      armor, though if you gain additional sources of passive damage reduction,
+      additional sources beyond the highest value only increase the damage
+      reduction by one for each additional source of passive damage
+      reduction.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ironbound 1
+  identifier: ironmonger
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.qzDERLraBAiDyLBa
+_stats:
+  compendiumSource: Item.qzDERLraBAiDyLBa
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317521341
+  modifiedTime: 1727317521341
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 63100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: p6aggUWe7eVAjL4o
+_key: '!items!p6aggUWe7eVAjL4o'
+

@@ -1,0 +1,62 @@
+name: Chieftain's Proficiency
+type: feat
+img: icons/skills/melee/hand-grip-hammer-spiked-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.QQ32jc5AgYqIgdx2
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level when you take this Presence, you gain proficiency
+      in shields, martial weapons, and the Intimidation skill, or another skill
+      of your choice if you are already proficient.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Chieftain 1
+  identifier: chieftains-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.QQ32jc5AgYqIgdx2
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317511242
+  modifiedTime: 1727317511242
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 46300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: bF87Co9lZseqzZqn
+_key: '!items!bF87Co9lZseqzZqn'
+

@@ -1,0 +1,57 @@
+name: Magical Bond
+type: feat
+img: icons/magic/nature/wolf-paw-glow-large-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, your Beast Companions count as magical for the
+      purpose of overcoming resistance and immunity to nonmagical attacks and
+      damage.</p><p>Additionally, whenever you expend a spell slot of 3rd level
+      or higher on your turn, you beast can take one additional action on its
+      turn. That action can be used only to take the Attack (one weapon attack
+      only), Dash, Disengage, or Hide.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of the Wild 6
+  identifier: magical-bond
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.8ibfrlLnCUueNYU6
+_stats:
+  compendiumSource: Item.8ibfrlLnCUueNYU6
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317506400
+  modifiedTime: 1727317506400
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 38900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: UfpmASeIDzktOWPl
+_key: '!items!UfpmASeIDzktOWPl'
+

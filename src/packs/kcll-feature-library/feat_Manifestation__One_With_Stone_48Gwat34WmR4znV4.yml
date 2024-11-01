@@ -1,0 +1,59 @@
+name: 'Manifestation: One With Stone'
+type: feat
+img: icons/magic/earth/construct-stone.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.8lYRgBfgJKPZlOsv
+system:
+  description:
+    value: "<p>You can cast @Compendium[dnd5e.spells.64uo4fHriHLjRUrX]{Meld into Stone}\_without expending a spell slot. Once you do so, you cannot do so again until you complete a long rest.</p>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 9
+  identifier: manifestation-one-with-stone
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.8lYRgBfgJKPZlOsv
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317487860
+  modifiedTime: 1727317487860
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 9500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 48Gwat34WmR4znV4
+_key: '!items!48Gwat34WmR4znV4'
+

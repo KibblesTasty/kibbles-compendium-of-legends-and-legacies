@@ -1,0 +1,64 @@
+name: Ethereal Strikes
+type: feat
+img: icons/skills/wounds/injury-body-pain-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VhoTEBMHNH1HFVUa
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, when you gain advantage from Advantageous
+      Surge, your blade sweeps through all enemy defenses. You ignore all
+      non-magical armor and defenses to treat their AC as 10 + their dexterity
+      for that attack (magical defenses like mage armor or shield are not
+      bypassed)</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aethersword 15
+  identifier: ethereal-strikes
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.VhoTEBMHNH1HFVUa
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317510950
+  modifiedTime: 1727317510950
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 45800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: askpBBfMSFoF2z01
+_key: '!items!askpBBfMSFoF2z01'
+

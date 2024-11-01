@@ -1,0 +1,112 @@
+name: Fatal Flourish
+type: feat
+img: icons/skills/ranged/dagger-thrown-jeweled-green.webp
+system:
+  description:
+    value: >-
+      <p>Additionally at 6th level, when you use your Action to make make an
+      ability check, cast vicious mockery, or make a weapon attack with a light
+      melee weapon, you can make a single weapon attack with a melee weapon or
+      dart as bonus action.</p>
+    chat: ''
+  source:
+    custom: College of Fools
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: College of Fools 6
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: fatal-flourish
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.Za68Qni3Hof0EJs7
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.Za68Qni3Hof0EJs7
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317512938
+  modifiedTime: 1727317512938
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 49000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: dQmw3HQXfsxFcYvQ
+_key: '!items!dQmw3HQXfsxFcYvQ'
+

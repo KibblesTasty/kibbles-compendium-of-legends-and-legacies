@@ -1,0 +1,79 @@
+name: Press the Attack
+type: feat
+img: icons/skills/ranged/arrows-flying-salvo-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EZ3ex4tyHDv0pLer
+system:
+  description:
+    value: >-
+      <p>Starting at 9th level, your abilities are further empowered:</p>
+
+      <h3><strong>Rallying Mark: Boost Morale</strong></h3>
+
+      <p>When a creature gains hit points from Rallying Mark, you can expend one
+      Leadership die to cause another creature within 30 feet to regain the same
+      number of hit points.</p>
+
+      <h3><strong>Urgent Orders: Coordinated Movements</strong></h3>
+
+      <p>When you use Urgent Orders, you can target a number of creatures equal
+      to the number of Leadership Dice spent, spending dice on each target
+      individually.</p>
+
+      <h3><strong>Helpful Word: Expert Instructions</strong></h3>
+
+      <p>When a creature benefits from your Help action, you can use your
+      reaction to expend a Leadership Die and add it to their roll. You can use
+      this ability after the original roll, but before the outcome is
+      revealed.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 9
+  identifier: press-the-attack
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.EZ3ex4tyHDv0pLer
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317501146
+  modifiedTime: 1727317501146
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 30300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: MC6ISd2J6fxAuObu
+_key: '!items!MC6ISd2J6fxAuObu'
+

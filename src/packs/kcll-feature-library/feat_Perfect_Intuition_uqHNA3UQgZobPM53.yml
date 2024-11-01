@@ -1,0 +1,129 @@
+name: Perfect Intuition
+type: feat
+img: icons/creatures/eyes/human-single-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: Wisdom Bonus
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0bJ3MMqZBwzqX9MH
+  rsr5e:
+    quickOther:
+      context: ''
+      value: true
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p><span style="color:#191813;font-size:12px">When you make a Wisdom
+      saving throw or ability check, you can expend a focus die to add it to the
+      roll. When you do this with the Search action, you can take the Search
+      action as a bonus action.</span></p>
+    chat: ''
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: 1
+        condition: When you make a Wisdom saving throw or ability check.
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: 1d8
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: perfect-intuition
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.0bJ3MMqZBwzqX9MH
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317524691
+  modifiedTime: 1727317524691
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 68900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: uqHNA3UQgZobPM53
+_key: '!items!uqHNA3UQgZobPM53'
+

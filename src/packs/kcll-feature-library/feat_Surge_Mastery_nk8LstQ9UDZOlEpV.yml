@@ -1,0 +1,72 @@
+name: Surge Mastery
+type: feat
+img: icons/magic/control/silhouette-grow-shrink-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OUMdzI8aDnmQN8dm
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, when you use your Arcane Surge, you gain
+      enhanced results:</p><ul><li><p>When you cast detect magic with your
+      Arcane Surge, you also gain the effects of darkvision and see
+      invisibility.</p></li><li><p>When you gain advantage on attack through
+      Arcane Surge, you can reroll one of the dice once.</p></li><li><p>When you
+      add your Intelligence to a Strength or Dexterity ability check, you gain
+      advantage on the check.</p></li><li><p>When you teleport, the range you
+      can teleport is increased by 10 feet.</p></li></ul>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Battlemage 15
+  identifier: surge-mastery
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.OUMdzI8aDnmQN8dm
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317520389
+  modifiedTime: 1727317520389
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 61300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: nk8LstQ9UDZOlEpV
+_key: '!items!nk8LstQ9UDZOlEpV'
+

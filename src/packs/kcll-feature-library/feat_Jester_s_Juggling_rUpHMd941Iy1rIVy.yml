@@ -1,0 +1,67 @@
+name: Jester's Juggling
+type: feat
+img: icons/weapons/thrown/daggers-guard-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">When you join the College
+      of Fools, you master the art of juggling nearly anything. You gain
+      proficiency in Performance. If you already have proficiency in
+      Performance, you can select another skill of your choice to gain
+      proficiency in.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally, you can draw or stow
+      any number of items or weapons during your turn. You can hold an more
+      weapons or objects than you have hands, but when you do so, at the end of
+      your turn you must make Dexterity (Performance) check with a DC of 5 times
+      the additional number of hands you need to hold all the items you are
+      holding (for example, to hold 3 daggers would be a DC 5, while to hold 3
+      daggers and greatsword would be DC 15). On failure, you drop any that you
+      don't have sufficient hands to hold.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: College of Fools 3
+  identifier: jesters-juggling
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.iLVhqtMzky1zfOHP
+_stats:
+  compendiumSource: Item.iLVhqtMzky1zfOHP
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317522896
+  modifiedTime: 1727317522896
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 65500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: rUpHMd941Iy1rIVy
+_key: '!items!rUpHMd941Iy1rIVy'
+

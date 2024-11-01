@@ -1,0 +1,53 @@
+folder: null
+name: Empowered Gaze
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, the effects of your Void Gaze are empowered, and
+      you add your Wisdom modifier to the damage or temporary hit points of the
+      effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Voidwatcher 6
+  identifier: empowered-gaze
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  core: {}
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317515528
+  modifiedTime: 1727317515528
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: gY37xlDdLygMjgAz
+sort: 3900000
+_key: '!items!gY37xlDdLygMjgAz'
+

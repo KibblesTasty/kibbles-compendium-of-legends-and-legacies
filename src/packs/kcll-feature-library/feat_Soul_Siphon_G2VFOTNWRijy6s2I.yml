@@ -1,0 +1,103 @@
+name: Soul Siphon
+type: feat
+img: icons/magic/unholy/projectile-smoke-tendril-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.n9xTI2N9aAcQcJG8
+system:
+  description:
+    value: >-
+      <h3
+      id="sorcerer-origin-fiend-bloodline-variant-origin-spells-soul-siphon">Soul
+      Siphon</h3>
+
+      <p>Starting at 14th level, when you cast a spell on your turn that targets
+      one or more creatures, if a target creature fails a saving throw against
+      one of your spells, you regain temporary hit points equal to the level of
+      the spell.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fiend Origin 14
+  identifier: soul-siphon
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.n9xTI2N9aAcQcJG8
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317497334
+  modifiedTime: 1727317497334
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 24100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: G2VFOTNWRijy6s2I
+_key: '!items!G2VFOTNWRijy6s2I'
+

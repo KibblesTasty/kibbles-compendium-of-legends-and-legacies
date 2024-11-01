@@ -1,0 +1,64 @@
+name: Shroud of Nature
+type: feat
+img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RUxECgKQjVPqhar1
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you and your allies can fade away behind natural
+      shrouds. Whenever you cast a spell that results in you or a friendly
+      creature becoming obscured (such as being within the radius of a fog cloud
+      or behind earth moved by a spell), the obscured creature can use their
+      reaction to take the Hide action.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Packleader 7
+  identifier: shroud-of-nature
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.RUxECgKQjVPqhar1
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317503610
+  modifiedTime: 1727317503610
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 34300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: PdpPxzp4Vk02Ihlf
+_key: '!items!PdpPxzp4Vk02Ihlf'
+

@@ -1,0 +1,57 @@
+name: Aura of Serenity
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you permeate an aura of quiet serenity, reducing
+      the volume of all noises within 10 feet. You and friendly creatures in the
+      aura gain resistance to thunder damage, and heavy and medium armor do not
+      give disadvantage on Dexterity (Stelth) checks for creatures within the
+      aura.</p><p>At 18th level, the range of this aura increases to 30
+      feet.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oath of Silence 7
+  identifier: aura-of-serenity
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.2EiMQWtQo6e18dVf
+_stats:
+  compendiumSource: Item.2EiMQWtQo6e18dVf
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317518974
+  modifiedTime: 1727317518974
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 59000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: lwwM1shOBH8mW3qG
+_key: '!items!lwwM1shOBH8mW3qG'
+

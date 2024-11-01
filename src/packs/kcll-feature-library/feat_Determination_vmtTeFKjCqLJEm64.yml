@@ -1,0 +1,65 @@
+name: Determination
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LFLmDp1mv1Afyoj5
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, you can attempt to use physical prowess to
+      break through magical effects that are otherwise physically impassable. As
+      an action, you can make a Strength (Athletics) check against the spell
+      save DC of the caster to attempt to force your way through magical
+      barriers or effects. On success, you can move up through the effect,
+      spending four feet of movement for each foot moved through the effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Champion 15
+  identifier: determination
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.LFLmDp1mv1Afyoj5
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317525605
+  modifiedTime: 1727317525605
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 70300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: vmtTeFKjCqLJEm64
+_key: '!items!vmtTeFKjCqLJEm64'
+

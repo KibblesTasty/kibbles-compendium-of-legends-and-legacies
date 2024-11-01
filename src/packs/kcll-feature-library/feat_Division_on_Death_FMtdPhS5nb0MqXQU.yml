@@ -1,0 +1,151 @@
+name: Division on Death
+type: feat
+img: icons/creatures/slimes/slime-movement-pseudopods-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 14th level,
+      when you would drop to 0 hit points, you can instead explode into drops of
+      ooze (no action required). All creatures of your choice within 10 feet
+      must make a Dexterity saving throw, or take [[/r 3d6]] + your Charisma
+      modifier acid damage, after which you leave behind a number of small
+      acidic blobs equal to your Charisma modifier. Each one has an AC of 8, and
+      10 hit points, each placed in the closest available space to where to
+      where you were before dividing.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">At the start of your next turn,
+      all remaining blobs combine to reform your body, granting you hit points
+      equal to their combined hit points. If all of them were destroyed, you
+      reform at 0 hit points.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">Once you use this ability, you
+      cannot use it again until you complete a long rest.</span></p>
+    chat: ''
+  source:
+    custom: The Ooze
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Ooze 14
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: special
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 6
+            bonus: '@mod'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: division-on-death
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  core:
+    sourceId: Item.GtghUF0gbu1ujcDT
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.GtghUF0gbu1ujcDT
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317496746
+  modifiedTime: 1727317496746
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 23100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: FMtdPhS5nb0MqXQU
+_key: '!items!FMtdPhS5nb0MqXQU'
+

@@ -1,0 +1,71 @@
+name: Nature's Gift
+type: feat
+img: icons/magic/nature/beam-hand-leaves-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.JidMER2U9gq7spSa
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, through your connection to the wild battlefields
+      you've mastered offers you some measure of control of them. You learn two
+      cantrips from the Druid list.</p>
+
+      <p>Additionally, you can expend one Leadership Die to cast
+      @Compendium[dnd5e.spells.IBJmWjzbQGu7M4UX]{Fog Cloud} as a 1st level
+      spells. You can pick two additional 1st level spells from the Druid spell
+      list with a casting time of one action to cast this way.</p>
+
+      <p>Your spell casting modifier for these spells is Wisdom, and your spell
+      Save DC for these spells is 8 + your Proficiency modifier + your Wisdom
+      Modifier.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Packleader 3
+  identifier: natures-gift
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.JidMER2U9gq7spSa
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317501371
+  modifiedTime: 1727317501371
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 30700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: MOZ8gJl4g1unfZBF
+_key: '!items!MOZ8gJl4g1unfZBF'
+

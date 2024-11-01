@@ -1,0 +1,76 @@
+name: Fists of Stone
+type: feat
+img: icons/magic/earth/strike-fist-stone-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.DptMStC1wy4fc9kQ
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when you roll initiative or as a bonus action at
+      any time, you can transform one or both arms into durable forms of living
+      stone. You cannot wield weapons or shields in hands that you have turned
+      to stone, but they can be used to grapple creatures.</p>
+
+      <p>While you are grappling a creature with your stone fists, that fist can
+      only attack that creature. The stone form lasts until you dismiss them as
+      a bonus action.</p>
+
+      <h2>Stone Fist</h2>
+
+      <p>A hardened limb of stone. This becomes a natural one handed melee
+      weapon that deals 1d6 bludgeoning damage on hit, and has the Light and
+      Special properties.</p>
+
+      <p><strong>Special:</strong> You gain +1 to your AC while wielding one of
+      these weapons in each hand.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneblood 1
+  identifier: fists-of-stone
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.DptMStC1wy4fc9kQ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317510891
+  modifiedTime: 1727317510891
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 45700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ao5oBIdjpqNZAFK4
+_key: '!items!ao5oBIdjpqNZAFK4'
+

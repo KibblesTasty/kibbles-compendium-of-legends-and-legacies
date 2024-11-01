@@ -1,0 +1,62 @@
+name: 'Shaman Rite: Warding Power'
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.dGhTYpeby4XMNKQP
+system:
+  description:
+    value: >-
+      <p>You learn the spell @Compendium[dnd5e.spells.z1mx84ONwkXKUZd7]{Shield},
+      and it becomes an Occultist spell for you, but do not count against your
+      spells known.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 2
+  identifier: shaman-rite-warding-power
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.dGhTYpeby4XMNKQP
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317512375
+  modifiedTime: 1727317512375
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 48100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: cWiJuEChEKzMNE1f
+_key: '!items!cWiJuEChEKzMNE1f'
+

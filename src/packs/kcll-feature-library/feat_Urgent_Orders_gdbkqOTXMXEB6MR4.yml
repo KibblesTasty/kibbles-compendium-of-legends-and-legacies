@@ -1,0 +1,125 @@
+name: Urgent Orders
+type: feat
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.bDt7wyJY7RrKUUJ2
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can expend a number of Leadership Dice (up to
+      your per turn limit) to guide your allies in expeditious action.</p>
+
+      <p>Target an allied creature within 60 feet of you that can see or hear
+      you, that creature can immediately use its reaction to move up to its
+      movement speed (up to a maximum of 30 feet) without provoking opportunity
+      attacks. Roll the leadership dice expended, the target gains temporary hit
+      points equal to the value rolled.</p>
+    chat: ''
+  source:
+    custom: Warlord
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 2
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: urgent-orders
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.bDt7wyJY7RrKUUJ2
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317515639
+  modifiedTime: 1727317515639
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 53400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: gdbkqOTXMXEB6MR4
+_key: '!items!gdbkqOTXMXEB6MR4'
+

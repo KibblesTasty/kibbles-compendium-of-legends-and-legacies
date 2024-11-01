@@ -1,0 +1,67 @@
+name: Inspired Warrior
+type: feat
+img: icons/skills/melee/sword-winged-holy-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.IJCNW8fAwU0TrsxJ
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, once per turn, when one of your allies within
+      30 feet takes or deals damage, you gain d4 dice, adding it to a pool of
+      dice. You can have a maximum number of d4 dice in this pool equal to your
+      Charisma modifier (minimum 1).</p>
+
+      <p>Until the end of your next turn, when you deal damage you can expend
+      any number of dice from this pool rolling them and dealing additional
+      damage equal to the value rolled.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paragon 11
+  identifier: inspired-warrior
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.IJCNW8fAwU0TrsxJ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317523787
+  modifiedTime: 1727317523787
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 67200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: tZQ8jnE1rbsuV9za
+_key: '!items!tZQ8jnE1rbsuV9za'
+

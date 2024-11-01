@@ -1,0 +1,76 @@
+name: Blazing Soul
+type: feat
+img: icons/magic/fire/projectile-smoke-swirl-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.Dyv57zREN0j3aRbc
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, when you activate a Phoenix Spark you can
+      expend a second use of the feature (or a sorcery point) to enhance the
+      power of the spark for that activation. When you do so it lasts for 1
+      minute. Additionally, the spark intensifies, giving you the additional
+      effects for the duration:</p><ul><li><p>Your immaterial wings of fire
+      solidify, and you gain a flying speed of 30 feet during the duration of
+      the spark.</p></li><li><p>You regain 1d6 hit points at the start of each
+      of your turns while under the effect.</p></li><li><p>If a creature hits
+      with an attack while within 5 feet of you, you can use your reaction to
+      burn them with the flames, dealing 2d6 fire damage to
+      them.</p></li><li><p>You shed bright light in a 20 foot radius, and dim
+      light for an additional 20 feet.</p></li></ul>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Phoenix Spark 14
+  identifier: blazing-soul
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Dyv57zREN0j3aRbc
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317523676
+  modifiedTime: 1727317523676
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 67000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: tSeFJqOg4qoSLMkJ
+_key: '!items!tSeFJqOg4qoSLMkJ'
+

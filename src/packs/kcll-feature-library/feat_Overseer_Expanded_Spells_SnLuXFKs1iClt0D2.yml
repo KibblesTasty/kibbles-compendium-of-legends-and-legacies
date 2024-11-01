@@ -1,0 +1,59 @@
+name: Overseer Expanded Spells
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+system:
+  description:
+    value: >-
+      <table border="1"><tbody><tr><td>Spell
+      Level</td><td>Spells</td></tr><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.KhwiSi9fwVfUPtku]{Sleep}</td></tr><tr><td>2nd</td><td>@UUID[Compendium.dnd5e.spells.zwGsAv6kmwzYGhh3]{Blindness/Deafness},
+      @UUID[Compendium.dnd5e.spells.DQzlB5Y3k791W5bH]{See
+      Invisibility}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance},
+      @UUID[Compendium.dnd5e.spells.yqUDoxk4x0NWG5Bz]{Slow}</td></tr><tr><td>4th</td><td>@UUID[Compendium.dnd5e.spells.ImlCJQwR1VL40Qem]{Arcane
+      Eye},
+      @UUID[Compendium.dnd5e.spells.7Fw7Bf1k3xxDVr5L]{Fabricate}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.lnaGnxMzpYnbw1uU]{Creation},
+      @UUID[Compendium.dnd5e.spells.HQfd7jJyULIoGxrZ]{Telekinesis}</td></tr></tbody></table>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  identifier: overseer-expanded-spells
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.56N8sH0dSjGvKJIt
+_stats:
+  compendiumSource: Item.56N8sH0dSjGvKJIt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317505299
+  modifiedTime: 1727317505299
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 37000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: SnLuXFKs1iClt0D2
+_key: '!items!SnLuXFKs1iClt0D2'
+

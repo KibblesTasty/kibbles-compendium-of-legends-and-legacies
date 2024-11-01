@@ -1,0 +1,66 @@
+name: Empowered Earth
+type: feat
+img: icons/magic/earth/orb-stone-smoke-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.s8WBarAm9HEKwgMx
+system:
+  description:
+    value: >-
+      <p>You gain the<em>
+      </em>@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.RgDGLW8ar5aLCXsF]{Stone
+      Forming}<em>, magic stone*, and mold earth*</em> cantrips. When you use
+      stone forming, you can meld any weapon created that you have proficiency
+      with with your Stone Fists, adding its properties (other than thrown) and
+      damage type to one of Stone Fist. You cannot grapple a creature with your
+      Stone Fist while it is transmuted in this way.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneblood 1
+  identifier: empowered-earth
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.s8WBarAm9HEKwgMx
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317489236
+  modifiedTime: 1727317489236
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 11600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 5sI6oNo18VVOqbFv
+_key: '!items!5sI6oNo18VVOqbFv'
+

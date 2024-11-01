@@ -1,0 +1,67 @@
+name: Surging Focus
+type: feat
+img: icons/skills/wounds/injury-face-impact-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EnylIbDvxM9Nousw
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Start at 14th level, if you fail a Constitution saving throw to
+      maintain concentration on a spell, you can spend an Arcane Surge to
+      succeed instead.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 14
+  identifier: surging-focus
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.EnylIbDvxM9Nousw
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516352
+  modifiedTime: 1727317516352
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 54600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: huZ1UkCdV0JbmK3f
+_key: '!items!huZ1UkCdV0JbmK3f'
+

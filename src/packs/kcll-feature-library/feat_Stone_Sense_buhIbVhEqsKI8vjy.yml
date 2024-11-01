@@ -1,0 +1,61 @@
+name: Stone Sense
+type: feat
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.5GQNKulBiMDt6wQs
+system:
+  description:
+    value: >-
+      <p>Additionally at 14th level, you gain tremorsense with a range equal to
+      your Primal Interdiction.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneblood 14
+  identifier: stone-sense
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.5GQNKulBiMDt6wQs
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317511868
+  modifiedTime: 1727317511868
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 47400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: buhIbVhEqsKI8vjy
+_key: '!items!buhIbVhEqsKI8vjy'
+

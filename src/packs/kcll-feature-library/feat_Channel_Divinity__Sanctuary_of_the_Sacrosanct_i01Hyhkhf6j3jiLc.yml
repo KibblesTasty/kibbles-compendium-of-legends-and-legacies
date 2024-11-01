@@ -1,0 +1,131 @@
+name: 'Channel Divinity: Sanctuary of the Sacrosanct'
+type: feat
+img: icons/magic/light/explosion-star-glow-blue-purple.webp
+system:
+  description:
+    value: >-
+      <p>Sanctuary of the Sacrosanct. As an action, you present your holy symbol
+      and whisper prayer to bring refugees from the turmoil of the world. All
+      creatures of your choice within 30 feet gain temporary hit points equal to
+      your Paladin level + your Charisma modifier, and if they are under the
+      effect of a condition or spell they can normally save against the end of
+      their turn, they can immediately make a save against the effect, ending it
+      on success as normal.</p>
+    chat: ''
+  source:
+    custom: Oath of Silence
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oath of Silence 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '30'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types: []
+        custom:
+          enabled: true
+          formula: '@classes.paladin.levels + @mod'
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: channel-divinity-sanctuary-of-the-sacrosanct
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    quickOther:
+      context: ''
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+  core:
+    sourceId: Item.zqhf11RAHk2TkCoF
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.zqhf11RAHk2TkCoF
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516461
+  modifiedTime: 1727317516461
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 54800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: i01Hyhkhf6j3jiLc
+_key: '!items!i01Hyhkhf6j3jiLc'
+

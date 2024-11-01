@@ -1,0 +1,73 @@
+name: Primal Decree
+type: feat
+img: icons/magic/earth/lava-explosion-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RsUdlcCD8mCR92gy
+system:
+  description:
+    value: >-
+      <p>At 20th level, you can use your primal connection with the natural
+      powers of the world to reshape the land around you on a large scale. This
+      can take the form of effects like earthquake, tsunami, control weather, or
+      transmutation or conjuration spell from the Druid spell list that modifies
+      the terrain (such as wall of stone).</p>
+
+      <p>At the GM's discretion, this might be used to accomplish other large
+      scale feats not listed by a spell, such as changing the course of a river,
+      quenching a forest fire, or causing an active volcano to have a small
+      eruption. Its range effect should generally be contained with a 1 mile
+      radius area when not replicating the spells listed above.</p>
+
+      <p>Once you do so, you cannot do so again until you complete a long
+      rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 20
+  identifier: primal-decree
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.RsUdlcCD8mCR92gy
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317515474
+  modifiedTime: 1727317515474
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 53200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: gWsA1FX1WiXYj5ev
+_key: '!items!gWsA1FX1WiXYj5ev'
+

@@ -1,0 +1,58 @@
+name: Solar Flare
+type: feat
+img: icons/magic/light/beam-explosion-orange.webp
+system:
+  description:
+    value: >-
+      <p>At 3rd level, when you expend an endurance die to block damage, you can
+      cause a brilliant flare of blinding light, targeting either the creature
+      that caused the damage or all creatures in your Primal Interdiction range.
+      Targets must make a Constitution saving throw with a DC of 8 + your
+      Constitution modifier + your proficiency bonus, or become blinded until
+      the start of their next turn. If a target is invisible, it is revealed
+      until the start of the next turn.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 3
+  identifier: solar-flare
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.LKcFln95kHnXbp8r
+_stats:
+  compendiumSource: Item.LKcFln95kHnXbp8r
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317496449
+  modifiedTime: 1727317496449
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 22700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: F51r3kUK9sI8380e
+_key: '!items!F51r3kUK9sI8380e'
+

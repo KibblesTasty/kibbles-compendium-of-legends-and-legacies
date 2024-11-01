@@ -1,0 +1,65 @@
+name: 'Hedge Rite: Potent Cantrip'
+type: feat
+img: icons/magic/acid/projectile-needles-salvo-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.86ZFvqSbfpummvxy
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 7th level Hedge Mage)</em></p>
+
+      <p>Your damaging cantrips affect even creatures that avoid the brunt of
+      the effect. When a creature succeeds on a saving throw against your
+      cantrip, the creature takes half the cantrip's damage (if any) but suffers
+      no additional effect from the cantrip.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 7
+  identifier: hedge-rite-potent-cantrip
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.86ZFvqSbfpummvxy
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317497688
+  modifiedTime: 1727317497688
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 24700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: GNqGInK5jRtDMWWi
+_key: '!items!GNqGInK5jRtDMWWi'
+

@@ -1,0 +1,66 @@
+name: Elemental Avatar
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.vxEzFOmYr6VlZ7Hy
+system:
+  description:
+    value: >-
+      <p>At 17th level, You learn the <em>form of fire</em>,<em> form of
+      ice</em>, <em>form of stone</em>, and <em>form of water</em>, and <em>form
+      of wind</em> spells. You can cast them by expending 6 ki points.</p>
+
+      <p>Additionally, you can activate all of them at the same time, casting
+      <em>form of the elements</em> without expending a spell slot or ki points.
+      Once you do so, you cannot do so again until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Four Elements 17
+  identifier: elemental-avatar
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.vxEzFOmYr6VlZ7Hy
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516518
+  modifiedTime: 1727317516518
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 54900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: i4V1R57gFFAWDsjy
+_key: '!items!i4V1R57gFFAWDsjy'
+

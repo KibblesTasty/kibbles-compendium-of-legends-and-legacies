@@ -1,0 +1,56 @@
+name: 'Aegis Effect: Illusionary Ally'
+type: feat
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+system:
+  description:
+    value: >-
+      <p>When you roll initiative, you create a single duplicate as per the
+      mirror image spell. You can only have one duplicate at a time from this
+      effect. If you cast mirror image during the effect, the spell remains the
+      same, but the first time an image is lost, this duplicate is destroyed
+      instead.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 5
+  identifier: aegis-effect-illusionary-ally
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.yGWoFpig9xKmbGQh
+_stats:
+  compendiumSource: Item.yGWoFpig9xKmbGQh
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317494502
+  modifiedTime: 1727317494502
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 19600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: CHRSXbJrDnKK6NYA
+_key: '!items!CHRSXbJrDnKK6NYA'
+

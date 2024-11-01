@@ -1,0 +1,66 @@
+name: Iron Carapace
+type: feat
+img: icons/equipment/chest/breastplate-layered-steel-grey.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you can use your power to morph and adapt heavy
+      armor you are wearing. As an action, you can reconfigure your armor,
+      selecting one of the following options.</p><ul><li><p><strong>Reinforced
+      Carapace.</strong> Your armor AC while wearing heavy armor increases by
+      1.</p></li><li><p><strong>Regenerating Carapace.</strong> At the end of
+      each of your turns, you restore any damage it has taken, restoring its
+      original AC value. Any pieces that have been removed before regeneration
+      rust away to nothing. If you are wearing no armor, you can use this
+      feature to create a set of common heavy armor (which is automatically
+      equipped). Armor created this way rusts away to nothing when
+      removed.</p></li><li><p><strong>Spiked Carapace.</strong> When a creature
+      hits you with a melee weapon attack while within 5 feet or attempts to
+      grapple you, they take [[/r 1d4]] piercing damage. The damage increases to
+      2d4 when you reach 14th level.</p></li></ul><p>The effect lasts until you
+      select another effect, or end the effect as a bonus action.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ironbound 7
+  identifier: iron-carapace
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.W0KK6psDlY2R0EvI
+_stats:
+  compendiumSource: Item.W0KK6psDlY2R0EvI
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317503550
+  modifiedTime: 1727317503550
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 34200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: PcoDkTG7Xq0SGb7g
+_key: '!items!PcoDkTG7Xq0SGb7g'
+

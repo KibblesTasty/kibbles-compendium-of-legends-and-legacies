@@ -1,0 +1,67 @@
+name: Cut the Weave (3 Ki)
+type: feat
+img: icons/skills/melee/strike-blade-scimitar-green-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0vRs1I0ANv5ovy62
+system:
+  description:
+    value: >-
+      <p><em>(6th level required)</em></p>
+
+      <p>You cast @Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dispel Magic} with
+      a range of 5 feet. Alternatively, as an attack as part of the attack
+      action, you can attempt to open a 5-foot by 5-foot hole a magical barrier,
+      lasting until the start of your next turn. Make a weapon attack treating
+      the magical effect as having an AC equal to the spell casters spell DC
+      (your DM determines what magical barriers this might work on).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 6
+  identifier: cut-the-weave-3-ki
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.0vRs1I0ANv5ovy62
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317517097
+  modifiedTime: 1727317517097
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 55800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: inhgd05RrKVIu4bQ
+_key: '!items!inhgd05RrKVIu4bQ'
+

@@ -1,0 +1,66 @@
+name: Untouchable Presence
+type: feat
+img: icons/magic/holy/barrier-shield-winged-cross.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Sz0NTrNrOGtJ9eaz
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, you are under the effect of
+      @Compendium[dnd5e.spells.gvdA9nPuWLck4tBl]{Sanctuary} spell. This effect
+      ends as normal if you take an action that would break it, but returns at
+      the start of your next turn.</p>
+
+      <p>The spell save DC for this spell is 8 + your Charisma modifier + your
+      Proficiency bonus.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 15
+  identifier: untouchable-presence
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Sz0NTrNrOGtJ9eaz
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317492190
+  modifiedTime: 1727317492190
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 16200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 9K17LU9NzNKRKIq5
+_key: '!items!9K17LU9NzNKRKIq5'
+

@@ -1,0 +1,69 @@
+name: Stonewalk
+type: feat
+img: icons/magic/movement/trail-streak-impact-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.8GCEND84Nak8WzJ6
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, you gain a burrowing speed of 15 feet, allowing
+      you to travel through the earth. You can pass through soil and stone, but
+      when you pass through stone you leave no hole behind you, becoming one
+      with it and passing through. If you would end your turn inside of stone,
+      you get pushed to where you entered the stone surface.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneheart 14
+  identifier: stonewalk
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.8GCEND84Nak8WzJ6
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317519860
+  modifiedTime: 1727317519860
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 60500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: nJ9yBKIDpW89v2J8
+_key: '!items!nJ9yBKIDpW89v2J8'
+

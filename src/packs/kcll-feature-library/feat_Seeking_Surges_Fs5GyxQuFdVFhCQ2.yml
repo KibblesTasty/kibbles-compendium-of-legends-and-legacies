@@ -1,0 +1,66 @@
+name: Seeking Surges
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.DiAtzizSmqnsNJ9n
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, when you expend an Arcane Surge, you can add
+      your Intelligence modifier to your next attack roll.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Arcane Archer 15
+  identifier: seeking-surges
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.DiAtzizSmqnsNJ9n
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317497056
+  modifiedTime: 1727317497056
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 23600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Fs5GyxQuFdVFhCQ2
+_key: '!items!Fs5GyxQuFdVFhCQ2'
+

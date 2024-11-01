@@ -1,0 +1,206 @@
+name: Gigantification
+type: feat
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects:
+  - _id: jSKLH1YAjgfccAfk
+    changes:
+      - key: system.bonuses.mwak.damage
+        mode: 2
+        value: +1d8
+        priority: 20
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '+20'
+        priority: 20
+      - key: system.traits.size
+        mode: 5
+        value: huge
+        priority: 50
+    disabled: true
+    duration:
+      rounds: 1
+      startTime: null
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.G6XoWLGp8WEzUAzr
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Gigantification
+    img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!WveuRGVdQ6T2fr9y.jSKLH1YAjgfccAfk'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.G6XoWLGp8WEzUAzr
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, as a bonus action or when you manifest your
+      bestial claws, you can unleash the bestial power within swelling to
+      massive size. You become Large or Huge (your choice) for 1 minute. Upon
+      transforming, you gain temporary hit points equal to half of your maximum
+      hit points. For the duration of your transformation, you gain the
+      following benefits:</p>
+
+      <ul>
+
+      <li>Your natural weapons deal an additional die of damage.</li>
+
+      <li>You have advantage on all grappling checks against creatures smaller
+      than you.</li>
+
+      <li>Your reach increases by 5 feet with all weapons.</li>
+
+      <li>Your movement speed increases by 20 feet.</li>
+
+      <li>The distance you can long or high jump with a running start.</li>
+
+      <li>You have advantage on Strength and Constitution saving throws.</li>
+
+      </ul>
+
+      <p>Additionally while in this form, when you make an attack, you can throw
+      medium or small objects or creatures you are holding with a range of
+      50/100. On hit, both the target and the thrown creature or object takes
+      3d6 + your Strength modifier damage.</p>
+
+      <p>Once you use this feature, you cannot use it again until you complete a
+      long rest.</p>
+    chat: ''
+  source:
+    custom: Beasthide
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Beasthide 17
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: gigantification
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.G6XoWLGp8WEzUAzr
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317508419
+  modifiedTime: 1727317508419
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 42000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: WveuRGVdQ6T2fr9y
+_key: '!items!WveuRGVdQ6T2fr9y'
+

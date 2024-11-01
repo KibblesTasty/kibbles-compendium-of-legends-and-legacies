@@ -1,0 +1,61 @@
+name: Iron Monolith
+type: feat
+img: icons/equipment/chest/breastplate-helmet-metal.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, as an action you can empower yourself for 1
+      minute. You gain the following benefits:</p><ul><li><p>Metal weapons are
+      carrying grow larger and more powerful, increasing their damage by 1d8
+      while you wield them.</p></li><li><p>You can generate an unlimited number
+      of chains with Binding Interdiction, and they no longer have any size
+      limit on what they can restrain.</p></li><li><p>You are immune to any
+      effect that would move you against your will or knock you
+      prone.</p></li><li><p>You gain resistance to bludgeoning, piercing, and
+      slashing damage.</p></li></ul><p>Once you use this ability, you cannot use
+      it again until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ironbound 17
+  identifier: iron-monolith
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.xg3PTWbepOqflPCA
+_stats:
+  compendiumSource: Item.xg3PTWbepOqflPCA
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317486857
+  modifiedTime: 1727317486857
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 8000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 2iiomt4yjQcUkahn
+_key: '!items!2iiomt4yjQcUkahn'
+

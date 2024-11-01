@@ -1,0 +1,69 @@
+name: Dancer's Dodge
+type: feat
+img: icons/skills/movement/ball-spinning-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EZPGqph63azloW2Y
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, when you take the Dodge action while you are not
+      wearing armor or carrying a shield, you can use Distract, Helpful Word,
+      Urgent Orders, or Rallying Mark without expending a leadership die. When
+      you do so, it applies as if you had spent 1 leadership die on it for its
+      effect.</p>
+
+      <p>Additionally, when you take the Dodge action, you can expend leadership
+      dice to grant enough attacks through Battlefield Presence. You can grant a
+      number of attacks equal to the leadership dice spent, up to your per turn
+      limit.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 3
+  identifier: dancers-dodge
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.EZPGqph63azloW2Y
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317498137
+  modifiedTime: 1727317498137
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 25400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: HcYVNplmX3ILOjib
+_key: '!items!HcYVNplmX3ILOjib'
+

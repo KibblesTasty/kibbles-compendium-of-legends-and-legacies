@@ -1,0 +1,66 @@
+name: 'Shaman Rite: Radiate Power'
+type: feat
+img: icons/creatures/abilities/cougar-roar-rush-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.lLwq2JDuKkuOywEt
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 15th-level Occultist</em></p>
+
+      <p>While you have a spirit bonded to you, as a bonus action you can cause
+      it to emanate power, causing all creatures within 5 feet of you (or it if
+      it is manifested at another location) to make a Wisdom saving throw
+      against your spell save DC, or take damage equal to its manifested
+      damage.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 15
+  identifier: shaman-rite-radiate-power
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.lLwq2JDuKkuOywEt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317489171
+  modifiedTime: 1727317489171
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 11500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 5s8irEyZUFhevE3M
+_key: '!items!5s8irEyZUFhevE3M'
+

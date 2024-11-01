@@ -1,0 +1,54 @@
+folder: null
+name: 'Spiritualist Rite: Controlled Convulsion'
+type: feat
+img: icons/creatures/magical/humanoid-silhouette-glowing-pink.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 5th level Spiritualist)</em></p><p>When your
+      Malignant Possession causes the attacker to miss the target with a melee
+      attack, you can redirect the attack to another creature within range of
+      the attack. The new attack makes a new attack roll.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spiritualist 5
+  identifier: spiritualist-rite-controlled-convulsion
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317491632
+  modifiedTime: 1727317491632
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: 8rtxUFdu3x1iFMFM
+sort: 800000
+_key: '!items!8rtxUFdu3x1iFMFM'
+

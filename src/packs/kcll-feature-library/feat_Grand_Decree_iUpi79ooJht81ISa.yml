@@ -1,0 +1,66 @@
+name: Grand Decree
+type: feat
+img: icons/magic/control/control-influence-crown-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.cPfHSjHuD57QP8ay
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, you can use this ability to cast command
+      without expending a spell slot or Leadership Dice. When you do so, the
+      spell affects all creatures of your choice within range that could be
+      affected by the spell.</p>
+
+      <p>Once you cast command using this ability, you cannot cast it using this
+      ability again until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 18
+  identifier: grand-decree
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.cPfHSjHuD57QP8ay
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516742
+  modifiedTime: 1727317516742
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 55200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: iUpi79ooJht81ISa
+_key: '!items!iUpi79ooJht81ISa'
+

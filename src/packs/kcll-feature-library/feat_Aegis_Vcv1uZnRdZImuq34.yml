@@ -1,0 +1,83 @@
+name: Aegis
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
+system:
+  description:
+    value: >-
+      <p style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally at 2nd level, you
+      start to form a magical Aegis that enhances your physical powers with
+      magical powers, blending them together. You can select one 1st level Aegis
+      effect (listed at the end of the class) and gain the effects.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you complete a long rest, you
+      can change your selected 1st level Aegis effect or further boost your
+      Aegis by sacrificing spell slots, granting magical empowerments that last
+      until you complete your next long rest. When you do so, select an
+      additional Aegis Effect (listed at the end of the class document) and
+      expend the listed level of spell slot.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You can expend a maximum number of
+      spell levels this way equal to your Spellblade level divided by four
+      (rounded up).</span></p>
+    chat: ''
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  activities: {}
+  identifier: aegis
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: false
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.zjy6FJy1rZ3GI5nN
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+_stats:
+  compendiumSource: Item.zjy6FJy1rZ3GI5nN
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317507483
+  modifiedTime: 1727317507483
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 40500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Vcv1uZnRdZImuq34
+_key: '!items!Vcv1uZnRdZImuq34'
+

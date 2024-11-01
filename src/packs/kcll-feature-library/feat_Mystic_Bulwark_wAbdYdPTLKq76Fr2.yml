@@ -1,0 +1,69 @@
+name: Mystic Bulwark
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.d8g5Wd9FRe2xn2pa
+system:
+  description:
+    value: >-
+      <p>When you don light or medium armor, you can enhance it with mystical
+      defenses, integrating it with manifestations of your primal bond (for
+      example, an Elemental Soul may manifest icy plating to reinforce it). When
+      you do so, you can use your Wisdom modifier in place of your Dexterity
+      modifier when calculating your AC with that armor.</p>
+
+      <p>While you have your armor integrated with your primal power, when you
+      take bludgeoning, piercing, or slashing damage, you can reduce the damage
+      taken by 2. This value increases at 5th level (to 3), 9th level (to 4),
+      and 13th level (to 5), and 17th level (to 6).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 1
+  identifier: mystic-bulwark
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.d8g5Wd9FRe2xn2pa
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317525809
+  modifiedTime: 1727317525809
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 70600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: wAbdYdPTLKq76Fr2
+_key: '!items!wAbdYdPTLKq76Fr2'
+

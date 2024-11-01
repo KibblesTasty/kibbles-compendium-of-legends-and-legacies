@@ -1,0 +1,65 @@
+name: Gravitational Pull
+type: feat
+img: icons/magic/control/silhouette-fall-slip-prone.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Vy3rpISo439l6dEp
+system:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, when you take the Attack action on your
+      turn, you can replace one of your attacks with a surge of gravitational
+      force. A Large or smaller creature of your choice within 60 feet of you
+      must make a Strength saving through a DC of 8 + your Strength modifier +
+      your proficiency bonus. On failure, they are pulled 15 feet toward you or
+      knocked prone (your choice). Flying creatures are pulled tice as far.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneblood 3
+  identifier: gravitational-pull
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Vy3rpISo439l6dEp
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317511923
+  modifiedTime: 1727317511923
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 47500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: byZNKunuWS7V8Mfs
+_key: '!items!byZNKunuWS7V8Mfs'
+

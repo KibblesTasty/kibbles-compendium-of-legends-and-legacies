@@ -1,0 +1,64 @@
+name: Warlord Presences
+type: feat
+img: icons/sundries/flags/banner-flag-red-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.81xNiWA24Wdd8ipv
+system:
+  description:
+    value: >-
+      <p>At 1st level, you pick the archetype of Warlord you embody, called a
+      Presence, choosing from Commander, Chieftain, Noble, Packleader, Paragon
+      or Tactician, each of which are detailed at the end of the class
+      description. Your choice grants you features at 1st level, and again at
+      3rd, 7th, 11th, 15th, and 18th level.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warlord 1
+  identifier: warlord-presences
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.81xNiWA24Wdd8ipv
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317526630
+  modifiedTime: 1727317526630
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 71900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: xVPuKWIgNVZS9MsV
+_key: '!items!xVPuKWIgNVZS9MsV'
+

@@ -1,0 +1,62 @@
+name: Crushing Grasp
+type: feat
+img: icons/magic/nature/root-vine-entangled-hand.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ts0LZEjYy4l4CJJi
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, any creature grappled or restrained by you (by
+      a grapple or a spell such as entangle) takes [[/r 2d6]] bludgeoning damage
+      at the start of their turn as your grasp crushes it.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of the Ancients 14
+  identifier: crushing-grasp
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.ts0LZEjYy4l4CJJi
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317514246
+  modifiedTime: 1727317514246
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 51100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: eyS9sSiYrAb5JMd2
+_key: '!items!eyS9sSiYrAb5JMd2'
+

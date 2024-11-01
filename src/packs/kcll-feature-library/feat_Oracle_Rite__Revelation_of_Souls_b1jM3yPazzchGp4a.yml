@@ -1,0 +1,71 @@
+name: 'Oracle Rite: Revelation of Souls'
+type: feat
+img: icons/magic/death/undead-ghost-scream-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LznScnyunIFihVWj
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: Mystery of Souls</em></p>
+
+      <p>The souls of the departed are all around. When you cast a spell of 1st
+      level or higher, you can conjure a benevolent spirit or a tormented spirit
+      to empty space you can see within 30 feet, filling a 5 foot cube.</p>
+
+      <p>The first creature to enter the spirit's space or end their turn within
+      the spirit's space gains a number of hit points equal to 1d4 + the level
+      of the spell if you summoned a benevolent spirit, or takes damage equal to
+      1d4 + the level of the spell if the spirit was a tormented one. A spell
+      can only trigger one revelation. If multiple revelations apply, choose
+      one.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 2
+  identifier: oracle-rite-revelation-of-souls
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.LznScnyunIFihVWj
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317511064
+  modifiedTime: 1727317511064
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 46000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: b1jM3yPazzchGp4a
+_key: '!items!b1jM3yPazzchGp4a'
+

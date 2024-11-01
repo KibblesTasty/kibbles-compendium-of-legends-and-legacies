@@ -1,0 +1,57 @@
+name: Dragonhide
+type: feat
+img: icons/commodities/leather/scales-brown.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 10th level,
+      the marks of your Draconic path no longer entirely fade when you are not
+      raging, and heavy scales grant you resistance to bludgeoning, piercing,
+      and slashing damage from nonmagical sources even when you are not raging.
+      Additionally, you gain resistance to your Dragon Color's Elemental Type
+      when not raging.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Path of the Dragon 10
+  identifier: dragonhide
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.9FXh6b9BLf3UHBNt
+_stats:
+  compendiumSource: Item.9FXh6b9BLf3UHBNt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317520778
+  modifiedTime: 1727317520778
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 62100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: nwAwgt8i41n1dQZZ
+_key: '!items!nwAwgt8i41n1dQZZ'
+

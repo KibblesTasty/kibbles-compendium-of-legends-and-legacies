@@ -1,0 +1,69 @@
+name: 'Witch Rite: Witch''s Hat'
+type: feat
+img: icons/equipment/head/hat-pointed-leather-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.iwPuEBUkKCIV4H5R
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>You invest some of your magic, turning a hat (traditionally a floppy
+      wide brimmed black witch's hat) into a hat of disguise. If your hat is
+      lost or destroyed, you can create a new one with 2 hours of work. If a
+      previous hat still exists when you make a new one, it loses its magic upon
+      the completion of the new one.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  identifier: witch-rite-witchs-hat
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.iwPuEBUkKCIV4H5R
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317519525
+  modifiedTime: 1727317519525
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 59900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: mxGB3NGRCKWTb5ig
+_key: '!items!mxGB3NGRCKWTb5ig'
+

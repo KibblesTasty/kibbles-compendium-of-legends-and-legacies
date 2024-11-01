@@ -1,0 +1,152 @@
+name: Arcane Surge
+type: feat
+img: icons/magic/fire/explosion-flame-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+        resource: true
+      altValue:
+        use: true
+        resource: true
+  core:
+    sourceId: Item.F2lbzXc6BeK9WcgN
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    consumeUses:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 2
+system:
+  description:
+    value: >-
+      <p>Your affinity for magic gives you a pool of arcane surges. Once during
+      your turn, you can expend a use of Arcane Surge to do any of the
+      following:</p><ul><li><p>Cast detect magic without expending a spell
+      slot.</p></li><li><p>Gain advantage on an attack roll (no action
+      required).</p></li><li><p>Add your Intelligence modifier to a Strength or
+      Dexterity ability check (no action required).</p></li><li><p>Teleport up 5
+      feet to an unoccupied space you can see (no action required). This
+      distance increases by 5 at 5th (10 feet), 9th (15 feet), and 13th (20
+      feet), and 17th (25 feet) level.</p></li></ul><p>You can use this feature
+      a number of times equal to your Proficiency bonus. You can regain expended
+      uses when you complete a short or long rest. As you level, you may gain
+      additional uses for your arcane surges, but can still only spend a single
+      use of Arcane Surge a turn.</p>
+    chat: ''
+  source:
+    custom: Spellblade
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '@prof'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: arcane-surge
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.F2lbzXc6BeK9WcgN
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317491753
+  modifiedTime: 1727317491753
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 15500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 8z1ZumnpUGIVnxqi
+_key: '!items!8z1ZumnpUGIVnxqi'
+

@@ -1,0 +1,67 @@
+name: Bewildering Steps
+type: feat
+img: icons/equipment/feet/shoes-simple-leaf-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.IqtAMDh6EvcNnV9J
+system:
+  description:
+    value: >-
+      <p>You gain an additional use of leadership dice.</p>
+
+      <h3><strong>Distract</strong></h3>
+
+      <p>As a bonus action, you attempt to distract a creature within 30 feet.
+      Until the start of its next turn, if that creature attacks a creature
+      other than you while you are within range of its attack, you can roll your
+      leadership die and subtract it from their attack.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 3
+  identifier: bewildering-steps
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.IqtAMDh6EvcNnV9J
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317518529
+  modifiedTime: 1727317518529
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 58200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: lSx0vTpkR57t1Nki
+_key: '!items!lSx0vTpkR57t1Nki'
+

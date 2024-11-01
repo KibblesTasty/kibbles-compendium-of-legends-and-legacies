@@ -1,0 +1,65 @@
+name: Keen Pointer
+type: feat
+img: icons/skills/targeting/target-strike-triple-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.68Uw2JlwcII1xwET
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can take the Helpful Word bonus action
+      without expending a Leadership Die if you are within 5 feet of the
+      creature you are taking the Help action against.</p>
+
+      <p>When you do so, you can expend Leadership Dice to apply Rallying Mark
+      to the creature you are targeting with this Help action.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Commander 3
+  identifier: keen-pointer
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.68Uw2JlwcII1xwET
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317519963
+  modifiedTime: 1727317519963
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 60700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: nX26heQMuBEF5iRb
+_key: '!items!nX26heQMuBEF5iRb'
+

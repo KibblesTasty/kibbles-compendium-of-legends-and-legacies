@@ -1,0 +1,59 @@
+name: Improvised Resources
+type: feat
+img: icons/skills/trades/textiles-cloth-dye-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.lYKRdNSXvV1eX70j
+system:
+  description:
+    value: "<p>Starting at 3rd level, you excel at making due with whatever you can get your hands on. During a long rest, you can create two healing potions, 1st level scrolls (selecting a spell from the Druid or Wizard list), or adventuring gear items worth less than 5 gold pieces each assembled out of miscellaneous items you pick during the day.</p>\n<p>\_</p>\n<p>Any scroll or potion created this way expires if not used by the next time you complete a long rest. You can cast scrolls created this way without a check, as if the scroll was on your spell list. If a scroll requires a spell casting modifier, you use your Intelligence or Wisdom (or choice). Scrolls created this way cannot be copied or used in crafting.</p>\n<p>The number of items you can create this way increases to 3 items at 9th level, and 4 items at 15th level. The quality of items you can create increases at 7th level, 10th level, 13th level, and 16th level as shown on the table below.</p>\n<table style=\"width:100%;height:112px\" border=\"1\">\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\"><strong>Level</strong></td>\n<td style=\"width:38.7097%;height:16px;text-align:center\"><strong>Improvised Potion</strong></td>\n<td style=\"width:24.8139%;height:16px;text-align:center\"><strong>Scroll Level</strong></td>\n<td style=\"width:23.0769%;height:16px;text-align:center\"><strong>Item Value</strong></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">3rd</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">@Compendium[dnd5e.items.ytlsBjYsZ7OBSEBs]{Potion of Healing}</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">1st Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">5 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">7th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">@Compendium[dnd5e.items.L887NdWEP5NqHCrQ]{Potion of Greater Healing}</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">2nd Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">10 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">10th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">Any Uncommon Potion</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">3rd Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">30 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">13th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">@Compendium[dnd5e.items.5m9ErO9In8Uc5yyf]{Potion of Superior Healing}</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">3rd Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">40 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">16th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">Any Rare Potion</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">3rd Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">50 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">19th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">@Compendium[dnd5e.items.JFiSlgcm3uSSBM5t]{Potion of Supreme Healing}</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">4th Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">60 gp</td>\n</tr>\n</tbody>\n</table>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Adventurer 3
+  identifier: improvised-resources
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.lYKRdNSXvV1eX70j
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317515307
+  modifiedTime: 1727317515307
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 52900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: gJsQ8SInPzCKUe5S
+_key: '!items!gJsQ8SInPzCKUe5S'
+

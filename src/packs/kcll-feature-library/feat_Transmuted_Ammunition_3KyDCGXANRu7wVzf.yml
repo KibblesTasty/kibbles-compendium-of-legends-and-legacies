@@ -1,0 +1,65 @@
+name: Transmuted Ammunition
+type: feat
+img: icons/magic/light/beam-rays-blue-large.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0L4gResFFce3RbIK
+system:
+  description:
+    value: >-
+      <p>Additionally at 7th level, when you infuse a spell with range of self
+      (line area of effect), you can transmute your ammunition into the spell
+      effect, releasing the spell in a line from you as if you had cast it, but
+      using your Strength or Dexterity modifier (your choice) in place of your
+      Intelligence modifier for the spell save DC. When you do this, you add
+      your weapon damage (including modifier) to the spell's damage roll.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Arcane Archer 7
+  identifier: transmuted-ammunition
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.0L4gResFFce3RbIK
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317487303
+  modifiedTime: 1727317487303
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 8600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 3KyDCGXANRu7wVzf
+_key: '!items!3KyDCGXANRu7wVzf'
+

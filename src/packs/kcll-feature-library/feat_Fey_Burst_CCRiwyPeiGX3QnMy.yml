@@ -1,0 +1,156 @@
+name: Fey Burst
+type: feat
+img: icons/magic/light/hand-sparks-smoke-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.vO0apnvYcuIcJSHE
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 2
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, your patron bestows upon the ability to draw on
+      dazzling fey magic, using it to boost your abilities or unleashing it
+      small bursts.</p>
+
+      <ul>
+
+      <li>When you hit a creature with an attack roll, you can expend one use to
+      cause it glow with colorful lights with the effect of faerie fire until
+      the start of your next turn.</li>
+
+      <li>You can project a supernatural aura bolstering your presence and
+      presentation to give yourself advantage on Persuasion, Intimidation, or
+      Performance ability check.</li>
+
+      <li>As an action, you can cause each creature in a 10-foot cube
+      originating from you to make a Wisdom saving throw against your warlock
+      spell save DC. The creatures that fail their saving throws are all charmed
+      or frightened by you (your choice) until the end of your next turn.</li>
+
+      <li>Create a glamour, casting disguise self without expending a spell
+      slot.</li>
+
+      </ul>
+
+      <p>You can use this ability a number of times equal to your proficiency
+      bonus, and regain all expended uses when you finish a long rest.</p>
+    chat: ''
+  source:
+    custom: The Fey
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '@prof'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Fey
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: fey-burst
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.vO0apnvYcuIcJSHE
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317494438
+  modifiedTime: 1727317494438
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 19500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: CCRiwyPeiGX3QnMy
+_key: '!items!CCRiwyPeiGX3QnMy'
+

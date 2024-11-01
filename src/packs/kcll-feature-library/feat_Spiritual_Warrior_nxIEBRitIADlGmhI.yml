@@ -1,0 +1,62 @@
+name: Spiritual Warrior
+type: feat
+img: icons/weapons/polearms/spear-flared-silver-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ne7shyohb0gBvZow
+system:
+  description:
+    value: >-
+      <p>When you select this subclass, you gain proficiency in simple weapons,
+      medium armor and shields. Additionally, your hit point maximum increases
+      by 1 and increases by 1 again whenever you gain a level in this class.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 1
+  identifier: spiritual-warrior
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.ne7shyohb0gBvZow
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317520830
+  modifiedTime: 1727317520830
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 62200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: nxIEBRitIADlGmhI
+_key: '!items!nxIEBRitIADlGmhI'
+

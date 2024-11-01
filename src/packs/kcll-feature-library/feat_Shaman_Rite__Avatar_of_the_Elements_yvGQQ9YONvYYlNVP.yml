@@ -1,0 +1,100 @@
+name: 'Shaman Rite: Avatar of the Elements'
+type: feat
+img: icons/magic/lightning/bolt-strike-explosion-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.bb3S5sNGZDOeEK0b
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 11th level Shaman</em></p>
+
+      <p>You learn the investiture of fire, investiture of ice, and investiture
+      of stone spells. These are Occultist spells for you. When you cast one of
+      these spells, you can choose to shorten the duration of the spell to 1
+      minute. When you do so, these spells do not require concentration.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 11
+  recharge:
+    value: null
+    charged: false
+  identifier: shaman-rite-avatar-of-the-elements
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1678742384521
+  modifiedTime: 1727317483395
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.bb3S5sNGZDOeEK0b
+  duplicateSource: null
+folder: null
+sort: 73300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: yvGQQ9YONvYYlNVP
+_key: '!items!yvGQQ9YONvYYlNVP'
+

@@ -1,0 +1,56 @@
+name: Point Blank
+type: feat
+img: icons/magic/fire/flame-burning-fist-strike.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, when you use Spellstrike while grappling a
+      target, you can instead infuse the target with the spell, treating the
+      spell as if you'd automatically hit an infused attack. The target can
+      still save against effects beyond damage, but any saving throw is made
+      with disadvantage.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellfist 7
+  identifier: point-blank
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.8gDVC9tBwLsMC4QN
+_stats:
+  compendiumSource: Item.8gDVC9tBwLsMC4QN
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317521147
+  modifiedTime: 1727317521147
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 62700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ohQwNzE3uD4XFqg6
+_key: '!items!ohQwNzE3uD4XFqg6'
+

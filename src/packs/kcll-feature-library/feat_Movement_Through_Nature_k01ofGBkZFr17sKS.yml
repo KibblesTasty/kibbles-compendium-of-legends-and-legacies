@@ -1,0 +1,63 @@
+name: Movement Through Nature
+type: feat
+img: icons/magic/nature/plant-undersea-glow-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.UET8SUS3kpnqQsFe
+system:
+  description:
+    value: >-
+      <p>Additionally at 15th level, you gain your choice of a climbing speed
+      equal to your walking speed, a swimming speed equal to your walking speed,
+      or borrowing speed equal to half your movement speed. When you burrow, you
+      leave behind a tunnel equal to your size.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 15
+  identifier: movement-through-nature
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.UET8SUS3kpnqQsFe
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317517833
+  modifiedTime: 1727317517833
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 57000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: k01ofGBkZFr17sKS
+_key: '!items!k01ofGBkZFr17sKS'
+

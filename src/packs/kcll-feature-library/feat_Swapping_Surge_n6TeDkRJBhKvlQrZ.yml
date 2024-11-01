@@ -1,0 +1,69 @@
+name: Swapping Surge
+type: feat
+img: icons/magic/control/energy-stream-link-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.QH9Ps1eq5ackA5kG
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, when you use your Arcane Surge to teleport, you
+      can instead swap positions with a willing creature within range,
+      teleporting to their space and teleporting them to your space. When you do
+      so, both you and them gain the temporary hit points from Fortifying
+      Surges.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guardian 15
+  identifier: swapping-surge
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.QH9Ps1eq5ackA5kG
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317519751
+  modifiedTime: 1727317519751
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 60300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: n6TeDkRJBhKvlQrZ
+_key: '!items!n6TeDkRJBhKvlQrZ'
+

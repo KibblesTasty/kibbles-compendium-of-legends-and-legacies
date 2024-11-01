@@ -1,0 +1,293 @@
+name: Spellshot
+type: subclass
+img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
+effects: []
+flags:
+  core:
+    sourceId: Item.SMDhw6znaRmUwaKi
+system:
+  description:
+    value: >-
+      <h3 data-anchor="spellshot"
+      style="box-sizing:border-box;user-select:text;margin:0px 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Spellshot</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Te lone option able to use their
+      Spellstrike at range, the Spellshot gets a lot of freedom in position and
+      target selection, able to flex their powers across the battlefield raining
+      death from afar, and ever farther their talent grows.</span></p><h4
+      data-anchor="spellshot-spellblade-spells"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif"><strong>Spellshot
+      Spells</strong></span></h4><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You learn the following spells at
+      the following levels. The following are Spellblade spells for you, but do
+      not count against your spells known.</span></p><table
+      style="box-sizing:border-box;user-select:text;width:451px;border-collapse:collapse;background:rgba(0,
+      0, 0, 0.05);border-top:1px solid
+      var(--color-border-light-tertiary);border-bottom:1px solid
+      var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><thead
+      style="box-sizing:border-box;user-select:text;background:rgba(0, 0, 0,
+      0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px
+      var(--color-shadow-dark);border-bottom:1px solid
+      var(--color-border-dark)"><tr
+      style="box-sizing:border-box;user-select:text"><th id="spellblade_level"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Spellblade Level</span></th><th id="spells_learned"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Spells Learned</span></th></tr></thead><tbody
+      style="box-sizing:border-box;user-select:text"><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3rd</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.jcsmfHD3S7QkzPbw]{Multishot}</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">5th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.dnd5e.spells.wqfAVANuQonNBgnL]{Misty
+      Step}</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">9th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.dnd5e.spells.IyikgTEOTv701jgQ]{Lightning
+      Bolt}</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">13th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.dnd5e.spells.tEpDmYZNGc9f5OhJ]{Greater
+      Invisibility}</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">17th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.RY8wvL8hhn0XKMh5]{Pressure
+      Cutter}</span></td></tr></tbody></table><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.IcOO0NoSC37rJUWX]{Spellshot
+      Spells}</p><h3 data-anchor="ranged-spellstrike"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Ranged Spellstrike</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 3rd level when you
+      select this archetype, you gain the ability to apply your Spellstrike to
+      pieces of ammunition as well as melee weapons, and can trigger the spell
+      strike on a ranged weapon attack made with the infused piece of
+      ammunition.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Spells infused into a ranged
+      weapon affect the target of the ranged weapon when fired, but only have a
+      range equal to the range of the spell or the normal range of the weapon
+      (whichever is shorter range). If you attack a target beyond that range,
+      the spell fails and is
+      lost.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.4VCPomDn5eCafTpN]{Ranged
+      Spellstrike}</p><h3 data-anchor="distant-surge"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Distant Surge</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 3rd level, you gain a
+      new option for your Arcane Surge feature.</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">When you infuse a spell into a
+      piece of ammunition with Spellstrike, you can expend an Arcane Surge to
+      increase that spell’s range to the range of weapon used to fire that piece
+      of
+      ammunition.</span></li></ul><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.dkJu3beGpfnp9W3v]{Distant
+      Surge}</p><h3 data-anchor="transmuted-ammunition"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Transmuted
+      Ammunition</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally at 7th level, when
+      you infuse a spell that targets a line, you can transmute your ammunition
+      into the spell effect, releasing the spell in a line from you as if you
+      had cast it, but using your Strength or Dexterity modifier (your choice)
+      in place of your Intelligence modifier for the spell save DC. When you do
+      this, you add your weapon damage (including modifier) to the spell's
+      damage
+      roll.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.3KyDCGXANRu7wVzf]{Transmuted
+      Ammunition}</p><h3 data-anchor="seeking-surges"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Seeking Surges</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 15th level, when you
+      expend an Arcane Surge, you can add your Intelligence modifier to your
+      next attack
+      roll.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Fs5GyxQuFdVFhCQ2]{Seeking
+      Surges}</p><h3 data-anchor="arcane-bolts"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Arcane Bolts</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally at 15th level, you
+      can always generate ammunition out of arcane force energy when you fire a
+      ranged weapon. When you do so, you consume no ammunition when firing an
+      ranged weapon with the ammunition property, and your weapon damage becomes
+      force
+      damage.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.yTZQjtOAK82rWBA4]{Arcane
+      Bolts}</p><h3 data-anchor="perfect-escape"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Perfect Escape</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 20th level, you can
+      become uncatchable for one minute (no action required). For the duration,
+      you have advantage on Dexterity saving throws, you are under the effect of
+      <em style="box-sizing:border-box;user-select:text">freedom of
+      movement</em>, and at the start of each of your turns you can teleport up
+      to 30 feet (no action required).</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Once you use this feature, you
+      cannot use it again until you complete a long
+      rest.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.f5X0tdUE8WlhLk6I]{Perfect
+      Escape}</p>
+    chat: ''
+    unidentified: ''
+  source: KCLL
+  identifier: spellshot
+  classIdentifier: spellblade
+  advancement:
+    - _id: tUr1TgR56tqVUIur
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.f5X0tdUE8WlhLk6I
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: ''
+      icon: ''
+    - _id: 3uCQJNLAxlRabrg3
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Fs5GyxQuFdVFhCQ2
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.yTZQjtOAK82rWBA4
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      icon: ''
+    - _id: eQqFplJ9zfJUDtAE
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.3KyDCGXANRu7wVzf
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: emt2LsTsJ7MUzwkx
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.4VCPomDn5eCafTpN
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.dkJu3beGpfnp9W3v
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.IcOO0NoSC37rJUWX
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '12.331'
+  createdTime: 1682023288613
+  modifiedTime: 1707857103942
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  compendiumSource: Item.SMDhw6znaRmUwaKi
+  duplicateSource: null
+folder: null
+sort: 0
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: AXAs07U3GLYUT3GA
+_key: '!items!AXAs07U3GLYUT3GA'
+

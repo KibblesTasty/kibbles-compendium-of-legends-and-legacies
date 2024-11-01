@@ -1,0 +1,54 @@
+name: 'Invocation: Corrosive Consumption'
+type: feat
+img: icons/creatures/slimes/slime-face-melting-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">You gain the ability to
+      subsist off any organic matter, and cannot become poisoned by things you
+      consume.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Ooze
+  identifier: invocation-corrosive-consumption
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.XMsSv4bfTOv3Aecr
+_stats:
+  compendiumSource: Item.XMsSv4bfTOv3Aecr
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317505819
+  modifiedTime: 1727317505819
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 37900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: TimHvwyCNQFQnWCW
+_key: '!items!TimHvwyCNQFQnWCW'
+

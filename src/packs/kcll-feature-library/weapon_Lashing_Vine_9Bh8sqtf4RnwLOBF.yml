@@ -1,0 +1,202 @@
+name: Lashing Vine
+type: weapon
+img: icons/magic/nature/root-vine-coiled-crook.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.5j095Jlu3IGvX1a8
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: "<p>A natural one handed melee weapon. Deals 1d6 slashing damage on hit, and has the Light, Reach, and Special Properties.</p>\n<p><strong>Special:\_</strong>This weapon has the following benefits:</p>\n<ul>\n<li>When you hit a creature with this weapon, you can attempt to initiate a grapple against that creature as a bonus action.</li>\n<li>You can make a grapple check with this weapon targeting a Large or smaller creature you are currently grappling with it. On success, the creature is restrained while grappled by it.</li>\n<li>You can grapple creatures with this weapon with a reach equal to the weapon's reach. If a creature more than 5 feet away from you is grappled or restrained by you with this weapon their movement is not reduced to zero, but they can only move toward you. Once they are within 5 feet of you, their movement speed becomes zero.</li>\n<li>You can attempt to grapple creatures up to two sizes larger than you when initiating a grapple with this weapon, but creatures two sizes larger than you have their movement speed reduced by half, rather than reduced to zero. If they move out of range of your grapple, you can choose to release them or be pulled along with their movement.</li>\n</ul>"
+    chat: ''
+  source:
+    custom: Elderheart
+    revision: 1
+    rules: '2014'
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: common
+  identified: true
+  cover: null
+  crewed: false
+  range:
+    value: 10
+    long: null
+    units: ft
+    reach: null
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  damage:
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 6
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  properties:
+    - lgt
+    - rch
+    - spc
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: natural
+    baseItem: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '10'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+  identifier: lashing-vine
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
+_stats:
+  compendiumSource: Item.5j095Jlu3IGvX1a8
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317492066
+  modifiedTime: 1727317492066
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 16000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 9Bh8sqtf4RnwLOBF
+_key: '!items!9Bh8sqtf4RnwLOBF'
+

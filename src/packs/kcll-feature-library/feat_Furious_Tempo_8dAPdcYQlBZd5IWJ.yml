@@ -1,0 +1,61 @@
+name: Furious Tempo
+type: feat
+img: icons/weapons/swords/sword-broad-serrated-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.jGB0W3eSuL4u6M2E
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, you can add your Charisma modifier to the
+      damage of attacks you make or grant through Battlefield Presence.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 11
+  identifier: furious-tempo
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.jGB0W3eSuL4u6M2E
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317491383
+  modifiedTime: 1727317491383
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 15000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 8dAPdcYQlBZd5IWJ
+_key: '!items!8dAPdcYQlBZd5IWJ'
+

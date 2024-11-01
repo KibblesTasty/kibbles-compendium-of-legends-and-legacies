@@ -1,0 +1,67 @@
+name: Stolen Techniques
+type: feat
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.n6uyJnqmVJzOyhN9
+system:
+  description:
+    value: >-
+      <p>At 6th level, you can learn one new 1st or 2nd level spell from the
+      Cleric, Bard, Druid, or Wizard spell list. The spell becomes an Occultist
+      spell for you, but does not count against your spells known.</p>
+
+      <p>Additionally, you can delve the rites of another tradition. You learn
+      one additional Occult Rite that does not count against your rites known.
+      This rite can be selected from any occultist subclass or from the general
+      Occultist Rites, but cannot be a rite with a prerequisite.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 6
+  identifier: stolen-techniques
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.n6uyJnqmVJzOyhN9
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317485374
+  modifiedTime: 1727317485374
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 5900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 0Z1uF8pSDn3e3xOA
+_key: '!items!0Z1uF8pSDn3e3xOA'
+

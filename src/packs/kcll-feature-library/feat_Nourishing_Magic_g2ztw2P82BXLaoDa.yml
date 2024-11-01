@@ -1,0 +1,101 @@
+name: Nourishing Magic
+type: feat
+img: icons/magic/nature/tree-twisted-glow-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.CONLpc4gApCiAUbG
+system:
+  description:
+    value: >-
+      <h3 id="druid-circle-circle-of-growth-nourishing-magic">Nourishing
+      Magic</h3>
+
+      <p>Starting at 14th level, whenever you trigger an effect of Verdant Power
+      your Sapling regains 1d10 hit points per level of spell slot spent, and
+      you can cause it to grow one size (up to a maximum of huge).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Growth 6
+  identifier: nourishing-magic
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.CONLpc4gApCiAUbG
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317515202
+  modifiedTime: 1727317515202
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 52700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: g2ztw2P82BXLaoDa
+_key: '!items!g2ztw2P82BXLaoDa'
+

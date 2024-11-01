@@ -1,0 +1,66 @@
+name: Bonus Cantrip
+type: feat
+img: icons/magic/light/beam-rays-orange-large.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.auPhF53yc49tLtXZ
+system:
+  description:
+    value: >-
+      <p>When you choose this domain at 1st level, you gain the sacred flame
+      cantrip if you don't already know it.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Judgement Domain 1
+  identifier: bonus-cantrip
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.auPhF53yc49tLtXZ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317522256
+  modifiedTime: 1727317522256
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 64500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: qG8lnbiNb5vwhzcT
+_key: '!items!qG8lnbiNb5vwhzcT'
+

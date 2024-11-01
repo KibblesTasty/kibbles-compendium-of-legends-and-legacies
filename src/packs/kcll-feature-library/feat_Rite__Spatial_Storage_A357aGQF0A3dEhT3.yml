@@ -1,0 +1,68 @@
+name: 'Rite: Spatial Storage'
+type: feat
+img: icons/containers/bags/satchel-worn-leather-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.xhpCFyE1Ry11Xr4I
+system:
+  description:
+    value: >-
+      <p>You can convert a pocket, ring, hat, or bag into a spatial storage
+      device, capable of carrying up 5 x your Occultist level lbs, with 0.5
+      cubic foot of storage space x your Occultist level. So, for example, a
+      level 5 Occultist can store things that would fit in a 2.5 cubic area
+      weighing up to 25 lbs in the storage. As an action, you can send an item
+      you are holding into the storage or retrieve an item from storage to your
+      hand.</p>
+
+      <p>If lost, you can recreate it over a short rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  identifier: rite-spatial-storage
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.xhpCFyE1Ry11Xr4I
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317492861
+  modifiedTime: 1727317492861
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 17200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: A357aGQF0A3dEhT3
+_key: '!items!A357aGQF0A3dEhT3'
+

@@ -1,0 +1,75 @@
+folder: null
+name: Void Gaze
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, as a bonus action you can unveil the void's
+      reflection within your eyes for 1 minute. When you unleash this power and
+      as a bonus action on each of your turns for 1 minute, you can direct this
+      power at a creature within 60 feet, with an effect depending on your
+      Eschatological Conclusion selection.</p><ul><li><p><strong>Conclusion of
+      Annihilation.</strong> Make a ranged spell attack. On hit, the target
+      takes 1d8 force
+      damage.</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.niCl9bOCthnSjmal]{Void
+      Gaze: Conclusion of Annihilation}</p></li><li><p><strong>Conclusion of
+      Madness.</strong> The target must make a Wisdom saving throw against your
+      spell save DC. On failure, the target takes 1d4 psychic damage and the
+      first attack against them before the start of your next turn has
+      advantage.</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Ep1rcS1dj3jPIAnj]{Void
+      Gaze: Conclusion of Madness}</p></li><li><p><strong>Conclusion of
+      Tranquility.</strong> The target gains 1d8 temporary hit
+      points.</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fWLNSArn7EzXArC5]{Void
+      Gaze: Conclusion of Tranquility}</p></li></ul><p>While this effect is
+      active, you gain the ability to see through both natural and magical
+      darkness as if it were bright light for a range of 60 feet, and are immune
+      to the blinded condition.</p><p>You can use this power a number of times
+      equal to your Wisdom modifier, but each time you use it again before
+      completing a short rest you must make a DC 10 Wisdom saving throw. On
+      failure, you become blinded until you complete a short or long rest. While
+      blinded in this way, you have a blindsight of 10 feet. You regain all uses
+      of the feature on a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Voidwatcher 3
+  identifier: void-gaze
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317517195
+  modifiedTime: 1727317517195
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: iqdK9UksAMgWnJdH
+sort: 3500000
+_key: '!items!iqdK9UksAMgWnJdH'
+

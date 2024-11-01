@@ -1,0 +1,63 @@
+name: 'Witch Rite: Witch''s Claws'
+type: feat
+img: icons/creatures/claws/claw-talons-glowing-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.U23r2pJpsx6oK5mP
+system:
+  description:
+    value: >-
+      <p>You learn the cantrip primal savagery. When you deal damage to a
+      creature with primal savagery, you can add your Wisdom modifier to the
+      damage dealt. At 6th level, when you hit with primal savagery you can
+      apply the effects of Witch's Touch.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  identifier: witch-rite-witchs-claws
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.U23r2pJpsx6oK5mP
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317524639
+  modifiedTime: 1727317524639
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 68800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ulS3nFYEFs6sCTEb
+_key: '!items!ulS3nFYEFs6sCTEb'
+

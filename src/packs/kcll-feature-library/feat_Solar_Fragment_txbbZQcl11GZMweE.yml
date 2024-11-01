@@ -1,0 +1,59 @@
+name: Solar Fragment
+type: feat
+img: icons/magic/light/explosion-star-glow-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you can cast the
+      @UUID[Compendium.dnd5e.spells.Bnn9Nzajixvow9xi]{Light} spell. Wisdom is
+      your spellcasting modifier for it. If you cast light on a simple melee
+      weapon you are wielding, the spell lasts as long as the weapon remains in
+      your possession, and the weapon deals fire or radiant damage (your choice)
+      instead of its normal damage type. The damage of a weapon under this
+      effect is increased by Warden abilities that increase the damage of your
+      natural weapons.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 1
+  identifier: solar-fragment
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.CJB7hFJKyUn6LCEn
+_stats:
+  compendiumSource: Item.CJB7hFJKyUn6LCEn
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317524170
+  modifiedTime: 1727317524170
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 67900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: txbbZQcl11GZMweE
+_key: '!items!txbbZQcl11GZMweE'
+

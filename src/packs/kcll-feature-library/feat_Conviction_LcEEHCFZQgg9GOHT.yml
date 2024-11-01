@@ -1,0 +1,61 @@
+name: Conviction
+type: feat
+img: icons/magic/holy/chalice-glowing-gold.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RBNcofgqGPcbcEJM
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, 1st level cleric spells you cast do not require
+      concentration to maintain unless cast at a higher level.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Divine Agent 17
+  identifier: conviction
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.RBNcofgqGPcbcEJM
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317500529
+  modifiedTime: 1727317500529
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 29300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: LcEEHCFZQgg9GOHT
+_key: '!items!LcEEHCFZQgg9GOHT'
+

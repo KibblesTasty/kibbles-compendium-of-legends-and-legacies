@@ -1,0 +1,143 @@
+name: Innate Magic (Beasthide)
+type: feat
+img: icons/creatures/abilities/paw-print-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.pRtXN8U24uTwHxYx
+system:
+  description:
+    value: >-
+      <p>Additionally when you select this bond, you gain access to several
+      innate magical abilities by channeling the power of your primal
+      connection.</p>
+
+      <p>You gain the following spells at the listed levels, and can cast each
+      spell once before without components or spell slots. Wisdom is your
+      spellcasting modifier for these spells. Once you cast a spell, you cannot
+      cast that spell again until you complete a long rest, or expend Endurance
+      Dice equal to the level of the spell to cast it again.</p>
+
+      <table style="width:100%;height:119px" border="1">
+
+      <tbody>
+
+      <tr style="height:17px">
+
+      <td style="width:29.7496%;height:17px;text-align:center"><strong>Warden
+      Level</strong></td>
+
+      <td style="width:69.0097%;height:17px;text-align:center"><strong>Innate
+      Spells (1/long rest each)</strong></td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:29.7496%;height:17px;text-align:center">1st</td>
+
+      <td
+      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{Speak
+      with Animals}</td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:29.7496%;height:17px;text-align:center">3rd</td>
+
+      <td
+      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.X8w9EzYLGc4vQ1H2]{Animal
+      Messenger}</td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:29.7496%;height:17px;text-align:center">5th</td>
+
+      <td
+      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{Alter
+      Self}</td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:29.7496%;height:17px;text-align:center">9th</td>
+
+      <td
+      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce}</td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:29.7496%;height:17px;text-align:center">13th</td>
+
+      <td
+      style="width:69.0097%;height:17px;text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.VI58xQOwPpMEuotg]{Mutate}</td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:29.7496%;height:17px;text-align:center">17th</td>
+
+      <td
+      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Beasthide 1
+  identifier: innate-magic-beasthide
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.pRtXN8U24uTwHxYx
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317522945
+  modifiedTime: 1727317522945
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 65600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: rVXp1jvKxodhtLBq
+_key: '!items!rVXp1jvKxodhtLBq'
+

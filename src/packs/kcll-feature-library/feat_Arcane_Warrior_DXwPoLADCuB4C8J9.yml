@@ -1,0 +1,70 @@
+name: Arcane Warrior
+type: feat
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.fNJi2NiAQNkeo6pt
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level when you select this archetype, whenever you
+      finish a long rest, you can touch one weapon that you are proficient with
+      and that lacks the two-handed property. When you attack with that weapon,
+      you can use your Intelligence modifier, instead of Strength or Dexterity,
+      for the attack and damage rolls. This benefit lasts until you finish a
+      long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Battlemage 3
+  identifier: arcane-warrior
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.fNJi2NiAQNkeo6pt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317495493
+  modifiedTime: 1727317495493
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 21200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: DXwPoLADCuB4C8J9
+_key: '!items!DXwPoLADCuB4C8J9'
+

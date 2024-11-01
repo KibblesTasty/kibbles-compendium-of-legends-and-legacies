@@ -1,0 +1,69 @@
+name: Traditional Expertise
+type: feat
+img: icons/sundries/documents/document-symbol-eye.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.iUDGLhBMSSyTx163
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, your passed down knowledge of tradition gives
+      you expertise in a skill of your tradition; choose one of your skill
+      proficiencies from Animal Handling, Arcana, Medicine, Nature, Survival.
+      Your Proficiency Bonus is doubled for any ability check you make that use
+      of the chosen Proficiency. If you have proficiency in none of the selected
+      skills, you can instead gain proficiency in one of your choices.</p>
+
+      <p>Additionally, when you make a Wisdom ability check, you can draw upon
+      your Tradition and expend a a spell slot of 1st level or higher to gain
+      advantage on the check.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 10
+  identifier: traditional-expertise
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.iUDGLhBMSSyTx163
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317511597
+  modifiedTime: 1727317511597
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 46900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: bbEdih4rJG8YUckl
+_key: '!items!bbEdih4rJG8YUckl'
+

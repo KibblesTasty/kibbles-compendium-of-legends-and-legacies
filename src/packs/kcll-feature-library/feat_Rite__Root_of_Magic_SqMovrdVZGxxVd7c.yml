@@ -1,0 +1,63 @@
+name: 'Rite: Root of Magic'
+type: feat
+img: icons/sundries/books/book-open-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.aFV1ELdeMxWpTcqU
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 15th-level Occultist</em></p>
+
+      <p>You learn 10 cantrips from any class list of your choice. They are
+      Occultist spells for you.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 15
+  identifier: rite-root-of-magic
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.aFV1ELdeMxWpTcqU
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317505408
+  modifiedTime: 1727317505408
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 37200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: SqMovrdVZGxxVd7c
+_key: '!items!SqMovrdVZGxxVd7c'
+

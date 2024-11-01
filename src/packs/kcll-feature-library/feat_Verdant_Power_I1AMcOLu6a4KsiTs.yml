@@ -1,0 +1,114 @@
+name: Verdant Power
+type: feat
+img: icons/magic/nature/tree-spirit-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.jL10bJpEweFz3sqw
+system:
+  description:
+    value: >-
+      <h3 id="druid-circle-circle-of-growth-verdant-power">Verdant Power</h3>
+
+      <p>Starting at 6th level, whenever you expend a spell slot of 1st level or
+      higher while your Sapling is manifested, you can select one of the
+      following benefits:</p>
+
+      <ul>
+
+      <li>The Sapling can make additional Slam attacks equal to the level of the
+      spell slot divided by 2 (minimum 1).</li>
+
+      <li>All allied creatures of your choice within 30 feet of the Sapling gain
+      temporary hit points equal twice the level of the spell slot.</li>
+
+      <li>The Sapling can move a 5 + 5 times the level of the spell slot spent
+      feet on its turn. Until the start of your next turn, any space it moved
+      through is difficult terrain for creatures of your choice.</li>
+
+      </ul>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Growth 6
+  identifier: verdant-power
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.jL10bJpEweFz3sqw
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317498308
+  modifiedTime: 1727317498308
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 25700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: I1AMcOLu6a4KsiTs
+_key: '!items!I1AMcOLu6a4KsiTs'
+

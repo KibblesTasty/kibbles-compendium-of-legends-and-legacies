@@ -1,0 +1,66 @@
+name: Primal State
+type: feat
+img: icons/magic/fire/elemental-fire-humanoid.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0FfyDIrTYBa5Ph5e
+system:
+  description:
+    value: >-
+      <p>Additionally at 7th level, you can expend one Endurance Die to cast
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.BCNtGDoY9cYjVkuU]{Become
+      Wind},
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.AvufHn4de2MS9pYP]{Become
+      Fire}, or
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.6AF59UdoX7xW9hGZ]{Become
+      Water}.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 7
+  identifier: primal-state
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.0FfyDIrTYBa5Ph5e
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317484938
+  modifiedTime: 1727317484938
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 5300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 02o3zluq489BJ8P6
+_key: '!items!02o3zluq489BJ8P6'
+

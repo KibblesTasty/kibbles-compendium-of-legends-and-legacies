@@ -1,0 +1,59 @@
+name: Supernatural Dread
+type: feat
+img: icons/magic/control/fear-fright-monster-grin-green.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you can use Leadership Dice (up to your per turn
+      limit) to cast frighten without a spell slot. The level of the spell is
+      equal to the number of Leadership Dice spent. </p><p>Alternatively, can
+      spend 3 Leadership Dice (even if it exceeds your per turn limit) to
+      instead cast fear without expending a spell slot or material component
+      once. After you do this, you cannot cast fear this way again until you
+      complete a long rest. </p><p>Charisma is your spell casting modifier for
+      these spells</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dreadlord 7
+  identifier: supernatural-dread
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.FMmx24vkb8KtgFAC
+_stats:
+  compendiumSource: Item.FMmx24vkb8KtgFAC
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317493913
+  modifiedTime: 1727317493913
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 18800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: BUzjtr1mzkrGTRVp
+_key: '!items!BUzjtr1mzkrGTRVp'
+

@@ -1,0 +1,123 @@
+name: 'Channel Divinity: Shroud of Silence'
+type: feat
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  description:
+    value: >-
+      <p>Shroud of Silence. As a bonus action, you present your holy symbol and
+      whisper a prayer shrouded in target in an aura of silence. For 10 minutes,
+      the target makes no noise. It cannot speak (including the verbal
+      components of spells) and gains advantage on Stealth (Dexterity) ability
+      checks.</p><p>An unwilling target makes a Wisdom saving throw against your
+      spell save DC to prevent the effect when targeted, and can repeat the
+      saving throw at the end of each of their turns to end the effect on a
+      success.</p>
+    chat: ''
+  source:
+    custom: Oath of Silence
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oath of Silence 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: channel-divinity-shroud-of-silence
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+  core:
+    sourceId: Item.XuFHUbWk9XKZvg3q
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.XuFHUbWk9XKZvg3q
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317511698
+  modifiedTime: 1727317511698
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 47100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: beJgb6IjmNiF26oz
+_key: '!items!beJgb6IjmNiF26oz'
+

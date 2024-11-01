@@ -1,0 +1,66 @@
+name: Skin of Stone
+type: feat
+img: icons/magic/defensive/armor-stone-skin.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EFPRaG1sWnqYnoF1
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>At 18th level, while you are empowered by Strength of Stone, you have
+      resistance to bludgeoning, piercing, and slashing damage.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneheart 18
+  identifier: skin-of-stone
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.EFPRaG1sWnqYnoF1
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317505070
+  modifiedTime: 1727317505070
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 36700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: SMMculmhgObD858Q
+_key: '!items!SMMculmhgObD858Q'
+

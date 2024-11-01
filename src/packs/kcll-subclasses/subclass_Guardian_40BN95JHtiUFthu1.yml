@@ -1,0 +1,265 @@
+name: Guardian
+type: subclass
+img: icons/equipment/head/helm-sallet-worn.webp
+effects: []
+flags:
+  core:
+    sourceId: Item.fG50nlJnzlRanOTF
+system:
+  description:
+    value: >-
+      <h2 data-anchor="guardian-technique"
+      style="box-sizing:border-box;user-select:text;margin:0px 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.5em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Guardian Technique</span></h2><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Specializing in defending their
+      allies, spell blades following this technique make broad use of abjuration
+      and self-enhancing magics, often specializing more toward their physical
+      skills. They place themselves at the front of combat, but are a highly
+      mobile line of defense.</span></p><h4
+      data-anchor="guardian-spellblade-spells"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif"><strong>Guardian Spellblade
+      Spells</strong></span></h4><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You learn the following spells at
+      the following levels. The following are Spellblade spells for you, but do
+      not count against your spells known.</span></p><table
+      style="box-sizing:border-box;user-select:text;width:451px;border-collapse:collapse;background:rgba(0,
+      0, 0, 0.05);border-top:1px solid
+      var(--color-border-light-tertiary);border-bottom:1px solid
+      var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><thead
+      style="box-sizing:border-box;user-select:text;background:rgba(0, 0, 0,
+      0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px
+      var(--color-shadow-dark);border-bottom:1px solid
+      var(--color-border-dark)"><tr
+      style="box-sizing:border-box;user-select:text"><th id="spellblade_level"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Spellblade Level</span></th><th id="spells_learned"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Spells Learned</span></th></tr></thead><tbody
+      style="box-sizing:border-box;user-select:text"><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3rd</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.bRqt3AViFVG2j0LL]{Arcane
+      Ablation}</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">5th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.dnd5e.spells.JVhKeanAXZH62DrF]{Warding
+      Bond}</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">9th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.dnd5e.spells.Szvk5FEVQW3uhJi5]{Haste}</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">13th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.dnd5e.spells.1ADstb0Xec6HHRcU]{Resilient
+      Sphere}</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">17th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">@UUID[Compendium.dnd5e.spells.NmoRmM1mhuM3pqnY]{Wall of
+      Stone}</span></td></tr></tbody></table><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.EXOrquFj38ywafhO]{Guardian
+      Spellblade Spells}</p><h3 data-anchor="guardian-proficiency"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Guardian Proficiency</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 3rd level when you
+      select this archetype, you gain proficiency in heavy armor and
+      shields.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally, you can use a melee
+      weapon as your arcane focus, and when you do so you can perform somatic
+      components with the hand holding your arcane focus (even for spells
+      without a material
+      component).</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.OL87MPYKAcN6dTg7]{Guardian
+      Proficiency}</p><h3 data-anchor="projected-barrier"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Projected Barrier</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 3rd level, you gain a
+      new option for your Arcane Surge feature:</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">As a reaction to an allied
+      creature within 30 feet being hit by an attack or targeted by the <em
+      style="box-sizing:border-box;user-select:text">magic missile</em> spell,
+      you expend a use of Arcane Surge to cast <em
+      style="box-sizing:border-box;user-select:text">shield</em> without
+      expending a spell slot, granting that creature the AC bonus instead of
+      yourself.</span></li></ul><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Pr6PMT18IxGqViGe]{Projected
+      Barrier}</p><h3 data-anchor="fortifying-surge"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Fortifying Surge</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">At 7th level, when you expend a
+      use of Arcane Surge, you gain temporary hit points equal to 1d8 + your
+      Intelligence
+      modifier.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.KuFAepwWZQcDYx8y]{Fortifying
+      Surge}</p><h3 data-anchor="swapping-surge"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Swapping Surge</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 15th level, when you
+      use your Arcane Surge to teleport, you can instead swap positions with a
+      willing creature within range, teleporting to their space and teleporting
+      them to your space. When you do so, both you and them gain the temporary
+      hit points from Fortifying
+      Surge.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.n6TeDkRJBhKvlQrZ]{Swapping
+      Surge}</p><h3 data-anchor="resilient-aegis"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Resilient Aegis</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">At 20th level, you can fortify
+      yourself with magic for 1 minute (no action required). For the duration,
+      you have resistance to all damage. Once you use this feature, you cannot
+      use it again until you complete a long
+      rest.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.MP5jBU6ld8T3sQgh]{Resilient
+      Aegis}</p>
+    chat: ''
+    unidentified: ''
+  source: Spellblade
+  identifier: guardian
+  classIdentifier: spellblade
+  advancement:
+    - _id: MyeWU0guVDAk6mDh
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.MP5jBU6ld8T3sQgh
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: ''
+      icon: ''
+    - _id: FYVjHXdQRaG45Etj
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.n6TeDkRJBhKvlQrZ
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      icon: ''
+    - _id: 6WbF8oGBVeQ9X68X
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.KuFAepwWZQcDYx8y
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: xlpgUsvkBeDdqSkM
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.OL87MPYKAcN6dTg7
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Pr6PMT18IxGqViGe
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.EXOrquFj38ywafhO
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '12.331'
+  createdTime: 1682023270318
+  modifiedTime: 1707857103940
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  compendiumSource: Item.fG50nlJnzlRanOTF
+  duplicateSource: null
+folder: null
+sort: 0
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: 40BN95JHtiUFthu1
+_key: '!items!40BN95JHtiUFthu1'
+

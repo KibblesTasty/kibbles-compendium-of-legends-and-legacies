@@ -1,0 +1,58 @@
+name: Blast Zone Control
+type: feat
+img: icons/magic/fire/orb-vortex.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">At 18th level, when use
+      Spellstrike to cast a spell that affects an area of effect, you can expend
+      a use of your Arcane Surge expand the effect of your Blast Zone Immunity
+      to a number of allies equal to your Intelligence modifier. When used this
+      way, it only protects your allies until the start of your next turn, at
+      which point they go back to being affected by any ongoing effects of a
+      spell.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 18
+  identifier: blast-zone-control
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.tg6ZMqDgIK4VpqE9
+_stats:
+  compendiumSource: Item.tg6ZMqDgIK4VpqE9
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317509918
+  modifiedTime: 1727317509918
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 44300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ZSVQVjYKyco9vgue
+_key: '!items!ZSVQVjYKyco9vgue'
+

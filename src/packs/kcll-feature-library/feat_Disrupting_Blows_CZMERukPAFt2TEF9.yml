@@ -1,0 +1,64 @@
+name: Disrupting Blows
+type: feat
+img: icons/weapons/swords/sword-flanged-lightning.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 3rd level,
+      once per turn when you hit a target with a melee weapon, you deal bonus
+      Force damage equal to your proficiency bonus. This bonus is doubled until
+      end of your turn when you cast an Abjuration or Mage Hunter
+      spell.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally, your weapon attack
+      rolls bypass the effects of 1st level spells (such as <em
+      style="box-sizing:border-box;user-select:text">mage armor</em>, <em
+      style="box-sizing:border-box;user-select:text">shield</em>, or <em
+      style="box-sizing:border-box;user-select:text">sanctuary</em>).</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Mage Hunter 3
+  identifier: disrupting-blows
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.wyPCkE4QwtbAmE07
+_stats:
+  compendiumSource: Item.wyPCkE4QwtbAmE07
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317494796
+  modifiedTime: 1727317494796
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 20100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: CZMERukPAFt2TEF9
+_key: '!items!CZMERukPAFt2TEF9'
+

@@ -1,0 +1,60 @@
+name: Dreadful Terror
+type: feat
+img: icons/magic/control/fear-fright-monster-grin-red-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, when a target becomes frightened of you, you
+      can expend demoralization Dice to enhance the effect (no action
+      required)</p><ul><li><p><strong>Panicked Terror.</strong> The target
+      immediately spends their reaction to move up to half of their movement
+      speed away from you.</p></li><li><p><strong>Blind Terror.</strong> You can
+      expend 2 Demoralization Dice to cause the target become blinded until the
+      start of your next turn.</p></li><li><p><strong>Paralyzing
+      Terror.</strong> You can expend 3 Demoralization Dice to cause the target
+      to become paralyzed until the start of your next turn.</p></li></ul>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dreadlord 18
+  identifier: dreadful-terror
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.isKBALMm6Uc7y480
+_stats:
+  compendiumSource: Item.isKBALMm6Uc7y480
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317515418
+  modifiedTime: 1727317515418
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 53100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: gQgfCgAcpX3fHxqx
+_key: '!items!gQgfCgAcpX3fHxqx'
+

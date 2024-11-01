@@ -1,0 +1,62 @@
+name: 'Rite: Soulburn'
+type: feat
+img: icons/magic/fire/flame-burning-hand-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EbKN75fOmYa8nnDO
+system:
+  description:
+    value: >-
+      <p>You can make your powers sear the very soul of the creature they
+      strike. When you deal cold, fire or lightning damage, you can choose to
+      make it deal necrotic damage instead.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  identifier: rite-soulburn
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.EbKN75fOmYa8nnDO
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317500957
+  modifiedTime: 1727317500957
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 30000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Lw7HS8DVwqqwJPfV
+_key: '!items!Lw7HS8DVwqqwJPfV'
+

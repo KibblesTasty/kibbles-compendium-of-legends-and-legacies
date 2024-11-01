@@ -1,0 +1,62 @@
+name: Iron Wind Strike (2+ Ki)
+type: feat
+img: icons/skills/melee/strike-slashes-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Ec6LveFEKG2NJIi1
+system:
+  description:
+    value: >-
+      <p>You can cast
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.wORzndtyR5yza7Je]{Iron
+      Wind Strike}, casting it at a level equal to the Ki spent.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  identifier: iron-wind-strike-2-ki
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Ec6LveFEKG2NJIi1
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317521874
+  modifiedTime: 1727317521874
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 63800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: pnefwOICnQPnGYXQ
+_key: '!items!pnefwOICnQPnGYXQ'
+

@@ -1,0 +1,66 @@
+name: Divine Guidance
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.tQBhQNEL9M3O97WI
+system:
+  description:
+    value: >-
+      <p>Starting at 9th level, you learn two cleric cantrips of your
+      choice.</p>
+
+      <p>Additionally, holy water you create becomes more potent, dealing 3d6
+      radiant damage to fiends and undead. If you have no holy water from your
+      Sanctification feature when take a short rest, use your Sanctification
+      feature to create a new flask of Holy Water.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Divine Agent 9
+  identifier: divine-guidance
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.tQBhQNEL9M3O97WI
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504493
+  modifiedTime: 1727317504493
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 35700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: R8nAcZ6Js0oNOnHY
+_key: '!items!R8nAcZ6Js0oNOnHY'
+

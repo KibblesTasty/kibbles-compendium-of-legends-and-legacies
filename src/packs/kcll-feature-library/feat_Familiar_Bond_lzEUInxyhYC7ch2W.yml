@@ -1,0 +1,104 @@
+name: Familiar Bond
+type: feat
+img: icons/creatures/birds/corvid-call-sound-glowing.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1k8D9b9rbfx3JcEe
+system:
+  description:
+    value: >-
+      <p>At 3rd level, when you cast find familiar, your familiar gains an
+      Intelligence, Wisdom and Charisma of 10, and the ability to speak any
+      languages you speak.</p>
+
+      <h2>Black Coven</h2>
+
+      <p>As a reaction to a creature within 30 feet of your familiar hitting
+      with an attack, you can have your familiar subtract 1d4 + half your
+      Occultist level (rounded down) from the attack roll. You can choose to use
+      this feature after the creature makes its roll, but before the GM
+      determines whether the attack roll succeeds or fails, or before the
+      creature deals its damage. It can do this a number of times equal to your
+      Wisdom modifier, regaining all uses after you complete a long rest.</p>
+
+      <p>@Item[h3hquxusFb3lMwXd]{Familiar Bond: Black Coven}</p>
+
+      <h2>White Coven</h2>
+
+      <p>When you complete a long rest, your familiar gains temporary hit points
+      equal to your Wisdom modifier + your twice Occultist level. While it has
+      one or more temporary hit points, as its action, or as a reaction to a
+      creature within 30 feet of it taking damage, it can teleport to allied
+      targets giving that target some of its temporary hit points (minimum
+      one).</p>
+
+      <p>@Item[l40YqRo0zfs1YViE]{Familiar Bond: White Coven}</p>
+
+      <h2>Green Coven</h2>
+
+      <p>When you complete a long rest, your familiar gains illusory duplicates
+      equal to your Wisdom modifier. These persist until destroyed by taking
+      damage or you complete a long rest. The illusory duplicates cannot take
+      any actions, but move and act like your familiar during your turn, staying
+      within 30 feet of you or it.</p>
+
+      <p>At the end of your familiar's turn or when it takes damage, it can swap
+      places with an illusory familiar. If it does this as a result of taking
+      damage, the illusory familiar is destroyed but the familiar takes no
+      damage. Illusory duplicates are immune to damage while within 5 feet of
+      you.</p>
+
+      <p>You can assume illusory familiars are in the witch's space unless
+      otherwise specified.</p>
+
+      <p>@Item[LmI7KLJ7Q2yfOsca]{Familiar Bond: Green Coven}</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 3
+  identifier: familiar-bond
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.1k8D9b9rbfx3JcEe
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317519031
+  modifiedTime: 1727317519031
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 59100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: lzEUInxyhYC7ch2W
+_key: '!items!lzEUInxyhYC7ch2W'
+

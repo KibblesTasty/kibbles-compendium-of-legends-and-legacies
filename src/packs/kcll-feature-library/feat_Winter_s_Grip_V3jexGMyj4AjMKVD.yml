@@ -1,0 +1,57 @@
+name: Winter's Grip
+type: feat
+img: icons/magic/water/snowflake-ice-purple.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 15th level,
+      the effect of Frostbite is prolonged each time a creature takes cold
+      damage by an additional round (ending at the end of your next turn).
+      Additionally, when a creature under the effect of Frostbite fails a saving
+      throw against one of your spells that deal cold damage, they become
+      restrained until start of their next turn.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Iceblade 15
+  identifier: winters-grip
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.HE6QQEVVDYMF4jzD
+_stats:
+  compendiumSource: Item.HE6QQEVVDYMF4jzD
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317506885
+  modifiedTime: 1727317506885
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 39700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: V3jexGMyj4AjMKVD
+_key: '!items!V3jexGMyj4AjMKVD'
+

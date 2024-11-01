@@ -1,0 +1,53 @@
+name: 'Aegis Effect: Warding Barrier'
+type: feat
+img: icons/magic/lightning/barrier-shield-orb-pink.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">You reduce all damage
+      taken by 1.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aegis Effect
+  identifier: aegis-effect-warding-barrier
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.ZFOJQdtuSNHhM0Cr
+_stats:
+  compendiumSource: Item.ZFOJQdtuSNHhM0Cr
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317514642
+  modifiedTime: 1727317514642
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 51700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: fXgyd6LEDmn1j565
+_key: '!items!fXgyd6LEDmn1j565'
+

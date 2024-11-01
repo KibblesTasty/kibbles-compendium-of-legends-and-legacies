@@ -1,0 +1,121 @@
+name: 'Oracle Rite: Revelation of Darkness'
+type: feat
+img: icons/magic/unholy/barrier-shield-glowing-pink.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text">Prerequisite: Mystery of
+      Darkness</em></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">You understand that darkness is
+      all encompassing, interrupted only by tenuous motes of light. When you
+      cast a spell of 1st level or higher creates dim light, darkness, or that
+      obscures you from the vision of one or more creatures, you can teleport to
+      another point you can see that is in dim light or darkness within 30 feet
+      as a bonus action.</span></p>
+    chat: ''
+  source:
+    custom: Oracle
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Mystery of Darkness
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: oracle-rite-revelation-of-darkness
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.TyQSeZVRrTClvEIt
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.TyQSeZVRrTClvEIt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317512489
+  modifiedTime: 1727317512489
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 48300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: cd1AfZMkmd0tI1wC
+_key: '!items!cd1AfZMkmd0tI1wC'
+

@@ -1,0 +1,77 @@
+folder: ie9aF24gRdWR7Wnl
+name: Theurge
+type: subclass
+_id: idfKBAFb8P401ldo
+img: systems/dnd5e/icons/svg/items/subclass.svg
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: theurge
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: UyPgcaeVdlC3ps69
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Arcane Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Arcane Tradition Feature
+      hint: ''
+      _id: sXWTqzLmKrUyKwQn
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Arcane Tradition Feature
+      hint: ''
+      _id: qJueaUlrzv7IxCF1
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Arcane Tradition Feature
+      hint: ''
+      _id: r39wBnRoRZehNmzP
+  classIdentifier: wizard
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1729041729064
+  modifiedTime: 1729118052794
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!idfKBAFb8P401ldo'
+

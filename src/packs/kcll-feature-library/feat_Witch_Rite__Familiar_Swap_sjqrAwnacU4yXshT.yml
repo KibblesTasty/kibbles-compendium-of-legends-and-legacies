@@ -1,0 +1,63 @@
+name: 'Witch Rite: Familiar Swap'
+type: feat
+img: icons/creatures/birds/corvid-flying-wings-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1ArQ5sQNZAZ8Fc3o
+system:
+  description:
+    value: >-
+      <p>If your familiar is within 60 feet of you, as an action, you can swap
+      places with your familiar. If you cannot fit into the space where your
+      familiar is, the ability fails and you take 1d6 force damage. Once you do
+      this, you cannot do so again until you complete a short or long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 2
+  identifier: witch-rite-familiar-swap
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.1ArQ5sQNZAZ8Fc3o
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317523316
+  modifiedTime: 1727317523316
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 66300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: sjqrAwnacU4yXshT
+_key: '!items!sjqrAwnacU4yXshT'
+

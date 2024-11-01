@@ -1,0 +1,63 @@
+name: Elegant Exchange
+type: feat
+img: icons/magic/time/arrows-circling-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.NhhjXL2V1dzEbCke
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, when an willing creature within 15 feet of you
+      is the target of a spell, attack, or targeted effect that would cause them
+      to take damage, you can move their position as a reaction, moving them 5
+      feet in any direction and becoming the target of the attack.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 18
+  identifier: elegant-exchange
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.NhhjXL2V1dzEbCke
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317517356
+  modifiedTime: 1727317517356
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 56200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: jB1fWAy9UndnI51L
+_key: '!items!jB1fWAy9UndnI51L'
+

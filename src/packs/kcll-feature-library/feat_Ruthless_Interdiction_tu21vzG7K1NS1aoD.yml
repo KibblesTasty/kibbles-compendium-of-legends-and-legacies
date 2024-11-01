@@ -1,0 +1,63 @@
+name: Ruthless Interdiction
+type: feat
+img: icons/creatures/abilities/bear-roar-bite-brown-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.8USzwki8lFoEZm4Y
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you have advantage on the first attack roll or
+      grapple check you make against a creature that attacked anyone inside the
+      range of your Primal Interdiction (including yourself) since the end of
+      your last turn.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Beasthide 3
+  identifier: ruthless-interdiction
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.8USzwki8lFoEZm4Y
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317524119
+  modifiedTime: 1727317524119
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 67800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: tu21vzG7K1NS1aoD
+_key: '!items!tu21vzG7K1NS1aoD'
+

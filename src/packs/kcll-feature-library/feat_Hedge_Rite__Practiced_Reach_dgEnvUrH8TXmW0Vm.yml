@@ -1,0 +1,61 @@
+name: 'Hedge Rite: Practiced Reach'
+type: feat
+img: icons/magic/light/projectile-beam-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.rDm8JqOOMj1eH3hU
+system:
+  description:
+    value: >-
+      <p>When you use the Way I Learned It feature to add range, you can make
+      the range of the spell up to 30 feet.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 2
+  identifier: hedge-rite-practiced-reach
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.rDm8JqOOMj1eH3hU
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317513172
+  modifiedTime: 1727317513172
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 49300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: dgEnvUrH8TXmW0Vm
+_key: '!items!dgEnvUrH8TXmW0Vm'
+

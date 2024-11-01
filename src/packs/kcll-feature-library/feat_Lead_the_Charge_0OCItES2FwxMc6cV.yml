@@ -1,0 +1,63 @@
+name: Lead the Charge
+type: feat
+img: icons/sundries/flags/banner-sword-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.4BUvkCCWADRPvCTv
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you can give yourself a bonus to your initiative
+      rolls equal to your Charisma modifier. Additionally, when you roll
+      initiative you gain temporary hit points equal to your Charisma modifier +
+      your proficiency bonus.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paragon 1
+  identifier: lead-the-charge
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.4BUvkCCWADRPvCTv
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317485184
+  modifiedTime: 1727317485184
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 5600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 0OCItES2FwxMc6cV
+_key: '!items!0OCItES2FwxMc6cV'
+

@@ -1,0 +1,69 @@
+name: Perfect Escape
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.6NW25StZmLoye1ou
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Starting at 20th level, you can become uncatchable for one minute. For
+      the duration, you have advantage on Dexterity saving throws, you are under
+      the effect of @UUID[Compendium.dnd5e.spells.da0a1t2FqaTjRZGT]{Freedom of
+      Movement}, and at the start of each of your turns you can teleport up to
+      30 feet (no action required).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Arcane Archer 20
+  identifier: perfect-escape
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.6NW25StZmLoye1ou
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317514409
+  modifiedTime: 1727317514409
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 51400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: f5X0tdUE8WlhLk6I
+_key: '!items!f5X0tdUE8WlhLk6I'
+

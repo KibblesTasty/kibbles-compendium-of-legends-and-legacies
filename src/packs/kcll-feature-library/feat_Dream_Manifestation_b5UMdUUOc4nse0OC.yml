@@ -1,0 +1,140 @@
+name: Dream Manifestation
+type: feat
+img: icons/creatures/magical/spirit-undead-ghost-blue.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, as an action you can manifest parts of your
+      dreams into the real world as fleeting creations within a 20-foot cube
+      within 30 feet of you. You can create an object (such as a chair or bed),
+      structure (such as a small empty house, a bridge, or stairs), or creature
+      this way, but whatever is created must fit within a 20-foot cube.
+      Creatures created this way are illusionary, behaving as per the major
+      image spell, but objects and effects can be made real with the following
+      limitations:</p><ul><li><p>Objects and structures created this way are
+      obviously magical in nature and crumble to nothing after 1
+      minute.</p></li><li><p>They have no value, and cannot be moved outside of
+      the 20-foot.</p></li><li><p>They cannot contain any information you don't
+      yourself know (a book on a subject you don't know would be blank for
+      example).</p></li><li><p>Objects created this way have an AC equal to your
+      Cleric level and crumble to dust if they take damage. They cannot deal any
+      damage, crumbling to dust if they would deal damage.</p></li></ul><p>Once
+      you use this ability, you cannot use it again until you complete a long
+      rest, though you can use it again early by expending a 3rd level spell
+      slot.</p>
+    chat: ''
+  source:
+    custom: Dream Domain
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dream Domain 6
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: cube
+          size: '20'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: dream-manifestation
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+    consumeUses:
+      value: true
+  core:
+    sourceId: Item.UfCIV6De1FI3DK8o
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+_stats:
+  compendiumSource: Item.UfCIV6De1FI3DK8o
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317511119
+  modifiedTime: 1727317511119
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 46100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: b5UMdUUOc4nse0OC
+_key: '!items!b5UMdUUOc4nse0OC'
+

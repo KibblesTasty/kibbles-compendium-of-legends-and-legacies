@@ -1,0 +1,61 @@
+name: Fighting Mastery
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.JbzrJBrGDqxdGjhM
+system:
+  description:
+    value: >-
+      <p>Additionally at 18th level, you learn all the Fighting Styles available
+      to the Fighter.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Champion 18
+  identifier: fighting-mastery
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.JbzrJBrGDqxdGjhM
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317506227
+  modifiedTime: 1727317506227
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 38600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: UPlWBS1kq6r3kZyT
+_key: '!items!UPlWBS1kq6r3kZyT'
+

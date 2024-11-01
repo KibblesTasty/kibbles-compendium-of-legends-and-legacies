@@ -1,0 +1,56 @@
+name: Instinctive Flinch
+type: feat
+img: icons/magic/control/fear-fright-mask-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, when a creature passes a Wisdom saving throw
+      against one of your features that would cause them to become frightened or
+      flee, they still gain disadvantage on their next attack role made before
+      the start of your next turn. This has no effect if the target is immune to
+      the frightened condition.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dreadlord 15
+  identifier: instinctive-flinch
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.bPz8ZE6KeFwzp1N5
+_stats:
+  compendiumSource: Item.bPz8ZE6KeFwzp1N5
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317511813
+  modifiedTime: 1727317511813
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 47300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: bgTLOH4V8NgEsSBP
+_key: '!items!bgTLOH4V8NgEsSBP'
+

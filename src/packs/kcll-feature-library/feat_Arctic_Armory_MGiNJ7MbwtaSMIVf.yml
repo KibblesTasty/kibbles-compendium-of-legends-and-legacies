@@ -1,0 +1,108 @@
+name: Arctic Armory
+type: feat
+img: icons/magic/water/strike-ice-blade-axe.webp
+system:
+  description:
+    value: "<p><span style=\"font-family:Signika, sans-serif\">Additionally, you learn the\_</span><a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.kibbles-casting-compendium.kibbles-casting-compendium.Qh0XBXfyP5n8d9ER\" data-id=\"Qh0XBXfyP5n8d9ER\" data-type=\"Item\" data-pack=\"kibbles-casting-compendium.kibbles-casting-compendium\" data-tooltip=\"Spell Item\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;background:rgb(221, 221, 221);padding:1px 4px;border:1px solid var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Ice Weapon</a><span style=\"font-family:Signika, sans-serif\"> cantrip can cast it once per turn without requiring a bonus action. Any weapon created by that spell is considered under the effect of your Rimeblade feature (even if it has the two-handed property).</span></p>"
+    chat: ''
+  source:
+    custom: Iceblade
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Iceblade 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: arctic-armory
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.YmHclZFHwZ6IE8kT
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.YmHclZFHwZ6IE8kT
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317501202
+  modifiedTime: 1727317501202
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 30400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: MGiNJ7MbwtaSMIVf
+_key: '!items!MGiNJ7MbwtaSMIVf'
+

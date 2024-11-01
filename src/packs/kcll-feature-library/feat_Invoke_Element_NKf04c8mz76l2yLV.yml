@@ -1,0 +1,128 @@
+name: Invoke Element
+type: feat
+img: icons/magic/earth/lava-stone-fire-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EZg1dlfEkSjJnOK2
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+    quickTemplate:
+      value: true
+system:
+  description:
+    value: >-
+      <p style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you choose this circle at 2nd
+      level, you gain an alternate use for Wild Shape. As a bonus action, you
+      can invoke primal powers to manifest elemental powers at a point within 60
+      feet. When you invoke this power, select an element to invoke, which has a
+      different effect.</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Air: Coalesced
+      Lightning.</strong> When you manifest the power, and as a bonus action on
+      subsequent turns, you can force one creature within 30 feet of the point
+      to make a Dexterity saving throw, or be struck by an arc of lightning,
+      taking 1d6 + your Wisdom modifier damage.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Earth: Stone
+      Pillar.</strong> When you manifest the power, a stone eruption fills an
+      unoccupied space within 5 feet of the point, rising up to 10 feet and
+      blocking the space. It has an AC of 16 and hit points equal to your Wisdom
+      modifier + your Druid level. The pillar is three quarters cover for
+      creatures behind it. It becomes difficult terrain when
+      destroyed.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Fire: Wild Fire.</strong>
+      The area within 5 feet of the point is filled with flames. Creatures that
+      start their turn in the area take 1d6 fire damage.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Water: Icy
+      Blizzard.</strong> The area within 5 feet of the point is filled with an
+      icy storm of sleet, becoming difficult terrain.</span></li></ul><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You can move an elemental
+      manifestation up to 20 feet on subsequent turns as a bonus action. If you
+      move a stone pillar, the pillar is destroyed and you can create a new
+      pillar.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Instead of moving a Wild Fire or
+      Icy Blizzard, you can expand their radius by 5 feet as a bonus action, up
+      to a number of times equal to your proficiency bonus. Their radius is
+      reset to the base size if you move them. You are unaffected by the effects
+      of your own elemental manifestations (though cannot move through stone
+      pillars you create unless otherwise able to).</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The manifested elemental lasts for
+      1 minute, ending early if you dismiss it (no action required), are
+      incapacitated, die, or use this feature again.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Elements 2
+  identifier: invoke-element
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.EZg1dlfEkSjJnOK2
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317502089
+  modifiedTime: 1727317502089
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 31700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: NKf04c8mz76l2yLV
+_key: '!items!NKf04c8mz76l2yLV'
+

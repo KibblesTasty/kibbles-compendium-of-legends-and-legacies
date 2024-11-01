@@ -1,0 +1,65 @@
+name: Pin Down
+type: feat
+img: icons/skills/ranged/arrows-flying-salvo-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.5pYGCPGCkFtMy2ZN
+system:
+  description:
+    value: >-
+      <p>Starting at 11th level, when a creature you have marked with Dead or
+      Alive or moves 5 feet, stands up from being prone, or escapes from the
+      Restrained condition while within 60 feet of you, you can use your
+      reaction to make an opportunity attack against them if they are in range
+      of a weapon you are wielding. If you make this attack with a ranged
+      weapon, you have disadvantage on the attack.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  identifier: pin-down
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.5pYGCPGCkFtMy2ZN
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317502327
+  modifiedTime: 1727317502327
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 32100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Nra6X3TovdY4oZbA
+_key: '!items!Nra6X3TovdY4oZbA'
+

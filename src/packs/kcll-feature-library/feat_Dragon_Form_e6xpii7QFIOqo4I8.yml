@@ -1,0 +1,192 @@
+name: Dragon Form
+type: feat
+img: icons/magic/fire/flame-burning-eye.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.qh9PPgI6woi2UVxp
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <h3 id="otherworldly-patron-the-dragon-draconic-blast-dragon-form">Dragon
+      Form</h3>
+
+      <p>Starting at 14th level, as an action you can take a form reminiscent of
+      your patron, becoming a dragon for 1 minute. You grow mighty horns, thick
+      scales, wings, wicked claws, fangs, and a lashing tail. Any creatures of
+      your choice within 30 feet that witnesses the transformation must make a
+      Wisdom saving throw against your spell save DC, or become frightened until
+      the start of your next turn. While in this form, you gain the following
+      benefits:</p>
+
+      <ul>
+
+      <li>You are a large sized creature. Any gear you cannot use as a large
+      draconic creature merges with your form and is unavailable until the
+      transformation ends.</li>
+
+      <li>Your Strength becomes equal to your Charisma.</li>
+
+      <li>Your scales provide a base AC of 17. You do not add your Dexterity
+      modifier to this.</li>
+
+      <li>Your horns, fangs, and a tail that serve as natural weapons that deal
+      1d10 piercing damage on hit. You also grow claws that deal 1d6 slashing
+      damage on hit. If you attack with any natural weapon, you can attack with
+      your claws as a bonus action.</li>
+
+      <li>The damage of your Draconic Blasts increases by 1 die, and it's range
+      is doubled.</li>
+
+      <li>You have a flying speed of 40 feet per turn.</li>
+
+      <li>You gain immunity to the damage type selected for your Dragon
+      Blast.</li>
+
+      </ul>
+
+      <p>Once you have used this ability, you may not use it again until you
+      complete a long rest.</p>
+    chat: ''
+  source:
+    custom: The Dragon
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Dragon 14
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: dragon-form
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.qh9PPgI6woi2UVxp
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317513447
+  modifiedTime: 1727317513447
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 49800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: e6xpii7QFIOqo4I8
+_key: '!items!e6xpii7QFIOqo4I8'
+

@@ -1,0 +1,64 @@
+name: Whirling Thorns
+type: feat
+img: icons/weapons/daggers/dagger-magical-glowing-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.m0ihrDgbn7wPX9JG
+system:
+  description:
+    value: >-
+      <p>Additionally at 7th level, if you are carrying a melee weapon with the
+      light property, you can make a single attack with it as a bonus action.
+      You can expend leadership dice to make additional attacks as part of the
+      same action, but each attack must be against a different target within
+      range.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 7
+  identifier: whirling-thorns
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.m0ihrDgbn7wPX9JG
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317508877
+  modifiedTime: 1727317508877
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 42800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: XmQarQW8uZMCWkDb
+_key: '!items!XmQarQW8uZMCWkDb'
+

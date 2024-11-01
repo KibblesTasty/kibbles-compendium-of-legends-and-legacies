@@ -1,0 +1,63 @@
+name: Warden Bond
+type: feat
+img: icons/magic/nature/beam-hand-leaves-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.HOO43GdxDhF9iI9f
+system:
+  description:
+    value: >-
+      <p>You select an aspect of primal powers, gaining the ability to manifest
+      your bond with that power. The options for Primal Bonds are listed at the
+      end of the class. Your choice grants you features at 1st level and again
+      at 3rd, 7th, and 14th level.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warden 1
+  identifier: warden-bond
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.HOO43GdxDhF9iI9f
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317522844
+  modifiedTime: 1727317522844
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 65400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: rPSi7esc7dTewo3p
+_key: '!items!rPSi7esc7dTewo3p'
+

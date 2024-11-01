@@ -1,0 +1,70 @@
+name: Boon of the Earth
+type: feat
+img: icons/magic/earth/strike-fist-stone.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Wn48QcsFXiy4rUyx
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>At 1st level when you select this origin, you learn the stone forming
+      cantrip, and gain proficiency with weapons created by it. Any weapon you
+      create with stone forming gains a bonus to attack and damage rolls equal
+      to any bonus you have to the spell attack and damage rolls.</p><p>Your hit
+      point maximum increases by 1, and it increases by 1 again whenever you
+      gain a level in this class.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Stoneheart 1
+  identifier: boon-of-the-earth
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Wn48QcsFXiy4rUyx
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317490328
+  modifiedTime: 1727317490328
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 13400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 7Cet87M0B2MnpTZl
+_key: '!items!7Cet87M0B2MnpTZl'
+

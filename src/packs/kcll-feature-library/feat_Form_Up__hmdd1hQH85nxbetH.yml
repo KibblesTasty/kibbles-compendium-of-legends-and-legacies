@@ -1,0 +1,63 @@
+name: Form Up!
+type: feat
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.FMvUi08vMZZGHNnC
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when you roll initiative and are not surprised,
+      any number of friendly creatures within 30 feet of you can move up to
+      their speed a number of feet equal to five times your Wisdom modifier
+      (minimum 5 feet).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Commander 2
+  identifier: form-up
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.FMvUi08vMZZGHNnC
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516243
+  modifiedTime: 1727317516243
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 54400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: hmdd1hQH85nxbetH
+_key: '!items!hmdd1hQH85nxbetH'
+

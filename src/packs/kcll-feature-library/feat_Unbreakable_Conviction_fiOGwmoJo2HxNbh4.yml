@@ -1,0 +1,62 @@
+name: Unbreakable Conviction
+type: feat
+img: icons/magic/holy/barrier-shield-winged-cross.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.YU66KAMnDAjhoWU2
+system:
+  description:
+    value: >-
+      <p>Starting at 18th level, while you are concentrating on a cleric spell
+      that targets you (it does not have to to target only you), your
+      concentration can't be broken as a result of taking damage.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Crusader 18
+  identifier: unbreakable-conviction
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.YU66KAMnDAjhoWU2
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317514754
+  modifiedTime: 1727317514754
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 51900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: fiOGwmoJo2HxNbh4
+_key: '!items!fiOGwmoJo2HxNbh4'
+

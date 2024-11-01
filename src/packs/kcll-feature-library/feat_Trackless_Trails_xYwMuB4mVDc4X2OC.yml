@@ -1,0 +1,97 @@
+name: Trackless Trails
+type: feat
+img: icons/skills/movement/feet-winged-boots-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LOob2P02mQoKH1Ix
+system:
+  description:
+    value: >-
+      <p>Additionally at 7th level, you can spend 2 Leadership Dice to cast
+      @Compendium[dnd5e.spells.pRMvmknwLf2tdMTj]{Pass without Trace} without
+      providing material components.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Packleader 7
+  recharge:
+    value: null
+    charged: false
+  identifier: trackless-trails
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
+  createdTime: 1678742646599
+  modifiedTime: 1727317482698
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.LOob2P02mQoKH1Ix
+  duplicateSource: null
+folder: null
+sort: 72100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: xYwMuB4mVDc4X2OC
+_key: '!items!xYwMuB4mVDc4X2OC'
+

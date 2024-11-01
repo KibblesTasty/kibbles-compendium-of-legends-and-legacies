@@ -1,0 +1,62 @@
+name: Quick Throw
+type: feat
+img: icons/tools/fishing/net-simple-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OsqtKZCXkk72wzLJ
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, when you use a net as part of your Attack
+      action, you are can make the normal number of attacks, though can only
+      make one of those attacks with a net.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  identifier: quick-throw
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.OsqtKZCXkk72wzLJ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317502207
+  modifiedTime: 1727317502207
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 31900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: NXsNwIP44fs4FegC
+_key: '!items!NXsNwIP44fs4FegC'
+

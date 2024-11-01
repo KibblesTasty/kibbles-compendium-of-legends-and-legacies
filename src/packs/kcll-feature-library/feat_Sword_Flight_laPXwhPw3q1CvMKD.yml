@@ -1,0 +1,62 @@
+name: Sword Flight
+type: feat
+img: icons/skills/movement/arrow-upward-yellow.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 7th level,
+      your mastery of telekinetic manipulation of your blade is so complete you
+      can command it remotely and even use it as a mode of transport. You can
+      stand on your sword to treat it as a Broom of Flying, though only you can
+      ride it, and anything being carried by it is dropped if you attack with
+      it.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally, the range of your
+      Flying Sword attacks are doubled.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fling Sword 7
+  identifier: sword-flight
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.erwAa0yxLWNxNQ3X
+_stats:
+  compendiumSource: Item.erwAa0yxLWNxNQ3X
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317518584
+  modifiedTime: 1727317518584
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 58300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: laPXwhPw3q1CvMKD
+_key: '!items!laPXwhPw3q1CvMKD'
+

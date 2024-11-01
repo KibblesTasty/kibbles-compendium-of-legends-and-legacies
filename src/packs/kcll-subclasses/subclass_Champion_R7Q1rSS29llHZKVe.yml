@@ -1,0 +1,263 @@
+name: Champion
+type: subclass
+img: icons/weapons/swords/sword-guard-worn-gold.webp
+effects: []
+flags:
+  core:
+    sourceId: Item.DePqS6HeUGC7ll1P
+system:
+  description:
+    value: >-
+      <h2 data-anchor="champion"
+      style="box-sizing:border-box;user-select:text;margin:0px 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.5em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Champion</span></h2><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Champions strive for perfection -
+      exemplars of form and fitness, they represent represent masters of
+      straight forward martial prowess.</span></p><h3
+      data-anchor="improved-critical"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Improved Critical</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Beginning when you choose this
+      archetype at 3rd level, your weapon attacks score a critical hit on a roll
+      of 19 or 20.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">This bonus increases at 7th level
+      (to scoring a critical hit on a roll of 18-20), and again at 15th level
+      (to scoring a critical hit on a
+      17-20).</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.pNl8TlpgUtlG0eUS]{Improved
+      Critical}</p><h3 data-anchor="improved-fighting-style"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Improved Fighting
+      Style</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally, your selected
+      Fighting Style is further refined. You gain the following the bonus based
+      on your Fighting Style:</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Archery:</strong> You gain
+      a +1 bonus to damage rolls you make when benefiting from this Fighting
+      Style.</span></li><li style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Defense:</strong> You gain
+      1 damage resistance when benefiting from this Fighting
+      Style</span></li><li style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Dueling:</strong> You gain
+      a +1 to attcak rolls you make when benefiting from this Fighting
+      Style.</span></li><li style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Great Weapon
+      Fighting:</strong> You can add half of your Strength modifier (rounded
+      down) to attacks made while benefiting from this Fighting
+      Style.</span></li><li style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Protection:</strong> You
+      gain a second reaction action which can only be used on this reaction
+      (allowing you to use it and one other reaction, or use it
+      twice).</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Two Weapon
+      Fighting:</strong> Attacking with your second weapon no longer requires
+      your bonus action, but you can make that attack only once per
+      turn.</span></li></ul><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.QgbRbd1pgvYIkN4X]{Improved
+      Fighting Style}</p><h3 data-anchor="athletic-champion"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Athletic Champion</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 7th level, you gain
+      proficiency in Athletics. If you already have proficiency in Athletics,
+      you gain can add twice your Proficiency bonus to Athletics
+      check.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally, you gain a climbing
+      and swimming speed equal to your walking speed, and your jumping distance
+      is
+      doubled.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.YE4b7aYrL5uSCGi5]{Athletic
+      Champion}</p><h3 data-anchor="additional-fighting-style"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Additional Fighting
+      Style</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">At 10th level, you can choose a
+      second option from the Fighting Style class feature. You gain the benefits
+      of Improved Fighting Style with this second Fighting Style as
+      well.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.tW4PIdPqcJkbizM0]{Additional
+      Fighting Style}</p><h3 data-anchor="determination"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Determination</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 15th level, you can
+      attempt to use physical prowess to break through magical effects that are
+      otherwise physically impassable. As an action, you can make a Strength
+      (Athletics) check against the spell save DC of the caster to attempt to
+      force your way through magical barriers or effects. On success, you can
+      move up through the effect, spending four feet of movement for each foot
+      moved through the
+      effect.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.vmtTeFKjCqLJEm64]{Determination}</p><h3
+      data-anchor="survivor"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Survivor</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">At 18th level, you attain the
+      pinnacle of resilience in battle. At the start of each of your turns, you
+      regain hit points equal to 5 + your Constitution modifier if you have no
+      more than half of your hit points left. You don’t gain this benefit if you
+      have 0 hit
+      points.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.lrhNrtX6T3nOePlX]{Survivor}</p><h3
+      data-anchor="fighting-mastery"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Fighting Mastery</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally at 18th level, you
+      learn all the Fighting Styles available to the
+      Fighter.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.UPlWBS1kq6r3kZyT]{Fighting
+      Mastery}</p>
+    chat: ''
+    unidentified: ''
+  source: KCLL
+  identifier: champion-revised
+  classIdentifier: fighter
+  advancement:
+    - _id: fSUwAzxbygi0H3Hr
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.pNl8TlpgUtlG0eUS
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.QgbRbd1pgvYIkN4X
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: YWVhoIL4BmdJERtJ
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.YE4b7aYrL5uSCGi5
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: lrDEZInKWjjMHvfF
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.tW4PIdPqcJkbizM0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: iFxgfd78IOPlViXT
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.lrhNrtX6T3nOePlX
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.UPlWBS1kq6r3kZyT
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: ''
+      icon: ''
+    - _id: IwmlMoObjtCMlEl0
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.vmtTeFKjCqLJEm64
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '12.331'
+  createdTime: 1678760103489
+  modifiedTime: 1707857103947
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  compendiumSource: Item.DePqS6HeUGC7ll1P
+  duplicateSource: null
+folder: null
+sort: 0
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: R7Q1rSS29llHZKVe
+_key: '!items!R7Q1rSS29llHZKVe'
+

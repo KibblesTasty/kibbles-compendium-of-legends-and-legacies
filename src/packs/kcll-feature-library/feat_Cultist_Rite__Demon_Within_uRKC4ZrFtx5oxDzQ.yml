@@ -1,0 +1,55 @@
+name: 'Cultist Rite: Demon Within'
+type: feat
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+system:
+  description:
+    value: >-
+      <p>The first time you drop to 0 hit points, you assume your Demonic
+      Ascension form (not counting as a use of the feature) and regain half your
+      maximum hit points. Once this effect is triggered, you cannot trigger it
+      again until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cultist 15
+  identifier: cultist-rite-demon-within
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.uGwPcbrl1wLmrzQt
+_stats:
+  compendiumSource: Item.uGwPcbrl1wLmrzQt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317524323
+  modifiedTime: 1727317524323
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 68200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: uRKC4ZrFtx5oxDzQ
+_key: '!items!uRKC4ZrFtx5oxDzQ'
+

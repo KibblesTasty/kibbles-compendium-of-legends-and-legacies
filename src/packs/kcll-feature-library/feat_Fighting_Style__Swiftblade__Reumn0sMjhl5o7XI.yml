@@ -1,0 +1,64 @@
+name: Fighting Style (Swiftblade)
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-white-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.UvQVtA7TRlKWymrK
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level when you gain this archetype, you gain the Two
+      Weapon Fighting Fighting Style.</p>
+
+      <p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]{Fighting Style:
+      Two-Weapon Fighting}</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  identifier: fighting-style-swiftblade
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.UvQVtA7TRlKWymrK
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504835
+  modifiedTime: 1727317504835
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 36300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Reumn0sMjhl5o7XI
+_key: '!items!Reumn0sMjhl5o7XI'
+

@@ -1,0 +1,66 @@
+name: Solar Avatar
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, you can call upon the power of the sun to
+      embody its power for 1 minute. For the duration, you gain the following
+      benefits:</p><ul><li><p>You shed bright light for 60 feet, and dim light
+      for additional 60 feet. The bright light is
+      sunlight.</p></li><li><p>Creatures in the bright light you shed have
+      disadvantage on saving throws against your Warden abilities and
+      spells.</p></li><li><p>When you make a Radiant Blast, you can shoot a beam
+      of energy instead of an attack, forcing all creatures in a 60 foot line to
+      make a Dexterity saving throw against 8 + your attack ability modifier +
+      your proficiency bonus, taking damage equal to your Radiant Blast damage
+      on failure, or half as much on a success.</p></li><li><p>When you deal
+      radiant damage against a target, you imbue the target with a radiant
+      illumination, granting advantage to the next attack made against that
+      target before the start of your next turn.</p></li></ul><p>Once you use
+      this ability, you cannot use it again until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sunwatcher 17
+  identifier: solar-avatar
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.T7pspWIWhOO5e9xa
+_stats:
+  compendiumSource: Item.T7pspWIWhOO5e9xa
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504138
+  modifiedTime: 1727317504138
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 35200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: QRESpNTSAx1fVFft
+_key: '!items!QRESpNTSAx1fVFft'
+

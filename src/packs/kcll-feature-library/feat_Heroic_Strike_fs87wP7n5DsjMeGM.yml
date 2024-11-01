@@ -1,0 +1,65 @@
+name: Heroic Strike
+type: feat
+img: icons/skills/melee/strike-sword-steel-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.cRmFiCYLHISN0mMP
+system:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, when you take the Attack action, once per
+      turn you can expend Leadership Dice (up to your per turn limit) to apply
+      Rallying Mark as part of a melee weapon attack.</p>
+
+      <p>Whenever you expend Leadership Dice as part of making an attack, you
+      can add the expended Leadership Dice to the damage roll of the attack.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paragon 3
+  identifier: heroic-strike
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.cRmFiCYLHISN0mMP
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317515037
+  modifiedTime: 1727317515037
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 52400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: fs87wP7n5DsjMeGM
+_key: '!items!fs87wP7n5DsjMeGM'
+

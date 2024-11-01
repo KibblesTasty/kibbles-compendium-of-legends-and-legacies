@@ -1,0 +1,69 @@
+name: Elemental Adaptation
+type: feat
+img: icons/magic/water/elemental-water.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.zsjm5fly9SQYvU6p
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, when you complete a long or short rest, you can
+      gain resistance to one damage type from the following list: cold, fire, or
+      lightning.</p>
+
+      <p>When you have resistance to cold damage you can see through the
+      obscurement of fog (such as that created by Paraelemental Manifestations
+      or the spell fog cloud. When you have resistance to fire damage from this
+      feature, you can see through the obscurement of steam or smoke. When you
+      have resistance to lightning damage you can see through the obscurement of
+      dust, smoke, or steam.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Elements 14
+  identifier: elemental-adaptation
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.zsjm5fly9SQYvU6p
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504557
+  modifiedTime: 1727317504557
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 35800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: RDr4ewbQzMtW5t4g
+_key: '!items!RDr4ewbQzMtW5t4g'
+

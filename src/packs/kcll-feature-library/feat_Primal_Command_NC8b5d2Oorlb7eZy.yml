@@ -1,0 +1,55 @@
+name: Primal Command
+type: feat
+img: icons/magic/nature/beam-hand-leaves-green.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">Starting at 18th level,
+      you can cast a Druid spell with the casting time of an action as a bonus
+      action. Once you do this, you cannot do so again until you complete a
+      short rest.</span></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Green Knight 18
+  identifier: primal-command
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.vjzrEdf27SUIPAo4
+_stats:
+  compendiumSource: Item.vjzrEdf27SUIPAo4
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317501908
+  modifiedTime: 1727317501908
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 31500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: NC8b5d2Oorlb7eZy
+_key: '!items!NC8b5d2Oorlb7eZy'
+

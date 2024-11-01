@@ -1,0 +1,64 @@
+name: Imperative Order
+type: feat
+img: icons/equipment/hand/gauntlet-plate-gold.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.sUy5aQ8wjrJp5Z3l
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, when you spend 2 or more Leadership Dice on a
+      target with Urgent Orders, you can allow the target creature to make a
+      single weapon attack with their reaction instead of moving. If you spend 3
+      or more Leadership Dice on a target, the target creature can both move and
+      make a single weapon attack with their reaction.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 7
+  identifier: imperative-order
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.sUy5aQ8wjrJp5Z3l
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317486487
+  modifiedTime: 1727317486487
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 7500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 1zJ0xlVfDQGmnYmY
+_key: '!items!1zJ0xlVfDQGmnYmY'
+

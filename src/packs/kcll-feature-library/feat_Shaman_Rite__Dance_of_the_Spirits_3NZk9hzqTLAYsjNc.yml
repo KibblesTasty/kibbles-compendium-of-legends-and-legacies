@@ -1,0 +1,67 @@
+name: 'Shaman Rite: Dance of the Spirits'
+type: feat
+img: icons/magic/death/undead-ghosts-trio-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.DOwFVi1OZkme54Mg
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 5th-level Occultist</em></p>
+
+      <p>When you cast @Compendium[dnd5e.spells.uCud2s4TjMfjiXUb]{Spirit
+      Guardians}, you can choose what damage type it does from any of Fire,
+      Cold, Lightning, Radiant or Necrotic, regardless of your alignment.</p>
+
+      <p>Additionally, you have advantage on Constitution saves to maintain
+      concentration on spirit guardians and healing spirit.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 5
+  identifier: shaman-rite-dance-of-the-spirits
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.DOwFVi1OZkme54Mg
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317487363
+  modifiedTime: 1727317487363
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 8700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 3NZk9hzqTLAYsjNc
+_key: '!items!3NZk9hzqTLAYsjNc'
+

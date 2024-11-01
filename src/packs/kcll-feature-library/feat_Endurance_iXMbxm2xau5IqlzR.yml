@@ -1,0 +1,99 @@
+name: Endurance
+type: feat
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.a00OFhNslaTxWthR
+system:
+  description:
+    value: >-
+      <p>Beginning at 7th level, you gain a remarkable ability to shrug of
+      blows. When you use your Second Wind feature, you gain resistance to
+      bludgeoning, piercing, and slashing damage until the start of your next
+      turn.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Brawler 7
+  identifier: endurance
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.a00OFhNslaTxWthR
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516938
+  modifiedTime: 1727317516938
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 55500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: iXMbxm2xau5IqlzR
+_key: '!items!iXMbxm2xau5IqlzR'
+

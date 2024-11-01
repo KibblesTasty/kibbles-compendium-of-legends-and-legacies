@@ -1,0 +1,53 @@
+folder: null
+name: Empowered Totems
+type: feat
+img: icons/magic/symbols/runes-carved-stone-green.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, your totems that roll a die roll an additional
+      die (for example 1d6 becomes 2d6). The number of dice increases against
+      (to 3d6) to at 14th level.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Spiritualist 6
+  identifier: empowered-totems
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504318
+  modifiedTime: 1727317504318
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: QrwHttffYMKc6xZH
+sort: 200000
+_key: '!items!QrwHttffYMKc6xZH'
+

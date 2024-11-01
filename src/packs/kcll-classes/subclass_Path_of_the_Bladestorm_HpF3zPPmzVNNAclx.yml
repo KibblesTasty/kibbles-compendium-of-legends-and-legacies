@@ -1,0 +1,77 @@
+folder: L1AVkVBpIkOauAsa
+name: Path of the Bladestorm
+type: subclass
+_id: HpF3zPPmzVNNAclx
+img: icons/skills/melee/strikes-sword-scimitar.webp
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: path-of-the-bladestorm
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: 8vw792ec7neMegAX
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Path Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Path Feature
+      hint: ''
+      _id: zV4lFfuM8eInofXg
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Path Feature
+      hint: ''
+      _id: 4WqUsTdM3wTgbZbw
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Path Feature
+      hint: ''
+      _id: JbDIJhEQCKB1unYW
+  classIdentifier: barbarian
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1729038165970
+  modifiedTime: 1729113566142
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!HpF3zPPmzVNNAclx'
+

@@ -1,0 +1,65 @@
+name: Master of Curses
+type: feat
+img: icons/magic/unholy/orb-hands-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.huZjgzYmOWTJS4RS
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, you no longer need the material component for
+      curse spells (even when casting them at range).</p>
+
+      <p>Additionally, any time you cast a curse with a duration that is not
+      Instantaneous or hex you have advantage on concentration saving throws to
+      maintain their effects.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 14
+  identifier: master-of-curses
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.huZjgzYmOWTJS4RS
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317514084
+  modifiedTime: 1727317514084
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 50900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: eprg9fc3cVweRkr7
+_key: '!items!eprg9fc3cVweRkr7'
+

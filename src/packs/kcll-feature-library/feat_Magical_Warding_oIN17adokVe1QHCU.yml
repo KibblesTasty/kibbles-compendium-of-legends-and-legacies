@@ -1,0 +1,67 @@
+name: Magical Warding
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.gbmDuHbDKXsjWCDz
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>Additionally at 6th level, you gain proficiency in your choice of
+      Wisdom or Charisma saving throws, and you automatically pass saving throws
+      against your own spells.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 6
+  identifier: magical-warding
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.gbmDuHbDKXsjWCDz
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317520939
+  modifiedTime: 1727317520939
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 62400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: oIN17adokVe1QHCU
+_key: '!items!oIN17adokVe1QHCU'
+

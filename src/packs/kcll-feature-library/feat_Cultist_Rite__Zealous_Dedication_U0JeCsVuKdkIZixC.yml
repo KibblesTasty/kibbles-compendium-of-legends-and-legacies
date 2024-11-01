@@ -1,0 +1,59 @@
+name: 'Cultist Rite: Zealous Dedication'
+type: feat
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Zealous Conviction, 12th level
+      Cultist)</em></p><p>When you are reduced to 0 hit points, you can make a
+      Spellcasting ability check with a DC of 5 + the damage taken. On success,
+      you are reduced to 1 hit point instead.</p><p>On failure, you can expend a
+      spell slot to increase the value rolled by an amount equal to the level of
+      the spell slot, potentially during a failure into a success. Once you
+      spend a spell slot to do so, you cannot do so against until you complete a
+      short or long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cultist 12
+  identifier: cultist-rite-zealous-dedication
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.O8nGIjQ5u06XaQRv
+_stats:
+  compendiumSource: Item.O8nGIjQ5u06XaQRv
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317506112
+  modifiedTime: 1727317506112
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 38400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: U0JeCsVuKdkIZixC
+_key: '!items!U0JeCsVuKdkIZixC'
+

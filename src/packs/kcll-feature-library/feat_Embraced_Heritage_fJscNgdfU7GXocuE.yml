@@ -1,0 +1,95 @@
+name: Embraced Heritage
+type: feat
+img: icons/creatures/unholy/demon-horned-winged-laughing.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.6WVemTwfvGPrYCqT
+system:
+  description:
+    value: "<h4 id=\"sorcerer-origin-fiend-bloodline-variant-origin-spells-embraced-heritage\">Embraced Heritage</h4>\n<p>Starting at 6th level, when draw upon the power of your blood, you can embrace the dark power the courses through it, briefly enhancing your fiendish traits. Once per turn on your turn when you spend spend one or more sorcerer points, you can gain one of the following benefits for a number of rounds equal to the number of sorcerer points spent (for example, if you spend 1 sorcery point to empower a spell, you gain the effects until the start of your next turn).</p>\n<ul>\n<li>Blood of the Fiend.\_The power in your blood courses, granting you advantage on saving throws against spells and other magical effects.</li>\n<li>Eyes of the Fiend.\_Your eyes glow with an infernal gleam, you can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</li>\n<li>Skin of the Fiend.\_Your skin takes on an exotic hue, and you gain resistance to your choice of poison, fire, lightning, or cold damage.</li>\n</ul>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fiend Origin 6
+  identifier: embraced-heritage
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.6WVemTwfvGPrYCqT
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317514525
+  modifiedTime: 1727317514525
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 51600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: fJscNgdfU7GXocuE
+_key: '!items!fJscNgdfU7GXocuE'
+

@@ -1,0 +1,51 @@
+name: 'Aegis Effect: Arcane Agility'
+type: feat
+img: icons/skills/movement/feet-winged-sandals-tan.webp
+system:
+  description:
+    value: <p>You are under the effect of the jump spell during the effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 2
+  identifier: aegis-effect-arcane-agility
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.EJzePHHe5eW0o0Mz
+_stats:
+  compendiumSource: Item.EJzePHHe5eW0o0Mz
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317521591
+  modifiedTime: 1727317521591
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 63400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: pRPW9MkC4pJp5Mvq
+_key: '!items!pRPW9MkC4pJp5Mvq'
+

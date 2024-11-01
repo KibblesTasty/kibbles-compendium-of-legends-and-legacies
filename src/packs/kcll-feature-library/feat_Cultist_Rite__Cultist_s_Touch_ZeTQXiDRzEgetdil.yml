@@ -1,0 +1,53 @@
+name: 'Cultist Rite: Cultist''s Touch'
+type: feat
+img: icons/magic/unholy/hand-claw-fire-blue.webp
+system:
+  description:
+    value: >-
+      <p>When you use your action to cast a cantrip with a range of touch, you
+      can make one weapon attack as a bonus action.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cultist 7
+  identifier: cultist-rite-cultists-touch
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.5ZMMNcAjY2xyGPEj
+_stats:
+  compendiumSource: Item.5ZMMNcAjY2xyGPEj
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317510092
+  modifiedTime: 1727317510092
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 44600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ZeTQXiDRzEgetdil
+_key: '!items!ZeTQXiDRzEgetdil'
+

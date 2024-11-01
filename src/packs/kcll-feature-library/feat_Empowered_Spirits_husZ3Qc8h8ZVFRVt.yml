@@ -1,0 +1,145 @@
+name: Empowered Spirits
+type: feat
+img: icons/creatures/magical/construct-golem-stone-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.9IOIZyo6CqLDTzYF
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, when you call a spirit, you expend a spell slot
+      of 1st level or higher to empower that spirit. An empowered spirit adds
+      additional damage to your weapon and deals additional manifested damage.
+      While the spirit is called and not manifested you gain temporary hit
+      points equal to the level of the spell slot spent to empower at the start
+      of each of your turns.</p>
+
+      <table border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center"><strong>Spell Slot</strong></td>
+
+      <td style="text-align:center"><strong>Weapon Damage</strong></td>
+
+      <td style="text-align:center"><strong>Manifested Damage</strong></td>
+
+      <td style="text-align:center"><strong>Temporary Hit Points</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">1st</td>
+
+      <td style="text-align:center">1d6</td>
+
+      <td style="text-align:center">2d4</td>
+
+      <td style="text-align:center">1</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">2nd</td>
+
+      <td style="text-align:center">1d8</td>
+
+      <td style="text-align:center">2d6</td>
+
+      <td style="text-align:center">2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">3rd</td>
+
+      <td style="text-align:center">1d10</td>
+
+      <td style="text-align:center">2d6</td>
+
+      <td style="text-align:center">3</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">4th</td>
+
+      <td style="text-align:center">1d12</td>
+
+      <td style="text-align:center">2d8</td>
+
+      <td style="text-align:center">4</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">5th</td>
+
+      <td style="text-align:center">1d12</td>
+
+      <td style="text-align:center">2d8</td>
+
+      <td style="text-align:center">5</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 3
+  identifier: empowered-spirits
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.9IOIZyo6CqLDTzYF
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516406
+  modifiedTime: 1727317516406
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 54700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: husZ3Qc8h8ZVFRVt
+_key: '!items!husZ3Qc8h8ZVFRVt'
+

@@ -1,0 +1,61 @@
+name: Heroic Resolve
+type: feat
+img: icons/magic/control/control-influence-rally-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.wQ5rVL2ySVkTRbjW
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, when you use Indomitable to reroll a saving
+      throw, you can add your Fighter level to the result.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Champion 10
+  identifier: heroic-resolve
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.wQ5rVL2ySVkTRbjW
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317526585
+  modifiedTime: 1727317526585
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 71800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: xMKOkGdJBjWCYyoy
+_key: '!items!xMKOkGdJBjWCYyoy'
+

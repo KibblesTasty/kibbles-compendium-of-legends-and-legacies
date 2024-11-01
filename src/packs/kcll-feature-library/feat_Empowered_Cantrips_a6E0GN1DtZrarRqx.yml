@@ -1,0 +1,62 @@
+name: Empowered Cantrips
+type: feat
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PDum3XxXJT3txH7g
+system:
+  description:
+    value: >-
+      <p>Starting, at 6th level, once per turn when you roll damage for an
+      Occultist cantrip, you can add your Wisdom modifier to the damage
+      dealt.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Hedge Mage 6
+  identifier: empowered-cantrips
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.PDum3XxXJT3txH7g
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317510322
+  modifiedTime: 1727317510322
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 45000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: a6E0GN1DtZrarRqx
+_key: '!items!a6E0GN1DtZrarRqx'
+

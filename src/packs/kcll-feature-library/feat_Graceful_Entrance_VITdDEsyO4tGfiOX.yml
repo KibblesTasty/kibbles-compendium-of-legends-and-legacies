@@ -1,0 +1,174 @@
+name: Graceful Entrance
+type: feat
+img: icons/skills/movement/feet-winged-sandals-tan.webp
+effects:
+  - _id: pVhoEUNuBRA6EaEp
+    changes:
+      - key: system.attributes.init.value
+        mode: 2
+        value: '@abilities.cha.mod'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.93HlrlpAK9Ql2OBW
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Graceful Entrace
+    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!VITdDEsyO4tGfiOX.pVhoEUNuBRA6EaEp'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.93HlrlpAK9Ql2OBW
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you can give yourself a bonus to your initiative
+      rolls equal to your Charisma modifier. Additionally when you roll
+      initiative and are not surprised, you can move up to your half movement
+      speed, and you and any creature you end this movement within 5 feet of
+      gains temporary hit points equal to your Charisma modifier.</p>
+    chat: ''
+  source:
+    custom: Dancer
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '15'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@mod'
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: graceful-entrance
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.93HlrlpAK9Ql2OBW
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317507068
+  modifiedTime: 1727317507068
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 39900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: VITdDEsyO4tGfiOX
+_key: '!items!VITdDEsyO4tGfiOX'
+

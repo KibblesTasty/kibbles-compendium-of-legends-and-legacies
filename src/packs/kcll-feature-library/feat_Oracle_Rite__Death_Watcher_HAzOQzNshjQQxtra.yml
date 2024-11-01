@@ -1,0 +1,68 @@
+name: 'Oracle Rite: Death Watcher'
+type: feat
+img: icons/magic/death/skeleton-worn-skull-tan.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.AkuFYI3U1FWdTJfJ
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 12th level Occultist</em></p>
+
+      <p>You can see the lines of fate, and detect when one of them is about to
+      snap. When an ally that can see or hear you would drop to 0 hit points as
+      a result of taking damage, you can manipulate their fate with a cryptic
+      warning.</p>
+
+      <p>Once you use this ability, you cannot use it again until you complete a
+      long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Oracle 12
+  identifier: oracle-rite-death-watcher
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.AkuFYI3U1FWdTJfJ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317498024
+  modifiedTime: 1727317498024
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 25200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: HAzOQzNshjQQxtra
+_key: '!items!HAzOQzNshjQQxtra'
+

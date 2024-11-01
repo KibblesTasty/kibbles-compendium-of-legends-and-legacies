@@ -1,0 +1,54 @@
+name: 'Aegis Effect: Arcane Style'
+type: feat
+img: icons/weapons/swords/sword-runed-glowing.webp
+system:
+  description:
+    value: >-
+      <p>While this Aegis Spell is active, you gain one Fighting Style option of
+      your choice from the fighter class. If you already have a style, the one
+      you choose must be different.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Spellblade 5
+  identifier: aegis-effect-arcane-style
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.BvIIpcPnWXm8f0FY
+_stats:
+  compendiumSource: Item.BvIIpcPnWXm8f0FY
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317486424
+  modifiedTime: 1727317486424
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 7400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 1yHeYayBqao8bSl2
+_key: '!items!1yHeYayBqao8bSl2'
+

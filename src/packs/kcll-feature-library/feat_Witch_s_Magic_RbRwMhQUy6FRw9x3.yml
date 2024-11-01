@@ -1,0 +1,64 @@
+name: Witch's Magic
+type: feat
+img: icons/creatures/amphibians/bullfrog-glass-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.QQ8BcjQ6YHOl9aZv
+system:
+  description:
+    value: >-
+      <p>When you select this Tradition at first level you learn the spell
+      @Compendium[dnd5e.spells.JGT5bNqu9REL7Fuz]{Find Familiar}, and when you
+      summon a familiar with this spell, it acts on your initiative.
+      Additionally, you can select 2 additional cantrips of your choice from the
+      Occultist spell list.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 1
+  identifier: witchs-magic
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.QQ8BcjQ6YHOl9aZv
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317504726
+  modifiedTime: 1727317504726
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 36100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: RbRwMhQUy6FRw9x3
+_key: '!items!RbRwMhQUy6FRw9x3'
+

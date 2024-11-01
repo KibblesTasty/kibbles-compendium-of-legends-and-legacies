@@ -1,0 +1,63 @@
+name: Backstab
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RIiLCtYxTGe5OaYV
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you are pragmatic and deadly in eliminating your
+      foes. You have advantage on attack rolls against any creature that hasn't
+      taken a turn in the combat yet, or when an allied creature within 5 feet
+      of the target is directly on the other side of a creature.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cutthroat 3
+  identifier: backstab
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.RIiLCtYxTGe5OaYV
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317488234
+  modifiedTime: 1727317488234
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 10100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 4V1lDRTdULDWnOo3
+_key: '!items!4V1lDRTdULDWnOo3'
+

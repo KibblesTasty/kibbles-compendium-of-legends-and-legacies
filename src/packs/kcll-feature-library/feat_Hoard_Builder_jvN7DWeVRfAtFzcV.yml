@@ -1,0 +1,101 @@
+name: Hoard Builder
+type: feat
+img: icons/commodities/currency/coins-plain-stack-gold-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.SfRgPuEhxiSH3HLg
+system:
+  description:
+    value: >-
+      <h3 id="otherworldly-patron-the-dragon-draconic-blast-hoard-builder">Hoard
+      Builder</h3>
+
+      <p>Starting at 10th level, when you take a long rest, at the end of the
+      long rest you gain 1 temporary hit points for each 100 gold pieces in your
+      possession, up to a maximum of your Warlock level.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: The Dragon 10
+  identifier: hoard-builder
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.SfRgPuEhxiSH3HLg
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317517779
+  modifiedTime: 1727317517779
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 56900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: jvN7DWeVRfAtFzcV
+_key: '!items!jvN7DWeVRfAtFzcV'
+

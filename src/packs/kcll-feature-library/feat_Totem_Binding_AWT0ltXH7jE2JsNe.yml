@@ -1,0 +1,95 @@
+folder: null
+name: Totem Binding
+type: feat
+img: icons/magic/symbols/mask-yellow-orange.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, as an action, you can create a totem of power at
+      a point within 15 feet of you. You learn two totems when you gain this
+      feature, and another totem at 5th level (3), 11th level (4), and 17th
+      level (5). The following are the list of totems you can
+      select:</p><ul><li><p><strong>Agonizing Totem.</strong> Any creature of
+      your choice that starts its turn within 10 feet of the totem or enters
+      within 10 feet of it for the first time on their turn takes 1d6 necrotic
+      damage. Any creature that damages the totem from within 10 feet of it
+      takes 1d6 necrotic damage.</p></li><li><p><strong>Binding Totem.</strong>
+      Terrain within 10 feet of the totem is difficult terrain for creatures of
+      your choice, and any creature attempting to teleport into or out of the
+      radius must make a Charisma saving throw against your spell save DC, or
+      the attempt fails.</p></li><li><p><strong>Grappling Totem.</strong> When
+      you create the totem, it attempts to bind a Large or smaller creature of
+      your choice within 10 feet, forcing them to make a Dexterity saving throw
+      against your spell save DC. On failure, they are pulled to within 5 feet
+      of the totem and grappled by it (escape DC equals your spell save DC).
+      This totem cannot be made mobile by other effects or
+      features.</p></li><li><p><strong>Life Totem.</strong> When a creature
+      starts its turn within 10 feet of the totem you can heal them with the
+      totem for 1d6 hit points. The totem does this a number of times equal to
+      your Wisdom modifier, after which its power fades and it
+      crumbles.</p></li><li><p><strong>Sanctuary Totem.</strong> All creatures
+      of your choice within 10 feet of the totem are under the effect of
+      sanctuary. This effect is broken under the normal conditions of sanctuary
+      and cannot be regained from a totem for 1 minute once
+      lost.</p></li><li><p><strong>Shrouding Totem.</strong> All creatures and
+      objects (including the totem) within 10 feet of the totem are lightly
+      obscured from creatures beyond 10 feet of the totem, and gain the benefits
+      of half cover against ranged attack rolls originating from outside the
+      Totem’s radius.</p></li><li><p><strong>Soothing Totem.</strong> All
+      creatures of your choice within 10 feet of the totem have advantage on
+      saving throws against being Charmed or
+      Frightened.</p></li><li><p><strong>Warding Totem.</strong> All creatures
+      of your choice within 10 feet of the totem gain resistance to all damage,
+      but the totem takes damage equal to the damage taken by creatures that
+      benefit from the resistance (which can destroy the totem, ending the
+      effect).</p></li></ul><p>A totem is a Small sized object with an AC of 12
+      and hit points equal to your occultist level. If it is reduced to 0 hit
+      points, it is destroyed and its effect ends. A creature cannot be affected
+      by more than one of the same type of totem at the same time. A totem
+      cannot be moved once placed. Totems can last a maximum of 1 minute, after
+      which they lose power and crumble away. You can place a number of totems
+      equal to your Wisdom modifier, regaining all uses when you complete a long
+      rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Spiritualist 3
+  identifier: totem-binding
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317493233
+  modifiedTime: 1727317493233
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: AWT0ltXH7jE2JsNe
+sort: 2000000
+_key: '!items!AWT0ltXH7jE2JsNe'
+

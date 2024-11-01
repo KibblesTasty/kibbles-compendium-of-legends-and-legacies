@@ -1,0 +1,76 @@
+name: 'Channel Divinity: Invoke Judgement'
+type: feat
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.ZDJUFpDrxQdJTOFC
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, as an action you can present your holy symbol
+      and invoke judgment upon your enemies. You crush a target within 60 feet
+      under the weight of their sins. The target makes a Wisdom saving throw. On
+      failure, the creature is knocked prone and their movement speed is dropped
+      to zero for 1 minute. The creature can repeat their saving throw at the
+      end of each of their turns. They make this save disadvantage if they have
+      dealt damage since the start of their turn.</p>
+
+      <p>You can apply the bonus damage of Sacred Judgement when dealing damage
+      with a Cleric spell to a creature you have Invoked Judgement on regardless
+      if they have damaged another creature. This persists for 1 minute
+      regardless of their save.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Judgement Domain 2
+  identifier: channel-divinity-invoke-judgement
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.ZDJUFpDrxQdJTOFC
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317508537
+  modifiedTime: 1727317508537
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 42200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: X5VxJFnphLJcJOSw
+_key: '!items!X5VxJFnphLJcJOSw'
+

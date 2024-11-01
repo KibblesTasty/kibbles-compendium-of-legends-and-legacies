@@ -1,0 +1,195 @@
+name: Assassin
+type: subclass
+img: icons/equipment/head/hood-purple-mask.webp
+effects: []
+flags:
+  core:
+    sourceId: Item.yCzNktuAbJo3NVl0
+system:
+  description:
+    value: >-
+      <section class="journal-page-content"
+      style="box-sizing:border-box;user-select:text;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><h2
+      data-anchor="assassin"
+      style="box-sizing:border-box;user-select:text;margin:0px 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.5em;border-bottom:1px
+      solid var(--color-underline-header)"><span style="font-family:Signika,
+      sans-serif">Assassin</span></h2><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif">You focus your training on the
+      grim art of death. Those who adhere to this archetype are diverse:
+      assassins, hired killers, spies, bounty hunters and more. Stealth, poison,
+      and disguise help you eliminate your foes with deadly
+      efficiency.</span></p><h3 data-anchor="bonus-proficiency"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header)"><span style="font-family:Signika,
+      sans-serif">Bonus Proficiency</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif">When you choose this archetype at
+      3rd level, you gain proficiency with your choice of disguise kits or the
+      poisoner’s
+      kits.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.WPIWcJi5a4tXAph8]{Bonus
+      Proficiency}</p><h3 data-anchor="backstab"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header)"><span style="font-family:Signika,
+      sans-serif">Backstab</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif">Starting at 3rd level, you are
+      pragmatic and deadly in eliminating your foes. You have advantage on
+      attack rolls against any creature that hasn't taken a turn in the combat
+      yet, or when an allied creature within 5 feet of the target is directly on
+      the other side of a
+      creature.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.4V1lDRTdULDWnOo3]{Backstab}</p><h3
+      data-anchor="killers-method"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header)"><span style="font-family:Signika,
+      sans-serif">Killer's Method</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif">Starting at 9th level, you have
+      mastered one technique of your choice for approaching a target. Select one
+      of the following benefits:</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em"><li style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">False Face:</strong> You
+      gain expertise with the disguise kit, and can assume a prepared disguise
+      with the bonus action granted by Cunning Action.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Blade in the Dark:</strong>
+      You gain expertise with the Stealth skill. You can attempt hide even when
+      you are only lightly obscured by dim light.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Poisoner's Path:</strong>
+      You gain expertise with the poisoner's kit. During a long rest, you can
+      create one a single use Injury, Touch, Ingested, or Inhaled poison. On
+      effect, the target must make a Constitution saving throw (DC 10 + your
+      proficiency bonus) or take 2d6 + your proficiency bonus
+      damage.</span></li></ul><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif">If you gain expertise in a skill
+      you already have expertise in, you can select another skill or tool to
+      gain proficiency
+      in.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.BuzyCDqyTDSwbiFL]{Killer's
+      Method}</p><h3 data-anchor="favored-approach"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header)"><span style="font-family:Signika,
+      sans-serif">Favored Approach</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif">Starting at 13th level, you hone
+      your skills gaining a favored approach to dealing death. Select one of the
+      following benefits:</span></p><ul
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
+      0px 0px 1.5em"><li style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Trusted Face</strong>: If
+      you spend seven days establishing a fake identity for yourself or three
+      hours studying another person to impersonate, you have advantage on any
+      Charisma (Deception) check involving maintaining your disguise and
+      identity.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Swift Blade</strong>: When
+      you roll initiative while hidden, you gain advantage on the
+      roll.</span></li><li style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Specialized
+      Poisons:</strong> When you create a poison, you can designate one creature
+      type (for example, Fiends). The damage of that poison ignores resistance
+      or immunity that creature type may have to
+      poison.</span></li></ul><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.i9gqvyTvWnFck8IZ]{Favored
+      Approach}</p><h3 data-anchor="lethal-blows"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header)"><span style="font-family:Signika,
+      sans-serif">Lethal Blows</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif">Starting at 17th level, after you
+      deal sneak attack damage to a creature, if the targets remaining hit
+      points is less than your Rogue level, the target dies. You can forgo this
+      when intentionally making nonlethal
+      attacks.</span></p></section><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.bOZZSGBcC19B7J8F]{Lethal
+      Blows}</p><p><br class="Apple-interchange-newline" /></p>
+    chat: ''
+    unidentified: ''
+  source: KCLL
+  identifier: assassin-revised
+  classIdentifier: rogue
+  advancement:
+    - _id: ZJvaNiOWRlTyenib
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.4V1lDRTdULDWnOo3
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.WPIWcJi5a4tXAph8
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: VRFisXKEpxX7MBhk
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.BuzyCDqyTDSwbiFL
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: KkOd0gTPu0K3UNOX
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.i9gqvyTvWnFck8IZ
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: ''
+      icon: ''
+    - _id: W4t53TsFjRIBRDi5
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.bOZZSGBcC19B7J8F
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '12.331'
+  createdTime: 1678759963553
+  modifiedTime: 1707857103943
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  compendiumSource: Item.yCzNktuAbJo3NVl0
+  duplicateSource: null
+folder: null
+sort: 0
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: BfNcB2ZwJpV134tS
+_key: '!items!BfNcB2ZwJpV134tS'
+

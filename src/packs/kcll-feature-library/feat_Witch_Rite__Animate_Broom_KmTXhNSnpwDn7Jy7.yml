@@ -1,0 +1,67 @@
+name: 'Witch Rite: Animate Broom'
+type: feat
+img: icons/weapons/staves/broom-yellow-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.qOyVjWLX4eWhVwUf
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 12th level Witch)</em></p>
+
+      <p>You infuse an object - traditionally a broom, but can be any vaguely
+      broom-shaped object (like a spear, staff, or similar) - with flying magic,
+      turning it into a Broom of Flying (basic rules, pg. 156). If your broom is
+      lost or destroyed, you can create a new one during 8 hours of work. If a
+      previous broom still exists when you make a new one, it loses its magic
+      upon the completion of the new one.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Witch 12
+  identifier: witch-rite-animate-broom
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.qOyVjWLX4eWhVwUf
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317499799
+  modifiedTime: 1727317499799
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 28200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: KmTXhNSnpwDn7Jy7
+_key: '!items!KmTXhNSnpwDn7Jy7'
+

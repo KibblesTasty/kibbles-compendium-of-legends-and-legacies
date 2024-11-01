@@ -1,0 +1,126 @@
+name: Distant Surge
+type: feat
+img: icons/skills/ranged/projectile-spiral-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Ht6nCsC3bpGImseR
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you gain a new option for your Arcane Surge
+      feature.</p><ul><li><p>When you infuse a spell into a piece of ammunition
+      with Spellstrike, you can expend an Arcane Surge to increase that spells
+      range to the range of weapon used to fire that piece of
+      ammunition.</p></li></ul>
+    chat: ''
+  source:
+    custom: Arcane Archer
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: ''
+    subtype: ''
+  requirements: Arcane Archer 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: distant-surge
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Ht6nCsC3bpGImseR
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317513225
+  modifiedTime: 1727317513225
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 49400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: dkJu3beGpfnp9W3v
+_key: '!items!dkJu3beGpfnp9W3v'
+

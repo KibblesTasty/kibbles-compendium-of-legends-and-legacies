@@ -1,0 +1,64 @@
+name: Extra Attack (Shaman)
+type: feat
+img: icons/weapons/polearms/javelin-simple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.aBf8buxPmTSzSVXk
+system:
+  description:
+    value: >-
+      <p>Beginning at 6th level, you can attack twice, instead of once, whenever
+      you take the Attack action on your turn.</p>
+
+      <p>If you have a manifested spirit, you can replace one or both attacks
+      with the special attack with it.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Shaman 6
+  identifier: extra-attack-shaman
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.aBf8buxPmTSzSVXk
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317512540
+  modifiedTime: 1727317512540
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 48400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ckUaIGtHSlbTYqTZ
+_key: '!items!ckUaIGtHSlbTYqTZ'
+

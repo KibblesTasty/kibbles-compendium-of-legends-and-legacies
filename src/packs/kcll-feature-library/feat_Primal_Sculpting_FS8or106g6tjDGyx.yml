@@ -1,0 +1,63 @@
+name: Primal Sculpting
+type: feat
+img: icons/magic/fire/barrier-wall-flame-ring-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.n0spvigG2J9to6cz
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, when deal bludgeoning, cold, fire, or lightning
+      damage with Invoke Elements or a druid spell, you can choose a number of
+      creatures equal to your proficiency bonus that you can see to exclude from
+      the effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Elements 6
+  identifier: primal-sculpting
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.n0spvigG2J9to6cz
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317496808
+  modifiedTime: 1727317496808
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 23200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: FS8or106g6tjDGyx
+_key: '!items!FS8or106g6tjDGyx'
+

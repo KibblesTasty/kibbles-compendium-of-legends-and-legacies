@@ -1,0 +1,107 @@
+name: Dancer's Grace
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects:
+  - _id: ZvWFJbK59b4C7nkj
+    changes:
+      - key: system.attributes.ac.calc
+        mode: 5
+        value: custom
+        priority: 50
+      - key: system.attributes.ac.formula
+        mode: 5
+        value: 10 + @abilities.dex.mod + @abilities.cha.mod
+        priority: 50
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Compendium.world.kibbles-warlord.bZRJB9p7MA1YEMX2
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Dancer's Grace
+    img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!n2CdNM49P8CHPmht.ZvWFJbK59b4C7nkj'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0PHqfSIUKDeZcWaY
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level when you take this Presence, you gain proficiency
+      with Performance. If you already have proficiency with preformance, you
+      gain expertise with it, meaning you can add twice your proficiency
+      modifier to checks made with it.</p>
+
+      <p>Additionally, while you are not wearing armor or carrying a shield, you
+      gain an unarmored defense that is 10 + your Dexterity modifier + your
+      Charisma modifier.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dancer 1
+  identifier: dancers-grace
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.0PHqfSIUKDeZcWaY
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317519638
+  modifiedTime: 1727317519638
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 60100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: n2CdNM49P8CHPmht
+_key: '!items!n2CdNM49P8CHPmht'
+

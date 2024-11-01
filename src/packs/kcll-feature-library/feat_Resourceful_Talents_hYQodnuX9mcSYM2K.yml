@@ -1,0 +1,68 @@
+name: Resourceful Talents
+type: feat
+img: icons/consumables/potions/bottle-corked-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.U8nQXGd8YEPIVfeo
+system:
+  description:
+    value: >-
+      <p>Starting at 7th level, you can find small breaks in the flow of battle
+      to drink potions. You can drink any potion that would normally require an
+      action as a bonus action.</p>
+
+      <p>Additionally, you can attempt to cast spell scrolls that would normally
+      unintelligible to you. When doing so, you automatically succeed if the DC
+      of the required spellcasting check is less than 10 + your proficiency
+      bonus, otherwise you roll 1d20 + your proficiency bonus in place of making
+      a spellcasting check, unless your spellcasting check would be higher.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Adventurer 7
+  identifier: resourceful-talents
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.U8nQXGd8YEPIVfeo
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317516190
+  modifiedTime: 1727317516190
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 54300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: hYQodnuX9mcSYM2K
+_key: '!items!hYQodnuX9mcSYM2K'
+

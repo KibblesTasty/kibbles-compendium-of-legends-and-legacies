@@ -1,0 +1,74 @@
+name: Elemental Armaments
+type: feat
+img: icons/magic/water/strike-ice-blade-axe.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1dJkkbFf7rxkrLOE
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when you roll initiative, or as a bonus action
+      at any time, you can manifest elemental weapons into your hands, causing
+      them to burst into flames, form icy claws, lashes of lightning, or frozen
+      shields. Select one or two of the following weapons to manifest. You can
+      manifest the same weapon in each hand, or different weapons in each hand.
+      The weapons last until you drop them,or dismiss them as a bonus
+      action.</p>
+
+      <p>@Item[dLDnNmmqJNRpbbDQ]{Primal Flare}</p>
+
+      <p>@Item[yWn1JRfcm0I2g6qC]{Frost Shield}</p>
+
+      <p>@Item[TYCDc2MsiFBrQwe3]{Icy Claws}</p>
+
+      <p>@Item[k7ebf2dJ2tKfECi4]{Lightning Lash}</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elemental Soul 2
+  identifier: elemental-armaments
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.1dJkkbFf7rxkrLOE
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317490029
+  modifiedTime: 1727317490029
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 12900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 78Xv2Z1M6Ksue0hl
+_key: '!items!78Xv2Z1M6Ksue0hl'
+

@@ -1,0 +1,69 @@
+name: Cataclysm Unleashed
+type: feat
+img: icons/magic/water/projectiles-ice-explosion.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.eemNpT97RySoDTIw
+system:
+  description:
+    value: >-
+      <p>When you use your Elemental Form ability, you can instead cast
+      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.xnrxF69jS4aR78w1]{Form
+      of the Elements}, and are no longer limited to using the action they grant
+      in place of an attack once per turn, as long as you use two different
+      actions granted by the different forms.</p>
+
+      <p>While in this form, the damage dice of your Elemental Weapons and
+      Elemental Shroud effects are doubled.</p>
+
+      <p>Once you do this, you cannot do so until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elemental Soul 17
+  identifier: cataclysm-unleashed
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.eemNpT97RySoDTIw
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317486544
+  modifiedTime: 1727317486544
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 7600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 23zvIkkzG3Zu7Q6V
+_key: '!items!23zvIkkzG3Zu7Q6V'
+

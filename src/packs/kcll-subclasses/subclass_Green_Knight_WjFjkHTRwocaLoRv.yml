@@ -1,0 +1,699 @@
+name: Green Knight
+type: subclass
+img: icons/equipment/shield/kite-wooden-oak-glow.webp
+system:
+  description:
+    value: >-
+      <h2 data-anchor="green-knight"
+      style="box-sizing:border-box;user-select:text;margin:0px 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.5em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Green Knight</span></h2><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The Green Knight is a fighter who
+      draws on the power of nature to imbue their attacks with the strength of
+      the earth itself. They are fierce defenders of the natural world, sworn to
+      protect it at all costs.</span></p><h3 data-anchor="spellcasting"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Spellcasting</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you reach 3rd level, you
+      augment your martial prowess with the ability to cast spells. See Spells
+      Rules for the general rules of spellcasting and the Spells Listing for the
+      cleric spell
+      list.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.E9IQF1EYbWial6zt]{Spellcasting
+      (Green Knight)}</p><h3 data-anchor="cantrips"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Cantrips</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You learn two cantrips of your
+      choice from the druid spell list. You learn an additional druid cantrip of
+      your choice at 10th level.</span></p><h3 data-anchor="spell-slots"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Spell Slots</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The Green Knight Spellcasting
+      table shows how many spell slots you have to cast your cleric spells of
+      1st level and higher. To cast one of these spells, you must expend a slot
+      of the spell’s level or higher. You regain all expended spell slots when
+      you finish a long rest.</span></p><h4
+      data-anchor="green-knight-spellcasting"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Green Knight
+      Spellcasting</span></h4><table
+      style="box-sizing:border-box;user-select:text;width:394px;border-collapse:collapse;background:rgba(0,
+      0, 0, 0.05);border-top:1px solid
+      var(--color-border-light-tertiary);border-bottom:1px solid
+      var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><thead
+      style="box-sizing:border-box;user-select:text;background:rgba(0, 0, 0,
+      0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px
+      var(--color-shadow-dark);border-bottom:1px solid
+      var(--color-border-dark)"><tr
+      style="box-sizing:border-box;user-select:text"><th id="level"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Level</span></th><th id="spells_known"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">Spells Known</span></th><th id="1st"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">1st</span></th><th id="2nd"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2nd</span></th><th id="3rd"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3rd</span></th><th id="4th"
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4th</span></th></tr></thead><tbody
+      style="box-sizing:border-box;user-select:text"><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3rd</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">5th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">6th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">7th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">5</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">8th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">5</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">9th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">6</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">10th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">6</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">11th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">7</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">12th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">7</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">13th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">8</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">14th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">8</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">15th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">9</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">2</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">16th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">9</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">17th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">10</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">18th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">10</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">—</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">19th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">11</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">1</span></td></tr><tr
+      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
+      255, 255, 0.2)"><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
+      2px;text-align:center"><span style="font-family:Signika,
+      sans-serif">20th</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">11</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">4</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">3</span></td><td
+      style="box-sizing:border-box;user-select:text;padding:0.25em
+      0px;text-align:center"><span style="font-family:Signika,
+      sans-serif">1</span></td></tr></tbody></table><h3
+      data-anchor="spells-known-of-1st-level-and-higher"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Spells Known of 1st-Level and
+      Higher</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You know three 1st-level druid
+      spells of your choice from the druid spell list.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The Spells Known column of the
+      Green Knight Spellcasting table shows when you learn more cleric spells of
+      1st level or higher.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Whenever you gain a level in this
+      class, you can replace one of the cleric spells you know with another
+      spell of your choice from the cleric spell list.</span></p><h3
+      data-anchor="spellcasting-ability"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Spellcasting Ability</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Wisdom is your spellcasting
+      ability for your druid spells, since you learn your spells through faith
+      and conviction. You use your Wisdom whenever a spell refers to your
+      spellcasting ability. In addition, you use your Wisdom modifier when
+      setting the saving throw DC for a druid spell you cast and when making an
+      attack roll with one.</span></p><hr
+      style="box-sizing:border-box;user-select:text;border-right:none;border-left:none;border-image:initial;border-top:1px
+      solid var(--color-border-light-primary);border-bottom:1px solid
+      var(--color-border-light-highlight);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      /><p style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Spell save DC</strong> = 8
+      + your proficiency bonus + your Wisdom modifier</span></p><hr
+      style="box-sizing:border-box;user-select:text;border-right:none;border-left:none;border-image:initial;border-top:1px
+      solid var(--color-border-light-primary);border-bottom:1px solid
+      var(--color-border-light-highlight);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      /><p style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Spell attack
+      modifier</strong> = your proficiency bonus + your Wisdom
+      modifier</span></p><h3 data-anchor="natures-blessing"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Nature's Blessing</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 3rd level, you gain
+      proficiency with the Nature skill and gain the ability to use a druidic
+      focus as your spell casting focus for your druid spells. If you are
+      already proficient in Nature, you gain proficiency in another skill of
+      your
+      choice.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Wm35PpqeueCaLbab]{Nature's
+      Blessing}</p><h3 data-anchor="verdant-weapon"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Verdant Weapon</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Additionally at 3rd level, you
+      learn the <em
+      style="box-sizing:border-box;user-select:text">shillelagh</em> cantrip.
+      You can target any weapon with it, but when targeting a weapon other than
+      a club, quarterstaff, or greatclub, its effect does not change the damage
+      dice. When you target a greatclub, the damage dice becomes
+      1d12.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.WgfELpvUlCX1obdG]{Verdant
+      Weapon}</p><h3 data-anchor="regrowth"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Regrowth</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Beginning at 7th level, you gain
+      an additional use of your Second Wind feature, allowing you to use it
+      again before you need to complete a rest to use it
+      again.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.IxgRzDpDGwHimpLh]{Regrowth}</p><h3
+      data-anchor="ancient-warding"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Ancient Warding</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">At 10th level, when you use your
+      Indomitable feature to reroll a saving throw against a magical effect, you
+      can add your proficiency bonus to the result (potentially adding twice
+      your proficiency bonus if you are already proficient in the
+      save).</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.134TXkmszlOYHmyc]{Ancient
+      Warding}</p><h3 data-anchor="immortal-regeneration"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Immortal
+      Regeneration</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 15th level, your
+      Second Wind feature restores an additional 1d10 hit points, and you can
+      use your Second Wind feature while you are Incapacitated and could
+      otherwise not take
+      actions.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.usACNZeQuMDYSbD7]{Immortal
+      Regeneration}</p><h3 data-anchor="primal-command"
+      style="box-sizing:border-box;user-select:text;margin:1rem 0px
+      0.5rem;padding:0px;font-weight:normal;font-size:1.25em;border-bottom:1px
+      solid var(--color-underline-header);color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Signika, sans-serif">Primal Command</span></h3><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Starting at 18th level, you can
+      cast a Druid spell with the casting time of an action as a bonus action.
+      Once you do this, you cannot do so again until you complete a short
+      rest.</span></p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.NC8b5d2Oorlb7eZy]{Primal
+      Command}</p>
+    chat: ''
+    unidentified: ''
+  source: KCLL
+  identifier: green-knight
+  classIdentifier: fighter
+  advancement:
+    - _id: G8yNUrpa8C7HKYZh
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.usACNZeQuMDYSbD7
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      icon: ''
+    - _id: j04yDoylOCYb6Me3
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.134TXkmszlOYHmyc
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: xpK4TcbDW3EW0Q7s
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.IxgRzDpDGwHimpLh
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: vdUVgW1t9WQdDGyn
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.E9IQF1EYbWial6zt
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Wm35PpqeueCaLbab
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.WgfELpvUlCX1obdG
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: nWohqvPkcPGrtc2s
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.NC8b5d2Oorlb7eZy
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: third
+    ability: wis
+effects: []
+flags:
+  core:
+    sourceId: Item.l7uKcQR0uBEaxolz
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '12.331'
+  createdTime: 1682997274668
+  modifiedTime: 1707857103948
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+  compendiumSource: Item.l7uKcQR0uBEaxolz
+  duplicateSource: null
+folder: null
+sort: 0
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: WjFjkHTRwocaLoRv
+_key: '!items!WjFjkHTRwocaLoRv'
+

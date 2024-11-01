@@ -1,0 +1,64 @@
+name: Weapon Mastery
+type: feat
+img: icons/skills/melee/hand-grip-sword-white-brown.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.oJmlPiiiM4DCwhOM
+system:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, you can choose to master a weapon that would
+      not normally be a monk weapon. Choose a simple or martial melee weapon
+      that lacks the heavy and special properties. You gain proficiency in the
+      weapon, and it becomes a monk weapon for you. You can choose another
+      weapon in this way at 6th, 11th, and 17th level.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sword Saint 3
+  identifier: weapon-mastery
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.oJmlPiiiM4DCwhOM
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317490953
+  modifiedTime: 1727317490953
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 14300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 859TEw2KquZZKIq6
+_key: '!items!859TEw2KquZZKIq6'
+

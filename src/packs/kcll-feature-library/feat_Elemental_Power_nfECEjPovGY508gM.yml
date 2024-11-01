@@ -1,0 +1,221 @@
+name: Elemental Power
+type: feat
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.3iDawQVqLLTVIFdE
+system:
+  description:
+    value: >-
+      <p>You learn one spell from the Elemental Spell List. You can cast this
+      spell by expending ki point to equal to the level of the spell. You can
+      cast the spell at a higher level by expending additional ki, increasing
+      the level of the spell for each ki spent, up to the limit of ki you can
+      spend in a turn.</p>
+
+      <p>You can select this elemental technique multiple times, selecting a
+      different elemental spell each time.</p>
+
+      <h3>1st Level</h3>
+
+      <ul>
+
+      <li>Absorb ElementsXGE</li>
+
+      <li>Arctic Breath</li>
+
+      <li>Burning Hands</li>
+
+      <li>Crashing WaveK</li>
+
+      <li>Create PitK</li>
+
+      <li>Earth TremorXGE</li>
+
+      <li>EntombK</li>
+
+      <li>Gale BoltK</li>
+
+      <li>Feather Fall</li>
+
+      <li>Thunderwave</li>
+
+      </ul>
+
+      <p>Water BlastK</p>
+
+      <h3>2nd Level (5th Level Required)</h3>
+
+      <ul>
+
+      <li>Aganazzar’s ScorcherXGE</li>
+
+      <li>Become FireK</li>
+
+      <li>Become StoneK</li>
+
+      <li>Become WaterK</li>
+
+      <li>Become WindK</li>
+
+      <li>Cold SnapK</li>
+
+      <li>Dancing WaveK</li>
+
+      <li>Earth RippleK</li>
+
+      <li>Hurricane SlashK</li>
+
+      <li>Levitate</li>
+
+      <li>PyrotechnicsXGE</li>
+
+      <li>Gust of Wind</li>
+
+      <li>ShatterK</li>
+
+      <li>Scorching Ray</li>
+
+      <li>Stone PillarK</li>
+
+      <li>Warding WindXGE</li>
+
+      </ul>
+
+      <h3>3rd Level (9th Level Required)</h3>
+
+      <ul>
+
+      <li>Erupting EarthXGE</li>
+
+      <li>Fireball</li>
+
+      <li>Flash FreezeK</li>
+
+      <li>Fly</li>
+
+      <li>Gaseous Form</li>
+
+      <li>Meld Into Stone</li>
+
+      <li>QuicksandK</li>
+
+      <li>Sleet Storm</li>
+
+      <li>Tidal WaveXGE</li>
+
+      <li>Vortex BlastK</li>
+
+      <li>Wall of SandXGE</li>
+
+      <li>Wall of WaterXGE</li>
+
+      <li>Water Breath</li>
+
+      <li>Water CannonK</li>
+
+      <li>Wind Wall</li>
+
+      <li>Water Walk</li>
+
+      </ul>
+
+      <h3>4th Level (13th Level Required)</h3>
+
+      <ul>
+
+      <li>Aero BarrageK</li>
+
+      <li>Control Water</li>
+
+      <li>GeyserK</li>
+
+      <li>Fire Shield</li>
+
+      <li>Ice SpikeK</li>
+
+      <li>Orbital StonesK</li>
+
+      <li>SuffocateK</li>
+
+      <li>Stoneskin</li>
+
+      <li>Wall of Fire</li>
+
+      <li>Watery SphereXGE</li>
+
+      </ul>
+
+      <h3>5th Level (17th Level Required)</h3>
+
+      <ul>
+
+      <li>Cone of Cold</li>
+
+      <li>FissureK</li>
+
+      <li>ImmolationXGE</li>
+
+      <li>MaelstormXGE</li>
+
+      <li>Pressure Cutter</li>
+
+      <li>Sky BurstK</li>
+
+      <li>TornadoK</li>
+
+      <li>Trasmute RockXGE</li>
+
+      <li>Wall of Stone</li>
+
+      </ul>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Way of the Four Elements 3
+  identifier: elemental-power
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.3iDawQVqLLTVIFdE
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317520133
+  modifiedTime: 1727317520133
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 60900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: nfECEjPovGY508gM
+_key: '!items!nfECEjPovGY508gM'
+

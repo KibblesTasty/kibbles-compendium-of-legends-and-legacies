@@ -1,0 +1,66 @@
+name: 'Rite: Emblazoned Focus'
+type: feat
+img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Im5Bl0161cg9QuX6
+system:
+  description:
+    value: >-
+      <p>You emblazon a mystical mark on yourself, via a tattoo, scar, or
+      similar permanent mark. You can use this as your spell casting focus for
+      casting spells. You no longer need a free hand to cast spells with somatic
+      or material components, as you can channel your magic through this mark
+      though it glows visible when you do so. To work in this manner, the mark
+      must remain uncovered (casting in this way does not remove the signs of
+      casting a spell, merely means you do not need a free hand).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Occultist 2
+  identifier: rite-emblazoned-focus
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Im5Bl0161cg9QuX6
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317523572
+  modifiedTime: 1727317523572
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 66800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: tMozmEnonNvqceo2
+_key: '!items!tMozmEnonNvqceo2'
+

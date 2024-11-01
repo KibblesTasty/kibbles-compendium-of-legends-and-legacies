@@ -1,0 +1,68 @@
+name: Divine Right
+type: feat
+img: icons/magic/holy/chalice-glowing-gold.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.kE08gx3oaDmupfpp
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can use Leadership Dice (up to your per turn
+      limit) to cast command. The level of the spell is equal to the number of
+      Leadership Dice spent.</p>
+
+      <p>The spell save DC for these spells are 8 + your Charisma modifier +
+      your Proficiency bonus.</p>
+
+      <p>You can also add your Charisma (maximum 2) to your AC so long as you
+      are not wearing heavy armor or using a shield.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Noble 3
+  identifier: divine-right
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.kE08gx3oaDmupfpp
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727317497112
+  modifiedTime: 1727317497112
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 23700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: FuswXro6WJ7Vz7QH
+_key: '!items!FuswXro6WJ7Vz7QH'
+

@@ -23,38 +23,153 @@ flags:
       value: true
     quickFooter:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">Starting at 6th level, you gain
-      the ability to regain some of your magical energy through a quick focused
-      meditation. When you finish a short rest, you regain some of your expended
-      spell slots. The spell slots can have a combined level that is equal to or
-      less than one third of your Spellblade level (rounded down). You can't use
-      this feature again until you finish a long rest.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">Additionally, at any time, as a
-      bonus action you can expend a spell slot to regain Arcane Surges equal to
-      the level of spell slots spent.</span></p>
+      <p>Starting at 6th level, you gain the ability to regain some of your
+      magical energy through a quick focused meditation. When you finish a short
+      rest, you regain some of your expended spell slots. The spell slots can
+      have a combined level that is equal to or less than one third of your
+      Spellblade level (rounded down). You can’t use this feature again until
+      you finish a long rest.</p><p>Additionally, at any time, as a bonus action
+      you can expend a spell slot to regain Arcane Surges equal to the level of
+      spell slots spent.</p><section id="secret-Xgadb7avwSaoH2LX"
+      class="secret"><p><strong>Foundry Note</strong></p><p>Since you can select
+      the slots you will have to manually adjust your available slots. This
+      feature can be used to track the one-time use though.</p></section>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
-  requirements: Spellblade 6
+  requirements: ''
   identifier: arcane-recuperation
-  activities: {}
+  activities:
+    RS2heIfV2NNul6K5:
+      type: utility
+      _id: RS2heIfV2NNul6K5
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You finish a short rest
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Regain Spell Slots
+      img: ''
+      appliedEffects: []
+    xVezENho77P8ZEfj:
+      type: utility
+      name: Regain Arcane Surge
+      _id: xVezENho77P8ZEfj
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+          - type: itemUses
+            value: '-@scaling'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -64,9 +179,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317505237
-  modifiedTime: 1727317505237
+  modifiedTime: 1730850441943
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 36900000

@@ -4,28 +4,19 @@ img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">Additionally at 2nd level, you
-      start to form a magical Aegis that enhances your physical powers with
-      magical powers, blending them together. You can select one 1st level Aegis
-      effect (listed at the end of the class) and gain the effects.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">When you complete a long rest, you
-      can change your selected 1st level Aegis effect or further boost your
+      <p>Additionally at 2nd level, you start to form a magical Aegis that
+      enhances your physical powers with magical powers, blending them together.
+      You can select one 1st level slot Aegis effect (listed at the end of the
+      class) and gain the effects.</p><p>When you complete a long rest, you can
+      change your selected 1st level slot Aegis effect or further boost your
       Aegis by sacrificing spell slots, granting magical empowerments that last
       until you complete your next long rest. When you do so, select an
       additional Aegis Effect (listed at the end of the class document) and
-      expend the listed level of spell slot.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">You can expend a maximum number of
-      spell levels this way equal to your Spellblade level divided by four
-      (rounded up).</span></p>
+      expend the listed level of spell slot.</p><p>You can expend a maximum
+      number of spell slot levels this way equal to your Spellblade level
+      divided by four (rounded up, for example, at 5th level you can expend two
+      levels of spell slots this way, while at 9th level you can expend three
+      levels of spell slot, etc.).</p>
     chat: ''
   source:
     custom: ''
@@ -68,9 +59,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317507483
-  modifiedTime: 1727317507483
+  modifiedTime: 1730849952417
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 40500000

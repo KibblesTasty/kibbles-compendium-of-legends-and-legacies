@@ -26,13 +26,13 @@ system:
   description:
     value: >-
       <p>As a bonus action, you can expend a number of Leadership Dice (up to
-      your per turn limit) to guide your allies in expeditious action.</p>
-
-      <p>Target an allied creature within 60 feet of you that can see or hear
-      you, that creature can immediately use its reaction to move up to its
-      movement speed (up to a maximum of 30 feet) without provoking opportunity
-      attacks. Roll the leadership dice expended, the target gains temporary hit
-      points equal to the value rolled.</p>
+      your per turn limit of [[lookup @scale.warlord.leadership-turn-limit]]) to
+      guide your allies in expeditious action.</p><p>Target an allied creature
+      within 60 feet of you that can see or hear you, that creature can
+      immediately use its reaction to move up to its movement speed (up to a
+      maximum of 30 feet) without provoking opportunity attacks. Roll the
+      leadership dice expended, the target gains temporary hit points equal to
+      the value rolled.</p>
     chat: ''
   source:
     custom: Warlord
@@ -47,59 +47,67 @@ system:
     subtype: ''
   requirements: Warlord 2
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    blJOxwVavDjFlivs:
+      type: heal
+      _id: blJOxwVavDjFlivs
+      sort: 0
       activation:
         type: bonus
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
-        concentration: false
         units: inst
-        special: ''
+        concentration: false
         override: false
       effects: []
       range:
-        value: '60'
+        override: false
         units: ft
         special: ''
-        override: false
+        value: '60'
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: '1'
-          type: creature
           choice: false
+          count: ''
+          type: ally
           special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: 1@scale.warlord.leadership-die.die
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: urgent-orders
   enchant: {}
   prerequisites:
@@ -110,9 +118,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317515639
-  modifiedTime: 1727317515639
+  modifiedTime: 1730871827553
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53400000

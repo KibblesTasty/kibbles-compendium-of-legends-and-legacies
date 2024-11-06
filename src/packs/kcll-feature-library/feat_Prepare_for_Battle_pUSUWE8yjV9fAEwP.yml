@@ -25,14 +25,14 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 6th level, you can spend a minute preparing up to five
-      allies for combat. You can expend a number of Leadership Dice up to your
-      per turn limit, rolling them and causing your allies to gain temporary hit
-      points equal to the number rolled. Allies that have benefited from this
-      ability can expend a number of hit dice equal to the number of Leadership
-      Dice you expended, using them as they would during a short rest. Any
-      temporary hit points gained from this last until you complete a short or
-      long rest.</p>
+      <p>Starting at 6th level, you can spend a minute preparing creatures for
+      combat. You can expend a number of Leadership Dice (up to your per turn
+      limit), rolling them and causing five your creatures of your choice
+      (potentially including yourself) to gain temporary hit points equal to the
+      number rolled. </p><p>Creatures that have benefited from this ability can
+      expend a number of hit dice equal to the number of Leadership Dice you
+      expended, using them as they would during a short rest. Any temporary hit
+      points gained from this last until you complete a short or long rest.</p>
     chat: ''
   source:
     custom: Warlord
@@ -47,58 +47,70 @@ system:
     subtype: ''
   requirements: Warlord 6
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    4MJeHWLIrsMeFV87:
+      type: heal
+      _id: 4MJeHWLIrsMeFV87
+      sort: 0
       activation:
         type: minute
         value: 1
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
+          max: '@scale.warlord.leadership-turn-limit'
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling:
+              mode: amount
+              formula: ''
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        units: spec
-        special: ''
         override: false
       effects: []
       range:
-        units: spec
-        special: ''
         override: false
+        units: any
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: '5'
-          type: creature
           choice: false
+          count: '5'
+          type: ally
           special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: (@scaling)@scale.warlord.leadership-die.die
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: prepare-for-battle
   enchant: {}
   prerequisites:
@@ -109,9 +121,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317521643
-  modifiedTime: 1727317521643
+  modifiedTime: 1730870753144
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 63500000

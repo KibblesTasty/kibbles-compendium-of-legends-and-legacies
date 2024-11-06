@@ -1,7 +1,51 @@
 name: Mystic Bulwark
 type: feat
 img: icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp
-effects: []
+effects:
+  - name: Mystic Bulwark
+    img: icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp
+    _id: t4YHkml34BhthtCv
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '@scale.warden.bulwark-reduction'
+        priority: null
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '@scale.warden.bulwark-reduction'
+        priority: null
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '@scale.warden.bulwark-reduction'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: 1730860620298
+      modifiedTime: 1730860713892
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!wAbdYdPTLKq76Fr2.t4YHkml34BhthtCv'
 flags:
   betterRolls5e:
     quickDesc:
@@ -22,15 +66,14 @@ system:
   description:
     value: >-
       <p>When you don light or medium armor, you can enhance it with mystical
-      defenses, integrating it with manifestations of your primal bond (for
+      defenses, integrating it with manifestations of your Warden Bond (for
       example, an Elemental Soul may manifest icy plating to reinforce it). When
       you do so, you can use your Wisdom modifier in place of your Dexterity
-      modifier when calculating your AC with that armor.</p>
-
-      <p>While you have your armor integrated with your primal power, when you
-      take bludgeoning, piercing, or slashing damage, you can reduce the damage
-      taken by 2. This value increases at 5th level (to 3), 9th level (to 4),
-      and 13th level (to 5), and 17th level (to 6).</p>
+      modifier when calculating your AC with that armor. </p><p>While you have
+      your armor integrated with your primal power, when you take bludgeoning,
+      piercing, or slashing damage, you can reduce the damage taken by 2. This
+      value increases at 5th level (to 3), 9th level (to 4), and 13th level (to
+      5), and 17th level (to 6).</p>
     chat: ''
   source:
     rules: '2014'
@@ -42,7 +85,7 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Warden 1
+  requirements: ''
   identifier: mystic-bulwark
   activities: {}
   enchant: {}
@@ -54,9 +97,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317525809
-  modifiedTime: 1727317525809
+  modifiedTime: 1730860718246
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 70600000

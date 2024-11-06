@@ -63,7 +63,7 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: '@prof + 1'
+    max: '@scale.warden.endurance-die.number'
     recovery:
       - period: sr
         type: recoverAll
@@ -84,11 +84,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -126,11 +124,72 @@ system:
         max: ''
         recovery: []
       roll:
-        formula: ''
-        name: ''
+        formula: '@scale.warden.endurance-die.die'
+        name: Bolster Save
         prompt: false
         visible: false
       sort: 0
+      name: Improve Saving Throw
+      img: ''
+      appliedEffects: []
+    RjjVGMUUR54wYkeC:
+      type: heal
+      _id: RjjVGMUUR54wYkeC
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scale.warden.endurance-die.die'
+        scaling:
+          number: 1
+        bonus: ''
+      name: Reduce Damage
+      img: ''
+      appliedEffects: []
   identifier: endurance-die
   enchant: {}
   prerequisites:
@@ -141,9 +200,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317501039
-  modifiedTime: 1727317501039
+  modifiedTime: 1730862812819
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 30100000

@@ -18,37 +18,108 @@ flags:
       altValue: true
   core:
     sourceId: Item.RsUdlcCD8mCR92gy
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>At 20th level, you can use your primal connection with the natural
       powers of the world to reshape the land around you on a large scale. This
-      can take the form of effects like earthquake, tsunami, control weather, or
-      transmutation or conjuration spell from the Druid spell list that modifies
-      the terrain (such as wall of stone).</p>
-
-      <p>At the GM's discretion, this might be used to accomplish other large
-      scale feats not listed by a spell, such as changing the course of a river,
-      quenching a forest fire, or causing an active volcano to have a small
-      eruption. Its range effect should generally be contained with a 1 mile
-      radius area when not replicating the spells listed above.</p>
-
-      <p>Once you do so, you cannot do so again until you complete a long
-      rest.</p>
+      can take the form of effects like
+      @UUID[Compendium.dnd5e.spells.Item.x5JNBSyIBBZsjcGT]{earthquake},
+      @UUID[Compendium.dnd5e.spells.Item.ZPd73HtKF3At11jh]{control weather}, or
+      a transmutation or conjuration spell from the Druid spell list that
+      modifies the terrain (such as
+      @UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{wall of
+      stone}).</p><p>At the GM's discretion, this might be used to accomplish
+      other large scale feats not listed by a spell, such as changing the course
+      of a river, quenching a forest fire, or causing an active volcano to have
+      a small eruption. Its range effect should generally be contained with a 1
+      mile radius area when not replicating the spells listed above. When used
+      in this way it takes 1 minute to invoke the effect (which may take longer
+      to fully manifest depending on its nature).</p><p>Once you do so, you
+      cannot do so again until you complete a long
+      rest.</p><blockquote><p><strong>Limits of Primal Decree</strong>
+      </p><p>Primal Decree is invoking the will of nature to act on your behalf.
+      Consequently, it should tend to have its strongest effects when enacted in
+      accordance with that will (as determined by the DM). </p><p>Wardens who
+      have an unusual bond with natural laws may be able to call on their
+      related domain with a Primal Decree to similar results even if it would
+      not normally fall under the scope of its powers, such as a Time Warden
+      gaining the effect of time stop with Primal Decree</p></blockquote>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Warden 20
   identifier: primal-decree
-  activities: {}
+  activities:
+    qrLydQBa46BBsU34:
+      type: utility
+      _id: qrLydQBa46BBsU34
+      sort: 0
+      activation:
+        type: minute
+        value: 1
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: mi
+          type: radius
+          size: '1'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Invoke
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -58,9 +129,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317515474
-  modifiedTime: 1727317515474
+  modifiedTime: 1730865019214
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53200000

@@ -18,14 +18,17 @@ flags:
       altValue: true
   core:
     sourceId: Item.LvVorvG4bhteXD1l
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 6th level, when you roll an endurance die, you can add your
-      Constitution modifier to the result rolled when blocking damage.</p>
-
-      <p>Additionally, if you roll for initiative with no endurance die
-      remaining, you regain 1 endurance die.</p>
+      Constitution modifier to the result rolled when blocking
+      damage.</p><p>Additionally, if you roll for initiative with no endurance
+      die remaining, you regain 1 endurance die.</p>
     chat: ''
   source:
     rules: '2014'
@@ -39,7 +42,66 @@ system:
     subtype: ''
   requirements: Warden 6
   identifier: empowered-endurance
-  activities: {}
+  activities:
+    Izg9WO0Bxcl3fO3L:
+      type: heal
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: 0
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scale.warden.endurance-die.die + @abilities.con.mod'
+        scaling:
+          number: 1
+        bonus: ''
+      name: Reduce Damage
+      _id: Izg9WO0Bxcl3fO3L
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -49,9 +111,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317520682
-  modifiedTime: 1727317520682
+  modifiedTime: 1730863246003
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 61900000

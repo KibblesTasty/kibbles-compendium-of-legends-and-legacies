@@ -39,7 +39,7 @@ system:
     value: >-
       <p>Beginning at 11th level, when you hit a creature with Spellstrike, the
       target and creatures of your choice within 5 feet of the target that would
-      be hit by the same attack roll take [[/r 1d8]] additional force damage. On
+      be hit by the same attack roll take 1d8 additional force damage. </p><p>On
       a miss, the target takes half as much damage, and nearby creatures take no
       damage (even if the attack roll would have hit them).</p>
     chat: ''
@@ -105,9 +105,9 @@ system:
       _id: dnd5eactivity000
       type: damage
       activation:
-        type: ''
+        type: special
         value: 0
-        condition: ''
+        condition: You hit a creature with Spellstrike
         override: false
       consumption:
         targets: []
@@ -119,26 +119,26 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: any
         special: ''
         override: false
       target:
         template:
           count: ''
           contiguous: false
-          type: ''
-          size: ''
+          type: radius
+          size: '5'
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
-          type: ''
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -152,19 +152,20 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
             denomination: 8
             bonus: ''
             types:
               - force
-            custom:
-              enabled: false
-              formula: ''
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: splash-damage
   enchant: {}
   prerequisites:
@@ -172,10 +173,10 @@ system:
   properties: []
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   coreVersion: '12.331'
   createdTime: 1678743025051
-  modifiedTime: 1727317483167
+  modifiedTime: 1730850747223
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.VppPh0qq1fjpftom
   duplicateSource: null

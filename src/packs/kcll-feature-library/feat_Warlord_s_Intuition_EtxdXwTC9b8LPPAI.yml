@@ -62,11 +62,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -104,11 +102,14 @@ system:
         max: ''
         recovery: []
       roll:
-        formula: ''
-        name: ''
+        formula: '@classes.warlord.levels'
+        name: D20 Result
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: warlords-intuition
   enchant: {}
   prerequisites:
@@ -119,9 +120,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317496273
-  modifiedTime: 1727317496273
+  modifiedTime: 1730871146240
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 22400000

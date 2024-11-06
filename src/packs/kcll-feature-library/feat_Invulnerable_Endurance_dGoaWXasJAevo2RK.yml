@@ -21,8 +21,13 @@ flags:
 system:
   description:
     value: >-
-      <p>Additionally at 18th level, when you roll an Endurance Die, roll two
-      dice and take the higher.</p>
+      <p>Additionally at 18th level, when you roll an Endurance Die, you can
+      roll two dice and take the higher roll. Doing so does not expend an
+      additional die.</p><section id="secret-XkaPiKqJogivOO0F"
+      class="secret"><p><strong>Foundry Note</strong></p><p>When you gain this
+      feature, adjust all abilities that use it to reference
+      <code>2(@scale.warden.endurance-die.die)kh1</code> instead of just the @
+      value</p></section>
     chat: ''
   source:
     rules: '2014'
@@ -46,9 +51,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317512824
-  modifiedTime: 1727317512824
+  modifiedTime: 1730864831292
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 48800000

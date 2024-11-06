@@ -92,7 +92,7 @@ system:
           count: ''
           contiguous: false
           type: radius
-          size: '5'
+          size: '@scale.warden.primal-interdiction-radius'
           width: ''
           height: ''
           units: ft
@@ -113,6 +113,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Reckless Defense
+      img: ''
+      appliedEffects: []
   identifier: primal-interdiction
   enchant: {}
   prerequisites:
@@ -123,9 +126,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317500183
-  modifiedTime: 1727317500183
+  modifiedTime: 1730862622630
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 28800000

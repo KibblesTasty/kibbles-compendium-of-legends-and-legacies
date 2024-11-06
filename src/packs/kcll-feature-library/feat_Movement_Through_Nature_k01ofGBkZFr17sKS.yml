@@ -21,10 +21,12 @@ flags:
 system:
   description:
     value: >-
-      <p>Additionally at 15th level, you gain your choice of a climbing speed
-      equal to your walking speed, a swimming speed equal to your walking speed,
-      or borrowing speed equal to half your movement speed. When you burrow, you
-      leave behind a tunnel equal to your size.</p>
+      <p>Additionally at 15th level, you gain your choice of a climbing or
+      swimming speed equal to your walking speed, or a burrowing speed equal to
+      half your walking speed. When you burrow, you leave behind a tunnel equal
+      to your size.</p><section id="secret-7fI2PcySMpWHolzC"
+      class="secret"><p><strong>Foundry Note</strong></p><p>This choice is not
+      automated and neither is the speed.</p></section>
     chat: ''
   source:
     rules: '2014'
@@ -48,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317517833
-  modifiedTime: 1727317517833
+  modifiedTime: 1730864726009
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57000000

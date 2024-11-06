@@ -34,10 +34,9 @@ system:
   description:
     value: >-
       <p>As a bonus action, you can expend a number of Leadership Dice (up to
-      your per turn limit) to rally your allies to attack a hostile creature
-      within 60 feet of you.</p>
-
-      <p>The next time damage is rolled against that target by an allied
+      your per turn limit of [[lookup @scale.warlord.leadership-turn-limit]]) to
+      rally your allies to attack a hostile creature within 60 feet of
+      you.</p><p>The next time damage is rolled against that target by an allied
       creature before the start of your next turn, they can add the Leadership
       Dice to the damage roll, and the attacking creature regains hit points
       equal to the amount rolled on the Leadership Dice.</p>
@@ -64,9 +63,14 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
       description:
@@ -108,18 +112,19 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: 1
+          - custom:
+              enabled: true
+              formula: 1@scale.warlord.leadership-die.die
+            number: 1
             denomination: 6
             bonus: ''
             types: []
-            custom:
-              enabled: false
-              formula: ''
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: rallying-mark
   enchant: {}
   prerequisites:
@@ -130,9 +135,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317517250
-  modifiedTime: 1727317517250
+  modifiedTime: 1730871683559
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 56000000

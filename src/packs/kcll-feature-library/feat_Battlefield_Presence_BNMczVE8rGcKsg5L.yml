@@ -28,11 +28,10 @@ system:
       <p>Starting at 1st level, when you take the Attack action, in place of
       making an attack, you can use your Battlefield Presence to grant a
       friendly creature that can see or hear you an additional attack the next
-      time they take the Attack action during their turn.</p>
-
-      <p>Any additional attacks granted that are unused at the start of your
-      next turn are lost. A friendly creature can only gain one additional
-      attack from this feature per round from this feature.</p>
+      time they take the Attack action during their turn. </p><p>Any additional
+      attacks granted that are unused at the start of your next turn are lost. A
+      friendly creature can only gain one additional attack from this feature
+      per round from this feature.</p>
     chat: ''
   source:
     custom: Warlord
@@ -46,60 +45,7 @@ system:
     value: ''
     subtype: ''
   requirements: Warlord 1
-  activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
-      activation:
-        type: action
-        value: 1
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        concentration: false
-        value: '1'
-        units: round
-        special: ''
-        override: false
-      effects: []
-      range:
-        units: spec
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
-        affects:
-          count: '1'
-          type: creature
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+  activities: {}
   identifier: battlefield-presence
   enchant: {}
   prerequisites:
@@ -110,9 +56,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317493788
-  modifiedTime: 1727317493788
+  modifiedTime: 1730865828737
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 18600000

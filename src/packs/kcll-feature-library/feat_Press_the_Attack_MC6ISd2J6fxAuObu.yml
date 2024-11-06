@@ -18,29 +18,25 @@ flags:
       altValue: true
   core:
     sourceId: Item.EZ3ex4tyHDv0pLer
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>Starting at 9th level, your abilities are further empowered:</p>
-
-      <h3><strong>Rallying Mark: Boost Morale</strong></h3>
-
-      <p>When a creature gains hit points from Rallying Mark, you can expend one
+      <p>Starting at 9th level, your abilities are further
+      empowered:</p><h5><strong>Rallying Mark: Boost Morale</strong></h5><p>When
+      a creature gains hit points from Rallying Mark, you can expend one
       Leadership die to cause another creature within 30 feet to regain the same
-      number of hit points.</p>
-
-      <h3><strong>Urgent Orders: Coordinated Movements</strong></h3>
-
-      <p>When you use Urgent Orders, you can target a number of creatures equal
-      to the number of Leadership Dice spent, spending dice on each target
-      individually.</p>
-
-      <h3><strong>Helpful Word: Expert Instructions</strong></h3>
-
-      <p>When a creature benefits from your Help action, you can use your
-      reaction to expend a Leadership Die and add it to their roll. You can use
-      this ability after the original roll, but before the outcome is
-      revealed.</p>
+      number of hit points.</p><h5><strong>Urgent Orders: Coordinated
+      Movements</strong></h5><p>When you use Urgent Orders, you can expend
+      additional Leadership dice to target additional creatures (targeting one
+      additional creature for each extra die spent).</p><h5><strong>Helpful
+      Word: Expert Instructions</strong></h5><p>When a creature benefits from
+      your Help action, you can use your reaction to expend a Leadership Die and
+      add it to their roll. You can use this ability after the original roll,
+      but before the outcome is revealed.</p>
     chat: ''
   source:
     rules: '2014'
@@ -54,7 +50,60 @@ system:
     subtype: ''
   requirements: Warlord 9
   identifier: press-the-attack
-  activities: {}
+  activities:
+    TTAaa1dJzfxOTg5m:
+      type: utility
+      _id: TTAaa1dJzfxOTg5m
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: true
+        visible: false
+        name: Expert Instructions
+        formula: 1@scale.warlord.leadership-die.die
+      name: Expend Leadership Die
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -64,9 +113,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317501146
-  modifiedTime: 1727317501146
+  modifiedTime: 1730871091124
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 30300000

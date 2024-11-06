@@ -26,66 +26,17 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 3rd level, your connection to the primal forces you've
+      <p>Starting at 3rd level, your connection to the primal forces you’ve
       bonded with develop in new ways, unique to you, that grant you new powers
       and abilities.</p><p>You gain two such Primal Manifestations selecting
       from the list at the end of the class description. When you gain certain
       Warden levels, you gain additional manifestations of your choice, as shown
-      on the Warden Class Table.</p><p>Additionally, when you gain a level in
+      on the Warden Class Table. </p><p>Additionally, when you gain a level in
       the class, you can choose one of the manifestations you know and replace
-      it with another manifestation of that you could learn at that level. If a
+      it with another manifestation that you could learn at that level. If a
       manifestation has a prerequisite, you must meet it to learn the
       manifestation. A level prerequisite refers to your level in this
-      class.</p><h2 style="border-bottom:1px solid
-      var(--color-underline-header)">Primal
-      Manifestations</h2><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.TOH3s579VRK2zKKr]{Manifestation:
-      Arise
-      Ice}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.PKOdTND5rRMJoOqR]{Manifestation:
-      Arise
-      Stone}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.E0XqS55bdfw2Bqvm]{Manifestation:
-      Arise
-      Thorns}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.B3beNPVCCappRJp9]{Manifestation:
-      Balanced
-      Assault}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.fgmiFznaDaHYvOk4]{Manifestation:
-      Crushing
-      Grip}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.zLJmWpctDVr59B3O]{Manifestation:
-      Devouring
-      Earth}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.LnvbdveuTXZIwTCe]{Manifestation:
-      Engulfing
-      Vines}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.6psL45wWwXO3Su0g]{Manifestation:
-      Falling
-      Sky}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.G7K7wxfEBNn9cAdF]{Manifestation:
-      Font of
-      Will}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.oTX9PN6RRp4eYGkY]{Manifestation:
-      Gift of
-      Life}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.eH112icuFMtPQsSL]{Manifestation:
-      Guided
-      Wrath}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.YKuNTsnx73tfgJTG]{Manifestation:
-      Heart of the
-      Storm}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.VO4ifGKtXg5vZlbk]{Manifestation:
-      Immortal
-      Body}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.AOFOprEWYKnNJRYv]{Manifestation:
-      Mystic
-      Deflection}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.ii8x2XOiQPQpUroi]{Manifestation:
-      Mystic
-      Reinforcement}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.48Gwat34WmR4znV4]{Manifestation:
-      One With
-      Stone}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.bSkz1geJEyb8zryO]{Manifestation:
-      Primal
-      Intuition}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.FA0P1CiJvM1QYAWQ]{Manifestation:
-      Protective
-      Interdiction}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.4D3bW9QiiRV8qLEL]{Manifestation:
-      Reliable
-      Endurance}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.zQJAwi56b32qNGSA]{Manifestation:
-      Revitalizing
-      Endurance}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.OvxMmtddYpTaS4YF]{Manifestation:
-      Savage
-      Weapons}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.toZEdLMdQEZH7lzQ]{Manifestation:
-      Unlimited
-      Endurance}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.2pYPCJQCKFB2cEz8]{Manifestation:
-      Unrelenting
-      Onslaught}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.QDDDiC0PxhuRae1z]{Manifestation:
-      Well of Fortitude}e}</p>
+      class.</p>
     chat: ''
   source:
     rules: '2014'
@@ -109,9 +60,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317508309
-  modifiedTime: 1727317508309
+  modifiedTime: 1730863047469
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 41800000

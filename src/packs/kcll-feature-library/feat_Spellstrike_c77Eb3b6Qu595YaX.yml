@@ -25,37 +25,64 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 2nd level, you can infuse spells into your weapon. When you
-      cast a 1st level or higher Swordmage spell with a casting time of 1
-      action, you can infuse it into a melee weapon as a bonus action. The next
-      time you make an attack with that weapon before the end of your turn, the
-      spell is cast against the target.</p>
-
-      <p>If the spell requires an attack roll (melee or ranged) it automatically
-      hits the target if the attack hits and misses the target if the attack
-      misses. If the spell has a saving throw, it automatically deals damage as
-      if they failed saving throw on hit, but if it has any effects besides
-      dealing damage, the target makes the save against those effects as normal
-      for being targeted by the spell (regardless if the attack hits or misses).
-      If a spell does half damage to targets that pass their save, they take
-      half damage on a missed attack, treating it as if they had passed their
-      saving throw.</p>
-
-      <p>If the spell has an area of effect, that area of effect is triggered
-      from the target's space (for example, a cone spell would hit the target as
-      part of the attack, and then cast the cone area behind them, while a
-      radius spell would be centered on the target, casting the area of effect
-      around them with them at the center). Other creatures caught in the area
-      of effect treat the spell as if you had cast it normally. The target is
-      not affected by the spell again (having already resolved as part of the
-      attack).</p>
-
-      <p>Spells that have multiple attack rolls (such as <em>scorching ray
-      </em>or <em>crackle</em>) tie the outcome of only the first attack roll to
-      the melee weapon attack. You resolve all subsequent attack rolls of the
-      spell as if you had cast the spell, but can ignore the disadvantage on
-      ranged attack rolls from being within 5 feet of hostile creatures.</p>
-    chat: ''
+      <p>Starting at 2nd level, you can infuse spells into your weapon. As a
+      bonus action, you can cast a 1st level or higher Spellblade spell with a
+      casting time of 1 action in a special way, infusing it into a melee weapon
+      instead of having it immediately take effect. The next time you make a
+      melee attack with that weapon before the end of your turn, the spell is
+      cast against the target of the attack. The spell fizzles and fails to cast
+      if you cast another spell before attacking.</p><p>Spellstrike’s
+      interaction with the spell mechanics is determined by the spell’s
+      effect:</p><ul><li><strong>Attack Rolls.</strong> If the spell requires an
+      attack roll (melee or ranged) it automatically hits the target if the
+      weapon attack hits and misses the target if the weapon attack
+      misses.</li><li><strong>Saving Throws</strong>. If the spell has a saving
+      throw, it automatically deals damage as if the target failed its saving
+      throw against the spell on hit, but if it has any effects besides dealing
+      damage, the target makes the save against those effects as normal for
+      being targeted by the spell (regardless if the attack hits or misses). If
+      a spell does half damage to targets that pass their save, they take half
+      damage on a missed attack, treating it as if they had passed their saving
+      throw. If a spell always hits (such as magic missile), the spell hits
+      regardless if you hit or miss your attack.</li><li><strong>Area of
+      Effect.</strong> If the spell has an area of effect, that area of effect
+      must include the space the target of the Spellstrike is in, be placed such
+      that one edge of it is within the range of your weapon, and otherwise
+      follows the rules of the spell regarding placement and range. Other
+      creatures caught in the area of effect treat the spell as if you had cast
+      it normally. The target is not affected by the spell again (having already
+      resolved as part of the attack).</li><li><strong>Multiple Attack
+      Rolls.</strong> Spells that have multiple attack rolls (such as scorching
+      ray or crackleK) tie the outcome of only the first attack roll to the
+      melee weapon attack. You resolve all subsequent attack rolls of the spell
+      as if you had cast the spell, but can ignore the disadvantage on ranged
+      attack rolls from being within 5 feet of hostile creatures when doing
+      so.</li></ul><p>You can only cast spells that are on the Spellblade class
+      list using Spellstrike, and can only cast them at a level you can cast
+      them as a Spellblade, though you can use any spell slot you have available
+      to cast the spell.</p><blockquote><h3>Additional
+      Clarifications</h3><p><strong>Critical Strikes.</strong> If the attack
+      critically strikes, a spell that has a spell attack roll used with spell
+      strike also critical strikes, but a spell that has a saving throw just
+      treats it the same as a hit (inflict wounds would critical strike, but
+      fireball would not, as it cannot critically
+      strike).</p><p><strong>Condition Sequence.</strong> Any effects that
+      require the target to fail a saving throw take place after the attack. For
+      example, if you spellstrike hold person, the saving throw against being
+      paralyzed (and the condition if they fail) take place after the attack
+      roll is complete.</p><p><strong>Area of Effect.</strong> One edge of the
+      spell must be in range of the weapon, but the center point of the spell
+      does not need to be. For example, with spellstriking fireball, you don’t
+      need to hit yourself with. One edge of the spell must be within range, and
+      the target must be inside the area of effect, but the center point of the
+      spell can further away.</p></blockquote>
+    chat: >-
+      <p>As a bonus action, you can cast a 1st level or higher Spellblade spell
+      with a casting time of 1 action in a special way, infusing it into a melee
+      weapon instead of having it immediately take effect. The next time you
+      make a melee attack with that weapon before the end of your turn, the
+      spell is cast against the target of the attack. The spell fizzles and
+      fails to cast if you cast another spell before attacking.</p>
   source:
     custom: Spellblade
     revision: 1
@@ -122,6 +149,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Infuse Spell
+      img: ''
+      appliedEffects: []
   identifier: spellstrike
   enchant: {}
   prerequisites:
@@ -132,9 +162,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317512034
-  modifiedTime: 1727317512034
+  modifiedTime: 1730849836924
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 47700000

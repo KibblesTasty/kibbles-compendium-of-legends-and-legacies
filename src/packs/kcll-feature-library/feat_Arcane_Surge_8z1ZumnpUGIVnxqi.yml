@@ -42,17 +42,20 @@ system:
     value: >-
       <p>Your affinity for magic gives you a pool of arcane surges. Once during
       your turn, you can expend a use of Arcane Surge to do any of the
-      following:</p><ul><li><p>Cast detect magic without expending a spell
-      slot.</p></li><li><p>Gain advantage on an attack roll (no action
-      required).</p></li><li><p>Add your Intelligence modifier to a Strength or
-      Dexterity ability check (no action required).</p></li><li><p>Teleport up 5
-      feet to an unoccupied space you can see (no action required). This
-      distance increases by 5 at 5th (10 feet), 9th (15 feet), and 13th (20
-      feet), and 17th (25 feet) level.</p></li></ul><p>You can use this feature
-      a number of times equal to your Proficiency bonus. You can regain expended
-      uses when you complete a short or long rest. As you level, you may gain
-      additional uses for your arcane surges, but can still only spend a single
-      use of Arcane Surge a turn.</p>
+      following:</p><ul><li><p><strong>Detect Magic.</strong> Cast
+      @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detect magic} without
+      expending a spell slot.</p></li><li><p><strong>Advantage.</strong> Gain
+      advantage on an attack roll (no action
+      required).</p></li><li><p><strong>Enhance Ability.</strong> Add your
+      Intelligence modifier to a Strength or Dexterity ability check (no action
+      required).</p></li><li><p><strong>Teleport.</strong> Teleport up 5 feet to
+      an unoccupied space you can see (no action required). This distance
+      increases by 5 at 5th (10 feet), 9th (15 feet), and 13th (20 feet), and
+      17th (25 feet) level.</p></li></ul><p>You can use this feature a number of
+      times equal to your Proficiency bonus. You can regain expended uses when
+      you complete a short or long rest. As you level, you may gain additional
+      uses for your arcane surges, but can still only spend a single use of
+      Arcane Surge a turn.</p>
     chat: ''
   source:
     custom: Spellblade
@@ -67,7 +70,7 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Spellblade 1
+  requirements: ''
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -137,9 +140,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317491753
-  modifiedTime: 1727317491753
+  modifiedTime: 1730849311992
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 15500000

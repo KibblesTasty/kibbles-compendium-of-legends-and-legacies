@@ -52,7 +52,12 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -97,6 +102,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Help
+      img: ''
+      appliedEffects: []
   identifier: helpful-word
   enchant: {}
   prerequisites:
@@ -107,9 +115,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317501671
-  modifiedTime: 1727317501671
+  modifiedTime: 1730866685752
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 31100000

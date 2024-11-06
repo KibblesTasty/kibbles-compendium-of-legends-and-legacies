@@ -4,13 +4,12 @@ img: icons/magic/fire/orb-vortex.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">At 18th level, when use
-      Spellstrike to cast a spell that affects an area of effect, you can expend
-      a use of your Arcane Surge expand the effect of your Blast Zone Immunity
-      to a number of allies equal to your Intelligence modifier. When used this
-      way, it only protects your allies until the start of your next turn, at
-      which point they go back to being affected by any ongoing effects of a
-      spell.</span></p>
+      <p>At 18th level, when use Spellstrike to cast a spell that affects an
+      area of effect, you can expend a use of your Arcane Surge expand the
+      effect of your Blast Zone Immunity to a number of allies equal to your
+      Intelligence modifier. When used this way, it only protects your allies
+      until the start of your next turn, at which point they go back to being
+      affected by any ongoing effects of a spell.</p>
     chat: ''
   source:
     rules: '2014'
@@ -22,9 +21,63 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Spellblade 18
+  requirements: ''
   identifier: blast-zone-control
-  activities: {}
+  activities:
+    Ux9HlNJMvvTIjM6J:
+      type: utility
+      _id: Ux9HlNJMvvTIjM6J
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '@abilities.int.mod'
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Expend Surge
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -38,14 +91,18 @@ flags:
       value: true
   core:
     sourceId: Item.tg6ZMqDgIK4VpqE9
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.tg6ZMqDgIK4VpqE9
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317509918
-  modifiedTime: 1727317509918
+  modifiedTime: 1730859634099
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 44300000

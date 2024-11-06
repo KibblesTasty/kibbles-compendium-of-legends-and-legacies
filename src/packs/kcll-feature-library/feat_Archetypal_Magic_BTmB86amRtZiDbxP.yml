@@ -28,7 +28,10 @@ system:
     value: >-
       <p>At 10th level, you can cast each of your the spells granted by your
       archetype without expending a spell slot once. After you cast a spell that
-      way, you cannot cast it that way again until you complete a long rest.</p>
+      way, you cannot cast it that way again until you complete a long
+      rest.</p><section id="secret-zX3mLY4zX5Tfr9RH"
+      class="secret"><p><strong>Foundry Note</strong></p><p>You can add the free
+      uses as an activity that consumes its own activity uses</p></section>
     chat: ''
   source:
     rules: '2014'
@@ -40,7 +43,7 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Spellblade 10
+  requirements: ''
   identifier: archetypal-magic
   activities: {}
   enchant: {}
@@ -52,9 +55,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317493852
-  modifiedTime: 1727317493852
+  modifiedTime: 1730850573827
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 18700000

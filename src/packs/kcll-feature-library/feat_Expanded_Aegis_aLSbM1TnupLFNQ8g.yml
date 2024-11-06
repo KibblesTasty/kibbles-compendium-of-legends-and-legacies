@@ -4,18 +4,13 @@ img: icons/magic/defensive/shield-barrier-flaming-pentagon-teal.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 10th level,
-      when you finish a long rest you can select an additional 1st Level Aegis
-      Effect to gain the benefit of without expending a spell slot. This effect
-      lasts until you complete a long rest, at which time you can select a new
-      effect.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">At 14th level, you can
+      <p>Starting at 10th level, when you finish a long rest you can select an
+      additional 1st Level Aegis Effect to gain the benefit of without expending
+      a spell slot. This effect lasts until you complete a long rest, at which
+      time you can select a new effect.</p><p>At 14th level, you can
       additionally select one 2nd level Aegis Effect this way, and at 18th
       level, you can additionally select one 3rd level Aegis effect this
-      way.</span></p>
+      way.</p>
     chat: ''
   source:
     rules: '2014'
@@ -27,7 +22,7 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Spellblade 10
+  requirements: ''
   identifier: expanded-aegis
   activities: {}
   enchant: {}
@@ -48,9 +43,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317510616
-  modifiedTime: 1727317510616
+  modifiedTime: 1730850658929
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 45300000

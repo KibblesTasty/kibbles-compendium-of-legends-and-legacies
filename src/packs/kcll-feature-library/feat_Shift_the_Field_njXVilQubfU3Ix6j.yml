@@ -52,7 +52,12 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -95,6 +100,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: shift-the-field
   enchant: {}
   prerequisites:
@@ -105,9 +113,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317520339
-  modifiedTime: 1727317520339
+  modifiedTime: 1730871182256
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 61200000

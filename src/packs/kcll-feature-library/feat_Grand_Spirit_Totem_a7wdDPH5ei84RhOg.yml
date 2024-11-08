@@ -20,12 +20,12 @@ system:
       effect of Malignant Possession for rites and features that modify your
       Malignant Possession, but can take damage from Rotting Affliction only
       once per turn.</p><p>If a creature exits the range of the totem, it is no
-      longer under the effect, but it automatically under the effect once more
-      if it enters range of the totem (without getting to make another save).
-      This effect only ends once the totem's effect ends, or the totem is
-      destroyed.</p><p>The totem lasts for 1 minute, and can be dismissed early
-      as a bonus action, after which it crumbles to dust.</p><p>This totem does
-      not consume a use of your Totem Binding feature, but once you invoke this
+      longer under the effect, but becomes automatically under the effect once
+      more if it enters range of the totem (without getting to make another
+      save). This effect only ends once the totem’s effect ends, or the totem is
+      destroyed. The totem lasts for 1 minute, and can be dismissed early as a
+      bonus action, after which it crumbles to dust. </p><p>This totem does not
+      consume a use of your Totem Binding feature, but once you invoke this
       totem, you cannot invoke it again until you complete a long rest.</p>
     chat: ''
   source:
@@ -33,8 +33,10 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: ''
-    recovery: []
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
     spent: 0
   type:
     value: class
@@ -50,7 +52,10 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -98,6 +103,9 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: grand-spirit-totem
   enchant: {}
   prerequisites:
@@ -130,9 +138,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317510380
-  modifiedTime: 1727317510380
+  modifiedTime: 1731015947367
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: a7wdDPH5ei84RhOg
 sort: 300000

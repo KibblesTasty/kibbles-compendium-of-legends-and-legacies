@@ -1,6 +1,6 @@
-name: 'Hedge Rite: Practiced Reach'
+name: Hedge Magic
 type: feat
-img: icons/magic/light/projectile-beam-yellow.webp
+img: icons/magic/nature/beam-hand-leaves-green.webp
 effects: []
 flags:
   betterRolls5e:
@@ -17,12 +17,13 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.rDm8JqOOMj1eH3hU
+    sourceId: Item.xEsq7X33iVmPp5IR
 system:
   description:
     value: >-
-      <p>When you use the Way I Learned It feature to add range, you can make
-      the range of the spell up to 30 feet.</p>
+      <p><em>(You can take this Rite multiple times)</em></p><p>You learn an
+      additional cantrip from the Occultist list or from the expanded list
+      provided by the Practical Skills feature.</p>
     chat: ''
   source:
     rules: '2014'
@@ -32,30 +33,30 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Hedge Mage 2
-  identifier: hedge-rite-practiced-reach
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: hedge-rite-hedge-magic
   activities: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 2
   properties: []
 _stats:
-  compendiumSource: Item.rDm8JqOOMj1eH3hU
+  compendiumSource: Item.xEsq7X33iVmPp5IR
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317513172
-  modifiedTime: 1727317513172
+  systemVersion: 4.0.4
+  createdTime: 1727317523155
+  modifiedTime: 1731010590060
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 49300000
+sort: 66000000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: dgEnvUrH8TXmW0Vm
-_key: '!items!dgEnvUrH8TXmW0Vm'
+_id: sNWDkX7AVInnPVJW
+_key: '!items!sNWDkX7AVInnPVJW'
 

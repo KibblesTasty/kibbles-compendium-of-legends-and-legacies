@@ -1,6 +1,6 @@
-name: 'Hedge Rite: Manipulate Magic'
+name: Utility Master
 type: feat
-img: icons/magic/perception/hand-eye-black.webp
+img: icons/magic/unholy/hands-praying-fire-green.webp
 effects: []
 flags:
   betterRolls5e:
@@ -17,16 +17,16 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.8CieONxg0inLlU74
+    sourceId: Item.uAgCCwEefX61jIds
 system:
   description:
     value: >-
       <p><em>(Prerequisite: 5th level Hedge Mage)</em></p>
 
-      <p>You learn one metamagic option from a Sorcerer. You can use this
-      metamagic option once, regaining the ability to use it again after
-      completing a long rest. You can use it again by expending a spell slot of
-      a level equal to the number of Sorcery Points the metamagic costs.</p>
+      <p>When you cast utility cantrips that can lift weight, effect areas of
+      elements, target area on the ground, or cause minor instantaneous effects,
+      you life twice as much, target twice as much area, or maintain an
+      additional instantaneous effects.</p>
     chat: ''
   source:
     rules: '2014'
@@ -36,30 +36,30 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Hedge Mage 5
-  identifier: hedge-rite-manipulate-magic
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: hedge-rite-utility-master
   activities: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 5
   properties: []
 _stats:
-  compendiumSource: Item.8CieONxg0inLlU74
+  compendiumSource: Item.uAgCCwEefX61jIds
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317523841
-  modifiedTime: 1727317523841
+  systemVersion: 4.0.4
+  createdTime: 1727317526332
+  modifiedTime: 1731010693798
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 67300000
+sort: 71300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: tdxIUp5XvPwgSvEq
-_key: '!items!tdxIUp5XvPwgSvEq'
+_id: wrecamJJNqi2VMIB
+_key: '!items!wrecamJJNqi2VMIB'
 

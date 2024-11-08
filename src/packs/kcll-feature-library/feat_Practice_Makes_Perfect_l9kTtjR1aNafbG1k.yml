@@ -1,4 +1,4 @@
-name: 'Hedge Rite: Practice Makes Perfect'
+name: Practice Makes Perfect
 type: feat
 img: icons/magic/unholy/hand-light-pink.webp
 effects: []
@@ -21,11 +21,10 @@ flags:
 system:
   description:
     value: >-
-      <p>You've cast a spell so many times it has become second nature. Select a
-      1st level Occulist spell you know. You can cast this spell without
-      expending a spell slot a number of times equal to your half your
-      proficiency modifier (rounded up), regaining all uses when you complete a
-      long rest.</p>
+      <p>You’ve cast a spell so many times it has become second nature. Select a
+      1st level Occultist spell you know. You can cast this spell without
+      expending a spell slot a number of times equal to half your proficiency
+      bonus (rounded up), regaining all uses when you complete a long rest.</p>
     chat: ''
   source:
     rules: '2014'
@@ -35,9 +34,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Hedge Mage 2
+    value: class
+    subtype: occultistRite
+  requirements: ''
   identifier: hedge-rite-practice-makes-perfect
   activities: {}
   enchant: {}
@@ -49,9 +48,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317518324
-  modifiedTime: 1727317518324
+  modifiedTime: 1731010056021
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57800000

@@ -1,19 +1,14 @@
 folder: null
-name: 'Totem: Grappling Totem'
+name: Agonizing Totem
 type: feat
 img: icons/magic/symbols/mask-yellow-orange.webp
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Grappling Totem.</strong>
-      When you create the totem, it attempts to bind a Large or smaller creature
-      of your choice within 10 feet, forcing them to make a Dexterity saving
-      throw against your spell save DC. On failure, they are pulled to within 5
-      feet of the totem and grappled by it (escape DC equals your spell save
-      DC). This totem cannot be made mobile by other effects or
-      features.</span></p>
+      <p>Any creature of your choice that starts its turn within 10 feet of the
+      totem or enters within 10 feet of it for the first time on their turn
+      takes 1d6 necrotic damage. Any creature that damages the totem from within
+      10 feet of it takes 1d6 necrotic damage.</p>
     chat: ''
   source:
     custom: Spiritualist
@@ -30,7 +25,7 @@ system:
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: save
+      type: damage
       activation:
         type: action
         value: 1
@@ -64,7 +59,7 @@ system:
           size: '10'
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -77,15 +72,24 @@ system:
         max: ''
         recovery: []
       damage:
-        onSave: half
-        parts: []
-      save:
-        ability: dex
-        dc:
-          calculation: spellcasting
-          formula: ''
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
       sort: 0
-  identifier: totem-grappling-totem
+  identifier: totem-agonizing-totem
   enchant: {}
   prerequisites:
     level: null
@@ -101,12 +105,15 @@ flags:
       value: true
     quickFooter:
       value: true
-    quickOther:
-      context: ''
-    quickSave:
-      value: true
     quickTemplate:
       value: true
+    quickOther:
+      context: ''
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
   core: {}
   dnd5e:
     riders:
@@ -117,11 +124,11 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317507006
-  modifiedTime: 1727317507006
+  systemVersion: 4.0.4
+  createdTime: 1727317492683
+  modifiedTime: 1731015551068
   lastModifiedBy: pJeIW7qCa0HkURWq
-_id: VAiKxZnRJi39iFSz
-sort: 2300000
-_key: '!items!VAiKxZnRJi39iFSz'
+_id: 9kQqZa7H8ujnitX1
+sort: 2100000
+_key: '!items!9kQqZa7H8ujnitX1'
 

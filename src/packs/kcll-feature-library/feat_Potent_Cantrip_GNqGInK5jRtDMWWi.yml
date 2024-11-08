@@ -1,4 +1,4 @@
-name: 'Hedge Rite: Potent Cantrip'
+name: Potent Cantrip
 type: feat
 img: icons/magic/acid/projectile-needles-salvo-green.webp
 effects: []
@@ -36,23 +36,23 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Hedge Mage 7
+    value: class
+    subtype: occultistRite
+  requirements: ''
   identifier: hedge-rite-potent-cantrip
   activities: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 7
   properties: []
 _stats:
   compendiumSource: Item.86ZFvqSbfpummvxy
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317497688
-  modifiedTime: 1727317497688
+  modifiedTime: 1731010330748
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 24700000

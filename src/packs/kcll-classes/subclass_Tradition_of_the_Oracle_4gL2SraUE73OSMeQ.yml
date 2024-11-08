@@ -2,16 +2,162 @@ folder: TdxsRwVpXIXEkJmU
 name: Tradition of the Oracle
 type: subclass
 _id: 4gL2SraUE73OSMeQ
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>An Oracle is an Occultist whose power comes to them from their
+      connection to fate; bound and empowered Oracles carry some piece of divine
+      mystery within them, tied to an aspect of destiny and fate. As their power
+      grows they begin to understand this mystery with revelations, unlocking
+      its secrets and the power they contain.</p><p>An Oracle typically does not
+      directly serve a god, rather they often are people whose fate has
+      entangled them in the affairs of the gods. Oracles have great power, but
+      their powers are not ones that mortals were meant to have, and
+      consequently they are frequently burdened by their powers.</p><h5>Oracle
+      Rites</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.HAzOQzNshjQQxtra]{Death
+      Watcher}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nmJcr1ezBGqwCLQ8]{Divine
+      Miracle}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CV8muB2kfodmLIc1]{Divine
+      Sight}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.HmuOl58NKxNkK8Db]{Halo
+      of
+      Mystery}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DzHfDsG1lBpbfmKq]{Oracle's
+      Sight}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cd1AfZMkmd0tI1wC]{Revelation
+      of
+      Darkness}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3UspuLUk1NEgBW2E]{Revelation
+      of
+      Death}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.JvsAwWoU1P6IeHvG]{Revelation
+      of
+      Fire}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KmJwBiZ4pFW74ZYw]{Revelation
+      of
+      Life}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4qDKdvBJZw0Dc3lm]{Revelation
+      of
+      Light}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.b1jM3yPazzchGp4a]{Revelation
+      of
+      Souls}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lNh8fEzm2cTasRzG]{Revelation
+      of
+      War}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UzSox3H2W767vpW3]{Touch
+      of
+      Fire}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AB6cXsvc23HSB77Z]{Truth
+      of
+      Darkness}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.df8v2up4LxrAlctk]{Truth
+      of
+      Death}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.I7ZCNaDd7OwLMXHq]{Truth
+      of
+      Fire}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IX6p6AZYc8IcWlTz]{Truth
+      of
+      Life}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Ak9snmdkli7oOHxP]{Truth
+      of
+      Light}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NFl8doa21eBvTn7t]{Truth
+      of
+      Souls}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.v4CRFC3SG8nqKqUc]{Truth
+      of
+      War}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CTHMjy5LkrOEHLrb]{Twin
+      Revelation}</p>
     chat: ''
   identifier: tradition-of-the-oracle
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: SDWysJ8wsfaoDB9G
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Kj1EJgRQapbr4meX
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sPx21ZqgntQqP7k6
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Occult Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rORo8msX9VMU8kzo
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Occult Tradition Feature
+      hint: ''
+      _id: e6b6bXbos7exCJdd
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RSoQtZRuGryQ03lp
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Occult Tradition Feature
+      hint: ''
+      _id: mQK6RJS1pv2VAZOQ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YW5FSUhz20eq0BrF
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Occult Tradition Feature
+      hint: ''
+      _id: J6eClmYM0mv7AZRn
+    - _id: HAm2P8PwTYtm7MqQ
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+          '5':
+            count: 1
+            replacement: false
+          '11':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.K6lxqUPlxCyQFoAe
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.99TGBdHZ5TTwHVt7
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0dRhH7IIOCCcPfky
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.JTj9jNfrDmRDPey3
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9bUyT76YTKrGkmtu
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.OjnlRbpBtxjWfb8j
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.T5sXQaxhd0lcvEuB
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3E7KkrQwbq1DCGOa
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UHCaEDZgXtbmAsRo
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Mystery Unveiled
+      hint: >-
+        Select one of the following mysteries: Darkness, Death, Fire, Life,
+        Light, Nature, Souls, or War. Spells learned from your Mystery are
+        Occultist spells for you, but do not count against your spells known
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -31,7 +177,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729045877269
-  modifiedTime: 1729045881027
+  modifiedTime: 1731017953394
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!4gL2SraUE73OSMeQ'
 

@@ -22,44 +22,13 @@ system:
   description:
     value: >-
       <p>You gain proficiency in your choice of one of the following skills:
-      Arcana, Animal Handling, Medicine, Nature, or Survival. Additionally you
-      can select 1 additional cantrips of your choice from the occultist list,
-      or from the following expanded cantrip spell list: blade ward, firebolt ,
-      mage hand, prestidigitation, friends, ray of frost, shillelagh, spare the
-      dying, thaumaturgy, true strike. When you learn a new cantrip, you can
-      select from the above expanded list in addition to the Occultst list.</p>
-
-      <p>You learn your magic through self-discovery, often encompassing trial
-      and error. Not knowing what is supposed to be impossible or impractical,
-      your magic develops unique aspects. You can modify spells you learn with
-      the following feature.</p>
-
-      <h2>The Way I Learned It</h2>
-
-      <p>When you learn a new spell, you can modify some its properties
-      representing your unique way of casting that spell. These changes
-      permanently effect the spell for you, but when you swap out a spell when
-      gaining a level in the class, you can instead modify these properties from
-      a spell you know. You can learn the same spell multiple times with
-      different selections (i.e. "ranged cure wounds")</p>
-
-      <ul>
-
-      <li><strong>Damage Type.</strong> You can change any of the following
-      damage types into another the damage types. Acid, Cold, Fire, Lightning,
-      Poison.</li>
-
-      <li><strong>Range.</strong> You can make a spell with a range of 10 feet
-      or more have a range of Touch, or give a spell with a range of Touch a
-      range of up 10 feet (if it was a melee spell attack and it becomes a
-      ranged spell attack if the range is greater than Touch).</li>
-
-      <li><strong>Components.</strong> You can exchange a verbal, somatic, or
-      material component of a spell for another type of component the spell does
-      not normally have. Material components with a cost cannot be replaced, but
-      can be exchanged for a different material component of equal cost.</li>
-
-      </ul>
+      Animal Handling, Arcana, Medicine, Nature, or Survival. All cantrips from
+      the Wizard and Druid are added to the Occultist spell list for you, as
+      well as
+      @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{thaumaturgy}.</p><p>Additionally,
+      you learn 1 additional cantrip of your choice and you learn a new cantrip,
+      you can select from the above expanded list in addition to the Occultist
+      list, and treat them as Occultist spells.</p>
     chat: ''
   source:
     rules: '2014'
@@ -83,9 +52,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317517408
-  modifiedTime: 1727317517408
+  modifiedTime: 1731009127336
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 56300000

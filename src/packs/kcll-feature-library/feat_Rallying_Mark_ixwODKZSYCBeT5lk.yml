@@ -68,10 +68,11 @@ system:
             value: '1'
             target: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
-            scaling: {}
+            scaling:
+              mode: amount
         scaling:
           allowed: true
-          max: ''
+          max: '@scale.warlord.leadership-turn-limit'
         spellSlot: true
       description:
         chatFlavor: ''
@@ -114,12 +115,13 @@ system:
         parts:
           - custom:
               enabled: true
-              formula: 1@scale.warlord.leadership-die.die
+              formula: (@scaling)@scale.warlord.leadership-die.die
             number: 1
             denomination: 6
             bonus: ''
             types: []
             scaling:
+              mode: ''
               number: 1
       sort: 0
       name: ''
@@ -137,7 +139,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727317517250
-  modifiedTime: 1730871683559
+  modifiedTime: 1731007513192
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 56000000

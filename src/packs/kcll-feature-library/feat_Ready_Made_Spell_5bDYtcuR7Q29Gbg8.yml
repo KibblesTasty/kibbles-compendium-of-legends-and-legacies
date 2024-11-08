@@ -1,0 +1,113 @@
+name: Ready-Made Spell
+type: feat
+_id: 5bDYtcuR7Q29Gbg8
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+system:
+  activities:
+    s8tH8oUbLCzBmWpI:
+      type: utility
+      name: Prepare Spell
+      _id: s8tH8oUbLCzBmWpI
+      sort: 0
+      activation:
+        type: minute
+        value: 1
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@prof'
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Over the course of 1 minute, you can perform a special ritual to cast a
+      spell into an item, expending a spell slot as normal. The spell being
+      stored has no immediate effect when cast this way. Thereafter, a creature
+      holding the item that is aware there is magic infused it can trigger the
+      stored magic, with the effect of casting the spell.</p><p> The spell uses
+      your spell save DC, spell attack bonus, and spell casting ability, but is
+      all other ways treated as if the creature holding it cast the spell. You
+      can infuse a number of spell levels equal to your proficiency bonus this,
+      regaining the ability to infuse more when you complete a long rest. Any
+      items infused this way lose their power if you regain the spell slot used
+      to infuse the item.</p>
+    chat: ''
+  identifier: ready-made-spell
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1731011090380
+  modifiedTime: 1731011200913
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!5bDYtcuR7Q29Gbg8'
+

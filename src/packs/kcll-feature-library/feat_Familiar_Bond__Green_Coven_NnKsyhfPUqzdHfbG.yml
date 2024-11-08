@@ -25,20 +25,17 @@ flags:
 system:
   description:
     value: >-
-      <p>When you complete a long rest, your familiar gains illusory duplicates
-      equal to your Wisdom modifier. These persist until destroyed by taking
-      damage or you complete a long rest. The illusory duplicates cannot take
-      any actions, but move and act like your familiar during your turn, staying
-      within 30 feet of you or it.</p>
-
-      <p>At the end of your familiar's turn or when it takes damage, it can swap
-      places with an illusory familiar. If it does this as a result of taking
-      damage, the illusory familiar is destroyed but the familiar takes no
-      damage. Illusory duplicates are immune to damage while within 5 feet of
-      you.</p>
-
-      <p>You can assume illusory familiars are in the witch's space unless
-      otherwise specified.</p>
+      <p>When you complete a long rest, your familiar gains a number of illusory
+      duplicates equal to your Wisdom modifier (a minimum of one). These persist
+      until destroyed by taking damage or you complete a long rest. The illusory
+      duplicates cannot take any actions, but move and act like your familiar
+      during your turn, staying within 30 feet of you or it.</p><p> At the end
+      of your familiar’s turn or when it takes damage, it can swap places with
+      an illusory familiar (no action required by the familiar). If it does this
+      as a result of taking damage, the illusory familiar is destroyed but the
+      familiar takes no damage. Illusory duplicates are immune to damage while
+      within 5 feet of you. </p><p>Unless otherwise specified, illusory
+      familiars occupy the Witch’s space and move with them.</p>
     chat: ''
   source:
     custom: Witch
@@ -115,9 +112,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317502267
-  modifiedTime: 1727317502267
+  modifiedTime: 1731020810237
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 32000000

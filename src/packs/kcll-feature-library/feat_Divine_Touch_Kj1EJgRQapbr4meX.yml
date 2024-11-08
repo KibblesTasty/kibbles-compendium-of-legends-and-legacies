@@ -23,74 +23,16 @@ system:
     value: >-
       <p>At 1st level when you select this Tradition, you have been touched by a
       divine revelation that has given you a gift of insight and a dramatic
-      flair to deliver it - you learn the cantrips guidance and thaumaturgy.</p>
-
-      <p>You learn the following spells at the following levels. These are
-      Occultist spells for you.</p>
-
-      <table border="1">
-
-      <tbody>
-
-      <tr>
-
-      <td style="text-align:center"><strong>Occultist Level</strong></td>
-
-      <td style="text-align:center"><strong>Spells Learned</strong></td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">1st</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.3OZnNhunvRtPOQmH]{Identify}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">3rd</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.SleYkHovQ8NagmeV]{Locate
-      Object}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">5th</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">7th</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.gXtzz9t1DTzJeLr4]{Locate
-      Creature}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">9th</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.W4Qx5z0id6da0vqg]{Legend
-      Lore}</td>
-
-      </tr>
-
-      </tbody>
-
-      </table>
+      flair to deliver it - you learn the cantrips
+      @UUID[Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY]{guidance} and
+      @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{thaumaturgy}.</p><p>You
+      learn the following spells at the following levels. These are Occultist
+      spells for you.</p><table><thead><tr><th><p>Occultist
+      Level</p></th><th><p>Spells
+      Learned</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@Compendium[dnd5e.spells.3OZnNhunvRtPOQmH]{Identify}</p></td></tr><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.SleYkHovQ8NagmeV]{Locate
+      Object}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance}</p></td></tr><tr><td><p>7th</p></td><td><p>@Compendium[dnd5e.spells.gXtzz9t1DTzJeLr4]{Locate
+      Creature}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[dnd5e.spells.W4Qx5z0id6da0vqg]{Legend
+      Lore}</p></td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -114,9 +56,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317499674
-  modifiedTime: 1727317499674
+  modifiedTime: 1731011520274
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 28000000

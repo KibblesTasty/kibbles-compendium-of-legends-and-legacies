@@ -31,7 +31,7 @@ flags:
     migratedUses: 2
 system:
   description:
-    value: "<p>Starting at 3rd level, your connection to the flow of fate gives you the ability to read from it, tracing outcomes and glimpsing the unknowable future. When you are hit by an attack, you can use your reaction to add your Wisdom modifier to your AC until the start of your next turn (including against the triggering attack). You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p>\n<p>Additionally, you learn the spell @Compendium[dnd5e.spells.4v2H3hHb3Ph9XLNd]{Augury} and can cast it at will without expending spell slot.</p>\n<blockquote>\n<h3><strong>Winding Paths of Fate</strong></h3>\n<p>This does not negate the normal drawback of casting augury multiple times. As you delve further for more information, it becomes harder to read as the flow becomes more turbulent for your changes to it.</p>\n</blockquote>\n<p>\_</p>"
+    value: "<p>Starting at 3rd level, your connection to the flow of fate gives you the ability to read from it, tracing outcomes and glimpsing the unknowable future. When you are hit by an attack, you can use your reaction to add your Wisdom modifier to your AC until the start of your next turn (including against the triggering attack). You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p><p>Additionally, you learn the spell @Compendium[dnd5e.spells.4v2H3hHb3Ph9XLNd]{Augury} and can cast it at will without expending spell slot.</p><blockquote><p><strong>Winding Paths of Fate</strong></p><p>This does not negate the normal drawback of casting augury multiple times. As you delve further for more information, it becomes harder to read as the flow becomes more turbulent for your changes to it.</p></blockquote><p>\_</p>"
     chat: ''
   source:
     custom: Oracle
@@ -40,13 +40,13 @@ system:
   uses:
     max: '@prof'
     recovery:
-      - period: day
+      - period: lr
         type: recoverAll
     spent: 0
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: Oracle 3
+  requirements: ''
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -59,11 +59,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -102,11 +100,14 @@ system:
         max: ''
         recovery: []
       roll:
-        formula: '@mod'
-        name: ''
+        formula: '@abilities.wis.mod'
+        name: AC Bonus
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: fate-reading
   enchant: {}
   prerequisites:
@@ -117,9 +118,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317522789
-  modifiedTime: 1727317522789
+  modifiedTime: 1731014859104
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 65300000

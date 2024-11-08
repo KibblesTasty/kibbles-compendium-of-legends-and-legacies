@@ -1,4 +1,4 @@
-name: 'Hedge Rite: Mass Cantrip'
+name: Mass Cantrip
 type: feat
 img: icons/magic/light/projectile-beams-salvo-white.webp
 effects: []
@@ -32,11 +32,12 @@ system:
   description:
     value: >-
       <p>When you cast an Occultist cantrip that targets one or more creatures,
-      you can make the cantrip target a number additional creatures with in
-      range equal to your proficiency bonus with the spell. Once you do so, you
-      cannot do so again until you complete a long rest. You can expend a spell
-      slot to gain a similar effect, causing the cantrip to target a number of
-      additional creatures equal to the spell slot spent.</p>
+      you can make the cantrip target a number additional creatures within range
+      equal to your proficiency bonus. Once you use this rite in this way, you
+      must finish a long rest before you can use it again. You can instead
+      expend a spell slot to gain a similar effect, causing the cantrip to
+      target a number of additional creatures equal to the level of spell slot
+      spent.</p>
     chat: ''
   source:
     custom: Hedge Mage
@@ -49,9 +50,9 @@ system:
         type: recoverAll
     spent: 0
   type:
-    value: ''
-    subtype: ''
-  requirements: Hedge Mage 2
+    value: class
+    subtype: occultistRite
+  requirements: ''
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -121,9 +122,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317492799
-  modifiedTime: 1727317492799
+  modifiedTime: 1731009792293
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 17100000

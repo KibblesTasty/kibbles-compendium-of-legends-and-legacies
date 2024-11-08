@@ -1,7 +1,43 @@
 name: Spiritual Warrior
 type: feat
 img: icons/weapons/polearms/spear-flared-silver-pink.webp
-effects: []
+effects:
+  - name: Spiritual Warrior
+    img: icons/weapons/polearms/spear-flared-silver-pink.webp
+    _id: nE2ohKX4ergxM8U4
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hp.bonuses.overall
+        mode: 2
+        value: '@classes.occultist.levels'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: 1731015199684
+      modifiedTime: 1731015281126
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!nxIEBRitIADlGmhI.nE2ohKX4ergxM8U4'
 flags:
   betterRolls5e:
     quickDesc:
@@ -22,8 +58,10 @@ system:
   description:
     value: >-
       <p>When you select this subclass, you gain proficiency in simple weapons,
-      medium armor and shields. Additionally, your hit point maximum increases
-      by 1 and increases by 1 again whenever you gain a level in this class.</p>
+      medium armor and shields. You can add your Wisdom modifier in place of
+      your Dexterity modifier for calculating the AC of light or medium armor.
+      Additionally, your hit point maximum increases by 1 and increases by 1
+      again whenever you gain a level in this class.</p>
     chat: ''
   source:
     rules: '2014'
@@ -47,9 +85,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317520830
-  modifiedTime: 1727317520830
+  modifiedTime: 1731015248146
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 62200000

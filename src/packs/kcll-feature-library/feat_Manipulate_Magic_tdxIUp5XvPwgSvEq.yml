@@ -1,0 +1,66 @@
+name: Manipulate Magic
+type: feat
+img: icons/magic/perception/hand-eye-black.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.8CieONxg0inLlU74
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 5th level Hedge Mage)</em></p><p>You learn one
+      Metamagic option of your choice from the Sorcerer class. You can use this
+      Metamagic option once, regaining the ability to use it again after
+      completing a long rest. When using it this way, you use it as if you
+      expended 3 or less sorcery points. </p><p>You can use it again before
+      completing a long rest by expending a spell slot of a level equal to the
+      number of sorcery points the Metamagic would cost to use.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: hedge-rite-manipulate-magic
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: 5
+  properties: []
+_stats:
+  compendiumSource: Item.8CieONxg0inLlU74
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1727317523841
+  modifiedTime: 1731009724633
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 67300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: tdxIUp5XvPwgSvEq
+_key: '!items!tdxIUp5XvPwgSvEq'
+

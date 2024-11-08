@@ -1,17 +1,17 @@
 folder: null
-name: 'Totem: Life Totem'
+name: Grasping Totem
 type: feat
 img: icons/magic/symbols/mask-yellow-orange.webp
 system:
   description:
     value: >-
       <p style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Life Totem.</strong> When a
-      creature starts its turn within 10 feet of the totem you can heal them
-      with the totem for 1d6 hit points. The totem does this a number of times
-      equal to your Wisdom modifier, after which its power fades and it
-      crumbles.</span></p>
+      style="font-family:Signika, sans-serif">When you create the totem, it
+      attempts to bind a Large or smaller creature of your choice within 10
+      feet, forcing them to make a Dexterity saving throw against your spell
+      save DC. On failure, they are pulled to within 5 feet of the totem and
+      grappled by it (escape DC equals your spell save DC). This totem cannot be
+      made mobile by other effects or features.</span></p>
     chat: ''
   source:
     custom: Spiritualist
@@ -28,7 +28,7 @@ system:
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: heal
+      type: save
       activation:
         type: action
         value: 1
@@ -44,8 +44,8 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        value: ''
-        units: inst
+        value: '1'
+        units: minute
         special: ''
         override: false
       effects: []
@@ -62,7 +62,7 @@ system:
           size: '10'
           width: ''
           height: ''
-          units: ft
+          units: ''
         affects:
           count: ''
           type: ''
@@ -74,21 +74,16 @@ system:
         spent: 0
         max: ''
         recovery: []
-      healing:
-        number: 1
-        denomination: 6
-        bonus: ''
-        types:
-          - healing
-        custom:
-          enabled: false
-          formula: ''
-        scaling:
-          mode: whole
-          number: null
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: dex
+        dc:
+          calculation: spellcasting
           formula: ''
       sort: 0
-  identifier: totem-life-totem
+  identifier: totem-grappling-totem
   enchant: {}
   prerequisites:
     level: null
@@ -104,15 +99,12 @@ flags:
       value: true
     quickFooter:
       value: true
-    quickTemplate:
-      value: true
     quickOther:
       context: ''
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
+    quickSave:
+      value: true
+    quickTemplate:
+      value: true
   core: {}
   dnd5e:
     riders:
@@ -123,11 +115,11 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317508135
-  modifiedTime: 1727317508135
+  systemVersion: 4.0.4
+  createdTime: 1727317507006
+  modifiedTime: 1731015522185
   lastModifiedBy: pJeIW7qCa0HkURWq
-_id: WjWKU4fgv6Ie0J8J
-sort: 2400000
-_key: '!items!WjWKU4fgv6Ie0J8J'
+_id: VAiKxZnRJi39iFSz
+sort: 2300000
+_key: '!items!VAiKxZnRJi39iFSz'
 

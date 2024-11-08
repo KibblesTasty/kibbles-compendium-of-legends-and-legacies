@@ -1,4 +1,4 @@
-name: 'Hedge Rite: Mastered Basics'
+name: Mastered Basics
 type: feat
 img: icons/magic/symbols/star-solid-gold.webp
 effects: []
@@ -32,23 +32,23 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Hedge Mage 15
+    value: class
+    subtype: occultistRite
+  requirements: ''
   identifier: hedge-rite-mastered-basics
   activities: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 15
   properties: []
 _stats:
   compendiumSource: Item.qb3oc5zy8rfdS7Qd
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317514983
-  modifiedTime: 1727317514983
+  modifiedTime: 1731009933816
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 52300000

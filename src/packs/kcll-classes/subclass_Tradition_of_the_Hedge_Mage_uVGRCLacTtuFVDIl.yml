@@ -2,16 +2,176 @@ folder: TdxsRwVpXIXEkJmU
 name: Tradition of the Hedge Mage
 type: subclass
 _id: uVGRCLacTtuFVDIl
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>This tradition is a loose collection of magic users that benefit from a
+      wide array of traditions and practical knowledge to build up a collection
+      of eccentric magical knowledge. Their methods are often frowned upon by
+      those of more studied routes, but their practical skills cannot be denied,
+      and their unique understanding of magic that they have developed with
+      their own hands and minds should not be underestimated.</p><h5>Hedge Mage
+      Rites</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sNWDkX7AVInnPVJW]{Hedge
+      Magic}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Uetb1nMmsl9pcpHB]{Hedge
+      Knight}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qMLfvz4vXQ00u0O1]{I
+      Know That
+      One!}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yunZ4QZAY0nzTacC]{Learning
+      on the
+      Fly}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tdxIUp5XvPwgSvEq]{Manipulate
+      Magic}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9n9Rf9tFlv8Ls5f2]{Mass
+      Cantrip}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.frtq7yqCDufTxDIP]{Mastered
+      Basics}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.l9kTtjR1aNafbG1k]{Practice
+      Makes
+      Perfect}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dgEnvUrH8TXmW0Vm]{Practiced
+      Reach}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5bDYtcuR7Q29Gbg8]{Ready-Made
+      Spell}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wHfXhxbmoYcaKTZr]{Savant
+      Focus}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Yz6SWQZaqEtGwFzO]{Studious
+      Mage}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eiRkSumvhGFW85iC]{Simple
+      Magic}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nsxq7kenuK5hEeqD]{The
+      Way I Learned to
+      Improvise}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wrecamJJNqi2VMIB]{Utility
+      Master}</p>
     chat: ''
   identifier: tradition-of-the-hedge-mage
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: SDWysJ8wsfaoDB9G
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jD2vKme74ML9Ac0z
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1hs7qaO7j7u4sbmW
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Occult Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Occult Tradition Feature
+      hint: ''
+      _id: e6b6bXbos7exCJdd
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0Z1uF8pSDn3e3xOA
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.a6E0GN1DtZrarRqx
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Occult Tradition Feature
+      hint: ''
+      _id: mQK6RJS1pv2VAZOQ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lIju5oCPirb7n3Dv
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Occult Tradition Feature
+      hint: ''
+      _id: J6eClmYM0mv7AZRn
+    - _id: 5vKzymHokqx6pNSL
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.uyrvfifbyoh0VDk0
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.oypppkrHwp9jUwAE
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Q0dkEH6GXK93sGyF
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Casting Style
+      hint: >-
+        Additionally, your self-taught casting style has  resulted in some
+        practical advantages. Select one of the following casting styles:
+    - _id: orM6r1QEvEIEBHVy
+      type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sNWDkX7AVInnPVJW
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qMLfvz4vXQ00u0O1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tdxIUp5XvPwgSvEq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9n9Rf9tFlv8Ls5f2
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.frtq7yqCDufTxDIP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.l9kTtjR1aNafbG1k
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dgEnvUrH8TXmW0Vm
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GNqGInK5jRtDMWWi
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wHfXhxbmoYcaKTZr
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Yz6SWQZaqEtGwFzO
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eiRkSumvhGFW85iC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wrecamJJNqi2VMIB
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nsxq7kenuK5hEeqD
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Uetb1nMmsl9pcpHB
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yunZ4QZAY0nzTacC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5bDYtcuR7Q29Gbg8
+        spell: null
+        restriction:
+          type: class
+          subtype: occultistRite
+      value:
+        added: {}
+        replaced: {}
+      title: Personalized Path
+      hint: >-
+        At 3rd level, you gain one additional one additional Occult Rite known.
+        This rite can come from the Hedge Mage rites or from the general
+        Occultist rites.
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -31,7 +191,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729045864135
-  modifiedTime: 1729045866254
+  modifiedTime: 1731017485428
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!uVGRCLacTtuFVDIl'
 

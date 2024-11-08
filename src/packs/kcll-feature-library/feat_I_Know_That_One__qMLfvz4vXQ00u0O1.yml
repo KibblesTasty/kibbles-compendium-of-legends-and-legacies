@@ -1,6 +1,6 @@
-name: 'Hedge Rite: Hedge Magic'
+name: I Know That One!
 type: feat
-img: icons/magic/nature/beam-hand-leaves-green.webp
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
 effects: []
 flags:
   betterRolls5e:
@@ -17,14 +17,14 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.xEsq7X33iVmPp5IR
+    sourceId: Item.IbwajMSwqlzekp58
 system:
   description:
     value: >-
-      <p><em>(You can take this Rite multiple times)</em></p>
-
-      <p>You learn an additional cantrip from the Occultist list or from the
-      expanded list provided by the Practical Skills feature.</p>
+      <p>When you make a saving throw against a spell you know, or make a
+      spellcasting ability check to use <em>counterspell</em> or <em>dispel
+      magic</em> against a spell you know, you have advantage on the saving
+      throw or spellcasting ability check.</p>
     chat: ''
   source:
     rules: '2014'
@@ -34,30 +34,30 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Hedge Mage 2
-  identifier: hedge-rite-hedge-magic
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: hedge-rite-i-know-that-one
   activities: {}
   enchant: {}
   prerequisites:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.xEsq7X33iVmPp5IR
+  compendiumSource: Item.IbwajMSwqlzekp58
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317523155
-  modifiedTime: 1727317523155
+  systemVersion: 4.0.4
+  createdTime: 1727317522422
+  modifiedTime: 1731009621488
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 66000000
+sort: 64800000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: sNWDkX7AVInnPVJW
-_key: '!items!sNWDkX7AVInnPVJW'
+_id: qMLfvz4vXQ00u0O1
+_key: '!items!qMLfvz4vXQ00u0O1'
 

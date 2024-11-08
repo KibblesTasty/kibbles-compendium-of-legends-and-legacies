@@ -2,16 +2,124 @@ folder: TdxsRwVpXIXEkJmU
 name: Tradition of the Voidwatcher
 type: subclass
 _id: jahpyZ8QYStODdLi
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/unholy/orb-glowing-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Voidwatchers are those that have gazed into an infinite void and
+      glimpsed a creature of unlimited power, a plane beyond comprehension, or
+      truth beyond the veil. They forever have a fragment of what they have seen
+      embedded into their eyes, branded onto their mind. While some creatures
+      are driven entirely insane (or, perhaps more troubling, entirely sane),
+      those that remain functional are those that can grasp and contextualize
+      what they have seen, compartmentalizing and containing their fragment of
+      madness within them. How a Voidwatcher processes the insignificance of
+      reality influences their powers, though they all tend to develop a certain
+      fatalistic streak having seen something on a scale beyond mortal
+      comprehension.</p><h5>Voidwatcher
+      Rites</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.aDc0bYJiG5TOWtE6]{Chaotic
+      Thesis}</p><p>Conviction of Annihilation</p><p>Conviction of
+      Tranquility</p><p>Cycle of
+      Annihilation</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mucJWFFRvdKtbJ5M]{Dance
+      of the Mad Puppet}</p><p>Disciple of
+      Discord</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LE8FIf4tkaO2nI7Q]{Doombringer}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NIR8U41f9F4HF9QE]{Ending
+      Spoilers}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ahCohC4eu1489LM0]{Piercing
+      Gaze}</p><p>Inexorable Annihilation</p><p>Reflexive
+      Annihilation</p><p>Self
+      Reflection</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0w1tcnoXvdyZtK3z]{Serene
+      Acceptance}</p><p>This is
+      Fine</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.krTlArR8rVYhLWIX]{Touch
+      of
+      Annihilation}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rLgUKHPTA00wFiKe]{Tranquil
+      Touch}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cSIpFLSA9VG8YFqD]{True
+      Voidsight}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FMLZDOpV3bi74T8f]{Unflinching
+      Gaze}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vwKrUWvzf7G9cJvC]{Unmaking
+      Eye}</p><p>Wildcard</p>
     chat: ''
   identifier: tradition-of-the-voidwatcher
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: SDWysJ8wsfaoDB9G
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.r8qe1oQIxIYCCPns
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Occult Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.iqdK9UksAMgWnJdH
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Occult Tradition Feature
+      hint: ''
+      _id: e6b6bXbos7exCJdd
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.gY37xlDdLygMjgAz
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Occult Tradition Feature
+      hint: ''
+      _id: mQK6RJS1pv2VAZOQ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3Cz4P3OrJs1ZCrLb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Occult Tradition Feature
+      hint: ''
+      _id: J6eClmYM0mv7AZRn
+    - _id: bV7KtT5FXVq3nZdC
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XzkXBGrSf0VUlCmS
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4mAtCKke9dh1A6vZ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dYqAd3dFr5sL3HVr
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Eschatological Conclusion
+      hint: >-
+        Starting at 1st level, when you select this tradition and gain your
+        powers through exposure to the void, you select how to embrace the end
+        of existence, granting you a measure of resolve to continue, and
+        granting you one of the following powers.
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -31,7 +139,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729045906864
-  modifiedTime: 1729045910052
+  modifiedTime: 1731016160252
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!jahpyZ8QYStODdLi'
 

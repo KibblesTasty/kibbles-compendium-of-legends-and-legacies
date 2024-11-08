@@ -1,22 +1,22 @@
 folder: null
-name: 'Totem: Agonizing Totem'
+name: Life Totem
 type: feat
 img: icons/magic/symbols/mask-yellow-orange.webp
 system:
   description:
     value: >-
-      <p><strong>Agonizing Totem.</strong> Any creature of your choice that
-      starts its turn within 10 feet of the totem or enters within 10 feet of it
-      for the first time on their turn takes 1d6 necrotic damage. Any creature
-      that damages the totem from within 10 feet of it takes 1d6 necrotic
-      damage.</p>
+      <p style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
+      style="font-family:Signika, sans-serif">When a creature starts its turn
+      within 10 feet of the totem you can heal them with the totem for 1d6 hit
+      points. The totem does this a number of times equal to your Wisdom
+      modifier, after which its power fades and it crumbles.</span></p>
     chat: ''
   source:
     custom: Spiritualist
     revision: 1
     rules: '2014'
   uses:
-    max: ''
+    max: '@abilities.wis.mod'
     recovery: []
     spent: 0
   type:
@@ -26,7 +26,7 @@ system:
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
-      type: damage
+      type: heal
       activation:
         type: action
         value: 1
@@ -42,8 +42,8 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        value: '1'
-        units: minute
+        value: ''
+        units: inst
         special: ''
         override: false
       effects: []
@@ -72,25 +72,24 @@ system:
         spent: 0
         max: ''
         recovery: []
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-          - number: 1
-            denomination: 6
-            bonus: ''
-            types:
-              - necrotic
-            custom:
-              enabled: false
-              formula: ''
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
+      healing:
+        number: null
+        denomination: '6'
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: (@scale.tradition-of-the-spiritualist.totem-dice)d6
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
       sort: 0
-  identifier: totem-agonizing-totem
+      name: ''
+      img: ''
+      appliedEffects: []
+  identifier: totem-life-totem
   enchant: {}
   prerequisites:
     level: null
@@ -125,11 +124,11 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317492683
-  modifiedTime: 1727317492683
+  systemVersion: 4.0.4
+  createdTime: 1727317508135
+  modifiedTime: 1731015860500
   lastModifiedBy: pJeIW7qCa0HkURWq
-_id: 9kQqZa7H8ujnitX1
-sort: 2100000
-_key: '!items!9kQqZa7H8ujnitX1'
+_id: WjWKU4fgv6Ie0J8J
+sort: 2400000
+_key: '!items!WjWKU4fgv6Ie0J8J'
 

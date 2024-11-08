@@ -1,17 +1,15 @@
 folder: null
-name: 'Totem: Binding Totem'
+name: Binding Totem
 type: feat
 img: icons/magic/symbols/mask-yellow-orange.webp
 system:
   description:
     value: >-
       <p style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Binding Totem.</strong>
-      Terrain within 10 feet of the totem is difficult terrain for creatures of
-      your choice, and any creature attempting to teleport into or out of the
-      radius must make a Charisma saving throw against your spell save DC, or
-      the attempt fails.</span></p>
+      style="font-family:Signika, sans-serif">Terrain within 10 feet of the
+      totem is difficult terrain for creatures of your choice, and any creature
+      attempting to teleport into or out of the radius must make a Charisma
+      saving throw against your spell save DC, or the attempt fails.</span></p>
     chat: ''
   source:
     custom: Spiritualist
@@ -115,9 +113,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317494190
-  modifiedTime: 1727317494190
+  modifiedTime: 1731015587685
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: Bzs0tGmpLptcHP3O
 sort: 2200000

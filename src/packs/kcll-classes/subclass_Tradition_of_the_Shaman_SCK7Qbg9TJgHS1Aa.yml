@@ -2,16 +2,116 @@ folder: TdxsRwVpXIXEkJmU
 name: Tradition of the Shaman
 type: subclass
 _id: SCK7Qbg9TJgHS1Aa
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/nature/hand-weapon-wood-bark-brown.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>A shaman is an Occultist that walks the paths of the spirits, binding
+      them to their cause to empower themselves or bring havoc to their foes.
+      Tough and powerful, they are most often found in the thick of the fight,
+      wreathed in their primal power.</p><p>A shaman may view themselves as in
+      service to their spirits or as served by the spirits; the what and the how
+      of their contract can vary wildly, as can the source of their spirits, be
+      it pulling from ancestral or primal powers.</p><h5>Shaman
+      Rites</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yvGQQ9YONvYYlNVP]{Avatar
+      of the
+      Elements}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3NZk9hzqTLAYsjNc]{Dance
+      of the
+      Spirits}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KuooQ06rQOC5OYrr]{Detonate
+      Spirit}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Soaem1f2CwORnuuC]{Elemental
+      Weapons}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rBdQ97WmZmLmF9MK]{Energized
+      Weapon}</p><p>Feral
+      Spirit</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.O2uKa8cMsDE3N3p7]{Enhanced
+      Bond}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AQxfkP9OpXyQMHSM]{Guidance
+      of the
+      Spirits}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wwHSJuwA0OcqoxX8]{Mistwalker}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.623Sa5ldWg2yckct]{Primal
+      Earth}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Xl9ocvy2yvZvTIfP]{Primal
+      Fire}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8lkWkNVJOWyll2DY]{Primal
+      Ice}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MNUC3VkMQ6Ogrjip]{Primal
+      Storms}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5s8irEyZUFhevE3M]{Radiate
+      Power}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eGb8sFwb4XmUpwhm]{Rite
+      of
+      Prowess}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mTMKlZnNGHTH9Gl5]{Shaman's
+      Touch}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AE87QZMNIoahMssQ]{Strength
+      of Spirit}</p><p>Totemic
+      Rite</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cWiJuEChEKzMNE1f]{Warding
+      Power}</p>
     chat: ''
   identifier: tradition-of-the-shaman
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: SDWysJ8wsfaoDB9G
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nxIEBRitIADlGmhI
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LvFojIKAZbjaHIOk
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Occult Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.husZ3Qc8h8ZVFRVt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Occult Tradition Feature
+      hint: ''
+      _id: e6b6bXbos7exCJdd
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ckUaIGtHSlbTYqTZ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Occult Tradition Feature
+      hint: ''
+      _id: mQK6RJS1pv2VAZOQ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KWi0Mvmpiilbvk7P
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Occult Tradition Feature
+      hint: ''
+      _id: J6eClmYM0mv7AZRn
+    - _id: vMe4KVb1tn4FqBCH
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:med
+          - armor:shl
+          - weapon:sim
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Spiritual Warrior
+      hint: ''
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -31,7 +131,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729045887366
-  modifiedTime: 1729045889231
+  modifiedTime: 1731019851660
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!SCK7Qbg9TJgHS1Aa'
 

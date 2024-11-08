@@ -40,21 +40,20 @@ system:
   description:
     value: >-
       <p>When you complete a long rest, your familiar gains temporary hit points
-      equal to your Wisdom modifier + your twice Occultist level. While it has
-      one or more temporary hit points, as its action, or as a reaction to a
-      creature within 30 feet of it taking damage, it can teleport to allied
-      targets giving that target some of its temporary hit points (minimum
-      one).</p>
+      equal to your Wisdom modifier + twice your Occultist level. While it has
+      temporary hit points, as an action your familiar can teleport to a
+      creature within 30 feet of it and grant that creature one or more of its
+      temporary hit points. You can direct it to do this immediately using your
+      reaction when a creature within 30 feet of it takes damage (no action
+      required by the familiar).</p>
     chat: ''
   source:
     custom: ''
     revision: 1
     rules: '2014'
   uses:
-    max: '6'
-    recovery:
-      - period: lr
-        type: recoverAll
+    max: ''
+    recovery: []
     spent: 0
   type:
     value: ''
@@ -65,18 +64,16 @@ system:
       _id: dnd5eactivity000
       type: heal
       activation:
-        type: reaction
+        type: special
         value: 1
         condition: ''
         override: false
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '6'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -91,7 +88,7 @@ system:
       effects: []
       range:
         value: '30'
-        units: ft
+        units: any
         special: ''
         override: false
       target:
@@ -107,7 +104,7 @@ system:
           count: '1'
           type: creature
           choice: false
-          special: ''
+          special: Familiar
         prompt: true
         override: false
       uses:
@@ -122,12 +119,63 @@ system:
           - temphp
         custom:
           enabled: true
-          formula: '6'
+          formula: '@abilities.wis.mod + 2 * @classes.occultist.levels'
         scaling:
           mode: whole
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
+    FT1tDuTZKma2iehu:
+      type: utility
+      name: Teleport Familiar
+      _id: FT1tDuTZKma2iehu
+      sort: -100000
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: A creature within 30 feet of your familiar takes damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   identifier: familiar-bond-white-coven
   enchant: {}
   prerequisites:
@@ -138,9 +186,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317514869
-  modifiedTime: 1727317514869
+  modifiedTime: 1731021003206
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 52100000

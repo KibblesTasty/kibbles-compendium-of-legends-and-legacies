@@ -1,0 +1,55 @@
+name: Strength of Spirit
+type: feat
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 9th-level Shaman, A Strength ability score higher
+      than your Wisdom ability score)</em></p><p>You can increase your Wisdom
+      ability score by 2, up to a maximum of 20. This cannot make your Wisdom
+      ability score higher than your Strength ability score.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: a Strength score higher than your Wisdom score
+  identifier: shaman-rite-strength-of-spirit
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.ZNbjHE7MdzDFvC1O
+_stats:
+  compendiumSource: Item.ZNbjHE7MdzDFvC1O
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317492986
+  modifiedTime: 1731221781964
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 17400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: AE87QZMNIoahMssQ
+_key: '!items!AE87QZMNIoahMssQ'
+

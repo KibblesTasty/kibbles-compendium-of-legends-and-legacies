@@ -33,11 +33,11 @@ system:
     value: >-
       <p>When you cast an Occultist cantrip that targets one or more creatures,
       you can make the cantrip target a number additional creatures within range
-      equal to your proficiency bonus. Once you use this rite in this way, you
-      must finish a long rest before you can use it again. You can instead
-      expend a spell slot to gain a similar effect, causing the cantrip to
-      target a number of additional creatures equal to the level of spell slot
-      spent.</p>
+      equal to your proficiency bonus ([[lookup @prof]]). Once you use this rite
+      in this way, you must finish a long rest before you can use it again. You
+      can instead expend a spell slot to gain a similar effect, causing the
+      cantrip to target a number of additional creatures equal to the level of
+      spell slot spent.</p>
     chat: ''
   source:
     custom: Hedge Mage
@@ -58,18 +58,16 @@ system:
       _id: dnd5eactivity000
       type: utility
       activation:
-        type: ''
+        type: special
         value: 1
-        condition: ''
+        condition: You cast an Occultist cantrip that targets one or more creatures
         override: false
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -78,12 +76,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -107,11 +105,68 @@ system:
         max: ''
         recovery: []
       roll:
-        formula: ''
+        formula: '@prof'
         name: ''
         prompt: false
         visible: false
       sort: 0
+      name: Innate Use
+      img: ''
+      appliedEffects: []
+    qzd9IZsNhxsRXIUM:
+      type: utility
+      name: Spell Slot
+      _id: qzd9IZsNhxsRXIUM
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You cast an Occultist cantrip that targets one or more creatures
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: '@scaling'
+      img: ''
+      appliedEffects: []
   identifier: hedge-rite-mass-cantrip
   enchant: {}
   prerequisites:
@@ -122,9 +177,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1727317492799
-  modifiedTime: 1731009792293
+  modifiedTime: 1731206975521
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 17100000

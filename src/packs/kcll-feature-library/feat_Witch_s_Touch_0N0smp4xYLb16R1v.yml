@@ -18,33 +18,28 @@ flags:
       altValue: true
   core:
     sourceId: Item.DExlt95yRy70WpWG
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 6th level, whenever you cast a spell with a range of touch
       (including through your familiar), you can add one of the following
-      modifiers to the spell:</p>
-
-      <ul>
-
-      <li>It grants one affected target temporary hit points equal to your
-      Wisdom modifier. Only one creature can have these temporary hit points at
-      a time.</li>
-
-      <li>It deals additional damage equal to your Wisdom modifier to one
-      affected creature.</li>
-
-      <li>It adds or subtracts 1d4 from the target's next attack roll or saving
-      throw before the start of your next turn.</li>
-
-      </ul>
-
-      <p>You can also confer these effects to another spell with a range longer
-      than touch by making its range touch, or confer these effects as an action
-      without casting a spell by touching a target (making a melee spell attack
-      to do if the target is an unwilling creature). If you make the range of a
-      curse spell touch, you no longer need the material component for the
-      spell.</p>
+      modifiers to the spell:</p><ul><li><p><strong>Temporary Hit
+      Points</strong>. It grants one affected target temporary hit points equal
+      to your Wisdom modifier. Only one creature can have these temporary hit
+      points at a time.</p></li><li><p><strong>Bonus Damage</strong>. It deals
+      additional damage equal to your Wisdom modifier to one affected
+      creature.</p></li><li><p><strong>Misfortune</strong>. It adds or subtracts
+      1d4 from the target’s next attack roll or saving throw before the start of
+      your next turn.</p></li></ul><p>You can also confer these effects to
+      another spell with a range longer than touch by making its range touch. If
+      you make the range of a curse spell touch, you no longer need the material
+      component for the spell.</p><p>Alternatively confer these effects as an
+      action without casting a spell by touching a target (making a melee spell
+      attack against the target if it is an unwilling creature).</p>
     chat: ''
   source:
     rules: '2014'
@@ -58,7 +53,116 @@ system:
     subtype: ''
   requirements: Witch 6
   identifier: witchs-touch
-  activities: {}
+  activities:
+    oZR9xZkVJNPKu4M8:
+      type: heal
+      name: Temporary Hit Points
+      _id: oZR9xZkVJNPKu4M8
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types: []
+        custom:
+          enabled: true
+          formula: '@abilities.wis.mod'
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+    1ny1DMpYeS8pvsi6:
+      type: damage
+      name: Bonus Damage
+      _id: 1ny1DMpYeS8pvsi6
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@abilities.wis.mod'
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -68,9 +172,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317485123
-  modifiedTime: 1727317485123
+  modifiedTime: 1731051463440
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 5500000

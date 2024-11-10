@@ -1,0 +1,138 @@
+name: Witch's Claws
+type: feat
+img: icons/creatures/claws/claw-talons-glowing-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.U23r2pJpsx6oK5mP
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>As an action, you can form your fingernails (or similar physiological
+      feature if you do not have fingernails) form into wicked claws and you
+      make a melee spell attack against a creature within 5 feet of you.</p><p>
+      On hit, the target takes 1d10 + your Wisdom modifier slashing damage. This
+      damage increases by 1d10 when you reach 5th level (2d10), 11th level
+      (3d10), and 17th level (4d10). At 6th level, you can apply your Witch’s
+      Touch feature when you hit with this attack (including potentially dealing
+      your Wisdom modifier damage twice)</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: witch-rite-witchs-claws
+  activities:
+    pRUVE5on1zJbxSTp:
+      type: attack
+      _id: pRUVE5on1zJbxSTp
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: wis
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: true
+              formula: (ceil((@classes.occultist.levels + 2)/6))d10 + @mod
+            number: 1
+            denomination: 10
+            bonus: '@mod'
+            types:
+              - slashing
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.U23r2pJpsx6oK5mP
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317524639
+  modifiedTime: 1731226756695
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 68800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ulS3nFYEFs6sCTEb
+_key: '!items!ulS3nFYEFs6sCTEb'
+

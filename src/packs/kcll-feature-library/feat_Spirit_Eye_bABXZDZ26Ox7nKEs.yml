@@ -1,0 +1,102 @@
+name: Spirit Eye
+type: feat
+_id: bABXZDZ26Ox7nKEs
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+system:
+  activities:
+    NT1YlPCfhPgyParv:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.ImlCJQwR1VL40Qem
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties: []
+        spellbook: true
+      _id: NT1YlPCfhPgyParv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="fontstyle0"><em>(Prerequisite: 9th-level
+      Spiritualist)</em></span> </p><p>You can cast
+      @UUID[Compendium.dnd5e.spells.Item.ImlCJQwR1VL40Qem]{arcane eye} without
+      expending a spell slot, with the eye taking the form of an invisible
+      spirit. Once you cast it this way, you cannot cast it this way again until
+      you complete a long rest.</p>
+    chat: ''
+  identifier: spirit-eye
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: 9
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731222515233
+  modifiedTime: 1731223171624
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!bABXZDZ26Ox7nKEs'
+

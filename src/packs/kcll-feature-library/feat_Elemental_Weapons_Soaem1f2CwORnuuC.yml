@@ -1,0 +1,63 @@
+name: Elemental Weapons
+type: feat
+img: icons/magic/fire/flame-burning-fist-strike.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.bOdAwQifiSjLgB2K
+system:
+  description:
+    value: >-
+      <p>You can cast fists of fire or ice weapon when you roll initiative (no
+      action required). When you create a weapon with fists of fire or ice
+      weapon, the damage die of the weapon is increased by one size (for
+      example, from a d6 to a d8).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Fists of Fire or Ice Weapon cantrip
+  identifier: shaman-rite-elemental-weapons
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.bOdAwQifiSjLgB2K
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317505354
+  modifiedTime: 1731221781964
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 37100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Soaem1f2CwORnuuC
+_key: '!items!Soaem1f2CwORnuuC'
+

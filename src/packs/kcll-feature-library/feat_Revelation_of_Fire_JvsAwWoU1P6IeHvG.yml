@@ -1,0 +1,220 @@
+name: Revelation of Fire
+type: feat
+img: icons/magic/fire/elemental-fire-humanoid.webp
+effects:
+  - name: Revelation of Fire
+    img: icons/magic/fire/elemental-fire-humanoid.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.JvsAwWoU1P6IeHvG
+    transfer: false
+    _id: laxFKFx84WkyBp6W
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731209504893
+      modifiedTime: 1731209504893
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!JvsAwWoU1P6IeHvG.laxFKFx84WkyBp6W'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.tpIrKyzl5Ivd0s5f
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Your powers draw flames all around you. When you cast a spell of 1st
+      level or higher that deals fire damage, you can shroud yourself in flames
+      until the start of your next turn. You gain half cover and any creature
+      that strikes you with a melee attack or ends their turn within 5 feet of
+      you takes 1d6 fire damage. At the start of your next turn, you take 1 fire
+      damage. A spell can only trigger one Revelation. If multiple Revelations
+      apply, choose one.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Mystery of Fire
+  identifier: oracle-rite-revelation-of-fire
+  activities:
+    WZyoxVMaIUx3v46B:
+      type: damage
+      name: Enemy Damage
+      _id: WZyoxVMaIUx3v46B
+      sort: 100000
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    JPKZSNqR5wSHVQ6m:
+      type: damage
+      name: Enshroud in Flames
+      _id: JPKZSNqR5wSHVQ6m
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: laxFKFx84WkyBp6W
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: null
+            denomination: 0
+            bonus: '1'
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.tpIrKyzl5Ivd0s5f
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317499202
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 27200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: JvsAwWoU1P6IeHvG
+_key: '!items!JvsAwWoU1P6IeHvG'
+

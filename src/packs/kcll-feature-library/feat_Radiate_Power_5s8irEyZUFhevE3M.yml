@@ -1,0 +1,136 @@
+name: Radiate Power
+type: feat
+img: icons/creatures/abilities/cougar-roar-rush-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.lLwq2JDuKkuOywEt
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 15th-level Occultist</em></p>
+
+      <p>While you have a spirit bonded to you, as a bonus action you can cause
+      it to emanate power, causing all creatures within 5 feet of you (or it if
+      it is manifested at another location) to make a Wisdom saving throw
+      against your spell save DC, or take damage equal to its manifested
+      damage.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: shaman-rite-radiate-power
+  activities:
+    2XFXdy4xhDioHWsc:
+      type: save
+      name: Emanate Power
+      _id: 2XFXdy4xhDioHWsc
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.tradition-of-the-shaman.manifested-damage + @mod'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - cold
+              - fire
+              - lightning
+              - necrotic
+              - radiant
+            scaling:
+              number: 1
+        onSave: none
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: 15
+  properties: []
+_stats:
+  compendiumSource: Item.lLwq2JDuKkuOywEt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317489171
+  modifiedTime: 1731223140706
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 11500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 5s8irEyZUFhevE3M
+_key: '!items!5s8irEyZUFhevE3M'
+

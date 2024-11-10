@@ -1,0 +1,231 @@
+name: Primal Storm
+type: feat
+img: icons/magic/lightning/bolt-strike-sparks-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.my4EgKUlK1atpfxR
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You harness the primal elemental powers of storm and lightning,
+      learning the following spells when you reach certain levels in this class,
+      as shown on the table below. These are Occultist spells for you, but do
+      not count against your spells known.</p><table><thead><tr><th>Occultist
+      Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ]{Thunderwave}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{Gust
+      of
+      Wind}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.IyikgTEOTv701jgQ]{Lightning
+      Bolt}</td></tr><tr><td>7th</td><td>Jumping
+      Jolt</td></tr><tr><td>9th</td><td>Sky Burst</td></tr></tbody></table>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: shaman-rite-primal-storms
+  activities:
+    OIwRQGfatLSKlKAB:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties: []
+        spellbook: true
+      _id: OIwRQGfatLSKlKAB
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    1zkvZxY9HClStQxQ:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties: []
+        spellbook: true
+      _id: 1zkvZxY9HClStQxQ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '2'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    LiOr4J42hspIzGzj:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties: []
+        spellbook: true
+      _id: LiOr4J42hspIzGzj
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '3'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.my4EgKUlK1atpfxR
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317501312
+  modifiedTime: 1731221781964
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 30600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: MNUC3VkMQ6Ogrjip
+_key: '!items!MNUC3VkMQ6Ogrjip'
+

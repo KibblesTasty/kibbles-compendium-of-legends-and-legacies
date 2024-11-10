@@ -22,11 +22,12 @@ system:
   description:
     value: >-
       <p>Starting at 14th level, you no longer need the material component for
-      curse spells (even when casting them at range).</p>
-
-      <p>Additionally, any time you cast a curse with a duration that is not
-      Instantaneous or hex you have advantage on concentration saving throws to
-      maintain their effects.</p>
+      curse spells (even when casting them at range).</p><p>Additionally,
+      casting 1st level Hex or Curse spell no longer interrupts or is
+      interrupted by concentration of other spells, though this cannot let you
+      concentrate on more than two spells at a time, with at least one being a
+      1st level Hex or Curse. If you lose concentration while you are doing
+      this, concentration is lost on both spells.</p>
     chat: ''
   source:
     rules: '2014'
@@ -50,9 +51,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317514084
-  modifiedTime: 1727317514084
+  modifiedTime: 1731051491242
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 50900000

@@ -1,0 +1,53 @@
+folder: null
+name: Unmaking Eye
+type: feat
+img: icons/skills/melee/blade-tip-chipped-blood-red.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 5th-level Voidwatcher)</em></p><p>When you use your
+      Eye of the End feature, your next melee weapon attack against the target
+      creature becomes a critical hit.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: voidwatcher-rite-unmaking-eye
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: 5
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317525756
+  modifiedTime: 1731225069425
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: vwKrUWvzf7G9cJvC
+sort: 4100000
+_key: '!items!vwKrUWvzf7G9cJvC'
+

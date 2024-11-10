@@ -6,20 +6,20 @@ system:
   description:
     value: >-
       <p>Starting at 1st level, when you hit a creature with an attack or it
-      fails a saving throw against one of your spells, you can afflict them with
-      a malignant spirit. This spirit haunts them for 1 minute, and while it
-      persists any time the creature makes an attack roll, saving throw, or
-      ability check, you can use your reaction to cause the spirit hindering
-      them to bring them misfortune. Roll a d6 spirit die and subtract it from
-      the result of their roll. You can do this after they roll, but before the
-      outcome is determined.</p><p>The spirit can be removed by effects that
-      remove or prevent possession (such as protection from evil and good), or
-      the target can attempt to rid itself of the spirit as an action, making a
-      Wisdom saving throw against your spell save DC, removing the spirit and
-      ending the effect on success).</p><p>The size of the spirit die increases
-      at 5th level (to a d8), 11th level (to a d10), and 17th level (to a d12).
-      Once you use this ability, you cannot use it again until you complete a
-      short or long rest.</p>
+      fails a saving throw against one of your Occultist spells, you can afflict
+      them with a malignant spirit. This spirit haunts them for 1 minute, and
+      while it persists any time the creature makes an attack roll, saving
+      throw, or ability check, you can use your reaction to cause the spirit
+      hindering them to bring them misfortune. Roll a d6 spirit die and subtract
+      it from the result of their roll. You can do this after they roll, but
+      before the outcome is determined.</p><p>The spirit can be removed by
+      effects that remove or prevent possession (such as protection from evil
+      and good), or the target can attempt to rid itself of the spirit as an
+      action, making a Wisdom saving throw against your spell save DC, removing
+      the spirit and ending the effect on success).</p><p>The size of the spirit
+      die increases at 5th level (to a d8), 11th level (to a d10), and 17th
+      level (to a d12). Once you use this ability, you cannot use it again until
+      you complete a short or long rest.</p>
     chat: ''
   source:
     custom: Spiritualist
@@ -45,13 +45,7 @@ system:
         condition: ''
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+        targets: []
         scaling:
           allowed: false
           max: ''
@@ -66,7 +60,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -97,23 +91,20 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      sort: 0
+      sort: 100000
+      name: Remove Spirit
+      img: ''
+      appliedEffects: []
     dnd5eactivity300:
       _id: dnd5eactivity300
       type: utility
       activation:
-        type: special
+        type: reaction
         value: null
         condition: ''
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+        targets: []
         scaling:
           allowed: false
           max: ''
@@ -128,7 +119,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -152,11 +143,65 @@ system:
         max: ''
         recovery: []
       roll:
-        formula: 1d6
+        formula: '@scale.tradition-of-the-spiritualist.hindering-spirit'
         name: ''
         prompt: false
         visible: false
+      sort: 300000
+      name: Bring Misfortune
+      img: ''
+      appliedEffects: []
+    prqtHz5QWDiD2HyO:
+      type: utility
+      name: Inflict Spirit
+      _id: prqtHz5QWDiD2HyO
       sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   identifier: malignant-possession
   enchant: {}
   prerequisites:
@@ -196,9 +241,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317485062
-  modifiedTime: 1727317485062
+  modifiedTime: 1731048434816
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: 0LY3OV9wrxNuqJJC
 sort: 400000

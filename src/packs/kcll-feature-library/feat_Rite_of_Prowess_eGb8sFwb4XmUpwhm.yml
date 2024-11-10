@@ -1,0 +1,65 @@
+name: Rite of Prowess
+type: feat
+img: icons/weapons/axes/axe-battle-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.raAhUzpDTEK1DH8M
+system:
+  description:
+    value: >-
+      <p>You can select one fighting style from
+      @UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Dueling},
+      @UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Great Weapon
+      Fighting}, or
+      @UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Two-Weapon
+      Fighting}.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: shaman-rite-rite-of-prowess
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.raAhUzpDTEK1DH8M
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317513617
+  modifiedTime: 1731221781964
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 50100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: eGb8sFwb4XmUpwhm
+_key: '!items!eGb8sFwb4XmUpwhm'
+

@@ -1,0 +1,116 @@
+name: Zealous Spirits
+type: feat
+_id: yYxXk2FxIZhI5Nvr
+img: icons/magic/unholy/projectiles-binary-pink.webp
+system:
+  activities:
+    gulaEGvtlnsWDVnU:
+      type: save
+      _id: gulaEGvtlnsWDVnU
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You are followed by friendly spirits that protect you. Once per turn,
+      when a creature within 60 feet attacks and hits you, it must make a Wisdom
+      saving throw against your spell save DC to avoid the spirits retaliation.
+      On failure, it takes 2d6 necrotic damage, or half as much on a
+      success.</p>
+    chat: ''
+  identifier: zealous-spirits
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: 9
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731223054925
+  modifiedTime: 1731223171624
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!yYxXk2FxIZhI5Nvr'
+

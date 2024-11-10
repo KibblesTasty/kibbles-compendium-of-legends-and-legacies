@@ -1,0 +1,131 @@
+name: Death Watcher
+type: feat
+img: icons/magic/death/skeleton-worn-skull-tan.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.AkuFYI3U1FWdTJfJ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 12th level Occultist</em></p><p>You can see the lines
+      of fate, and detect when one of them is about to snap. When an ally that
+      can see or hear you would drop to 0 hit points as a result of taking
+      damage, as a reaction you can manipulate their fate with a cryptic
+      warning, causing them to narrowly avoid their demise, instead dropping to
+      1 hit point. </p><p>Once you use this Rite, you must finish a long rest
+      before you can use it again.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Oracle 12
+  identifier: oracle-rite-death-watcher
+  activities:
+    c15CO37cgVYViQU6:
+      type: heal
+      _id: c15CO37cgVYViQU6
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: >-
+          An ally that can see or hear you would drop to 0 hit points as a
+          result of taking damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types: []
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: '1'
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: 12
+  properties: []
+_stats:
+  compendiumSource: Item.AkuFYI3U1FWdTJfJ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317498024
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 25200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: HAzOQzNshjQQxtra
+_key: '!items!HAzOQzNshjQQxtra'
+

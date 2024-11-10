@@ -1,0 +1,120 @@
+name: Reflexive Annihilation
+type: feat
+_id: 5BS4ebGhOOE9s46j
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  activities:
+    236ixiS9oYvl8TnZ:
+      type: save
+      _id: 236ixiS9oYvl8TnZ
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>When you take damage from another creature within 60 feet of you, you
+      can temporarily let loose the annihilation within you as revenge. The
+      target must make a Dexterity saving throw against your spell save DC,
+      taking a number of d6 dice equal to your proficiency bonus as force damage
+      on failure, and half the damage on a success. Once you use this ability,
+      you cannot use it again until you complete a short rest.</p>
+    chat: ''
+  identifier: reflexive-annihilation
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Conclusion of Annihilation
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731224651435
+  modifiedTime: 1731225069425
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!5BS4ebGhOOE9s46j'
+

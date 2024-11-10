@@ -20,21 +20,22 @@ system:
       Spirits}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KuooQ06rQOC5OYrr]{Detonate
       Spirit}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Soaem1f2CwORnuuC]{Elemental
       Weapons}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rBdQ97WmZmLmF9MK]{Energized
-      Weapon}</p><p>Feral
-      Spirit</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.O2uKa8cMsDE3N3p7]{Enhanced
+      Weapon}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bhR7P9Rh3ixs9w3y]{Feral
+      Spirit}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.O2uKa8cMsDE3N3p7]{Enhanced
       Bond}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AQxfkP9OpXyQMHSM]{Guidance
       of the
       Spirits}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wwHSJuwA0OcqoxX8]{Mistwalker}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.623Sa5ldWg2yckct]{Primal
       Earth}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Xl9ocvy2yvZvTIfP]{Primal
       Fire}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8lkWkNVJOWyll2DY]{Primal
       Ice}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MNUC3VkMQ6Ogrjip]{Primal
-      Storms}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5s8irEyZUFhevE3M]{Radiate
+      Storm}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5s8irEyZUFhevE3M]{Radiate
       Power}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eGb8sFwb4XmUpwhm]{Rite
       of
       Prowess}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mTMKlZnNGHTH9Gl5]{Shaman's
       Touch}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AE87QZMNIoahMssQ]{Strength
-      of Spirit}</p><p>Totemic
-      Rite</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cWiJuEChEKzMNE1f]{Warding
+      of
+      Spirit}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wTS4A9JrE1PDKrg2]{Totemic
+      Rite}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cWiJuEChEKzMNE1f]{Warding
       Power}</p>
     chat: ''
   identifier: tradition-of-the-shaman
@@ -112,6 +113,19 @@ system:
       level: 1
       title: Spiritual Warrior
       hint: ''
+    - _id: AIKVNS3Dwouvuesf
+      type: ScaleValue
+      configuration:
+        identifier: manifested-damage
+        type: string
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 1d4
+      value: {}
+      title: Manifested Damage
+      hint: ''
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -129,9 +143,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1729045887366
-  modifiedTime: 1731019851660
+  modifiedTime: 1731221727134
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!SCK7Qbg9TJgHS1Aa'
 

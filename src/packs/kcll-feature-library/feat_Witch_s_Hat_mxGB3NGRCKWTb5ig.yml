@@ -1,0 +1,70 @@
+name: Witch's Hat
+type: feat
+img: icons/equipment/head/hat-pointed-leather-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.iwPuEBUkKCIV4H5R
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>You invest a hat (traditionally a floppy wide brimmed black witch’s
+      hat) with some of your magic, turning it into a
+      @UUID[Compendium.dnd5e.items.Item.dQxqcjDm0IxYusCV]{Hat of Disguise}. If
+      your hat is lost or destroyed, you can create a new one with 2 hours of
+      work. If a previous hat still exists when you make a new one, it loses its
+      magic upon the completion of the new one.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: witch-rite-witchs-hat
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.iwPuEBUkKCIV4H5R
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317519525
+  modifiedTime: 1731226756695
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 59900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: mxGB3NGRCKWTb5ig
+_key: '!items!mxGB3NGRCKWTb5ig'
+

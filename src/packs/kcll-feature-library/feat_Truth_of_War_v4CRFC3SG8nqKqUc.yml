@@ -1,0 +1,133 @@
+name: Truth of War
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OtFbNmkGA1xrNygh
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>There are many paths to victory. When you cast a spell of 1st level or
+      higher on your turn, the next time you hit a creature with a melee weapon
+      attack before the end of your turn, you can force them to make a Saving
+      Throw against your Spell Save DC, or suffer from a condition based on the
+      level of spell slot cast (you can select the condition of a lower level
+      effect instead of you choose) until the start of your next turn. The type
+      of saves and conditions are listed on the table
+      below.</p><table><thead><tr><th>Spell
+      Level</th><th>Condition</th><th>Save</th></tr></thead><tbody><tr><td>1st</td><td>&amp;Reference[Prone]</td><td>Strength</td></tr><tr><td>2nd</td><td>&amp;Reference[Poisoned]</td><td>Constitution</td></tr><tr><td>3rd</td><td>&amp;Reference[Frightened]</td><td>Wisdom</td></tr><tr><td>4th</td><td>&amp;Reference[Blinded]</td><td>Constitution</td></tr><tr><td>5th</td><td>&amp;Reference[Restrained]</td><td>Strength</td></tr><tr><td>6th+</td><td>&amp;Reference[Stunned]</td><td>Constitution</td></tr></tbody></table><hr
+      /><p></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Revelation of War
+  identifier: oracle-rite-truth-of-war
+  activities:
+    xjrzdLlqYvSwXkXk:
+      type: save
+      _id: xjrzdLlqYvSwXkXk
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+          - con
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: 5
+  properties: []
+_stats:
+  compendiumSource: Item.OtFbNmkGA1xrNygh
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317525221
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 69700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: v4CRFC3SG8nqKqUc
+_key: '!items!v4CRFC3SG8nqKqUc'
+

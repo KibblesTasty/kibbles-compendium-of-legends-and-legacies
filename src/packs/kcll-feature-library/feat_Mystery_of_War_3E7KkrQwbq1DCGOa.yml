@@ -25,7 +25,16 @@ flags:
       value: true
 system:
   description:
-    value: "<p>Your understanding of the nature of war unlocks its secrets for you. You gain proficiency with martial weapons and shields. You learn the following spells at the following levels.</p><table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\"><tbody><tr><td style=\"text-align:center\"><strong>Occultist Level</strong></td><td style=\"text-align:center\"><strong>Spells Learned</strong></td></tr><tr><td style=\"text-align:center\">1st</td><td style=\"text-align:center\">\_@UUID[Compendium.world.spells-all.2TmUt0k0GW6QNQ3Z]{Bless}</td></tr><tr><td style=\"text-align:center\">3rd</td><td style=\"text-align:center\">@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.wORzndtyR5yza7Je]{Iron Wind Strike}</td></tr><tr><td style=\"text-align:center\">5th</td><td style=\"text-align:center\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.3zqoG8lXKut9m1RL]{Whirling Conflagration}</td></tr><tr><td style=\"text-align:center\">7th</td><td style=\"text-align:center\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.kX1BmIiM5IAhvjK3]{Dimension Cutter}</td></tr><tr><td style=\"text-align:center\">9th</td><td style=\"text-align:center\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.SLgu4ROL6hWHfGX1]{Flickering Strikes}</td></tr></tbody></table>"
+    value: >-
+      <p>Your understanding of the nature of war unlocks its secrets for you.
+      You gain proficiency with martial weapons and shields. You learn the
+      following spells at the following
+      levels.</p><table><thead><tr><th><p>Occultist Level</p></th><th><p>Spells
+      Learned</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{bless}</p></td></tr><tr><td><p>3rd</p></td><td><p>iron
+      wind strike</p></td></tr><tr><td><p>5th</p></td><td><p>whirling
+      conflagration</p></td></tr><tr><td><p>7th</p></td><td><p>dimension
+      cutter</p></td></tr><tr><td><p>9th</p></td><td><p>flickering
+      strikes</p></td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -49,9 +58,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317487113
-  modifiedTime: 1727317487113
+  modifiedTime: 1731044612427
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 8300000

@@ -1,0 +1,64 @@
+name: Twin Revelation
+type: feat
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EKAvE2hpHN65e0wI
+system:
+  description:
+    value: >-
+      <p><em>Prerequisite: 9th level Occultist</em></p>
+
+      <p>When you cast a spell that invokes a Revelation, you can invoke two
+      different Revelations at the same time, as long as a spell fulfills both
+      Revelation's requirements.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Oracle 9
+  identifier: oracle-rite-twin-revelation
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: 9
+  properties: []
+_stats:
+  compendiumSource: Item.EKAvE2hpHN65e0wI
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317494565
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 19700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: CTHMjy5LkrOEHLrb
+_key: '!items!CTHMjy5LkrOEHLrb'
+

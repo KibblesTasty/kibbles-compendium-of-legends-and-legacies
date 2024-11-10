@@ -1,0 +1,55 @@
+folder: null
+name: Dance of the Mad Puppet
+type: feat
+img: icons/magic/control/control-influence-puppet.webp
+system:
+  description:
+    value: >-
+      <p>When a target is compelled to move by an Occultist spell you cast, you
+      can pick the direction the target moves, even if you would normally not be
+      able to (for example, a spell that causes the target to run away from you
+      can be used to make the target run in any direction). This does not change
+      a target’s willingness to enter hazardous spaces.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Conclusion of Madness
+  identifier: voidwatcher-rite-dance-of-the-mad-puppet
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317519424
+  modifiedTime: 1731225069425
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: mucJWFFRvdKtbJ5M
+sort: 5100000
+_key: '!items!mucJWFFRvdKtbJ5M'
+

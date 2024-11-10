@@ -1,0 +1,111 @@
+name: Inexorable Annihilation
+type: feat
+_id: mIZgaK1gvuUxXd67
+img: icons/magic/unholy/barrier-fire-pink.webp
+system:
+  activities:
+    vUqgeI5wxKX2Ukkt:
+      type: damage
+      _id: vUqgeI5wxKX2Ukkt
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Creatures that fail a saving throw against your 1st level or higher
+      Occultist spells that deal damage gain lingering cracks in their form
+      which slowly erode them. They take 1d6 force damage at the end of each
+      their turns. This ends after dealing damage if the creature is more than
+      120 feet from you, you cannot see the creature, or you are
+      incapacitated.</p>
+    chat: ''
+  identifier: inexorable-annihilation
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Conclusion of Annihilation
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731224568113
+  modifiedTime: 1731225069425
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!mIZgaK1gvuUxXd67'
+

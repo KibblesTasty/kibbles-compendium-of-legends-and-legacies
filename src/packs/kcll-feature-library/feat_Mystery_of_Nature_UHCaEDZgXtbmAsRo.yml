@@ -9,7 +9,14 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You know the secrets of nature. You learn the following spells at the
+      following levels.</p><table><thead><tr><th>Occultist Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{entangle}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.9gYGkrL6qFTsE6fw]{spike
+      growth}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW]{plant
+      growth}</td></tr><tr><td>7th</td><td>carnivorous
+      garden</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{insect
+      plague}</td></tr></tbody></table>
     chat: ''
   identifier: mystery-of-nature
   source:
@@ -37,7 +44,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1731011622243
-  modifiedTime: 1731011648108
+  modifiedTime: 1731043312453
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!UHCaEDZgXtbmAsRo'
 

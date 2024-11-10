@@ -1,0 +1,54 @@
+folder: null
+name: Ghost Step
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 5th level Spiritualist)</em></p><p>You learn the
+      ghost step spell, and can cast it once without expending a spell slot. You
+      regain the ability to cast it again without a spell slot when you complete
+      a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: spiritualist-rite-ghost-step
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: 5
+  properties: []
+effects: []
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317490704
+  modifiedTime: 1731223171624
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: 7UqHExVQeyJiUqI0
+sort: 1100000
+_key: '!items!7UqHExVQeyJiUqI0'
+

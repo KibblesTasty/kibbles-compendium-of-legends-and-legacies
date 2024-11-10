@@ -19,14 +19,15 @@ system:
       Totems}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7UqHExVQeyJiUqI0]{Ghost
       Step}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.oL5AUgepOf39XAOd]{Lethargic
       Possession}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2VUD7uK7jezpIkoc]{Restraining
-      Totem}</p><p>Spirit
-      Eye</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1QLnH8HOTL5C3nsh]{Spirit
-      Wards}</p><p>Spiritual
-      Conversationalist</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YCdtSCd3zfmm4h2A]{Totem
+      Totem}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bABXZDZ26Ox7nKEs]{Spirit
+      Eye}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1QLnH8HOTL5C3nsh]{Spirit
+      Wards}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.v8jldd3mdUYifr4T]{Spiritual
+      Conversationalist}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YCdtSCd3zfmm4h2A]{Totem
       Master}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.SNznmwZdtip7OnWm]{Totem
       Savant}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VZ6HoZFCQjvqypRi]{Totem
       Teleport}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.pQDMeQ2LwgzR3YFX]{Twin
-      Totems}</p><p>Zealous Spirits</p>
+      Totems}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yYxXk2FxIZhI5Nvr]{Zealous
+      Spirits}</p>
     chat: ''
   identifier: tradition-of-the-spiritualist
   source:
@@ -144,7 +145,19 @@ system:
     - _id: ts3nRfITHSeihNCU
       type: ItemChoice
       configuration:
-        choices: {}
+        choices:
+          '3':
+            count: 2
+            replacement: false
+          '5':
+            count: 1
+            replacement: false
+          '11':
+            count: 1
+            replacement: false
+          '17':
+            count: 1
+            replacement: false
         allowDrops: false
         type: null
         pool:
@@ -188,6 +201,72 @@ system:
       value: {}
       title: Totem Dice
       hint: ''
+    - _id: XGLQvQRfZHPtgfdT
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:med
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Mystical Medicine
+      hint: ''
+    - _id: UtPjHruXxW522j34
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 1
+            faces: 6
+            modifiers: []
+          '5':
+            number: 1
+            faces: 8
+            modifiers: []
+          '11':
+            number: 1
+            faces: 10
+            modifiers: []
+          '17':
+            number: 1
+            faces: 12
+            modifiers: []
+      value: {}
+      title: Hindering Spirit
+      hint: ''
+    - _id: eCaVN7MH2N1adwDm
+      type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ijmGhne2XhtVUigG
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fyhDJKQZakYPxXMa
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.6MYnGySlKYFFPq1H
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Totemic Technique
+      hint: >-
+        Additionally at 3rd level, you can select a technique to specialize in
+        for using your totems, granting you a bonus to them. Select one of the
+        following when you gain this feature:
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -205,9 +284,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1729045897401
-  modifiedTime: 1731020273585
+  modifiedTime: 1731223156375
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zqoIEhqSSr2Ny3DY'
 

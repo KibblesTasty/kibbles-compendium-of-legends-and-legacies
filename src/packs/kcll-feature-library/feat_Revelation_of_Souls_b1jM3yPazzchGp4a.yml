@@ -1,0 +1,193 @@
+name: Revelation of Souls
+type: feat
+img: icons/magic/death/undead-ghost-scream-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LznScnyunIFihVWj
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>The souls of the departed are all around. When you cast a spell of 1st
+      level or higher, you can conjure a medium sized benevolent or tormented
+      spirit to an empty space you can see within 30 feet.</p><p>The first
+      creature to enter the spirit’s space or end their turn within the spirit’s
+      space gains a number of hit points equal to 1d4 + the level of the spell
+      if you summoned a benevolent spirit, or takes necrotic damage equal to 1d4
+      + the level of the spell if the spirit was a tormented one. A spell can
+      only trigger one Revelation. If multiple Revelations apply, choose
+      one.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Mystery of Souls
+  identifier: oracle-rite-revelation-of-souls
+  activities:
+    7M4See4gouG70EIQ:
+      type: damage
+      name: Tormented Spirit
+      _id: 7M4See4gouG70EIQ
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: square
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: '1'
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: '@scaling'
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+      img: ''
+      appliedEffects: []
+    e59r3JXsnNSrOfbT:
+      type: heal
+      name: Benevolent Spirit
+      _id: e59r3JXsnNSrOfbT
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: square
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: '1'
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 1
+        denomination: '4'
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: ''
+        bonus: '@scaling'
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.LznScnyunIFihVWj
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317511064
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 46000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: b1jM3yPazzchGp4a
+_key: '!items!b1jM3yPazzchGp4a'
+

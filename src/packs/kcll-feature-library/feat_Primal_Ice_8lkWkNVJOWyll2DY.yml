@@ -1,0 +1,231 @@
+name: Primal Ice
+type: feat
+img: icons/magic/water/projectile-icecicles-salvo.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.QQa1ItYWxNylJvg1
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You harness the primal elemental power of ice, learning the following
+      spells when you reach certain levels in this class, as shown on the table
+      below. These are Occultist spells for you, but do not count against your
+      spells known.</p><table><thead><tr><th>Occultist Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>Arctic
+      Breath</td></tr><tr><td>3rd</td><td>Cold
+      Snap</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{Sleet
+      Storm}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{Ice
+      Storm}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{Cone
+      of Cold}</td></tr></tbody></table>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: shaman-rite-primal-ice
+  activities:
+    4Yh9utSf0PmKHPKF:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties: []
+        spellbook: true
+      _id: 4Yh9utSf0PmKHPKF
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '3'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    FLCneiAk3DKp1bDl:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties: []
+        spellbook: true
+      _id: FLCneiAk3DKp1bDl
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '4'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    kiU9Ja13P69CsIBv:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '5'
+        properties: []
+        spellbook: true
+      _id: kiU9Ja13P69CsIBv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '5'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.QQa1ItYWxNylJvg1
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317491505
+  modifiedTime: 1731221781964
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 15200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 8lkWkNVJOWyll2DY
+_key: '!items!8lkWkNVJOWyll2DY'
+

@@ -1,0 +1,55 @@
+name: Truth of Darkness
+type: feat
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+system:
+  description:
+    value: >-
+      <p>Darkness is home to those that live in it. Any darkvision or blindsight
+      you have is doubled in range, up to a maximum of 120 feet. If you have
+      neither, you gain a darkvision of 30 feet, which is doubled by this
+      feature to 60 feet. You can see normally in dim light and darkness.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Mystery of Darkness
+  identifier: oracle-rite-truth-of-darkness
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.YLyYWG6Vta5uXGSG
+_stats:
+  compendiumSource: Item.YLyYWG6Vta5uXGSG
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317492924
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 17300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: AB6cXsvc23HSB77Z
+_key: '!items!AB6cXsvc23HSB77Z'
+

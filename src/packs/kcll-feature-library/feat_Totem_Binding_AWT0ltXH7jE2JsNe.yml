@@ -9,61 +9,102 @@ system:
       a point within 15 feet of you. You learn two totems when you gain this
       feature, and another totem at 5th level (3), 11th level (4), and 17th
       level (5). The following are the list of totems you can
-      select:</p><ul><li><p><strong>Agonizing Totem.</strong> Any creature of
-      your choice that starts its turn within 10 feet of the totem or enters
-      within 10 feet of it for the first time on their turn takes 1d6 necrotic
-      damage. Any creature that damages the totem from within 10 feet of it
-      takes 1d6 necrotic damage.</p></li><li><p><strong>Binding Totem.</strong>
-      Terrain within 10 feet of the totem is difficult terrain for creatures of
-      your choice, and any creature attempting to teleport into or out of the
-      radius must make a Charisma saving throw against your spell save DC, or
-      the attempt fails.</p></li><li><p><strong>Grappling Totem.</strong> When
-      you create the totem, it attempts to bind a Large or smaller creature of
-      your choice within 10 feet, forcing them to make a Dexterity saving throw
-      against your spell save DC. On failure, they are pulled to within 5 feet
-      of the totem and grappled by it (escape DC equals your spell save DC).
-      This totem cannot be made mobile by other effects or
-      features.</p></li><li><p><strong>Life Totem.</strong> When a creature
-      starts its turn within 10 feet of the totem you can heal them with the
-      totem for 1d6 hit points. The totem does this a number of times equal to
-      your Wisdom modifier, after which its power fades and it
-      crumbles.</p></li><li><p><strong>Sanctuary Totem.</strong> All creatures
-      of your choice within 10 feet of the totem are under the effect of
-      sanctuary. This effect is broken under the normal conditions of sanctuary
-      and cannot be regained from a totem for 1 minute once
-      lost.</p></li><li><p><strong>Shrouding Totem.</strong> All creatures and
-      objects (including the totem) within 10 feet of the totem are lightly
-      obscured from creatures beyond 10 feet of the totem, and gain the benefits
-      of half cover against ranged attack rolls originating from outside the
-      Totem’s radius.</p></li><li><p><strong>Soothing Totem.</strong> All
-      creatures of your choice within 10 feet of the totem have advantage on
-      saving throws against being Charmed or
-      Frightened.</p></li><li><p><strong>Warding Totem.</strong> All creatures
-      of your choice within 10 feet of the totem gain resistance to all damage,
-      but the totem takes damage equal to the damage taken by creatures that
-      benefit from the resistance (which can destroy the totem, ending the
-      effect).</p></li></ul><p>A totem is a Small sized object with an AC of 12
-      and hit points equal to your occultist level. If it is reduced to 0 hit
-      points, it is destroyed and its effect ends. A creature cannot be affected
-      by more than one of the same type of totem at the same time. A totem
-      cannot be moved once placed. Totems can last a maximum of 1 minute, after
-      which they lose power and crumble away. You can place a number of totems
-      equal to your Wisdom modifier, regaining all uses when you complete a long
-      rest.</p>
-    chat: ''
+      select:</p><ul><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9kQqZa7H8ujnitX1]{Agonizing
+      Totem}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Bzs0tGmpLptcHP3O]{Binding
+      Totem}.</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VAiKxZnRJi39iFSz]{Grasping
+      Totem}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.WjWKU4fgv6Ie0J8J]{Life
+      Totem}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MRcYUQdkOTg3F5xb]{Sanctuary
+      Totem}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GQGYxSMGY22MpgL3]{Shrouding
+      Totem}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vVz3thEqLMwPN7Mc]{Soothing
+      Totem}</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cS5RpY3vnn70VwyJ]{Warding
+      Totem}</p></li></ul><p>A totem is a Small sized object with an AC of 12
+      and hit points equal to your occultist level ([[lookup
+      @classes.occultist.levels]]). If it is reduced to 0 hit points, it is
+      destroyed and its effect ends. A creature cannot be affected by more than
+      one of the same type of totem at the same time. A totem cannot be moved
+      once placed. Totems can last a maximum of 1 minute, after which they lose
+      power and crumble away. You can place a number of totems equal to your
+      Wisdom modifier, regaining all uses when you complete a long rest.</p>
+    chat: >-
+      <p>Starting at 3rd level, as an action, you can create a totem of power at
+      a point within 15 feet of you.</p><p>A totem is a Small sized object with
+      an AC of 12 and hit points equal to your Occultist level. If it is reduced
+      to 0 hit points, it is destroyed and its effect ends. A creature cannot be
+      affected by more than one of the same type of totem at the same time. A
+      totem cannot be moved once placed. Totems can last a maximum of 1 minute,
+      after which they lose power and crumble away. You can place a number of
+      totems equal to your Wisdom modifier, regaining all uses when you complete
+      a long rest.</p>
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '@abilities.wis.mod'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: class
     subtype: ''
   requirements: Spiritualist 3
   identifier: totem-binding
-  activities: {}
+  activities:
+    mCOaEycDIhO3t1Nv:
+      type: utility
+      name: Create Totem
+      _id: mCOaEycDIhO3t1Nv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '15'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -80,14 +121,18 @@ flags:
     quickFooter:
       value: true
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317493233
-  modifiedTime: 1727317493233
+  modifiedTime: 1731221694623
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: AWT0ltXH7jE2JsNe
 sort: 2000000

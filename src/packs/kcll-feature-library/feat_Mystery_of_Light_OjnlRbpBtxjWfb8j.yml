@@ -25,7 +25,14 @@ flags:
       value: true
 system:
   description:
-    value: "<p>Your understanding of the nature of fire unlocks its secrets for you. You learn the following spells at the following levels.</p><table style=\"width:100%\" border=\"1\"><tbody><tr><td style=\"text-align:center;width:26.428%\"><strong>Occultist Level</strong></td><td style=\"text-align:center;width:73.572%\"><strong>Spells Learned</strong></td></tr><tr><td style=\"text-align:center;width:26.428%\">1st</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.LWTUqKkUQdMAmOe0]{Color Spray}</td></tr><tr><td style=\"text-align:center;width:26.428%\">3rd</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.bV3yun6MIuFj71Er]{Moonbeam}</td></tr><tr><td style=\"text-align:center;width:26.428%\">5th</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.BP3GCwa66IAw1yTG]{Daylight}</td></tr><tr><td style=\"text-align:center;width:26.428%\">7th</td><td style=\"text-align:center;width:73.572%\">@Compendium[dnd5e.spells.tEpDmYZNGc9f5OhJ]{Greater Invisibility}</td></tr><tr><td style=\"text-align:center;width:26.428%\">9th</td><td style=\"text-align:center;width:73.572%\">\_@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.eIhG97IA5t3W4H4p]{Field of Stars}</td></tr></tbody></table>"
+    value: >-
+      <p>Your understanding of the nature of light illuminates the world in new
+      ways. You learn the following spells at the following
+      levels.</p><table><thead><tr><td><p>Occultist Level</p></td><td><p>Spells
+      Learned</p></td></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.LWTUqKkUQdMAmOe0]{color
+      spray}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.bV3yun6MIuFj71Er]{moonbeam}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{daylight}</p></td></tr><tr><td><p>7th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ]{greater
+      invisibility}</p></td></tr><tr><td><p>9th</p></td><td><p>Field of
+      Stars</p></td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -49,9 +56,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.0.4
   createdTime: 1727317502930
-  modifiedTime: 1727317502930
+  modifiedTime: 1731044479509
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 33100000

@@ -1,0 +1,104 @@
+name: Revelation of Nature
+type: feat
+_id: c3CczriFkoGOew0E
+img: icons/magic/nature/root-vine-entangle-foot-green.webp
+system:
+  activities:
+    gBRTy9ec9fnTfQK6:
+      type: save
+      _id: gBRTy9ec9fnTfQK6
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast a 1st level spell or higher that creates difficult
+      terrain, you can force one creature to make a Dexterity saving throw. On
+      failure, if the creature is within the area of the spell creates difficult
+      terrain, its movement speed is reduced to zero. If it is outside the area
+      of difficult terrain, its movement speed is reduced by half.</p>
+    chat: ''
+  identifier: revelation-of-nature
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Mystery of Nature
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731216317640
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!c3CczriFkoGOew0E'
+

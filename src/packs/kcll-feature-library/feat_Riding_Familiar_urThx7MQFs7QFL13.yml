@@ -1,0 +1,169 @@
+name: Riding Familiar
+type: feat
+img: icons/creatures/magical/humanoid-horned-rider.webp
+effects:
+  - name: Riding Familiar
+    img: icons/creatures/magical/humanoid-horned-rider.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.urThx7MQFs7QFL13
+    transfer: false
+    _id: Otf1FM2yFvxDMLer
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.size
+        mode: 5
+        value: lg
+        priority: null
+      - key: system.abilities.str.value
+        mode: 4
+        value: '10'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731226339145
+      modifiedTime: 1731226397029
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!urThx7MQFs7QFL13.Otf1FM2yFvxDMLer'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.6kYrrXtik8O4cuXY
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>If you have a familiar without a flying speed, as an action you can
+      make them become a creature one size larger than you (up to Large sized)
+      for 8 hours. As an action, you can revert your familiar to its normal
+      size. At 12th level, you can use this ability on a familiar with a flying
+      speed. Once you use this rite, you must finish a short or long rest before
+      you can use it again. Your familiar’s strength becomes 10 while enlarged,
+      if it was not already higher.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: witch-rite-riding-familiar
+  activities:
+    l2pO0Ta2PORgU2Nt:
+      type: utility
+      name: Grow Familiar
+      _id: l2pO0Ta2PORgU2Nt
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '8'
+      effects:
+        - _id: Otf1FM2yFvxDMLer
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: Your Familiar
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - Otf1FM2yFvxDMLer
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.6kYrrXtik8O4cuXY
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317524803
+  modifiedTime: 1731226756695
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 69100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: urThx7MQFs7QFL13
+_key: '!items!urThx7MQFs7QFL13'
+

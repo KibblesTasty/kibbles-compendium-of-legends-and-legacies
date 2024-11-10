@@ -1,0 +1,122 @@
+name: Companion Coven
+type: feat
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EpjzY7Ts0AoInHD1
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>As a ritual that takes 1 hour, you can form a coven bond with one
+      willing creature. While both of you are conscious and within 120 feet of
+      each other, you gain the ability to share spell slots up to a maximum
+      spell slot of your Witch level divided by four (rounded down).
+      </p><p>While this bond is active, you can use your Spellcasting feature to
+      cast using their spell slots (consuming them as normal), and they can use
+      their Spellcasting feature (if they have one) to cast using your spell
+      slots (consuming them as normal). </p><p>Additionally, you know their
+      location at all times while they are part of your coven and within 120
+      feet of you. You can only be bonded to one creature with this bond at a
+      time. You can end this coven at any time.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: witch-rite-companion-coven
+  activities:
+    8WWtq3FA8EJpIJX2:
+      type: utility
+      name: Coven
+      _id: 8WWtq3FA8EJpIJX2
+      sort: 0
+      activation:
+        type: hour
+        value: 1
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.EpjzY7Ts0AoInHD1
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317489473
+  modifiedTime: 1731226756695
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 12000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 67HVRUOiPkEcQ9aH
+_key: '!items!67HVRUOiPkEcQ9aH'
+

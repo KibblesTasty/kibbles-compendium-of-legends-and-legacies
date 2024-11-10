@@ -1,0 +1,74 @@
+name: Primal Earth
+type: feat
+img: icons/magic/earth/projectile-boulder-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.C6hIQkzUTMGdzWFq
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>You harness the primal elemental powers of earth and stone, learning
+      the following spells when you reach certain levels in this class, as shown
+      on the table below. These are Occultist spells for you, but do not count
+      against your spells known.</p><table><thead><tr><th>Occultist
+      Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>Create
+      Pit</td></tr><tr><td>3rd</td><td>Earth
+      Ripple</td></tr><tr><td>5th</td><td>Seismic
+      Wave</td></tr><tr><td>7th</td><td>Orbital
+      Stones</td></tr><tr><td>9th</td><td>Fissure</td></tr></tbody></table><p></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: shaman-rite-primal-earth
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.C6hIQkzUTMGdzWFq
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317489350
+  modifiedTime: 1731221781964
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 11800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 623Sa5ldWg2yckct
+_key: '!items!623Sa5ldWg2yckct'
+

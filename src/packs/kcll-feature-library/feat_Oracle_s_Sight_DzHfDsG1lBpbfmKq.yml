@@ -1,0 +1,136 @@
+name: Oracle's Sight
+type: feat
+img: icons/creatures/eyes/humanoid-single-yellow.webp
+effects:
+  - name: Oracle's Sight
+    img: icons/creatures/eyes/humanoid-single-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DzHfDsG1lBpbfmKq
+    _id: jpR7LHUUsUtLkfW8
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 2
+        value: '15'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731207203919
+      modifiedTime: 1731207285398
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!DzHfDsG1lBpbfmKq.jpR7LHUUsUtLkfW8'
+  - name: Oracle's Sight (Blinded)
+    img: icons/creatures/eyes/humanoid-single-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DzHfDsG1lBpbfmKq
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 2
+        value: '15'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731207290317
+      modifiedTime: 1731207303218
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: b6nLNcfOUwJxnUhC
+    _key: '!items.effects!DzHfDsG1lBpbfmKq.b6nLNcfOUwJxnUhC'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.dEzjZGVllXPOy6QS
+system:
+  description:
+    value: >-
+      <p>You gain blindsight with a range of 15 feet. When affected by the
+      Blinded condition for more than a minute the range of this sight is
+      doubled while under that effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Oracle 2
+  identifier: oracle-rite-oracles-sight
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.dEzjZGVllXPOy6QS
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317495788
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 21700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: DzHfDsG1lBpbfmKq
+_key: '!items!DzHfDsG1lBpbfmKq'
+

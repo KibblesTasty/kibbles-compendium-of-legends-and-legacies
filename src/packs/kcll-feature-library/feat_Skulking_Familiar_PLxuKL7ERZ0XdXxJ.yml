@@ -1,0 +1,61 @@
+name: Skulking Familiar
+type: feat
+img: icons/creatures/mammals/rodent-rat-diseaed-gray.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.U9OdPF0wHDiNUsNy
+system:
+  description:
+    value: >-
+      <p>Any familiar summoned by you gains proficiency in the Stealth skill,
+      and its movement doesn't provoke opportunity attacks.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: witch-rite-skulking-familiar
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.U9OdPF0wHDiNUsNy
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317503390
+  modifiedTime: 1731226756695
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 33900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: PLxuKL7ERZ0XdXxJ
+_key: '!items!PLxuKL7ERZ0XdXxJ'
+

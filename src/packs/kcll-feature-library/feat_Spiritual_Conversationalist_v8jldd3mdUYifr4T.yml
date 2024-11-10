@@ -1,0 +1,101 @@
+name: Spiritual Conversationalist
+type: feat
+_id: v8jldd3mdUYifr4T
+img: icons/magic/control/fear-fright-shadow-monster-green.webp
+system:
+  activities:
+    Dt44tU3uzlsMX41p:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties: []
+        spellbook: true
+      _id: Dt44tU3uzlsMX41p
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You learn the spell
+      @UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with dead} and
+      can cast the spell without a spell slot once, regaining the ability to do
+      so again on a long rest.</p><p>Additionally, speak with dead is a ritual
+      spell for you.</p>
+    chat: ''
+  identifier: spiritual-conversationalist
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: 5
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731222739662
+  modifiedTime: 1731223171624
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!v8jldd3mdUYifr4T'
+

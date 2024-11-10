@@ -1,0 +1,53 @@
+name: Conviction of Annihilation
+type: feat
+_id: 9b0TII6H883NQ2WE
+img: icons/magic/fire/beam-jet-stream-spiral-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your conviction toward your thesis grows, allowing you to draw on
+      additional aspects of it and learn the following spells when you reach
+      certain levels in this class, as shown on the table below. These are
+      Occultist spells for you, but do not count against your spells
+      known.</p><table><thead><tr><th>Occultist Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>melting
+      glob</td></tr><tr><td>3rd</td><td>unstable
+      explosion</td></tr><tr><td>5th</td><td>hungering
+      void</td></tr><tr><td>7th</td><td>dimension
+      cutter</td></tr><tr><td>9th</td><td>acid rain</td></tr></tbody></table>
+    chat: ''
+  identifier: conviction-of-annihilation
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Conclusion of Annihilation
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731223468417
+  modifiedTime: 1731225069425
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!9b0TII6H883NQ2WE'
+

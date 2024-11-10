@@ -1,0 +1,89 @@
+folder: null
+name: Chilling Possession
+type: feat
+img: icons/magic/water/water-elemental-blue-teeth.webp
+system:
+  description:
+    value: >-
+      <p>Your Malignant Possession chills the target, reducing the movement
+      speed of the target by 10 feet while under the effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: spiritualist-rite-chilling-possession
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects:
+  - name: Chilling Possession
+    img: icons/magic/water/water-elemental-blue-teeth.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hCQziWnDhpW2DuEG
+    _id: MrWLfDs9Q2MgkxGK
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '-10'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731221846914
+      modifiedTime: 1731221860349
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!hCQziWnDhpW2DuEG.MrWLfDs9Q2MgkxGK'
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317515861
+  modifiedTime: 1731223186406
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: hCQziWnDhpW2DuEG
+sort: 100000
+_key: '!items!hCQziWnDhpW2DuEG'
+

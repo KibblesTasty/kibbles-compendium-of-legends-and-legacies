@@ -1,0 +1,170 @@
+name: Revelation of Death
+type: feat
+img: icons/magic/death/skull-energy-light-white.webp
+effects:
+  - name: Withered
+    img: icons/magic/death/skull-energy-light-white.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3UspuLUk1NEgBW2E
+    transfer: false
+    _id: UJMsf3AzTydW8MDg
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '-5'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731209197809
+      modifiedTime: 1731209221150
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!3UspuLUk1NEgBW2E.UJMsf3AzTydW8MDg'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.iNwBWbuTRj98RvTh
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You can manipulate negative energy. When you cast a spell of 1st level
+      or higher that deals cold or necrotic damage, you can add your Wisdom
+      modifier to one damage roll of that spell. Channeling the power of death
+      in this way temporarily withers and weakens you, reducing your movement
+      speed by 5 feet until the end of your next turn. </p><p>If you use this
+      while already weakened in this way, the duration is extended and the
+      effect is cumulative. A spell can only trigger one Revelation. If multiple
+      Revelations apply, choose one.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: Mystery of Death
+  identifier: oracle-rite-revelation-of-death
+  activities:
+    LSxsa2W95uKY81tP:
+      type: damage
+      _id: LSxsa2W95uKY81tP
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: UJMsf3AzTydW8MDg
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: null
+            denomination: 0
+            bonus: '@abilities.wis.mod'
+            types: []
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.iNwBWbuTRj98RvTh
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1727317487425
+  modifiedTime: 1731218375367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 8800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 3UspuLUk1NEgBW2E
+_key: '!items!3UspuLUk1NEgBW2E'
+

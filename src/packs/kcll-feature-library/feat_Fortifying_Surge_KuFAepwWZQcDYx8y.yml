@@ -59,7 +59,7 @@ system:
       activation:
         type: special
         value: 1
-        condition: ''
+        condition: You expend a use of Arcane Surge
         override: false
       consumption:
         targets: []
@@ -101,8 +101,8 @@ system:
         recovery: []
       healing:
         number: 1
-        denomination: 8
-        bonus: '@mod'
+        denomination: '8'
+        bonus: '@abilities.int.mod'
         types:
           - temphp
         custom:
@@ -113,6 +113,9 @@ system:
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: fortifying-surge
   enchant: {}
   prerequisites:
@@ -123,9 +126,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317499851
-  modifiedTime: 1727317499851
+  modifiedTime: 1731437800921
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 28300000

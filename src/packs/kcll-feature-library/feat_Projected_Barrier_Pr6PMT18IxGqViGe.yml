@@ -33,8 +33,9 @@ system:
       <p>Starting at 3rd level, you gain a new option for your Arcane Surge
       feature:</p><ul><li><p>As a reaction to an allied creature within 30 feet
       being hit by an attack or targeted by the magic missile spell, you expend
-      a use of Arcane Surge to cast shield, granting that creature the AC bonus
-      instead of yourself.</p></li></ul>
+      a use of Arcane Surge to cast
+      @UUID[Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7]{shield}, granting
+      that creature the AC bonus instead of yourself.</p></li></ul>
     chat: ''
   source:
     custom: Guardian
@@ -47,60 +48,70 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Guardian 3
+  requirements: ''
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    eRIe7skxsdUibqog:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: eRIe7skxsdUibqog
+      sort: 0
       activation:
         type: reaction
-        value: 1
-        condition: ''
-        override: false
+        value: null
+        override: true
+        condition: >-
+          An allied creature within range is hit by an attack or targeted by the
+          magic missile spell
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        units: ''
-        special: ''
         override: false
-      effects: []
       range:
-        units: ''
+        override: true
+        units: ft
         special: ''
-        override: false
+        value: '30'
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: ''
           choice: false
+          count: ''
+          type: ally
           special: ''
+        override: true
         prompt: true
-        override: false
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      name: ''
+      img: ''
   identifier: projected-barrier
   enchant: {}
   prerequisites:
@@ -111,9 +122,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317503728
-  modifiedTime: 1727317503728
+  modifiedTime: 1731437759599
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 34500000

@@ -79,10 +79,10 @@ system:
   cover: null
   crewed: false
   range:
-    value: 5
+    value: null
     long: null
     units: ft
-    reach: null
+    reach: 5
   uses:
     max: ''
     recovery: []
@@ -196,14 +196,15 @@ system:
   attuned: false
   ammunition: {}
   magicalBonus: null
+  mastery: ''
 _stats:
   compendiumSource: Item.7LyDcm42yIYhIpfH
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317506945
-  modifiedTime: 1727317506945
+  modifiedTime: 1731435866794
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 39800000

@@ -27,13 +27,14 @@ system:
   description:
     value: >-
       <p>Starting at 3rd level when you select this archetype, you gain the
-      ability to apply your Spellstrike to pieces of ammunition ammunition as
-      well as melee weapons, and can trigger the spell strike on a ranged weapon
-      attack made with the infused piece of ammunition.</p><p>Spells infused
-      into a ranged weapon target the target of the ranged weapon when fired,
-      but only have a range equal to the range of the spell or the normal range
-      of the weapon (whichever is shorter range). If you attack a target beyond
-      that range, the spell fails and is lost.</p>
+      ability to apply your Spellstrike to pieces of ammunition as well as melee
+      weapons, and can trigger the spell strike on a ranged weapon attack made
+      with the infused piece of ammunition.</p><p>Spells infused into a ranged
+      weapon affect the target of the ranged weapon when fired, but only have a
+      range equal to the range of the spell or the normal range of the weapon
+      (whichever is shorter range). If you attack a target beyond that range,
+      the spell fails and is lost. For spells that create a cone or line area,
+      the effect originates from you as normal.</p>
     chat: ''
   source:
     rules: '2014'
@@ -45,7 +46,7 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Arcane Archer 3
+  requirements: ''
   identifier: ranged-spellstrike
   activities: {}
   enchant: {}
@@ -57,9 +58,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317488294
-  modifiedTime: 1727317488294
+  modifiedTime: 1731441135467
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 10200000

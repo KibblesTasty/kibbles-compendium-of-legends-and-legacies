@@ -4,19 +4,12 @@ img: icons/weapons/swords/sword-flanged-lightning.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 3rd level,
-      once per turn when you hit a target with a melee weapon, you deal bonus
-      Force damage equal to your proficiency bonus. This bonus is doubled until
-      end of your turn when you cast an Abjuration or Mage Hunter
-      spell.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Additionally, your weapon attack
-      rolls bypass the effects of 1st level spells (such as <em
-      style="box-sizing:border-box;user-select:text">mage armor</em>, <em
-      style="box-sizing:border-box;user-select:text">shield</em>, or <em
-      style="box-sizing:border-box;user-select:text">sanctuary</em>).</span></p>
+      <p>Starting at 3rd level, once per turn when you hit a target with a melee
+      weapon, you deal bonus Force damage equal to your proficiency bonus. This
+      bonus is doubled until end of your turn when you cast an Abjuration or
+      Mage Hunter spell.</p><p> Additionally, your weapon attack rolls bypass
+      the effects of 1st level spells (such as mage armor, shield, or
+      sanctuary).</p>
     chat: ''
   source:
     rules: '2014'
@@ -28,9 +21,68 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Mage Hunter 3
+  requirements: ''
   identifier: disrupting-blows
-  activities: {}
+  activities:
+    XpA0nrPbNEpG9A7O:
+      type: damage
+      _id: XpA0nrPbNEpG9A7O
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '2'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling * @prof'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -44,14 +96,18 @@ flags:
       value: true
   core:
     sourceId: Item.wyPCkE4QwtbAmE07
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.wyPCkE4QwtbAmE07
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317494796
-  modifiedTime: 1727317494796
+  modifiedTime: 1731440295489
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 20100000

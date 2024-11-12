@@ -27,9 +27,11 @@ system:
   description:
     value: >-
       <p>Starting at 3rd level you can use Spellstrike as part of the Attack
-      action before making a melee weapon attack, and perform somatic components
-      with a hand holding a weapon weapon (even for spells that don't have a
-      material component), as long as that weapon has the light property.</p>
+      action before making a melee weapon attack. You cannot Spellstrike more
+      than once per turn.</p><p> Additionally, you can use a melee weapon as
+      your arcane focus, and when you do so you can perform somatic components
+      with the hand holding your arcane focus (even for spells without a
+      material component).</p>
     chat: ''
   source:
     rules: '2014'
@@ -53,9 +55,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317525450
-  modifiedTime: 1727317525450
+  modifiedTime: 1731438481887
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 70100000

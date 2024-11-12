@@ -1,0 +1,148 @@
+name: Complete Control
+type: feat
+_id: 8cRrQSVsReKB1Wnf
+img: icons/skills/ranged/arrow-flying-spiral-blue.webp
+system:
+  activities:
+    uHd5C7q0SK3W7Kv2:
+      type: utility
+      name: Perfect Focus
+      _id: uHd5C7q0SK3W7Kv2
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: vcNgFZ1uvsppJK2i
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - vcNgFZ1uvsppJK2i
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Starting at 20th level, you can enter a state of perfect focus granting
+      you the ability to bend and guide your shots. For 1 minute, your ranged
+      weapon attacks ignore cover (including total cover) as long as there is a
+      path to the target the projectile can travel. While you are in this state,
+      you can use Distant Surge without expending a use of Arcane Surge and once
+      per attack if you miss a creature with a ranged weapon attack, you can
+      redirect that attack at another creature within range (making a new attack
+      roll against the new target). When you redirect the attack with a
+      Spellstrike effect that requires a save, you can choose if you want to
+      discharge the spell against the target (if it has any effect on miss), or
+      redirect it to the new target. </p><p>Once you use this feature, you
+      cannot use it again until you complete a long rest.</p>
+    chat: ''
+  identifier: complete-control
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Complete Control
+    img: icons/skills/ranged/arrow-flying-spiral-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8cRrQSVsReKB1Wnf
+    transfer: false
+    _id: vcNgFZ1uvsppJK2i
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731441813459
+      modifiedTime: 1731441817635
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!8cRrQSVsReKB1Wnf.vcNgFZ1uvsppJK2i'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731441448928
+  modifiedTime: 1731441824216
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!8cRrQSVsReKB1Wnf'
+

@@ -2,16 +2,65 @@ folder: HiElAzlnNx6VrB0z
 name: Flying Sword
 type: subclass
 _id: yENu9T2TvupFWGKX
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/weapons/swords/sword-broad-serrated-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>As a Flying Sword Spellblade, you master the art of the floating blade,
+      separating your willpower from your physical body. Your sword is not just
+      a weapon, but an extension of your mind and a manifestation of your arcane
+      prowess.</p><p>Born out of a deep understanding of telekinesis and arcane
+      manipulation, your technique combines mental acuity with martial mastery.
+      Whether a reclusive hermit who honed this art in the solitude of your own
+      thoughts, or a prodigy who has broken the conventional boundaries of
+      weapon use, your chosen path is an unorthodox mix of intellect and combat
+      prowess.</p>
     chat: ''
   identifier: flying-sword
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: QqPG14IeiUWrgbTl
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: jEbDfQsSSVPNOYXM
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: xtIOOxO9NeWB609o
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: ryzn1kkXgetMx92F
   classIdentifier: spellblade
   spellcasting:
     progression: none
@@ -29,9 +78,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1729046014570
-  modifiedTime: 1729046016173
+  modifiedTime: 1731443163683
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!yENu9T2TvupFWGKX'
 

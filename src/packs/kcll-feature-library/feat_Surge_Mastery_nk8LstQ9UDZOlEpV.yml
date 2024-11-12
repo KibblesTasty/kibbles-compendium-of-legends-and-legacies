@@ -27,13 +27,16 @@ system:
   description:
     value: >-
       <p>Starting at 15th level, when you use your Arcane Surge, you gain
-      enhanced results:</p><ul><li><p>When you cast detect magic with your
-      Arcane Surge, you also gain the effects of darkvision and see
-      invisibility.</p></li><li><p>When you gain advantage on attack through
-      Arcane Surge, you can reroll one of the dice once.</p></li><li><p>When you
-      add your Intelligence to a Strength or Dexterity ability check, you gain
-      advantage on the check.</p></li><li><p>When you teleport, the range you
-      can teleport is increased by 10 feet.</p></li></ul>
+      enhanced results:</p><ul><li><p><strong>Arcane Sight.</strong> When you
+      cast <em>detect magic</em> with your Arcane Surge, you also gain the
+      effects of darkvision and see invisibility.</p></li><li><p><strong>Arcane
+      Accuracy. </strong>When you gain advantage on attack through Arcane Surge,
+      you can reroll one of the dice once.</p></li><li><p><strong>Arcane
+      Prowess. </strong>When you add your Intelligence to a Strength or
+      Dexterity ability check, you gain advantage on the
+      check.</p></li><li><p><strong>Extended Teleportation. </strong>When you
+      teleport, the range you can teleport is increased by 10
+      feet.</p></li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -57,9 +60,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317520389
-  modifiedTime: 1727317520389
+  modifiedTime: 1731435321214
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 61300000

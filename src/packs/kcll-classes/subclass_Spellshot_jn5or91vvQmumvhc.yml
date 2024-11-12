@@ -2,16 +2,169 @@ folder: HiElAzlnNx6VrB0z
 name: Spellshot
 type: subclass
 _id: jn5or91vvQmumvhc
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Spellshots are those that prefer to keep their spellstriking to a safe
+      range, raining death from afar. From arcane archers to magical
+      gunslingers, they are united in their desire to sling spells at a ranged,
+      infusing them into ammunition.</p><p>They offer a lot of freedom of
+      mobility, always staying out of reach of their foes or finding the perfect
+      line up to unleash a devastating line of elemental energy.</p>
     chat: ''
   identifier: spellshot
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: QqPG14IeiUWrgbTl
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IcOO0NoSC37rJUWX
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4VCPomDn5eCafTpN
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dkJu3beGpfnp9W3v
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3KyDCGXANRu7wVzf
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: jEbDfQsSSVPNOYXM
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Fs5GyxQuFdVFhCQ2
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yTZQjtOAK82rWBA4
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: xtIOOxO9NeWB609o
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8cRrQSVsReKB1Wnf
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: ryzn1kkXgetMx92F
+    - _id: 36YS4bonRN0692S0
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Spellshot Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Spellshot Spells
+      hint: ''
+      _id: DqdFC8jKTgDOKCDJ
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Spellshot Spells
+      hint: ''
+      _id: 8vxuzcGMkFVVSanL
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Spellshot Spells
+      hint: ''
+      _id: EuCj3QwtbObxC8in
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Spellshot Spells
+      hint: ''
+      _id: 30378gUHuBqWNkkK
   classIdentifier: spellblade
   spellcasting:
     progression: none
@@ -29,9 +182,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1729045990608
-  modifiedTime: 1729045992204
+  modifiedTime: 1731441900700
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!jn5or91vvQmumvhc'
 

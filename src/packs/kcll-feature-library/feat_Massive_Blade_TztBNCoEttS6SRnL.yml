@@ -1,7 +1,40 @@
 name: Massive Blade
 type: feat
 img: icons/magic/light/beam-rays-magenta-large.webp
-effects: []
+effects:
+  - name: Massive Blade
+    img: icons/magic/light/beam-rays-magenta-large.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TztBNCoEttS6SRnL
+    transfer: false
+    _id: ISOUpiDPmt9GTvlL
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731436516559
+      modifiedTime: 1731436516559
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!TztBNCoEttS6SRnL.ISOUpiDPmt9GTvlL'
 flags:
   core:
     sourceId: Item.pnmJ4vRKKpm3FbdH
@@ -23,32 +56,92 @@ flags:
       value: true
     quickFooter:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>Starting at 20th level, you can overcharge your Aethersword for 1
+      <p>Starting at 20th level, you can overcharge your Aether Blade for 1
       minute (no action required). For the duration, when you attack with your
-      Aethersword, you ignore all non-magical armor and defenses to treat the
-      target's AC as 10 + their dexterity for that attack (magical defenses like
-      mage armor or shield are not bypassed). While attacking in this way with
-      your Aethersword, your attacks can target up to 2 creatures as long as
-      they are within 10 feet of each other, though if an attack triggers a
-      spell through Spellstrike, it does not effect the second target unless the
-      spell can target multiple creatures.</p>
+      Aether Blade, you ignore all non-magical armor and defenses to treat the
+      target’s AC as 10 + their Dexterity modifier for that attack (magical
+      defenses like the mage armor or shield are not bypassed). While attacking
+      in this way with your Aether Blade, your attacks can target up to 2
+      creatures as long as they are within 10 feet of each other, though if an
+      attack triggers a spell through Spellstrike, it does not affect the second
+      target unless the spell can target multiple creatures.</p><p> Once you use
+      this feature, you cannot use it again until you complete a long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Aethersword 20
   identifier: massive-blade
-  activities: {}
+  activities:
+    77N7OZ3AuvFJCZaG:
+      type: utility
+      _id: 77N7OZ3AuvFJCZaG
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: ISOUpiDPmt9GTvlL
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Overcharge Aether Blade
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -58,9 +151,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317506057
-  modifiedTime: 1727317506057
+  modifiedTime: 1731436516597
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 38300000

@@ -2,16 +2,70 @@ folder: HiElAzlnNx6VrB0z
 name: Spellfist
 type: subclass
 _id: v27jyazCbdD70kKB
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>As a Spellfist, you are the embodiment of raw power and arcane energy,
+      a brawler who channels magic into every punch. Where other Spellblades may
+      wield elegant weapons or conjure dazzling spells from a distance, you
+      understand that sometimes, magic is most effective when it’s delivered up
+      close and personal. Your hands are not just weapons, but conduits for your
+      magical force, and your style of combat reflects this, as brutal and
+      direct as it is unpredictably magical.</p><p>Whether you’re a former
+      street fighter who discovered an innate talent for magic or a spellcaster
+      who decided the best way to channel your power was through physical force,
+      you’ve chosen a path that combines the cerebral challenge of magic with
+      the visceral thrill of melee combat. As a Spellfist, you’re a force to be
+      reckoned with, breaking through enemy defenses with a flurry of magically
+      enhanced punches and turning the tide of any battle with your explosive
+      arcane power.</p>
     chat: ''
   identifier: spellfist
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: QqPG14IeiUWrgbTl
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: jEbDfQsSSVPNOYXM
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: xtIOOxO9NeWB609o
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: ryzn1kkXgetMx92F
   classIdentifier: spellblade
   spellcasting:
     progression: none
@@ -29,9 +83,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1729046022535
-  modifiedTime: 1729046025798
+  modifiedTime: 1731443184369
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!v27jyazCbdD70kKB'
 

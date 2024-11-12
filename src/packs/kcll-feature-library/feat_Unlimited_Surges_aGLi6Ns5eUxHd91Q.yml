@@ -1,7 +1,40 @@
 name: Unlimited Surges
 type: feat
 img: icons/magic/light/explosion-star-glow-silhouette.webp
-effects: []
+effects:
+  - name: Unlimited Surges
+    img: icons/magic/light/explosion-star-glow-silhouette.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.aGLi6Ns5eUxHd91Q
+    transfer: false
+    _id: o8Y7T7dncV1gWtx5
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731435451154
+      modifiedTime: 1731435457581
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!aGLi6Ns5eUxHd91Q.o8Y7T7dncV1gWtx5'
 flags:
   betterRolls5e:
     quickDesc:
@@ -32,9 +65,10 @@ system:
   description:
     value: >-
       <p>Starting at 20th level, you can enter a state of perfect arcane
-      resonance for 1 minute (no action required). During this state the first
-      Arcane Surge you use on your turn does not consume a use of your Arcane
-      Surge feature.</p>
+      resonance for 1 minute (no action required). During this state, using
+      Arcane Surge does not consume a use of Arcane Surge (you can still only
+      use Arcane Surge once per turn).</p><p> Once you use this feature, you
+      cannot use it again until you complete a long rest</p>
     chat: ''
   source:
     custom: Battlemage
@@ -78,7 +112,8 @@ system:
         units: ''
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: o8Y7T7dncV1gWtx5
       range:
         units: ''
         special: ''
@@ -119,9 +154,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317510496
-  modifiedTime: 1727317510496
+  modifiedTime: 1731435451221
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 45100000

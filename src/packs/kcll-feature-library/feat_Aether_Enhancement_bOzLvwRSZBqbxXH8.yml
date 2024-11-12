@@ -1,0 +1,102 @@
+name: Aether Enhancement
+type: feat
+_id: bOzLvwRSZBqbxXH8
+img: icons/tools/laboratory/mortar-powder-green.webp
+system:
+  activities:
+    hpvXweh0eWancwqK:
+      type: utility
+      _id: hpvXweh0eWancwqK
+      sort: 0
+      activation:
+        type: hour
+        value: 1
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: object
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As a ritual taking 1 hour, you can absorb the power from a magical
+      weapon with a bonus to attack and damage rolls. This cannot target
+      artifacts, sentient weapons, or cursed items. At your DM’s discretion,
+      this might not work with other weapons depending on their origin and type.
+      This drains the power from the weapon, leaving it as a mundane weapon, but
+      your Aethersword gains the bonus to attack and damage rolls previously
+      possessed by the magical weapon.</p>
+    chat: ''
+  identifier: aether-enhancement
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.0
+  createdTime: 1731435929203
+  modifiedTime: 1731435996418
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!bOzLvwRSZBqbxXH8'
+

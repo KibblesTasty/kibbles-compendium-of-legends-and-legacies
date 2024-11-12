@@ -4,49 +4,39 @@ img: icons/magic/water/tendrils-ice-growth.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 20th level,
-      you can release a blast of freezing energy that plunges an 30-foot radius
-      around you into a state of everfrost for 1 minute (no action required). It
-      has the following effects:</span></p><ul
-      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
-      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">The area becomes difficult terrain
-      for creatures other than you.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">Allied creatures in the area gain
-      resistance to cold damage, while hostile creatures lose any resistance
-      than may have to cold damage.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">Creatures in the area when you use
-      the ability become under the effect of the <em
-      style="box-sizing:border-box;user-select:text">slow</em> spell as they
-      start to freeze. Creatures slowed in this way make make a Constitution
+      <p>Starting at 20th level, you can release a blast of freezing energy that
+      plunges an 30-foot radius centered on you into a state of everfrost for 1
+      minute (no action required). It has the following
+      effects:</p><ul><li><strong>Difficult Terrain.</strong> The area becomes
+      difficult terrain for creatures other than you.</li><li><strong>Cold
+      Resistance.</strong> Allied creatures in the area gain resistance to cold
+      damage, while hostile creatures lose any resistance than may have to cold
+      damage.</li><li><strong>Slowed.</strong> Creatures in the area when you
+      use the ability become under the effect of the
+      @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{slow} spell as they
+      start to freeze. Creatures slowed in this way must make a Constitution
       saving throw at the end of each of their turns. On success the effect
-      ends. On failure, they become restrained while under the effect. Creatures
-      automatically pass the save if they are outside of the area of effect. You
-      can exclude a number of creatures from becoming slowed equal to your
-      Intelligence modifier.</span></li></ul><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">You can end the effect letting the
-      area thaw earlier as an action. Once you use this ability, you cannot use
-      it again until you complete a long rest.</span></p>
+      ends. On failure, they become &amp;Reference[restrained] while under the
+      effect. Creatures automatically pass the save if they are outside of the
+      area of effect. You can exclude a number of creatures from becoming slowed
+      equal to your Intelligence modifier.</li></ul><p>You can end the effect
+      letting the area thaw earlier at any time on your turn. Once you use this
+      ability, you cannot use it again until you complete a long rest.</p>
     chat: ''
   source:
     custom: Iceblade
     revision: 1
     rules: '2014'
   uses:
-    max: ''
-    recovery: []
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
     spent: 0
   type:
     value: ''
     subtype: ''
-  requirements: Iceblade 20`
+  requirements: Rimeblade 20
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -67,10 +57,12 @@ system:
       duration:
         concentration: false
         value: '1'
-        units: minute
+        units: disp
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: 0AdIdICaq5vjCFHh
+          onSave: false
       range:
         units: self
         special: ''
@@ -79,7 +71,7 @@ system:
         template:
           count: ''
           contiguous: false
-          type: radius
+          type: ''
           size: '30'
           width: ''
           height: ''
@@ -104,12 +96,133 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects:
+        - 0AdIdICaq5vjCFHh
+    aSLKo79OeTwap2AG:
+      type: utility
+      name: Freezing Energy
+      _id: aSLKo79OeTwap2AG
+      sort: -100000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   identifier: ice-age
   enchant: {}
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Slow
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.13ILqJsJPUnYh2jh
+    duration:
+      startTime: null
+      seconds: 60
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    _id: 0AdIdICaq5vjCFHh
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '-2'
+        priority: null
+      - key: system.attributes.movement.burrow
+        mode: 1
+        value: '0.5'
+        priority: null
+      - key: system.attributes.movement.climb
+        mode: 1
+        value: '0.5'
+        priority: null
+      - key: system.attributes.movement.fly
+        mode: 1
+        value: '0.5'
+        priority: null
+      - key: system.attributes.movement.swim
+        mode: 1
+        value: '0.5'
+        priority: null
+      - key: system.attributes.movement.walk
+        mode: 1
+        value: '0.5'
+        priority: null
+    description: >-
+      <p>An affected target's speed is halved, it takes a -2 penalty to AC and
+      Dexterity saving throws, and it can't use reactions. On its turn, it can
+      use either an action or a bonus action, not both. Regardless of the
+      creature's abilities or magic items, it can't make more than one melee or
+      ranged attack during its turn.</p>
+    transfer: false
+    statuses: []
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: >-
+        Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731443058203
+      modifiedTime: 1731443058203
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    img: icons/magic/air/fog-gas-smoke-dense-pink.webp
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!13ILqJsJPUnYh2jh.0AdIdICaq5vjCFHh'
 flags:
   rsr5e:
     quickDesc:
@@ -133,9 +246,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317485813
-  modifiedTime: 1727317485813
+  modifiedTime: 1731443064184
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 6500000

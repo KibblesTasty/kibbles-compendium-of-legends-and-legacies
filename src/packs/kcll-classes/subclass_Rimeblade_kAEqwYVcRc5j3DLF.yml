@@ -2,16 +2,182 @@ folder: HiElAzlnNx6VrB0z
 name: Rimeblade
 type: subclass
 _id: kAEqwYVcRc5j3DLF
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/water/strike-weapon-blade-ice-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>As a Rimeblade, you blur the boundary between the arcane and the
+      arctic, wielding your sword with the cold precision of an icicle’s edge.
+      Your enemies find no warmth nor respite, only the biting frost of your
+      magic and blade.</p><p>Whether born amidst the relentless snows of the far
+      north or touched by the raw, freezing power of the elemental plane of ice,
+      you have carved a path of icy resolve. Your frost-infused strikes echo the
+      merciless advance of winter, freezing foes in their tracks and turning the
+      battlefield into a glacial field of victory.</p>
     chat: ''
   identifier: rimeblade
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: QqPG14IeiUWrgbTl
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.so2ycrXE0r4oiOVW
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.JNecfTdbweDADkiH
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MGiNJ7MbwtaSMIVf
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XsFkcNclzNzO9Gzb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.egwGtOSclZIlgqby
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: jEbDfQsSSVPNOYXM
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.V3jexGMyj4AjMKVD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: xtIOOxO9NeWB609o
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.13ILqJsJPUnYh2jh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: ryzn1kkXgetMx92F
+    - _id: Sr0hDgVvhnX2859W
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Rimeblade Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Rimeblade Spells
+      hint: ''
+      _id: ZMv8tPafisFSIfbH
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Rimeblade Spells
+      hint: ''
+      _id: LQnMuFvXmfC8pGCg
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Rimeblade Spells
+      hint: ''
+      _id: LssxVLKwsIXeBtXt
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Rimeblade Spells
+      hint: ''
+      _id: XIfZRumfYE89NrSs
+    - _id: Vex41mEC3n0zDy8s
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:cold
+        choices: []
+      value:
+        chosen: []
+      level: 7
+      title: Frozen Heart
+      hint: ''
   classIdentifier: spellblade
   spellcasting:
     progression: none
@@ -29,9 +195,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1729046006807
-  modifiedTime: 1729046008915
+  modifiedTime: 1731442723064
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!kAEqwYVcRc5j3DLF'
 

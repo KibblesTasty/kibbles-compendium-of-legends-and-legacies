@@ -2,16 +2,164 @@ folder: HiElAzlnNx6VrB0z
 name: Mage Hunter
 type: subclass
 _id: 0NVtsFBaHfJLsjhr
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/equipment/head/hat-belted-simple-grey.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Some Spellblades hone their magical powers for the sake of countering
+      others. They become the anathema of all spellcasters, they fight fire with
+      fire, honing their own magical skills for the purposes of binding and
+      denying the magical powers of others.</p>
     chat: ''
   identifier: mage-hunter
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: QqPG14IeiUWrgbTl
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LT4zVTDDYojd3oei
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CZMERukPAFt2TEF9
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.npnz1nA7MRCt4FfI
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cU7buMscBru7aAdR
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: jEbDfQsSSVPNOYXM
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yoTmL8FZWpXDc84A
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: xtIOOxO9NeWB609o
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.78ervQ0vGxhmQl8A
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: ryzn1kkXgetMx92F
+    - _id: VwPJ8QT2ncMDnh3h
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Mage Hunter Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Mage Hunter Spells
+      hint: ''
+      _id: gmiIqW1AGojYoLqZ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.Ek45cBpVXvJdv1Qy
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Mage Hunter Spells
+      hint: ''
+      _id: 1TD5prphftRgLOhA
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Mage Hunter Spells
+      hint: ''
+      _id: P1tZhMh4CtGpzXps
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.TkJ8Wtg1L7TZtspm
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Mage Hunter Spells
+      hint: ''
+      _id: MtivygaCUhuOJ3cq
   classIdentifier: spellblade
   spellcasting:
     progression: none
@@ -29,9 +177,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1729045981954
-  modifiedTime: 1729045984136
+  modifiedTime: 1731440529635
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!0NVtsFBaHfJLsjhr'
 

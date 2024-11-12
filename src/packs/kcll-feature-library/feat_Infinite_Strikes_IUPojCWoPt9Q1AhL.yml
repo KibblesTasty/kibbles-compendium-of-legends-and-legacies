@@ -1,7 +1,40 @@
 name: Infinite Strikes
 type: feat
 img: icons/skills/melee/spear-tips-quintuple-orange.webp
-effects: []
+effects:
+  - name: Infinite Strikes
+    img: icons/skills/melee/spear-tips-quintuple-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IUPojCWoPt9Q1AhL
+    transfer: false
+    _id: 8psYKh5lkEPq1p3W
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731438898023
+      modifiedTime: 1731438918254
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!IUPojCWoPt9Q1AhL.8psYKh5lkEPq1p3W'
 flags:
   betterRolls5e:
     quickDesc:
@@ -23,28 +56,89 @@ flags:
       value: true
     quickFooter:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>At 20th level, you draw on your magic to hasten yourself to blinding
-      speeds (no action required). For one minute, any time you make an attack
-      with an action or bonus action, you can immediately make another attack
-      with the same weapon. Once you use this feature, you cannot use it again
-      until you complete a long rest.</p>
+      speeds (no action required). For one minute, any time you make a weapon
+      attack with an action or bonus action, you can immediately make another
+      attack with the same weapon. Once you use this feature, you cannot use it
+      again until you complete a long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Swiftblade 20
   identifier: infinite-strikes
-  activities: {}
+  activities:
+    5sb9t9RTaWhKX4b3:
+      type: utility
+      name: Blinding Speeds
+      _id: 5sb9t9RTaWhKX4b3
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: 8psYKh5lkEPq1p3W
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - 8psYKh5lkEPq1p3W
   enchant: {}
   prerequisites:
     level: null
@@ -54,9 +148,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317498659
-  modifiedTime: 1727317498659
+  modifiedTime: 1731438906667
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 26300000

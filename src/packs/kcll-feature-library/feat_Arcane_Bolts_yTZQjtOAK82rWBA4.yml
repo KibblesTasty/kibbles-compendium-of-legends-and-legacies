@@ -1,7 +1,43 @@
 name: Arcane Bolts
 type: feat
 img: icons/skills/ranged/arrow-flying-white-blue.webp
-effects: []
+effects:
+  - type: enchantment
+    name: Arcane Bolts
+    img: icons/skills/ranged/arrow-flying-white-blue.webp
+    disabled: true
+    _id: FkU53u0bF5jPQ8Zd
+    system: {}
+    changes:
+      - key: system.damage.base.types
+        mode: 2
+        value: force
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731441318404
+      modifiedTime: 1731441364475
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!yTZQjtOAK82rWBA4.FkU53u0bF5jPQ8Zd'
 flags:
   betterRolls5e:
     quickDesc:
@@ -23,6 +59,10 @@ flags:
       value: true
     quickFooter:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -84,12 +124,73 @@ system:
     value: null
     charged: false
   identifier: arcane-bolts
+  activities:
+    2xL2l795dR12iebw:
+      type: enchant
+      _id: 2xL2l795dR12iebw
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: FkU53u0bF5jPQ8Zd
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties:
+          - amm
+        type: weapon
+      name: ''
+      img: ''
+      appliedEffects:
+        - FkU53u0bF5jPQ8Zd
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   coreVersion: '12.331'
   createdTime: 1678742985938
-  modifiedTime: 1727317483055
+  modifiedTime: 1731441411737
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.p531VlCGAQ7FInna
   duplicateSource: null

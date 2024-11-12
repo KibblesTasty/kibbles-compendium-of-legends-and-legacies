@@ -4,19 +4,14 @@ img: icons/magic/water/snowflake-ice-blue.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 3rd level,
-      you gain a new option for your Arcane Surge</span></p><ul
-      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
-      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">When you hit a creature with a
-      weapon attack, you can expend an Arcane Surge to remove any immunity or
-      resistance to cold damage they have and give the disadvantage on saving
-      throws against spells that deal cold damage (including the triggering
-      spell if used with Spellstrike on a spell that triggers a saving throw for
-      additional effects). These effects last until the end of your next
-      turn.</span></li></ul>
+      <p>Starting at 3rd level, you gain a new option for your Arcane
+      Surge</p><ul><li><strong>Frostbite.</strong> When you hit a creature with
+      a melee weapon attack, you can expend an Arcane Surge to remove any
+      immunity or resistance to cold damage they have and give them disadvantage
+      on saving throws against spells that deal cold damage (including the
+      triggering spell if used with Spellstrike on a spell that triggers a
+      saving throw for additional effects). These effects last until the end of
+      your next turn.</li></ul>
     chat: ''
   source:
     custom: Iceblade
@@ -40,7 +35,12 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -53,9 +53,10 @@ system:
         units: round
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: t9tNR7CwmXOUBTUc
       range:
-        units: touch
+        units: any
         special: ''
         override: false
       target:
@@ -84,12 +85,49 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects:
+        - t9tNR7CwmXOUBTUc
   identifier: frostbite
   enchant: {}
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Frostbite
+    img: icons/magic/water/snowflake-ice-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XsFkcNclzNzO9Gzb
+    transfer: false
+    _id: t9tNR7CwmXOUBTUc
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731442564091
+      modifiedTime: 1731442564091
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!XsFkcNclzNzO9Gzb.t9tNR7CwmXOUBTUc'
 flags:
   rsr5e:
     quickDesc:
@@ -107,9 +145,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317508996
-  modifiedTime: 1727317508996
+  modifiedTime: 1731442582998
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 43000000

@@ -56,7 +56,12 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -65,12 +70,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -99,6 +104,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Weapon Attack
+      img: ''
+      appliedEffects: []
   identifier: rapid-surge
   enchant: {}
   prerequisites:
@@ -109,9 +117,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317515917
-  modifiedTime: 1727317515917
+  modifiedTime: 1731438518496
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53800000

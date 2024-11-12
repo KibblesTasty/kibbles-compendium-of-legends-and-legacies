@@ -2,16 +2,165 @@ folder: HiElAzlnNx6VrB0z
 name: Aether Blade
 type: subclass
 _id: Qtcsj8UwxyKIzRhm
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/skills/melee/strike-dagger-arcane-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Aether Blade Spellblades make use of their magical techniques to create
+      a weapon of pure arcane power, with most of their abilities revolving
+      around mastering the use of this weapon.</p>
     chat: ''
   identifier: aether-blade
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: QqPG14IeiUWrgbTl
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mrxHTAvyiLMH5jim
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3YF9E1RMt33yRmdx
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.V6bYRVBS0QprBNUd
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bOzLvwRSZBqbxXH8
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RoS0ZUhE6gdpQ0hZ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.f2B6v2S1WrjBGk56
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: jEbDfQsSSVPNOYXM
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4y7rwkLghzL69lB6
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: xtIOOxO9NeWB609o
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TztBNCoEttS6SRnL
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: ryzn1kkXgetMx92F
+    - _id: U0FnJXtzyJsvsTFR
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Aether Blade Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Aether Blade Spells
+      hint: ''
+      _id: PBIDCELkinCQZ7wz
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Aether Blade Spells
+      hint: ''
+      _id: lDx8kmlI26l96PGx
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Aether Blade Spells
+      hint: ''
+      _id: e7kRrevw1hHAaRYE
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Aether Blade Spells
+      hint: ''
+      _id: RvuOG89kW2DJGUWb
   classIdentifier: spellblade
   spellcasting:
     progression: none
@@ -29,9 +178,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.0
   createdTime: 1729045953552
-  modifiedTime: 1729045956569
+  modifiedTime: 1731436451796
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Qtcsj8UwxyKIzRhm'
 

@@ -49,12 +49,6 @@
 			"type": "Item"
 		},
 		{
-			"name": "kcll-subclasses",
-			"label": "KCLL Subclasses",
-			"system": "dnd5e",
-			"type": "Item"
-		},
-		{
 			"name": "kcll-journals",
 			"label": "KCLL Journals",
 			"system": "dnd5e",
@@ -110,7 +104,7 @@
 					"name": "Character Features",
 					"sorting": "a",
 					"color": "#d25151",
-					"packs": ["kcll-origins", "kcll-feats", "kcll-subclasses", "kcll-classes", "kcll-feature-library"]
+					"packs": ["kcll-origins", "kcll-feats", "kcll-classes", "kcll-feature-library"]
 				},
 				{
 					"name": "Items & Spells",

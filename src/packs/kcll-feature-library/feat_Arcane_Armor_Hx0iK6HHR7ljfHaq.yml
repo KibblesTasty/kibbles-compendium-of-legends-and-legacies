@@ -1,0 +1,92 @@
+name: Arcane Armor
+type: feat
+img: icons/magic/defensive/shield-barrier-blue.webp
+system:
+  description:
+    value: >-
+      <p>You are under the effect of the
+      @UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{mage armor} spell
+      during the effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
+  identifier: aegis-effect-arcane-armor
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects:
+  - _id: D4LegmaiKcPLa8LR
+    changes:
+      - key: system.attributes.ac.calc
+        mode: 5
+        value: mage
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Hx0iK6HHR7ljfHaq
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    name: Mage Armor
+    description: <p>The target's base AC becomes 13 + its Dexterity modifier.</p>
+    statuses: []
+    _stats:
+      compendiumSource: >-
+        Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731471550287
+      modifiedTime: 1731471557249
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!Hx0iK6HHR7ljfHaq.D4LegmaiKcPLa8LR'
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.ZYVCQoSlHLwYIyuY
+_stats:
+  compendiumSource: Item.ZYVCQoSlHLwYIyuY
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317498250
+  modifiedTime: 1731471545467
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 25600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Hx0iK6HHR7ljfHaq
+_key: '!items!Hx0iK6HHR7ljfHaq'
+

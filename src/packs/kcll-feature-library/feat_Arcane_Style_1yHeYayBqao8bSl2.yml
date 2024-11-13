@@ -1,4 +1,4 @@
-name: 'Aegis Effect: Arcane Style'
+name: Arcane Style
 type: feat
 img: icons/weapons/swords/sword-runed-glowing.webp
 system:
@@ -16,9 +16,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Spellblade 5
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
   identifier: aegis-effect-arcane-style
   activities: {}
   enchant: {}
@@ -39,9 +39,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317486424
-  modifiedTime: 1727317486424
+  modifiedTime: 1731472937210
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 7400000

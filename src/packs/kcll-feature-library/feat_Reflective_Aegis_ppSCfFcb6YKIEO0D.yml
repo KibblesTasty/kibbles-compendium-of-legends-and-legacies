@@ -1,0 +1,47 @@
+name: Reflective Aegis
+type: feat
+_id: ppSCfFcb6YKIEO0D
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You have advantage on saving throws against spells that effect a line,
+      and when you pass a saving throw against a spell that deals damage, you
+      reflect part of the damage causing the caster to take half the damage
+      failing the spell save would have dealt to you.</p>
+    chat: ''
+  identifier: reflective-aegis
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: spellbladeAegis
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731476241269
+  modifiedTime: 1731476463168
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!ppSCfFcb6YKIEO0D'
+

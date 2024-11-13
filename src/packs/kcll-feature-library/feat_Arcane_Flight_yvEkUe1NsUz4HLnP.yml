@@ -1,4 +1,4 @@
-name: 'Aegis Effect: Arcane Flight'
+name: Arcane Flight
 type: feat
 img: icons/creatures/abilities/wing-batlike-purple-blue.webp
 system:
@@ -51,14 +51,51 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
-    subtype: ''
-  requirements: Spellblade 17
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
   recharge:
     value: null
     charged: false
   identifier: aegis-effect-arcane-flight
-effects: []
+effects:
+  - name: Arcane Flight
+    img: icons/creatures/abilities/wing-batlike-purple-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yvEkUe1NsUz4HLnP
+    _id: dzZzH8bLH7b0K4rN
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '30'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473750493
+      modifiedTime: 1731473767716
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!yvEkUe1NsUz4HLnP.dzZzH8bLH7b0K4rN'
 flags:
   rsr5e:
     quickDesc:
@@ -69,10 +106,10 @@ flags:
     sourceId: Item.lwnDcSXBguz0cxcy
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1667600567998
-  modifiedTime: 1727317483340
+  modifiedTime: 1731473747984
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.lwnDcSXBguz0cxcy
   duplicateSource: null

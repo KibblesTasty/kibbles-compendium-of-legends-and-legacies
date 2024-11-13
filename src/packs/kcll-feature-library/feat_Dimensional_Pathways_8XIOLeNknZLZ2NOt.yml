@@ -1,13 +1,12 @@
-name: 'Aegis Effect: Dimensional Pathways'
+name: Dimensional Pathways
 type: feat
 img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">When you use Arcane Surge
-      to teleport, you can take one willing Medium or smaller creature within 5
-      feet of you with you, teleporting them to within 5 feet of your
-      destination.</span></p>
+      <p>When you use Arcane Surge to teleport, you can take one willing Medium
+      or smaller creature within 5 feet of you with you, teleporting them to
+      within 5 feet of your destination.</p>
     chat: ''
   source:
     rules: '2014'
@@ -17,9 +16,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Aegis Effect
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
   identifier: aegis-effect-dimensional-pathways
   activities: {}
   enchant: {}
@@ -40,9 +39,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317491265
-  modifiedTime: 1727317491265
+  modifiedTime: 1731473648754
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 14800000

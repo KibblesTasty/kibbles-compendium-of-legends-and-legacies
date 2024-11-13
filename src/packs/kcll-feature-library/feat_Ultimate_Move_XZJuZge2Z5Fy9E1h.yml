@@ -4,42 +4,115 @@ img: icons/magic/lightning/bolt-strike-beam-yellow.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 20th level,
-      master the ultimate move of your style unleashing massive power in an
-      unstoppable strike. You charge your with sword mystical power before
-      sending it forward in a burst of power. All creatures in a 120-foot long,
-      5-foot wide line must make a Dexterity saving throw. On failure, they take
-      6d6 slashing damage and 6d6 force damage. On success, they take half as
-      much damage.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">If the sword was infused with
-      spell that has an area of effect through Spellstrike when you made this
-      attack (for example <em
-      style="box-sizing:border-box;user-select:text">fireball</em>), the spells
-      area of effect becomes the area of effect of this ability (otherwise the
-      spell is discharged against the first target, treating a failed save as a
-      hit).</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Once you use this ability, you
-      cannot use it again until you complete a long rest.</span></p>
+      <p>Starting at 20th level, master the ultimate move of your style
+      unleashing massive power in an unstoppable strike. As an attack as part of
+      the Attack action, you charge your with sword mystical power before
+      sending it forward in a burst of power. All creatures in 120-foot long,
+      15-foot wide line must make a Dexterity saving throw. On failure, they
+      take 6d6 slashing damage and 6d6 force damage. On success, they take half
+      as much damage. You can exclude a number of creatures from the area of
+      effect equal to your Intelligence modifier ([[lookup
+      @abilities.int.mod]]).</p><p>If the sword was infused with spell that has
+      an area of effect through Spellstrike when you made this attack (for
+      example fireball), the spells area of effect becomes the area of effect of
+      this ability (otherwise the spell is discharged against the first target,
+      treating a failed save as a Spellstrike hit).</p><p>Once you use this
+      ability, you cannot use it again until you complete a long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Flying Sword 20
   identifier: ultimate-move
-  activities: {}
+  activities:
+    vPErToT04A3u4nqS:
+      type: save
+      _id: vPErToT04A3u4nqS
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: line
+          size: '120'
+          width: '15'
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -53,14 +126,18 @@ flags:
       value: true
   core:
     sourceId: Item.BU99amt5d6pDl7hs
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.BU99amt5d6pDl7hs
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317508656
-  modifiedTime: 1727317508656
+  modifiedTime: 1731447833492
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 42400000

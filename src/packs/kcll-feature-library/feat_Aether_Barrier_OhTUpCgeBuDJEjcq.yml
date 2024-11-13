@@ -1,16 +1,11 @@
-name: Phantom Sword Surge
+name: Aether Barrier
 type: feat
-img: icons/magic/light/swords-light-glowing-white.webp
+img: icons/magic/defensive/barrier-shield-dome-pink.webp
 system:
   description:
     value: >-
-      <p>Starting at 3rd level, you gain a new option for your Arcane
-      Surge:</p><ul><li><p><strong>Phantom Swords.</strong> When you make an
-      attack with your flying sword, you can spend an Arcane Surge to make two
-      phantom copies of it that strike other targets within range. The phantom
-      swords use their own attack rolls. On hit, the target takes damage equal
-      to your Flying Sword’s weapon damage (including modifier) as force
-      damage.</p></li></ul>
+      <p>When you deal damage with your Aether Blade, you gain temporary hit
+      points equal to your Intelligence modifier.</p>
     chat: ''
   source:
     rules: '2014'
@@ -20,15 +15,14 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Flying Sword 3
-  identifier: phantom-sword-surge
+    value: class
+    subtype: spellbladeAegis
+  requirements: Aether Blade
+  identifier: aegis-effect-aether-barrier
   activities:
-    N1piLxmhM48sw6an:
-      type: utility
-      name: Phantom Swords
-      _id: N1piLxmhM48sw6an
+    24ZEWMkFYcomy8rI:
+      type: heal
+      _id: 24ZEWMkFYcomy8rI
       sort: 0
       activation:
         type: special
@@ -39,12 +33,7 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
@@ -71,11 +60,18 @@ system:
         spent: 0
         recovery: []
         max: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@abilities.int.mod'
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
       img: ''
       appliedEffects: []
   enchant: {}
@@ -90,26 +86,26 @@ flags:
     quickFooter:
       value: true
   core:
-    sourceId: Item.T4wWDBPEBG5PiCe1
+    sourceId: Item.b9unSnW8e5dQYMsS
   dnd5e:
     riders:
       activity: []
       effect: []
 _stats:
-  compendiumSource: Item.T4wWDBPEBG5PiCe1
+  compendiumSource: Item.b9unSnW8e5dQYMsS
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
-  createdTime: 1727317524070
-  modifiedTime: 1731447619590
+  systemVersion: 4.1.1
+  createdTime: 1727317502747
+  modifiedTime: 1731473198779
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 67700000
+sort: 32800000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: tpHAyLJ9h0jeAY7S
-_key: '!items!tpHAyLJ9h0jeAY7S'
+_id: OhTUpCgeBuDJEjcq
+_key: '!items!OhTUpCgeBuDJEjcq'
 

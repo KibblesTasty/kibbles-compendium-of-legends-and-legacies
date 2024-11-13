@@ -1,0 +1,137 @@
+name: Stone Aegis
+type: feat
+img: icons/magic/defensive/armor-stone-skin.webp
+system:
+  description:
+    value: <p>You reduce all damage taken by 5.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
+  identifier: aegis-effect-stone-aegis
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects:
+  - name: Stone Aegis
+    img: icons/magic/defensive/armor-stone-skin.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Lm2OsPJBzZUazvSN
+    _id: p9Dkxdi8nMbsXNVC
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.acid
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.cold
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.fire
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.force
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.lightning
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.necrotic
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.poison
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.psychic
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.radiant
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '5'
+        priority: null
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '5'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fXgyd6LEDmn1j565.ActiveEffect.rwz9kdrRWQ5ztUNj
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731474006041
+      modifiedTime: 1731474038197
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!Lm2OsPJBzZUazvSN.p9Dkxdi8nMbsXNVC'
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.gkzPwQHNEkE8U1AJ
+_stats:
+  compendiumSource: Item.gkzPwQHNEkE8U1AJ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317500644
+  modifiedTime: 1731473992017
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 29500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: Lm2OsPJBzZUazvSN
+_key: '!items!Lm2OsPJBzZUazvSN'
+

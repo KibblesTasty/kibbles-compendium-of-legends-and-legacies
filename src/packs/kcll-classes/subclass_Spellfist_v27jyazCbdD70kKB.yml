@@ -29,7 +29,16 @@ system:
     - _id: QqPG14IeiUWrgbTl
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.iVZk491PYyVWYtH1
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tEtzBFlai0wC71uK
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.emCsxzALTlKlzrPU
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -38,7 +47,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ohQwNzE3uD4XFqg6
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -48,7 +60,10 @@ system:
       _id: jEbDfQsSSVPNOYXM
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.npSk75weviArXJ6T
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -58,7 +73,10 @@ system:
       _id: xtIOOxO9NeWB609o
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ujOBEaxwqL5oc55g
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -66,6 +84,88 @@ system:
       title: Specialization Feature
       hint: ''
       _id: ryzn1kkXgetMx92F
+    - _id: EaSp7GJULvFBSun2
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.wJKpSvSTbSkTjqyb
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Spellfist Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Spellfist Spells
+      hint: ''
+      _id: VTY77x7IhFaXnXFE
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Spellfist Spells
+      hint: ''
+      _id: mMj89RMteBxAZERN
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Spellfist Spells
+      hint: ''
+      _id: jGomefOoAb9l0YDG
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Spellfist Spells
+      hint: ''
+      _id: 28WLJJ48DWJBZAWd
   classIdentifier: spellblade
   spellcasting:
     progression: none
@@ -85,7 +185,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.0
   createdTime: 1729046022535
-  modifiedTime: 1731443184369
+  modifiedTime: 1731450688393
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!v27jyazCbdD70kKB'
 

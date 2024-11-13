@@ -1,0 +1,201 @@
+name: Resilient Aegis
+type: feat
+img: icons/magic/defensive/shield-barrier-blades-teal.webp
+system:
+  description:
+    value: >-
+      <p>You gain proficiency in one Saving Throw of your choice during the
+      effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
+  identifier: aegis-effect-resilient-aegis
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects:
+  - name: 'Resilient Aegis: Strength'
+    img: icons/magic/defensive/shield-barrier-blades-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1MeRSkS8n4D2C0Ez
+    _id: 8UJRi0R6KEArV1oC
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.str.proficient
+        mode: 4
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473805675
+      modifiedTime: 1731473938036
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!1MeRSkS8n4D2C0Ez.8UJRi0R6KEArV1oC'
+  - name: 'Resilient Aegis: Dexterity'
+    img: icons/magic/defensive/shield-barrier-blades-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1MeRSkS8n4D2C0Ez
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.dex.proficient
+        mode: 4
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473924709
+      modifiedTime: 1731473936138
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: TxAmQ4LrYljC4CLI
+    _key: '!items.effects!1MeRSkS8n4D2C0Ez.TxAmQ4LrYljC4CLI'
+  - name: 'Resilient Aegis: Wisdom'
+    img: icons/magic/defensive/shield-barrier-blades-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1MeRSkS8n4D2C0Ez
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.wis.proficient
+        mode: 4
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473940830
+      modifiedTime: 1731473958605
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: IAZpMzt1uWO2qDyi
+    _key: '!items.effects!1MeRSkS8n4D2C0Ez.IAZpMzt1uWO2qDyi'
+  - name: 'Resilient Aegis: Charisma'
+    img: icons/magic/defensive/shield-barrier-blades-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1MeRSkS8n4D2C0Ez
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.cha.proficient
+        mode: 4
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473961093
+      modifiedTime: 1731473969351
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: ycdZSTXINkqTcTBy
+    _key: '!items.effects!1MeRSkS8n4D2C0Ez.ycdZSTXINkqTcTBy'
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.stItHPHwtiePjX9l
+_stats:
+  compendiumSource: Item.stItHPHwtiePjX9l
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317486073
+  modifiedTime: 1731473798673
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 6900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 1MeRSkS8n4D2C0Ez
+_key: '!items!1MeRSkS8n4D2C0Ez'
+

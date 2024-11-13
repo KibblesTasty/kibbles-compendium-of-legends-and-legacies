@@ -4,33 +4,17 @@ img: icons/skills/social/intimidation-impressing.webp
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Starting at 20th level, you can
-      channel magic directly into your muscles, causing your strength to surpass
-      all common reason and granting you the following benefits for 1
-      minute:</span></p><ul
-      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
-      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">Your Strength score and maximum
-      strength score increase by 2.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">The damage from your Splash Damage
-      feature becomes a 30 foot cone.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">The distance you can jump becomes
-      equal to your movement speed.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">You have advantage on all Strength
-      ability checks and saving throws.</span></li></ul><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Once you use this ability, you
-      cannot use it again until you complete a long rest.</span></p>
+      <p>Starting at 20th level, you can channel magic directly into your
+      muscles, causing your strength to surpass all common reason and granting
+      you the following benefits for 1 minute:</p><ul><li><strong>Supernatural
+      Strength.</strong> Your Strength score and maximum strength score increase
+      by 2.</li><li><strong>Splash Zone. </strong>The damage from your
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yn3eYpFSiomO6sJu]{Splash
+      Damage} feature becomes a 30 foot cone.</li><li><strong>Bounding Leaps.
+      </strong>The distance you can jump becomes equal to your movement
+      speed.</li><li><strong>Strength Advantage. </strong>You have advantage on
+      all Strength ability checks and saving throws.</li></ul><p>Once you use
+      this ability, you cannot use it again until you complete a long rest.</p>
     chat: ''
   source:
     custom: Spellfist
@@ -58,11 +42,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -71,10 +53,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: minute
         special: ''
         override: false
-      effects: []
+        value: '1'
+      effects:
+        - _id: n0jtt9ua1SeQmaZO
       range:
         units: self
         special: ''
@@ -83,11 +67,11 @@ system:
         template:
           count: ''
           contiguous: false
-          type: ''
-          size: ''
+          type: cone
+          size: '30'
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -105,12 +89,57 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects:
+        - n0jtt9ua1SeQmaZO
   identifier: unlimited-power
   enchant: {}
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Unlimited Power
+    img: icons/skills/social/intimidation-impressing.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ujOBEaxwqL5oc55g
+    transfer: false
+    _id: n0jtt9ua1SeQmaZO
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.str.value
+        mode: 2
+        value: '2'
+        priority: null
+      - key: system.abilities.str.max
+        mode: 2
+        value: '2'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.0
+      createdTime: 1731452429257
+      modifiedTime: 1731452474328
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!ujOBEaxwqL5oc55g.n0jtt9ua1SeQmaZO'
 flags:
   rsr5e:
     quickDesc:
@@ -131,9 +160,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317524585
-  modifiedTime: 1727317524585
+  modifiedTime: 1731452509667
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 68700000

@@ -4,22 +4,21 @@ img: icons/weapons/swords/scimitar-guard-wood.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 3rd level,
-      during a long rest you can touch a melee weapon, infusing it magical
-      power. This Flying Sword can be carried or stowed like a normal weapon, or
-      you can ready it, causing it to float beside you. While an Flying Sword is
-      readied, you can make attacks with it as part the Attack action, sending
-      it out to strike a target.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Attacks made with your Flying
-      Sword are considered melee weapon attacks with the weapon, but you can use
-      your Intelligence modifier in place of your Strength or Dexterity modifier
-      for attack and damage rolls, and you can make this attack against a target
-      out to a range of 30 feet away from you. If the weapon has the heavy or
-      special property, this range is halved to 15 feet; and if the weapon has
-      the light property, this range is doubled to 60 feet.</span></p>
+      <p>Starting at 3rd level, during a long rest you can touch a melee weapon,
+      infusing it magical power. This Flying Sword can be carried or stowed like
+      a normal weapon, or you can ready it, causing it to float beside you.
+      While an Flying Sword is readied, you can make attacks with it as part the
+      Attack action, sending it out to strike a target.</p><p>Attacks made with
+      your Flying Sword are considered melee weapon attacks with the weapon, but
+      you can use your Intelligence modifier in place of your Strength or
+      Dexterity modifier for attack and damage rolls, and you can make this
+      attack against a target out to a range of 30 feet away from you. If the
+      weapon has the heavy or special property, this range is halved to 15 feet;
+      and if the weapon has the light property, this range is doubled to 60
+      feet.</p><p>Spells infused into the flying weapon affect the target of the
+      attack, but only have a range equal to the range of the spell. If you
+      attack a target beyond the range of the spell, the spell fails and is
+      lost.</p>
     chat: ''
   source:
     rules: '2014'
@@ -52,9 +51,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317494858
-  modifiedTime: 1727317494858
+  modifiedTime: 1731447560808
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 20200000

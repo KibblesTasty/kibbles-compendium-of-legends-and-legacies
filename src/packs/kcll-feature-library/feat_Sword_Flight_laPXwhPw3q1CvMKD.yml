@@ -4,17 +4,13 @@ img: icons/skills/movement/arrow-upward-yellow.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 7th level,
-      your mastery of telekinetic manipulation of your blade is so complete you
-      can command it remotely and even use it as a mode of transport. You can
-      stand on your sword to treat it as a Broom of Flying, though only you can
-      ride it, and anything being carried by it is dropped if you attack with
-      it.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Additionally, the range of your
-      Flying Sword attacks are doubled.</span></p>
+      <p>Starting at 7th level, your mastery of telekinetic manipulation of your
+      blade is so complete you can command it remotely and even use it as a mode
+      of transport. You can stand on your sword to treat it as a
+      @UUID[Compendium.dnd5e.items.Item.hFAVm9pTJDm0nu3g]{Broom of Flying},
+      though only you can ride it, and anything being carried by it is dropped
+      if you attack with it.</p><p>Additionally, the range of your Flying Sword
+      attacks are doubled.</p>
     chat: ''
   source:
     rules: '2014'
@@ -47,9 +43,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317518584
-  modifiedTime: 1727317518584
+  modifiedTime: 1731447649876
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 58300000

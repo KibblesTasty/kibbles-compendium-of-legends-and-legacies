@@ -1,4 +1,4 @@
-name: 'Aegis Effect: Blade Channel'
+name: Blade Channel
 type: feat
 img: icons/weapons/polearms/spear-flared-silver-pink.webp
 system:
@@ -16,9 +16,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Aegis Effect
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
   identifier: aegis-effect-blade-channel
   activities: {}
   enchant: {}
@@ -39,9 +39,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317512434
-  modifiedTime: 1727317512434
+  modifiedTime: 1731472965130
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 48200000

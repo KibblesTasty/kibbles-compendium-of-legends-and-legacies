@@ -1,11 +1,11 @@
-name: 'Aegis Effect: Quickened Movement'
+name: Loyal Weapon
 type: feat
-img: icons/skills/movement/arrow-upward-yellow.webp
+img: icons/weapons/swords/sword-gold-holy.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Your movement speed is
-      increased by 5.</span></p>
+      <p>A weapon you touch as part of selecting this Aegis Spell is under the
+      effect of returning weapon.</p>
     chat: ''
   source:
     rules: '2014'
@@ -15,10 +15,10 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Aegis Effect
-  identifier: aegis-effect-quickened-movement
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
+  identifier: aegis-effect-loyal-weapon
   activities: {}
   enchant: {}
   prerequisites:
@@ -32,22 +32,22 @@ flags:
     quickFooter:
       value: true
   core:
-    sourceId: Item.nuLIddCzA3m9W7bt
+    sourceId: Item.SW7KNL5tUUmco9Mk
 _stats:
-  compendiumSource: Item.nuLIddCzA3m9W7bt
+  compendiumSource: Item.SW7KNL5tUUmco9Mk
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317523895
-  modifiedTime: 1727317523895
+  systemVersion: 4.1.1
+  createdTime: 1727317486609
+  modifiedTime: 1731473013860
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 67400000
+sort: 7700000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: tejyRvNt6YMZgu9I
-_key: '!items!tejyRvNt6YMZgu9I'
+_id: 283NlD0CkJjleQoP
+_key: '!items!283NlD0CkJjleQoP'
 

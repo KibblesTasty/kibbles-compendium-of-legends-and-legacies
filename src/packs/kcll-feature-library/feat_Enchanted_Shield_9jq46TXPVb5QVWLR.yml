@@ -1,0 +1,152 @@
+name: Enchanted Shield
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  description:
+    value: >-
+      <p>You touch a shield making it easy to wield. You have proficiency with
+      that shield during the effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
+  identifier: aegis-effect-enchanted-shield
+  activities:
+    fC1PR3LgNSzcrU0a:
+      type: enchant
+      _id: fC1PR3LgNSzcrU0a
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: oYfgFpy0s9aIutmp
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        categories:
+          - shield
+        properties: []
+        type: equipment
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects:
+  - type: enchantment
+    name: Enchanted Shield
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    disabled: true
+    _id: oYfgFpy0s9aIutmp
+    system: {}
+    changes:
+      - key: system.proficient
+        mode: 4
+        value: '1'
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731472280107
+      modifiedTime: 1731472309302
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!9jq46TXPVb5QVWLR.oYfgFpy0s9aIutmp'
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.SWCHMzLTrm24Nwql
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.SWCHMzLTrm24Nwql
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317492621
+  modifiedTime: 1731472280222
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 16900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 9jq46TXPVb5QVWLR
+_key: '!items!9jq46TXPVb5QVWLR'
+

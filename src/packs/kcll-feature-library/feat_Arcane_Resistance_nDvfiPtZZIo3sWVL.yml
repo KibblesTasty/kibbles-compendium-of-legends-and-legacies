@@ -1,0 +1,276 @@
+name: Arcane Resistance
+type: feat
+img: icons/magic/defensive/armor-shield-barrier-steel.webp
+system:
+  description:
+    value: >-
+      <p>You gain resistance to acid, cold, fire, lightning, poison, or thunder
+      damage during the effect. You may select a new damage type when you select
+      this Aegis again.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
+  identifier: aegis-effect-arcane-resistance
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects:
+  - name: 'Arcane Resistance: Acid'
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nDvfiPtZZIo3sWVL
+    _id: xRHzvki8LjvLa6IS
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473487466
+      modifiedTime: 1731473523236
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!nDvfiPtZZIo3sWVL.xRHzvki8LjvLa6IS'
+  - name: 'Arcane Resistance: Cold'
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nDvfiPtZZIo3sWVL
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473510754
+      modifiedTime: 1731473524845
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: fPFnhZlS4U2K9KGl
+    _key: '!items.effects!nDvfiPtZZIo3sWVL.fPFnhZlS4U2K9KGl'
+  - name: 'Arcane Resistance: Fire'
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nDvfiPtZZIo3sWVL
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473527222
+      modifiedTime: 1731473537929
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: C820x9gXRcPLLrEj
+    _key: '!items.effects!nDvfiPtZZIo3sWVL.C820x9gXRcPLLrEj'
+  - name: 'Arcane Resistance: Lightning'
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nDvfiPtZZIo3sWVL
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473539308
+      modifiedTime: 1731473549260
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: ehgBntgVDqcKwWCC
+    _key: '!items.effects!nDvfiPtZZIo3sWVL.ehgBntgVDqcKwWCC'
+  - name: 'Arcane Resistance: Poison'
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nDvfiPtZZIo3sWVL
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473550683
+      modifiedTime: 1731473563143
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: AiDOH11qS8zx7JWE
+    _key: '!items.effects!nDvfiPtZZIo3sWVL.AiDOH11qS8zx7JWE'
+  - name: 'Arcane Resistance: Thunder'
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nDvfiPtZZIo3sWVL
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: thunder
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731473564657
+      modifiedTime: 1731473574245
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: qAMkPD8v9ibQj5ft
+    _key: '!items.effects!nDvfiPtZZIo3sWVL.qAMkPD8v9ibQj5ft'
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.pq7WVlddej8oTS8W
+_stats:
+  compendiumSource: Item.pq7WVlddej8oTS8W
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317519806
+  modifiedTime: 1731473475223
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 60400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: nDvfiPtZZIo3sWVL
+_key: '!items!nDvfiPtZZIo3sWVL'
+

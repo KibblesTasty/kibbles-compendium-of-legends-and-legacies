@@ -1,0 +1,87 @@
+name: Arcane Overflow
+type: feat
+_id: pdOICWWidxhSqgFf
+img: icons/magic/light/explosion-star-teal-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You gain an additional use of your Arcane Surge feature.</p><section
+      id="secret-fXD5sPKDcsFcIZGn" class="secret"><p><strong>Foundry
+      Note</strong></p><p>You can drag and drop the enchantment onto your Arcane
+      Surge feature to increase its uses by 1.</p></section>
+    chat: ''
+  identifier: arcane-overflow
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: spellbladeAegis
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - type: enchantment
+    name: Arcane Overflow
+    img: icons/magic/light/explosion-star-teal-purple.webp
+    disabled: true
+    _id: k8aatOzccbidWJAG
+    system: {}
+    changes:
+      - key: system.uses.max
+        mode: 2
+        value: '1'
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731475999902
+      modifiedTime: 1731476094497
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!pdOICWWidxhSqgFf.k8aatOzccbidWJAG'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731475966078
+  modifiedTime: 1731476463168
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!pdOICWWidxhSqgFf'
+

@@ -1,0 +1,222 @@
+name: Arcane Fist
+type: feat
+_id: R0ke3A2fxK4HdGw3
+img: icons/skills/melee/unarmed-punch-fist-blue.webp
+system:
+  activities:
+    gf4ykvEQ4G4r7P1G:
+      type: enchant
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: qBioEOwgpX6D3XzQ
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: r9bB0A1xiizbfwT1
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: ''
+      _id: gf4ykvEQ4G4r7P1G
+      name: ''
+      img: ''
+      appliedEffects:
+        - qBioEOwgpX6D3XzQ
+        - r9bB0A1xiizbfwT1
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The damage of your unarmed strike increases to 1d10. If you expend a
+      3rd-level spell slot on this Aegis Effect, it increases to 1d12.</p>
+    chat: ''
+  identifier: arcane-fist
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: spellbladeAegis
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Spellfist
+effects:
+  - type: enchantment
+    name: Arcane Fist (1d10)
+    img: icons/skills/melee/unarmed-punch-fist-blue.webp
+    disabled: false
+    _id: qBioEOwgpX6D3XzQ
+    system: {}
+    changes:
+      - key: system.damage.base.number
+        mode: 4
+        value: '1'
+        priority: null
+      - key: system.damage.base.denomination
+        mode: 4
+        value: '10'
+        priority: null
+      - key: system.damage.base.types
+        mode: 2
+        value: force
+        priority: null
+      - key: system.damage.base.custom.enabled
+        mode: 1
+        value: 'false'
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tEtzBFlai0wC71uK.ActiveEffect.J9cZ9lqZQ4qSVkzf
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731475055606
+      modifiedTime: 1731475142166
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!R0ke3A2fxK4HdGw3.qBioEOwgpX6D3XzQ'
+  - type: enchantment
+    name: Arcane Fist (1d12)
+    img: icons/skills/melee/unarmed-punch-fist-blue.webp
+    disabled: false
+    system: {}
+    changes:
+      - key: system.damage.base.number
+        mode: 4
+        value: '1'
+        priority: null
+      - key: system.damage.base.denomination
+        mode: 4
+        value: '12'
+        priority: null
+      - key: system.damage.base.types
+        mode: 2
+        value: force
+        priority: null
+      - key: system.damage.base.custom.enabled
+        mode: 1
+        value: 'false'
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tEtzBFlai0wC71uK.ActiveEffect.J9cZ9lqZQ4qSVkzf
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731475085795
+      modifiedTime: 1731475164939
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: r9bB0A1xiizbfwT1
+    _key: '!items.effects!R0ke3A2fxK4HdGw3.r9bB0A1xiizbfwT1'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731474987791
+  modifiedTime: 1731475368609
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!R0ke3A2fxK4HdGw3'
+

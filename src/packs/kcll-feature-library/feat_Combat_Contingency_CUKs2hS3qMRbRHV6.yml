@@ -1,14 +1,13 @@
-name: 'Aegis Effect: Combat Contingency'
+name: Combat Contingency
 type: feat
 img: icons/magic/symbols/question-stone-yellow.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">You incorporate a
-      contingency for rapidly deploying combat magic into your Aegis. When you
-      roll initiative, as a reaction you can cast one spell of 3rd level or
-      lower spell that affects only you and has a casting time of 1
-      action.</span></p>
+      <p>You incorporate a contingency for rapidly deploying combat magic into
+      your Aegis. When you roll initiative, as a reaction you can cast one spell
+      of 3rd level or lower spell that affects only you and has a casting time
+      of 1 action.</p>
     chat: ''
   source:
     rules: '2014'
@@ -18,9 +17,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Aegis Effect
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
   identifier: aegis-effect-combat-contingency
   activities: {}
   enchant: {}
@@ -41,9 +40,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317494620
-  modifiedTime: 1727317494620
+  modifiedTime: 1731473602813
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 19800000

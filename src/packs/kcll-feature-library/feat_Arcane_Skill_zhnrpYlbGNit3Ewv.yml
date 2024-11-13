@@ -1,0 +1,85 @@
+name: Arcane Skill
+type: feat
+_id: zhnrpYlbGNit3Ewv
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You gain proficiency in one skill of your choice.</p><section
+      id="secret-xYZrg41o6WbDB42M" class="secret"><p><strong>Foundry
+      Note</strong></p><p>The attached effect grants proficiency in acrobatics.
+      Adjust the `acr` term to the appropriate abbreviation for the chosen
+      skill.</p></section>
+    chat: ''
+  identifier: arcane-skill
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: spellbladeAegis
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Arcane Skill
+    img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zhnrpYlbGNit3Ewv
+    _id: 1Yd2g9CR9kP0gmSW
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.acr.value
+        mode: 4
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731476312179
+      modifiedTime: 1731476353119
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!zhnrpYlbGNit3Ewv.1Yd2g9CR9kP0gmSW'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731476285486
+  modifiedTime: 1731476463168
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!zhnrpYlbGNit3Ewv'
+

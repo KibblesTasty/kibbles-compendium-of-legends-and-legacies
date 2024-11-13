@@ -1,11 +1,11 @@
-name: 'Aegis Effect: Arcane Alacrity'
+name: Arcane Alacrity
 type: feat
 img: icons/skills/melee/blade-tips-double-blue.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">When you take the Attack
-      action, you can attack twice, instead of once.</span></p>
+      <p>When you take the Attack action, you can attack twice, instead of
+      once.</p>
     chat: ''
   source:
     rules: '2014'
@@ -15,9 +15,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Aegis Effect
+    value: class
+    subtype: spellbladeAegis
+  requirements: ''
   identifier: aegis-effect-arcane-alacrity
   activities: {}
   enchant: {}
@@ -38,9 +38,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317491139
-  modifiedTime: 1727317491139
+  modifiedTime: 1731473789801
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 14600000

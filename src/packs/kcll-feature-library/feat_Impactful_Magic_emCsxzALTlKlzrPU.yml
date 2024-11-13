@@ -5,11 +5,13 @@ system:
   description:
     value: >-
       <p>Starting at 3rd level, you gain two new options for your Arcane
-      Surge:</p><ul><li><p>When you knock a target away from you, you can expend
-      a use of Arcane Surge to knock the target 10 feet further
-      away.</p></li><li><p>When you hit an melee weapon attack, you can spend a
-      use of Arcane Surge to attempt to grapple the target (no action
-      required)</p></li></ul>
+      Surge:</p><ul><li><p><strong>Arcane Impact.</strong> When you knock a
+      target away from you, you can expend a use of Arcane Surge to knock the
+      target 10 feet further away.</p></li><li><p><strong>Arcane Grab.</strong>
+      When you hit an melee weapon attack, you can spend a use of Arcane Surge
+      to attempt to &amp;Reference[grappling]{grapple} or
+      &amp;Reference[shoving]{shove} the target (no action required). You have
+      advantage on the ability check.</p></li></ul>
     chat: ''
   source:
     custom: Spellfist
@@ -33,7 +35,12 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -42,12 +49,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -76,6 +83,64 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Arcane Impact
+      img: ''
+      appliedEffects: []
+    B4UjUQmB61YCdNuT:
+      type: check
+      name: Arcane Grab
+      _id: B4UjUQmB61YCdNuT
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - ath
+        dc:
+          calculation: ''
+          formula: '10'
+        ability: ''
+      img: ''
+      appliedEffects: []
   identifier: impactful-magic
   enchant: {}
   prerequisites:
@@ -99,9 +164,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.0
   createdTime: 1727317513906
-  modifiedTime: 1727317513906
+  modifiedTime: 1731452269502
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 50600000

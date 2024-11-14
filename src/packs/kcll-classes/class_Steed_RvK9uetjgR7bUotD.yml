@@ -18,7 +18,216 @@ system:
     all: true
   hitDice: d6
   hitDiceUsed: 0
-  advancement: []
+  advancement:
+    - _id: tX4XIms4E5ZkKbwL
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 4
+      title: ''
+      hint: ''
+    - _id: vYq1VycTMQLQsXol
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 8
+      title: ''
+      hint: ''
+    - _id: Fb7mP3J0Hk6oTKqi
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 12
+      title: ''
+      hint: ''
+    - _id: kJ5iJjqY9zzHc5Fo
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 16
+      title: ''
+      hint: ''
+    - _id: AcXi3VJ9yBZ0rsCb
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 19
+      title: ''
+      hint: ''
+    - _id: 9TdwcHm8PykhmknO
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Features
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Features
+      hint: ''
+      _id: DcD69zJtiW9VKKRd
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Features
+      hint: ''
+      _id: fCoVVzZtSkgBplRc
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Features
+      hint: ''
+      _id: RANdYBvBRWLfZeuh
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Features
+      hint: ''
+      _id: 8ao4wnQ0BDnJaXRP
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Features
+      hint: ''
+      _id: GZETvZoO3hO4iCBn
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Features
+      hint: ''
+      _id: oeq5UT0B4K7ijDnb
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Features
+      hint: ''
+      _id: Cut28T7e6lax2B4f
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Features
+      hint: ''
+      _id: cjdhwbeskze1jCdb
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Features
+      hint: ''
+      _id: u1hwWmDlDOHG5GdY
+    - _id: 2yWvhAiv45C2jsNd
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '2':
+            value: 5
+          '9':
+            value: 10
+          '13':
+            value: 15
+          '17':
+            value: 20
+      value: {}
+      title: Swift Prancer
+      hint: ''
   spellcasting:
     progression: none
     preparation:
@@ -36,9 +245,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729038080998
-  modifiedTime: 1729038082791
+  modifiedTime: 1731552693353
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!RvK9uetjgR7bUotD'
 

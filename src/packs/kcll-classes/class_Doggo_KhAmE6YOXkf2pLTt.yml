@@ -5,7 +5,15 @@ _id: KhAmE6YOXkf2pLTt
 img: systems/dnd5e/icons/svg/items/class.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>A unique sidekick class to represent only the bestest of traveling
+      companions. This option is typically limited to doggos, or creatures
+      considered a doggo by their companions.</p><blockquote><p><strong>Why is
+      this called... that?</strong></p><p>The tone of this class option does not
+      necessarily fit the otherwise (slightly) more formal tone of the book.
+      This is because the options was originally written for April Fool’s, and
+      included in the book due to a stretch goal of the
+      Kickstarter.</p></blockquote>
     chat: ''
   identifier: doggo
   source:
@@ -18,7 +26,278 @@ system:
     all: true
   hitDice: d6
   hitDiceUsed: 0
-  advancement: []
+  advancement:
+    - _id: IKTTPUfmJYDXmWyq
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bIxNxDXjQlfsFTUu
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - _id: x2kkUDxfUhPImGEO
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.QQHZ2TUBowMWLfUM
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: ''
+      hint: ''
+    - _id: xU0eVDsAZTrnYaon
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.JoW6yy52hnBMj7z1
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+    - _id: l3zYIV3O8EVrS5Qn
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 2
+          wis: 0
+          cha: 0
+        locked: []
+        points: 0
+      value:
+        type: asi
+      level: 3
+      title: Adventuring Helper
+      hint: ''
+    - _id: 26L2fc36auGaqZyM
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:sim
+          - armor:lgt
+          - armor:med
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+      value:
+        chosen: []
+      level: 3
+      title: Adventuring Helper
+      hint: ''
+    - _id: tX4XIms4E5ZkKbwL
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 4
+      title: ''
+      hint: ''
+    - _id: vYq1VycTMQLQsXol
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 8
+      title: ''
+      hint: ''
+    - _id: Fb7mP3J0Hk6oTKqi
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 12
+      title: ''
+      hint: ''
+    - _id: kJ5iJjqY9zzHc5Fo
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 16
+      title: ''
+      hint: ''
+    - _id: AcXi3VJ9yBZ0rsCb
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+      value:
+        type: asi
+      level: 19
+      title: ''
+      hint: ''
+    - _id: V8ssIBaJQ81K4CPY
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '6':
+            number: 2
+            faces: 6
+            modifiers: []
+          '15':
+            number: 4
+            faces: 6
+            modifiers: []
+      value: {}
+      title: MPT Damage
+      hint: ''
+    - _id: wwOjbJ76joatxF04
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.j8laW7gJ2bFZVA7z
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      hint: ''
+    - _id: RaZtdNLIS4Cl58Ci
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qJHEZWsB2EmbsXVS
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      hint: ''
+    - _id: M5vVB1fM4nXYMvIt
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.413ih86azpXCLSIz
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - _id: M8gbQ0BUcurMkYW9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.413ih86azpXCLSIz
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: ''
+      hint: ''
+    - _id: XIILdgqYTpOBH3UB
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FBafl5iyLC9149KV
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      hint: ''
+    - _id: fJgDFbd5FUHWqVdo
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.WuB6EqyASmwgA4T5
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: ''
+      hint: ''
+    - _id: wrH3eD6UPtJvoFKi
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.6yc9nqEBAvydtVNj
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: ''
+      hint: ''
   spellcasting:
     progression: none
     preparation:
@@ -36,9 +315,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729038065489
-  modifiedTime: 1729038074679
+  modifiedTime: 1731552445575
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!KhAmE6YOXkf2pLTt'
 

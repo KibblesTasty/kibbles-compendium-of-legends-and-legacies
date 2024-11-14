@@ -1,0 +1,51 @@
+name: Dauntless Packmate
+type: feat
+_id: 413ih86azpXCLSIz
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 11th level, the first time the doggo would drop to 0 hit
+      points, it instead drops to 1, and then regains 1d6 hit points for each
+      allied creature within 60 feet of it, up to a maximum number of d6 equal
+      to its proficiency bonus. Once it uses this feature, it cannot use it
+      again until it completes a short or long rest.</p><p> Additionally, the
+      doggo is considered to be immune to the frightened condition while an
+      allied creature it can see or hear is within 60 feet to act brave in front
+      of.</p>
+    chat: ''
+  identifier: dauntless-packmage
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731552311061
+  modifiedTime: 1731552334376
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!413ih86azpXCLSIz'
+

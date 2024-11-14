@@ -1,0 +1,161 @@
+name: Master Pack Tactics
+type: feat
+_id: j8laW7gJ2bFZVA7z
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities:
+    qzT0bYsgFx4HU4Xm:
+      type: damage
+      _id: qzT0bYsgFx4HU4Xm
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.doggo.mpt-damage'
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    98SUtPpGHnXnLrGW:
+      type: save
+      name: Prone
+      _id: 98SUtPpGHnXnLrGW
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: str
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, the first time on its turn that the doggo rolls
+      damage on an attack that gains advantage from Pack Tactics, it deals an
+      additional 2d6 damage. It can forgo this damage to force the target to
+      make a Strength saving throw with a DC 8 + its Strength modifier +
+      proficiency bonus or be knocked &amp;Reference[prone].</p><p>At 15th
+      level, this damage increases to 4d6 at 15th level.</p>
+    chat: ''
+  identifier: master-pack-tactics
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731552085721
+  modifiedTime: 1731552158339
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!j8laW7gJ2bFZVA7z'
+

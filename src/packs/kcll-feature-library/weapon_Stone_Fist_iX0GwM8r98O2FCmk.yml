@@ -82,10 +82,10 @@ system:
     value: >-
       <p>A hardened limb of stone. This becomes a natural one handed melee
       weapon that deals 1d6 bludgeoning damage on hit, and has the Light and
-      Special properties.</p>
-
-      <p><strong>Special:</strong> You gain +1 to your AC while wielding one of
-      these weapons in each hand.</p>
+      Special properties.</p><p><strong>Special:</strong> You gain +1 to your AC
+      while wielding one of these weapons in each hand (two or more of these if
+      you have more than 2 hands, you cannot benefit from this bonus and the
+      bonus AC of a shield).</p>
     chat: ''
   source:
     custom: Stoneblood
@@ -105,7 +105,7 @@ system:
   cover: null
   crewed: false
   range:
-    value: 5
+    value: null
     long: null
     units: ft
     reach: null
@@ -148,6 +148,7 @@ system:
     conditions: ''
   properties:
     - lgt
+    - spc
   proficient: 1
   unidentified:
     description: ''
@@ -222,14 +223,15 @@ system:
   attuned: false
   ammunition: {}
   magicalBonus: null
+  mastery: ''
 _stats:
   compendiumSource: Item.MFHrMi6JXzSRgXZC
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317516858
-  modifiedTime: 1727317516858
+  modifiedTime: 1731616478429
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 55400000

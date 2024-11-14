@@ -1,0 +1,171 @@
+name: Metallic Monolith
+type: feat
+img: icons/equipment/chest/breastplate-helmet-metal.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, as an action you can empower yourself for 1
+      minute. You gain the following benefits:</p><ul><li><strong>Enlarged
+      Weapons.</strong> Metal weapons you are carrying grow larger and more
+      powerful, increasing their damage by 1d8 while you wield
+      them.</li><li><strong>Unlimited Chains.</strong> You can generate an
+      unlimited number of chains with Binding Interdiction, and they no longer
+      have any size limit on what they can restrain.</li><li><strong>Implacable
+      Monolith.</strong> You are immune to any effect that would move you
+      against your will or knock you prone.</li><li><strong>Damage
+      Resistance.</strong> You gain resistance to bludgeoning, piercing, and
+      slashing damage.</li></ul><p>Once you use this ability, you cannot use it
+      again until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ironbound 17
+  identifier: iron-monolith
+  activities:
+    btsl8Ul34qdLZkGv:
+      type: utility
+      name: Empower
+      _id: btsl8Ul34qdLZkGv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: YjZyHebUA9Lk0goR
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - YjZyHebUA9Lk0goR
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects:
+  - name: Metallic Monolith
+    img: icons/equipment/chest/breastplate-helmet-metal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2iiomt4yjQcUkahn
+    transfer: false
+    _id: YjZyHebUA9Lk0goR
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.mwak.damage
+        mode: 2
+        value: 1d8
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731622731464
+      modifiedTime: 1731622778228
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!2iiomt4yjQcUkahn.YjZyHebUA9Lk0goR'
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.xg3PTWbepOqflPCA
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.xg3PTWbepOqflPCA
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317486857
+  modifiedTime: 1731622791360
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 8000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 2iiomt4yjQcUkahn
+_key: '!items!2iiomt4yjQcUkahn'
+

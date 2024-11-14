@@ -18,93 +18,27 @@ flags:
       altValue: true
   core:
     sourceId: Item.pRtXN8U24uTwHxYx
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Additionally when you select this bond, you gain access to several
       innate magical abilities by channeling the power of your primal
-      connection.</p>
-
-      <p>You gain the following spells at the listed levels, and can cast each
-      spell once before without components or spell slots. Wisdom is your
-      spellcasting modifier for these spells. Once you cast a spell, you cannot
-      cast that spell again until you complete a long rest, or expend Endurance
-      Dice equal to the level of the spell to cast it again.</p>
-
-      <table style="width:100%;height:119px" border="1">
-
-      <tbody>
-
-      <tr style="height:17px">
-
-      <td style="width:29.7496%;height:17px;text-align:center"><strong>Warden
-      Level</strong></td>
-
-      <td style="width:69.0097%;height:17px;text-align:center"><strong>Innate
-      Spells (1/long rest each)</strong></td>
-
-      </tr>
-
-      <tr style="height:17px">
-
-      <td style="width:29.7496%;height:17px;text-align:center">1st</td>
-
-      <td
-      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{Speak
-      with Animals}</td>
-
-      </tr>
-
-      <tr style="height:17px">
-
-      <td style="width:29.7496%;height:17px;text-align:center">3rd</td>
-
-      <td
-      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.X8w9EzYLGc4vQ1H2]{Animal
-      Messenger}</td>
-
-      </tr>
-
-      <tr style="height:17px">
-
-      <td style="width:29.7496%;height:17px;text-align:center">5th</td>
-
-      <td
-      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{Alter
-      Self}</td>
-
-      </tr>
-
-      <tr style="height:17px">
-
-      <td style="width:29.7496%;height:17px;text-align:center">9th</td>
-
-      <td
-      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce}</td>
-
-      </tr>
-
-      <tr style="height:17px">
-
-      <td style="width:29.7496%;height:17px;text-align:center">13th</td>
-
-      <td
-      style="width:69.0097%;height:17px;text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.VI58xQOwPpMEuotg]{Mutate}</td>
-
-      </tr>
-
-      <tr style="height:17px">
-
-      <td style="width:29.7496%;height:17px;text-align:center">17th</td>
-
-      <td
-      style="width:69.0097%;height:17px;text-align:center">@Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph}</td>
-
-      </tr>
-
-      </tbody>
-
-      </table>
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Once you cast
+      the spell in this way, you cannot cast it again until you complete a long
+      rest. Wisdom is your spellcasting modifier for these spells. You can cast
+      a spell again before completing a long rest by spending 1 + the level of
+      the spell Endurance Dice.</p><table><thead><tr><th><p>Warden
+      Level</p></th><th><p>Innate Spells (1/long rest
+      each)</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{Speak
+      with
+      Animals}</p></td></tr><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.X8w9EzYLGc4vQ1H2]{Animal
+      Messenger}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{Alter
+      Self}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce}</p></td></tr><tr><td><p>13th</p></td><td><p>Mutate</p></td></tr><tr><td><p>17th</p></td><td><p>@Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph}</p></td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -118,7 +52,407 @@ system:
     subtype: ''
   requirements: Beasthide 1
   identifier: innate-magic-beasthide
-  activities: {}
+  activities:
+    7CTev48ykWK0FvJJ:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 7CTev48ykWK0FvJJ
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    1HLou1jOosjhLAjs:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.X8w9EzYLGc4vQ1H2
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 1HLou1jOosjhLAjs
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    cKqXlQe1Eq0jkEhF:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: cKqXlQe1Eq0jkEhF
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    v0wuzdIe2AjBLF09:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: v0wuzdIe2AjBLF09
+      sort: 500000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    4VY7FnSq3vwGSv9X:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 4VY7FnSq3vwGSv9X
+      sort: 600000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    z6UXWLfi8WVKDdUh:
+      type: forward
+      name: Speak with Animals
+      _id: z6UXWLfi8WVKDdUh
+      sort: 150000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: 7CTev48ykWK0FvJJ
+      img: ''
+    53jsSMGw4stRm7FG:
+      type: forward
+      name: Animal Messenger
+      _id: 53jsSMGw4stRm7FG
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: 1HLou1jOosjhLAjs
+      img: ''
+    q7DHfgoMHBexVro9:
+      type: forward
+      name: Alter Self
+      _id: q7DHfgoMHBexVro9
+      sort: 450000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: cKqXlQe1Eq0jkEhF
+      img: ''
+    7ZcCwVlpGJMLN7Ws:
+      type: forward
+      name: Enlarge/Reduce
+      _id: 7ZcCwVlpGJMLN7Ws
+      sort: 550000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: v0wuzdIe2AjBLF09
+      img: ''
+    khEzQbYZS8KSgNi0:
+      type: forward
+      name: Polymorph
+      _id: khEzQbYZS8KSgNi0
+      sort: 700000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: 4VY7FnSq3vwGSv9X
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -128,9 +462,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317522945
-  modifiedTime: 1727317522945
+  modifiedTime: 1731615542936
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 65600000

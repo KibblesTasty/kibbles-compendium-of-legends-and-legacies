@@ -1,0 +1,113 @@
+name: Iron Incarceration
+type: feat
+_id: VozIhCcOfrdzQvyQ
+img: icons/magic/control/debuff-chains-ropes-net-white.webp
+system:
+  activities:
+    ZmDxTZcZgD1G43UA:
+      type: save
+      _id: ZmDxTZcZgD1G43UA
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+        value: '@scale.warden.primal-interdiction-radius'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '@scale.warden.primal-interdiction-radius'
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 14th level, as bonus action, you can force all Large or
+      smaller creatures of your choice within range of your primal Interdiction
+      to make a Dexterity saving throw against 8 + your Strength or Wisdom
+      modifier (your choice) + your Proficiency bonus. On failure, they are
+      grappled by chains as per your Binding Interdiction feature. Chains
+      created by this feature do not count against your maximum number of
+      chains. You can choose to pull creatures that fail their saving throw to
+      the closest available space to you when they fail their save. </p><p>Once
+      you use this feature, you cannot use it again until you complete a short
+      or long rest.</p>
+    chat: ''
+  identifier: iron-incarceration
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731621529729
+  modifiedTime: 1731622549486
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!VozIhCcOfrdzQvyQ'
+

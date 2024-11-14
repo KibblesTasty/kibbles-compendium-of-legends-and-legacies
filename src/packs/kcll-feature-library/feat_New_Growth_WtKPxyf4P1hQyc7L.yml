@@ -30,84 +30,100 @@ system:
     value: >-
       <p>Starting at 17th level, as an action, you can cause a tree to sprout
       from the ground at a point within 30 feet of you that morphs into a
-      tree-like-clone of you. It shares all of your statistics and abilities,
-      and is under your control, but has its own actions. It is under your
-      control, and acts immediately after you in initiative.</p>
-
-      <p>It has hit points equal to half your maximum hit points. It is in Tree
-      Form, and cannot end the effect of that ability. It lasts for 1 minute, or
-      until it is reduced to 0 hit points. If you die while it exists, you
-      become the tree clone, after which you can end the Tree Form as
-      normal.</p>
-
-      <p>Once you use this feature, you cannot use it again until you complete a
-      long rest.</p>
+      tree-like-clone of you. It copies all of your statistics and abilities,
+      besides any that recharge on long rest (such as this one) which it does
+      not have access to, and is under your control, but has its own actions and
+      acts immediately after you in initiative.</p><p>It has hit points equal to
+      half your maximum hit points. It is in your Primeval Guardian form, and
+      cannot end the effect of that ability. It lasts for 1 minute, or until it
+      is reduced to 0 hit points. If you die while it exists, you become the
+      clone, after which you can end the Primeval Guardian as normal.</p><p>Once
+      you use this feature, you cannot use it again until you complete a long
+      rest.</p>
     chat: ''
   source:
     custom: Elderheart
     revision: 1
     rules: '2014'
   uses:
-    max: ''
-    recovery: []
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
     spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Elderheart 18
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    N7cD9A3WSVruUsaj:
+      type: summon
+      _id: N7cD9A3WSVruUsaj
+      sort: 0
       activation:
         type: action
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
+        units: minute
         concentration: false
-        units: ''
-        special: ''
         override: false
+        value: '1'
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: ft
+        special: ''
+        value: '30'
       target:
         template:
-          count: ''
           contiguous: false
-          type: radius
-          size: '5'
-          width: ''
-          height: ''
           units: ft
+          type: ''
         affects:
+          choice: false
           count: ''
           type: ''
-          choice: false
-          special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        proficiency: false
+        saves: false
+        ability: ''
+      profiles: []
+      summon:
+        prompt: true
+        mode: ''
+        identifier: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: new-growth
   enchant: {}
   prerequisites:
@@ -118,9 +134,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317508366
-  modifiedTime: 1727317508366
+  modifiedTime: 1731616039834
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 41900000

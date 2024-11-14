@@ -7,17 +7,16 @@ system:
       <p>Additionally when you select this bond, you gain access to several
       innate magical abilities by channeling the power of your primal
       connection.</p><p>You gain the following spells at the listed levels, and
-      can cast each spell once without components or spell slots. Wisdom is your
-      spellcasting modifier for these spells. Once you cast a spell, you cannot
-      cast that spell again until you complete a long rest, or expend endurance
-      dice equal to the level of the spell to cast it
-      again.</p><table><tbody><tr><th>Warden Level</th><th>Innate Spells (1/long
-      rest
-      each)</th></tr><tr><td>1</td><td>@UUID[Compendium.dnd5e.spells.ge3Saet9zPTDyaoL]{Heroism}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells.7buEm5KhI5lP8m1z]{Guiding
-      Bolt}</td></tr><tr><td>5</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.WoLHo6hfMqljwf6z]{Blazing
-      Beacon}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells.BP3GCwa66IAw1yTG]{Daylight}</td></tr><tr><td>13</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.kAdgqzFDRQ3avk61]{Brilliant
-      Blade}</td></tr><tr><td>17</td><td>@UUID[Compendium.kibbles-casting-compendium.kibbles-casting-compendium.3Qocq042q6vRxCTB]{Heavenly
-      Ray}</td></tr></tbody></table>
+      can cast each spell once without components or spell slots. Once you cast
+      the spell in this way, you cannot cast it again until you complete a long
+      rest. Wisdom is your spellcasting modifier for these spells. You can cast
+      a spell again before completing a long rest by spending 1 + the level of
+      the spell Endurance Dice.</p><table><thead><tr><th>Warden
+      Level</th><th>Innate Spells (1/long rest
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.ge3Saet9zPTDyaoL]{heroism}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.7buEm5KhI5lP8m1z]{guiding
+      bolt}</td></tr><tr><td>5th</td><td>blazing
+      beacon</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{daylight}</td></tr><tr><td>13th</td><td>brilliant
+      blade</td></tr><tr><td>17th</td><td>heavenly ray</td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -31,7 +30,247 @@ system:
     subtype: ''
   requirements: Sunwatcher 1
   identifier: innate-magic-sunwatcher
-  activities: {}
+  activities:
+    1zBfvD3EgIvYKwAs:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.ge3Saet9zPTDyaoL
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 1zBfvD3EgIvYKwAs
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    N97cteP1lhUjxEya:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.7buEm5KhI5lP8m1z
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: N97cteP1lhUjxEya
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    zYyFZ15vyTyktdVM:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: zYyFZ15vyTyktdVM
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    KNkiWl2JEeojaPUs:
+      type: forward
+      _id: KNkiWl2JEeojaPUs
+      sort: 150000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: 1zBfvD3EgIvYKwAs
+      name: Heroism
+      img: ''
+    Rl3J3ANbabszxu3L:
+      type: forward
+      name: Guiding Bolt
+      _id: Rl3J3ANbabszxu3L
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: N97cteP1lhUjxEya
+      img: ''
+    KIlOdJxDyyMqQpON:
+      type: forward
+      name: Daylight
+      _id: KIlOdJxDyyMqQpON
+      sort: 600000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: zYyFZ15vyTyktdVM
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -45,14 +284,18 @@ flags:
       value: true
   core:
     sourceId: Item.uBND573Ph6Us1UAM
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.uBND573Ph6Us1UAM
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317513283
-  modifiedTime: 1727317513283
+  modifiedTime: 1731623482750
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 49500000

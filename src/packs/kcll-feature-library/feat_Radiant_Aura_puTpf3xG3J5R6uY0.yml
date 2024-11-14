@@ -7,14 +7,15 @@ system:
       <p>Additionally at 3rd level, your Primal Interdiction is filled with
       bright light, and it casts dim light for an additional radius equal to the
       radius of your Primal Interdiction. This light is difficult to quench, and
-      counts as a spell equal to half your Warden level (rounded down) for the
-      purposes of countering magical darkness. You can dim, extinguish, or
-      relight this light at any time, no action required.</p><p>Creatures inside
-      your Primal Interdiction remain comfortably warm, ignoring the effects of
-      cold weather, or heat caused by the sun (though other sources of heat may
-      still cause discomfort, such as lava). You and all friendly creatures
-      within range of Primal Interdiction can apply the damage reduction of your
-      Mystic Bulwark to cold and necrotic damage.</p>
+      counts as a spell equal to half your Warden level (rounded down)
+      ([[floor(@classes.warden.levels / 2)]]) for the purposes of countering
+      magical darkness. You can dim, extinguish, or relight this light at any
+      time, no action required.</p><p>Creatures inside your Primal Interdiction
+      remain comfortably warm, ignoring the effects of cold weather, or heat
+      caused by the sun (though other sources of heat may still cause
+      discomfort, such as lava). You and all friendly creatures within range of
+      Primal Interdiction can apply the damage reduction of your Mystic Bulwark
+      to cold and necrotic damage.</p>
     chat: ''
   source:
     rules: '2014'
@@ -33,7 +34,48 @@ system:
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Radiant Aura
+    img: icons/magic/light/explosion-beam-impact-silhouette.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.puTpf3xG3J5R6uY0
+    _id: xB9sn6KB3oZpPm9K
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.cold
+        mode: 2
+        value: '@scale.warden.bulwark-reduction'
+        priority: null
+      - key: system.traits.dm.amount.necrotic
+        mode: 2
+        value: '@scale.warden.bulwark-reduction'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731620354348
+      modifiedTime: 1731620382851
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!puTpf3xG3J5R6uY0.xB9sn6KB3oZpPm9K'
 flags:
   rsr5e:
     quickDesc:
@@ -47,9 +89,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317521970
-  modifiedTime: 1727317521970
+  modifiedTime: 1731620327170
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 64000000

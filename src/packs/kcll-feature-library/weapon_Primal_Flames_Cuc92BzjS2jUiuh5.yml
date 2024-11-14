@@ -1,43 +1,7 @@
-name: Stone Fist (Offhand)
+name: Primal Flames
 type: weapon
-img: icons/magic/earth/strike-fist-stone-light.webp
-effects:
-  - _id: tjMQC1leTINn6R7m
-    changes:
-      - key: system.attributes.ac.bonus
-        mode: 2
-        value: '+1'
-        priority: 20
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    origin: Compendium.world.kibbles-warden.10U2GcuUQqpd8a26
-    transfer: true
-    flags: {}
-    tint: '#ffffff'
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    name: Stone Fist AC
-    img: icons/magic/earth/strike-fist-stone-light.webp
-    type: base
-    system: {}
-    description: ''
-    statuses: []
-    sort: 0
-    _key: '!items.effects!WEpSBkJa7H4nmrpq.tjMQC1leTINn6R7m'
+img: icons/magic/fire/flame-burning-fist-strike.webp
+effects: []
 flags:
   betterRolls5e:
     quickDesc:
@@ -72,17 +36,26 @@ flags:
       altValue:
         '0': true
   core:
-    sourceId: Item.EkvErk7GMHQ6G7DU
+    sourceId: Item.dLDnNmmqJNRpbbDQ
   dnd5e:
     riders:
       activity: []
       effect: []
 system:
   description:
-    value: "<p>A hardened limb of stone. This becomes a natural one handed melee weapon that deals 1d6 bludgeoning damage on hit, and has the Light and Special properties.</p>\n<p><strong>Special:</strong>\_You gain +1 to your AC while wielding this weapon.</p>"
+    value: >-
+      <p>You conjure flames around one of your hands. This becomes a one handed
+      natural melee weapon that deals 1d6 fire damage on hit, and has the Light,
+      Thrown (30/90), and Special properties. It sheds 20 feet of bright light
+      and an additional 20 feet of dim light while manifested.</p>
+
+      <p><strong>Special:</strong> This weapon counts as a free hand for the
+      purposes of grappling. When you succeed a grapple check with it, the
+      target takes 1d6 fire damage. When you throw it, the flames reignite in
+      your hand immediately.</p>
     chat: ''
   source:
-    custom: Stoneblood
+    custom: Elemental Soul
     revision: 1
     rules: '2014'
   quantity: 1
@@ -94,13 +67,13 @@ system:
     denomination: gp
   attunement: ''
   equipped: false
-  rarity: ''
+  rarity: common
   identified: true
   cover: null
   crewed: false
   range:
-    value: 5
-    long: null
+    value: 30
+    long: 90
     units: ft
     reach: null
   uses:
@@ -125,7 +98,7 @@ system:
       denomination: 6
       bonus: ''
       types:
-        - bludgeoning
+        - fire
       custom:
         enabled: false
         formula: ''
@@ -142,6 +115,8 @@ system:
     conditions: ''
   properties:
     - lgt
+    - spc
+    - thr
   proficient: 1
   unidentified:
     description: ''
@@ -172,7 +147,7 @@ system:
         override: false
       effects: []
       range:
-        value: '5'
+        value: '30'
         units: ft
         special: ''
         override: false
@@ -211,26 +186,82 @@ system:
         includeBase: true
         parts: []
       sort: 0
-  identifier: stone-fist-offhand
+    a7Nz08kdCJscJWBp:
+      type: damage
+      name: Grapple Damage
+      _id: a7Nz08kdCJscJWBp
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+  identifier: primal-flare
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
+  mastery: ''
 _stats:
-  compendiumSource: Item.EkvErk7GMHQ6G7DU
+  compendiumSource: Item.dLDnNmmqJNRpbbDQ
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317507773
-  modifiedTime: 1727317507773
+  systemVersion: 4.1.1
+  createdTime: 1727317495120
+  modifiedTime: 1731613390852
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 41000000
+sort: 20600000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: WEpSBkJa7H4nmrpq
-_key: '!items!WEpSBkJa7H4nmrpq'
+_id: Cuc92BzjS2jUiuh5
+_key: '!items!Cuc92BzjS2jUiuh5'
 

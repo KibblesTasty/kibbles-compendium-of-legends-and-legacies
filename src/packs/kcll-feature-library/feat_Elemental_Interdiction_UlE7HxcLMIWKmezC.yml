@@ -18,32 +18,28 @@ flags:
       altValue: true
   core:
     sourceId: Item.6Lsnga68CMWvAZRh
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 3rd level, your Primal Interdiction becomes a buffeting
       maelstrom of elemental power when you manifest an Elemental Weapon. The
       difficult terrain of your Primal Interdiction affects flying creatures
-      within range, and you can select one of the following effects.</p>
-
-      <ul>
-
-      <li><strong>Creeping Frost:</strong> Creatures that start their turn
-      within the area of your Primal Interdiction have their movement speed
-      reduced by 10 feet.</li>
-
-      <li><strong>Blazing Pyre:</strong> Fire burns fiercely around you,
-      creatures of your choice that start their turn within the area of your
-      Primal Interdiction take [[/r 1d6]] fire damage.</li>
-
-      <li><strong>Charged Field:</strong> Creatures of your choice take [[/r
-      1d4]] lightning damage for each 5 feet they move within the area of your
-      Primal Interdiction.</li>
-
-      </ul>
-
-      <p>The damage of the Blazing Pyre and Charged Field effects increases by
-      one additional die of damage at 11th level.</p>
+      within range, and you can select one of the following
+      effects.</p><ul><li><strong>Creeping Frost:</strong> Creatures that start
+      their turn within the area of your Primal Interdiction have their movement
+      speed reduced by 10 feet.</li><li><strong>Blazing Pyre:</strong> Fire
+      burns fiercely around you, creatures of your choice that start their turn
+      within the area of your Primal Interdiction take 1d6 fire
+      damage.</li><li><strong>Static Field:</strong> The first time a hostile
+      creatures moves 5 feet or more within your Primal Interdiction, they take
+      1d8 lightning damage. Once this damage occurs, it cannot occur again until
+      the start of your turn.</li></ul><p>The damage of the Blazing Pyre and
+      Charged Field effects increases by one additional die of damage at 11th
+      level (2d6 for Blazing Pyre, 2d8 for Charged Field).</p>
     chat: ''
   source:
     rules: '2014'
@@ -57,7 +53,121 @@ system:
     subtype: ''
   requirements: Elemental Soul 3
   identifier: elemental-interdiction
-  activities: {}
+  activities:
+    pjsG4w4C1oJtxNAO:
+      type: damage
+      name: Blazing Pyre
+      _id: pjsG4w4C1oJtxNAO
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scale.elemental-soul.ei-damage-dice)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    ysdHxaYIuZw5VSe4:
+      type: damage
+      name: Static Field
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scale.elemental-soul.ei-damage-dice)d8
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+      _id: ysdHxaYIuZw5VSe4
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -67,9 +177,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317506512
-  modifiedTime: 1727317506512
+  modifiedTime: 1731612172622
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 39100000

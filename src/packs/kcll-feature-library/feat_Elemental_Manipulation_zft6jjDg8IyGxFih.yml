@@ -21,10 +21,8 @@ flags:
 system:
   description:
     value: >-
-      <p>You learn two cantrips of your choice from the following list:<em>
-      create bonfire*, control flame*, light, lightning lure*, produce
-      flame</em>, or <em>shape water*</em>. Wisdom is your casting modifier for
-      these cantrips.</p>
+      <p>At 1st level, you learn the cantrips manipulate fire and manipulate
+      water.</p>
     chat: ''
     unidentified: ''
   source:
@@ -81,10 +79,10 @@ system:
   identifier: elemental-manipulation
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1678742719502
-  modifiedTime: 1727317483889
+  modifiedTime: 1731611132277
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.3n6ZETsxuQb7LZI9
   duplicateSource: null

@@ -23,86 +23,19 @@ system:
     value: >-
       <p>Additionally when you select this bond, you gain access to several
       innate magical abilities by channeling the power of your primal
-      connection.</p>
-
-      <p>You gain the following spells at the listed levels, and can cast each
-      spell once before without components or spell slots. Wisdom is your
-      spellcasting modifier for these spells. Once you cast a spell, you cannot
-      cast that spell again until you complete a long rest, or expend Endurance
-      Dice equal to the level of the spell to cast it again.</p>
-
-      <table border="1">
-
-      <tbody>
-
-      <tr>
-
-      <td style="text-align:center"><strong>Warden Level</strong></td>
-
-      <td style="text-align:center"><strong>Innate Spells (1/long rest
-      each)</strong></td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">1</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.ghbu1TflvlteVgjU]{Create
-      Pit}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">3</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.Augvc9zPdVDS3EY8]{Earth
-      Ripple}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">5</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.xA2DG0aEon2eBrgC]{Become
-      Stone}</td>
-
-      </tr>
-
-      <tr style="text-align:center">
-
-      <td>9</td>
-
-      <td>@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.D17eLX9Vo31FkUR7]{Quicksand}</td>
-
-      </tr>
-
-      <tr style="text-align:center">
-
-      <td>13</td>
-
-      <td>@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.bWVxxEn8KPH7RudB]{Stone
-      Coffin}</td>
-
-      </tr>
-
-      <tr style="text-align:center">
-
-      <td>17</td>
-
-      <td>@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.veeCIFelonGdrBQb]{Orbital
-      Stones}</td>
-
-      </tr>
-
-      </tbody>
-
-      </table>
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Once you cast
+      the spell in this way, you cannot cast it again until you complete a long
+      rest. Wisdom is your spellcasting modifier for these spells. You can cast
+      a spell again before completing a long rest by spending 1 + the level of
+      the spell Endurance Dice.</p><table><thead><tr><th>Warden
+      Level</th><th>Innate Spells (1/long rest
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>create
+      pit</td></tr><tr><td>3rd</td><td>earth
+      ripple</td></tr><tr><td>5th</td><td>become
+      stone</td></tr><tr><td>9th</td><td>quicksand</td></tr><tr><td>13th</td><td>stone
+      coffin</td></tr><tr><td>17th</td><td>orbital
+      stones</td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -126,9 +59,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317497852
-  modifiedTime: 1727317497852
+  modifiedTime: 1731616627257
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 24900000

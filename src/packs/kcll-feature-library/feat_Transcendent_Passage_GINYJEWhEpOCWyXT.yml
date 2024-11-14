@@ -9,26 +9,171 @@ system:
       line. You can pass through creatures and objects, but are blocked by
       obstructions that completely block light (such as solid opaque walls).
       This movement does not provoke attacks of opportunity.</p><p>Hostile
-      creatures of your choice in your path must make a Dexterity saving throw.
-      On failure, they take 2d6 fire damage, 2d6 radiant damage, and are blinded
-      until the start of your next turn. On a success, they take half as much
-      damage and are not blinded. Allied creatures of your choice in your path
-      gain 4d6 temporary hit points.</p><p>Once you use this ability, you cannot
-      use it again until you complete a short or long rest.</p>
+      creatures of your choice in your path must make a Dexterity saving throw
+      against 8 + your Strength or Wisdom modifier (your choice) + your
+      proficiency bonus. On failure, they take 2d6 fire damage, 2d6 radiant
+      damage, and are &amp;Reference[blinded] until the start of your next turn.
+      On a success, they take half as much damage and are not blinded. Allied
+      creatures of your choice in your path gain 4d6 temporary hit points. Once
+      you use this ability, you cannot use it again until you complete a short
+      or long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: sr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Sunwatcher 14
   identifier: transcendent-passage
-  activities: {}
+  activities:
+    HM9iNgWYszpkpqae:
+      type: save
+      _id: HM9iNgWYszpkpqae
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+        value: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: line
+          size: '60'
+          width: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: enemy
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: str
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    CzQCvqqUmSiuxf2a:
+      type: heal
+      _id: CzQCvqqUmSiuxf2a
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: line
+          size: '60'
+          width: ''
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 4
+        denomination: '6'
+        types:
+          - temphp
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -42,14 +187,18 @@ flags:
       value: true
   core:
     sourceId: Item.gwtUQcEIP6ItbQoe
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.gwtUQcEIP6ItbQoe
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317497511
-  modifiedTime: 1727317497511
+  modifiedTime: 1731620635521
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 24400000

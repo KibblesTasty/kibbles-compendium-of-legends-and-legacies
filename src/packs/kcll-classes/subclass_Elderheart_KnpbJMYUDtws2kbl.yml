@@ -5,13 +5,109 @@ _id: KnpbJMYUDtws2kbl
 img: icons/magic/nature/root-vines-entwined-leaves.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Rooted in the ancient growth of the world, these Wardens are linked to
+      a primordial untamed aspect of the world. Their vines lash and bind,
+      inexorably dragging their enemies to the conclusion of their place in the
+      natural cycle of life and death.</p>
     chat: ''
   identifier: elderheart
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: Fh23lYzDsZXt9Lg9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.R4tJexI6p6xAPVtl
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Y3f5Q2YlBTU0z9uN
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.gbBklHC2bOEXcunB
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warden Bond Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.xKMFB7vc4GNiWk1X
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5pcWzy6a8ZW6q7uz
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warden Bond Feature
+      hint: ''
+      _id: ylN6qWZ6DJlrRY2R
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.31esqQtUw6oVqkPb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warden Bond Feature
+      hint: ''
+      _id: Pgp2frzuM817lFmD
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qXnbv3WO2HotjWhI
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UdwBw4Jvw63tZdHh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Warden Bond Feature
+      hint: ''
+      _id: 1uanZ27fiiONi6A5
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.WtKPxyf4P1hQyc7L
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Warden Bond Feature
+      hint: ''
+      _id: Q6BObpQhf3saFXtG
+    - _id: jjSYanp6YVOgBTdY
+      type: ScaleValue
+      configuration:
+        identifier: si-damage-dice
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 1
+          '11':
+            value: 2
+      value: {}
+      title: Spiked Interdiction Damage Dice
+      hint: ''
   classIdentifier: warden
   spellcasting:
     progression: none
@@ -29,9 +125,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046448204
-  modifiedTime: 1731433704575
+  modifiedTime: 1731615963814
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!KnpbJMYUDtws2kbl'
 

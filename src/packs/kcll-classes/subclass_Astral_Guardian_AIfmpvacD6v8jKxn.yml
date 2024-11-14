@@ -11,7 +11,57 @@ system:
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: Fh23lYzDsZXt9Lg9
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warden Bond Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warden Bond Feature
+      hint: ''
+      _id: ylN6qWZ6DJlrRY2R
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warden Bond Feature
+      hint: ''
+      _id: Pgp2frzuM817lFmD
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Warden Bond Feature
+      hint: ''
+      _id: 1uanZ27fiiONi6A5
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Warden Bond Feature
+      hint: ''
+      _id: Q6BObpQhf3saFXtG
   classIdentifier: warden
   spellcasting:
     progression: none
@@ -29,9 +79,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046501001
-  modifiedTime: 1729046503202
+  modifiedTime: 1731610587387
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!AIfmpvacD6v8jKxn'
 

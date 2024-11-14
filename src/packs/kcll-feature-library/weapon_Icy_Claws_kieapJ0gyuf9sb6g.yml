@@ -47,12 +47,13 @@ system:
   description:
     value: >-
       <p>You conjure icy claws that grow forth from one of your hands. This
-      becomes a one handed natural melee weapon that deals 1d4 slashing damage
-      and 1d4 cold damage on hit, and has the Light and Special properties.</p>
-
-      <p><strong>Special:</strong> This weapon counts as a free hand for the
-      purposes of grappling. When you succeed a grapple check with it, the
-      target takes 1d6 cold damage.</p>
+      becomes a one handed natural melee weapon that deals 1d6 slashing or cold
+      damage on hit (your choice), and has the Light and Special properties. If
+      the damage die is increased to a d8, it instead becomes 1d4 slashing and
+      1d4 cold damage. You choose which damage type to add your modifier to when
+      you deal damage.</p><p><strong>Special:</strong> This weapon counts as a
+      free hand for the purposes of grappling. When you succeed a grapple check
+      with it, the target takes 1d6 cold damage.</p>
     chat: ''
   source:
     custom: Elemental Soul
@@ -99,6 +100,7 @@ system:
       bonus: ''
       types:
         - cold
+        - slashing
       custom:
         enabled: false
         formula: ''
@@ -120,7 +122,7 @@ system:
   unidentified:
     description: ''
   type:
-    value: simpleM
+    value: natural
     baseItem: ''
   activities:
     dnd5eactivity000:
@@ -184,19 +186,75 @@ system:
         includeBase: true
         parts: []
       sort: 0
+    5cKbrB9AR3fw9iL3:
+      type: damage
+      name: Grapple Damage
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              number: 1
+      _id: 5cKbrB9AR3fw9iL3
+      img: ''
+      appliedEffects: []
   identifier: icy-claws
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
+  mastery: ''
 _stats:
   compendiumSource: Item.TYCDc2MsiFBrQwe3
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317518108
-  modifiedTime: 1727317518108
+  modifiedTime: 1731613467497
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57500000

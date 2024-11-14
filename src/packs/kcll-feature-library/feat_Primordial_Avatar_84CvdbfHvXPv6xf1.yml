@@ -1,7 +1,40 @@
 name: Primordial Avatar
 type: feat
 img: icons/magic/earth/construct-stone.webp
-effects: []
+effects:
+  - name: Primordial Avatar
+    img: icons/magic/earth/construct-stone.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.84CvdbfHvXPv6xf1
+    transfer: false
+    _id: M5jLNSwy2La1dTva
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731617335715
+      modifiedTime: 1731617348350
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!84CvdbfHvXPv6xf1.M5jLNSwy2La1dTva'
 flags:
   betterRolls5e:
     quickDesc:
@@ -26,40 +59,29 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 17th level, as an action you draw on the strength of the
-      world beneath your feet to become an embodiment of its power for 1 minute.
-      If you start your turn in contact with the ground you gain the following
-      benefits:</p>
-
-      <ul>
-
-      <li>You have advantage on Strength checks and saving throws.</li>
-
-      <li>You regain hit points equal to your Warden level.</li>
-
-      <li>Creatures lose their flying speed in range of your Primal
-      Interdiction.</li>
-
-      <li>If you are targeted by a magic missile, a line spell, or a spell that
-      requires a ranged attack roll, roll a d6. On a 4-5 you are uneffected. On
-      a 6, you are uneffected and the effect is reflected back at the caster as
-      though it originized from you, turning the cast into the target.</li>
-
-      <li>You can add number of bonus dice to your Seismic Reverberation pool
-      equal to your proficiency bonus, up to a maximum of of your Warden
-      level.</li>
-
-      </ul>
-
-      <p>Once you use this feature, you cannot use it again until you complete a
-      long rest.</p>
+      <p>Starting at 17th level, as an action you can draw on the strength of
+      the world beneath your feet to become an embodiment of its power for 1
+      minute. If you start your turn in contact with the ground you gain the
+      following benefits:</p><ul><li><strong>Strength Advantage.</strong> You
+      have advantage on Strength checks and saving
+      throws.</li><li><strong>Endless Vitality.</strong> You regain hit points
+      equal to half your Warden level (rounded down).</li><li><strong>Call of
+      the Earth.</strong> Creatures lose their flying speed in range of your
+      Primal Interdiction.</li><li><strong>Reflective Carapace</strong>. If you
+      are targeted by a magic missile, a line spell, or a spell that requires a
+      ranged attack roll, roll a d6. On a 4–5 you are unaffected. On a 6, you
+      are unaffected and the effect is reflected back at the caster as though it
+      originated from you, turning the cast into the
+      target.</li><li><strong>Empowered Backlash.</strong> You add a bonus die
+      to your Seismic Backlash pool.</li></ul><p>Once you use this feature, you
+      cannot use it again until you complete a long rest.</p>
     chat: ''
   source:
     custom: Stoneblood
     revision: 1
     rules: '2014'
   uses:
-    max: ''
+    max: '1'
     recovery: []
     spent: 0
   type:
@@ -76,7 +98,11 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -89,7 +115,8 @@ system:
         units: minute
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: M5jLNSwy2La1dTva
       range:
         units: self
         special: ''
@@ -115,11 +142,68 @@ system:
         max: ''
         recovery: []
       roll:
-        formula: ''
-        name: ''
+        formula: 1d6
+        name: Reflective Carapace
         prompt: false
         visible: false
       sort: 0
+      name: Strength of the World
+      img: ''
+      appliedEffects: []
+    R198ig1T1RUlHfey:
+      type: heal
+      name: Endless Vitality
+      _id: R198ig1T1RUlHfey
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: floor(@classes.warden.levels / 2)
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
   identifier: primordial-avatar
   enchant: {}
   prerequisites:
@@ -130,9 +214,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317490826
-  modifiedTime: 1727317490826
+  modifiedTime: 1731617408055
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 14100000

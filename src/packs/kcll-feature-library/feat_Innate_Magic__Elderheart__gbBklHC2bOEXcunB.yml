@@ -18,94 +18,29 @@ flags:
       altValue: true
   core:
     sourceId: Item.CQNuADrZ1Tv13Ijz
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Additionally when you select this bond, you gain access to several
       innate magical abilities by channeling the power of your primal
-      connection.</p>
-
-      <p>You gain the following spells at the listed levels, and can cast each
-      spell once before without components or spell slots. Wisdom is your
-      spellcasting modifier for these spells. Once you cast a spell, you cannot
-      cast that spell again until you complete a long rest, or expend Endurance
-      Dice equal to the level of the spell to cast it again.</p>
-
-      <table border="1">
-
-      <tbody>
-
-      <tr>
-
-      <td style="text-align:center"><strong>Warden Level</strong></td>
-
-      <td style="text-align:center"><strong>Innate Spells (1/long rest
-      each)</strong></td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">1st</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.3ekUpTBRLqfXlOB4]{Grasping
-      Roots}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">3rd</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">5th</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.2VXGS206tuChoeXy]{Speak
-      with Plants}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">9th</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.YWtwzp6ZnQJMEmVW]{Plant
-      Growth}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">13th</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.8VhAQIgBygVBgYfz]{Summon
-      Plant}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">17th</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.ALPKh8YIjgSCmpDe]{Carnivorous
-      Garden}</td>
-
-      </tr>
-
-      </tbody>
-
-      </table>
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Once you cast
+      the spell in this way, you cannot cast it again until you complete a long
+      rest. Wisdom is your spellcasting modifier for these spells. You can cast
+      a spell again before completing a long rest by spending 1 + the level of
+      the spell Endurance Dice.</p><table><thead><tr><th><p>Warden
+      Level</p></th><th><p>Innate Spells (1/long rest
+      each)</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>Grasping
+      Roots</p></td></tr><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.2VXGS206tuChoeXy]{Speak
+      with
+      Plants}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[dnd5e.spells.YWtwzp6ZnQJMEmVW]{Plant
+      Growth}</p></td></tr><tr><td><p>13th</p></td><td><p>Summon
+      Plant</p></td></tr><tr><td><p>17th</p></td><td><p>Carnivorous
+      Garden</p></td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -119,7 +54,247 @@ system:
     subtype: ''
   requirements: Elderheart 1
   identifier: innate-magic-elderheart
-  activities: {}
+  activities:
+    hB6lBSA6IrrVaAd7:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: hB6lBSA6IrrVaAd7
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    JvA6Iy89OsOSJP9x:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: JvA6Iy89OsOSJP9x
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    HpTzm2C12XEFlaB8:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: HpTzm2C12XEFlaB8
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    EcGLO2r18amtl7Ao:
+      type: forward
+      name: Entangle
+      _id: EcGLO2r18amtl7Ao
+      sort: 150000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: hB6lBSA6IrrVaAd7
+      img: ''
+    UZcHFylfFQMrLNz7:
+      type: forward
+      name: Speak with Plants
+      _id: UZcHFylfFQMrLNz7
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: JvA6Iy89OsOSJP9x
+      img: ''
+    C1iIZzu8ocUQQbyh:
+      type: forward
+      name: Plant Growth
+      _id: C1iIZzu8ocUQQbyh
+      sort: 500000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: HpTzm2C12XEFlaB8
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -129,9 +304,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317515584
-  modifiedTime: 1727317515584
+  modifiedTime: 1731615517393
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53300000

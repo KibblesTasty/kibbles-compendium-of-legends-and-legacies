@@ -5,14 +5,15 @@ system:
   description:
     value: >-
       <p>At 1st level, you gain the ability to gather and release fiery radiant
-      power from your hands. Radiant Blasts are a ranged natural weapon attack
-      with a normal range of 60 feet, and a long range of 120 feet, that deal
-      1d6 fire or radiant damage (your choice). If the damage die increases to
-      1d8 (through Warden features that increase the damage of your natural
-      weapons), the damage becomes 1d4 fire damage and 1d4 radiant damage. You
-      choose which damage type to add your modifier to when you deal damage. You
-      can use your Strength or Wisdom (your choice) in place of your Dexterity
-      for the attack and damage rolls of this ability.</p>
+      power from your hands or a weapon you are wielding. Radiant Blasts are a
+      ranged natural weapon attack with a normal range of 60 feet, and a long
+      range of 120 feet, that deal 1d6 fire or radiant damage (your choice). If
+      the damage die increases to 1d8 (through Warden features that increase the
+      damage of your natural weapons), the damage becomes 1d4 fire damage and
+      1d4 radiant damage. You choose which damage type to add your modifier to
+      when you deal damage. You can use your Strength or Wisdom (your choice) in
+      place of your Dexterity for the attack and damage rolls of this
+      ability.</p>
     chat: ''
   source:
     rules: '2014'
@@ -26,7 +27,76 @@ system:
     subtype: ''
   requirements: Sunwatcher 1
   identifier: radiant-blast
-  activities: {}
+  activities:
+    si1jTcx9BzPXBFn4:
+      type: attack
+      name: Radiant Blast
+      _id: si1jTcx9BzPXBFn4
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        ability: str
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+              - radiant
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -40,14 +110,18 @@ flags:
       value: true
   core:
     sourceId: Item.d5XwwrJjp7tJk3a3
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.d5XwwrJjp7tJk3a3
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317508476
-  modifiedTime: 1727317508476
+  modifiedTime: 1731620024551
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 42100000

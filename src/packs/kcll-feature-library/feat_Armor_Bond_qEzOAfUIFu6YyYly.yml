@@ -15,15 +15,75 @@ system:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: sr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Ironbound 1
   identifier: armor-bond
-  activities: {}
+  activities:
+    1Y2tK1s4c2uOEcSv:
+      type: heal
+      _id: 1Y2tK1s4c2uOEcSv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 1
+        denomination: '8'
+        types:
+          - temphp
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          number: 1
+        bonus: '@classes.warden.levels'
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -37,14 +97,18 @@ flags:
       value: true
   core:
     sourceId: Item.rNDyo9dCv7DE8wDf
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.rNDyo9dCv7DE8wDf
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317522206
-  modifiedTime: 1727317522206
+  modifiedTime: 1731621683454
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 64400000

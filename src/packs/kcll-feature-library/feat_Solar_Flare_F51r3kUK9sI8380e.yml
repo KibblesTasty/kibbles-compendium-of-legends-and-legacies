@@ -4,13 +4,12 @@ img: icons/magic/light/beam-explosion-orange.webp
 system:
   description:
     value: >-
-      <p>At 3rd level, when you expend an endurance die to block damage, you can
-      cause a brilliant flare of blinding light, targeting either the creature
-      that caused the damage or all creatures in your Primal Interdiction range.
-      Targets must make a Constitution saving throw with a DC of 8 + your
-      Constitution modifier + your proficiency bonus, or become blinded until
-      the start of their next turn. If a target is invisible, it is revealed
-      until the start of the next turn.</p>
+      <p>At 3rd level, when you expend an Endurance Die to block damage, you can
+      cause a brilliant flare of blinding light. The attacker must make a
+      Constitution saving throw with a DC of 8 + your Constitution modifier +
+      your proficiency bonus, or become &amp;Reference[blinded] until the start
+      of their next turn. Pass or fail, if the target is invisible, it is
+      revealed until the start of their next turn.</p>
     chat: ''
   source:
     rules: '2014'
@@ -24,7 +23,59 @@ system:
     subtype: ''
   requirements: Sunwatcher 3
   identifier: solar-flare
-  activities: {}
+  activities:
+    Twpq3vzKYy9ApnKn:
+      type: save
+      _id: Twpq3vzKYy9ApnKn
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: con
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -38,14 +89,18 @@ flags:
       value: true
   core:
     sourceId: Item.LKcFln95kHnXbp8r
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.LKcFln95kHnXbp8r
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317496449
-  modifiedTime: 1727317496449
+  modifiedTime: 1731620070751
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 22700000

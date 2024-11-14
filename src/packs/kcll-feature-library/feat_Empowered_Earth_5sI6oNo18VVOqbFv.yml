@@ -21,13 +21,12 @@ flags:
 system:
   description:
     value: >-
-      <p>You gain the<em>
-      </em>@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.RgDGLW8ar5aLCXsF]{Stone
-      Forming}<em>, magic stone*, and mold earth*</em> cantrips. When you use
-      stone forming, you can meld any weapon created that you have proficiency
-      with with your Stone Fists, adding its properties (other than thrown) and
-      damage type to one of Stone Fist. You cannot grapple a creature with your
-      Stone Fist while it is transmuted in this way.</p>
+      <p>At 1st level, you gain the manipulate earth and stone forming cantrips.
+      When you use stone forming, you can meld any one handed weapon created
+      with it with your Stone Fists, giving you proficiency in that weapon and
+      replacing Stone Fist’s properties (including Special property) with the
+      created weapon’s damage dice, damage type, and any properties (beside
+      thrown).</p>
     chat: ''
   source:
     rules: '2014'
@@ -51,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317489236
-  modifiedTime: 1727317489236
+  modifiedTime: 1731616558046
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 11600000

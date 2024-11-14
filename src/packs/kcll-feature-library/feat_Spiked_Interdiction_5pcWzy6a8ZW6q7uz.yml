@@ -35,10 +35,9 @@ system:
     value: >-
       <p>Additionally at 3rd level, the difficult terrain caused by your Primal
       Interdiction becomes overgrown with spiky thorns. Creatures of your choice
-      take [[/r 1d4]] piercing damage for each 5 feet they move within your
-      Primal Interdiction.</p>
-
-      <p>This damage increases to [[/r 2d4]] piercing damage at 11th level.</p>
+      take 1d4 piercing damage for each 5 feet they move within your Primal
+      Interdiction.</p><p>This damage increases to 2d4 piercing damage at 11th
+      level.</p>
     chat: ''
   source:
     custom: Elderheart
@@ -71,12 +70,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -104,19 +103,20 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: 1
+          - custom:
+              enabled: true
+              formula: (@scale.elderheart.si-damage-dice)d4
+            number: 1
             denomination: 4
             bonus: ''
             types:
               - piercing
-            custom:
-              enabled: false
-              formula: ''
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: spiked-interdiction
   enchant: {}
   prerequisites:
@@ -127,9 +127,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317489105
-  modifiedTime: 1727317489105
+  modifiedTime: 1731615680705
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 11400000

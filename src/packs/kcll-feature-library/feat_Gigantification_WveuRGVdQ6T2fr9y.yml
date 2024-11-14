@@ -7,18 +7,18 @@ effects:
       - key: system.bonuses.mwak.damage
         mode: 2
         value: +1d8
-        priority: 20
+        priority: null
       - key: system.attributes.movement.walk
         mode: 2
         value: '+20'
-        priority: 20
+        priority: null
       - key: system.traits.size
         mode: 5
         value: huge
-        priority: 50
+        priority: null
     disabled: true
     duration:
-      rounds: 1
+      rounds: 10
       startTime: null
       seconds: null
       combat: null
@@ -26,7 +26,7 @@ effects:
       startRound: null
       startTurn: null
     origin: Item.G6XoWLGp8WEzUAzr
-    transfer: true
+    transfer: false
     flags: {}
     tint: '#ffffff'
     _stats:
@@ -36,8 +36,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1731614766813
+      lastModifiedBy: pJeIW7qCa0HkURWq
     name: Gigantification
     img: icons/creatures/magical/construct-iron-stomping-yellow.webp
     type: base
@@ -76,36 +76,29 @@ system:
   description:
     value: >-
       <p>Starting at 17th level, as a bonus action or when you manifest your
-      bestial claws, you can unleash the bestial power within swelling to
+      bestial claws, you can unleash the bestial power within, swelling to
       massive size. You become Large or Huge (your choice) for 1 minute. Upon
       transforming, you gain temporary hit points equal to half of your maximum
       hit points. For the duration of your transformation, you gain the
-      following benefits:</p>
-
-      <ul>
-
-      <li>Your natural weapons deal an additional die of damage.</li>
-
-      <li>You have advantage on all grappling checks against creatures smaller
-      than you.</li>
-
-      <li>Your reach increases by 5 feet with all weapons.</li>
-
-      <li>Your movement speed increases by 20 feet.</li>
-
-      <li>The distance you can long or high jump with a running start.</li>
-
-      <li>You have advantage on Strength and Constitution saving throws.</li>
-
-      </ul>
-
-      <p>Additionally while in this form, when you make an attack, you can throw
-      medium or small objects or creatures you are holding with a range of
-      50/100. On hit, both the target and the thrown creature or object takes
-      3d6 + your Strength modifier damage.</p>
-
-      <p>Once you use this feature, you cannot use it again until you complete a
-      long rest.</p>
+      following benefits:</p><ul><li><strong>Bonus Damage.</strong> Your natural
+      weapons deal an additional die of damage.</li><li><strong>Grappling
+      Advantage.</strong> You have advantage on all checks to grapple creatures
+      smaller than you.</li><li><strong>Reach.</strong> Your reach increases by
+      5 feet with all weapons.</li><li><strong>Faster Movement.</strong> Your
+      movement speed increases by 20 feet.</li><li><strong>Jumping
+      Distance.</strong> The distance you can long or high jump with a running
+      start is doubled.</li><li><strong>Saving Throws.</strong> You have
+      advantage on Strength and Constitution saving
+      throws.</li><li><strong>Throwing Things.</strong> While in this form, when
+      you make an attack, you can throw Medium or Small objects or creatures you
+      are holding with a range of 50/100 feet. You have proficiency with this
+      attack, regardless of what you are throwing. On hit, both the target and
+      the thrown creature or object takes 4d6 + your Strength modifier damage.
+      On miss, only the thrown creature or object takes the damage (this damage
+      is taken in place of any falling damage, unless they also fall vertical
+      distance as part of this movement, such as being thrown off a wall or
+      cliff).</li></ul><p>Once you use this feature, you cannot use it again
+      until you complete a long rest.</p>
     chat: ''
   source:
     custom: Beasthide
@@ -133,11 +126,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -150,7 +141,8 @@ system:
         units: minute
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: jSKLH1YAjgfccAfk
       range:
         units: self
         special: ''
@@ -181,6 +173,10 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Unleash Bestial Power
+      img: ''
+      appliedEffects:
+        - jSKLH1YAjgfccAfk
   identifier: gigantification
   enchant: {}
   prerequisites:
@@ -191,9 +187,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317508419
-  modifiedTime: 1727317508419
+  modifiedTime: 1731614748446
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 42000000

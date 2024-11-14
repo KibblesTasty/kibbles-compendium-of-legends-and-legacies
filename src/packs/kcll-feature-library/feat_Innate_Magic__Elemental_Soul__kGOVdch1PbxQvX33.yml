@@ -18,92 +18,29 @@ flags:
       altValue: true
   core:
     sourceId: Item.YpNwif3IhEk0djbx
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Additionally when you select this bond, you gain access to several
       innate magical abilities by channeling the power of your primal
-      connection.</p>
-
-      <p>You gain the following spells at the listed levels, and can cast each
-      spell once before without components or spell slots. Wisdom is your
-      spellcasting modifier. Once you cast a spell, you cannot cast that spell
-      again until you complete a long rest, or expend Endurance Dice equal to
-      the level of the spell to cast it again.</p>
-
-      <table border="1">
-
-      <tbody>
-
-      <tr>
-
-      <td style="text-align:center"><strong>Warden Level</strong></td>
-
-      <td style="text-align:center"><strong>Innate Spells (1/long rest
-      each)</strong></td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">1</td>
-
-      <td style="text-align:center">absorb elements*</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">3</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.njw1xQKxHYiMtbBF]{Entomb}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">5</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.K2daUPbGZom7mCBo]{Cold
-      Snap}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">9</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.dhqBY4TvVjxVmOZd]{Sleet
-      Storm}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">13</td>
-
-      <td
-      style="text-align:center">@Compendium[kibbles-casting-compendium.kibbles-casting-compendium.jfXMxFnbSNQROqUj]{Fire
-      Cyclone}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center">17</td>
-
-      <td
-      style="text-align:center">@Compendium[dnd5e.spells.avD5XUtkBPQQR97c]{Fire
-      Shield}</td>
-
-      </tr>
-
-      </tbody>
-
-      </table>
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Once you cast
+      the spell in this way, you cannot cast it again until you complete a long
+      rest. Wisdom is your spellcasting modifier for these spells. You can cast
+      a spell again before completing a long rest by spending 1 + the level of
+      the spell Endurance Dice.</p><table><thead><tr><th><p>Warden
+      Level</p></th><th><p>Innate Spells (1/long rest
+      each)</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>Aldricor's
+      elemental
+      rebuke</p></td></tr><tr><td><p>3</p></td><td><p>Entomb</p></td></tr><tr><td><p>5</p></td><td><p>Cold
+      Snap</p></td></tr><tr><td><p>9</p></td><td><p>@Compendium[dnd5e.spells.dhqBY4TvVjxVmOZd]{Sleet
+      Storm}</p></td></tr><tr><td><p>13</p></td><td><p>Fire
+      Cyclone</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire
+      Shield}</p></td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -117,7 +54,170 @@ system:
     subtype: ''
   requirements: Elemental Soul 1
   identifier: innate-magic-elemental-soul
-  activities: {}
+  activities:
+    vNVjhwUR66mtyifN:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: vNVjhwUR66mtyifN
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    W3hiWd8SsaeF8CWl:
+      type: forward
+      _id: W3hiWd8SsaeF8CWl
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      activity:
+        id: vNVjhwUR66mtyifN
+      name: Sleet Storm
+      img: ''
+    qDUOfzmMJBvOolyE:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: qDUOfzmMJBvOolyE
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    x767QUbMXBern4lz:
+      type: forward
+      name: Fire Shield
+      _id: x767QUbMXBern4lz
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: ''
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -127,9 +227,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317518002
-  modifiedTime: 1727317518002
+  modifiedTime: 1731611848588
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57300000

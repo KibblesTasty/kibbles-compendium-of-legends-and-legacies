@@ -1,18 +1,18 @@
-name: Stone Sense
+name: Resilient Bulwark
 type: feat
-img: icons/magic/sonic/explosion-shock-sound-wave.webp
+img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
 effects:
-  - name: Stone Sense
-    img: icons/magic/sonic/explosion-shock-sound-wave.webp
+  - name: Resilient Bulwark
+    img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
     origin: >-
-      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.buhIbVhEqsKI8vjy
-    _id: ovLQ87faeorbc5Xo
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.L2WXmtAX45DMSJGc
+    _id: 2A7Ag4ZY2pogUGM1
     type: base
     system: {}
     changes:
-      - key: system.attributes.senses.tremorsense
+      - key: system.scale.warden.bulwark-reduction
         mode: 2
-        value: '@scale.warden.primal-interdiction-radius'
+        value: '1'
         priority: null
     disabled: false
     duration:
@@ -35,10 +35,10 @@ effects:
       coreVersion: '12.331'
       systemId: dnd5e
       systemVersion: 4.1.1
-      createdTime: 1731617078218
-      modifiedTime: 1731617128578
+      createdTime: 1731616799482
+      modifiedTime: 1731616823600
       lastModifiedBy: pJeIW7qCa0HkURWq
-    _key: '!items.effects!buhIbVhEqsKI8vjy.ovLQ87faeorbc5Xo'
+    _key: '!items.effects!L2WXmtAX45DMSJGc.2A7Ag4ZY2pogUGM1'
 flags:
   betterRolls5e:
     quickDesc:
@@ -54,12 +54,13 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.5GQNKulBiMDt6wQs
+    sourceId: Item.jZyKhvSak2xxKBQc
 system:
   description:
     value: >-
-      <p>Additionally at 14th level, you gain tremorsense with a range equal to
-      your Primal Interdiction.</p>
+      <p>Starting at 7th level, the damage reduction of your Mystic Bulwark is
+      increased by 1</p><p>Additionally, you have resistance to damage from
+      effects that cause you to bleed.</p>
     chat: ''
   source:
     rules: '2014'
@@ -71,28 +72,28 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Stoneblood 14
-  identifier: stone-sense
+  requirements: Stoneblood 7
+  identifier: resilient-blood
   activities: {}
   enchant: {}
   prerequisites:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.5GQNKulBiMDt6wQs
+  compendiumSource: Item.jZyKhvSak2xxKBQc
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727317511868
-  modifiedTime: 1727317511868
+  systemVersion: 4.1.1
+  createdTime: 1727317499966
+  modifiedTime: 1731616794438
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 47400000
+sort: 28500000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: buhIbVhEqsKI8vjy
-_key: '!items!buhIbVhEqsKI8vjy'
+_id: L2WXmtAX45DMSJGc
+_key: '!items!L2WXmtAX45DMSJGc'
 

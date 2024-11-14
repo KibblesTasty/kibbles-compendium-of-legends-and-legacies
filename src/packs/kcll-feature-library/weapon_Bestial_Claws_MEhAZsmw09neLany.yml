@@ -1,0 +1,198 @@
+name: Bestial Claws
+type: weapon
+_id: MEhAZsmw09neLany
+img: icons/creatures/claws/claw-bear-paw-swipe-brown.webp
+system:
+  activities:
+    pMWGNNddfgD9cHJ5:
+      _id: pMWGNNddfgD9cHJ5
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+    x0gH5KZ8J0rMR4Lc:
+      type: damage
+      name: Grappling
+      _id: x0gH5KZ8J0rMR4Lc
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A vicious set of claws extending from one of your hands. This becomes a
+      natural one handed melee weapon that deals 1d8 slashing damage on hit, and
+      has the Light and Special properties.</p><p> Special: This weapon counts
+      as a free hand for the purposes of grappling. When you successfully
+      initiate a grapple with it, the target takes 1d6 slashing damage.</p>
+    chat: ''
+  identifier: bestial-claws
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  armor:
+    value: null
+  cover: null
+  crewed: false
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: natural
+    baseItem: ''
+  ammunition: {}
+  damage:
+    base:
+      number: 1
+      denomination: 8
+      types:
+        - slashing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: ''
+    versatile:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  magicalBonus: null
+  properties:
+    - lgt
+    - spc
+  proficient: null
+  range:
+    value: null
+    long: null
+    reach: null
+    units: ''
+  mastery: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731613567110
+  modifiedTime: 1731613896112
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!MEhAZsmw09neLany'
+

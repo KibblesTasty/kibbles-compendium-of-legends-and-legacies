@@ -4,40 +4,199 @@ img: icons/magic/light/explosion-star-glow-silhouette.webp
 system:
   description:
     value: >-
-      <p>Starting at 17th level, you can call upon the power of the sun to
-      embody its power for 1 minute. For the duration, you gain the following
-      benefits:</p><ul><li><p>You shed bright light for 60 feet, and dim light
-      for additional 60 feet. The bright light is
-      sunlight.</p></li><li><p>Creatures in the bright light you shed have
-      disadvantage on saving throws against your Warden abilities and
-      spells.</p></li><li><p>When you make a Radiant Blast, you can shoot a beam
-      of energy instead of an attack, forcing all creatures in a 60 foot line to
-      make a Dexterity saving throw against 8 + your attack ability modifier +
+      <p>Starting at 17th level, as a bonus action you can call upon the power
+      of the sun to embody its power for 1 minute. For the duration, you gain
+      the following benefits:</p><ul><li><strong>Sun Light.</strong> You shed
+      bright light for 60 feet, and dim light for additional 60 feet. The bright
+      light is sunlight.</li><li><strong>Harsh Light.</strong> Creatures in the
+      bright light you shed have disadvantage on saving throws against your
+      Warden abilities and spells.</li><li><strong>Empowered Radiance.</strong>
+      When you make a Radiant Blast, you can shoot a beam of energy instead of
+      an attack, forcing all creatures in a 60 foot line to make a Dexterity
+      saving throw against 8 + your Strength or Wisdom modifier (your choice) +
       your proficiency bonus, taking damage equal to your Radiant Blast damage
-      on failure, or half as much on a success.</p></li><li><p>When you deal
-      radiant damage against a target, you imbue the target with a radiant
-      illumination, granting advantage to the next attack made against that
-      target before the start of your next turn.</p></li></ul><p>Once you use
-      this ability, you cannot use it again until you complete a long rest.</p>
+      on failure, or half as much on a success.</li><li><strong>Lingering
+      Light.</strong> When you deal radiant damage against a target, you imbue
+      the target with a radiant illumination, granting advantage to the next
+      attack made against that target before the start of your next
+      turn.</li></ul><p>Once you use this ability, you cannot use it again until
+      you complete a long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Sunwatcher 17
   identifier: solar-avatar
-  activities: {}
+  activities:
+    xNbsfPpq4i5imhXM:
+      type: utility
+      _id: xNbsfPpq4i5imhXM
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: jpZ6GgejxVPnQcBm
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Embody the Sun
+      img: ''
+      appliedEffects:
+        - jpZ6GgejxVPnQcBm
+    VwJLx88QjGSRvwev:
+      type: save
+      name: Empowered Radiance
+      _id: VwJLx88QjGSRvwev
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: line
+          size: '60'
+          width: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - radiant
+              - fire
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: str
+          formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Solar Avatar
+    img: icons/magic/light/explosion-star-glow-silhouette.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.QRESpNTSAx1fVFft
+    transfer: false
+    _id: jpZ6GgejxVPnQcBm
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731621266466
+      modifiedTime: 1731621305561
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!QRESpNTSAx1fVFft.jpZ6GgejxVPnQcBm'
 flags:
   rsr5e:
     quickDesc:
@@ -46,14 +205,18 @@ flags:
       value: true
   core:
     sourceId: Item.T7pspWIWhOO5e9xa
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.T7pspWIWhOO5e9xa
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317504138
-  modifiedTime: 1727317504138
+  modifiedTime: 1731621356151
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 35200000

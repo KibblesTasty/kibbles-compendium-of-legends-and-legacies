@@ -66,12 +66,11 @@ system:
       <p>Starting at 3rd level, each time you roll an Endurance die, you store a
       d12 in a special pool of charged power. As a bonus action on your turn,
       you can unleash all of this stored power in an explosive tremor, rolling
-      all the stored dice.</p>
-
-      <p>All creatures of your choice within your Primal Interdiction must make
-      a Strength saving throw. On a failed save, they take damage equal to the
-      amount rolled and fall prone. On a successful save, they take half as much
-      damage and do not fall prone.</p>
+      all the stored dice.</p><p>All creatures of your choice within your Primal
+      Interdiction must make a Strength saving throw. On a failed save, they
+      take damage equal to the amount rolled and fall &amp;Reference[prone]. On
+      a successful save, they take half as much damage and do not fall
+      prone.</p>
     chat: ''
   source:
     custom: Stoneblood
@@ -97,13 +96,13 @@ system:
       consumption:
         targets:
           - type: itemUses
+            value: '1'
             target: ''
-            value: '3'
             scaling:
-              mode: ''
+              mode: amount
               formula: ''
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
       description:
@@ -141,24 +140,26 @@ system:
       damage:
         onSave: half
         parts:
-          - number: null
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.warden.endurance-die.die'
+            number: null
             denomination: null
             bonus: ''
             types:
               - bludgeoning
-            custom:
-              enabled: true
-              formula: '@scale.warden.endurance-die'
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              mode: ''
+              number: 1
       save:
         ability: str
         dc:
           calculation: str
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: seismic-backlash
   enchant: {}
   prerequisites:
@@ -169,9 +170,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317488801
-  modifiedTime: 1727317488801
+  modifiedTime: 1731617560525
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 10900000

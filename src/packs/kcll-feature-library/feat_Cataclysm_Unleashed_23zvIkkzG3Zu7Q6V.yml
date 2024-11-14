@@ -1,7 +1,44 @@
 name: Cataclysm Unleashed
 type: feat
 img: icons/magic/water/projectiles-ice-explosion.webp
-effects: []
+effects:
+  - name: Cataclysm Unleashed
+    img: icons/magic/water/projectiles-ice-explosion.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.23zvIkkzG3Zu7Q6V
+    _id: UE9seljdgYAT4YQy
+    type: base
+    system: {}
+    changes:
+      - key: '@scale.elemental-soul.ei-damage-dice'
+        mode: 1
+        value: '2'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731612329786
+      modifiedTime: 1731612360867
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!23zvIkkzG3Zu7Q6V.UE9seljdgYAT4YQy'
 flags:
   betterRolls5e:
     quickDesc:
@@ -21,16 +58,14 @@ flags:
 system:
   description:
     value: >-
-      <p>When you use your Elemental Form ability, you can instead cast
-      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.xnrxF69jS4aR78w1]{Form
-      of the Elements}, and are no longer limited to using the action they grant
-      in place of an attack once per turn, as long as you use two different
-      actions granted by the different forms.</p>
-
-      <p>While in this form, the damage dice of your Elemental Weapons and
-      Elemental Shroud effects are doubled.</p>
-
-      <p>Once you do this, you cannot do so until you complete a long rest.</p>
+      <p>When you use your Elemental Form ability, you can instead cast Form of
+      the Elements, and are no longer limited to using the action they grant in
+      place of an attack once per turn, as long as you use two different actions
+      granted by the different forms. When you cast form of the elementsK this
+      way, you can choose to become a Large sized creature for the duration of
+      the spell.</p><p>While in this form, the damage dice of your Elemental
+      Armaments and Elemental Interdiction effects are doubled.</p><p>Once you
+      do this, you cannot do so until you complete a long rest.</p>
     chat: ''
   source:
     rules: '2014'
@@ -54,9 +89,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317486544
-  modifiedTime: 1727317486544
+  modifiedTime: 1731612540973
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 7600000

@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.R5OhNO4YZvLj8Lg2
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -40,7 +44,60 @@ system:
     subtype: ''
   requirements: Tactician 7
   identifier: inscrutable-mind
-  activities: {}
+  activities:
+    6JFns7HjJsdvNa9D:
+      type: utility
+      _id: 6JFns7HjJsdvNa9D
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Save Bonus
+        formula: 1@scale.warlord.leadership-die.die
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -50,9 +107,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317502150
-  modifiedTime: 1727317502150
+  modifiedTime: 1731540783948
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 31800000

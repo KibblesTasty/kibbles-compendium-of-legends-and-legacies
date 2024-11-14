@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.K0WvlUC1QNUMdQAs
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -39,7 +43,113 @@ system:
     subtype: ''
   requirements: Noble 7
   identifier: words-of-conviction
-  activities: {}
+  activities:
+    jBD2z1U2lQZ58TxE:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - material
+        spellbook: true
+      _id: jBD2z1U2lQZ58TxE
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: 1 + @scale.warlord.leadership-turn-limit
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    LqYaUgy6iaAyKBSd:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.ge3Saet9zPTDyaoL
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - material
+        spellbook: true
+      _id: LqYaUgy6iaAyKBSd
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: 1 + @scale.warlord.leadership-turn-limit
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -49,9 +159,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317515750
-  modifiedTime: 1727317515750
+  modifiedTime: 1731535768593
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53600000

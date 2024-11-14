@@ -4,10 +4,10 @@ img: icons/skills/movement/feet-winged-sandals-tan.webp
 effects:
   - _id: pVhoEUNuBRA6EaEp
     changes:
-      - key: system.attributes.init.value
+      - key: system.attributes.init.bonus
         mode: 2
         value: '@abilities.cha.mod'
-        priority: 20
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -28,8 +28,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1731541783703
+      lastModifiedBy: pJeIW7qCa0HkURWq
     name: Graceful Entrace
     img: icons/skills/movement/feet-winged-sandals-tan.webp
     type: base
@@ -143,12 +143,15 @@ system:
           - temphp
         custom:
           enabled: true
-          formula: '@mod'
+          formula: '@abilities.cha.mod'
         scaling:
           mode: whole
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: graceful-entrance
   enchant: {}
   prerequisites:
@@ -159,9 +162,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317507068
-  modifiedTime: 1727317507068
+  modifiedTime: 1731541808660
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 39900000

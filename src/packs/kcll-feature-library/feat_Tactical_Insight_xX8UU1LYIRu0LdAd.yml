@@ -28,32 +28,19 @@ system:
     value: >-
       <p>Starting at 3rd level, you can tactically assess a creature's options.
       As a bonus action, make an Intelligence (Investigation) check contested by
-      a Charisma (Deception) check against any creature you can see within 60
-      feet.</p>
-
-      <p>On a success, you can see through their tactics, granting one of the
-      following effects:</p>
-
-      <ul>
-
-      <li><strong>Determine Attack</strong>: You can cause them to have
-      disadvantage on their next attack against a creature that can see or hear
-      you.</li>
-
-      <li><strong>Predict Movement:</strong> You deduce where they are planning
-      to move on their next turn. They can choose to change their plans, but if
-      they move anywhere else, their movement speed is reduced by 10 feet as
-      they scramble to adapt.</li>
-
-      <li><strong>Outwit Response:</strong> You can find their openings,
-      negating their ability to use their reaction until the end of their next
-      turn.</li>
-
-      <li><strong>Expose Weakness: </strong>You can use Helpful Word to grant
-      advantage against that target as part of the bonus action without
-      expending a Leadership Die.</li>
-
-      </ul>
+      a [[/check cha dec]] check against any creature you can see within 60
+      feet.</p><p>On a success, you can see through their tactics, granting one
+      of the following effects:</p><ul><li><strong>Determine Attack</strong>:
+      You can cause them to have disadvantage on their next attack against a
+      creature that can see or hear you.</li><li><strong>Predict
+      Movement:</strong> You deduce where they are planning to move on their
+      next turn. They can choose to change their plans, but if they move
+      anywhere else, their movement speed is reduced by 10 feet as they scramble
+      to adapt.</li><li><strong>Outwit Response:</strong> You can find their
+      openings, negating their ability to use their reaction until the end of
+      their next turn.</li><li><strong>Expose Weakness: </strong>You can use
+      Helpful Word to grant advantage against that target as part of the bonus
+      action without expending a Leadership Die.</li></ul>
     chat: ''
   source:
     custom: Tactician
@@ -118,9 +105,15 @@ system:
         recovery: []
       check:
         ability: int
-        associated: []
-        dc: {}
+        associated:
+          - inv
+        dc:
+          calculation: ''
+          formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: tactical-insight
   enchant: {}
   prerequisites:
@@ -131,9 +124,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317526678
-  modifiedTime: 1727317526678
+  modifiedTime: 1731540706363
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 72000000

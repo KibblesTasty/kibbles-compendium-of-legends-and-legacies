@@ -18,21 +18,24 @@ flags:
       altValue: true
   core:
     sourceId: Item.JidMER2U9gq7spSa
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 3rd level, through your connection to the wild battlefields
-      you've mastered offers you some measure of control of them. You learn two
-      cantrips from the Druid list.</p>
-
-      <p>Additionally, you can expend one Leadership Die to cast
-      @Compendium[dnd5e.spells.IBJmWjzbQGu7M4UX]{Fog Cloud} as a 1st level
-      spells. You can pick two additional 1st level spells from the Druid spell
-      list with a casting time of one action to cast this way.</p>
-
-      <p>Your spell casting modifier for these spells is Wisdom, and your spell
-      Save DC for these spells is 8 + your Proficiency modifier + your Wisdom
-      Modifier.</p>
+      you’ve mastered offers you some measure of control of them. You learn the
+      spell manipulate earth, and can pick one additional cantrip from the Druid
+      list that you know.</p><p>Additionally, you can expend one Leadership Die
+      to cast @UUID[Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX]{fog cloud} or
+      awaken rope as 1st level spells. The casting time of awaken rope is one
+      action when you cast it this way. You can pick one additional 1st level
+      spell from the Druid spell list with a casting time of one action to cast
+      this way.</p><p>Your spell casting modifier for these spells is Wisdom,
+      and your spell Save DC for these spells is 8 + your Proficiency bonus +
+      your Wisdom Modifier.</p>
     chat: ''
   source:
     rules: '2014'
@@ -46,7 +49,56 @@ system:
     subtype: ''
   requirements: Packleader 3
   identifier: natures-gift
-  activities: {}
+  activities:
+    4Ft8pCE005WUIM00:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties: []
+        spellbook: true
+      _id: 4Ft8pCE005WUIM00
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -56,9 +108,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317501371
-  modifiedTime: 1727317501371
+  modifiedTime: 1731537336114
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 30700000

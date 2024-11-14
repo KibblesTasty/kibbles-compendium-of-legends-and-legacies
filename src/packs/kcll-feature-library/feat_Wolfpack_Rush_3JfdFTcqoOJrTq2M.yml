@@ -1,6 +1,6 @@
-name: Tactical Strike
+name: Wolfpack Rush
 type: feat
-img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
 effects: []
 flags:
   betterRolls5e:
@@ -17,7 +17,12 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.qT1vHQCceuTaZov8
+    sourceId: Item.YXvL1ze9OpvQS3DA
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
   dnd5e:
     riders:
       activity: []
@@ -25,10 +30,12 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 11th level, when you succeed on a Tactical Insight check
-      against a creature, the next time you or a friendly creature deal damage
-      against it before the start of your next turn it is increased by 2d6
-      damage.</p>
+      <p>Starting at 1st level, the first time an allied creature moves after
+      rolling initiative, it can bring a number of willing creatures equal to
+      your Charisma modifier (minimum 1) within 20 feet of you along with it in
+      the same distance and direction that they move, but cannot move more than
+      half of their movement speed and cannot move more than 20 feet from you.
+      Creatures can stop this movement at any point along the path.</p>
     chat: ''
   source:
     rules: '2014'
@@ -40,12 +47,13 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Tactician 11
-  identifier: tactical-strike
+  requirements: Chieftain 1
+  identifier: wolfpack-movement
   activities:
-    WnpvZS5KDDoCdGCU:
-      type: damage
-      _id: WnpvZS5KDDoCdGCU
+    zdKy8prrVDzQvJpY:
+      type: utility
+      name: Movement
+      _id: zdKy8prrVDzQvJpY
       sort: 0
       activation:
         type: special
@@ -72,32 +80,25 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
+          type: radius
+          size: '20'
+          count: ''
         affects:
           choice: false
-          count: ''
-          type: ''
+          count: '@abilities.cha.mod'
+          type: willing
+          special: ''
         override: false
         prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      damage:
-        critical:
-          allow: true
-          bonus: ''
-        parts:
-          - custom:
-              enabled: false
-              formula: ''
-            number: 2
-            denomination: 6
-            bonus: ''
-            types: []
-            scaling:
-              number: 1
-      name: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
       img: ''
       appliedEffects: []
   enchant: {}
@@ -105,20 +106,20 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.qT1vHQCceuTaZov8
+  compendiumSource: Item.YXvL1ze9OpvQS3DA
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1727317498487
-  modifiedTime: 1731540827481
+  createdTime: 1727317487241
+  modifiedTime: 1731525384734
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 26000000
+sort: 8500000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: IBuhq2AyG2XJDCQt
-_key: '!items!IBuhq2AyG2XJDCQt'
+_id: 3JfdFTcqoOJrTq2M
+_key: '!items!3JfdFTcqoOJrTq2M'
 

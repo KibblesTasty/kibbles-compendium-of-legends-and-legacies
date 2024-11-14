@@ -5,13 +5,121 @@ _id: 29anHzpHQ6h2DIun
 img: icons/equipment/back/cloak-plain-green.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>A unique presence on the battlefield, these graceful agents wind their
+      way through death and destruction with a curious elegance, uplifting their
+      allies and distracting their enemies. A dancer comes in many forms, be
+      they prancing jesters or graceful enchanters, their presence seems
+      supernaturally captivating to all who encounter them, for good or
+      ill.</p><p>Though they seem out of place in danger, confused onlookers
+      will often find them as the last ones standing in the most dangerous of
+      situations, always one step out of out the greatest danger.</p>
     chat: ''
   identifier: dancers-presence
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: ayfs51lVZfYBxY9W
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.n2CdNM49P8CHPmht
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VITdDEsyO4tGfiOX
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warlord Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lSx0vTpkR57t1Nki
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.HcYVNplmX3ILOjib
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Cb7Jk3zEQpEm9Dd2
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LTxSXDnZHVlaZKgY
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XmQarQW8uZMCWkDb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Cs3m1FW7KsHca2cy
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8dAPdcYQlBZd5IWJ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: OvN3j03cqAP4VK4g
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nPWE15TCLN7IQOLR
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: GwbxvR25KY8xHno8
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jB1fWAy9UndnI51L
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Uz478xBcJ9316kJA
+    - _id: tIKWFobyqNmYTCvs
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:prf
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Dancer's Grace
+      hint: ''
   classIdentifier: warlord
   spellcasting:
     progression: none
@@ -29,9 +137,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046588830
-  modifiedTime: 1731434014800
+  modifiedTime: 1731541873181
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!29anHzpHQ6h2DIun'
 

@@ -5,13 +5,115 @@ _id: GzlbXYeQgyuj3mzU
 img: icons/equipment/head/helm-barbute-rounded-steel-worn.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>A Commander on the field can be many things—a trusted sergeant, a weary
+      veteran, or merely a person with an uncommon degree of common sense and a
+      particularly keen eye for how to win a fight.</p><p>While not as flashy as
+      some of the other Presences on the Battlefield, that just means they are
+      less likely to get themselves skewered. A keen word there and helping hand
+      here, their influence is subtle but effective, inexorably shifting the
+      tides of battle in their favor.</p><p>A Commander can come from any
+      background, but is usually someone that has acquired their Wisdom the hard
+      way, having seen a bit of what life and battlefields have to offer.</p>
     chat: ''
   identifier: commanders-presence
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: 63tiLnFK5XM3JHFJ
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:hvy
+          - armor:shl
+          - weapon:mar
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Martial Proficiency
+      hint: ''
+    - _id: ayfs51lVZfYBxY9W
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hmdd1hQH85nxbetH
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warlord Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nX26heQMuBEF5iRb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Cb7Jk3zEQpEm9Dd2
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Obsb96sl8CtLkEzo
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Cs3m1FW7KsHca2cy
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lkoPgcRxYae3B8eC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: OvN3j03cqAP4VK4g
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VKZYJPxFol9Oemct
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: GwbxvR25KY8xHno8
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YaoDbBnJBlunjBDU
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Uz478xBcJ9316kJA
   classIdentifier: warlord
   spellcasting:
     progression: none
@@ -29,9 +131,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1729046536605
-  modifiedTime: 1731434003348
+  modifiedTime: 1731536696765
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GzlbXYeQgyuj3mzU'
 

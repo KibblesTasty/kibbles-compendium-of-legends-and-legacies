@@ -23,6 +23,10 @@ flags:
       value: true
     quickFooter:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -43,7 +47,57 @@ system:
     subtype: ''
   requirements: Noble 1
   identifier: call-to-arms
-  activities: {}
+  activities:
+    x4bBFC4irG4MkDwq:
+      type: utility
+      _id: x4bBFC4irG4MkDwq
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '@abilities.cha.mod'
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Surge of Inspiration
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -53,9 +107,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317524274
-  modifiedTime: 1727317524274
+  modifiedTime: 1731535380489
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 68100000

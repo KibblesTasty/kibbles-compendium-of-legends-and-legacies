@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.EZPGqph63azloW2Y
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -25,12 +29,10 @@ system:
       wearing armor or carrying a shield, you can use Distract, Helpful Word,
       Urgent Orders, or Rallying Mark without expending a leadership die. When
       you do so, it applies as if you had spent 1 leadership die on it for its
-      effect.</p>
-
-      <p>Additionally, when you take the Dodge action, you can expend leadership
-      dice to grant enough attacks through Battlefield Presence. You can grant a
-      number of attacks equal to the leadership dice spent, up to your per turn
-      limit.</p>
+      effect.</p><p>Additionally, when you take the Dodge action, you can expend
+      leadership dice to grant attacks through Battlefield Presence. You can
+      grant a number of attacks equal to the leadership dice spent, up to your
+      per turn limit.</p>
     chat: ''
   source:
     rules: '2014'
@@ -44,7 +46,63 @@ system:
     subtype: ''
   requirements: Dancer 3
   identifier: dancers-dodge
-  activities: {}
+  activities:
+    tMV6fZAcs3zoavA1:
+      type: utility
+      name: Dodge
+      _id: tMV6fZAcs3zoavA1
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: 1 + @scale.warlord.leadership-turn-limit
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '0'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -54,9 +112,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317498137
-  modifiedTime: 1727317498137
+  modifiedTime: 1731542080496
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 25400000

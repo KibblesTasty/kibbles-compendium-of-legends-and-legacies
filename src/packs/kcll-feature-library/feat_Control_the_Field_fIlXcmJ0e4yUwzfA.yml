@@ -23,27 +23,18 @@ system:
     value: >-
       <p>Starting at 7th level, when you use an ability that moves allied
       creatures (such as Urgent Orders or Shift the Field), it gains the
-      following properties:</p>
-
-      <ul>
-
-      <li><strong>Deceptive Movement: </strong>You can attempt to move creatures
-      that are not allies up to 5 feet (or half their movement speed, whichever
-      is less). The creature must make an Intelligence Saving Throw with a DC of
-      8 + your Intelligence modifier + your Proficiency bonus, or feel compelled
-      to move to the new position immediately. Targets moved this way do not
-      gain temporary hit points.</li>
-
-      <li><strong>Flanking Maneuvers:</strong> If two allies you move are on
-      opposite sides of a creature after the movement you grant, the first one
-      to attack that enemy has advantage on their first attack if they attack
-      before the creature moves.</li>
-
-      <li><strong>Coordinated Transitions:</strong> Allies can move through each
-      other's spaces during the movement you grant without it being difficult
-      terrain.</li>
-
-      </ul>
+      following properties:</p><ul><li><strong>Deceptive Movement: </strong>You
+      can attempt to move creatures that are not allies up to 5 feet (or half
+      their movement speed, whichever is less). The creature must make an
+      Intelligence Saving Throw with a DC of 8 + your Intelligence modifier +
+      your Proficiency bonus, or feel compelled to move to the new position
+      immediately. Targets moved this way do not gain temporary hit
+      points.</li><li><strong>Flanking Maneuvers:</strong> If two allies you
+      move are on opposite sides of a creature after the movement you grant, the
+      first one to attack that enemy has advantage on their first attack if they
+      attack before the creature moves.</li><li><strong>Coordinated
+      Transitions:</strong> Allies can move through each other's spaces during
+      the movement you grant without it being difficult terrain.</li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -67,9 +58,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317514470
-  modifiedTime: 1727317514470
+  modifiedTime: 1731540808340
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 51500000

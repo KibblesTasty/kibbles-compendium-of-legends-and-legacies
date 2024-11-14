@@ -5,13 +5,141 @@ _id: Xql7w5GmTuxBtLV0
 img: icons/skills/trades/academics-merchant-scribe.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>A Tactician may very well tell you they would just as soon not be close
+      enough to the battle to be considered a combatant, preferring to win their
+      fights before they even reach that stage, but one would be a fool to
+      underestimate how dangerous they are once on the battlefield.</p><p>While
+      they might have laid their plans in advance, their sharp minds can quickly
+      pick apart how their foes try to fight against them and effortlessly
+      pierce the crude tactics that would be used against them and their
+      allies.</p><p>What tends to mark a Tactician is a keen mind and a
+      willingness to plan ahead... in great detail. Adventurers with a tactician
+      among them are near impossible to pin down, as they will always find a way
+      to turn the tables.</p>
     chat: ''
   identifier: tacticians-presence
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: ayfs51lVZfYBxY9W
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DjNAl0tzl8NsJsSM
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ekT8p72Kzz4uhoja
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warlord Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.xX8UU1LYIRu0LdAd
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bKgWvXg5s3Nlrb24
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Cb7Jk3zEQpEm9Dd2
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NO2Ho6ottIhCWd9j
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fIlXcmJ0e4yUwzfA
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Cs3m1FW7KsHca2cy
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IBuhq2AyG2XJDCQt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: OvN3j03cqAP4VK4g
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.uUeOyjLCVqjkrNrQ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: GwbxvR25KY8xHno8
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hKqepPiT1HriJcHM
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.PSlElalrihjSnpnm
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Uz478xBcJ9316kJA
+    - _id: 3a1oorROwNej6QkQ
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:his
+          - skills:inv
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Tactician's Cunning
+      hint: ''
+    - _id: 2LjEUuGLRlb8qMkk
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - saves:int
+        choices: []
+      value:
+        chosen: []
+      level: 7
+      title: Inscrutable Mind
+      hint: ''
   classIdentifier: warlord
   spellcasting:
     progression: none
@@ -29,9 +157,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046577409
-  modifiedTime: 1731434082953
+  modifiedTime: 1731539538113
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Xql7w5GmTuxBtLV0'
 

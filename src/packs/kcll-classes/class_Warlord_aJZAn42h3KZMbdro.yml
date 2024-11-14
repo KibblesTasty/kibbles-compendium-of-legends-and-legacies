@@ -417,6 +417,19 @@ system:
       level: 18
       title: Unbreakable Will
       hint: ''
+    - _id: QO4edfmVljl1esqo
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '2':
+            value: 60
+      value: {}
+      title: Leadership Distance
+      hint: ''
   saves:
     - wis
     - cha
@@ -554,10 +567,10 @@ system:
       sort: 1600000
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1682022640155
-  modifiedTime: 1730872182244
+  modifiedTime: 1731527757822
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Compendium.dnd5e.classes.ABEBgWyRhVlDUIfq
   duplicateSource: null

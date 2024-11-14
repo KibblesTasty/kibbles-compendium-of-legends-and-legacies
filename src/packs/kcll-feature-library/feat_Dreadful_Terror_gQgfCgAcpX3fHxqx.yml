@@ -9,10 +9,11 @@ system:
       required)</p><ul><li><p><strong>Panicked Terror.</strong> The target
       immediately spends their reaction to move up to half of their movement
       speed away from you.</p></li><li><p><strong>Blind Terror.</strong> You can
-      expend 2 Demoralization Dice to cause the target become blinded until the
-      start of your next turn.</p></li><li><p><strong>Paralyzing
-      Terror.</strong> You can expend 3 Demoralization Dice to cause the target
-      to become paralyzed until the start of your next turn.</p></li></ul>
+      expend 2 Demoralization Dice to cause the target become
+      &amp;Reference[blinded] until the start of your next
+      turn.</p></li><li><p><strong>Paralyzing Terror.</strong> You can expend 3
+      Demoralization Dice to cause the target to become
+      &amp;Reference[paralyzed] until the start of your next turn.</p></li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -26,7 +27,62 @@ system:
     subtype: ''
   requirements: Dreadlord 18
   identifier: dreadful-terror
-  activities: {}
+  activities:
+    t39nOApSwePXi8ME:
+      type: utility
+      name: Enhanced Effect
+      _id: t39nOApSwePXi8ME
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '3'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -40,14 +96,18 @@ flags:
       value: true
   core:
     sourceId: Item.isKBALMm6Uc7y480
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.isKBALMm6Uc7y480
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317515418
-  modifiedTime: 1727317515418
+  modifiedTime: 1731543590870
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53100000

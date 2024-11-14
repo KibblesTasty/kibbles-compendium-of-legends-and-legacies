@@ -11,45 +11,15 @@ system:
       <p>A chieftain is a Warlord that rules by the sheer force of their
       personality, marked by their booming voice and fearless attitude, it is
       easy to believe that your band is infallible while your chieftain
-      stands.</p>
-
-      <p>They can be lawful or chaotic, good or evil, with such things depending
-      on how they got to where they are in life. An orc that cut their way to
-      the top may be chaotic, believing that strength needs room to rise to the
-      top unfettered by rules, while someone that inherited their authority may
-      have a more lawful bent.</p>
-
-      <p>A Warlord with the Presence of a Chieftain need not literally rule
-      anything, but is an exemplar of someone that has or could walk that path
-      through their force of personality and the boisterous inspiration they
-      give those around them.</p>
-
-      <p>1st Level:
-      @Compendium[kibbles-warlord.kibbles-warlord.X7TMpknPEBen27by]{Chieftain's
-      Proficiency},
-      @Compendium[kibbles-warlord.kibbles-warlord.vVmmFN8bdLajPuFb]{Wolfpack
-      Movement}</p>
-
-      <p>3rd Level:
-      @Compendium[kibbles-warlord.kibbles-warlord.JqxL9zTrtIKu6FDL]{Warcry},
-      @Compendium[kibbles-warlord.kibbles-warlord.gSzxuRyi145EwkNi]{Savage
-      Momentum}</p>
-
-      <p>7th Level:
-      @Compendium[kibbles-warlord.kibbles-warlord.KDbtj9F1jz7jtAGV]{Reckless
-      Assault}</p>
-
-      <p>11th Level:
-      @Compendium[kibbles-warlord.kibbles-warlord.zNdeR4XCXLIv8zm1]{Wolfpack
-      Tactics}</p>
-
-      <p>15th Level:
-      @Compendium[kibbles-warlord.kibbles-warlord.8JtJOjdbU8FCTbMa]{Booming
-      Shout}</p>
-
-      <p>18th Level:
-      @Compendium[kibbles-warlord.kibbles-warlord.pi21tH2uxcC5KYyC]{Bloody
-      Victory}</p>
+      stands.</p><p>They can be lawful or chaotic, good or evil, with such
+      things depending on how they got to where they are in life. An orc that
+      cut their way to the top may be chaotic, believing that strength needs
+      room to rise to the top unfettered by rules, while someone that inherited
+      their authority may have a more lawful bent.</p><p>A Warlord with the
+      Presence of a Chieftain need not literally rule anything, but is an
+      exemplar of someone that has or could walk that path through their force
+      of personality and the boisterous inspiration they give those around
+      them.</p>
     chat: ''
   source:
     rules: '2014'
@@ -61,71 +31,125 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.kibbles-warlord.kibbles-warlord.X7TMpknPEBen27by
-            optional: false
-          - uuid: Compendium.kibbles-warlord.kibbles-warlord.vVmmFN8bdLajPuFb
-            optional: false
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3JfdFTcqoOJrTq2M
         optional: false
         spell: null
       value: {}
       level: 1
+      title: Warlord Specialization Feature
+      hint: ''
     - _id: 1gpympl7x3tturlp
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.kibbles-warlord.kibbles-warlord.JqxL9zTrtIKu6FDL
-            optional: false
-          - uuid: Compendium.kibbles-warlord.kibbles-warlord.gSzxuRyi145EwkNi
-            optional: false
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.B3EIp48ESvRjty1r
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GKZH559crrmRySdz
         optional: false
         spell: null
       value: {}
       level: 3
-      title: ''
+      title: Warlord Specialization Feature
+      hint: ''
     - _id: cri3z0cic0w6ngax
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.kibbles-warlord.kibbles-warlord.KDbtj9F1jz7jtAGV
-            optional: false
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BN0kFP5hbgiDuDLw
         optional: false
         spell: null
       value: {}
       level: 7
-      title: ''
+      title: Warlord Specialization Feature
+      hint: ''
     - _id: u5xiv3kzz7qhj3pl
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.kibbles-warlord.kibbles-warlord.zNdeR4XCXLIv8zm1
-            optional: false
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9VJCrK3jlahMRQnw
         optional: false
         spell: null
       value: {}
       level: 11
-      title: ''
+      title: Warlord Specialization Feature
+      hint: ''
     - _id: 05bmiin2o0nwpzii
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.kibbles-warlord.kibbles-warlord.8JtJOjdbU8FCTbMa
-            optional: false
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1XD9VTpXXRxWY0iN
         optional: false
         spell: null
       value: {}
       level: 15
-      title: ''
+      title: Warlord Specialization Feature
+      hint: ''
     - _id: xmrnvrq2n450ydli
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.kibbles-warlord.kibbles-warlord.pi21tH2uxcC5KYyC
-            optional: false
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vscknIpWqVNtkSTq
         optional: false
         spell: null
       value: {}
       level: 18
-      title: ''
+      title: Warlord Specialization Feature
+      hint: ''
+    - _id: HhLDaH7KLBqxgWGi
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:shl
+          - weapon:mar
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Chieftain's Proficiency
+      hint: ''
+    - _id: LLa02eQt9chCALZb
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:itm
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Chieftain's Proficiency
+      hint: ''
+    - _id: dStSQ16mGeZktVbD
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '3':
+            value: 20
+          '15':
+            value: 40
+      value: {}
+      title: War Cry Radius
+      hint: ''
   spellcasting:
     progression: none
     ability: ''
@@ -136,9 +160,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729038466784
-  modifiedTime: 1729038466784
+  modifiedTime: 1731528161535
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: iq2yIqBIoLBEd3dB
 ownership:

@@ -68,7 +68,12 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -108,18 +113,21 @@ system:
         recovery: []
       healing:
         number: 1
-        denomination: 6
+        denomination: '6'
         bonus: ''
         types:
           - healing
         custom:
-          enabled: false
-          formula: ''
+          enabled: true
+          formula: 1@scale.warlord.leadership-die.die
         scaling:
           mode: whole
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: on-your-feet
   enchant: {}
   prerequisites:
@@ -130,9 +138,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317502624
-  modifiedTime: 1727317502624
+  modifiedTime: 1731528828282
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 32600000

@@ -72,7 +72,7 @@ system:
         override: false
       effects: []
       range:
-        value: '60'
+        value: '@scale.warlord.leadership-distance'
         units: ft
         special: ''
         override: false
@@ -104,8 +104,8 @@ system:
           - custom:
               enabled: true
               formula: >-
-                (@scaling.increase)@scale.warlord.leadership-die.die + (4 -
-                @scaling.increase)d4
+                @scaling.increase@scale.warlord.leadership-die.die + (4
+                -@scaling.increase)d4
             number: 1
             denomination: 6
             bonus: ''
@@ -150,7 +150,7 @@ system:
         override: false
         units: ft
         special: ''
-        value: '60'
+        value: '@scale.warlord.leadership-distance'
       target:
         template:
           contiguous: false
@@ -175,8 +175,8 @@ system:
         custom:
           enabled: true
           formula: >-
-            (@scaling.increase)@scale.warlord.leadership-die.die + (4 -
-            @scaling.increase)d4
+            @scaling.increase@scale.warlord.leadership-die.die + (4
+            -@scaling.increase)d4
         scaling:
           number: 1
           mode: ''
@@ -294,8 +294,8 @@ system:
         custom:
           enabled: true
           formula: >-
-            (@scaling.increase)@scale.warlord.leadership-die.die + (4 -
-            @scaling.increase)d4
+            @scaling.increase@scale.warlord.leadership-die.die + (4
+            -@scaling.increase)d4
         scaling:
           number: 1
           mode: ''
@@ -313,9 +313,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317499142
-  modifiedTime: 1730871973078
+  modifiedTime: 1731527831466
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 27100000

@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.Sz0NTrNrOGtJ9eaz
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -41,7 +45,59 @@ system:
     subtype: ''
   requirements: Noble 15
   identifier: untouchable-presence
-  activities: {}
+  activities:
+    4RZjIQb6SeOri3jt:
+      type: save
+      _id: 4RZjIQb6SeOri3jt
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: cha
+          formula: ''
+      name: Sanctuary
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -51,9 +107,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317492190
-  modifiedTime: 1727317492190
+  modifiedTime: 1731536175707
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 16200000

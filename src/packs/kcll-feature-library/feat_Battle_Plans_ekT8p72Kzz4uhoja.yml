@@ -1,7 +1,44 @@
 name: Battle Plans
 type: feat
 img: icons/tools/navigation/map-marked-gold.webp
-effects: []
+effects:
+  - name: Battle Plans
+    img: icons/tools/navigation/map-marked-gold.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ekT8p72Kzz4uhoja
+    _id: lpnQI6SsOMEudcbG
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.init.bonus
+        mode: 2
+        value: '@abilities.int.mod'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731539287458
+      modifiedTime: 1731539308543
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!ekT8p72Kzz4uhoja.lpnQI6SsOMEudcbG'
 flags:
   betterRolls5e:
     quickDesc:
@@ -22,8 +59,9 @@ system:
   description:
     value: >-
       <p>Starting at 1st level, you can give yourself a bonus to your initiative
-      rolls equal to your Intelligence modifier. Additionally, you can exchange
-      your initiative roll with a willing friendly creature within 60 feet.</p>
+      rolls equal to your Intelligence modifier.</p><p>Additionally, you can
+      exchange your initiative roll with a willing friendly creature within 60
+      feet after rolling it.</p>
     chat: ''
   source:
     rules: '2014'
@@ -47,9 +85,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317513850
-  modifiedTime: 1727317513850
+  modifiedTime: 1731539285319
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 50500000

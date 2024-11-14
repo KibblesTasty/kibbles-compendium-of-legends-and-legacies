@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.LOob2P02mQoKH1Ix
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -78,12 +82,63 @@ system:
     value: null
     charged: false
   identifier: trackless-trails
+  activities:
+    1IeV0GkORl6EQOLj:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.pRMvmknwLf2tdMTj
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - material
+        spellbook: true
+      _id: 1IeV0GkORl6EQOLj
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1678742646599
-  modifiedTime: 1727317482698
+  modifiedTime: 1731537868685
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.LOob2P02mQoKH1Ix
   duplicateSource: null

@@ -58,7 +58,7 @@ system:
       affect a number of creatures up to your 1 + Charisma modifier (minimum
       1).</p><p>You can make a single weapon attack as a bonus action after
       unleashing a War Cry, but the attack roll has disadvantage unless made
-      with a weapon with light property.</p>
+      with a weapon with light property</p>
     chat: ''
   source:
     custom: Chieftain
@@ -82,10 +82,17 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling:
+              mode: amount
+              formula: ''
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
+          max: 1 + @scale.warlord.leadership-turn-limit
         spellSlot: true
       description:
         chatFlavor: ''
@@ -104,13 +111,13 @@ system:
           count: ''
           contiguous: false
           type: radius
-          size: '20'
+          size: '@scale.chieftain.war-cry-radius'
           width: ''
           height: ''
           units: ft
         affects:
           count: ''
-          type: ''
+          type: ally
           choice: false
           special: ''
         prompt: true
@@ -121,18 +128,21 @@ system:
         recovery: []
       healing:
         number: 1
-        denomination: 6
+        denomination: '6'
         bonus: '@mod'
         types:
           - temphp
         custom:
-          enabled: false
-          formula: ''
+          enabled: true
+          formula: '@scaling@scale.warlord.leadership-die.die + @abilities.cha.mod'
         scaling:
           mode: whole
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: warcry
   enchant: {}
   prerequisites:
@@ -143,9 +153,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317493545
-  modifiedTime: 1727317493545
+  modifiedTime: 1731527597516
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 18200000

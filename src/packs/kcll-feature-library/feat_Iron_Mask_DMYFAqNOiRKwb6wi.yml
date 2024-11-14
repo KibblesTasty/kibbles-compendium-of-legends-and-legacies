@@ -23,7 +23,55 @@ system:
     subtype: ''
   requirements: Dreadlord 7
   identifier: iron-mask
-  activities: {}
+  activities:
+    zX5IR2QP6ZAN3O1N:
+      type: utility
+      name: Suppress Fear
+      _id: zX5IR2QP6ZAN3O1N
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: true
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -37,14 +85,18 @@ flags:
       value: true
   core:
     sourceId: Item.8TQdsWXu7KAA4KSO
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.8TQdsWXu7KAA4KSO
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317495369
-  modifiedTime: 1727317495369
+  modifiedTime: 1731543446934
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 21000000

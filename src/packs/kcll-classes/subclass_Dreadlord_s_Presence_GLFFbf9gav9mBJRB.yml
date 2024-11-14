@@ -2,22 +2,158 @@ folder: iq2yIqBIoLBEd3dB
 name: Dreadlord's Presence
 type: subclass
 _id: GLFFbf9gav9mBJRB
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/unholy/hand-claw-glow-orange.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>A warlord that follows this path specializes in terror and fear,
+      usually localized to their enemies. While other warlords look to boost and
+      inspire their allies, a Dreadlord works to undermine and terrify their
+      enemies, crushing their will to fight and leaving them as prey easily
+      slaughtered.</p><p>A dreadlord is not always evil, though they most often
+      show up in the ranks of evil, but by their very nature they are someone
+      that can instill dread and terror. The source of this dread can be cursed
+      visage, supernatural gift, or simply a tyrannical force of will.</p>
     chat: ''
   identifier: dreadlords-presence
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: ayfs51lVZfYBxY9W
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mq7573xMUMLjJzIg
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warlord Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mxo5ke7ZjWew4G0t
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Cb7Jk3zEQpEm9Dd2
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BUzjtr1mzkrGTRVp
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DMYFAqNOiRKwb6wi
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Cs3m1FW7KsHca2cy
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.m1Ylkp4QPTSy1xDv
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: OvN3j03cqAP4VK4g
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bgTLOH4V8NgEsSBP
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.84kEZ2vSB9biuRWG
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: GwbxvR25KY8xHno8
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.gQgfCgAcpX3fHxqx
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Warlord Specialization Feature
+      hint: ''
+      _id: Uz478xBcJ9316kJA
+    - _id: sK45XdzuwrrzoZ76
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:itm
+          - armor:hvy
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Dreadlord Proficiency
+      hint: ''
+    - _id: 9GDrkLyMM0mEAu8b
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 30
+          '15':
+            value: 60
+      value: {}
+      title: Demoralization Range
+      hint: ''
+    - _id: sIW67JcpAyKDdSIz
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '3':
+            value: 5
+          '15':
+            value: 10
+      value: {}
+      title: Are You Sure Range
+      hint: ''
   classIdentifier: warlord
   spellcasting:
     progression: none
     preparation:
       formula: ''
-    ability: ''
+    ability: cha
 effects: []
 sort: 0
 ownership:
@@ -29,9 +165,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046599892
-  modifiedTime: 1729046601871
+  modifiedTime: 1731543404627
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GLFFbf9gav9mBJRB'
 

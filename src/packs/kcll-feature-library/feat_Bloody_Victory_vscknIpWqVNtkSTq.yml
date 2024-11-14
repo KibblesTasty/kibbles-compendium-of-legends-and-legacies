@@ -18,30 +18,102 @@ flags:
       altValue: true
   core:
     sourceId: Item.MPt0bazEVcBJ3Xt9
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 18th level, when you or an ally reduces a hostile creature
       that has dealt damage to you to 0 hit points, you can unleash a Warcry as
       a reaction. When you unleash your Warcry in this way, you do not expend
-      any Leadership Dice and you use a d12 in place of your Leadership Die.</p>
-
-      <p>You can use this reaction a number of times equal to your Charisma
-      modifier, regaining all uses on a long rest.</p>
+      any Leadership Dice and you use a d12 in place of your Leadership
+      Die.</p><p>You can use this reaction a number of times equal to your
+      Charisma modifier, regaining all uses on a long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '@abilities.cha.mod'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Chieftain 18
   identifier: bloody-victory
-  activities: {}
+  activities:
+    6Wr2fTCJ3LQbJ2jT:
+      type: heal
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling:
+              mode: ''
+        scaling:
+          allowed: true
+          max: 1 + @scale.warlord.leadership-turn-limit
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '@scale.chieftain.war-cry-radius'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ally
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 1
+        denomination: 6
+        bonus: '@mod'
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: (@scaling)d12 + @abilities.cha.mod
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+      name: ''
+      _id: 6Wr2fTCJ3LQbJ2jT
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -51,9 +123,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317525703
-  modifiedTime: 1727317525703
+  modifiedTime: 1731527952255
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 70500000

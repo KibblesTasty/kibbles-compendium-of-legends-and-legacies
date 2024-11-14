@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.Av1CAO6QgQ2w6b4P
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -39,7 +43,69 @@ system:
     subtype: ''
   requirements: Commander 18
   identifier: no-one-left-behind
-  activities: {}
+  activities:
+    tGUbz3y19rVBv1O7:
+      type: heal
+      _id: tGUbz3y19rVBv1O7
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1@scale.warlord.leadership-die.die + (@scaling.increase)d8
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -49,9 +115,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317509627
-  modifiedTime: 1727317509627
+  modifiedTime: 1731528857133
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 43800000

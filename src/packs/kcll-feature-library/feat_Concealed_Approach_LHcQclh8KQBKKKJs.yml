@@ -1,7 +1,48 @@
 name: Concealed Approach
 type: feat
 img: icons/magic/nature/stealth-hide-eyes-green.webp
-effects: []
+effects:
+  - name: Concealed Approach
+    img: icons/magic/nature/stealth-hide-eyes-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LHcQclh8KQBKKKJs
+    transfer: false
+    _id: pt3k365qxphbc9v3
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.ste.bonuses.check
+        mode: 2
+        value: '@abilities.wis.mod'
+        priority: null
+      - key: system.attributes.init.bonus
+        mode: 2
+        value: '@abilities.wis.mod'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731536490259
+      modifiedTime: 1731536554613
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!LHcQclh8KQBKKKJs.pt3k365qxphbc9v3'
 flags:
   betterRolls5e:
     quickDesc:
@@ -18,6 +59,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.hyCsKgdwoWh1fzvD
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -25,7 +70,11 @@ system:
       can add your Wisdom modifier to a Dexterity (Stealth) check for you and up
       five friendly creatures. You and friendly creatures within 30 feet of you
       that roll for initiative while hidden can add your Wisdom modifier to the
-      initiative result.</p>
+      initiative result.</p><section id="secret-I7FY6CNKRwbaDYxo"
+      class="secret"><p><strong>Foundry Note</strong></p><p>The applied effect
+      does not know the warlord's Wisdom bonus for other creatures; replace the
+      values with the correct numbers after the effect is added to them, or just
+      manually edit on this feature ahead of time.</p></section>
     chat: ''
   source:
     rules: '2014'
@@ -39,7 +88,58 @@ system:
     subtype: ''
   requirements: Packleader 1
   identifier: concealed-approach
-  activities: {}
+  activities:
+    rCnSxidswkgh86FS:
+      type: utility
+      name: Prepare
+      _id: rCnSxidswkgh86FS
+      sort: 0
+      activation:
+        type: minute
+        value: 1
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: pt3k365qxphbc9v3
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '5'
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -49,9 +149,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317500132
-  modifiedTime: 1727317500132
+  modifiedTime: 1731536622230
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 28700000

@@ -70,6 +70,7 @@ system:
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
             scaling:
               mode: amount
+              formula: ''
         scaling:
           allowed: true
           max: '@scale.warlord.leadership-turn-limit'
@@ -84,7 +85,7 @@ system:
         override: false
       effects: []
       range:
-        value: '60'
+        value: '@scale.warlord.leadership-distance'
         units: ft
         special: ''
         override: false
@@ -115,7 +116,7 @@ system:
         parts:
           - custom:
               enabled: true
-              formula: (@scaling)@scale.warlord.leadership-die.die
+              formula: '@scaling@scale.warlord.leadership-die.die'
             number: 1
             denomination: 6
             bonus: ''
@@ -137,9 +138,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317517250
-  modifiedTime: 1731007513192
+  modifiedTime: 1731527764167
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 56000000

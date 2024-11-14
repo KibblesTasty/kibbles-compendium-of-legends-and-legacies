@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.NhhjXL2V1dzEbCke
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -38,7 +42,57 @@ system:
     subtype: ''
   requirements: Dancer 18
   identifier: elegant-exchange
-  activities: {}
+  activities:
+    VVsOiciG0f887Fpb:
+      type: utility
+      name: Take Position
+      _id: VVsOiciG0f887Fpb
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -48,9 +102,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317517356
-  modifiedTime: 1727317517356
+  modifiedTime: 1731542195537
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 56200000

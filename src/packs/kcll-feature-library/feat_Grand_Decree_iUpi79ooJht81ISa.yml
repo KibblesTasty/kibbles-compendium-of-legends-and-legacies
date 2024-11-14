@@ -18,30 +18,90 @@ flags:
       altValue: true
   core:
     sourceId: Item.cPfHSjHuD57QP8ay
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>Starting at 18th level, you can use this ability to cast command
-      without expending a spell slot or Leadership Dice. When you do so, the
-      spell affects all creatures of your choice within range that could be
-      affected by the spell.</p>
-
-      <p>Once you cast command using this ability, you cannot cast it using this
-      ability again until you complete a long rest.</p>
+      <p>Starting at 18th level, you can use this ability to cast
+      @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{command} without
+      expending a spell slot or Leadership Dice. When you do so, the spell
+      affects all creatures of your choice within range that could be affected
+      by the spell.</p><p>Once you cast command using this ability, you cannot
+      cast it using this ability again until you complete a long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Noble 18
   identifier: grand-decree
-  activities: {}
+  activities:
+    7zBw88Tyhy9dKolC:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties: []
+        spellbook: true
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+          max: 1 + @scale.warlord.leadership-turn-limit
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '60'
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      _id: 7zBw88Tyhy9dKolC
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -51,9 +111,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317516742
-  modifiedTime: 1727317516742
+  modifiedTime: 1731536253737
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 55200000

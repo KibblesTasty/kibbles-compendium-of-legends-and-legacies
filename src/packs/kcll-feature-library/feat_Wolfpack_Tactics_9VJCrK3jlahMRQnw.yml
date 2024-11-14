@@ -36,11 +36,10 @@ system:
       <p>Starting at 11th level, you excel at taking down prey in coordination
       with your allies. The first creature you hit that has taken damage from
       one of your allies since the end of your last turn suffers an additional
-      1d12 damage.</p>
-
-      <p>The first time a creature you grant a creature an attack with
-      Battlefield Presence deals damage to a creature you had dealt damage to
-      during your turn, that attack deals an additional 1d4 damage.</p>
+      1d12 damage.</p><p>The first time a creature you grant a creature an
+      attack with Battlefield Presence deals damage to a creature you had dealt
+      damage to during your turn, that attack deals an additional 1d4
+      damage.</p>
     chat: ''
   source:
     custom: Chieftain
@@ -59,7 +58,7 @@ system:
       _id: dnd5eactivity000
       type: damage
       activation:
-        type: ''
+        type: special
         value: null
         condition: >-
           Once per turn against a creature that has been hit by an ally this
@@ -80,7 +79,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -108,19 +107,88 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
             denomination: 12
             bonus: ''
             types:
               - piercing
-            custom:
+            scaling:
+              number: 1
+      sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
+    YeVi3KwYalY5TktQ:
+      type: damage
+      activation:
+        type: special
+        value: null
+        condition: >-
+          The first time a creature you grant a creature an attack with
+          Battlefield Presence deals damage to a creature you had dealt damage
+          to during your turn
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
               enabled: false
               formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - piercing
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       sort: 0
+      name: ''
+      _id: YeVi3KwYalY5TktQ
+      img: ''
+      appliedEffects: []
   identifier: wolfpack-tactics
   enchant: {}
   prerequisites:
@@ -131,9 +199,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317492381
-  modifiedTime: 1727317492381
+  modifiedTime: 1731527406682
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 16500000

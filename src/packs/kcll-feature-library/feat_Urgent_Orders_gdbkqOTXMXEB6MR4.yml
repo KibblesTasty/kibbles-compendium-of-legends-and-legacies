@@ -80,7 +80,7 @@ system:
         override: false
         units: ft
         special: ''
-        value: '60'
+        value: '@scale.warlord.leadership-distance'
       target:
         template:
           contiguous: false
@@ -104,7 +104,7 @@ system:
           - temphp
         custom:
           enabled: true
-          formula: (@scaling)@scale.warlord.leadership-die.die
+          formula: '@scaling@scale.warlord.leadership-die.die'
         scaling:
           number: 1
           mode: ''
@@ -123,9 +123,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317515639
-  modifiedTime: 1731007649876
+  modifiedTime: 1731527775294
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53400000

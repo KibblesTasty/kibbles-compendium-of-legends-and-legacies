@@ -38,66 +38,86 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: ''
-    recovery: []
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
     spent: 0
   type:
     value: ''
     subtype: ''
   requirements: Paragon 7
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    KXU3B4ocOoDRP6zl:
+      type: heal
+      _id: KXU3B4ocOoDRP6zl
+      sort: 0
       activation:
-        type: ''
-        value: 1
-        condition: You are reduced to 0 hit points.
+        type: special
+        value: null
         override: false
+        condition: You are reduced to zero hit points
       consumption:
-        targets: []
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RheFEteQyj3j1rcZ
+            scaling:
+              mode: amount
+              formula: ''
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
       description:
         chatFlavor: ''
       duration:
-        concentration: false
         units: inst
-        special: ''
+        concentration: false
         override: false
       effects: []
       range:
+        override: false
         units: self
         special: ''
-        override: false
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: self
           choice: false
-          special: ''
-        prompt: true
+          count: ''
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: >-
+            @abilities.cha.mod +
+            @scaling.increase@scale.warlord.leadership-die.die
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: stand-defiant
   enchant: {}
   prerequisites:
@@ -108,9 +128,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317517144
-  modifiedTime: 1727317517144
+  modifiedTime: 1731538653948
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 55900000

@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.IJCNW8fAwU0TrsxJ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -34,7 +38,7 @@ system:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '@abilities.cha.mod'
     spent: 0
     recovery: []
   type:
@@ -42,7 +46,72 @@ system:
     subtype: ''
   requirements: Paragon 11
   identifier: inspired-warrior
-  activities: {}
+  activities:
+    Q6B1d7edrIU1deGw:
+      type: damage
+      _id: Q6B1d7edrIU1deGw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: (@scaling)d4
+            number: 1
+            denomination: 4
+            bonus: ''
+            types: []
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -52,9 +121,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317523787
-  modifiedTime: 1727317523787
+  modifiedTime: 1731538747659
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 67200000

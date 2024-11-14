@@ -23,11 +23,10 @@ system:
     value: >-
       <p>Starting at 11th level, if you are not in the same spot you were at the
       end of your last turn or are obscured from your target, the first attack
-      you make during your turn deals an additional [[/r 1d10]] damage.</p>
-
-      <p>Additionally, a creature that you grant an Attack with Battlefield
-      Presence can take the Dash action instead of making the attack you
-      granted.</p>
+      you make during your turn deals an additional [[/damage 1d10]]
+      damage.</p><p>Additionally, a creature that you grant an Attack with
+      Battlefield Presence can take the Dash action instead of making the attack
+      you granted.</p>
     chat: ''
   source:
     rules: '2014'
@@ -51,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317518640
-  modifiedTime: 1727317518640
+  modifiedTime: 1731537893890
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 58400000

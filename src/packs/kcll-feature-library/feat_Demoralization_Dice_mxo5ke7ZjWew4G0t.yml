@@ -10,26 +10,29 @@ system:
       Demoralization Die as a reaction on one of the following
       effects:</p><ul><li><p><strong>Make it Excruciating.</strong> When a
       creature within 30 feet of you takes damage from a weapon attack roll made
-      by an ally of yours, as a reaction you can expend up Demoralization Dice
-      (up to your Leadership Die limit), rolling them and causing the target to
-      take additional damage equal the value of the rolled
+      by an ally of yours, as a reaction you can expend Demoralization Dice (up
+      to your Leadership Die limit), rolling them and causing the target to take
+      additional damage of the same damage type equal the value of the rolled
       dice.</p></li><li><p><strong>Don't Touch That.</strong> When a creature
       attacks an allied creature within 30 feet of you, as a reaction you can
-      expend one Demoralization Dice, rolling it and reducing the attacker's
+      expend one Demoralization Dice, rolling it and reducing the attacker’s
       attack roll.</p></li><li><p><strong>Are You Sure?</strong> When a creature
       ends their turn within 5 feet of you, as a reaction you can expend
       Demoralization Dice (up to your Leadership Die limit) and force the
       creature to make a Wisdom saving throw (DC 8 + your Charisma modifier +
-      your proficiency bonus. On failure, the creature uses their reaction to
-      move a number of feet away from you equal to 10 x the Demoralization Dice
+      your proficiency bonus). On failure, the creature uses their reaction to
+      move a number of feet away from you equal to 10 × the Demoralization Dice
       spent. The target automatically passes if they are immune to the
-      frightened condition.</p></li></ul>
+      frightened condition.</p></li></ul><section class="secret"
+      id="secret-z1m0H73U5Vo4HF35"><p><strong>Foundry Note</strong></p><p>You
+      can add a consumption entry to your main Warlord features to automate the
+      gain of demoralization dice.</p></section>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '@scale.warlord.leadership-die.number'
     spent: 0
     recovery: []
   type:
@@ -37,7 +40,195 @@ system:
     subtype: ''
   requirements: Dreadlord 3
   identifier: demoralization-dice
-  activities: {}
+  activities:
+    0UqXTVFjAjf35TMF:
+      type: damage
+      name: Make it Excruciating
+      _id: 0UqXTVFjAjf35TMF
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: 1 + @scale.warlord.leadership-turn-limit
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '@scale.dreadlords-presence.demoralization-range'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.warlord.leadership-die.die'
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+      img: ''
+      appliedEffects: []
+    F38e5hHiVNJwEo6M:
+      type: utility
+      name: Don't Touch That
+      _id: F38e5hHiVNJwEo6M
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '@scale.dreadlords-presence.demoralization-range'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Reduce Attack Roll
+        formula: 1@scale.warlord.leadership-die.die
+      img: ''
+      appliedEffects: []
+    Dpq7wyk66ecTRLkr:
+      type: save
+      name: Are You Sure?
+      _id: Dpq7wyk66ecTRLkr
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: A creature ends their turn within 5 feet of you
+      consumption:
+        scaling:
+          allowed: true
+          max: 1 + @scale.warlord.leadership-turn-limit
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '@scale.dreadlords-presence.are-you-sure-range'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: 10 * @scaling
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+        onSave: none
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: cha
+          formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -51,14 +242,18 @@ flags:
       value: true
   core:
     sourceId: Item.rTIWX4N1P4HMZgYV
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.rTIWX4N1P4HMZgYV
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317519580
-  modifiedTime: 1727317519580
+  modifiedTime: 1731542969038
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 60000000

@@ -2,10 +2,15 @@ folder: kZr7KUvJIeDOSEyV
 name: Steed
 type: class
 _id: RvK9uetjgR7bUotD
-img: systems/dnd5e/icons/svg/items/class.svg
+img: icons/creatures/mammals/unicorn-horned-white.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>A sidekick class for faithful steeds to make reliable long term
+      companions rather just than a line item on your adventuring expenses to
+      replace. Not all mounts are steeds, but they make an invaluable companion
+      and are a necessary sidekick for any adventurer that wants to master
+      mounted combat.</p>
     chat: ''
   identifier: steed
   source:
@@ -16,7 +21,7 @@ system:
   primaryAbility:
     value: []
     all: true
-  hitDice: d6
+  hitDice: d8
   hitDiceUsed: 0
   advancement:
     - _id: tX4XIms4E5ZkKbwL
@@ -112,7 +117,10 @@ system:
     - _id: 9TdwcHm8PykhmknO
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZMW3x6sU2PqAMVrY
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -121,7 +129,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XRhb8iGkucOnrZ9V
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -131,7 +142,10 @@ system:
       _id: DcD69zJtiW9VKKRd
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.b0Qk8EZ3jys9so33
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -141,7 +155,10 @@ system:
       _id: fCoVVzZtSkgBplRc
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.leYD1dJVZ3dFutLv
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -151,7 +168,10 @@ system:
       _id: RANdYBvBRWLfZeuh
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Nh4AQLGEikLJFKBF
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -161,7 +181,10 @@ system:
       _id: 8ao4wnQ0BDnJaXRP
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vDGRUOG6CpOTkKvU
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -171,7 +194,10 @@ system:
       _id: GZETvZoO3hO4iCBn
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jLjkXmzkdAQy8kHc
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -181,7 +207,10 @@ system:
       _id: oeq5UT0B4K7ijDnb
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ar3VaBWm6GmHv58x
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -191,7 +220,10 @@ system:
       _id: Cut28T7e6lax2B4f
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EOD7qmU7eDCDjkqM
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -201,7 +233,10 @@ system:
       _id: cjdhwbeskze1jCdb
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.N8MZtoVPLD6gE8T0
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -228,6 +263,10 @@ system:
       value: {}
       title: Swift Prancer
       hint: ''
+    - _id: 2t2Kv1qIPOxAPT7i
+      type: HitPoints
+      configuration: {}
+      value: {}
   spellcasting:
     progression: none
     preparation:
@@ -247,7 +286,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729038080998
-  modifiedTime: 1731552693353
+  modifiedTime: 1731565747176
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!RvK9uetjgR7bUotD'
 

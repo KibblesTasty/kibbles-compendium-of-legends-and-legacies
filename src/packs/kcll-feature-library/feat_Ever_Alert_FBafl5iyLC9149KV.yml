@@ -1,7 +1,7 @@
 name: Ever Alert
 type: feat
 _id: FBafl5iyLC9149KV
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/creatures/eyes/humanoid-single-red-brown.webp
 system:
   activities: {}
   uses:
@@ -28,7 +28,44 @@ system:
     level: null
   properties: []
   requirements: ''
-effects: []
+effects:
+  - name: Ever Alert
+    img: icons/creatures/eyes/humanoid-single-red-brown.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FBafl5iyLC9149KV
+    _id: HgmmWcI922T2gsSj
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.init.bonus
+        mode: 2
+        value: '5'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731565232276
+      modifiedTime: 1731565262122
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!FBafl5iyLC9149KV.HgmmWcI922T2gsSj'
 folder: null
 sort: 0
 ownership:
@@ -42,7 +79,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1731552363945
-  modifiedTime: 1731552389119
+  modifiedTime: 1731565093169
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!FBafl5iyLC9149KV'
 

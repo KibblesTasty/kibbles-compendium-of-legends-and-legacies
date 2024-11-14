@@ -1,7 +1,7 @@
-name: Back from the Farm
+name: One Mind
 type: feat
-_id: 6yc9nqEBAvydtVNj
-img: icons/magic/holy/angel-wings-gray.webp
+_id: ar3VaBWm6GmHv58x
+img: icons/magic/unholy/projectiles-binary-pink.webp
 system:
   activities: {}
   uses:
@@ -10,10 +10,12 @@ system:
     max: ''
   description:
     value: >-
-      <p>Starting at 20th level, if a doggo ever dies, it mysteriously returns
-      [[/r 1d4]] days later in good health and spirits.</p>
+      <p>Starting at 14th level, when the steed and its rider need to make a
+      Saving throw against a spell or ability that effects both of them, they
+      can select one of them to make the save. On pass, both of them pass the
+      save. On failure, they both fail the save.</p>
     chat: ''
-  identifier: back-from-the-farm
+  identifier: one-mind
   source:
     revision: 1
     rules: '2024'
@@ -38,8 +40,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1731552440710
-  modifiedTime: 1731565362077
+  createdTime: 1731565707849
+  modifiedTime: 1731565865662
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!6yc9nqEBAvydtVNj'
+_key: '!items!ar3VaBWm6GmHv58x'
 

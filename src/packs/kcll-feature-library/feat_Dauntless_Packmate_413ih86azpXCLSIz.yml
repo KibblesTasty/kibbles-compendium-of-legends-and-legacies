@@ -1,13 +1,75 @@
 name: Dauntless Packmate
 type: feat
 _id: 413ih86azpXCLSIz
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/creatures/abilities/wolf-howl-moon-purple.webp
 system:
-  activities: {}
+  activities:
+    nuu1bDfxKy4HwfyK:
+      type: heal
+      _id: nuu1bDfxKy4HwfyK
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@prof'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1 + (@scaling)d6
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
     value: >-
       <p>Starting at 11th level, the first time the doggo would drop to 0 hit
@@ -37,7 +99,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -45,7 +111,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1731552311061
-  modifiedTime: 1731552334376
+  modifiedTime: 1731565055413
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!413ih86azpXCLSIz'
 

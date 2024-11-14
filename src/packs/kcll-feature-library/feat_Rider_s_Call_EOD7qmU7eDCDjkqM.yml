@@ -1,0 +1,105 @@
+name: Rider's Call
+type: feat
+_id: EOD7qmU7eDCDjkqM
+img: icons/magic/movement/trail-streak-pink.webp
+system:
+  activities:
+    DL0X0Zcok23buJgh:
+      type: utility
+      name: Teleport
+      _id: DL0X0Zcok23buJgh
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: sr
+            type: recoverAll
+        max: '1'
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>At 18th level, the range of your Steed’s Bond increases to an unlimited
+      distance as long as the steed is on the same plane as the bonded creature.
+      </p><p>Additionally, as an action, the steed can teleport to the side of
+      its bonded creature. Once it does so, it cannot do again until it
+      completes a short or long rest.</p>
+    chat: ''
+  identifier: riders-call
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731565719234
+  modifiedTime: 1731565830304
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!EOD7qmU7eDCDjkqM'
+

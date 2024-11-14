@@ -1,7 +1,7 @@
 name: Expert Pack Tactics
 type: feat
 _id: QQHZ2TUBowMWLfUM
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/creatures/abilities/paw-print-pair-purple.webp
 system:
   activities: {}
   uses:
@@ -9,7 +9,14 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Starting at 2nd level, the doggo has advantage on an attack roll
+      against a creature if at least one of the doggo’s allies is within 5 feet
+      of the creature and the ally isn’t incapacitated. If the doggo already had
+      pack tactics, its pack tactics improve and whenever it has advantage on an
+      attack roll from pack tactics, it can reroll one of the dice once.</p><p>
+      Additionally, the doggo can pass through the space of allied creatures
+      without expending additional movement.</p>
     chat: ''
   identifier: expert-pack-tactics
   source:
@@ -37,7 +44,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1731551623082
-  modifiedTime: 1731551662999
+  modifiedTime: 1731564016423
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!QQHZ2TUBowMWLfUM'
 

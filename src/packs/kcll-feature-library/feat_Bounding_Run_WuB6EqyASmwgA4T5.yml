@@ -1,7 +1,7 @@
 name: Bounding Run
 type: feat
 _id: WuB6EqyASmwgA4T5
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/movement/ball-spinning-blue.webp
 system:
   activities: {}
   uses:
@@ -27,7 +27,44 @@ system:
     level: null
   properties: []
   requirements: ''
-effects: []
+effects:
+  - name: Bounding Run
+    img: icons/skills/movement/ball-spinning-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.WuB6EqyASmwgA4T5
+    _id: Dact22hEE9KJErMy
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '20'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731565296090
+      modifiedTime: 1731565317324
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!WuB6EqyASmwgA4T5.Dact22hEE9KJErMy'
 folder: null
 sort: 0
 ownership:
@@ -41,7 +78,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1731552405749
-  modifiedTime: 1731552424117
+  modifiedTime: 1731565293903
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!WuB6EqyASmwgA4T5'
 

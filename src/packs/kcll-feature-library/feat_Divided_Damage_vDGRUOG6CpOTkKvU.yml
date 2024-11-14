@@ -1,7 +1,7 @@
-name: Back from the Farm
+name: Divided Damage
 type: feat
-_id: 6yc9nqEBAvydtVNj
-img: icons/magic/holy/angel-wings-gray.webp
+_id: vDGRUOG6CpOTkKvU
+img: icons/magic/life/cross-beam-green.webp
 system:
   activities: {}
   uses:
@@ -10,10 +10,11 @@ system:
     max: ''
   description:
     value: >-
-      <p>Starting at 20th level, if a doggo ever dies, it mysteriously returns
-      [[/r 1d4]] days later in good health and spirits.</p>
+      <p>At 10th level, when a steed and its rider take damage from the same
+      area of effect spell, ability, or effect, they split the damage between
+      the two of them rather than both taking the full damage.</p>
     chat: ''
-  identifier: back-from-the-farm
+  identifier: divided-damage
   source:
     revision: 1
     rules: '2024'
@@ -38,8 +39,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1731552440710
-  modifiedTime: 1731565362077
+  createdTime: 1731565664160
+  modifiedTime: 1731565968440
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!6yc9nqEBAvydtVNj'
+_key: '!items!vDGRUOG6CpOTkKvU'
 

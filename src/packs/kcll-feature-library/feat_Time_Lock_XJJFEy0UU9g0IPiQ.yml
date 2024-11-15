@@ -1,0 +1,101 @@
+name: Time Lock
+type: feat
+_id: XJJFEy0UU9g0IPiQ
+img: icons/magic/time/clock-stopwatch-white-blue.webp
+system:
+  activities:
+    GA3zgG2XtXuTPOto:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.JYuRBwxpoFhXduvD
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '9'
+        properties: []
+        spellbook: true
+      _id: GA3zgG2XtXuTPOto
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Starting at 17th level, you can cast
+      @UUID[Compendium.dnd5e.spells.Item.JYuRBwxpoFhXduvD]{time stop} without
+      expending a spell slot. When you cast time stop, you always stop time for
+      maximum amount of time rather than rolling. </p><p>Once you use this
+      ability, you cannot use it again until you complete a long rest.</p>
+    chat: ''
+  identifier: time-lock
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731639575028
+  modifiedTime: 1731639654549
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!XJJFEy0UU9g0IPiQ'
+

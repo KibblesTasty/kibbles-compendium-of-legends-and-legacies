@@ -1,0 +1,101 @@
+name: Mystic Reinforcement
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-triangle-green.webp
+effects:
+  - name: Mystic Reinforcement
+    img: icons/magic/defensive/shield-barrier-glowing-triangle-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ii8x2XOiQPQpUroi
+    _id: 4saxg367rkA7KOge
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.warden.bulwark-reduction
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731646220649
+      modifiedTime: 1731646251750
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!ii8x2XOiQPQpUroi.4saxg367rkA7KOge'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.X3pAwe5IF7gMMckH
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: <p>The damage reduction granted by Mystic Bulwark increases by 1.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-mystic-reinforcement
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.X3pAwe5IF7gMMckH
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317517049
+  modifiedTime: 1731646283256
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 55700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ii8x2XOiQPQpUroi
+_key: '!items!ii8x2XOiQPQpUroi'
+

@@ -1,0 +1,359 @@
+name: Innate Magic (Bone Binder)
+type: feat
+_id: xObSPdYy0qbOl5oC
+img: icons/magic/death/skeleton-bird-skull-gray.webp
+system:
+  activities:
+    Wmxe13Q2VVRt1HQk:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: Wmxe13Q2VVRt1HQk
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    yDcQQ5aivJeUvGJK:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: yDcQQ5aivJeUvGJK
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    qzu6S4lvHMRP0Fuh:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: qzu6S4lvHMRP0Fuh
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    Rx4n9EQowQSOL7KK:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.oyE5nVppa5mde5gT
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: Rx4n9EQowQSOL7KK
+      sort: 500000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    irdGM9HOQGHd1NvW:
+      type: forward
+      name: False Life
+      _id: irdGM9HOQGHd1NvW
+      sort: 150000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: Wmxe13Q2VVRt1HQk
+      img: ''
+    gfXvKlLLozcRtPO0:
+      type: forward
+      name: Augury
+      _id: gfXvKlLLozcRtPO0
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: yDcQQ5aivJeUvGJK
+      img: ''
+    qAdNTEnhUnYwLKrB:
+      type: forward
+      name: Speak with Dead
+      _id: qAdNTEnhUnYwLKrB
+      sort: 450000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: qzu6S4lvHMRP0Fuh
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Additionally when you select this bond, you gain access to several
+      innate magical abilities by channeling the power of your primal
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Once you cast
+      the spell in this way, you cannot cast it again until you complete a long
+      rest. Wisdom is your spellcasting modifier for these spells. You can cast
+      a spell again before completing a long rest by spending 1 + the level of
+      the spell Endurance Dice.</p><table><thead><tr><th>Warden
+      Level</th><th>Innate Spells (1/long rest
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>grip of the
+      dead</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{false
+      life}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd]{augury}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak
+      with
+      dead}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.oyE5nVppa5mde5gT]{animate
+      dead}†</td></tr><tr><td>17th</td><td>ribcage</td></tr></tbody></table><p>†You
+      cannot cast this spell again early using Endurance Dice</p>
+    chat: ''
+  identifier: innate-magic-bone-binder
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731640405985
+  modifiedTime: 1731691568515
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!xObSPdYy0qbOl5oC'
+

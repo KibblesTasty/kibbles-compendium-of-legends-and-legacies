@@ -1,0 +1,176 @@
+name: Astral Projection
+type: feat
+_id: yVoV87XFAy7ZUY2T
+img: icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp
+system:
+  activities:
+    HkxGf8sV1UmXA7DN:
+      type: utility
+      name: Astral Project
+      _id: HkxGf8sV1UmXA7DN
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: Zcgd1wDDXfLnfeiN
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Starting at 17th level, you can astrally project your soul out of your
+      body as an action. When you do so, your body becomes stunned and
+      incapacitated, but you can act in your astral form. While in your astral
+      form, you have the following benefits:</p><ul><li><strong>Astral
+      Form.</strong> Your astral form is resistant to bludgeoning, piercing, and
+      slashing damage.</li><li><strong>Flying Speed.</strong> You gain a flying
+      speed equal to your movement speed, and can
+      hover.</li><li><strong>Ethereal.</strong> You can pass through physical
+      objects and creatures as if they are difficult terrain, but cannot end
+      your turn inside another creatures or objects’ space, being moved to the
+      last unoccupied space you occupied if you try.</li><li><strong>Planar
+      Shift.</strong> You can move between your current plane and the ethereal
+      plane as an action. While on the ethereal plane, you can see and hear the
+      plane you originated from, which is cast in shades of gray, and you can’t
+      see anything there more than 60 feet away.</li></ul><p>Otherwise, your
+      astral form shares all abilities and statistics with your normal form.
+      While you use this ability, your Primal Interdiction projects from your
+      astral form instead of your body. When you use this ability, you can
+      project yourself to any plane or location you are familiar with. If your
+      astral form is reduced to 0 hit points, you are returned to your body and
+      regain 1 hit point. You can end the project at any time as a bonus action,
+      returning to your body.</p>
+    chat: ''
+  identifier: astral-projection
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Astral Projection
+    img: icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yVoV87XFAy7ZUY2T
+    transfer: false
+    _id: Zcgd1wDDXfLnfeiN
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '1'
+        priority: null
+      - key: system.attributes.movement.hover
+        mode: 2
+        value: 'true'
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731691011987
+      modifiedTime: 1731691104168
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!yVoV87XFAy7ZUY2T.Zcgd1wDDXfLnfeiN'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731641968364
+  modifiedTime: 1731691012028
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!yVoV87XFAy7ZUY2T'
+

@@ -1,0 +1,250 @@
+name: Time Dilation
+type: feat
+_id: LKgK9Nd6QTEMgu90
+img: icons/magic/time/day-night-sunset-sunrise.webp
+system:
+  activities:
+    LTkB8xX5vEbqlkaB:
+      type: utility
+      name: Accelerate
+      _id: LTkB8xX5vEbqlkaB
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: w6mPQ2arvBDCjBgz
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    5Dv0JWmZui78PkSC:
+      type: utility
+      name: Decelerate
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: sVGI6xrpFfTtQSyq
+      range:
+        override: false
+        value: '60'
+        units: ft
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      _id: 5Dv0JWmZui78PkSC
+      img: ''
+      appliedEffects:
+        - w6mPQ2arvBDCjBgz
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 1st level, you gain the ability to manipulate the flow of
+      time for a creature. As an action, you can accelerate the movement through
+      time for a creature within 60 feet of you, allowing them to move more
+      rapidly. That creature’s movement speed is increased by 10 feet, and when
+      they take the Attack action, they can make a single additional weapon
+      attack as part of the same action until the start of your next
+      turn.</p><p>Alternatively, you can decelerate down the movement through
+      time of a creature within 60 feet of you. That creature’s speed is reduced
+      by 10 feet and it subtracts a d4 from its attack rolls and Dexterity
+      saving throws until the start of your next turn. When you gain a feature
+      that increases the size of the die for natural weapons you gain from the
+      Warden class, the size of the die increases by one step.</p><p>When you
+      reach 5th level in this subclass, you can accelerate or decelerate a
+      creature as an attack as part of attack action, but you can only do each
+      once per turn.</p>
+    chat: ''
+  identifier: time-dilation
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Accelerated Time
+    img: icons/magic/time/day-night-sunset-sunrise.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LKgK9Nd6QTEMgu90
+    transfer: false
+    _id: w6mPQ2arvBDCjBgz
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '10'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731650365154
+      modifiedTime: 1731650395292
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!LKgK9Nd6QTEMgu90.w6mPQ2arvBDCjBgz'
+  - name: Decelerated Time
+    img: icons/magic/time/day-night-sunset-sunrise.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LKgK9Nd6QTEMgu90
+    transfer: false
+    _id: sVGI6xrpFfTtQSyq
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '-10'
+        priority: null
+      - key: system.bonuses.mwak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.rwak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: ''
+        mode: 2
+        value: ''
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731650416276
+      modifiedTime: 1731650465537
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!LKgK9Nd6QTEMgu90.sVGI6xrpFfTtQSyq'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731639447825
+  modifiedTime: 1731650416351
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!LKgK9Nd6QTEMgu90'
+

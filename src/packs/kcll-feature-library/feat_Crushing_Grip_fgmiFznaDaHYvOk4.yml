@@ -1,0 +1,122 @@
+name: Crushing Grip
+type: feat
+img: icons/creatures/claws/claw-talons-glowing-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.hE3Xwg8K8F5s86FQ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>At the start of your turn, you deal [[/r 2d6]] bludgeoning damage to
+      all creatures you are grappling.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-crushing-grip
+  activities:
+    HOncTx8dxjEa0Xai:
+      type: damage
+      _id: HOncTx8dxjEa0Xai
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: 12
+  properties: []
+_stats:
+  compendiumSource: Item.hE3Xwg8K8F5s86FQ
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317514700
+  modifiedTime: 1731647615645
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 51800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: fgmiFznaDaHYvOk4
+_key: '!items!fgmiFznaDaHYvOk4'
+

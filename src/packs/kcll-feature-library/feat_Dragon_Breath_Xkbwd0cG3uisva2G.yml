@@ -1,0 +1,140 @@
+name: Dragon Breath
+type: feat
+_id: Xkbwd0cG3uisva2G
+img: icons/creatures/abilities/dragon-fire-breath-orange.webp
+system:
+  activities:
+    P4DnzWDRvSmzUFwt:
+      type: save
+      _id: P4DnzWDRvSmzUFwt
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: 3 * @scale.warden.primal-interdiction-radius
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.warden.endurance-die.die'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - poison
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: loseAll
+    max: '@prof'
+  description:
+    value: >-
+      <p>Starting at 3rd level, each time you expend an Endurance Die you build
+      up elemental energy, storing the expended die in a special pool of charged
+      power for 1 minute. You can have a number of stored dice equal to your
+      proficiency bonus. As a bonus action on your turn, you can unleash all of
+      this stored power in a blast of elemental breath. You expend all dice
+      stored with this feature when you do so. When you gain this feature,
+      select the elemental type of power stored from acid, cold, fire,
+      lightning, or poison.</p><p> All creatures of your choice within a 15-foot
+      cone must make a Dexterity saving throw with a DC of 8 + your Strength or
+      Wisdom modifier (your choice) + your proficiency bonus. On a failed save,
+      they take elemental damage of the type selected equal to the amount rolled
+      on the stored dice. On a successful save, they take half as much damage.
+      The size of the cone increases by 15 feet each time your Primal
+      Interdiction range increases by 5 feet.</p>
+    chat: ''
+  identifier: dragon-breath
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731638383577
+  modifiedTime: 1731638661608
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!Xkbwd0cG3uisva2G'
+

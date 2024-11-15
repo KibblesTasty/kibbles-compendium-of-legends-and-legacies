@@ -1,0 +1,107 @@
+name: Time Trick
+type: feat
+_id: 7x5C2ljKXqURL5rD
+img: icons/magic/time/clock-spinning-gold-pink.webp
+system:
+  activities:
+    eOajfDDvr8l0gBP3:
+      type: utility
+      _id: eOajfDDvr8l0gBP3
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@abilities.wis.mod'
+  description:
+    value: >-
+      <p>You gain the ability greatly speed up your own actions within narrow
+      limitations, allowing you to very quickly don or doff, change clothes, or
+      complete simple task that would take less than a minute in an action. You
+      cannot move from your space, interact with other creatures, cast spells,
+      attack, or make ability checks during this action.</p><p> You can use this
+      ability an number of times equal to your Wisdom modifier, regaining all
+      uses on a long rest.</p>
+    chat: ''
+  identifier: time-trick
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: primalManifestation
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Timetwister
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731649075851
+  modifiedTime: 1731650223962
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!7x5C2ljKXqURL5rD'
+

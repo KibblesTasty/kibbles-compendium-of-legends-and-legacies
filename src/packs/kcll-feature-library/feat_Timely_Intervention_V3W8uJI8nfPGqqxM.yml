@@ -1,0 +1,116 @@
+name: Timely Intervention
+type: feat
+_id: V3W8uJI8nfPGqqxM
+img: icons/magic/time/arrows-circling-pink.webp
+system:
+  activities:
+    la1bdoIemG1unFdl:
+      type: utility
+      name: Bend Time
+      _id: la1bdoIemG1unFdl
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '@scale.warden.primal-interdiction-radius'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Arrow Time
+        formula: 1@scale.warden.endurance-die.die
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Additionally at 3rd level, you can expend Endurance Dice to further
+      bend time within your Primal Interdiction, gaining the following new
+      options for using them:</p><ul><li><strong>Missed Beat:</strong> As a
+      reaction to a creature within your Primal Interdiction being attacked, you
+      can expend an Endurance Die to slow the creature's reactions, giving the
+      triggering attack against them advantage.</li><li><strong>Minor
+      Adjustment:</strong> As a reaction to a creature within your Primal
+      Interdiction being affected by an area of effect, you stop time long
+      enough for them to move up to 5 feet before the effect applies,
+      potentially moving out of the area of effect.</li><li><strong>Arrow
+      Time:</strong> As a reaction to a creature within your Primal Interdiction
+      being attacked by a ranged weapon projectile attack, you can stop the
+      projectile in time, rolling the Endurance Die and subtracting the roll
+      from the weapon’s attack roll.</li></ul>
+    chat: ''
+  identifier: timely-intervention
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731639530182
+  modifiedTime: 1731651344282
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!V3W8uJI8nfPGqqxM'
+

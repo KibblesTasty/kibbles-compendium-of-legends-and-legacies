@@ -1,0 +1,123 @@
+name: Well of Fortitude
+type: feat
+img: icons/magic/life/heart-shadow-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.T0gNhRanuCNK9tsH
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>When you complete a short rest, you can roll 1 hit die for free without
+      expending it. You can do this a number of times equal to your proficiency
+      bonus before you need to complete a long rest to do so again, but not more
+      than once per short rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: '@prof'
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-well-of-fortitude
+  activities:
+    4TWfIARDzhgwZtHu:
+      type: heal
+      _id: 4TWfIARDzhgwZtHu
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1@attributes.hd.largest
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.T0gNhRanuCNK9tsH
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317504023
+  modifiedTime: 1731646763952
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 35000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: QDDDiC0PxhuRae1z
+_key: '!items!QDDDiC0PxhuRae1z'
+

@@ -1,0 +1,98 @@
+name: Devouring Earth
+type: feat
+img: icons/magic/earth/explosion-lava-stone-yellow.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Q0KOE8db4Bfl56tp
+system:
+  description:
+    value: >-
+      <p>You can cast quicksand without expending a spell slot. Once you do so,
+      you cannot do so again until you complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  identifier: manifestation-devouring-earth
+  prerequisites:
+    level: 9
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  coreVersion: '12.331'
+  createdTime: 1678742769816
+  modifiedTime: 1731646866406
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.Q0KOE8db4Bfl56tp
+  duplicateSource: null
+folder: null
+sort: 73500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: zLJmWpctDVr59B3O
+_key: '!items!zLJmWpctDVr59B3O'
+

@@ -1,0 +1,131 @@
+name: Create Barrier
+type: feat
+_id: z9MgC278sWOS8SnV
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
+system:
+  activities:
+    YakRjnMj9iPmU3OA:
+      type: utility
+      _id: YakRjnMj9iPmU3OA
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cube
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Manifest Barrier
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '@classes.warden.levels'
+  description:
+    value: >-
+      <p>When you take the attack action on your turn, you can replace one of
+      your attacks with manifesting an elemental barrier in an unoccupied space
+      on the ground within 30 feet of you. This elemental barrier forms out of
+      nearby materials (such as dirt, wood, or stone), and cannot be formed in
+      the absence of natural materials. The barrier roughly blocks a 5 foot cube
+      of space, and has an AC of 15, and hit points equal to 10 + your Warden
+      level. You can have a number of these created equal to your proficiency
+      bonus. When creating a new one beyond your limit, the oldest previously
+      created one crumbles.</p><p>Based on your subclass, you may be able to
+      create other kinds of barriers:</p><ul><li><strong>Astral
+      Barrier.</strong> <em>(Prerequisite: Astral Guardian subclass)</em> The
+      barrier does not require any nearby materials to form
+      from.</li><li><strong>Ice Barrier.</strong> <em>(Prerequisite: Elemental
+      Soul subclass)</em> The barrier does not require any nearby natural
+      materials to form from, and deals 1d6 cold damage to any creature that
+      attacks it.</li><li><strong>Iron Barrier.</strong> <em>(Prerequisite:
+      Ironbound subclass)</em> The barrier has resistance to bludgeoning,
+      piercing, and slashing damage.</li><li><strong>Tree Barrier.</strong>
+      <em>(Prerequisite: Elderheart subclass)</em> The barrier does not require
+      any nearby natural materials to form from, has hit points equal to 10 +
+      twice your Warden level, and can form up to 20 feet
+      tall.</li><li><strong>Stone Barrier.</strong> <em>(Prerequisite:
+      Stoneblood subclass)</em> The barrier has an AC equal to your AC (unless
+      it is already higher).</li></ul><p>You can create a total number of
+      barriers equal to your Warden level before you must complete a short or
+      long rest to more.</p>
+    chat: ''
+  identifier: create-barrier
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: primalManifestation
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731648299856
+  modifiedTime: 1731648527188
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!z9MgC278sWOS8SnV'
+

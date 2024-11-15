@@ -1,0 +1,108 @@
+name: Dimensional Interdiction
+type: feat
+_id: oeBksrXcESwK0xHo
+img: icons/magic/symbols/circled-gem-pink.webp
+system:
+  activities:
+    RFaSJAjEpqrI5IBb:
+      type: save
+      name: Deny Teleport
+      _id: RFaSJAjEpqrI5IBb
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '@scale.warden.primal-interdiction-radius'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: wis
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, the difficult terrain of your Primal
+      Interdiction affects flying creatures within range as well. Additionally,
+      any creature that attempts to teleport into or out of the radius of your
+      Primal Interdiction must succeed a Charisma saving throw with a DC equal
+      to 8 + your Wisdom modifier + your proficiency bonus. On a failed save,
+      the teleport is wasted and they are not transported. You can choose to
+      allow a creature to teleport in or out of Primal Interdiction without
+      making a save.</p>
+    chat: ''
+  identifier: dimensional-interdiction
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731641865356
+  modifiedTime: 1731690534480
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!oeBksrXcESwK0xHo'
+

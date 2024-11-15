@@ -1,0 +1,115 @@
+name: Falling Sky
+type: feat
+img: icons/magic/water/projectile-beams-salvo-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.P8pqYSZiIS51fW11
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You can cast @Compendium[dnd5e.spells.dhqBY4TvVjxVmOZd]{Sleet Storm}
+      without expending a spell slot. Once you do so, you cannot do so again
+      until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-falling-sky
+  activities:
+    mx0HvucZY0MuStxo:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties: []
+        spellbook: true
+      _id: mx0HvucZY0MuStxo
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+  enchant: {}
+  prerequisites:
+    level: 9
+  properties: []
+_stats:
+  compendiumSource: Item.P8pqYSZiIS51fW11
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317489854
+  modifiedTime: 1731646928896
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 12600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 6psL45wWwXO3Su0g
+_key: '!items!6psL45wWwXO3Su0g'
+

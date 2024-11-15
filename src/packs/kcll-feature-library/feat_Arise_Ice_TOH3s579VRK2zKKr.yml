@@ -1,0 +1,115 @@
+name: Arise Ice
+type: feat
+img: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.O8rngWL2DRe57vzK
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You can cast @Compendium[dnd5e.spells.fzZnVKLmBMo2f5up]{Wall of Ice}
+      without expending a spell slot. Once you do so, you cannot do so again
+      until you complete a long rest</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: Elemental Soul
+  identifier: manifestation-arise-ice
+  activities:
+    DNLVF8yVR8ydGrrx:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.fzZnVKLmBMo2f5up
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '6'
+        properties: []
+        spellbook: true
+      _id: DNLVF8yVR8ydGrrx
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+  enchant: {}
+  prerequisites:
+    level: 16
+  properties: []
+_stats:
+  compendiumSource: Item.O8rngWL2DRe57vzK
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317505641
+  modifiedTime: 1731647920698
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 37600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: TOH3s579VRK2zKKr
+_key: '!items!TOH3s579VRK2zKKr'
+

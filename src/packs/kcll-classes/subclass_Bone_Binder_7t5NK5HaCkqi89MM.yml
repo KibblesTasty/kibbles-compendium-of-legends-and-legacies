@@ -2,10 +2,15 @@ folder: HUaII7dx2BNLZrSg
 name: Bone Binder
 type: subclass
 _id: 7t5NK5HaCkqi89MM
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/unholy/hand-fire-skeleton-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Commanding the dark powers of the fallen, a Bone Warden watches over
+      the endless and final silence of the end of life. Solemn and grim, they
+      recycle the remains of life to one final service, binding the bones of
+      once living creatures to form their armor, weapons, and grim constructs to
+      bind and crush those that stand in their way of their primal decrees.</p>
     chat: ''
   identifier: bone-binder
   source:
@@ -15,7 +20,16 @@ system:
     - _id: Fh23lYzDsZXt9Lg9
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.03rvCKKIu68ewoLG
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3GG7nglGtCRq2fDd
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.xObSPdYy0qbOl5oC
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +38,13 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.81xvTkwchZsntPvQ
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BrC6xri6jGekvYlr
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +54,13 @@ system:
       _id: ylN6qWZ6DJlrRY2R
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mbLEZfnVPB1kZ8TQ
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mYjqOSbkuZ4vLCRA
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +70,10 @@ system:
       _id: Pgp2frzuM817lFmD
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YGto2tLVktZAkLn5
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +83,10 @@ system:
       _id: 1uanZ27fiiONi6A5
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BK5RFb3swkuV3lk4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -62,6 +94,36 @@ system:
       title: Warden Bond Feature
       hint: ''
       _id: Q6BObpQhf3saFXtG
+    - _id: iycixnN6wYhb31Vc
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:itm
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Macabre Mantle
+      hint: ''
+    - _id: sqM0biN6kAGdSiNd
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - dr:cold
+              - dr:necrotic
+              - dr:poison
+      value:
+        chosen: []
+      level: 7
+      title: Unliving Resilience
+      hint: ''
   classIdentifier: warden
   spellcasting:
     progression: none
@@ -81,7 +143,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729046508689
-  modifiedTime: 1731610605721
+  modifiedTime: 1731691718056
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!7t5NK5HaCkqi89MM'
 

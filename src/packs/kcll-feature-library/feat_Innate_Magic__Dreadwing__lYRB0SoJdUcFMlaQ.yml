@@ -1,0 +1,301 @@
+name: Innate Magic (Dreadwing)
+type: feat
+_id: lYRB0SoJdUcFMlaQ
+img: icons/magic/symbols/rune-sigil-hook-white-red.webp
+system:
+  activities:
+    pyQSPeiwiLbpXpej:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: pyQSPeiwiLbpXpej
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    1cGqxIJQYDBCOguA:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 1cGqxIJQYDBCOguA
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    SCKYFMsgksaMdCMr:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.8sgwRh8NUNkn9Vi0
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: SCKYFMsgksaMdCMr
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    Ma0SSoXMSHLj5oju:
+      type: forward
+      name: Fly
+      _id: Ma0SSoXMSHLj5oju
+      sort: 150000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: '4'
+      activity:
+        id: ''
+      img: ''
+    OPI0xjSxbb0nxwTY:
+      type: forward
+      name: Fear
+      _id: OPI0xjSxbb0nxwTY
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: ''
+      img: ''
+    3e4jHSQi3feQRx4W:
+      type: forward
+      name: Secret Chest
+      _id: 3e4jHSQi3feQRx4W
+      sort: 600000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Additionally when you select this bond, you gain access to several
+      innate magical abilities by channeling the power of your primal
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Once you cast
+      the spell in this way, you cannot cast it again until you complete a long
+      rest. Wisdom is your spellcasting modifier for these spells. You can cast
+      a spell again before completing a long rest by spending 1 + the level of
+      the spell Endurance Dice.</p><table><thead><tr><th>Warden
+      Level</th><th>Innate Spells (1/long rest
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>elemental
+      orb</td></tr><tr><td>3rd</td><td>dragon
+      surge</td></tr><tr><td>5th</td><td>elemental
+      exhalation</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t]{fly}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0]{fear}</td></tr><tr><td>17th</td><td>@UUID[Compendium.dnd5e.spells.Item.8sgwRh8NUNkn9Vi0]{secret
+      chest}</td></tr></tbody></table>
+    chat: ''
+  identifier: innate-magic-dreadwing
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731637068797
+  modifiedTime: 1731638051562
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!lYRB0SoJdUcFMlaQ'
+

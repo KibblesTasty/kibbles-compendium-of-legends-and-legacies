@@ -1,0 +1,97 @@
+name: Mystic Deflection
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+effects:
+  - _id: q8PD6aeblrXJN2lt
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.aYQOqhLJh7caCYLR
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Mystic Reinforcement
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!AOFOprEWYKnNJRYv.q8PD6aeblrXJN2lt'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.aYQOqhLJh7caCYLR
+system:
+  description:
+    value: >-
+      <p>Your AC is increased by 1 while you are wearing light or medium
+      armor.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: Warden 3
+  identifier: manifestation-mystic-deflection
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.aYQOqhLJh7caCYLR
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317493050
+  modifiedTime: 1731646203940
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 17500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: AOFOprEWYKnNJRYv
+_key: '!items!AOFOprEWYKnNJRYv'
+

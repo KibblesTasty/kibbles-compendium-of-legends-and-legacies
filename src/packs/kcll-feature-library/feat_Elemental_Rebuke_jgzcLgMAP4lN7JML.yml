@@ -1,0 +1,79 @@
+name: Elemental Rebuke
+type: feat
+_id: jgzcLgMAP4lN7JML
+img: icons/magic/defensive/shield-barrier-glowing-triangle-purple-orange.webp
+system:
+  activities:
+    zvjNHpHPwHsHISr5:
+      type: forward
+      name: Aldricor's Elemental Rebuke
+      _id: zvjNHpHPwHsHISr5
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You learn the spell Aldricor’s elemental rebuke. You don’t need any
+      components to cast it, and can cast it once without expending a spell
+      slot. Once you do so, you cannot do so again until you complete a long
+      rest. You can cast it again early be expending 2 Endurance Dice.</p>
+    chat: ''
+  identifier: elemental-rebuke
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: primalManifestation
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731648551220
+  modifiedTime: 1731648919046
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!jgzcLgMAP4lN7JML'
+

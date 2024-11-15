@@ -1,0 +1,115 @@
+name: Arise Stone
+type: feat
+img: icons/magic/earth/barrier-stone-explosion-red.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Fzf3YqiqLIqHHPAW
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You can cast @Compendium[dnd5e.spells.NmoRmM1mhuM3pqnY]{Wall of Stone}
+      without expending a spell slot. Once you do so, you cannot do so again
+      until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-arise-stone
+  activities:
+    soz4DRVaEmpVe0Ie:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '5'
+        properties: []
+        spellbook: true
+      _id: soz4DRVaEmpVe0Ie
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+  enchant: {}
+  prerequisites:
+    level: 12
+  properties: []
+_stats:
+  compendiumSource: Item.Fzf3YqiqLIqHHPAW
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317503335
+  modifiedTime: 1731647304907
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 33800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: PKOdTND5rRMJoOqR
+_key: '!items!PKOdTND5rRMJoOqR'
+

@@ -1,0 +1,200 @@
+name: Death's Domain
+type: feat
+_id: BK5RFb3swkuV3lk4
+img: icons/magic/death/skull-energy-light-purple.webp
+system:
+  activities:
+    BAorErykYCuEtIqV:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.8zT7njvqbpXs4Cel
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: null
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: BAorErykYCuEtIqV
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    oM9MUvDf8XBzDzyM:
+      type: utility
+      name: Project Domain
+      _id: oM9MUvDf8XBzDzyM
+      sort: -100000
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 6KwLO0tObhv07lPu
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Starting at 17th level, as a bonus action you can project your domain
+      around you for 1 minute, with the following
+      effects:</p><ul><li><strong>Expanded Domain.</strong> The range of your
+      Primal Interdiction is doubled.</li><li><strong>Spare the Dying.</strong>
+      If an allied creature falls to 0 hit points within range of your Primal
+      Interdiction, you can cast
+      @UUID[Compendium.dnd5e.spells.Item.8zT7njvqbpXs4Cel]{spare the dying} on
+      them as a reaction (without needing to be able to touch
+      them).</li><li><strong>Boneyard.</strong> Skeletal constructs you create
+      (including your Bone Construct, skeletal hands from Grave Grip, objects
+      created by spells such as ribcage, or skeletons created by spells such as
+      animate dead) gain resistance to all damage while within range of your
+      Primal Interdiction.</li></ul><p>Once you use this ability, you cannot use
+      it again until you complete a long rest.</p>
+    chat: ''
+  identifier: deaths-domain
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Death's Domain
+    img: icons/magic/death/skull-energy-light-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BK5RFb3swkuV3lk4
+    transfer: false
+    _id: 6KwLO0tObhv07lPu
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.warden.primal-interdiction-radius
+        mode: 1
+        value: '2'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731692179723
+      modifiedTime: 1731692199546
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!BK5RFb3swkuV3lk4.6KwLO0tObhv07lPu'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731645716845
+  modifiedTime: 1731692179768
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!BK5RFb3swkuV3lk4'
+

@@ -1,0 +1,64 @@
+name: Sacrificing Stance
+type: feat
+img: icons/skills/melee/shield-block-fire-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.gNiQjuk2qwjkgOtB
+system:
+  description:
+    value: >-
+      <p>When you roll a saving throw against an area of effect spell or magical
+      effect that does damage, you can roll your save with disadvantage to
+      shield your allies. </p><p>When you do so allied creatures in the area of
+      your Primal Interdiction gain resistance to the damage taken from the
+      effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestations-sacrificing-stance
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: 6
+  properties: []
+_stats:
+  compendiumSource: Item.gNiQjuk2qwjkgOtB
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317526437
+  modifiedTime: 1731648049508
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 71500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: wwJYNm00rgpjht0P
+_key: '!items!wwJYNm00rgpjht0P'
+

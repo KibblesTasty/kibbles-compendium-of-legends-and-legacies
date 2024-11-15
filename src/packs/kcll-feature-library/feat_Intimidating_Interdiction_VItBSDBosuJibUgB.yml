@@ -1,0 +1,111 @@
+name: Intimidating Interdiction
+type: feat
+_id: VItBSDBosuJibUgB
+img: icons/magic/control/fear-fright-monster-grin-red-orange.webp
+system:
+  activities:
+    CBewOguq1wJ9KcpN:
+      type: save
+      _id: CBewOguq1wJ9KcpN
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: str
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, your Primal Interdiction sparks the primordial
+      fear which dragons invoke in lesser creatures. As a bonus action, you can
+      unleash a wave of supernatural dread, forcing all creatures of your choice
+      within range of your Primal Interdiction to make a Wisdom saving throw
+      with a DC of 8 + your Strength or Wisdom modifier (your choice) + your
+      proficiency bonus.</p><p>On failure, a creature becomes
+      &amp;Reference[Frightened] of you until the start of your next turn. On
+      success, a creature does not become Frightened of you, but cannot gain
+      advantage on attack rolls against you until the start of your next turn.
+      Once a creature passes their saving throw against this ability, they
+      automatically pass all saving throws against it for the next minute.</p>
+    chat: ''
+  identifier: intimidating-interdiction
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731638068161
+  modifiedTime: 1731638180475
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!VItBSDBosuJibUgB'
+

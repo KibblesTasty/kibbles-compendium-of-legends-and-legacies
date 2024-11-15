@@ -1,0 +1,61 @@
+name: Font of Will
+type: feat
+img: icons/magic/life/heart-hand-gold-green-light.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1TnvUs0GZmDb4Mcv
+system:
+  description:
+    value: >-
+      <p>When you would make a saving throw at the end of your turn, you can
+      instead make your saving throw at the start of your turn.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-font-of-will
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: 12
+  properties: []
+_stats:
+  compendiumSource: Item.1TnvUs0GZmDb4Mcv
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317497391
+  modifiedTime: 1731647411605
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 24200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: G7K7wxfEBNn9cAdF
+_key: '!items!G7K7wxfEBNn9cAdF'
+

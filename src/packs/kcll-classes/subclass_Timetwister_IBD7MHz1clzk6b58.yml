@@ -2,10 +2,17 @@ folder: HUaII7dx2BNLZrSg
 name: Timetwister
 type: subclass
 _id: IBD7MHz1clzk6b58
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/symbols/chevron-elipse-circle-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>The Timetwister draws upon the enigmatic forces of time, its
+      unstoppable march, and the ebb and flow of the past, present, and future.
+      These Wardens manipulate the battlefield, expedite their allies’ actions
+      to a blur while slow their enemies to a crawl. They witness flickers of
+      the past, glimpses of the future, and the ever branching pathways of the
+      present. In battle, a fleeting moment is the only gap between life and
+      death, and these Wardens are the masters of moments.</p>
     chat: ''
   identifier: timetwister
   source:
@@ -15,7 +22,16 @@ system:
     - _id: Fh23lYzDsZXt9Lg9
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LKgK9Nd6QTEMgu90
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DCsKFA3RsqJz8CWC
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.a86n7BKNPWwKx16v
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +40,13 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eANOCmK6Zb7i3dbG
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.V3W8uJI8nfPGqqxM
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +56,10 @@ system:
       _id: ylN6qWZ6DJlrRY2R
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BtbIYT2jg0FanqFb
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +69,10 @@ system:
       _id: Pgp2frzuM817lFmD
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qPpRngzAKzgPtEPd
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +82,10 @@ system:
       _id: 1uanZ27fiiONi6A5
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XJJFEy0UU9g0IPiQ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -81,7 +112,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729046492938
-  modifiedTime: 1731610660556
+  modifiedTime: 1731639592122
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!IBD7MHz1clzk6b58'
 

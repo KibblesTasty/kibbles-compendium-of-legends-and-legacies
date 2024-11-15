@@ -1,0 +1,117 @@
+name: Temporal Torsion
+type: feat
+_id: KoMuo3HfDYILcFJD
+img: icons/magic/unholy/energy-smoke-pink.webp
+system:
+  activities:
+    021mZupkxC3eRMQK:
+      type: save
+      _id: 021mZupkxC3eRMQK
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: '@abilities.wis.mod'
+            types:
+              - necrotic
+            scaling:
+              number: 1
+        onSave: none
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: wis
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As an attack as part of the attack action, you can violent distort time
+      for a creature within 30 feet, causing be displaced from reality. The
+      target must make a Charisma saving throw, taking 1d8 + your Wisdom
+      modifier necrotic damage and having their movement speed reduced by 10
+      feet on failed saving throw. The damage of this ability is increased by
+      any effect that increases the damage of your natural weapons.</p>
+    chat: ''
+  identifier: temporal-torsion
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: primalManifestation
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Timetwister
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731648947779
+  modifiedTime: 1731650206884
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!KoMuo3HfDYILcFJD'
+

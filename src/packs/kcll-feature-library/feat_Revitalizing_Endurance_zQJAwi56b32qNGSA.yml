@@ -1,0 +1,162 @@
+name: Revitalizing Endurance
+type: feat
+img: icons/magic/life/cross-area-circle-green-white.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PYHvAY27XghjT8kF
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>When you start your turn with 0 hit points, you can expend an Endurance
+      die, rolling it and regaining hit points equal to the number rolled.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  identifier: manifestation-revitalizing-endurance
+  prerequisites:
+    level: 12
+  activities:
+    LyGuDenLVNCaiACj:
+      type: heal
+      _id: LyGuDenLVNCaiACj
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 1@scale.warden.endurance-die.die
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  coreVersion: '12.331'
+  createdTime: 1678742793587
+  modifiedTime: 1731647598648
+  lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.PYHvAY27XghjT8kF
+  duplicateSource: null
+folder: null
+sort: 73600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_id: zQJAwi56b32qNGSA
+_key: '!items!zQJAwi56b32qNGSA'
+

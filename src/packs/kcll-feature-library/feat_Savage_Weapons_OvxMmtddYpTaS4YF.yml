@@ -1,0 +1,64 @@
+name: Savage Weapons
+type: feat
+img: icons/creatures/claws/claw-talons-glowing-orange.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.mqRdZXoXHX5w9TON
+system:
+  description:
+    value: >-
+      <p>When you roll a saving throw against an area of effect spell or magical
+      effect that does damage, you can roll your save with disadvantage to
+      shield your allies.</p><p> When you do so allied creatures in the area of
+      your Primal Interdiction gain resistance to the damage taken from the
+      effect.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-savage-weapons
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: 6
+  properties: []
+_stats:
+  compendiumSource: Item.mqRdZXoXHX5w9TON
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317503166
+  modifiedTime: 1731646821628
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 33500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: OvxMmtddYpTaS4YF
+_key: '!items!OvxMmtddYpTaS4YF'
+

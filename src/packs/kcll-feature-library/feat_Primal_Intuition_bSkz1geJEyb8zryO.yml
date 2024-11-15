@@ -1,0 +1,95 @@
+name: Primal Intuition
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+effects:
+  - _id: IL2ao3Lxwc9f51GS
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 5
+        value: '10'
+        priority: 50
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.TQUeFrTfwRdkhkdF
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    name: Primal Intuition
+    img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!bSkz1geJEyb8zryO.IL2ao3Lxwc9f51GS'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.TQUeFrTfwRdkhkdF
+system:
+  description:
+    value: <p>You gain a blindsight out to a range of 10 feet.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-primal-intuition
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.TQUeFrTfwRdkhkdF
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317511535
+  modifiedTime: 1731646342264
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 46800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: bSkz1geJEyb8zryO
+_key: '!items!bSkz1geJEyb8zryO'
+

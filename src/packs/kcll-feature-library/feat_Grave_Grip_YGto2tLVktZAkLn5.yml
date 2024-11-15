@@ -1,0 +1,234 @@
+name: Grave Grip
+type: feat
+_id: YGto2tLVktZAkLn5
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+system:
+  activities:
+    MJxYr6RBxTnMJsym:
+      type: save
+      name: Grasping Hands
+      _id: MJxYr6RBxTnMJsym
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '@scale.warden.primal-interdiction-radius'
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: Large or smaller
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: str
+          formula: ''
+      img: ''
+      appliedEffects: []
+    jLTxYGQiIpsUBe2F:
+      type: save
+      name: Break Free
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: radius
+          size: '@scale.warden.primal-interdiction-radius'
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: Large or smaller
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: str
+          formula: ''
+      _id: jLTxYGQiIpsUBe2F
+      img: ''
+      appliedEffects: []
+    zv8bRVZ4ty8auXiE:
+      type: damage
+      _id: zv8bRVZ4ty8auXiE
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Starting at 14th level, as an action, you can call for skeletal
+      grasping hands to raise from the ground and bind your foes. All Large or
+      smaller creatures of your choice within range of your Primal Interdiction
+      (or the Primal Interdiction of your Bone Construct) must make a Dexterity
+      saving throw with a DC of 8 + your Strength or Wisdom modifier (your
+      choice) + your proficiency bonus.</p><p>On failure, the creature becomes
+      &amp;Reference[Restrained] by a skeletal hand rising from the earth. The
+      creature can break free as an action by making a Strength saving throw
+      with the same DC as the original save, or can be freed if the skeletal
+      hand is destroyed. It has an AC of 13 and 13 hit points, with a
+      vulnerability to bludgeoning damage.</p><p>If a creature ends its turn
+      while restrained by a skeletal hand from this ability, it takes 3d6
+      necrotic damage.</p><p>Once you use this ability, you cannot use it again
+      until you complete a short or long rest.</p>
+    chat: ''
+  identifier: grave-grip
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731645698620
+  modifiedTime: 1731692064966
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!YGto2tLVktZAkLn5'
+

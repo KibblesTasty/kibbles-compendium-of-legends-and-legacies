@@ -1,0 +1,96 @@
+name: Unlimited Endurance
+type: feat
+img: icons/skills/melee/shield-block-gray-yellow.webp
+effects:
+  - name: Unlimited Endurance
+    img: icons/skills/melee/shield-block-gray-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.toZEdLMdQEZH7lzQ
+    _id: yNIRRZMXfVff5Nx6
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.warden.endurance-die.number
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731647716316
+      modifiedTime: 1731647729761
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!toZEdLMdQEZH7lzQ.yNIRRZMXfVff5Nx6'
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.SbJz9T8UvOLZuL0w
+system:
+  description:
+    value: <p>You gain an additional Endurance Die.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-unlimited-endurance
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: 12
+  properties: []
+_stats:
+  compendiumSource: Item.SbJz9T8UvOLZuL0w
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317524017
+  modifiedTime: 1731647711968
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 67600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: toZEdLMdQEZH7lzQ
+_key: '!items!toZEdLMdQEZH7lzQ'
+

@@ -1,0 +1,303 @@
+name: Innate Magic (Astral Guardian)
+type: feat
+_id: wg7SrWSKlsFAqr7A
+img: icons/skills/trades/academics-astronomy-navigation-blue.webp
+system:
+  activities:
+    EUPgFqDqECP9IaAJ:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: EUPgFqDqECP9IaAJ
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    braHefuuDGuK1av1:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: braHefuuDGuK1av1
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    9RPWLKWdR3JQtCVw:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 9RPWLKWdR3JQtCVw
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    sIsgqJfoksX9h4tf:
+      type: forward
+      name: Detect Magic
+      _id: sIsgqJfoksX9h4tf
+      sort: 150000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: EUPgFqDqECP9IaAJ
+      img: ''
+    EcuwCmRAkoi8OqZS:
+      type: forward
+      name: Misty Step
+      _id: EcuwCmRAkoi8OqZS
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: braHefuuDGuK1av1
+      img: ''
+    JQ1AGhKLWKjc96kU:
+      type: forward
+      name: Dimension Door
+      _id: JQ1AGhKLWKjc96kU
+      sort: 600000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: 9RPWLKWdR3JQtCVw
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Additionally when you select this bond, you gain access to several
+      innate magical abilities by channeling the power of your primal
+      connection.</p><p>You gain the following spells at the listed levels, and
+      can cast each spell once without components or spell slots. Once you cast
+      the spell in this way, you cannot cast it again until you complete a long
+      rest. Wisdom is your spellcasting modifier for these spells. You can cast
+      a spell again before completing a long rest by spending 1 + the level of
+      the spell Endurance Dice.</p><table><thead><tr><th>Warden
+      Level</th><th>Innate Spells (1/long rest
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detect
+      magic}</td></tr><tr><td>3rd</td><td>arcane
+      conduit</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{misty
+      step}</td></tr><tr><td>9th</td><td>ghost
+      step</td></tr><tr><td>13th</td><td>dimension
+      cutter</td></tr><tr><td>17th</td><td>@UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{dimension
+      door}</td></tr></tbody></table>
+    chat: ''
+  identifier: innate-magic-astral-guardian
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731640396114
+  modifiedTime: 1731690417930
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!wg7SrWSKlsFAqr7A'
+

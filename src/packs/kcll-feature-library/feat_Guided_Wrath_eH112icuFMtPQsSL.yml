@@ -1,0 +1,72 @@
+name: Guided Wrath
+type: feat
+img: icons/magic/nature/vines-throned-entwined-glow-green.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.gTS63N2XRGIAnS1f
+system:
+  description:
+    value: >-
+      <p>When you make an attack with a natural weapon granted by this class,
+      you can use your Wisdom modifier, instead of Strength or Dexterity, for
+      the attack and damage rolls.</p><p>Based on your subclass, you may gain
+      additional benefits:</p><ul><li><strong>Living Weapons</strong>
+      (Prerequisite: Elderheart subclass). You can use your Wisdom modifier,
+      instead of your Strength, to initiate and maintain grapple checks made
+      with your Lashing Vines.</li><li><strong>Living Chains</strong>
+      (Prerequisite: Ironbound subclass). You can use your Wisdom modifier,
+      instead of your Strength, to initiate and maintain grapple checks made
+      with the Chains created with Binding Interdiction.</li><li><strong>Living
+      Arms</strong> (Prerequisite: Astral Guardian subclass). You can use your
+      Wisdom modifier, instead of your Strength, to initiate and maintain
+      grapple checks with your Astral Arms.</li></ul>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-guided-wrath
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.gTS63N2XRGIAnS1f
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317513673
+  modifiedTime: 1731646103670
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 50200000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: eH112icuFMtPQsSL
+_key: '!items!eH112icuFMtPQsSL'
+

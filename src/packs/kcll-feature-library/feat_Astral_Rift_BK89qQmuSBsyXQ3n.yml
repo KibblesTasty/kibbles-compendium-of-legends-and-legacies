@@ -1,0 +1,113 @@
+name: Astral Rift
+type: feat
+_id: BK89qQmuSBsyXQ3n
+img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+system:
+  activities:
+    naXWHkKT0WtwjpPo:
+      type: utility
+      name: Open Rift
+      _id: naXWHkKT0WtwjpPo
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: mi
+        special: ''
+        value: '@classes.warden.levels'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: space
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Starting at 14th level, as an action, you can open an Astral Rift
+      connecting two places with a tear in reality. One rift appears in an empty
+      space within 5 feet of you of your choice, and the other appears in an
+      empty space at a point you are familiar with within a number of miles
+      equal to your Warden level. The tear takes the shape of a swirling opaque
+      roughly circular portal with a 5 foot radius. A willing creature that
+      passes through it is teleported to an empty space within 5 feet of the
+      other portal</p><p> The rift remains open for 1 minute once opened, or
+      until you close it as an action. Once you create an astral rift, you
+      cannot do so again until you complete a long rest.</p>
+    chat: ''
+  identifier: astral-rift
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731641931992
+  modifiedTime: 1731691008176
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!BK89qQmuSBsyXQ3n'
+

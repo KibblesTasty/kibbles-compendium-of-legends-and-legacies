@@ -1,0 +1,82 @@
+name: Empowered Wings
+type: feat
+_id: YM9vVRWNnwiki3eF
+img: icons/creatures/abilities/wing-batlike-red-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 14th level, you can use your Dragon Wings to fly, gaining a
+      flying speed of 30 feet.</p>
+    chat: ''
+  identifier: empowered-wings
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Empowered Wings
+    img: icons/creatures/abilities/wing-batlike-red-pink.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YM9vVRWNnwiki3eF
+    _id: NFnos3oaNAGSiREa
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '30'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731638808125
+      modifiedTime: 1731638824130
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!YM9vVRWNnwiki3eF.NFnos3oaNAGSiREa'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731638785293
+  modifiedTime: 1731638806345
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!YM9vVRWNnwiki3eF'
+

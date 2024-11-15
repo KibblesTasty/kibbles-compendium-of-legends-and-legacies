@@ -1,0 +1,62 @@
+name: Balanced Assault
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-teal.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.FyGxduU67uuDAYaj
+system:
+  description:
+    value: >-
+      <p>You gain the Two-Weapon Fighting
+      Style.</p><p>@Embed[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb
+      caption=false]{Two-Weapon Fighting}</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalManifestation
+  requirements: ''
+  identifier: manifestation-balanced-assault
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.FyGxduU67uuDAYaj
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317493606
+  modifiedTime: 1731645926335
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 18300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: B3beNPVCCappRJp9
+_key: '!items!B3beNPVCCappRJp9'
+

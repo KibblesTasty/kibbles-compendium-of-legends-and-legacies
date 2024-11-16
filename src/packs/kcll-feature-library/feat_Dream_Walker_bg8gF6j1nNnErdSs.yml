@@ -5,24 +5,25 @@ system:
   description:
     value: >-
       <p>Starting at 17th level, you can physically enter dreams to travel, gain
-      information, or influence them. When you fall asleep or as an action while
-      awake, you can enter the ethereal realm of dreams for up to an hour. You
-      can exit the realm of dreams as a bonus action. You can only exit the
+      information, or influence them. When you fall asleep, or as an action
+      while awake, you can enter the ethereal realm of dreams for up to an hour.
+      You can exit the realm of dreams as a bonus action. You can only exit the
       realm of dreams within 120 feet of where you entered, or within 5 feet of
       a sleeping creature. While in the realm of dreams, you can do any of the
-      following:</p><ul><li><p>Teleport to a location you've been to before or a
-      person you are familiar with (though you can only exit the dream realm
-      there if there is a sleeping person to use as a
-      conduit).</p></li><li><p>Cast the dream spell once without expending a
-      spell slot, after which you cannot do so again until next you enter the
-      dream realm.</p></li><li><p>Search for information from the dreams of
-      others, making a Wisdom (Insight) check with a DC based on the difficulty
-      of finding the information, or contested by a Deception check using
-      Intelligence, Wisdom, or Charisma by the target if you are trying to
-      acquire it from a specific target (their choice of which). If you fail a
-      check to acquire a piece of information, you cannot attempt to
-      again.</p></li></ul><p>You can enter the dream realm in this way once,
-      after which you must complete a long rest before doing so again.</p>
+      following:</p><ul><li><strong>Dream Passage.</strong> Teleport to a
+      location you’ve been to before or a person you are familiar with (though
+      you can only exit the dream realm there if there is a sleeping person to
+      use as a conduit).</li><li><strong>Cast Dream.</strong> Cast the dream
+      spell once without expending a spell slot, after which you cannot do so
+      again until next you enter the dream realm.</li><li><strong>Search
+      Dreams.</strong> Search for information from the dreams of others, making
+      a Wisdom (Insight) check with a DC based on the difficulty of finding the
+      information, or contested by a Deception check using Intelligence, Wisdom,
+      or Charisma by the target if you are trying to acquire it from a specific
+      target (their choice of which). If you fail a check to acquire a piece of
+      information, you cannot ever attempt to acquire that piece of information
+      again.</li></ul><p>You can enter the dream realm in this way once, after
+      which you must complete a long rest before doing so again.</p>
     chat: ''
   source:
     custom: Dream Domain
@@ -37,7 +38,7 @@ system:
   type:
     value: ''
     subtype: ''
-  requirements: Dream Domain 18
+  requirements: Dream Domain 17
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -50,11 +51,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -63,12 +62,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -97,6 +96,58 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Enter Dreams
+      img: ''
+      appliedEffects: []
+    96xL4S5XFL3rlUrg:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.kSPRpeIx3w3nihrF
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '5'
+        properties: []
+        spellbook: true
+      _id: 96xL4S5XFL3rlUrg
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
   identifier: dream-walker
   enchant: {}
   prerequisites:
@@ -123,9 +174,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317511756
-  modifiedTime: 1727317511756
+  modifiedTime: 1731709058461
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 47200000

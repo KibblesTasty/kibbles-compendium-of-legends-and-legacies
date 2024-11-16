@@ -6,13 +6,13 @@ system:
     value: >-
       <p>Starting at 14th level, you can build off the success of others and
       encourage them to greater heights. When another creature scores a critical
-      strike while within 30 feet of you, you can use your reaction to make a
-      single weapon attack against the same target. When you deal a critical
-      strike or a creature fails a saving throw against one of your spells by 5
-      or more, you can use your reaction to take the Help action to encourage an
-      ally to follow up on success.</p><p>You can expend a use of Bardic
-      Inspiration to take one of these reactions even when the attack was not a
-      critical hit.</p>
+      hit while within 60 feet of you, you can use your reaction to make a
+      single weapon attack against the same target. </p><p>When you deal a
+      critical hit or a creature fails a saving throw against one of your spells
+      by 5 or more, you can use your reaction to take the Help action to
+      encourage an ally to follow up on success. </p><p>You can expend a use of
+      Bardic Inspiration to take one of these reactions on any hit or failed
+      save, even when the attack was not a critical hit.</p>
     chat: ''
   source:
     rules: '2014'
@@ -26,7 +26,60 @@ system:
     subtype: ''
   requirements: College of Fools 14
   identifier: energetic-encore
-  activities: {}
+  activities:
+    4S2G4BrLoKmVGRKX:
+      type: utility
+      _id: 4S2G4BrLoKmVGRKX
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Expend Bardic Inspiration
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -40,14 +93,18 @@ flags:
       value: true
   core:
     sourceId: Item.YRm0r7DcDGgA6DBG
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.YRm0r7DcDGgA6DBG
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317489916
-  modifiedTime: 1727317489916
+  modifiedTime: 1731707146529
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 12700000

@@ -23,30 +23,86 @@ flags:
       value: true
   core:
     sourceId: Item.9EMLucgan8URJdFB
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 6th level, when an allied creature within 60 feet of you is
       reduced to zero hit points or takes damage from another creature while
-      under the effect of a sanctuary spell you cast, you can cast hellish
-      rebuke against the attacker them without expending a spell slot.</p>
-
-      <p>You can do this a number of times equal to your Wisdom modifier, regain
-      all uses on a long rest.</p>
+      under the effect of a
+      @UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{sanctuary} spell you
+      cast, you can cast
+      @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{hellish rebuke}
+      against the attacker them without expending a spell slot.</p><p>You can do
+      this a number of times equal to your Wisdom modifier, regain all uses on a
+      long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '@abilities.wis.mod'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Judgement Domain 6
   identifier: rebuke
-  activities: {}
+  activities:
+    gytWAHiqqj9x83o2:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties: []
+        spellbook: true
+      _id: gytWAHiqqj9x83o2
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -56,9 +112,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317501729
-  modifiedTime: 1727317501729
+  modifiedTime: 1731710194827
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 31200000

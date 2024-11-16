@@ -33,27 +33,26 @@ system:
     value: >-
       <p>Starting at 1st level, when you cast a spell of 1st level or higher
       that restores hit points, you can expend some of your own hit points to
-      increase the amount healed, expending a number of hit points up to your
-      Cleric level.</p>
-
-      <p>Additionally, you can touch a creature suffering a disease or the
-      blinded, deafened, paralyzed or poisoned condition and transfer that
-      disease or condition to yourself. Starting at 9th level, the range of
-      conditions you can take increases, including exhaustion (1 level at a
-      time), petrified, stunned, the effect of a curse, or any reduction to
-      their ability scores. You are afflicted by the effect in the same manner
-      the creature you took it was, for the same duration and possible methods
-      of ending the effect.</p>
-
-      <p>You can do this a number of times equal to your Wisdom modifier,
-      regaining all uses on a long rest.</p>
+      increase the amount another creature that is healed by the spell regains,
+      expending a number of hit points up to your Cleric level to increase the
+      amount one creature is healed by an equivalent value. </p><p>Additionally,
+      you can touch a creature suffering a disease or the blinded, deafened,
+      paralyzed or poisoned condition and transfer that disease or condition to
+      yourself. Starting at 9th level, the range of conditions you can take
+      increases, including exhaustion (1 level at a time), petrified, stunned,
+      the effect of a curse, or any reduction to their ability scores. You are
+      afflicted by the effect in the same manner the creature you took it was,
+      for the same duration and possible methods of ending the effect.
+      </p><p>You can transfer a condition affecting another creature to yourself
+      a number of times equal to your Wisdom modifier, regaining all uses on a
+      long rest.</p>
     chat: ''
   source:
     custom: Martyr
     revision: 1
     rules: '2014'
   uses:
-    max: '3'
+    max: '@abilities.wis.mod'
     recovery:
       - period: lr
         type: recoverAll
@@ -74,11 +73,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -121,6 +118,70 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Transfer Conditions
+      img: ''
+      appliedEffects: []
+    WFpfIY3YNBu74QNg:
+      type: heal
+      name: Transfer Hit Points
+      _id: WFpfIY3YNBu74QNg
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@classes.cleric.levels'
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '1'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types: []
+        custom:
+          enabled: true
+          formula: '@scaling'
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      img: ''
+      appliedEffects: []
   identifier: relieve-suffering
   enchant: {}
   prerequisites:
@@ -131,9 +192,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317502807
-  modifiedTime: 1727317502807
+  modifiedTime: 1731712745865
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 32900000

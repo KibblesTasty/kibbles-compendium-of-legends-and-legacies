@@ -9,19 +9,21 @@ system:
       within 30 feet of you. You can create an object (such as a chair or bed),
       structure (such as a small empty house, a bridge, or stairs), or creature
       this way, but whatever is created must fit within a 20-foot cube.
-      Creatures created this way are illusionary, behaving as per the major
-      image spell, but objects and effects can be made real with the following
-      limitations:</p><ul><li><p>Objects and structures created this way are
-      obviously magical in nature and crumble to nothing after 1
-      minute.</p></li><li><p>They have no value, and cannot be moved outside of
-      the 20-foot.</p></li><li><p>They cannot contain any information you don't
-      yourself know (a book on a subject you don't know would be blank for
-      example).</p></li><li><p>Objects created this way have an AC equal to your
-      Cleric level and crumble to dust if they take damage. They cannot deal any
-      damage, crumbling to dust if they would deal damage.</p></li></ul><p>Once
-      you use this ability, you cannot use it again until you complete a long
-      rest, though you can use it again early by expending a 3rd level spell
-      slot.</p>
+      Creatures created this way are illusionary, behaving as per the
+      @UUID[Compendium.dnd5e.spells.Item.nslx2nT3p4lNkmdp]{major image} spell,
+      but objects and effects can be made real with the following
+      limitations:</p><ul><li><strong>Magical Nature.</strong> Objects and
+      structures created this way are obviously magical in nature and crumble to
+      nothing after 1 minute.</li><li><strong>Unreal.</strong> They have no
+      value, and cannot be moved outside of the 20-foot cube they were made
+      in.</li><li><strong>No Information.</strong> They cannot contain any
+      information you don’t yourself know (for example a book on a subject you
+      don’t know would be blank).</li><li><strong>Durability.</strong> Objects
+      created this way have an AC equal to your Cleric level and crumble to dust
+      if they take any damage. They cannot deal any damage, crumbling to dust if
+      they would deal damage.</li></ul><p>Once you use this ability, you cannot
+      use it again until you complete a long rest, though you can use it again
+      early by expending a 3rd-level spell slot.</p>
     chat: ''
   source:
     custom: Dream Domain
@@ -49,11 +51,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -62,7 +62,7 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
@@ -97,6 +97,36 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Manifest Dreams
+      img: ''
+      appliedEffects: []
+    gSdUaXtXVkURuHUI:
+      type: forward
+      _id: gSdUaXtXVkURuHUI
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '3'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: dnd5eactivity000
+      name: Expend Spell Slot
+      img: ''
   identifier: dream-manifestation
   enchant: {}
   prerequisites:
@@ -125,9 +155,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317511119
-  modifiedTime: 1727317511119
+  modifiedTime: 1731708667927
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 46100000

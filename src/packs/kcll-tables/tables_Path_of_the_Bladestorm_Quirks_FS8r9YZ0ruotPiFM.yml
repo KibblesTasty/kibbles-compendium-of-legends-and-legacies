@@ -2,7 +2,83 @@ name: Path of the Bladestorm Quirks
 _id: FS8r9YZ0ruotPiFM
 img: icons/skills/melee/strikes-sword-scimitar.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: 4AR37dJ7mEoHpLfx
+    text: >-
+      You’re always in need of a bigger backpack to fit all the new weapons you
+      pick up.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!FS8r9YZ0ruotPiFM.4AR37dJ7mEoHpLfx'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: uKdoSSufLKDqhEOK
+    text: You have a different knife for cutting each type of material.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!FS8r9YZ0ruotPiFM.uKdoSSufLKDqhEOK'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: B0IzsmQn3FB0fqpy
+    text: Silverware trembles in your presence.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!FS8r9YZ0ruotPiFM.B0IzsmQn3FB0fqpy'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: y3eudwA6U71h4GrX
+    text: The party dog will no longer play fetch with you.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!FS8r9YZ0ruotPiFM.y3eudwA6U71h4GrX'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: rIIVioYkJrR9Rtrj
+    text: You have a story for each weapon you carry.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!FS8r9YZ0ruotPiFM.rIIVioYkJrR9Rtrj'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: 26vIXqlV2oqEqhQT
+    text: >-
+      It breaks your heart each time you are unable to retrieve a weapon after a
+      fight.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!FS8r9YZ0ruotPiFM.26vIXqlV2oqEqhQT'
 replacement: true
 displayRoll: true
 folder: 47pjLsjDbsSUUH4k
@@ -18,8 +94,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729113584141
-  modifiedTime: 1729113784262
+  modifiedTime: 1731699018399
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!FS8r9YZ0ruotPiFM'
 

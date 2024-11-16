@@ -1,4 +1,4 @@
-name: Sacred Judgment
+name: Divine Strike
 type: feat
 img: icons/magic/light/beams-rays-orange-purple-large.webp
 effects: []
@@ -16,13 +16,8 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  rsr5e:
-    quickDesc:
-      value: true
-    quickFooter:
-      value: true
   core:
-    sourceId: Item.mtBU5bJpYGqGhVWc
+    sourceId: Item.WbaLV9Ot49YU909m
   dnd5e:
     riders:
       activity: []
@@ -30,30 +25,29 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 1st level, when deal damage to a creature with a cleric
-      spell, you can apply additional damage to a creature equal to your Wisdom
-      modifier damage if that target has dealt damage to another creature since
-      the end of your last turn.</p>
-
-      <p>You can do this a number of times equal to your Wisdom modifier,
-      regaining all uses on a long rest.</p>
+      <p>At 8th level, you gain the ability to infuse your weapon strikes with
+      divine energy. Once on each of your turns when you hit a creature with a
+      weapon attack made as part of the attack action, you can cause the attack
+      to deal an extra 1d8 radiant damage to the target. </p><p>When you reach
+      11th level, the extra damage increases to 2d8, and when you reach 17th
+      level, the extra damage increases to 3d8</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: '@abilities.wis.mod'
+    max: ''
     spent: 0
     recovery: []
   type:
     value: ''
     subtype: ''
-  requirements: Judgement Domain 1
-  identifier: sacred-judgment
+  requirements: Cleric 8
+  identifier: potent-spellcasting
   activities:
-    fLsZ2zmb35NYCgew:
+    tEgbCau95djVDMgF:
       type: damage
-      _id: fLsZ2zmb35NYCgew
+      _id: tEgbCau95djVDMgF
       sort: 0
       activation:
         type: special
@@ -64,11 +58,7 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: ''
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
@@ -88,7 +78,7 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
+          type: creature
         override: false
         prompt: true
       uses:
@@ -100,15 +90,16 @@ system:
           allow: false
         parts:
           - custom:
-              enabled: true
-              formula: '@abilities.wis.mod'
-            number: null
-            denomination: 0
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
             bonus: ''
-            types: []
+            types:
+              - radiant
             scaling:
               number: 1
-      name: Apply Judgment
+      name: ''
       img: ''
       appliedEffects: []
   enchant: {}
@@ -116,20 +107,20 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.mtBU5bJpYGqGhVWc
+  compendiumSource: Item.WbaLV9Ot49YU909m
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1727317509520
-  modifiedTime: 1731710422304
+  createdTime: 1727317507303
+  modifiedTime: 1731716644573
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
-sort: 43600000
+sort: 40300000
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
-_id: YRQK2Dwx3PXjbtfn
-_key: '!items!YRQK2Dwx3PXjbtfn'
+_id: VRw9rtW7tVWVpBp6
+_key: '!items!VRw9rtW7tVWVpBp6'
 

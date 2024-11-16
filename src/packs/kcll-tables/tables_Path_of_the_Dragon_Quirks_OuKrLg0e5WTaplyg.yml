@@ -3,7 +3,79 @@ name: Path of the Dragon Quirks
 _id: OuKrLg0e5WTaplyg
 img: icons/creatures/reptiles/dragon-horned-blue.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: RMCBsPgCokIhEPev
+    text: You keep your treasure in your bedroll
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!OuKrLg0e5WTaplyg.RMCBsPgCokIhEPev'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: eNgxjnU77nbJgTtd
+    text: You have dragon-like horns that never go away after your first rage.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!OuKrLg0e5WTaplyg.eNgxjnU77nbJgTtd'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: dsr3oeoeDuC2594S
+    text: You occasionally refer to mortals as morsels.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!OuKrLg0e5WTaplyg.dsr3oeoeDuC2594S'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: 9H1kIH3zqUGeo84k
+    text: You prefer your food having been treated by your element of choice.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!OuKrLg0e5WTaplyg.9H1kIH3zqUGeo84k'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: a1CYHY5bFKJS9slC
+    text: Your burps can be a little bit... elemental.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!OuKrLg0e5WTaplyg.a1CYHY5bFKJS9slC'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: lkgOKJvi3zvVT2R3
+    text: You occasionally feel the need to practice your roaring
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!OuKrLg0e5WTaplyg.lkgOKJvi3zvVT2R3'
 replacement: true
 displayRoll: true
 sort: 0
@@ -18,8 +90,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729113842758
-  modifiedTime: 1729113849362
+  modifiedTime: 1731699092719
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!OuKrLg0e5WTaplyg'
 

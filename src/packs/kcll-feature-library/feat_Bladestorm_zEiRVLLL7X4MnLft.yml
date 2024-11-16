@@ -1,0 +1,57 @@
+name: Bladestorm
+type: feat
+_id: zEiRVLLL7X4MnLft
+img: icons/skills/melee/strike-weapons-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 14th level, as an action when you are raging, you can start
+      a Bladestorm. You can fling two light melee weapons you are carrying and
+      pull any weapons already animated by Whirling Death into a wild vortex
+      surrounding you. All creatures of your choice within 20 feet of you must
+      make a Dexterity saving throw with a DC of 8 + your proficiency bonus +
+      your Strength modifier. On failure, they take 3d6 +103 your Strength
+      modifier + your Rage bonus damage. The damage is increased by 1d6 for each
+      Whirling Death weapon included (up to a maximum of +3d6). On success, a
+      creature takes half as much damage. </p><p>On subsequent turns while
+      raging, you can use your action to keep the Bladestorm going, forcing all
+      creatures within 20 feet of you to make the save again. You can keep a
+      Bladestorm going for a number of turns equal to your Strength modifier.
+      You can use this feature once per rage. When a bladestorm ends, all
+      included weapons fall to the ground around you.</p>
+    chat: ''
+  identifier: bladestorm
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731698654337
+  modifiedTime: 1731698685317
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!zEiRVLLL7X4MnLft'
+

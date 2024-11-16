@@ -1,0 +1,112 @@
+name: Adaptive Rage
+type: feat
+_id: 9C12CP41tyteyeCj
+img: icons/magic/unholy/hand-grasping-green.webp
+system:
+  activities:
+    OBYLG9lv1bM4y2fS:
+      type: heal
+      name: Regeneration
+      _id: OBYLG9lv1bM4y2fS
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: floor(@abilities.con.mod / 2)
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, when you enter a rage, you can control your
+      mutation to a small extent, granting you adaptive advantages against your
+      enemies. When you enter a rage, you gain two of the following benefits
+      (each option can only be selected once):</p><ul><li><strong>Adaptive
+      Resistance.</strong> You gain resistance to one damage type of your
+      choice.</li><li><strong>Adaptive Resilience.</strong> You gain proficiency
+      in one saving throw of your choice.</li><li><strong>Adaptive
+      Movement.</strong> You gain a swimming or climbing speed equal to your
+      walking speed.</li><li><strong>Regeneration.</strong> You regenerate hit
+      points equal to half your Constitution modifier (rounded down) at the
+      start of your turns while raging.</li></ul>
+    chat: ''
+  identifier: adaptive-rage
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731701942261
+  modifiedTime: 1731702200994
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!9C12CP41tyteyeCj'
+

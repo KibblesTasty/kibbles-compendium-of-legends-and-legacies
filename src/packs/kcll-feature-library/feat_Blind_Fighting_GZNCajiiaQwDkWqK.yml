@@ -1,7 +1,44 @@
 name: Blind Fighting
 type: feat
 img: icons/skills/targeting/target-strike-triple-blue.webp
-effects: []
+effects:
+  - name: Blind Fighting
+    img: icons/skills/targeting/target-strike-triple-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GZNCajiiaQwDkWqK
+    _id: 8i0QqnzKlYVIsOM0
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 4
+        value: '@scale.path-of-instinct.blindsight'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731701025085
+      modifiedTime: 1731701057282
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!GZNCajiiaQwDkWqK.8i0QqnzKlYVIsOM0'
 flags:
   betterRolls5e:
     quickDesc:
@@ -57,13 +94,10 @@ flags:
 system:
   description:
     value: >-
-      <h3 id="barbarian-path-path-of-instinct-blind-fighting">Blind
-      Fighting</h3>
-
-      <p>At 6th level, your senses are so sharp while raging you gain an
-      instinctive blindsight of 10 feet while raging. The range of this blind
-      sight increases by 10 feet at 10th level (to 20 feet), and again at 14th
-      level (to 30 feet).</p>
+      <p>At 6th level, your senses are so sharp that you gain an instinctive
+      blindsight of 10 feet while raging. The range of this blind sight
+      increases by 10 feet at 10th level (to 20 feet), and again at 14th level
+      (to 30 feet).</p>
     chat: ''
   source:
     rules: '2014'
@@ -87,9 +121,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317497800
-  modifiedTime: 1727317497800
+  modifiedTime: 1731701066916
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 24800000

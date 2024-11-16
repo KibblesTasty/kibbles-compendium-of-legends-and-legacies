@@ -5,7 +5,23 @@ _id: JbUKOdnn0v60IlIh
 img: icons/sundries/misc/admission-ticket-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>The College of Fools is a motley lot, varying from bumbling beggars to
+      the eyesores of a noble court, decked out in the finest eye-bleeding
+      frippery. One can tell at a glance they are not to be taken seriously, but
+      beneath the facade there is... well, usually a fool, but also a sharp
+      mind, quick hands, and an uncanny understanding of how to manipulate any
+      situation.</p><p>The College of Fools is tolerated much like an assassin’s
+      guild might be: a useful menace to society. Hiding in the brilliant
+      outfits in plain sight more surely than darkened leather could hide them
+      in the shadows, they gather information, poke and prod their enemies,
+      and—just occasionally—toss a knife in the air and forget to catch it
+      before it hits someone.</p><hr /><p>The following are some optional quirks
+      for a player of this College to choose from—these can be either
+      preexisting, signaling their fated inclination toward this College, or
+      appear after you commit yourself to this
+      College.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.3Z23X2avMQKas10N
+      rollable]</p>
     chat: ''
   identifier: college-of-fools
   source:
@@ -15,7 +31,13 @@ system:
     - _id: SRIsgdCAPgqwE5oC
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rUpHMd941Iy1rIVy
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.pJeZkcjohY1b4wVJ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +46,13 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eoZ0D4mQfqf56zKT
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dQmw3HQXfsxFcYvQ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +62,10 @@ system:
       _id: Q6K89jmLzXjWqWSB
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.6sm22KPDzX2mhPbU
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -42,6 +73,32 @@ system:
       title: Bard College Feature
       hint: ''
       _id: ySzLN3hsNMZiWvqn
+    - _id: qCNTrhvslpXDxNOO
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:prf
+        choices: []
+      value:
+        chosen: []
+      level: 3
+      title: Jester's Juggling
+      hint: ''
+    - _id: kXTPpurEAb4rRd0o
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:acr
+        choices: []
+      value:
+        chosen: []
+      level: 6
+      title: Acrobatic Antics
+      hint: ''
   classIdentifier: bard
   spellcasting:
     progression: none
@@ -59,9 +116,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729038223994
-  modifiedTime: 1729114442551
+  modifiedTime: 1731706948776
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JbUKOdnn0v60IlIh'
 

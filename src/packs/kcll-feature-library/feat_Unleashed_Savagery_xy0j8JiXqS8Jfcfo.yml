@@ -4,20 +4,15 @@ img: icons/creatures/abilities/dragon-fire-breath-orange.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 6th level,
-      once during a rage, as an attack as part of the Attack action, you can
-      unleash your Rage into pure energy, exhaling a blast of elemental power.
-      Creatures within 15 foot cone must make a Dexterity saving throw. The DC
-      of this saving throw is 8 + your proficiency modifier + your strength
-      modifier. A creature takes 6d6 damage of the Elemental Type of your Dragon
-      Color on a failed save.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">The damage and range of this
-      breath weapon increases at 10th level (to 8d6 in a 30 foot cone), and 14th
-      level (to 10d6 in a 60 foot cone). Starting at 18th level, you can use
-      this breath weapon twice per rage, but only per turn.</span></p>
+      <p>Starting at 6th level, once during a rage, as an attack as part of the
+      Attack action, you can unleash your rage into pure energy, exhaling a
+      blast of elemental power. Creatures within 15 foot cone must make a
+      Dexterity saving throw. The DC of this saving throw is 8 + your
+      proficiency modifier + your strength modifier. A creature takes 6d6 damage
+      of the Elemental Type of your Dragon Color on a failed save. </p><p>The
+      damage and range of this breath weapon increases at 10th level (to 8d6 in
+      a 30 foot cone), at 14th level (10d6 in a 45 foot cone), and at 18th level
+      (12d6 in a 60 foot cone)</p>
     chat: ''
     unidentified: ''
   source:
@@ -42,7 +37,7 @@ system:
     units: ''
   uses:
     value: null
-    max: ''
+    max: '1'
     per: null
     recovery: ''
   consume:
@@ -72,6 +67,80 @@ system:
     value: null
     charged: false
   identifier: unleashed-savagery
+  activities:
+    KDytnjnA42AylwVp:
+      type: save
+      _id: KDytnjnA42AylwVp
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '@scale.path-of-the-dragon.breath-weapon-range'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.path-of-the-dragon.breath-weapon-damage'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - poison
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
 effects: []
 flags:
   rsr5e:
@@ -81,12 +150,16 @@ flags:
       value: true
   core:
     sourceId: Item.4pAWzCpyVBgKf6FF
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1681846971541
-  modifiedTime: 1727317482873
+  modifiedTime: 1731699909453
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.4pAWzCpyVBgKf6FF
   duplicateSource: null

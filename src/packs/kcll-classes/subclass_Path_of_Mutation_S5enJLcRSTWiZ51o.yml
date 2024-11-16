@@ -5,7 +5,25 @@ _id: S5enJLcRSTWiZ51o
 img: icons/magic/unholy/strike-body-life-soul-green.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>For most Barbarians, their rage manifests as a mystically empowered
+      state of mind, but Barbarians of this path manifest their rage in a more
+      profound and physical manner. Barbarians of the Path of Mutation embody
+      their rage through terrifying mutation, transforming into hulking
+      brutes.</p><p>The origin of their power varies, be it ancient blood
+      awakening, consumption of an alchemical substance, blessing of astral
+      entities, or a past exposure to specific kinds of radiant damage.
+      Regardless, the effects all embody physical manifestation of a Barbarians
+      rage, granting them increased power, size, and durability. The form these
+      manifestations take varies for each barbarian; some grow into towering
+      monstrous humanoids, some take on draconic aspects, some channel their
+      powers to become giant apes or other beasts, while others simply turn
+      large and green.</p><hr /><p>The following are some optional quirks for a
+      player of this Path to choose from—these can be either preexisting,
+      signaling their fated path toward this Path, or appear after you commit
+      yourself to this
+      Path.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.q6MQ1oaNatFufcRw
+      rollable]</p>
     chat: ''
   identifier: path-of-mutation
   source:
@@ -15,7 +33,13 @@ system:
     - _id: 8vw792ec7neMegAX
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.QJJp7IHNHWpGRR1u
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.w3AktZ6bv4GQAp0n
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +48,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9C12CP41tyteyeCj
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +61,10 @@ system:
       _id: zV4lFfuM8eInofXg
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.HewBa9bVFfxiveKS
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +74,10 @@ system:
       _id: 4WqUsTdM3wTgbZbw
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7N207bZxFeiO9JII
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -69,9 +102,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729038203745
-  modifiedTime: 1729113638203
+  modifiedTime: 1731702580748
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!S5enJLcRSTWiZ51o'
 

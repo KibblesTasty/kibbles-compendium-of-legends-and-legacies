@@ -73,10 +73,8 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: '1'
-    recovery:
-      - period: sr
-        type: recoverAll
+    max: ''
+    recovery: []
     spent: 0
   type:
     value: ''
@@ -94,11 +92,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -150,6 +146,9 @@ system:
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: channel-divinity-bear-the-burden
   enchant: {}
   prerequisites:
@@ -160,9 +159,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317509055
-  modifiedTime: 1727317509055
+  modifiedTime: 1731712472404
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 43100000

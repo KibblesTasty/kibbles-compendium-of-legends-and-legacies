@@ -31,10 +31,8 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: '1'
-    recovery:
-      - period: sr
-        type: recoverAll
+    max: ''
+    recovery: []
     spent: 0
   type:
     value: ''
@@ -52,11 +50,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -96,26 +92,84 @@ system:
         max: ''
         recovery: []
       damage:
-        onSave: half
+        onSave: none
         parts:
-          - number: null
+          - custom:
+              enabled: true
+              formula: 4 * @classes.cleric.levels
+            number: null
             denomination: null
             bonus: ''
             types:
               - psychic
-            custom:
-              enabled: true
-              formula: 4 * @classes.cleric.levels
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       save:
         ability: wis
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      name: Terrifying Visions
+      img: ''
+      appliedEffects: []
+    WH515iUEQVn60BtS:
+      type: heal
+      name: Tranquil Dreams
+      _id: WH515iUEQVn60BtS
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '10'
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: 4 * @classes.cleric.levels
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
   identifier: channel-divinity-dream-trance
   enchant: {}
   prerequisites:
@@ -151,9 +205,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317499617
-  modifiedTime: 1727317499617
+  modifiedTime: 1731712484966
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 27900000

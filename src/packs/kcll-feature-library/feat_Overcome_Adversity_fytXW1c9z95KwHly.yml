@@ -22,9 +22,11 @@ system:
   description:
     value: >-
       <p>Starting at 6th level, when you use your Relieve Suffering to take the
-      condition effecting a creature, you can repeat the original saving throw
-      against the feature if it had one. On success, is cured instead of
-      transferred.</p>
+      condition affecting a creature, you can repeat the original saving throw
+      against the feature if it had one. On success, the condition ends instead
+      of being transferred.</p><p>Additionally, when you take damage as a result
+      of the @UUID[Compendium.dnd5e.spells.Item.JVhKeanAXZH62DrF]{warding bond}
+      spell, you have resistance to that damage.</p>
     chat: ''
   source:
     rules: '2014'
@@ -48,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317515092
-  modifiedTime: 1727317515092
+  modifiedTime: 1731712430185
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 52500000

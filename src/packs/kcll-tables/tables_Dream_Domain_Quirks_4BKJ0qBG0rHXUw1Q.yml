@@ -3,7 +3,79 @@ name: Dream Domain Quirks
 _id: 4BKJ0qBG0rHXUw1Q
 img: icons/magic/control/debuff-energy-hold-pink.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: en6FBjNTfcbAeiE0
+    text: You tuck all of your companions into their bedrolls each night.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!4BKJ0qBG0rHXUw1Q.en6FBjNTfcbAeiE0'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: IXP6kIJiHw3tmua8
+    text: People report seeing you fighting their nightmares.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!4BKJ0qBG0rHXUw1Q.IXP6kIJiHw3tmua8'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: 8S2eRIVtFpy1ukKI
+    text: You request lullabies from the tavern bard.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!4BKJ0qBG0rHXUw1Q.8S2eRIVtFpy1ukKI'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: 4kKpiYUJV2V8PbuX
+    text: You get mad people for things they did in your dreams.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!4BKJ0qBG0rHXUw1Q.4kKpiYUJV2V8PbuX'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: k3yTT0lC3Q86uwfn
+    text: Your “prayers” are really just elaborate bedtime routines.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!4BKJ0qBG0rHXUw1Q.k3yTT0lC3Q86uwfn'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: Xlu9vCo9KzKXYYSB
+    text: You firmly believe nothing can be created without dreaming it first
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!4BKJ0qBG0rHXUw1Q.Xlu9vCo9KzKXYYSB'
 replacement: true
 displayRoll: true
 sort: 0
@@ -18,8 +90,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729114266656
-  modifiedTime: 1729114279325
+  modifiedTime: 1731707400129
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!4BKJ0qBG0rHXUw1Q'
 

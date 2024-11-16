@@ -2,7 +2,85 @@ name: College of Fools Quirks
 _id: 3Z23X2avMQKas10N
 img: icons/sundries/misc/admission-ticket-blue.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: f6IjR4VTCwM14NXo
+    text: >-
+      You’ve learned townsfolk with torches and pitchforks do not respond well
+      to the “It’s just a prank” defense.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!3Z23X2avMQKas10N.f6IjR4VTCwM14NXo'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: nPHO4atE64VJ8KVd
+    text: >-
+      Whenever you end up doing the talking, it always seems that your
+      companions’ palms are permanently affixed to their faces.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!3Z23X2avMQKas10N.nPHO4atE64VJ8KVd'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: 5hzFwMg1tIYu4U37
+    text: You try to juggle anything not nailed down.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!3Z23X2avMQKas10N.5hzFwMg1tIYu4U37'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: ghwwi3aZjmGV2S2X
+    text: Vicious mockery isn’t a cantrip… it’s a lifestyle.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!3Z23X2avMQKas10N.ghwwi3aZjmGV2S2X'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: bfVDEJ7VZc0HJhXz
+    text: Children love your antics. Adults, not so much.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!3Z23X2avMQKas10N.bfVDEJ7VZc0HJhXz'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: Ndu5gDuKJTJxsMjI
+    text: >-
+      If you perform tumbles all the time, no one can tell when you actually
+      fall on your face
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!3Z23X2avMQKas10N.Ndu5gDuKJTJxsMjI'
 replacement: true
 displayRoll: true
 folder: 47pjLsjDbsSUUH4k
@@ -18,8 +96,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729113673197
-  modifiedTime: 1729113783513
+  modifiedTime: 1731703730499
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!3Z23X2avMQKas10N'
 

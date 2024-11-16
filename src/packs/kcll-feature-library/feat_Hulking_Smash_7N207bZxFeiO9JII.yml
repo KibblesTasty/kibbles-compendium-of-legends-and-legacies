@@ -1,0 +1,116 @@
+name: Hulking Smash
+type: feat
+_id: 7N207bZxFeiO9JII
+img: icons/skills/melee/strike-flail-destructive-yellow.webp
+system:
+  activities:
+    ovGlG55BaOWgohZH:
+      type: damage
+      name: Shockwave
+      _id: ovGlG55BaOWgohZH
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@abilities.str.mod'
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>At 14th level, you gain the ability to exert the full force of your
+      rage, unleashing a devastating attack. As an action while you are raging,
+      you can attempt to make a single, massive, weapon attack, dealing normal
+      weapon damage + 6d6 bonus damage of the same damage type and knocking the
+      target prone on hit. All other creatures besides yourself within 5 feet of
+      where you hit the target take 1d6 + your Strength damage bludgeoning
+      damage from the shock wave of the impact.</p><p>If this attack is made
+      using a creature you are grappling as a weapon (using an improvised weapon
+      attack), the grappled creature takes the same 6d6 bonus damage as the
+      target on hit, or half as much on a miss.</p>
+    chat: ''
+  identifier: hulking-smash
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731702261645
+  modifiedTime: 1731702350464
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!7N207bZxFeiO9JII'
+

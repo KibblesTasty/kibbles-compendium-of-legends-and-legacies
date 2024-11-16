@@ -61,7 +61,7 @@ flags:
     migratedUses: 2
 system:
   description:
-    value: "<h3 id=\"barbarian-path-path-of-instinct-focused-rage\">Focused Rage</h3>\n<p>Starting when you choose this path at 3rd level, your rage becomes a state of pure focus. You can perform impossible feats in this state of extreme focus by expending focus dice. When you enter a rage, you gain a number of d8 focus dice equal to your proficiency bonus. You can expend the on the following abilities:</p>\n<hr />\n<p><strong>Perfect Dodge.\_</strong>When you make a Dexterity saving throw or Dexterity ability check, you can expend a focus die, expending it and adding to the roll. You can do this after rolling the d20, but before the outcome is determined. @Item[7R6Qid8BbRHkF8hb]{Perfect Dodge}</p>\n<hr />\n<p><strong>Perfect Intuition.\_</strong>When you make a Wisdom saving throw or ability check, you can expend a focus die to add it to the roll. When you do this with the Search action, you can take the Search action as a bonus action. @Item[0bJ3MMqZBwzqX9MH]{Perfect Intuition}</p>\n<hr />\n<p><strong>Perfect Parry.</strong> When another creature damages you with a weapon attack, you can use your reaction and expend one focus die to reduce the damage by the number you roll on your focus die + your Strength or Dexterity modifier (your choice). @Item[4tFFBonr3plNzE8B]{Perfect Parry}</p>\n<hr />\n<p><strong>Perfect Strike.</strong> When you make a weapon attack roll against a creature, you can expend one focus die to add it to the roll. You can use this ability after making the attack roll, but before any effects of the attack are applied. @Item[NZRLKRtNQzt0v9fP]{Perfect Strike}</p>"
+    value: "<p>Starting when you choose this path at 3rd level, your rage becomes a state of pure focus. You can perform impossible feats in this state of extreme focus by expending focus dice. When you enter a rage, you gain a number of d8 focus dice equal to your proficiency bonus. You can expend the on the following abilities:</p><hr /><p><strong>Perfect Dodge.\_</strong>When you make a Dexterity saving throw or Dexterity ability check, you can expend a focus die, expending it and adding to the roll. You can do this after rolling the d20, but before the outcome is determined. </p><hr /><p><strong>Perfect Intuition.\_</strong>When you make a Wisdom saving throw or ability check, you can expend a focus die to add it to the roll. When you do this with the Search action, you can take the Search action as a bonus action. </p><hr /><p><strong>Perfect Parry.</strong> When another creature damages you with a weapon attack, you can use your reaction and expend one focus die to reduce the damage by the number you roll on your focus die + your Strength or Dexterity modifier (your choice). </p><hr /><p><strong>Perfect Strike.</strong> When you make a weapon attack roll against a creature, you can expend one focus die to add it to the roll. You can use this ability after making the attack roll, but before any effects of the attack are applied.</p>"
     chat: ''
   source:
     custom: Path of Instinct
@@ -87,11 +87,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -100,12 +98,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -129,11 +127,14 @@ system:
         max: ''
         recovery: []
       roll:
-        formula: ''
-        name: ''
+        formula: 1d8
+        name: Roll Focus Die
         prompt: false
         visible: false
       sort: 0
+      name: Spend Focus Die
+      img: ''
+      appliedEffects: []
   identifier: focused-rage
   enchant: {}
   prerequisites:
@@ -144,9 +145,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317508937
-  modifiedTime: 1727317508937
+  modifiedTime: 1731700788086
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 42900000

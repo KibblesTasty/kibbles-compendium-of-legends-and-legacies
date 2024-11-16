@@ -4,27 +4,20 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 6th level,
-      your acrobatic mastery gives you proficiency in Acrobatics. If you already
-      have proficiency in Acrobatics, you can select another skill of your
-      choice to gain proficiency in. You can use your acrobatic foolery to
-      tumble around the most dangerous places safely. You gain the following
-      benefits:</span></p><ul
-      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
-      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">You gain a climbing speed of 20
-      feet, falls of 20 feet or less deal no damage to you, and you can choose
-      to land on your feet.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">As a bonus action, you can leap
-      and tumble, spending up to 10 feet of movement while ignoring difficult
-      terrain, not provoking opportunity attacks, and moving through creatures'
-      spaces (including hostile creatures).</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">You gain advantage on a save or
-      ability check to avoid falling.</span></li></ul>
+      <p>Starting at 6th level, your acrobatic mastery gives you proficiency in
+      Acrobatics (or another skill of your choice if you already proficient in
+      it). You can use your acrobatic foolery to tumble around the most
+      dangerous places safely. You gain the following
+      benefits:</p><ul><li><strong>Acrobatic Movement.</strong> You gain a
+      climbing speed of 20 feet, and falls of 20 feet or less deal no damage to
+      you. Whenever you fall, you can choose to land on your feet (rather than
+      fall prone).</li><li><strong>Tumble.</strong> As a bonus action, you can
+      leap and tumble, spending up to 10 feet of movement while ignoring
+      difficult terrain, not provoking opportunity attacks, and moving through
+      creatures’ spaces (including hostile
+      creatures).</li><li><strong>Balance.</strong> You gain advantage on saving
+      throws and ability checks made to avoid falling or being knocked
+      prone.</li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -38,12 +31,97 @@ system:
     subtype: ''
   requirements: College of Fools 6
   identifier: acrobatic-antics
-  activities: {}
+  activities:
+    0om914Wi8kzauYUz:
+      type: utility
+      name: Tumble
+      _id: 0om914Wi8kzauYUz
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Acrobatic Antics
+    img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eoZ0D4mQfqf56zKT
+    _id: OY24nkfUvU4Y4liQ
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.climb
+        mode: 4
+        value: '20'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731706993213
+      modifiedTime: 1731707008130
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!eoZ0D4mQfqf56zKT.OY24nkfUvU4Y4liQ'
 flags:
   rsr5e:
     quickDesc:
@@ -52,14 +130,18 @@ flags:
       value: true
   core:
     sourceId: Item.ZPgbsQjLoeNCCarE
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.ZPgbsQjLoeNCCarE
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317513959
-  modifiedTime: 1727317513959
+  modifiedTime: 1731707032312
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 50700000

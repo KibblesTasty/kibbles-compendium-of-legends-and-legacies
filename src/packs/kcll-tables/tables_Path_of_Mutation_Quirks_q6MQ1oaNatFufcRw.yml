@@ -3,7 +3,81 @@ name: Path of Mutation Quirks
 _id: q6MQ1oaNatFufcRw
 img: icons/magic/unholy/strike-body-life-soul-green.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: xw08CHeLvv3fTuo0
+    text: Drink the potion first, identify its effects later.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!q6MQ1oaNatFufcRw.xw08CHeLvv3fTuo0'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: 6KF7kVIeeMnn08x4
+    text: You keep your emotions under careful control, lest you turn into a monster
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!q6MQ1oaNatFufcRw.6KF7kVIeeMnn08x4'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: h3w5kSItizD43Cgu
+    text: Your mutated form has its own personality.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!q6MQ1oaNatFufcRw.h3w5kSItizD43Cgu'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: QAFJiTqRqNabTBFX
+    text: >-
+      You count yourself lucky that somehow your pants have never torn off when
+      you mutate.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!q6MQ1oaNatFufcRw.QAFJiTqRqNabTBFX'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: CuhPr8E4MjraBpvM
+    text: You must drink a homemade tincture to start your transformation each time.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!q6MQ1oaNatFufcRw.CuhPr8E4MjraBpvM'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: DOAgHpkJJg1hSJDD
+    text: Some of your mutated features take a long time to fade.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!q6MQ1oaNatFufcRw.DOAgHpkJJg1hSJDD'
 replacement: true
 displayRoll: true
 sort: 0
@@ -18,8 +92,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729113791142
-  modifiedTime: 1729113799663
+  modifiedTime: 1731701769532
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!q6MQ1oaNatFufcRw'
 

@@ -4,37 +4,22 @@ img: icons/magic/control/hypnosis-mesmerism-swirl.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">At 1st level, you can
-      protect and guide the dreams of others around you. Up to 4 + your Cleric
-      level other creatures of your choice sleeping within 120 feet of you have
-      advantage on saving throws against beings intruding into their dreams or
-      influencing their dreams.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">Additionally, you can shape and
-      guide their dreams to grant them tranquil sleep or prophetic
-      preparations.</span></p><ul
-      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
-      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Focused Dreams.</strong>
-      The creature gains the effect of <em
-      style="box-sizing:border-box;user-select:text">guidance</em> on a number
-      of skill checks equal to your proficiency bonus of their choice, losing
-      any unused uses when they complete their next long rest.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Restful Dreams.</strong>
-      The creature regains additional expended hit dice equal to one quarter of
-      your Cleric level (rounded down).</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Tranquil Dreams.</strong>
-      The creature gains 1d4 + your Cleric level temporary hit points at the end
-      of their long rest.</span></li></ul>
+      <p>At 1st level, you can protect and guide the dreams of others around
+      you. Up to 4 + your Cleric level other creatures of your choice sleeping
+      within 120 feet of you have advantage on saving throws against beings
+      intruding into their dreams or influencing their
+      dreams.</p><p>Additionally, when they take a long rest and sleep during
+      that rest, you can shape and guide their dreams to grant them tranquil
+      sleep or prophetic preparations. You can apply one of the following
+      options to all affected creatures:</p><ul><li><strong>Focused
+      Dreams.</strong> The creature gains the effect of guidance on a number of
+      skill checks equal to your proficiency bonus of their choice, losing any
+      unused uses when they complete their next long
+      rest.</li><li><strong>Restful Dreams.</strong> The creature regains
+      additional expended hit dice equal to one quarter of your Cleric level
+      (rounded down).</li><li><strong>Tranquil Dreams.</strong> The creature
+      gains 1d4 + your Cleric level temporary hit points at the end of their
+      long rest.</li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -48,7 +33,62 @@ system:
     subtype: ''
   requirements: Dream Domain 1
   identifier: dreamweaver
-  activities: {}
+  activities:
+    rhKM0z6H0XViyjoD:
+      type: heal
+      name: Tranquil Dreams
+      _id: rhKM0z6H0XViyjoD
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: 4 + @classes.cleric.levels
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 1
+        denomination: '4'
+        types:
+          - temphp
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: '@classes.cleric.levels'
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -62,14 +102,18 @@ flags:
       value: true
   core:
     sourceId: Item.EcMCvsqmQNLZUWie
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.EcMCvsqmQNLZUWie
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317524475
-  modifiedTime: 1727317524475
+  modifiedTime: 1731708041500
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 68500000

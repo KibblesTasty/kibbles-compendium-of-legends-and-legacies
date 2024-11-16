@@ -7,7 +7,11 @@ effects:
       - key: system.attributes.ac.formula
         mode: 5
         value: 10 + @abilities.con.mod + @abilities.wis.mod
-        priority: 50
+        priority: null
+      - key: system.attributes.ac.calc
+        mode: 2
+        value: custom
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -28,8 +32,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1731712801583
+      lastModifiedBy: pJeIW7qCa0HkURWq
     name: Unarmored Defense
     img: icons/magic/holy/meditation-chi-focus-blue.webp
     type: base

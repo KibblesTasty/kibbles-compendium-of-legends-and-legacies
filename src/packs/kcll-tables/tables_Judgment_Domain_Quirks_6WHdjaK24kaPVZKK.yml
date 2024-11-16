@@ -3,7 +3,83 @@ name: Judgment Domain Quirks
 _id: 6WHdjaK24kaPVZKK
 img: icons/skills/social/trading-justice-scale-yellow.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: IOZsi3CNams8kX2x
+    text: No sinner can hide from your flame.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!6WHdjaK24kaPVZKK.IOZsi3CNams8kX2x'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: g5VYPAIxWz3Hpc7N
+    text: You keep detailed notes on other people’s transgressions.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!6WHdjaK24kaPVZKK.g5VYPAIxWz3Hpc7N'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: ic2sjc5VGdBAguBL
+    text: >-
+      You see nothing wrong with walking behind someone, ringing a bell and
+      chanting “Shame!”
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!6WHdjaK24kaPVZKK.ic2sjc5VGdBAguBL'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: uUA7hlBNH8efoFwH
+    text: You judge others harshly and yourself even more so.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!6WHdjaK24kaPVZKK.uUA7hlBNH8efoFwH'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: 7hgDsXQ0B9eZRyhc
+    text: >-
+      ou skim through the boring parts of scripture to get to the fire and
+      brimstone.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!6WHdjaK24kaPVZKK.7hgDsXQ0B9eZRyhc'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: vRIN1sqbvcxlnfxh
+    text: You are a nightmare to serve at restaurants
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!6WHdjaK24kaPVZKK.vRIN1sqbvcxlnfxh'
 replacement: true
 displayRoll: true
 sort: 0
@@ -18,8 +94,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729114299152
-  modifiedTime: 1729114306726
+  modifiedTime: 1731709271938
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!6WHdjaK24kaPVZKK'
 

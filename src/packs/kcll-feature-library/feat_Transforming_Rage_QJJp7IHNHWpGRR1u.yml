@@ -1,0 +1,109 @@
+name: Transforming Rage
+type: feat
+_id: QJJp7IHNHWpGRR1u
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+system:
+  activities:
+    dmibGW7kxWSdchzw:
+      type: heal
+      name: Durability
+      _id: dmibGW7kxWSdchzw
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@classes.barbarian.levels'
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, you gain the ability to mutate your body, taking
+      a physical manifestation of your inner rage. You gain the following
+      benefits when you enter a rage:</p><ul><li><strong>Size.</strong> You can
+      grow to Large size. While Large, you deal double damage to objects and
+      structures.</li><li><strong>Durability.</strong> You gain temporary hit
+      points equal to your Barbarian level.</li><li><strong>Damage.</strong>
+      Your rage bonus damage grows from +2 to +2d4. When your rage damage would
+      normally increase by 1, it instead increases by 1d4.</li></ul>
+    chat: ''
+  identifier: transforming-rage
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731701796821
+  modifiedTime: 1731702578231
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!QJJp7IHNHWpGRR1u'
+

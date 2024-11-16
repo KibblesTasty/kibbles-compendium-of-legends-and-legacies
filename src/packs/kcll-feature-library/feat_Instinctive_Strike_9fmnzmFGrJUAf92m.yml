@@ -54,17 +54,19 @@ flags:
       altValue: false
   core:
     sourceId: Item.dBz5PcBH2TJaBJJQ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <h3 id="barbarian-path-path-of-instinct-instinctive-strike">Instinctive
-      Strike</h3>
-
       <p>Starting at 14th level, when a creature ends their turn within range of
-      your blindsight, you can expend a focus die as a reaction to move toward
-      that creature (up to your movement speed). If you can reach the creature
-      after your movement, you can make one weapon attack against them as part
-      of this reaction. This movement does not trigger opportunity attacks.</p>
+      your blindsight while you are raging, you can expend one focus die as a
+      reaction to move toward that creature (up to your movement speed). If you
+      can reach the creature after your movement, you can make one weapon attack
+      against them as part of this reaction. This movement does not trigger
+      opportunity attacks.</p>
     chat: ''
   source:
     rules: '2014'
@@ -78,7 +80,62 @@ system:
     subtype: ''
   requirements: Path of Instinct 14
   identifier: instinctive-strike
-  activities: {}
+  activities:
+    SwaV5q3B2I7HO304:
+      type: utility
+      name: Spend Focus Die
+      _id: SwaV5q3B2I7HO304
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XrtDSi7MNJPGOeN9
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '@scale.path-of-instinct.blindsight'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -88,9 +145,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317492562
-  modifiedTime: 1727317492562
+  modifiedTime: 1731701151707
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 16800000

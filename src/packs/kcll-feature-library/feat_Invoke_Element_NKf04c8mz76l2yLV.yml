@@ -28,68 +28,43 @@ flags:
       value: true
     quickTemplate:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">When you choose this circle at 2nd
-      level, you gain an alternate use for Wild Shape. As a bonus action, you
-      can invoke primal powers to manifest elemental powers at a point within 60
+      <p>When you choose this circle at 2nd level, you gain an alternate use for
+      Wild Shape. As a bonus action, you can expend a use of your Wild Shape to
+      invoke primal powers to manifest elemental forces at a point within 60
       feet. When you invoke this power, select an element to invoke, which has a
-      different effect.</span></p><ul
-      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
-      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Air: Coalesced
-      Lightning.</strong> When you manifest the power, and as a bonus action on
-      subsequent turns, you can force one creature within 30 feet of the point
-      to make a Dexterity saving throw, or be struck by an arc of lightning,
-      taking 1d6 + your Wisdom modifier damage.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Earth: Stone
-      Pillar.</strong> When you manifest the power, a stone eruption fills an
-      unoccupied space within 5 feet of the point, rising up to 10 feet and
-      blocking the space. It has an AC of 16 and hit points equal to your Wisdom
-      modifier + your Druid level. The pillar is three quarters cover for
-      creatures behind it. It becomes difficult terrain when
-      destroyed.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Fire: Wild Fire.</strong>
-      The area within 5 feet of the point is filled with flames. Creatures that
-      start their turn in the area take 1d6 fire damage.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Water: Icy
-      Blizzard.</strong> The area within 5 feet of the point is filled with an
-      icy storm of sleet, becoming difficult terrain.</span></li></ul><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">You can move an elemental
-      manifestation up to 20 feet on subsequent turns as a bonus action. If you
-      move a stone pillar, the pillar is destroyed and you can create a new
-      pillar.</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">Instead of moving a Wild Fire or
-      Icy Blizzard, you can expand their radius by 5 feet as a bonus action, up
-      to a number of times equal to your proficiency bonus. Their radius is
-      reset to the base size if you move them. You are unaffected by the effects
-      of your own elemental manifestations (though cannot move through stone
-      pillars you create unless otherwise able to).</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">The manifested elemental lasts for
-      1 minute, ending early if you dismiss it (no action required), are
-      incapacitated, die, or use this feature again.</span></p>
+      different effect.</p><ul><li><strong>Air: Coalesced Lightning.</strong>
+      Creates a crackling ball of energy at the target point. When you manifest
+      the power, and as a bonus action on subsequent turns, you can force one
+      creature within 30 feet of the point to pass a Dexterity saving throw, or
+      be struck by an arc of lightning, taking 1d6 + your Wisdom modifier
+      damage.</li><li><strong>Earth: Stone Pillar.</strong> When you manifest
+      the power, a stone eruption fills an unoccupied space within 5 feet of the
+      point, rising up to 10 feet and blocking the space. It has an AC of 16 and
+      hit points equal to your Wisdom modifier + your druid level. The pillar is
+      three quarters cover for creatures behind it. It becomes difficult terrain
+      when destroyed.</li><li><strong>Fire:</strong> Wildfire. The area within 5
+      feet of the point is filled with flames. Creatures that start their turn
+      in the area take 1d6 fire damage.</li><li><strong>Water:</strong> Icy
+      Blizzard. The area within 5 feet of the point is filled with an icy storm
+      of sleet, becoming difficult terrain.</li></ul><p>You can move an
+      elemental manifestation up to 20 feet on subsequent turns as a bonus
+      action. If you move a stone pillar, the pillar is destroyed and you can
+      create a new pillar.</p><p>Instead of moving a Wildfire or Icy Blizzard,
+      you can expand their radius by 5 feet as a bonus action. You can use this
+      on a manifestation a number of times equal to your proficiency bonus.
+      Their radius is reset to the base size if you move them. You are
+      unaffected by the effects of your own elemental manifestations (though
+      cannot move through stone pillars you create unless otherwise able
+      to).</p><p>The manifested elemental lasts for 1 minute, ending early if
+      you dismiss it (no action required), are incapacitated, die, or use this
+      feature again.</p>
     chat: ''
   source:
     rules: '2014'
@@ -103,7 +78,185 @@ system:
     subtype: ''
   requirements: Circle of Elements 2
   identifier: invoke-element
-  activities: {}
+  activities:
+    OMM4JF0XLU6nMbdW:
+      type: utility
+      name: Invoke Primal Powers
+      _id: OMM4JF0XLU6nMbdW
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    zI8eqXgz376vwfQc:
+      type: save
+      name: Coalesced Lightning
+      _id: zI8eqXgz376vwfQc
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: >-
+                @scale.circle-of-elements.invoke-element-damage +
+                @abilities.wis.mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability: []
+        dc:
+          calculation: ''
+          formula: ''
+      img: ''
+      appliedEffects: []
+    YFEuUvIsfI7Ri0dJ:
+      type: damage
+      name: Wildfire
+      _id: YFEuUvIsfI7Ri0dJ
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.circle-of-elements.invoke-element-damage'
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -113,9 +266,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317502089
-  modifiedTime: 1727317502089
+  modifiedTime: 1731875514622
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 31700000

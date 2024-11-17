@@ -3,11 +3,85 @@ type: feat
 _id: zEiRVLLL7X4MnLft
 img: icons/skills/melee/strike-weapons-orange.webp
 system:
-  activities: {}
+  activities:
+    JPqOt1RIvdpwCC7Z:
+      type: save
+      _id: JPqOt1RIvdpwCC7Z
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '4'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '@abilities.str.mod'
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 6
+            bonus: '@abilities.str.mod + @scale.barbarian.rage-damage'
+            types:
+              - slashing
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: str
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
-    max: ''
+    max: '1'
   description:
     value: >-
       <p>Starting at 14th level, as an action when you are raging, you can start
@@ -15,15 +89,15 @@ system:
       pull any weapons already animated by Whirling Death into a wild vortex
       surrounding you. All creatures of your choice within 20 feet of you must
       make a Dexterity saving throw with a DC of 8 + your proficiency bonus +
-      your Strength modifier. On failure, they take 3d6 +103 your Strength
-      modifier + your Rage bonus damage. The damage is increased by 1d6 for each
-      Whirling Death weapon included (up to a maximum of +3d6). On success, a
-      creature takes half as much damage. </p><p>On subsequent turns while
-      raging, you can use your action to keep the Bladestorm going, forcing all
-      creatures within 20 feet of you to make the save again. You can keep a
-      Bladestorm going for a number of turns equal to your Strength modifier.
-      You can use this feature once per rage. When a bladestorm ends, all
-      included weapons fall to the ground around you.</p>
+      your Strength modifier. On failure, they take 3d6 + your Strength modifier
+      + your Rage bonus damage. The damage is increased by 1d6 for each Whirling
+      Death weapon included (up to a maximum of +3d6). On success, a creature
+      takes half as much damage.</p><p>On subsequent turns while raging, you can
+      use your action to keep the Bladestorm going, forcing all creatures within
+      20 feet of you to make the save again. You can keep a Bladestorm going for
+      a number of turns equal to your Strength modifier. You can use this
+      feature once per rage. When a bladestorm ends, all included weapons fall
+      to the ground around you.</p>
     chat: ''
   identifier: bladestorm
   source:
@@ -43,7 +117,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -51,7 +129,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1731698654337
-  modifiedTime: 1731698685317
+  modifiedTime: 1731740313523
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zEiRVLLL7X4MnLft'
 

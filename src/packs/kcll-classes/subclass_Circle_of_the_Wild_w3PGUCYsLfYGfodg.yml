@@ -5,7 +5,21 @@ _id: w3PGUCYsLfYGfodg
 img: icons/creatures/abilities/paw-print-pair-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>For some druids, they have found their friends among the beasts of the
+      wild, forming a close kinship with the furred and the fanged. They often
+      roam the wilderness, placing little value on the trappings of
+      civilization, more concerned with nature, hunting, and
+      exploring.</p><p>The longer they spend in the wild with their animal
+      friends, the more their habits tend to intertwine with the beasts around
+      them. Sometimes they will cook food for their animal friends, while other
+      times they will take to eating their food raw. They play the role of a
+      caretaker, warden, and advocate for the wild.</p><hr /><p>The following
+      are some optional quirks for a player of this Circle to choose from—these
+      can be either preexisting, signaling their fated path toward this Circle,
+      or appear after they select this
+      Circle.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.uBT4IpIhGKZURf5Q
+      rollable]</p>
     chat: ''
   identifier: circle-of-the-wild
   source:
@@ -15,7 +29,13 @@ system:
     - _id: nMMcfSCMH7YElqos
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9jOIAj9OU3rFTAAp
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EyI9IyqnQIjgWPF8
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +44,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UfpmASeIDzktOWPl
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +57,10 @@ system:
       _id: N6gh7ryBuRLNtKNZ
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DidVu2ucoH0g9swd
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +70,10 @@ system:
       _id: Scy7vmAHYUXux9F1
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.K1WwXhTHhWrhosZm
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +81,122 @@ system:
       title: Druid Circle Features
       hint: ''
       _id: hudBZVJN9CmM6iQh
+    - _id: lUgwRXUfqmiVFFbS
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 2
+      title: Circle Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.X8w9EzYLGc4vQ1H2
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.hJ6ZiA3fpoY8v9cp
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Circle Spells
+      hint: ''
+      _id: zZgJp6HdhKwJFuay
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.1Drt0SHxbEAHxprN
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Circle Spells
+      hint: ''
+      _id: hy3YLJgYO9aTEdpf
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.LrPvWHBPmiMQQsKB
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Circle Spells
+      hint: ''
+      _id: 2vVEZgFamGyMiVWe
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.dp6xny4v8PDoIGjh
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Circle Spells
+      hint: ''
+      _id: 1tINqonA8EnUwFCM
+    - _id: m8sHq2Dp5LAZuvB2
+      type: Trait
+      configuration:
+        mode: forcedExpertise
+        allowReplacements: false
+        grants:
+          - skills:prc
+        choices: []
+      value:
+        chosen: []
+      level: 10
+      title: Beast Senses
+      hint: ''
   classIdentifier: druid
   spellcasting:
     progression: none
@@ -69,9 +214,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729038347602
-  modifiedTime: 1729115107485
+  modifiedTime: 1731882757873
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!w3PGUCYsLfYGfodg'
 

@@ -1,0 +1,221 @@
+name: Tree Shape
+type: feat
+_id: kq5ABA47ahwu0ieF
+img: icons/magic/nature/tree-animated-smile.webp
+system:
+  activities:
+    GSJxtIM8njgOrZ9Z:
+      type: heal
+      name: Transform
+      _id: GSJxtIM8njgOrZ9Z
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: a104J1iXWT7rPs1r
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@abilities.wis.mod + 2 * @classes.druid.levels + (@scaling)d8'
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      img: ''
+      appliedEffects:
+        - a104J1iXWT7rPs1r
+    4cUsSR0MMMn9gyzc:
+      type: forward
+      name: Reinforced Form
+      _id: 4cUsSR0MMMn9gyzc
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: GSJxtIM8njgOrZ9Z
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you choose this circle at 2nd level, you gain an alternate use for
+      Wild Shape. As a bonus action, you assume a treelike form, covered in
+      leaves and bark, which lasts up to one hour, or until you end it as a
+      bonus action or until you are incapacitated. You gain the following
+      properties when you transform:</p><ul><li><strong>Large Sized.</strong>
+      You can make yourself Large sized. If you do so, your reach becomes 10
+      feet.</li><li><strong>Grappling Roots.</strong> You can make a Wisdom
+      (Athletics) check to initiate, maintain, or contest a grapple, and have a
+      number of grappling appendages (in the form of grasping roots or branches)
+      equal to your Wisdom modifier.</li><li><strong>Natural Weapons.</strong>
+      Each appendage serves as a natural weapon under the effect of shillelagh.
+      While in this form, you can cast shillelagh on any weapon you are
+      carrying.</li><li><strong>Durable Bark.</strong> Your AC is 10 + your
+      Constitution modifier + your Wisdom modifier. You cannot benefit from the
+      AC of armor or shields while in this form.</li><li><strong>Temporary Hit
+      Points.</strong> You gain temporary hit points equal to your Wisdom
+      modifier + twice your Druid level when you transform into tree form. When
+      the form ends, you lose any temporary hit points you have from
+      it.</li><li><strong>Reinforced Form.</strong> When you take this form, you
+      can expend a 1st level or higher spell slot. When you do so, the temporary
+      hit points you gain increases by 1d8 per level of the spell slot
+      spent.</li><li><strong>Ponderous Movement.</strong> Any speed you have
+      becomes 15 feet, unless the speed was lower. If you don’t move during your
+      turn, you have advantage on Ability Checks and Saving Throws against
+      effects that would move you or knock you prone.</li></ul><p>You choose
+      whether your equipment falls to the ground in your space, merges into your
+      new form, or is worn by it. Worn equipment functions as normal, but the DM
+      decides whether it is practical for the new form to wear a piece of
+      equipment. Your equipment doesn’t change to match the new form, and any
+      equipment that the new form can’t wear must either fall to the ground or
+      merge with it. Equipment that merges with the form has no effect until you
+      leave the form. You can cast spells as normal while in this form.</p>
+    chat: ''
+  identifier: tree-shape
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Tree Shape
+    img: icons/magic/nature/tree-animated-smile.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.kq5ABA47ahwu0ieF
+    transfer: false
+    _id: a104J1iXWT7rPs1r
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.size
+        mode: 5
+        value: lg
+        priority: null
+      - key: system.attributes.ac.calc
+        mode: 5
+        value: custom
+        priority: null
+      - key: system.attributes.ac.formula
+        mode: 2
+        value: 10 + @abilities.con.mod + @abilities.wis.mod
+        priority: null
+      - key: system.attributes.movement.walk
+        mode: 3
+        value: '15'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731879764110
+      modifiedTime: 1731880294294
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!kq5ABA47ahwu0ieF.a104J1iXWT7rPs1r'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731879670038
+  modifiedTime: 1731880362162
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!kq5ABA47ahwu0ieF'
+

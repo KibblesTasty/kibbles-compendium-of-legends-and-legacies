@@ -1,6 +1,6 @@
-name: Sapling (Summon)
+name: Sapling
 type: npc
-img: icons/svg/mystery-man.svg
+img: icons/magic/nature/tree-animated-strike.webp
 system:
   abilities:
     str:
@@ -47,12 +47,12 @@ system:
       max: null
   attributes:
     ac:
-      flat: null
-      calc: custom
+      flat: 12
+      calc: natural
       formula: 12 + 2
     hp:
-      value: 20
-      max: 20
+      value: 10
+      max: 10
       temp: null
       tempmax: 0
       formula: ''
@@ -113,7 +113,7 @@ system:
       swarm: ''
       custom: ''
     environment: ''
-    cr: 1
+    cr: null
     spellLevel: 0
     ideal: ''
     bond: ''
@@ -403,7 +403,7 @@ prototypeToken:
   displayName: 40
   actorLink: false
   texture:
-    src: icons/svg/mystery-man.svg
+    src: icons/magic/nature/tree-animated-strike.webp
     scaleX: 1
     scaleY: 1
     offsetX: 0
@@ -577,7 +577,7 @@ items:
       description:
         value: >-
           <p><em>Melee Weapon Attack:</em> your spell attack modifier to hit,
-          reach 10 ft., one target. <em>Hit:</em> [[/r 1d8]] + PB bludgeoning
+          reach 10 ft., one target. <em>Hit:</em>  1d8 + PB bludgeoning
           damage</p>
         chat: ''
       source:
@@ -714,6 +714,7 @@ items:
       crewed: false
       ammunition: {}
       magicalBonus: null
+      mastery: ''
     _id: RCeDWUTVq3zT7rOh
     img: icons/magic/nature/root-vine-wood-blue.webp
     effects: []
@@ -745,10 +746,10 @@ items:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.3
+      systemVersion: 4.1.1
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1731877551534
+      lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!actors.items!lWk0qWZNQsNwDiE5.RCeDWUTVq3zT7rOh'
   - name: Lashing Vines
     type: weapon
@@ -756,10 +757,10 @@ items:
       description:
         value: >-
           <p><em>Melee Weapon Attack:</em> your spell attack modifier to hit,
-          reach 30 ft., one target. <em>Hit:</em> [[/r 1d4]] + PB slashing
-          damage and must make a Strength saving throw against your spell save
-          DC or by dragged up to 15 feet toward the Sapling. This distance is
-          reduced by 5 feet for every size category about Medium.</p>
+          reach 30 ft., one target. <em>Hit:</em>  1d4 + PB slashing damage and
+          must make a Strength saving throw against your spell save DC or by
+          dragged up to 15 feet toward the Sapling. This distance is reduced by
+          5 feet for every size category about Medium.</p>
         chat: ''
       source:
         custom: Circle of Growth
@@ -774,13 +775,13 @@ items:
         denomination: gp
       attunement: ''
       equipped: true
-      rarity: common
+      rarity: ''
       identified: true
       range:
-        value: 30
+        value: null
         long: null
         units: ft
-        reach: null
+        reach: 30
       uses:
         max: ''
         recovery: []
@@ -801,7 +802,7 @@ items:
         base:
           number: 1
           denomination: 4
-          bonus: '2'
+          bonus: ''
           types:
             - slashing
           custom:
@@ -818,7 +819,8 @@ items:
         max: 0
         dt: null
         conditions: ''
-      properties: []
+      properties:
+        - rch
       proficient: 1
       unidentified:
         description: ''
@@ -951,6 +953,7 @@ items:
       crewed: false
       ammunition: {}
       magicalBonus: null
+      mastery: ''
     _id: DOZQx6mMFXMrLijQ
     img: icons/magic/nature/root-vine-thorns-poison-green.webp
     effects: []
@@ -984,23 +987,25 @@ items:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.3
+      systemVersion: 4.1.1
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1731877615626
+      lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!actors.items!lWk0qWZNQsNwDiE5.DOZQx6mMFXMrLijQ'
 effects: []
 flags:
   core:
     sourceId: Actor.m2f1acrrOI60Dfix
+  dnd5e:
+    showTokenPortrait: false
 _stats:
   compendiumSource: Actor.m2f1acrrOI60Dfix
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317441324
-  modifiedTime: 1731692231902
+  modifiedTime: 1731881865153
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: 5mPI8vwfYWGUMrVa
 sort: 100000

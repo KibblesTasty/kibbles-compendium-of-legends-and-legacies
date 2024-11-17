@@ -54,6 +54,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.AZ0z5mowl2pTF9Qb
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -76,7 +80,64 @@ system:
     subtype: ''
   requirements: Circle of Growth 10
   identifier: grasp-of-nature
-  activities: {}
+  activities:
+    s4HuXdwP6MjwWeBg:
+      type: damage
+      _id: s4HuXdwP6MjwWeBg
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: '@abilities.wis.mod'
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -86,9 +147,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317510211
-  modifiedTime: 1727317510211
+  modifiedTime: 1731878409162
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 44800000

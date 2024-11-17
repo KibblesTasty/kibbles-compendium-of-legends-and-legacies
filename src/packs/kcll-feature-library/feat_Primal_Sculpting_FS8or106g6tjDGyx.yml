@@ -21,10 +21,12 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 6th level, when deal bludgeoning, cold, fire, or lightning
-      damage with Invoke Elements or a druid spell, you can choose a number of
-      creatures equal to your proficiency bonus that you can see to exclude from
-      the effect.</p>
+      <p>Starting at 6th level, when you deal bludgeoning, cold, fire, or
+      lightning damage with Invoke Elements or a druid spell, you can choose a
+      number of creatures equal to your proficiency bonus that you can see to
+      exclude from the effect.</p><p> The chosen creatures automatically pass
+      their saving throw (if applicable) against the effect, and take no damage
+      from the effect.</p>
     chat: ''
   source:
     rules: '2014'
@@ -48,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317496808
-  modifiedTime: 1727317496808
+  modifiedTime: 1731874791665
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 23200000

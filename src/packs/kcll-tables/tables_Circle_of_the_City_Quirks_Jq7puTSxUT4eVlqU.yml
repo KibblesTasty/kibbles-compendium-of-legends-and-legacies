@@ -3,7 +3,79 @@ name: Circle of the City Quirks
 _id: Jq7puTSxUT4eVlqU
 img: icons/environment/settlement/watchtower-city.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: FMuKwqQ3D6WJ9H7j
+    text: You attract just so many pigeons.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Jq7puTSxUT4eVlqU.FMuKwqQ3D6WJ9H7j'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: 82MZEtZ2Wx1sqMeF
+    text: Your clothes look like they were sewn together by mice… they were.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Jq7puTSxUT4eVlqU.82MZEtZ2Wx1sqMeF'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: 52mGtMXWpNo1r8aZ
+    text: You loudly espouse the benefits of foraging for food within a city.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Jq7puTSxUT4eVlqU.52mGtMXWpNo1r8aZ'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: hbp5wkRkrYrou8e6
+    text: Your pockets are filled with critters
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Jq7puTSxUT4eVlqU.hbp5wkRkrYrou8e6'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: u4YwAXyzKIaLIs2C
+    text: Your “den” is under a bridge
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Jq7puTSxUT4eVlqU.u4YwAXyzKIaLIs2C'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: rA5fWSohwRoksOPN
+    text: Your arch nemesis is a tomcat that stalks you while you’re wild shaped.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Jq7puTSxUT4eVlqU.rA5fWSohwRoksOPN'
 replacement: true
 displayRoll: true
 sort: 0
@@ -18,8 +90,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729114882905
-  modifiedTime: 1729114913310
+  modifiedTime: 1731783470235
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!Jq7puTSxUT4eVlqU'
 

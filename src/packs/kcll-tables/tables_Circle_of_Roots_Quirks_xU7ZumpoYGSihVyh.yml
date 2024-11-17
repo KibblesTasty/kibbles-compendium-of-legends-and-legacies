@@ -3,7 +3,83 @@ name: Circle of Roots Quirks
 _id: xU7ZumpoYGSihVyh
 img: icons/magic/nature/root-vine-coiled-crook.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: MpG0r2Co1RFaO7Gx
+    text: >-
+      You have a strong dislike of fire, and tend to put fires out when
+      possible.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!xU7ZumpoYGSihVyh.MpG0r2Co1RFaO7Gx'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: 9BMThEvQekwPNDPl
+    text: Parts of skin resemble bark, even while in not in tree form.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!xU7ZumpoYGSihVyh.9BMThEvQekwPNDPl'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: FkhxQcHtSI9mngRR
+    text: You find other mortals to always be in a terrible hurry.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!xU7ZumpoYGSihVyh.FkhxQcHtSI9mngRR'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: pJJCt5YvInEIDCLc
+    text: You can taste 14 flavors of sunlight. Most of them are delicious.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!xU7ZumpoYGSihVyh.pJJCt5YvInEIDCLc'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: OGZ22HEO9ng4j0kh
+    text: >-
+      Your hair is leaf green. On a bad hair day, you can’t get the leaves out
+      of your hair
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!xU7ZumpoYGSihVyh.OGZ22HEO9ng4j0kh'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: Lq75c2VfvFealrSG
+    text: You tend to simply say your own name as means of communication.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!xU7ZumpoYGSihVyh.Lq75c2VfvFealrSG'
 replacement: true
 displayRoll: true
 sort: 0
@@ -18,8 +94,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729115056565
-  modifiedTime: 1729115060098
+  modifiedTime: 1731878537609
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!xU7ZumpoYGSihVyh'
 

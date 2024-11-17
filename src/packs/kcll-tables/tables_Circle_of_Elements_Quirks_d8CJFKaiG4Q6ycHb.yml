@@ -3,7 +3,83 @@ name: Circle of Elements Quirks
 _id: d8CJFKaiG4Q6ycHb
 img: icons/magic/symbols/elements-air-earth-fire-water.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: b4DbfkhYTg583wTc
+    text: Different elemental effects appear around you depending on your mood.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!d8CJFKaiG4Q6ycHb.b4DbfkhYTg583wTc'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: Pe0B39FqsWUchRRI
+    text: >-
+      You talk about the elements as if they were people with their own
+      personality and preferences.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!d8CJFKaiG4Q6ycHb.Pe0B39FqsWUchRRI'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: az0FnhbT8pKOqcgJ
+    text: You once tried to pet a fire elemental.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!d8CJFKaiG4Q6ycHb.az0FnhbT8pKOqcgJ'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: 6kssAwgcRZVi9sWC
+    text: Natural disasters make you really excited.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!d8CJFKaiG4Q6ycHb.6kssAwgcRZVi9sWC'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: aXA7hFofob7gInvT
+    text: >-
+      You consider yourself far superior to other spellcasters who only focus on
+      one element.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!d8CJFKaiG4Q6ycHb.aXA7hFofob7gInvT'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: xyfJHonweLf6j7Mv
+    text: Umbrellas are deeply offensive to you.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!d8CJFKaiG4Q6ycHb.xyfJHonweLf6j7Mv'
 replacement: true
 displayRoll: true
 sort: 0
@@ -18,8 +94,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729114950247
-  modifiedTime: 1729114953349
+  modifiedTime: 1731875888795
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!d8CJFKaiG4Q6ycHb'
 

@@ -1,0 +1,296 @@
+name: Spirit Shape
+type: feat
+_id: i6zCBmIqwwKrEnnP
+img: icons/magic/nature/wolf-paw-glow-large-purple-teal.webp
+system:
+  activities:
+    uVxlvRTQzWukFSrd:
+      type: utility
+      name: Assume Shape
+      _id: uVxlvRTQzWukFSrd
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: l5eH7nSOSmc2njiV
+        - _id: NVcIyHEVmJNUFlXg
+        - _id: Yh7cfvlJF9EyajV0
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    NikNkdFr0PqWBy4Y:
+      type: heal
+      name: Aspect of the Turtle
+      _id: NikNkdFr0PqWBy4Y
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: 2 * @classes.druid.levels + @abilities.wis.mod
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you choose this circle at 2nd level, you gain an alternate use for
+      Wild Shape. As a bonus action, you can shape your soul to incorporate a
+      bestial aspect.</p><p>While your body remains unchanged, the magical
+      essence fills you with a unique power depending on which aspect you
+      assume, granting potent abilities. The Spirit Aspect lasts for 10 minutes,
+      or until you use this feature again. Choose one of the following Spiritual
+      Aspects:</p><ul><li><strong>Aspect of the Bear.</strong> You gain
+      supernatural strength and your magical attacks impact with staggering
+      force. Your Strength ability score becomes equal to your Wisdom ability
+      score (if it was lower), and you can add your Strength modifier to the
+      damage of your melee spell attacks. You gain proficiency in Strength
+      saving throws while manifesting this aspect.</li><li><strong>Aspect of the
+      Tiger.</strong> You gain a supernatural agility and unrelenting ferocity
+      weaving your magic and attacks together. When you make a melee spell
+      attack or cast a spell as part of your action, you can make one melee
+      weapon attack as a bonus action. You gain proficiency in Dexterity saving
+      throws while manifesting this aspect.</li><li><strong>Aspect of the
+      Turtle.</strong> You gain supernatural endurance and perseverance to
+      withstand through a rain of blows. When you enter this form, you gain
+      temporary hit points equal to your twice Druid level + your Wisdom
+      modifier. You gain proficiency in Constitution saving throws while
+      manifesting this aspect.</li></ul><section id="secret-VGqBKz839gmaaMgB"
+      class="secret"><p> <strong>Foundry Note</strong></p><p>The Aspect of the
+      Bear effect requires manual updates to match the Druid's wisdom
+      score.</p></section>
+    chat: ''
+  identifier: spirit-shape
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Aspect of the Bear
+    img: icons/magic/nature/wolf-paw-glow-large-purple-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.i6zCBmIqwwKrEnnP
+    transfer: false
+    _id: l5eH7nSOSmc2njiV
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.str.proficient
+        mode: 4
+        value: '1'
+        priority: null
+      - key: system.abilities.str.value
+        mode: 4
+        value: '16'
+        priority: null
+      - key: system.bonuses.msak.damage
+        mode: 2
+        value: '@abilities.str.mod'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731781838373
+      modifiedTime: 1731782382288
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!i6zCBmIqwwKrEnnP.l5eH7nSOSmc2njiV'
+  - name: Aspect of the Tiger
+    img: icons/magic/nature/wolf-paw-glow-large-purple-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.i6zCBmIqwwKrEnnP
+    transfer: false
+    _id: NVcIyHEVmJNUFlXg
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.dex.proficient
+        mode: 4
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731781921056
+      modifiedTime: 1731781984350
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!i6zCBmIqwwKrEnnP.NVcIyHEVmJNUFlXg'
+  - name: Aspect of the Turtle
+    img: icons/magic/nature/wolf-paw-glow-large-purple-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.i6zCBmIqwwKrEnnP
+    transfer: false
+    _id: Yh7cfvlJF9EyajV0
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.con.proficient
+        mode: 4
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731781930594
+      modifiedTime: 1731781994750
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!i6zCBmIqwwKrEnnP.Yh7cfvlJF9EyajV0'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731780925249
+  modifiedTime: 1731781930673
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!i6zCBmIqwwKrEnnP'
+

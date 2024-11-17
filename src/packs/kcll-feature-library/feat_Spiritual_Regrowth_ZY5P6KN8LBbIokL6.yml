@@ -1,0 +1,104 @@
+name: Spiritual Regrowth
+type: feat
+_id: ZY5P6KN8LBbIokL6
+img: icons/magic/life/heart-cross-strong-green.webp
+system:
+  activities:
+    xqOOoJFkMLUNVkTs:
+      type: heal
+      _id: xqOOoJFkMLUNVkTs
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 2 * @scaling
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Additionally at 6th level, whenever you cast a spell while you have an
+      active Spirit Aspect, you recover hit points equal to twice the spell
+      level of the spell cast.</p>
+    chat: ''
+  identifier: spiritual-regrowth
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731780970728
+  modifiedTime: 1731782611934
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!ZY5P6KN8LBbIokL6'
+

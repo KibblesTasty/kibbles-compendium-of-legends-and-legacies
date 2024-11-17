@@ -18,17 +18,21 @@ flags:
       altValue: true
   core:
     sourceId: Item.LDF2NQ6mcHZ7MDDY
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>Beginning at 10th level, you gain the endurance of the of the ancient
-      forests. While in Guardian Shape, if you have no temporary hit points at
-      the start of your turn, you gain temporary hit points equal to your Wisdom
-      modifier.</p>
-
-      <p>Additionally, if you have any temporary hit points when you take damage
-      that forces you to make a Constitution saving throw to maintain
-      Concentration on a spell, you can make the check with advantage
+      <p>Beginning at 10th level, you gain the endurance of the most ancient
+      trees within the great forests. While in Tree Form, if you have no
+      temporary hit points at the start of your turn, you gain temporary hit
+      points equal to your Wisdom modifier. You can spend a spell slot to
+      increase the amount of temporary hit points by 1d8 per level of the spell
+      slot spent.</p><p>Additionally, if you have any temporary hit points when
+      you take damage that forces you to make a Constitution saving throw to
+      maintain Concentration on a spell, you can make the check with advantage
       (regardless if the damage exceeds your temporary hit points or not).</p>
     chat: ''
   source:
@@ -43,7 +47,91 @@ system:
     subtype: ''
   requirements: Circle of the Ancients 10
   identifier: ancient-fortitude
-  activities: {}
+  activities:
+    dHgbM28usxXek1Ak:
+      type: heal
+      _id: dHgbM28usxXek1Ak
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@abilities.wis.mod + (@scaling)d8'
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    p8CxBE4kIk8GOV5V:
+      type: forward
+      name: Expend Spell Slot
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: dHgbM28usxXek1Ak
+      _id: p8CxBE4kIk8GOV5V
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -53,9 +141,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317510786
-  modifiedTime: 1727317510786
+  modifiedTime: 1731880583286
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 45600000

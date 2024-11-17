@@ -18,12 +18,17 @@ flags:
       altValue: true
   core:
     sourceId: Item.ts0LZEjYy4l4CJJi
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>Starting at 14th level, any creature grappled or restrained by you (by
-      a grapple or a spell such as entangle) takes [[/r 2d6]] bludgeoning damage
-      at the start of their turn as your grasp crushes it.</p>
+      <p>Starting at 14th level, when a creature starts their turn grappled or
+      restrained by you (by a grapple or a spell such as entangle), you can
+      choose to crush them, dealing 2d6 bludgeoning damage to them (no action
+      required).</p>
     chat: ''
   source:
     rules: '2014'
@@ -37,7 +42,64 @@ system:
     subtype: ''
   requirements: Circle of the Ancients 14
   identifier: crushing-grasp
-  activities: {}
+  activities:
+    NZMKwb04SUCbwcNR:
+      type: damage
+      _id: NZMKwb04SUCbwcNR
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -47,9 +109,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317514246
-  modifiedTime: 1727317514246
+  modifiedTime: 1731880464916
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 51100000

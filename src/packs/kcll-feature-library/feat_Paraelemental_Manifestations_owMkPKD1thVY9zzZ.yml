@@ -23,143 +23,33 @@ flags:
       value: true
     quickFooter:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Starting at 10th level, when you
-      invoke an element, you can expend 2 uses of Wild Shape to invoke two
-      elements at once in the same area.</span></p><table
-      style="box-sizing:border-box;user-select:text;width:618px;border-collapse:collapse;background:rgba(0,
-      0, 0, 0.05);border-top:1px solid
-      var(--color-border-light-tertiary);border-bottom:1px solid
-      var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(25, 24,
-      19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><thead
-      style="box-sizing:border-box;user-select:text;background:rgba(0, 0, 0,
-      0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px
-      var(--color-shadow-dark);border-bottom:1px solid
-      var(--color-border-dark)"><tr
-      style="box-sizing:border-box;user-select:text"><th
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"></th><th id="air"
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Air</span></th><th id="earth"
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Earth</span></th><th id="fire"
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Fire</span></th><th id="water"
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Water</span></th></tr></thead><tbody
-      style="box-sizing:border-box;user-select:text"><tr
-      style="box-sizing:border-box;user-select:text"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Air</strong></span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">—</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Dust</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Smoke</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Fog</span></td></tr><tr
-      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
-      255, 255, 0.2)"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Earth</strong></span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Dust</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">—</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Magma</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Mud</span></td></tr><tr
-      style="box-sizing:border-box;user-select:text"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Fire</strong></span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Smoke</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Magma</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">—</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Steam</span></td></tr><tr
-      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
-      255, 255, 0.2)"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Water</strong></span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Fog</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Mud</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Steam</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">—</span></td></tr></tbody></table><ul
-      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
-      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Dust: Dust Cloud.</strong>
-      The area within 10 feet of the point becomes heavily obscured. Creatures
-      attempt to speak in the area must make a Constitution saving throw against
-      your spell save DC, or be muted until the start of their next turn or they
-      exit the dust cloud. You can expand or move this Dust Cloud with your
-      Invoke Elements feature.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Fog, Smoke, or Steam:
-      Obscuring Cloud.</strong> Has the effect of both contributing powers in
-      addition the area covered by Wild Fire or Icy Blizzard also becomes
-      heavily obscured.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Mud: Mud Mire.</strong> The
-      area within 5 feet of the point is filed with thick icy mud, creating
+      <p>Starting at 10th level, when you invoke an element, you can expend 2
+      uses of Wild Shape to invoke two elements at once in the same
+      area.</p><table><thead><tr><th></th><th>Air</th><th>Earth</th><th>Fire</th><th>Water</th></tr></thead><tbody><tr><td>Air</td><td>—</td><td>Dust</td><td>Smoke</td><td>Fog</td></tr><tr><td>Earth</td><td>Dust</td><td>—</td><td>Magma</td><td>Mud</td></tr><tr><td>Fire</td><td>Smoke</td><td>Magma</td><td>—</td><td>Steam</td></tr><tr><td>Water</td><td>Fog</td><td>Mud</td><td>Steam</td><td>—</td></tr></tbody></table><ul><li><strong>Dust:
+      Dust Cloud</strong>. The area within 10 feet of the point becomes heavily
+      obscured. Creatures attempt to speak in the area must make a Constitution
+      saving throw against your spell save DC, or be muted until the start of
+      their next turn or they exit the dust cloud. You can expand or move this
+      Dust Cloud with your Invoke Elements feature.</li><li><strong>Fog, Smoke,
+      or Steam: Obscuring Cloud.</strong> The area has the effect of both
+      contributing powers. In addition, the area covered by Wildfire or Icy
+      Blizzard also becomes heavily obscured</li><li><strong>Magma: Magma
+      Pillar.</strong> Has the effect of Stone Pillar, but additionally
+      creatures that start their turn within 5 feet of the stone pillar take 2d6
+      fire damage and creatures that hit the magma pillar with a melee attack
+      take 2d6 fire damage.</li><li><strong>Mud: Mud Mire. </strong>The area
+      within 5 feet of the point is filled with thick icy mud, creating
       difficult terrain. The difficult terrain generated on the ground requires
       an additional foot of movement for each foot of movement through it. You
       can expand or move this Mud Mire with your Invoke Elements
-      feature.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif"><strong
-      style="box-sizing:border-box;user-select:text">Magma: Magma
-      Pillar.</strong> Has the effect of Stone Pillar, but additionally
-      creatures that start their within 5 feet of the stone pillar take 1d6
-      damage and creatures that hit the magma pillar with a melee attack take
-      2d6 fire damage.</span></li></ul>
+      feature.</li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -173,7 +63,64 @@ system:
     subtype: ''
   requirements: Circle of Elements 10
   identifier: paraelemental-manifestations
-  activities: {}
+  activities:
+    9wor8YMBeIQF7PsM:
+      type: damage
+      name: Magma Pillar
+      _id: 9wor8YMBeIQF7PsM
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.circle-of-elements.invoke-element-damage'
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -183,9 +130,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317521243
-  modifiedTime: 1727317521243
+  modifiedTime: 1731875525451
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 62900000

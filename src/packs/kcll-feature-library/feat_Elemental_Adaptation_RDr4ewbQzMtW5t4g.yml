@@ -21,16 +21,13 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 14th level, when you complete a long or short rest, you can
-      gain resistance to one damage type from the following list: cold, fire, or
-      lightning.</p>
-
-      <p>When you have resistance to cold damage you can see through the
-      obscurement of fog (such as that created by Paraelemental Manifestations
-      or the spell fog cloud. When you have resistance to fire damage from this
-      feature, you can see through the obscurement of steam or smoke. When you
-      have resistance to lightning damage you can see through the obscurement of
-      dust, smoke, or steam.</p>
+      <p>Starting at 14th level, when you complete a short or long rest, you can
+      gain resistance to one damage type from the following list until your next
+      short or long rest: cold, fire, or lightning.</p><p> When you have
+      resistance to cold damage you can see through the obscurement of steam or
+      fog. When you have resistance to fire damage, you can see through the
+      obscurement of steam or smoke. When you have resistance to lightning
+      damage you can see through the obscurement of dust, smoke, or steam.</p>
     chat: ''
   source:
     rules: '2014'
@@ -54,9 +51,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317504557
-  modifiedTime: 1727317504557
+  modifiedTime: 1731875617035
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 35800000

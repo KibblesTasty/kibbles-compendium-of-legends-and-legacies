@@ -1,0 +1,193 @@
+name: Sprout Sapling
+type: feat
+img: icons/magic/nature/tree-animated-strike.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.bhvSOKVgA7DzdaCy
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, as a bonus action, you can expend one use of
+      your Wild Shape feature to sprout a Sapling, rather than assuming a beast
+      form. The Sapling to sprouts to life in an empty space you can see within
+      30 feet. The Sapling is friendly to you and your companions and obeys your
+      commands. See this creature’s game statistics in the Sapling stat block,
+      which uses your proficiency bonus (PB) in several places.</p><p>In combat,
+      the Sapling shares your initiative count, but it takes its turn
+      immediately after yours. The only action it takes on its turn is the Dodge
+      action, unless you take a bonus action on your turn to command it to take
+      another action. You can command your Sapling as part of the same bonus
+      action used to summon it. That action can be one in its stat block or some
+      other action. If you are incapacitated, the Sapling can take any action of
+      its choice, not just Dodge. When you cast a spell with a range other than
+      self, the spell can originate from you or your Sapling.</p><p>The Sapling
+      manifests for 10 minutes, until it is reduced to 0 hit points, until you
+      use this feature to summon the spirit again, or until you die.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of Growth 2
+  identifier: sprout-seedling
+  activities:
+    6RtqHzAxpLbEQg90:
+      type: summon
+      _id: 6RtqHzAxpLbEQg90
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '10'
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: '@prof'
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: true
+        saves: false
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: UNYq0DfnFxwt0AoL
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.lWk0qWZNQsNwDiE5
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+        identifier: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.bhvSOKVgA7DzdaCy
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317488172
+  modifiedTime: 1731877871635
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 10000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 4OTiUc2Sj8mWLBF3
+_key: '!items!4OTiUc2Sj8mWLBF3'
+

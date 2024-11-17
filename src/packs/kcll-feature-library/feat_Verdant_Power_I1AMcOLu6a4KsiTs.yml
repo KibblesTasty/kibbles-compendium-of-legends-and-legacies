@@ -54,28 +54,24 @@ flags:
       altValue: false
   core:
     sourceId: Item.jL10bJpEweFz3sqw
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <h3 id="druid-circle-circle-of-growth-verdant-power">Verdant Power</h3>
-
       <p>Starting at 6th level, whenever you expend a spell slot of 1st level or
       higher while your Sapling is manifested, you can select one of the
-      following benefits:</p>
-
-      <ul>
-
-      <li>The Sapling can make additional Slam attacks equal to the level of the
-      spell slot divided by 2 (minimum 1).</li>
-
-      <li>All allied creatures of your choice within 30 feet of the Sapling gain
-      temporary hit points equal twice the level of the spell slot.</li>
-
-      <li>The Sapling can move a 5 + 5 times the level of the spell slot spent
-      feet on its turn. Until the start of your next turn, any space it moved
-      through is difficult terrain for creatures of your choice.</li>
-
-      </ul>
+      following benefits:</p><ul><li><strong>Multiattack.</strong> The Sapling
+      can make additional attacks on its turn equal to the level of the spell
+      slot divided by 2 (minimum 1).</li><li><strong>Verdant Aura.</strong> All
+      allied creatures of your choice within 30 feet of the Sapling gain
+      temporary hit points equal twice the level of the spell
+      slot.</li><li><strong>Reposition.</strong> The Sapling can move a number
+      of feet equal to 5 + 5 times the level of the spell slot spent feet on its
+      turn. Until the start of your next turn, any space it moved through is
+      difficult terrain for creatures of your choice.</li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -89,7 +85,63 @@ system:
     subtype: ''
   requirements: Circle of Growth 6
   identifier: verdant-power
-  activities: {}
+  activities:
+    7Bx0R1xU9xwm6dCl:
+      type: heal
+      name: Verdant Aura
+      _id: 7Bx0R1xU9xwm6dCl
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@scaling * 2'
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -99,9 +151,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317498308
-  modifiedTime: 1727317498308
+  modifiedTime: 1731878241140
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 25700000

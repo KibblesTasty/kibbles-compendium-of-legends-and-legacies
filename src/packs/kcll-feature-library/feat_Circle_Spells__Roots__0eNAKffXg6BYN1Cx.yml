@@ -1,0 +1,59 @@
+name: Circle Spells (Roots)
+type: feat
+img: icons/magic/nature/root-vine-hand-strike.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Vyd7NkI1fMQ0sddK
+system:
+  description:
+    value: "<p>At 2nd level, you learn the @UUID[Compendium.dnd5e.spells.Item.VzgFzcmocr1X1cp4]{shillelagh} cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Roots Spells table. Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day.</p><table><thead><tr><th><p>Druid Level</p></th><th><p>Circle Spells</p></th></tr></thead><tbody><tr><td><p>2nd</p></td><td><p>Bramble Binding, Grasping Roots</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH]{Barkskin}, Sprout Tree</p></td></tr><tr><td><p>5th</p></td><td><p>Bramble Barrier, @UUID[Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW]{Plant Growth}</p></td></tr><tr><td><p>7th</p></td><td><p>\_Carnivorous Garden, Guardian of Nature</p></td></tr><tr><td><p>9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.dp6xny4v8PDoIGjh]{Commune with Nature}, @UUID[Compendium.dnd5e.spells.Item.DUBgwHPakcLDkB6W]{Tree Stride}</p></td></tr></tbody></table>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Circle of the Ancients 2
+  identifier: circle-of-ancients-spells
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.Vyd7NkI1fMQ0sddK
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317485494
+  modifiedTime: 1731879599852
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 6100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 0eNAKffXg6BYN1Cx
+_key: '!items!0eNAKffXg6BYN1Cx'
+

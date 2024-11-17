@@ -4,19 +4,13 @@ img: icons/creatures/abilities/bear-roar-bite-brown-green.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:BookSanity">Starting at 14th level, while your
-      Beast Companion is manifested and within 60 feet of you, you can expend a
-      slot (no action required) to empower it for a number of turns equal to the
-      spell slot spent. It gains temporary hit points equal to 5 times the level
-      of the spell slot spent, and while empowered in this way, the beast is
-      under the effect of <em
-      style="box-sizing:border-box;-webkit-print-color-adjust:exact;font-style:italic;color:rgb(0,
-      0,
-      0);font-family:BookSanity;font-size:11.9811px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;background-color:rgb(238,
-      229,
-      206);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">freedom
-      of movement</em>, and deals an additional 1d8 on hit with its
-      attacks.</span></p>
+      <p>Starting at 14th level, while your Beast Companion is manifested and
+      within 60 feet of you, you can expend a slot (no action required) to
+      empower it for a number of turns equal to the spell slot spent. It gains
+      temporary hit points equal to 5 times the level of the spell slot spent,
+      and while empowered in this way, the beast is under the effect of
+      @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{freedom of movement},
+      and deals an additional 1d8 on hit with its attacks.</p>
     chat: ''
   source:
     rules: '2014'
@@ -30,12 +24,120 @@ system:
     subtype: ''
   requirements: Circle of the Wild 14
   identifier: empowered-frenzy
-  activities: {}
+  activities:
+    5hEY50XBe0xJBuSJ:
+      type: heal
+      name: Empower
+      _id: 5hEY50XBe0xJBuSJ
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: MEM2rZ3XP0lRHVQT
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: 5 * @scaling
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Empowered Frenzy
+    img: icons/creatures/abilities/bear-roar-bite-brown-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.K1WwXhTHhWrhosZm
+    transfer: false
+    _id: MEM2rZ3XP0lRHVQT
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.mwak.damage
+        mode: 2
+        value: 1d8
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: paralyzed
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: restrained
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>@Embed[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731882261027
+      modifiedTime: 1731882329135
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!K1WwXhTHhWrhosZm.MEM2rZ3XP0lRHVQT'
 flags:
   rsr5e:
     quickDesc:
@@ -44,14 +146,18 @@ flags:
       value: true
   core:
     sourceId: Item.Pgp9wvCXCez5Croz
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.Pgp9wvCXCez5Croz
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317499262
-  modifiedTime: 1727317499262
+  modifiedTime: 1731882261113
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 27300000

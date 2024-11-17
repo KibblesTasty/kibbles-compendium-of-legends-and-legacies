@@ -5,7 +5,17 @@ _id: OVDW3vbb1fh4YulP
 img: icons/magic/nature/leaf-elm-sparkle-glow-green.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Druids within the Circle of Growth are among the most direct emissaries
+      of nature, speaking for the forests and wilderness in order to bring its
+      will to the rest of the world.. They can be kind and nurturing presences
+      that seek to ease the suffering all living things, or militant wardens
+      that seek to end the exploitation of natural resources.</p><hr /><p>The
+      following are some optional quirks for a player of this Circle to choose
+      from—these can be either preexisting, signaling their fated path toward
+      this Circle, or appear after the first time they’ve assumed Tree
+      shape.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.CIKQpWzQcQIGR6m0
+      rollable]</p>
     chat: ''
   identifier: circle-of-growth
   source:
@@ -15,7 +25,13 @@ system:
     - _id: nMMcfSCMH7YElqos
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jXacu5qZ6wGVW54x
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4OTiUc2Sj8mWLBF3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +40,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.I1AMcOLu6a4KsiTs
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +53,13 @@ system:
       _id: N6gh7ryBuRLNtKNZ
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UNMsjF4OCJDeM5AD
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZqByXkYBOmKQlylp
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +69,10 @@ system:
       _id: Scy7vmAHYUXux9F1
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.g2ztw2P82BXLaoDa
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -69,9 +97,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729038327774
-  modifiedTime: 1729115000430
+  modifiedTime: 1731878427165
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!OVDW3vbb1fh4YulP'
 

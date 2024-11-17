@@ -1,7 +1,81 @@
 name: Nourishing Magic
 type: feat
 img: icons/magic/nature/tree-twisted-glow-yellow.webp
-effects: []
+effects:
+  - name: Nourishing Magic (Large)
+    img: icons/magic/nature/tree-twisted-glow-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.g2ztw2P82BXLaoDa
+    transfer: false
+    _id: gLgGIht3xCkAm8TB
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.size
+        mode: 5
+        value: lg
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731878103001
+      modifiedTime: 1731878157507
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!g2ztw2P82BXLaoDa.gLgGIht3xCkAm8TB'
+  - name: Nourishing Magic (Huge)
+    img: icons/magic/nature/tree-twisted-glow-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.g2ztw2P82BXLaoDa
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.size
+        mode: 5
+        value: huge
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731878161119
+      modifiedTime: 1731878172183
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: 1mqDKZh7qbnBsHJl
+    _key: '!items.effects!g2ztw2P82BXLaoDa.1mqDKZh7qbnBsHJl'
 flags:
   betterRolls5e:
     quickDesc:
@@ -54,15 +128,17 @@ flags:
       altValue: false
   core:
     sourceId: Item.CONLpc4gApCiAUbG
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <h3 id="druid-circle-circle-of-growth-nourishing-magic">Nourishing
-      Magic</h3>
-
-      <p>Starting at 14th level, whenever you trigger an effect of Verdant Power
-      your Sapling regains 1d10 hit points per level of spell slot spent, and
-      you can cause it to grow one size (up to a maximum of huge).</p>
+      <p>Starting at 14th level, whenever you trigger an effect of Verdant
+      Power, your Sapling regains 1d10 hit points per level of spell slot spent,
+      and you can cause it to grow one size (up to a maximum of huge). Its reach
+      increases by 5 feet for each size category above medium.</p>
     chat: ''
   source:
     rules: '2014'
@@ -76,7 +152,67 @@ system:
     subtype: ''
   requirements: Circle of Growth 6
   identifier: nourishing-magic
-  activities: {}
+  activities:
+    Md8Y06xxhw01Gf6e:
+      type: heal
+      _id: Md8Y06xxhw01Gf6e
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: gLgGIht3xCkAm8TB
+        - _id: 1mqDKZh7qbnBsHJl
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: (@scaling)d10
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects:
+        - gLgGIht3xCkAm8TB
+        - 1mqDKZh7qbnBsHJl
   enchant: {}
   prerequisites:
     level: null
@@ -86,9 +222,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317515202
-  modifiedTime: 1727317515202
+  modifiedTime: 1731878193837
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 52700000

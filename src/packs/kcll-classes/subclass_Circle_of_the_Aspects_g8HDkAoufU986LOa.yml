@@ -5,7 +5,22 @@ _id: g8HDkAoufU986LOa
 img: icons/magic/nature/wolf-paw-glow-purple-teal.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>A circle of the aspects druid, frequently called a spirit shifter, is a
+      druid that has attuned themselves to the spiritual aspects of beasts.
+      These druids tap into their fundamental nature, calling up certain aspects
+      of wilderness and embodying them in spirit. A druid of this circle can be
+      said to Wild Shape their soul, rather than their body.</p><p>Druids of
+      this circle must walk a fine line, as it can be easy for them to delve too
+      deeply into the powerful and savage states of mind they enter. However,
+      these magical aspects grant them both unique power and perspective as they
+      walk the world, seeing the world through the eyes of the bestial spirits
+      that boil within them.</p><hr /><p>The following are some optional quirks
+      for a player of this Circle to choose from—these can be either
+      preexisting, signaling their fated path toward this Circle, or appear
+      after the first time they’ve assumed Spirit
+      Shape.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.4prj53hCqMVEGZw5
+      rollable]</p>
     chat: ''
   identifier: circle-of-the-aspects
   source:
@@ -15,7 +30,13 @@ system:
     - _id: nMMcfSCMH7YElqos
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.B2rfqR5LcUvojoFO
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.i6zCBmIqwwKrEnnP
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +45,13 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.709N77scsZDKEkUP
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZY5P6KN8LBbIokL6
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +61,10 @@ system:
       _id: N6gh7ryBuRLNtKNZ
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EwBmvsXSjUwkunZv
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +74,10 @@ system:
       _id: Scy7vmAHYUXux9F1
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZnfIQJCnmVyISsHf
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +85,101 @@ system:
       title: Druid Circle Features
       hint: ''
       _id: hudBZVJN9CmM6iQh
+    - _id: RkTmMSWeiCPLF2Qf
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.uCud2s4TjMfjiXUb
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Circle Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 2
+      title: Circle Spells
+      hint: ''
+      _id: zC8aEJxCvbO011D0
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Circle Spells
+      hint: ''
+      _id: czwp0sWUEzfuuHIS
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Circle Spells
+      hint: ''
+      _id: zxEpIjxe81qpPMYH
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.dp6xny4v8PDoIGjh
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Circle Spells
+      hint: ''
+      _id: HRumAupqVhFYmMAw
   classIdentifier: druid
   spellcasting:
     progression: none
@@ -69,9 +197,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729038298276
-  modifiedTime: 1729115547216
+  modifiedTime: 1731782807633
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!g8HDkAoufU986LOa'
 

@@ -46,7 +46,12 @@
 			"name": "kcll-classes",
 			"label": "KCLL Classes",
 			"system": "dnd5e",
-			"type": "Item"
+			"type": "Item",
+			"flags": {
+				"dnd5e": {
+					"types": ["class", "subclass"]
+				}
+			}
 		},
 		{
 			"name": "kcll-journals",
@@ -70,19 +75,34 @@
 			"name": "kcll-feats",
 			"label": "KCLL Feats",
 			"system": "dnd5e",
-			"type": "Item"
+			"type": "Item",
+			"flags": {
+				"dnd5e": {
+					"types": ["feat"]
+				}
+			}
 		},
 		{
 			"name": "kcll-spells",
 			"label": "KCLL Spells",
 			"system": "dnd5e",
-			"type": "Item"
+			"type": "Item",
+			"flags": {
+				"dnd5e": {
+					"types": ["spell"]
+				}
+			}
 		},
 		{
 			"name": "kcll-elemental-spells",
 			"label": "Elemental Spells",
 			"system": "dnd5e",
-			"type": "Item"
+			"type": "Item",
+			"flags": {
+				"dnd5e": {
+					"types": ["spell"]
+				}
+			}
 		},
 		{
 			"name": "kcll-items",
@@ -137,7 +157,8 @@
 				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.z8K8fWUUFtlmt6Yl",
 				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.mlOnt91R4dN5aOUW",
 				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.Ny9Tz9SGFQeSGCPQ",
-				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.fpgKxVtIpWWbabxu"
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.fpgKxVtIpWWbabxu",
+				"Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.RJDtg9nL9x04U6gN.JournalEntryPage.w3exqwl9PrDLMC1w"
 			]
 		}
 	}

@@ -29,20 +29,22 @@ system:
       <p>Additionally, your selected Fighting Style is further refined. You gain
       the following the bonus based on your Fighting
       Style:</p><ul><li><p><strong>Archery:</strong> You gain a +1 bonus to
-      damage rolls you make when benefiting from this Fighting
-      Style.</p></li><li><p><strong>Defense:</strong> You gain 1 damage
-      resistance when benefiting from this Fighting
-      Style</p></li><li><p><strong>Dueling:</strong> You gain a +1 to attcak
-      rolls you make when benefiting from this Fighting
-      Style.</p></li><li><p><strong>Great Weapon Fighting:</strong> You can add
-      half of your Strength modifier (rounded down) to attacks made while
-      benefiting from this Fighting
-      Style.</p></li><li><p><strong>Protection:</strong> You gain a second
-      reaction action which can only be used on this reaction (allowing you to
-      use it and one other reaction, or use it
+      damage rolls you make with ranged weapons when benefiting from this
+      Fighting Style.</p></li><li><p><strong>Defense:</strong> All damage taken
+      is reduced by 1 while wearing armor when benefiting from this Fighting
+      Style.</p></li><li><p><strong>Dueling:</strong> You gain a +1 bonus to
+      attack rolls you make while wielding a weapon in one hand and not wielding
+      another weapon when benefiting from this Fighting
+      Style</p></li><li><p><strong>Great Weapon Fighting:</strong> You can add
+      half of your Strength modifier (rounded down) to damage rolls made with
+      melee weapons you are holding in both hands while benefiting from this
+      Fighting Style.</p></li><li><p><strong>Protection:</strong> You gain a
+      second reaction action which can only be used on the reaction granted by
+      this style (allowing you to use it and one other reaction, or to use it
       twice).</p></li><li><p><strong>Two Weapon Fighting:</strong> Attacking
       with your second weapon no longer requires your bonus action, but you can
-      make that attack only once per turn.</p></li></ul>
+      make that attack only once per turn while benefiting from this Fighting
+      Style.</p></li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -66,9 +68,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317504259
-  modifiedTime: 1727317504259
+  modifiedTime: 1731959591155
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 35400000

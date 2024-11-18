@@ -18,23 +18,81 @@ flags:
       altValue: true
   core:
     sourceId: Item.lYKRdNSXvV1eX70j
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
-    value: "<p>Starting at 3rd level, you excel at making due with whatever you can get your hands on. During a long rest, you can create two healing potions, 1st level scrolls (selecting a spell from the Druid or Wizard list), or adventuring gear items worth less than 5 gold pieces each assembled out of miscellaneous items you pick during the day.</p>\n<p>\_</p>\n<p>Any scroll or potion created this way expires if not used by the next time you complete a long rest. You can cast scrolls created this way without a check, as if the scroll was on your spell list. If a scroll requires a spell casting modifier, you use your Intelligence or Wisdom (or choice). Scrolls created this way cannot be copied or used in crafting.</p>\n<p>The number of items you can create this way increases to 3 items at 9th level, and 4 items at 15th level. The quality of items you can create increases at 7th level, 10th level, 13th level, and 16th level as shown on the table below.</p>\n<table style=\"width:100%;height:112px\" border=\"1\">\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\"><strong>Level</strong></td>\n<td style=\"width:38.7097%;height:16px;text-align:center\"><strong>Improvised Potion</strong></td>\n<td style=\"width:24.8139%;height:16px;text-align:center\"><strong>Scroll Level</strong></td>\n<td style=\"width:23.0769%;height:16px;text-align:center\"><strong>Item Value</strong></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">3rd</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">@Compendium[dnd5e.items.ytlsBjYsZ7OBSEBs]{Potion of Healing}</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">1st Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">5 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">7th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">@Compendium[dnd5e.items.L887NdWEP5NqHCrQ]{Potion of Greater Healing}</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">2nd Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">10 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">10th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">Any Uncommon Potion</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">3rd Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">30 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">13th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">@Compendium[dnd5e.items.5m9ErO9In8Uc5yyf]{Potion of Superior Healing}</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">3rd Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">40 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">16th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">Any Rare Potion</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">3rd Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">50 gp</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.6625%;height:16px;text-align:center\">19th</td>\n<td style=\"width:38.7097%;height:16px;text-align:center\">@Compendium[dnd5e.items.JFiSlgcm3uSSBM5t]{Potion of Supreme Healing}</td>\n<td style=\"width:24.8139%;height:16px;text-align:center\">4th Level</td>\n<td style=\"width:23.0769%;height:16px;text-align:center\">60 gp</td>\n</tr>\n</tbody>\n</table>"
+    value: "<p>Starting at 3rd level, you excel at making due with whatever you can get your hands on. During a long rest, you can create two healing potions, 1st level scrolls (selecting a spell from the Druid or Wizard list), or adventuring gear items worth less than 5 gold pieces each assembled out of miscellaneous items you pick during the day.</p><p>\_Any scroll or potion created this way expires if not used by the next time you complete a long rest. You can cast scrolls created this way without a check, as if the scroll was on your spell list. If a scroll requires a spell casting modifier, you use your Intelligence or Wisdom (or choice). Scrolls created this way cannot be copied or used in crafting.</p><p>The number of items you can create this way increases to 3 items at 9th level, and 4 items at 15th level. The quality of items you can create increases at 7th level, 10th level, 13th level, and 16th level as shown on the table below (you can still choose to make items of lower level when gaining higher level options).</p><table><thead><tr><th><p>Level</p></th><th><p>Improvised Potion</p></th><th><p>Scroll Level</p></th><th><p>Item Value</p></th></tr></thead><tbody><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.items.ytlsBjYsZ7OBSEBs]{Potion of Healing}</p></td><td><p>1st Level</p></td><td><p>5 gp</p></td></tr><tr><td><p>7th</p></td><td><p>@Compendium[dnd5e.items.L887NdWEP5NqHCrQ]{Potion of Greater Healing}</p></td><td><p>2nd Level</p></td><td><p>10 gp</p></td></tr><tr><td><p>10th</p></td><td><p>Any Uncommon Potion</p></td><td><p>3rd Level</p></td><td><p>30 gp</p></td></tr><tr><td><p>13th</p></td><td><p>@Compendium[dnd5e.items.5m9ErO9In8Uc5yyf]{Potion of Superior Healing}</p></td><td><p>3rd Level</p></td><td><p>40 gp</p></td></tr><tr><td><p>16th</p></td><td><p>Any Rare Potion</p></td><td><p>3rd Level</p></td><td><p>50 gp</p></td></tr><tr><td><p>19th</p></td><td><p>@Compendium[dnd5e.items.JFiSlgcm3uSSBM5t]{Potion of Supreme Healing}</p></td><td><p>4th Level</p></td><td><p>60 gp</p></td></tr></tbody></table>"
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '@scale.adventurer.improvised-resources'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: Adventurer 3
   identifier: improvised-resources
-  activities: {}
+  activities:
+    YfJHCmPHDrRKMgK3:
+      type: utility
+      name: Create Resource
+      _id: YfJHCmPHDrRKMgK3
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -44,9 +102,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317515307
-  modifiedTime: 1727317515307
+  modifiedTime: 1731957420322
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 52900000

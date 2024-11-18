@@ -34,10 +34,10 @@ flags:
 system:
   description:
     value: >-
-      <p>You attain the pinnacle of resilience in battle.</p><p>At the start of
-      each of your turns, you regain hit points equal to 5 + your Constitution
-      modifier if you have no more than half of your hit points left.</p><p>You
-      don't gain this benefit if you have 0 hit points.</p>
+      <p>At 18th level, you attain the pinnacle of resilience in battle. At the
+      start of each of your turns, you regain hit points equal to 5 + your
+      Constitution modifier if you have no more than half of your hit points
+      left. You don’t gain this benefit if you have 0 hit points.</p>
     chat: ''
   source:
     custom: PHB pg. 73
@@ -56,7 +56,7 @@ system:
       _id: dnd5eactivity000
       type: heal
       activation:
-        type: ''
+        type: special
         value: 0
         condition: ''
         override: false
@@ -71,13 +71,13 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
         value: ''
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -108,12 +108,15 @@ system:
           - healing
         custom:
           enabled: true
-          formula: 5 + @mod
+          formula: 5 + @abilities.con.mod
         scaling:
           mode: whole
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: survivor
   enchant: {}
   prerequisites:
@@ -124,9 +127,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317518918
-  modifiedTime: 1727317518918
+  modifiedTime: 1731958827238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 58900000

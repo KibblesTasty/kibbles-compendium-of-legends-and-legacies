@@ -18,15 +18,19 @@ flags:
       altValue: true
   core:
     sourceId: Item.LFLmDp1mv1Afyoj5
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>Starting at 15th level, you can attempt to use physical prowess to
+      <p>Starting at 15th level, you can attempt to use your physical prowess to
       break through magical effects that are otherwise physically impassable. As
       an action, you can make a Strength (Athletics) check against the spell
       save DC of the caster to attempt to force your way through magical
-      barriers or effects. On success, you can move up through the effect,
-      spending four feet of movement for each foot moved through the effect.</p>
+      barriers or effects. On success, you can move through the effect, spending
+      four feet of movement for each foot moved through the effect.</p>
     chat: ''
   source:
     rules: '2014'
@@ -40,7 +44,57 @@ system:
     subtype: ''
   requirements: Champion 15
   identifier: determination
-  activities: {}
+  activities:
+    fEZuujWQoyzLd1SW:
+      type: check
+      name: Break Through
+      _id: fEZuujWQoyzLd1SW
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - ath
+        dc:
+          calculation: ''
+          formula: '@scaling'
+        ability: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -50,9 +104,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317525605
-  modifiedTime: 1727317525605
+  modifiedTime: 1731959980258
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 70300000

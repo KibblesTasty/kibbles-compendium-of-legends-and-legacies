@@ -23,7 +23,7 @@ system:
     value: >-
       <p>Your unarmed strikes become tendrils of fire until the start of your
       next turn (no action required). Your reach with unarmed strikes increases
-      to 15 feet, and your unarmed strikes do fire damage. You can spend an
+      to 15 feet, and your unarmed strikes deal fire damage. You can spend an
       additional ki point to increase the damage of your unarmed strikes during
       the duration by your martial arts die for the duration.</p>
     chat: ''
@@ -35,9 +35,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Way of the Four Elements 3
+    value: class
+    subtype: elementalDiscipline
+  requirements: ''
   identifier: fangs-of-the-fire-snake
   activities: {}
   enchant: {}
@@ -49,9 +49,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317507126
-  modifiedTime: 1727317507126
+  modifiedTime: 1731967883651
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 40000000

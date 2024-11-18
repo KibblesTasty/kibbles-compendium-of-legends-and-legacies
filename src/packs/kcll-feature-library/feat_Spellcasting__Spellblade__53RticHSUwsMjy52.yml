@@ -1,0 +1,92 @@
+name: Spellcasting (Spellblade)
+type: feat
+img: icons/sundries/books/book-open-purple.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RgiHW8CJFfZePURO
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+system:
+  description:
+    value: >-
+      <p>As part of your study of magic, you gain the ability to cast spells at
+      2nd level. The spells you learn are limited in scope, primarily concerned
+      with enhancing your abilities and devastating your
+      foes.</p><h2>Cantrips</h2><p>At 2nd level, you learn two additional
+      cantrips of your choice from the Spellblade spell list. You learn
+      additional Spellblade cantrips of your choice at higher levels, as shown
+      in the Cantrips Known column of the Spellblade table. The table includes
+      the bonus cantrips gained from Spellblade class features (such as
+      Empowered Strike).</p><h2>Spell Slots</h2><p>The Spellblade table shows
+      how many spell slots you have to cast your Spellblade spells of 1st level
+      and higher. To cast one of your Spellblade spells, you must expend a slot
+      of the spell’s level or higher. You regain all expended spell slots when
+      you finish a long rest.</p><h2>Spells Known of 1st Level and
+      Higher</h2><p>You know three 1st-level spells of your choice from the
+      Spellblade spell list. The Spells Known column of the Spellblade table
+      shows when you learn more Spellblade spells of your choice.</p><p>Each of
+      these spells must be of a level for which you have spell slots. For
+      instance, when you reach 5th level in this class, you can learn one new
+      spell of 1st or 2nd level.</p><p>Additionally, when you gain a level in
+      this class, you can choose one of the Spellblade spells you know and
+      replace it with another spell from the Spellblade spell list, which also
+      must be of a level for which you have spell slots.</p><p
+      style="text-align:center"><strong>Spell save DC</strong> = 8 + your
+      proficiency bonus + your Intelligence modifier.</p><p
+      style="text-align:center"><strong>Spell attack modifier</strong> = your
+      proficiency bonus + your Intelligence modifier.</p><h2>Spellcasting
+      Focus</h2><p>You can use an arcane focus as a spellcasting focus for your
+      Spellblade spells. </p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  identifier: spellcasting
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.RgiHW8CJFfZePURO
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1727317488740
+  modifiedTime: 1731960212729
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 10800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 53RticHSUwsMjy52
+_key: '!items!53RticHSUwsMjy52'
+

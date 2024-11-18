@@ -61,7 +61,7 @@ flags:
     migratedUses: 1
 system:
   description:
-    value: "<p>At 18th level, you can perform legendary feats that defy all common sense. Before you make an attack roll, saving throw, or Strength, Dexterity, or Constitution ability check, you can make it a legendary feat, adding your Fighter level to the roll.</p>\n<p>\_</p>\n<p>Once you do so, you cannot do so again until you complete a short or long rest.</p>"
+    value: "<p>At 18th level, you can perform legendary feats that defy all common sense. Before you make an attack roll, saving throw, or Strength, Dexterity, or Constitution ability check, you can make it a legendary feat, adding your Fighter level to the roll.</p><p>\_Once you do so, you cannot do so again until you complete a short or long rest.</p>"
     chat: ''
   source:
     custom: Brawler
@@ -82,18 +82,16 @@ system:
       _id: dnd5eactivity000
       type: utility
       activation:
-        type: ''
+        type: special
         value: 1
         condition: ''
         override: false
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -102,12 +100,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -136,6 +134,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: legendary-feat
   enchant: {}
   prerequisites:
@@ -146,9 +147,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317519187
-  modifiedTime: 1727317519187
+  modifiedTime: 1731958459839
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 59400000

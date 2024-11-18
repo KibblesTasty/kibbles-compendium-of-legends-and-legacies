@@ -27,7 +27,7 @@ system:
       modifier and must make a Strength saving throw or be knocked 10 feet away
       from you. You can spend additional ki on this technique, increasing the
       damage dealt by your martial arts die and the distance knocked back by 10
-      feet for each ki point spent.</p>
+      feet for each ki point spent. </p>
     chat: ''
   source:
     rules: '2014'
@@ -37,9 +37,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Way of the Four Elements 3
+    value: class
+    subtype: elementalDiscipline
+  requirements: ''
   identifier: fist-of-unbroken-air
   activities: {}
   enchant: {}
@@ -51,9 +51,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317491874
-  modifiedTime: 1727317491874
+  modifiedTime: 1731967940049
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 15700000

@@ -1,7 +1,44 @@
 name: Strength of Faith
 type: feat
 img: icons/magic/light/explosion-star-glow-silhouette.webp
-effects: []
+effects:
+  - name: Strength of Faith
+    img: icons/magic/light/explosion-star-glow-silhouette.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4EpUjQCv5hypBvl4
+    _id: vhB6WpAcYW91nYz5
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.spell.dc
+        mode: 2
+        value: max(floor(@abilities.str.mod / 2), floor(@abilities.dex.mod / 2))
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731960407238
+      modifiedTime: 1731960465518
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!4EpUjQCv5hypBvl4.vhB6WpAcYW91nYz5'
 flags:
   betterRolls5e:
     quickDesc:
@@ -22,8 +59,8 @@ system:
   description:
     value: >-
       <p>Starting at 10th level, you can add half of your Strength or Dexterity
-      modifier (your choice, rounded down) to your spell save DC for Cleric
-      spells.</p>
+      modifier (your choice, rounded down) to your spell save DC and spell
+      attack modifier for Cleric spells.</p>
     chat: ''
   source:
     rules: '2014'
@@ -47,9 +84,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317487980
-  modifiedTime: 1727317487980
+  modifiedTime: 1731960403245
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 9700000

@@ -56,7 +56,18 @@ flags:
     sourceId: Item.SygZ9Y2ZowRD8nFq
 system:
   description:
-    value: "<p>Beginning when you choose this archetype at 3rd level, you gain a remarkably ability to turn anything into a weapon - fists, improvised weapons, goblins, etc.</p>\n<p>\_</p>\n<p>You can add your proficiency bonus when wielding improvised weapon, and all attacks you made deal 1d8 damage bludgeoning, piercing, or slashing damage (depending on their nature) if their damage die would be lower. You can use creatures you are grappling as improvised weapons with the Thrown 5/10 property. If they one size or more smaller than you, they gain the Light property. When you make an attack using a creature or object as a weapon, you can choose to deal damage equal to your Strength modifier to the creature or object you are using as a weapon.</p>"
+    value: >-
+      <p>Beginning when you choose this archetype at 3rd level, you gain a
+      remarkable ability to turn anything into a weapon—fists, improvised
+      weapons, goblins, etc. </p><p>You can add your proficiency bonus to
+      attacks made with improvised weapons, and all attacks you make with them
+      deal 1d8 damage bludgeoning, piercing, or slashing damage (depending on
+      their nature) if their damage die would be smaller. You can use creatures
+      you are grappling as improvised weapons with the Thrown 5/10 property. If
+      they are one or more sizes smaller than you, they gain the Light property.
+      When you make an attack using a creature or object as a weapon, you can
+      choose to deal damage equal to your Strength modifier to the creature or
+      object you are using as a weapon.</p>
     chat: ''
     unidentified: ''
   source:
@@ -113,10 +124,10 @@ system:
   identifier: weapon-is-a-state-of-mind
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1678741970239
-  modifiedTime: 1727317483948
+  modifiedTime: 1731958500039
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.SygZ9Y2ZowRD8nFq
   duplicateSource: null

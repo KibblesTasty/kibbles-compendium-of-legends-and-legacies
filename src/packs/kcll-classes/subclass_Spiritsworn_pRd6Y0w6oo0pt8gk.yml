@@ -5,7 +5,20 @@ _id: pRd6Y0w6oo0pt8gk
 img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>A Spiritsworn fighter is one that masters their martial prowess in
+      tandem with a special spirit weapon, forming an unbreakable bond of shared
+      growth and becoming a peerless martial team.</p><hr /><p>The following are
+      some optional quirks for a player of this Archetype to choose from—these
+      can be either preexisting, signaling their fated path toward this
+      Archetype, or appear after they select this
+      Archetype.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.BiSvRVvseyAbldnu
+      rollable]</p><h5>Spirit's Nature</h5><p>The nature of the spirit that
+      forms this archetype’s spirit weapon is open ended. You can roll from the
+      following table, pick one that suits the character, or invent an entirely
+      unique relationship between the spirit and
+      fighter.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.llVzVJkyxd6FwHVM
+      rollable]</p><p></p><p></p>
     chat: ''
   identifier: spiritsworn
   source:
@@ -15,7 +28,19 @@ system:
     - _id: NhtARWnBZn209Dab
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GsQjBCq7tgBUrOdM
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.koFu2LBbvs9QeltZ
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8j9gGUx3nU0F2qwu
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.pVzylRIaUaqtg1B9
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +49,13 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.PGTlPVFMzQShRVB5
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YGKEbDq53tpZQtC4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +65,10 @@ system:
       _id: 2UUplAxJGvPfYnO8
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cOnjkEGbK8FS6ONS
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +78,10 @@ system:
       _id: jhw3DEtFjHQr6r3u
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.iM5egOaRY5RgOxtm
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +91,10 @@ system:
       _id: DD3ClDEi0Kz7KigV
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BoFQFpE2eJUOV8Ov
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -62,6 +102,61 @@ system:
       title: Martial Archetype Feature
       hint: ''
       _id: xw8IdluIkKZpGwja
+    - _id: 5cClZZIzzXf1tpy2
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: true
+        grants:
+          - skills:prc
+        choices: []
+      value:
+        chosen: []
+      level: 10
+      title: Second Senses
+      hint: ''
+    - _id: mHX2nlnl101pmSNN
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - saves:dex
+        choices: []
+      value:
+        chosen: []
+      level: 10
+      title: Second Senses
+      hint: ''
+    - _id: 47MZ254DvIAlIF1v
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 3
+          '5':
+            value: 4
+          '7':
+            value: 5
+          '9':
+            value: 6
+          '11':
+            value: 7
+          '13':
+            value: 8
+          '15':
+            value: 9
+          '17':
+            value: 10
+          '19':
+            value: 11
+      value: {}
+      title: Spells Known
+      hint: ''
   classIdentifier: fighter
   spellcasting:
     progression: third
@@ -79,9 +174,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1729038399372
-  modifiedTime: 1731216217179
+  modifiedTime: 1731962608913
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!pRd6Y0w6oo0pt8gk'
 

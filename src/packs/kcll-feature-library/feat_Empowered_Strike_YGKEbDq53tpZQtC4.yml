@@ -1,0 +1,126 @@
+name: Empowered Strike
+type: feat
+_id: YGKEbDq53tpZQtC4
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  activities:
+    sSjEeDiRxuXt3HGF:
+      type: damage
+      _id: sSjEeDiRxuXt3HGF
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: (1 + @scaling)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+              - cold
+              - fire
+              - lightning
+              - psychic
+              - acid
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Additionally at 7th level, you gain the ability to empower your weapon
+      with its aspect. When you manifest or change the form of your Spirit
+      Weapon, you can expend a spell slot of 1st level or higher. When you do
+      so, the first time you deal damage with it before dismissing or changing
+      its shape again, it deals an additional 2d6 damage of a type matching it’s
+      aspect (fire, cold, lightning, psychic, bludgeoning, or acid respectively)
+      + 1d6 for each level of the spell slot above 1st. The effect expires if
+      unused after 1 minute.</p>
+    chat: ''
+  identifier: empowered-strike
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731962165304
+  modifiedTime: 1731966497053
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!YGKEbDq53tpZQtC4'
+

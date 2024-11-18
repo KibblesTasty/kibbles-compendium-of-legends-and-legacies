@@ -5,7 +5,18 @@ _id: NOS1CAH4MMeWSED9
 img: icons/skills/melee/sword-winged-holy-orange.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Monks of the Way of the Sword Saint train in dedication to mastering a
+      level of weapon expertise that surpasses normal limitations. They can
+      strike like the wind, step into the sky, or even sunder stone. Though they
+      most often treat their mastery of the weapons as an art, seeking spiritual
+      understanding through martial perfection, turning this art to more
+      practical ends can result in very deadly encounters for their foes.</p><hr
+      /><p>The following are some optional quirks for a player of this Way to
+      choose from—these can be either preexisting, signaling their fated path
+      toward this Way, or appear after they select this
+      Way.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.aKQ8p4UuFjekfU3H
+      rollable]</p>
     chat: ''
   identifier: way-of-the-sword-saint
   source:
@@ -15,7 +26,13 @@ system:
     - _id: K8aqa1N0OhJppiZP
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LvXb230KSXxq0RbP
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.859TEw2KquZZKIq6
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +41,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.iQwuZzUyJxhv7kuM
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +54,10 @@ system:
       _id: D4lVui0u0CaQVSVS
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8dUBUyz6FNBuKUmQ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +67,10 @@ system:
       _id: 4G4mV8JCOXReNp9z
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.17PH3y3E6oglzbiC
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +78,110 @@ system:
       title: Monastic Tradition Feature
       hint: ''
       _id: p8f0G75dX24zlKy9
+    - _id: NsIBgK2OrEA8rYZU
+      type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 3
+            replacement: false
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: null
+            replacement: true
+          '6':
+            count: 2
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: null
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: 2
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: null
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: 2
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VVkcLcyitoAFDAte
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.inhgd05RrKVIu4bQ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eAht9WIEVF8Wdz8h
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cSf3fkTuivhMcLFy
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FSI8lYmevaterWHs
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.B65IDg5ASeUy6q5X
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4bcvDcbZLATKxC2V
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.pbW6ETg9Z1PdBOSV
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.pnefwOICnQPnGYXQ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Iqd88ftuKQQ7ddMv
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sMhhYn0kf6c21MrX
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Ut1YIlcbnmSeGTHo
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Uaya8WxzYE9UTZvn
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CZ7tWmaPvuKxKeWj
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.xBi0ySzVjjgbfWb5
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3Jb4STln56VhO7V1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Vq3Hv5SPvajmrn1C
+        spell: null
+        restriction:
+          type: class
+          subtype: mysticTechnique
+      value:
+        added: {}
+        replaced: {}
+      title: Mystic Techniques
+      hint: ''
   classIdentifier: monk
   spellcasting:
     progression: none
@@ -69,9 +199,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729039135276
-  modifiedTime: 1729116402722
+  modifiedTime: 1731970236360
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!NOS1CAH4MMeWSED9'
 

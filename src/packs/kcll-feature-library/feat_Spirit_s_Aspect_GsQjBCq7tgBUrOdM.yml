@@ -1,0 +1,84 @@
+name: Spirit's Aspect
+type: feat
+_id: GsQjBCq7tgBUrOdM
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Though the spirit’s primary function is that of a weapon, it is a
+      magical entity that forms a mystic bond with the fighter, granting them
+      unique powers.</p><p>You can roll on the following table for the
+      primordial aspect, or select one that suits the character. The selection
+      expands the subclass spell list, found at the end of the
+      subclass.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.es3iZQXMTgw9iHcH
+      rollable]</p><hr /><h5 id="fire">Fire</h5><table><thead><tr><th>Fighter
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{burning
+      hands}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{scorching
+      ray}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{fireball}</td></tr><tr><td>19th</td><td>@UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{wall
+      of fire}</td></tr></tbody></table><h5
+      id="gravity">Gravity</h5><table><thead><tr><th>Fighter
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n]{feather
+      fall}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t]{fly}</td></tr><tr><td>19th</td><td>orbital
+      stones</td></tr></tbody></table><h5
+      id="ice">Ice</h5><table><thead><tr><th>Fighter
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>arctic
+      breath</td></tr><tr><td>7th</td><td>cold
+      snap</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{sleet
+      storm}</td></tr><tr><td>19th</td><td>@UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{ice
+      storm}</td></tr></tbody></table><h5
+      id="illusion">Illusion</h5><table><thead><tr><th>Fighter
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{disguise
+      self}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{mirror
+      image}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.nslx2nT3p4lNkmdp]{major
+      image}</td></tr><tr><td>19th</td><td>@UUID[Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ]{greater
+      invisibility}</td></tr></tbody></table><h5
+      id="nature">Nature</h5><table><thead><tr><th>Fighter
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{entangle}</td></tr><tr><td>7th</td><td>sprout
+      tree</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW]{plant
+      growth}</td></tr><tr><td>19th</td><td>carnivorous
+      garden</td></tr></tbody></table><h5
+      id="time">Time</h5><table><thead><tr><th>Fighter
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.B0pnIcc52O6G8hi8]{longstrider}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4]{hold
+      person}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{slow}</td></tr><tr><td>19th</td><td>split
+      timeline</td></tr></tbody></table><h6
+      id="storm">Storm</h6><table><thead><tr><th>Fighter
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>gale
+      bolt</td></tr><tr><td>7th</td><td>hurricane
+      slash</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{lightning
+      bolt}</td></tr><tr><td>19th</td><td>jumping jolt</td></tr></tbody></table>
+    chat: ''
+  identifier: spirits-aspect
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731961998476
+  modifiedTime: 1731966368626
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!GsQjBCq7tgBUrOdM'
+

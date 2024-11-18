@@ -21,8 +21,8 @@ flags:
 system:
   description:
     value: >-
-      <p>You can cast<em> control flames</em> as a bonus action. You can use
-      this technique as an action without expending a ki point.</p>
+      <p>You can cast manipulate fireK as a bonus action. You can use this
+      technique as an action without expending a ki point.</p>
     chat: ''
   source:
     rules: '2014'
@@ -32,9 +32,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Way of the Four Elements 3
+    value: class
+    subtype: elementalDiscipline
+  requirements: ''
   identifier: control-the-flames
   activities: {}
   enchant: {}
@@ -46,9 +46,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317505702
-  modifiedTime: 1727317505702
+  modifiedTime: 1731967845691
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 37700000

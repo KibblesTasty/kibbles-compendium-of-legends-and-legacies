@@ -3,10 +3,84 @@ name: Way of the Elements Quirks
 _id: gT6w2anrQYoa0Brp
 img: icons/magic/symbols/elements-air-earth-fire-water.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: 0taTjlbpLox9D7eJ
+    text: Don’t tell the other elements, but one of them is your favorite.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gT6w2anrQYoa0Brp.0taTjlbpLox9D7eJ'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: bj2YQx14N5BXYHU8
+    text: You take on the personality of the last element you channeled.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gT6w2anrQYoa0Brp.bj2YQx14N5BXYHU8'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: 3qY7StQLFLFcI11r
+    text: >-
+      Your morning stretching routine requires a lot of open space… and nothing
+      flammable nearby.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gT6w2anrQYoa0Brp.3qY7StQLFLFcI11r'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: lqLZ4La3qvcM5blH
+    text: You can dodge every raindrop in the storm.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gT6w2anrQYoa0Brp.lqLZ4La3qvcM5blH'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: o33oW0xZS2M2ieZk
+    text: Instead of doors, you prefer to leap through windows like a gentle breeze.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gT6w2anrQYoa0Brp.o33oW0xZS2M2ieZk'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: gBRaY5lqwgpyQ9K7
+    text: When you meditate you turn remarkably stonelike.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gT6w2anrQYoa0Brp.gBRaY5lqwgpyQ9K7'
 replacement: true
 displayRoll: true
-sort: 0
+sort: 2000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
@@ -18,8 +92,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729116393158
-  modifiedTime: 1729116399490
+  modifiedTime: 1731968647674
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!gT6w2anrQYoa0Brp'
 

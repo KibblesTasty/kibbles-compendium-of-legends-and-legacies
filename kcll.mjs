@@ -3,6 +3,7 @@ Hooks.once("init", () => {
   foundry.utils.mergeObject(CONFIG.DND5E.featureTypes.class.subtypes, {
     occultistRite: "KCLL.OccultistRite",
     spellbladeAegis: "KCLL.SpellbladeAegis",
-    primalManifestation: "KCLL.PrimalManifestation"
+    primalManifestation: "KCLL.PrimalManifestation",
+    mysticTechnique: "KCLL.MysticTechnique"
   });
 })

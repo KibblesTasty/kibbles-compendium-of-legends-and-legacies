@@ -1,0 +1,115 @@
+name: Spirit Weapon
+type: feat
+_id: koFu2LBbvs9QeltZ
+img: icons/skills/melee/strike-blade-hooked-blue-red.webp
+system:
+  activities:
+    7jfnARhx0jXIVuyq:
+      type: utility
+      name: Manifest Weapon
+      _id: 7jfnARhx0jXIVuyq
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level when you select this archetype, you become
+      permanently bonded to a special spirit that can manifest into the form of
+      any weapon or pair of weapons you are proficient with. You can manifest
+      the spirit as a bonus action, and it lasts until you spend a bonus action
+      to return it to its intangible form. The spirit is typically intangible
+      and imperceptible to anyone other than you when not
+      manifested.</p><p>While it is manifested, you can change its form as a
+      bonus action. If you are ever more than 300 feet from the weapon, or enter
+      a different plane, the spirit returns to you in its intangible form, while
+      its weapon form vanishes.</p><p>If the spirit manifests as a ranged
+      weapon, it manifests with one piece of ammunition already loaded. Further
+      attacks require ammunition (and loading, if applicable) as necessary. Each
+      time you change the form of your Spirit Weapon, it reforms in your
+      hand.</p><p>As part of a long rest, the spirit can absorb a magic weapon
+      as long as that weapon is not a sentient weapon. When it does so, the
+      spirit gains any bonus to attack and damage rolls that weapon has, and can
+      perfectly imitate that weapon (though only gains any property other than a
+      bonus to attack and damage rolls when mimicking the absorbed weapon). It
+      can have one weapon absorbed in this way at a time, and absorbing a new
+      weapon returns the previously absorbed weapon.</p>
+    chat: ''
+  identifier: spirit-weapon
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1731962072309
+  modifiedTime: 1731966685720
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!koFu2LBbvs9QeltZ'
+

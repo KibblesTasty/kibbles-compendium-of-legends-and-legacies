@@ -21,7 +21,7 @@ flags:
 system:
   description:
     value: >-
-      <p>You can cast <em>gust </em>as a bonus action. You can use this
+      <p>You can cast manipulate wind as a bonus action. You can use this
       technique as an action without spending a ki point.</p>
     chat: ''
   source:
@@ -32,9 +32,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Way of the Four Elements 3
+    value: class
+    subtype: elementalDiscipline
+  requirements: ''
   identifier: gust-the-wind
   activities: {}
   enchant: {}
@@ -46,9 +46,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317516137
-  modifiedTime: 1727317516137
+  modifiedTime: 1731967932206
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 54200000

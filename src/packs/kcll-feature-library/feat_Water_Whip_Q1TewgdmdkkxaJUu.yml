@@ -21,11 +21,10 @@ flags:
 system:
   description:
     value: >-
-      <p>As an attack as part of the attack action, you can create a whip of
-      water and attack a creature within 30 feet of you with it. On hit, the
-      target takes damage equal to two rolls of your martial arts die + your
-      Dexterity modifier and must make a Strength saving throw. On failure, it
-      is either knocked prone or pulled up 25 feet closer to you.</p>
+      <p>As a bonus action, you jump 20 feet per ki spent and can hover as if
+      under the effect of the levitate spell by concentrating (as if
+      concentrating on a spell) until the end of your next turn. You can end
+      this concentration at any time.</p>
     chat: ''
   source:
     rules: '2014'
@@ -35,9 +34,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: Way of the Four Elements 3
+    value: class
+    subtype: elementalDiscipline
+  requirements: ''
   identifier: water-whip
   activities: {}
   enchant: {}
@@ -49,9 +48,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317503907
-  modifiedTime: 1727317503907
+  modifiedTime: 1731967992540
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 34800000

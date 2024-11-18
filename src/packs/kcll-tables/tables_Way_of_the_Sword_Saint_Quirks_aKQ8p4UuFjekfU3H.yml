@@ -3,10 +3,82 @@ name: Way of the Sword Saint Quirks
 _id: aKQ8p4UuFjekfU3H
 img: icons/skills/melee/sword-winged-holy-orange.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: FuVrrkeeTCqdpwqh
+    text: Life is a sword measuring contest.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!aKQ8p4UuFjekfU3H.FuVrrkeeTCqdpwqh'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: Kr5S2xeNhmxhmogc
+    text: In combat you loudly yell the attack name for each of your moves.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!aKQ8p4UuFjekfU3H.Kr5S2xeNhmxhmogc'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: pgQYpHwqXLYlcDL1
+    text: You deeply believe all other weapon types are way less cool than swords
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!aKQ8p4UuFjekfU3H.pgQYpHwqXLYlcDL1'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: 0kRCPDevC7kNgEhX
+    text: You ask other warriors for the stories behind their weapons.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!aKQ8p4UuFjekfU3H.0kRCPDevC7kNgEhX'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: hLu2CZTw0ssWn3FQ
+    text: One can never have too many swords, surely you’ll wield them all someday.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!aKQ8p4UuFjekfU3H.hLu2CZTw0ssWn3FQ'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: KYUbaMupOgDdd4ig
+    text: Cooler looking swords definitely do more damage than mundane ones.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!aKQ8p4UuFjekfU3H.KYUbaMupOgDdd4ig'
 replacement: true
 displayRoll: true
-sort: 0
+sort: 1700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
@@ -18,8 +90,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729116376958
-  modifiedTime: 1729116385421
+  modifiedTime: 1731969355709
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!aKQ8p4UuFjekfU3H'
 

@@ -5,21 +5,22 @@ system:
   description:
     value: >-
       <p>At 3rd level, you embrace a more pragmatic view, gaining the following
-      benefits:</p><ul><li><p>You have proficiency in improvised weapons.
-      Improvised melee weapons count as Monk weapons for you.</p></li><li><p>You
-      gain proficiency in Light armor and Medium armor, and gain the benefits of
-      Martial Arts and Unarmored Movement while wearing it.</p></li><li><p>You
-      can use your Strength modifier in place of your Wisdom modifier for
-      calculating your Ki save DC.</p></li><li><p>You gain the following
-      additional Pragmatic Techniques you can spend Ki
-      on.</p></li></ul><p><strong>Kick 'em While Their Down (1 Ki).</strong>
-      When you hit a target that is prone, restrained, or incapacitated, you can
-      expend a Ki point to deal additional damage equal to two rolls of your
-      Martial Arts die.</p><p><strong>Unexpected Technique (1 Ki).</strong> When
-      you make a grapple check, you can expend a ki point to add your Martial
-      Arts die to the roll. You can do this after the contested roll, and it can
-      potentially turn a failure into a success. On success, the target takes
-      damage equal to amount rolled on the added die.</p>
+      benefits:</p><ul><li><strong>Improvised Monk Weapons.</strong> You have
+      proficiency in improvised weapons. Improvised melee weapons count as Monk
+      weapons for you.</li><li><strong>Matter Over Mind.</strong> You gain
+      proficiency in light armor and medium armor, and gain the benefits of
+      Martial Arts and Unarmored Movement while wearing
+      it.</li><li><strong>Function Over Form.</strong> You can use your Strength
+      modifier in place of your Wisdom modifier for calculating your Ki Save
+      DC.</li></ul><p>You gain the following additional Pragmatic Techniques you
+      can spend ki on.</p><p>Kick ‘em While They’re Down (1 Ki). When you hit a
+      target that is prone, restrained, or incapacitated, you can expend a ki
+      point to deal additional damage equal to two rolls of your Martial Arts
+      die.</p><p>Unexpected Technique (1 Ki). When you make a grapple check, you
+      can expend a ki point to add your Martial Arts die to the roll. You can do
+      this after the contested roll, and it can potentially turn a failure into
+      a success. On success, the target takes damage equal to the amount rolled
+      on the added die.</p>
     chat: ''
   source:
     rules: '2014'
@@ -33,7 +34,120 @@ system:
     subtype: ''
   requirements: Way of the Outcast 3
   identifier: pragmatism
-  activities: {}
+  activities:
+    9q2ntnkApyLZN8Ki:
+      type: damage
+      name: Kick 'em While They're Down
+      _id: 9q2ntnkApyLZN8Ki
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: 2@scale.monk.die.die
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    9kS6SvuAgUeEEsX6:
+      type: utility
+      name: Unexpected Technique
+      _id: 9kS6SvuAgUeEEsX6
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Martial Arts
+        formula: 1@scale.monk.die.die
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -47,14 +161,18 @@ flags:
       value: true
   core:
     sourceId: Item.hZo0qeJ23A97L6Xl
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.hZo0qeJ23A97L6Xl
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317518375
-  modifiedTime: 1727317518375
+  modifiedTime: 1731969099687
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57900000

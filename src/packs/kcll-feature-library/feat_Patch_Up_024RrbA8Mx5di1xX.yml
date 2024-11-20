@@ -1,16 +1,15 @@
-_id: Uaya8WxzYE9UTZvn
-name: Skyward Leap
+name: Patch Up
 type: feat
-img: icons/skills/movement/arrows-up-trio-red.webp
+_id: 024RrbA8Mx5di1xX
+img: icons/magic/life/crosses-trio-red.webp
 system:
   activities:
-    x8TfH5SIMrAAPSEp:
-      type: utility
-      name: Jump
-      _id: x8TfH5SIMrAAPSEp
+    TIAo80YuZa1GKCyx:
+      type: heal
+      _id: TIAo80YuZa1GKCyx
       sort: 0
       activation:
-        type: bonus
+        type: action
         value: null
         override: false
         condition: ''
@@ -18,22 +17,17 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
-        units: round
-        concentration: true
+        units: inst
+        concentration: false
         override: false
-        value: '1'
       effects: []
       range:
         override: false
-        units: self
+        units: touch
         special: ''
       target:
         template:
@@ -50,11 +44,16 @@ system:
         spent: 0
         recovery: []
         max: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
+      healing:
+        number: 1
+        denomination: '8'
+        types: []
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: '@prof'
+      name: ''
       img: ''
       appliedEffects: []
   uses:
@@ -63,20 +62,22 @@ system:
     max: ''
   description:
     value: >-
-      <p>As a bonus action, you jump 20 feet per ki spent and can hover as if
-      under the effect of the
-      @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate} spell by
-      concentrating (as if concentrating on a spell) until the end of your next
-      turn. You can end this concentration at any time.</p>
+      <p>Starting at 9th level, as an action, you can bandage a creature to help
+      them recover. They gain hit points equal to 1d8 + your proficiency bonus,
+      and you can cure them of one of the following conditions: Blinded,
+      Deafened, Paralyzed, or Poisoned. Once a creature gains this benefit, they
+      cannot gain it again until they complete a short or long rest.</p><p>
+      During a short rest, you can perform this action on up to six beasts or
+      humanoids that have not already gained its benefit.</p>
     chat: ''
-  identifier: skyward-leap
+  identifier: patch-up
   source:
     revision: 1
     rules: '2024'
   enchant: {}
   type:
-    value: class
-    subtype: mysticTechnique
+    value: ''
+    subtype: ''
   prerequisites:
     level: null
   properties: []
@@ -98,8 +99,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1731970050291
-  modifiedTime: 1731992178669
+  createdTime: 1732077545636
+  modifiedTime: 1732080013454
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!Uaya8WxzYE9UTZvn'
+_key: '!items!024RrbA8Mx5di1xX'
 

@@ -50,7 +50,11 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -64,7 +68,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -93,6 +97,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: instant-strike-1-ki
   enchant: {}
   prerequisites:
@@ -105,7 +112,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317521801
-  modifiedTime: 1731969807918
+  modifiedTime: 1731989447262
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 63700000

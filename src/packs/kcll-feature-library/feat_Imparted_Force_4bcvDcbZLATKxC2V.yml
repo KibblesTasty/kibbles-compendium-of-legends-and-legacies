@@ -51,69 +51,75 @@ system:
     subtype: mysticTechnique
   requirements: ''
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: damage
+    GpfP19cjAhjGqjte:
+      type: save
+      _id: GpfP19cjAhjGqjte
+      sort: 0
       activation:
         type: special
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
+          max: '3'
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling:
+              mode: amount
+              formula: ''
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        units: ''
-        special: ''
         override: false
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: spec
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: '1'
-          type: creature
           choice: false
-          special: ''
-        prompt: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
+        max: ''
       damage:
-        critical:
-          allow: false
-          bonus: ''
         parts:
-          - number: null
-            denomination: null
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.monk.die.die'
+            number: null
+            denomination: 0
             bonus: ''
             types: []
-            custom:
-              enabled: true
-              formula: 1@scale.monk.die
             scaling:
-              mode: whole
-              number: null
-              formula: ''
-      sort: 0
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: wis
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: imparted-force-1-3-ki
   enchant: {}
   prerequisites:
@@ -126,7 +132,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317488359
-  modifiedTime: 1731969780633
+  modifiedTime: 1731989426392
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 10300000

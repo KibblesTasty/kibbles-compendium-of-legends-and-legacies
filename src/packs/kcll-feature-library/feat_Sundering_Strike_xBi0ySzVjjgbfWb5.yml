@@ -33,10 +33,8 @@ flags:
 system:
   description:
     value: >-
-      <p><em>(Requires 11th level)</em></p>
-
-      <p>When you strike a target, can empower the attack with destructive ki.
-      If you are attacking an object that is not being worn or carried, the
+      <p>When you strike a target, you can empower the attack with destructive
+      ki. If you are attacking an object that is not being worn or carried, the
       attack becomes a critical hit and deals double damage to the object. If
       the target is a creature, it takes damage equal to two rolls of your
       Martial Die, and if it is using nonmagical armor or a nonmagical shield,
@@ -56,70 +54,71 @@ system:
     subtype: mysticTechnique
   requirements: ''
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: damage
+    Y5BmYpq66ufaD3gT:
+      type: save
+      _id: Y5BmYpq66ufaD3gT
+      sort: 0
       activation:
         type: special
-        value: 0
-        condition: ''
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
-        concentration: false
         units: inst
-        special: ''
+        concentration: false
         override: false
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: self
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: '1'
-          type: object
           choice: false
-          special: ''
-        prompt: true
+          count: ''
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
+        max: ''
       damage:
-        critical:
-          allow: false
-          bonus: ''
         parts:
-          - number: null
-            denomination: null
-            bonus: ''
-            types:
-              - slashing
-            custom:
+          - custom:
               enabled: true
-              formula: 2@scale.monk.die
+              formula: 2@scale.monk.die.die
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
             scaling:
-              mode: whole
-              number: null
-              formula: ''
-      sort: 0
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: wis
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: sundering-strike-2-ki
   enchant: {}
   prerequisites:
@@ -132,7 +131,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317526487
-  modifiedTime: 1731970178183
+  modifiedTime: 1731992314615
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 71600000

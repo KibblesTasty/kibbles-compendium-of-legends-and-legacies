@@ -3,7 +3,81 @@ name: Divine Hand Quirks
 _id: ObSVUVxWWpL99JKQ
 img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: X1Zwhpdl33riRkhn
+    text: >-
+      Sometimes you slip a pinch of blessed silver powder into your companions'
+      drinks… just in case.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!ObSVUVxWWpL99JKQ.X1Zwhpdl33riRkhn'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: k2CD49p59SmrayA8
+    text: It still counts as tithing if it’s from someone else's coin purse.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!ObSVUVxWWpL99JKQ.k2CD49p59SmrayA8'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: a5EFBs3C4P198FzW
+    text: Your congregation is considered by many to be a criminal organization.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!ObSVUVxWWpL99JKQ.a5EFBs3C4P198FzW'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: yCLhXPdE4iETzauT
+    text: You offer a prayer for each life you take.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!ObSVUVxWWpL99JKQ.yCLhXPdE4iETzauT'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: s6P4p6llH6W75mFL
+    text: You attend church in the back of a seedy tavern.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!ObSVUVxWWpL99JKQ.s6P4p6llH6W75mFL'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: CQfrudao0vcc5xys
+    text: The cleric is still traumatized from your confession.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!ObSVUVxWWpL99JKQ.CQfrudao0vcc5xys'
 replacement: true
 displayRoll: true
 sort: 1200000
@@ -18,8 +92,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729117275640
-  modifiedTime: 1731956405872
+  modifiedTime: 1732045147719
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!ObSVUVxWWpL99JKQ'
 

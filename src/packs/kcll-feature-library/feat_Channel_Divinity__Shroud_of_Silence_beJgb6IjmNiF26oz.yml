@@ -4,12 +4,12 @@ img: icons/magic/control/silhouette-aura-energy.webp
 system:
   description:
     value: >-
-      <p>Shroud of Silence. As a bonus action, you present your holy symbol and
-      whisper a prayer shrouded in target in an aura of silence. For 10 minutes,
-      the target makes no noise. It cannot speak (including the verbal
-      components of spells) and gains advantage on Stealth (Dexterity) ability
-      checks.</p><p>An unwilling target makes a Wisdom saving throw against your
-      spell save DC to prevent the effect when targeted, and can repeat the
+      <p>As a bonus action, you present your holy symbol and whisper a prayer,
+      shrouding one creature within 60 feet in an aura of silence. For 10
+      minutes, the target makes no noise. It cannot speak (including the verbal
+      components of spells) and gains advantage on Dexterity (Stealth) ability
+      checks. </p><p>An unwilling creature makes a Wisdom saving throw against
+      your spell save DC to prevent the effect when targeted, and can repeat the
       saving throw at the end of each of their turns to end the effect on a
       success.</p>
     chat: ''
@@ -35,7 +35,11 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.8M7uOPhbTxoxxJSo
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -44,12 +48,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -81,6 +85,9 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: channel-divinity-shroud-of-silence
   enchant: {}
   prerequisites:
@@ -108,9 +115,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317511698
-  modifiedTime: 1727317511698
+  modifiedTime: 1731993421552
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 47100000

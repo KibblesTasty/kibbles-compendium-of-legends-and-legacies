@@ -28,7 +28,44 @@ system:
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Aura of Serenity
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lwwM1shOBH8mW3qG
+    _id: XdZ7y8uPcAqj5Euz
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: thunder
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1731992940168
+      modifiedTime: 1731992949202
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!lwwM1shOBH8mW3qG.XdZ7y8uPcAqj5Euz'
 flags:
   rsr5e:
     quickDesc:

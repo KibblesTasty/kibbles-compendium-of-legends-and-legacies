@@ -1,0 +1,51 @@
+name: Mastermind
+type: feat
+_id: CJEESsGtIf76Dpnr
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 14th level, once per turn, when you use your Seeing power,
+      you can select two beneficiaries of your power. Psi points spent are
+      unique to each target affected (and not shared between them).</p><section
+      class="secret"
+      id="secret-BLuPxJkpnynnucL2"><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.3JHeW2OYC8Bb2dMB]{Glimpsed
+      Future}</p><p>When using Glimpsed Future, you can still use Mastermind to
+      target a second creature, but neither benefits from the bonus damage or
+      damage reduction.</p></section>
+    chat: ''
+  identifier: mastermind
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732076708039
+  modifiedTime: 1732079237047
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!CJEESsGtIf76Dpnr'
+

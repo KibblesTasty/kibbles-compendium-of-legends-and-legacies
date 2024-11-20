@@ -25,12 +25,11 @@ flags:
 system:
   description:
     value: >-
-      <p>As a bonus action, you infuse a monk weapon you are holding with ki
-      causing it to animate with your will. For 1 minute or until you end the
-      effect (no action required), when you make an attack as part of the attack
-      action, you can attack with it as if you were holding it, causing it to
-      fly up to 30 feet before striking a target. It returns to your side after
-      making any attacks made this way.</p>
+      <p>As a bonus action, you infuse a monk weapon you are holding with ki,
+      causing it to animate with your will. Until the end of your next turn,
+      when you make an attack you can attack with it as if you were holding it,
+      causing it to fly up to 30 feet before striking a target. It returns to
+      you after any attacks made this way.</p>
     chat: ''
   source:
     custom: Sword Saint
@@ -54,7 +53,11 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -69,7 +72,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -98,6 +101,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Infuse Weapon
+      img: ''
+      appliedEffects: []
   identifier: dancing-weapon-1-ki
   enchant: {}
   prerequisites:
@@ -110,7 +116,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317513503
-  modifiedTime: 1731969690520
+  modifiedTime: 1731982625363
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 49900000

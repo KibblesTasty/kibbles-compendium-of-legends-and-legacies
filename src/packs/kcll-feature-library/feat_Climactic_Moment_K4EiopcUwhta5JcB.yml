@@ -1,0 +1,69 @@
+name: Climactic Moment
+type: feat
+_id: K4EiopcUwhta5JcB
+img: icons/skills/melee/sword-stuck-glowing-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: loseAll
+    max: '@abilities.int.mod'
+  description:
+    value: >-
+      <p>Starting at 3rd level, your ability to see and influence the future
+      allows you to set things up to have even greater influence throughout the
+      sequence of events, building up to a pivotal moment where exerting your
+      foresight can provide the greatest impact.</p><p>Once per turn when you
+      use Seeing empowered by 1 or psi points to look into the future while in
+      initiative (or under a similar high stakes situation), you gain an
+      Influence point. You can have a maximum number of Influence points equal
+      to your Intelligence modifier.</p><p>When you start your turn with one or
+      more Influence points, you can expend all of your Influence points as psi
+      points to empower a psionic power. Influence points spent this way can
+      exceed your psi point limit, but cannot be combined with psi
+      points.</p><p>Any generated Influence Points are lost after 1 minute, or
+      when no longer in combat (or a similar high stakes
+      situation).</p><blockquote><p><strong>Conditions of
+      Influence</strong></p><p>You can only build up Influence points while in
+      combat or other tense situations while every action counts as they
+      represent chaining together events toward creating an opportunity. Without
+      the pressure and stakes of combat or similar environments, the flow of
+      events cannot be manipulated in such a way. This generally means you
+      cannot build up Influence points before combat.</p></blockquote>
+    chat: ''
+  identifier: climactic-moment
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732076632981
+  modifiedTime: 1732078959768
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!K4EiopcUwhta5JcB'
+

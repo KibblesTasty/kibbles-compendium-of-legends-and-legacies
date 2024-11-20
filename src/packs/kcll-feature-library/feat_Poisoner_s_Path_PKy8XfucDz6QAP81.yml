@@ -1,0 +1,109 @@
+name: Poisoner's Path
+type: feat
+_id: PKy8XfucDz6QAP81
+img: icons/skills/toxins/poison-bottle-corked-fire-green.webp
+system:
+  activities:
+    6fUaD7elGR7y8sUA:
+      type: save
+      _id: 6fUaD7elGR7y8sUA
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: dex
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You gain proficiency (or expertise if you already have proficiency)
+      with the poisoner’s kit. During a long rest, you can create a long lasting
+      poison for one or more weapons for free. Until the end of your next long
+      rest your Sneak Attack damage with that weapon becomes Poison damage and
+      creatures struck with it must make a Constitution saving throw with a DC
+      of 8 + your Proficiency modifier + your Dexterity modifier or become
+      &amp;Reference[Poisoned] for one minute. Creatures poisoned this way make
+      a new save at the end of each of their turns, ending the condition on
+      success. Once a creature passes the save against this effect, it cannot
+      suffer the Poisoned condition from it again for 24 hours.</p>
+    chat: ''
+  identifier: poisoners-path
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732077908961
+  modifiedTime: 1732079344898
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!PKy8XfucDz6QAP81'
+

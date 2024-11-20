@@ -3,7 +3,86 @@ name: Surgeon Quirks
 _id: 8vclosQGqHIs6eL5
 img: icons/skills/wounds/injury-stapled-flesh-tan.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: jEfwRFEtIfjl4WvU
+    text: >-
+      The following are some optional quirks for a player of this Archetype to
+      choose from—these can be either preexisting, signaling their fated path
+      toward this Archetype, or appear after they select this Archetype.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8vclosQGqHIs6eL5.jEfwRFEtIfjl4WvU'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: hYP5IELm7XENN4rl
+    text: You speculate what conditions people you meet suffer from. At length.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8vclosQGqHIs6eL5.hYP5IELm7XENN4rl'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: UHSaMi9CDrOYQUsq
+    text: You speculate what conditions people you meet suffer from. At length.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8vclosQGqHIs6eL5.UHSaMi9CDrOYQUsq'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: VZ6L1cRGHFf9yEQr
+    text: >-
+      You have little time for the superstitions quack healing magic of Clerics
+      and their grandstanding.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8vclosQGqHIs6eL5.VZ6L1cRGHFf9yEQr'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: JMGQUJeelgneIcwg
+    text: >-
+      You give people prescriptions for good health that involve detailed and
+      absurd lifestyle changes.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8vclosQGqHIs6eL5.JMGQUJeelgneIcwg'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: 6fXmkXnNJpWiOz3t
+    text: You frequently talk about the academic opportunities of dissecting things.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8vclosQGqHIs6eL5.6fXmkXnNJpWiOz3t'
 replacement: true
 displayRoll: true
 sort: 700000
@@ -18,8 +97,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729117222158
-  modifiedTime: 1731956405872
+  modifiedTime: 1732045246131
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!8vclosQGqHIs6eL5'
 

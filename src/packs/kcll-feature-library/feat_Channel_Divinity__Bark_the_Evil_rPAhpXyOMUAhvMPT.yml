@@ -1,0 +1,157 @@
+name: 'Channel Divinity: Bark the Evil'
+type: feat
+_id: rPAhpXyOMUAhvMPT
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  activities:
+    ZQqUzNhOQkgUd8co:
+      type: save
+      _id: ZQqUzNhOQkgUd8co
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.8M7uOPhbTxoxxJSo
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: NNNRflxZPZI0l5OQ
+          onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: cha
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As an action, you can unleash a ferocious storm of holy barks to drive
+      away evil. All non-allied creatures within 30 feet of you and that can see
+      or hear you must make a Wisdom saving throw. If the creature fails its
+      saving throw, it is turned for 1 round or until it takes damage. A turned
+      creature must spend its turns trying to move as far away from you as it
+      can, and it can’t willingly move to a space within 30 feet of you. It also
+      can’t take reactions. For its action, it can use only the Dash action or
+      try to escape from an effect that prevents it from moving. If there’s
+      nowhere to move, the creature can use the Dodge action. </p><p>If the
+      creature is on your property, it has disadvantage on the saving throw.</p>
+    chat: ''
+  identifier: channel-divinity-bark-the-evil
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Turned
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rPAhpXyOMUAhvMPT
+    transfer: false
+    _id: NNNRflxZPZI0l5OQ
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A turned creature must spend its turns trying to move as far away from
+      you as it can, and it can’t willingly move to a space within 30 feet of
+      you. It also can’t take reactions. For its action, it can use only the
+      Dash action or try to escape from an effect that prevents it from moving.
+      If there’s nowhere to move, the creature can use the Dodge action.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732078356371
+      modifiedTime: 1732078388641
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!rPAhpXyOMUAhvMPT.NNNRflxZPZI0l5OQ'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732074543457
+  modifiedTime: 1732078356420
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!rPAhpXyOMUAhvMPT'
+

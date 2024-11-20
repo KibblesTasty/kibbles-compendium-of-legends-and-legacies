@@ -7,8 +7,9 @@ system:
       <p>Starting at 15th level, when a creature within your Aura of Serenity
       attempts to speak, attack, or cast a spell, you can rebuke them as a
       reaction, causing them to take radiant damage equal to your Charisma
-      modifier and forcing them to make a Wisdom saving throw their attempt to
-      speak fails, and they are silenced until the start of their next turn.</p>
+      modifier and forcing them to make a Wisdom saving throw. On a failed
+      saving throw their attempt to speak fails, and they are silenced until the
+      start of their next turn.</p>
     chat: ''
   source:
     custom: Oath of Silence
@@ -23,58 +24,70 @@ system:
     subtype: ''
   requirements: Oath of Silence 15
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    Rc8pkPSK2TRfyEkA:
+      type: save
+      _id: Rc8pkPSK2TRfyEkA
+      sort: 0
       activation:
         type: reaction
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets: []
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        units: ''
-        special: ''
         override: false
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: ft
+        special: ''
+        value: '@scale.oath-of-silence.aura-range'
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: ''
           choice: false
+          count: ''
+          type: creatureOrObject
           special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@abilities.cha.mod'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: ''
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: rebuke
   enchant: {}
   prerequisites:
@@ -98,9 +111,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317487607
-  modifiedTime: 1727317487607
+  modifiedTime: 1731993066592
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 9100000

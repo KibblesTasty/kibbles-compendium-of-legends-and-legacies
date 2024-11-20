@@ -1,16 +1,15 @@
-_id: Uaya8WxzYE9UTZvn
-name: Skyward Leap
+name: 'Channel Divinity: To the Rescue'
 type: feat
-img: icons/skills/movement/arrows-up-trio-red.webp
+_id: sLNX5EWGlrDDmWuM
+img: icons/magic/life/heart-area-circle-red-green.webp
 system:
   activities:
-    x8TfH5SIMrAAPSEp:
+    0JScK0SJxwEx3jA6:
       type: utility
-      name: Jump
-      _id: x8TfH5SIMrAAPSEp
+      _id: 0JScK0SJxwEx3jA6
       sort: 0
       activation:
-        type: bonus
+        type: reaction
         value: null
         override: false
         condition: ''
@@ -21,20 +20,20 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            target: Compendium.dnd5e.classfeatures.Item.8M7uOPhbTxoxxJSo
             scaling: {}
       description:
         chatFlavor: ''
       duration:
-        units: round
-        concentration: true
+        units: inst
+        concentration: false
         override: false
-        value: '1'
       effects: []
       range:
         override: false
-        units: self
+        units: ft
         special: ''
+        value: '@attributes.movement.walk'
       target:
         template:
           contiguous: false
@@ -55,6 +54,7 @@ system:
         visible: false
         name: ''
         formula: ''
+      name: ''
       img: ''
       appliedEffects: []
   uses:
@@ -63,20 +63,20 @@ system:
     max: ''
   description:
     value: >-
-      <p>As a bonus action, you jump 20 feet per ki spent and can hover as if
-      under the effect of the
-      @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate} spell by
-      concentrating (as if concentrating on a spell) until the end of your next
-      turn. You can end this concentration at any time.</p>
+      <p>As a reaction to an allied creature being reduced to zero hit points,
+      you can run up to your movement speed toward that creature and if you can
+      reach it, you can use your Lay on Paws feature as part of the reaction, as
+      long as you have at least 1 point of hit points left to restore with
+      it.</p>
     chat: ''
-  identifier: skyward-leap
+  identifier: channel-divinity-to-the-rescue
   source:
     revision: 1
     rules: '2024'
   enchant: {}
   type:
-    value: class
-    subtype: mysticTechnique
+    value: ''
+    subtype: ''
   prerequisites:
     level: null
   properties: []
@@ -98,8 +98,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1731970050291
-  modifiedTime: 1731992178669
+  createdTime: 1732074582261
+  modifiedTime: 1732078461533
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!Uaya8WxzYE9UTZvn'
+_key: '!items!sLNX5EWGlrDDmWuM'
 

@@ -1,4 +1,4 @@
-name: Favored Approach
+name: Swift Blade
 type: feat
 img: icons/skills/melee/strike-blade-blood-red.webp
 effects: []
@@ -26,25 +26,8 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 13th level, you hone your skills gaining a favored approach
-      to dealing death. Select one of the following benefits:</p>
-
-      <ul>
-
-      <li><strong>Trusted Face:</strong> If you spend seven days establishing a
-      fake identity for yourself or three hours studying another person to
-      impersonate, you have advantage on any Charisma (Deception) check
-      involving maintaining your disguise and identity.</li>
-
-      <li><strong>Swift Blade:</strong> When you roll initiative while hidden,
-      you gain advantage on the roll.</li>
-
-      <li><strong>Specialized Poisons:</strong> When you create a poison, you
-      can designate one creature type (for example, Fiends). The damage of that
-      poison ignores resistance or immunity that creature type may have to
-      poison.</li>
-
-      </ul>
+      <p>When you roll initiative while Hidden from all hostile creatures
+      rolling initiative, you gain advantage on the roll.</p>
     chat: ''
   source:
     rules: '2014'
@@ -68,9 +51,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317516577
-  modifiedTime: 1727317516577
+  modifiedTime: 1732077945173
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 55000000

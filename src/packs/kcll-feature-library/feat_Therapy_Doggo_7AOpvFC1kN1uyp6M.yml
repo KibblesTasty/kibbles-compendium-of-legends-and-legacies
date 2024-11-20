@@ -1,0 +1,93 @@
+name: Therapy Doggo
+type: feat
+_id: 7AOpvFC1kN1uyp6M
+img: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Beginning at 7th level, your presence can heal the mind, body, and
+      soul. When you restore at least 5 hit points to a creature with Lay on
+      Paws it automatically removes the Frightened, Paralyzed, or Poisoned
+      condition, and makes that creature immune to those effects for 1
+      minute.</p>
+    chat: ''
+  identifier: therapy-doggo
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Therapy Doggo
+    img: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7AOpvFC1kN1uyp6M
+    _id: LMb1HvmmsFQEI4KO
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.ci.value
+        mode: 2
+        value: frightened
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: paralyzed
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: poisoned
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732078233786
+      modifiedTime: 1732078261740
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!7AOpvFC1kN1uyp6M.LMb1HvmmsFQEI4KO'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732074723476
+  modifiedTime: 1732078220350
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!7AOpvFC1kN1uyp6M'
+

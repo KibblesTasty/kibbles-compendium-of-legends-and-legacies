@@ -5,7 +5,32 @@ _id: 4ikMwd9OwPkZWI8P
 img: icons/magic/sonic/bell-alarm-red-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>The Oath of Silence is taken by those that have seen the chaos of the
+      world and have chosen to take a stand. Rather than shout over the clamor,
+      they lead by example and action, showing that the world needs not fiery
+      rhetoric or the manipulations of honeyed words, but people to act as they
+      should with purpose and pride.</p><p>Paladins of this oath can come from
+      many backgrounds and espouse endless variants of their conviction, but
+      most often tend to be Lawful. They often believe that the power of words
+      should be in the reason and virtue they carry, rather than volume or,
+      worst of all, manipulating magics that twist the minds of those they fall
+      on.</p><h5>Tenets of Silence</h5><p>Though the exact words and strictures
+      of the Oath of Silence vary, paladins of this oath share these
+      tenets.</p><p><strong>Temperance.</strong> Whispering in silence conveys
+      greater power than shouting in clamor.</p><p><strong>Precision.</strong>
+      Speak with purpose and say what must be said. Sanctuary. Be the port in
+      the storm, be the tranquility in the
+      chaos.</p><p><strong>Purpose.</strong> Actions speak louder than words.
+      Let your sword and shield be your voice.</p><p><strong>Sacred.</strong> Be
+      wary of those that use their voice to bend the world to their will for
+      their own gain, and rebuke those that use their voice to bend creatures to
+      their will for their own gain.</p><hr /><p>The following are some optional
+      quirks for a player of this Oath to choose from—these can be either
+      preexisting, signaling their fated path toward this Oath, or appear after
+      they select this
+      Oath.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.fNFNXtLZOBZaWBss
+      rollable]</p>
     chat: ''
   identifier: oath-of-silence
   source:
@@ -15,7 +40,16 @@ system:
     - _id: L0RnxPpjzT2rJzi2
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.beJgb6IjmNiF26oz
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.i01Hyhkhf6j3jiLc
+          - optional: true
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.401sZ3mKbvRfb9m0
         optional: false
         spell: null
       value: {}
@@ -24,7 +58,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lwwM1shOBH8mW3qG
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +71,10 @@ system:
       _id: 1slAtfu5qYSvDE3x
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3k2prO8i8WV8eTGh
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +84,10 @@ system:
       _id: vfLW980QPX7aiAFw
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DdQCSzEwhc8LfzRT
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +95,124 @@ system:
       title: Sacred Oath Feature
       hint: ''
       _id: iUYz7QDUKnsmmuV5
+    - _id: rbrQCVOUc1T1r5Zf
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '7':
+            value: 10
+          '18':
+            value: 30
+      value: {}
+      title: Aura Range
+      hint: ''
+    - _id: IjAv4zfsfx6cbeeF
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Oath Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Oath Spells
+      hint: ''
+      _id: zLdPhNJKYK4KzWTT
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Oath Spells
+      hint: ''
+      _id: U5CSTAE3NDQe3BG1
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.Ek45cBpVXvJdv1Qy
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Oath Spells
+      hint: ''
+      _id: etipMLX2Uhk1hW0u
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.MBMaQLwoy05qzMJ3
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Oath Spells
+      hint: ''
+      _id: Q3F0Zj8MPRZIW3jm
   classIdentifier: paladin
   spellcasting:
     progression: none
@@ -69,9 +230,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729039429085
-  modifiedTime: 1729116732427
+  modifiedTime: 1731993583914
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!4ikMwd9OwPkZWI8P'
 

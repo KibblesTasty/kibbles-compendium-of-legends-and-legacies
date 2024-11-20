@@ -5,7 +5,23 @@ _id: SHkV8wGGimtL1Y0O
 img: icons/skills/wounds/injury-stapled-flesh-tan.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>These are Rogues that come from the bloodiest walk of life... that of a
+      medic. Few Rogues have sliced open more creatures than a Surgeon, and they
+      leverage their masterful understanding of anatomy to cut open and sew
+      close in equal measure. They have seen everything an adventuring life has
+      to offer—roper bites, dragon burns, bore holes in skulls—and turned that
+      array of knowledge into a complete understanding of what a creature can
+      survive... and what it can’t.</p><p>Surgeons will tend to exhibit some
+      degree of education, be it academic or hands on. They have seen the best
+      and worst of humanity and the battlefield. Sometimes they are selfless
+      heroes that act as a bulwark against death, while other times they are
+      cynical and jaded to carnage, falling to apathy or worse.</p><hr /><p>The
+      following are some optional quirks for a player of this Archetype to
+      choose from—these can be either preexisting, signaling their fated path
+      toward this Archetype, or appear after they select this
+      Archetype.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.8vclosQGqHIs6eL5
+      rollable]</p>
     chat: ''
   identifier: surgeon
   source:
@@ -15,7 +31,10 @@ system:
     - _id: M4Nza98Xw4zro75Z
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1RFpDjhCuI9DC0v5
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +43,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.024RrbA8Mx5di1xX
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +56,10 @@ system:
       _id: MHH3XINPAEMqlYz7
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.newKPhbcLLXiYpn6
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +69,10 @@ system:
       _id: Igz2aEMnDus1J87y
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Pg3pfBWcWduae9q4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +80,24 @@ system:
       title: Roguish Archetype Feature
       hint: ''
       _id: 6R9mv98jS2R00qt9
+    - _id: 0wDvDN4ahdScrV6P
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: true
+        grants:
+          - skills:med
+        choices: []
+      value:
+        chosen: []
+      level: 3
+      title: Medic's Expertise
+      hint: >-
+        When you choose this archetype at 3rd level, you gain proficiency in the
+        Medicine skill. If you already have proficiency in the Medicine skill,
+        you gain expertise in the Medicine skill. If you already have expertise
+        in the Medicine skill, you gain proficiency in another tool or skill of
+        your choice.
   classIdentifier: rogue
   spellcasting:
     progression: none
@@ -69,9 +115,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729039521441
-  modifiedTime: 1729117205484
+  modifiedTime: 1732077584787
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!SHkV8wGGimtL1Y0O'
 

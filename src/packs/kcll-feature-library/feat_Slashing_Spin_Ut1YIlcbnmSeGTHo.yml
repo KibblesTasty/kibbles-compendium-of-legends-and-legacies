@@ -66,7 +66,11 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -88,13 +92,13 @@ system:
           count: ''
           contiguous: false
           type: radius
-          size: '7'
+          size: '5'
           width: ''
           height: ''
           units: ft
         affects:
           count: ''
-          type: ''
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -106,23 +110,25 @@ system:
       damage:
         onSave: half
         parts:
-          - number: null
+          - custom:
+              enabled: true
+              formula: 1@scale.monk.die.die + @abilities.dex.mod
+            number: null
             denomination: null
             bonus: ''
-            types: []
-            custom:
-              enabled: true
-              formula: 1@scale.monk.die + @mod
+            types:
+              - slashing
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       save:
         ability: dex
         dc:
           calculation: wis
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: slashing-spin-1-ki
   enchant: {}
   prerequisites:
@@ -135,7 +141,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317506629
-  modifiedTime: 1731969907030
+  modifiedTime: 1731992118366
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 39300000

@@ -4,13 +4,13 @@ img: icons/magic/light/explosion-star-glow-blue-purple.webp
 system:
   description:
     value: >-
-      <p>Sanctuary of the Sacrosanct. As an action, you present your holy symbol
-      and whisper prayer to bring refugees from the turmoil of the world. All
-      creatures of your choice within 30 feet gain temporary hit points equal to
-      your Paladin level + your Charisma modifier, and if they are under the
-      effect of a condition or spell they can normally save against the end of
-      their turn, they can immediately make a save against the effect, ending it
-      on success as normal.</p>
+      <p>As an action, you present your holy symbol and whisper prayer to bring
+      refugees from the turmoil of the world. All creatures of your choice
+      within 30 feet gain temporary hit points equal to your Paladin level +
+      your Charisma modifier, and if they are under the effect of a condition or
+      spell they can normally save against the end of their turn, they can
+      immediately make a save against the effect, ending it on success as
+      normal.</p>
     chat: ''
   source:
     custom: Oath of Silence
@@ -34,7 +34,11 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.8M7uOPhbTxoxxJSo
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -43,7 +47,7 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
@@ -78,12 +82,15 @@ system:
         types: []
         custom:
           enabled: true
-          formula: '@classes.paladin.levels + @mod'
+          formula: '@classes.paladin.levels + @abilities.cha.mod'
         scaling:
           mode: whole
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: channel-divinity-sanctuary-of-the-sacrosanct
   enchant: {}
   prerequisites:
@@ -116,9 +123,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317516461
-  modifiedTime: 1727317516461
+  modifiedTime: 1731993457286
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 54800000

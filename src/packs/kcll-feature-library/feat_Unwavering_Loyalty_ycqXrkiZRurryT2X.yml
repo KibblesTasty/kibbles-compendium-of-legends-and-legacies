@@ -1,35 +1,30 @@
-_id: Uaya8WxzYE9UTZvn
-name: Skyward Leap
+name: Unwavering Loyalty
 type: feat
-img: icons/skills/movement/arrows-up-trio-red.webp
+_id: ycqXrkiZRurryT2X
+img: icons/creatures/abilities/paw-print-pair-purple.webp
 system:
   activities:
-    x8TfH5SIMrAAPSEp:
-      type: utility
-      name: Jump
-      _id: x8TfH5SIMrAAPSEp
+    aiHpBOmfEMqM9v5q:
+      type: save
+      _id: aiHpBOmfEMqM9v5q
       sort: 0
       activation:
-        type: bonus
+        type: special
         value: null
         override: false
         condition: ''
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
-        units: round
-        concentration: true
+        units: inst
+        concentration: false
         override: false
-        value: '1'
       effects: []
       range:
         override: false
@@ -50,11 +45,16 @@ system:
         spent: 0
         recovery: []
         max: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: ''
+          formula: '@scaling'
+      name: ''
       img: ''
       appliedEffects: []
   uses:
@@ -63,20 +63,21 @@ system:
     max: ''
   description:
     value: >-
-      <p>As a bonus action, you jump 20 feet per ki spent and can hover as if
-      under the effect of the
-      @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate} spell by
-      concentrating (as if concentrating on a spell) until the end of your next
-      turn. You can end this concentration at any time.</p>
+      <p>Starting at 15th level, if you would drop to zero hit points while at
+      least one allied creature that has called you a “good boi” within the last
+      24 hours is within 60 feet, you can make a Charisma saving throw with a DC
+      equal to the amount of damage taken over your current hit points minus the
+      number of qualifying allies in range. On success, you are instead dropped
+      to 1 hit point.</p>
     chat: ''
-  identifier: skyward-leap
+  identifier: unwavering-loyalty
   source:
     revision: 1
     rules: '2024'
   enchant: {}
   type:
-    value: class
-    subtype: mysticTechnique
+    value: ''
+    subtype: ''
   prerequisites:
     level: null
   properties: []
@@ -98,8 +99,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1731970050291
-  modifiedTime: 1731992178669
+  createdTime: 1732075056655
+  modifiedTime: 1732078513412
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!Uaya8WxzYE9UTZvn'
+_key: '!items!ycqXrkiZRurryT2X'
 

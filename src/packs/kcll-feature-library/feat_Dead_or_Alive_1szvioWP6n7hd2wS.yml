@@ -2,70 +2,81 @@ name: Dead or Alive
 type: feat
 img: icons/sundries/documents/document-symbol-skull-tan.webp
 effects:
-  - _id: mKDjiy4ynqdAcKrc
+  - name: Dead
+    img: icons/sundries/documents/document-symbol-skull-tan.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1szvioWP6n7hd2wS
+    transfer: false
+    _id: 4cxeDu0OGu9bhYGs
+    type: base
+    system: {}
     changes: []
     disabled: false
     duration:
-      rounds: 1
       startTime: null
       seconds: null
       combat: null
+      rounds: 10
       turns: null
       startRound: null
       startTurn: null
-    origin: Item.Vozft15HCHjpFcpi
-    transfer: true
+    description: >-
+      <p>When you roll a 1 or 2 on a damage die for an attack, you can reroll
+      the die and must use the new roll, even if the new roll is a 1 or a 2. Any
+      attack roll you make against the marked target is a critical hit on a roll
+      of 19 or 20 on the d20.</p>
+    tint: '#ffffff'
+    statuses:
+      - marked
+    sort: 0
     flags: {}
-    tint: '#a14f4f'
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    name: 'Dead or Alive: Dead'
+      systemVersion: 4.1.1
+      createdTime: 1732079453065
+      modifiedTime: 1732079474536
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!1szvioWP6n7hd2wS.4cxeDu0OGu9bhYGs'
+  - name: Alive
     img: icons/sundries/documents/document-symbol-skull-tan.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1szvioWP6n7hd2wS
+    transfer: false
+    _id: sFmtP6hMJigyYWGG
     type: base
     system: {}
-    description: ''
-    statuses: []
-    sort: 0
-    _key: '!items.effects!1szvioWP6n7hd2wS.mKDjiy4ynqdAcKrc'
-  - _id: 2YTue4q8gmWGsV4f
     changes: []
     disabled: false
     duration:
-      rounds: 1
       startTime: null
       seconds: null
       combat: null
+      rounds: 10
       turns: null
       startRound: null
       startTurn: null
-    origin: Item.Vozft15HCHjpFcpi
-    transfer: true
+    description: >-
+      <p>When you make an attack roll against the target with a net, you don’t
+      have disadvantage when attacking at melee range or long range. You can
+      deal nonlethal damage with ranged attacks against the marked target.</p>
+    tint: '#ffffff'
+    statuses:
+      - marked
+    sort: 0
     flags: {}
-    tint: '#3f8873'
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    name: 'Dead or Alive: Alive'
-    img: icons/sundries/documents/document-symbol-skull-tan.webp
-    type: base
-    system: {}
-    description: ''
-    statuses: []
-    sort: 0
-    _key: '!items.effects!1szvioWP6n7hd2wS.2YTue4q8gmWGsV4f'
+      systemVersion: 4.1.1
+      createdTime: 1732079453376
+      modifiedTime: 1732079492397
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!1szvioWP6n7hd2wS.sFmtP6hMJigyYWGG'
 flags:
   betterRolls5e:
     quickDesc:
@@ -82,28 +93,26 @@ flags:
       altValue: true
   core:
     sourceId: Item.Vozft15HCHjpFcpi
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Additionally at 3rd level, you can mark a target to bring them down
       dead or alive. You can place this mark on a creature you can see within
       120 feet as a bonus action, or as part of placing a mark on the creature
-      that requires a bonus action (such as hunter's mark). This mark lasts for
-      1 minute, or until you use it again.</p>
-
-      <ul>
-
-      <li><strong>Dead.</strong> When you roll a 1 or 2 on a damage die for an
-      attack, you can reroll the die and must use the new roll, even if the new
-      roll is a 1 or a 2. Any attack roll you make against the marked target is
-      a critical hit on a roll of 19 or 20 on the d20.</li>
-
-      <li><strong>Alive.</strong> When you make an attack roll against the
-      target with a net, you don't have disadvantage when attacking at melee
+      that requires a bonus action (such as hunter’s mark). This mark lasts for
+      1 minute, or until you use it again. Choose one of the following when you
+      mark a creature:</p><ul><li><strong>Dead.</strong> When you roll a 1 or 2
+      on a damage die for an attack, you can reroll the die and must use the new
+      roll, even if the new roll is a 1 or a 2. Any attack roll you make against
+      the marked target is a critical hit on a roll of 19 or 20 on the
+      d20.</li><li><strong>Alive.</strong> When you make an attack roll against
+      the target with a net, you don’t have disadvantage when attacking at melee
       range or long range. You can deal nonlethal damage with ranged attacks
-      against the marked target.</li>
-
-      </ul>
+      against the marked target.</li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -117,7 +126,61 @@ system:
     subtype: ''
   requirements: ''
   identifier: dead-or-alive
-  activities: {}
+  activities:
+    SXTjtpJPWgvYlbuV:
+      type: utility
+      _id: SXTjtpJPWgvYlbuV
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: 4cxeDu0OGu9bhYGs
+        - _id: sFmtP6hMJigyYWGG
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects:
+        - 4cxeDu0OGu9bhYGs
+        - sFmtP6hMJigyYWGG
   enchant: {}
   prerequisites:
     level: null
@@ -127,9 +190,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317486363
-  modifiedTime: 1727317486363
+  modifiedTime: 1732079504290
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 7300000

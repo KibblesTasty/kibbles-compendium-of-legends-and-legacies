@@ -1,0 +1,155 @@
+name: Applied Knowledge
+type: feat
+_id: 1RFpDjhCuI9DC0v5
+img: icons/skills/melee/hand-grip-sword-strike-orange.webp
+system:
+  activities:
+    zsoc1ydBGVMNCVMH:
+      type: check
+      name: Surgical Assessment
+      _id: zsoc1ydBGVMNCVMH
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '10'
+      effects:
+        - _id: XcMy6d57o4J5Cxdy
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - med
+        dc:
+          calculation: ''
+          formula: '@scaling'
+        ability: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can use the bonus action granted by your
+      Cunning Action in new ways, gaining the following uses for the
+      ability:</p><h5>Quick Treatment</h5><p>You can use your Cunning Action to
+      use or administer a healing potion (any potion that restores hit points)
+      or Healer’s Kit.</p><h5 id="surgical-assessment">Surgical
+      Assessment</h5><p>You can assess the anatomical weaknesses of a creature
+      that you can see. Make a Wisdom (Medicine) check against a creature you
+      can see, with a DC equal to the target’s AC. On success, you learn the
+      target’s AC, and can use your Sneak Attack against that target even if you
+      don’t have advantage on the attack roll. Additionally, if you deal Sneak
+      Attack damage with a dagger against the target, you can reroll a number of
+      Sneak Attack damage dice up to your Intelligence or Wisdom modifier (your
+      choice, minimum 1). You must use the new rolls when rerolling dice. This
+      benefit lasts for 10 minutes against a target.</p>
+    chat: ''
+  identifier: applied-knowledge
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Surgical Assessment
+    img: icons/skills/melee/hand-grip-sword-strike-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1RFpDjhCuI9DC0v5
+    transfer: false
+    _id: XcMy6d57o4J5Cxdy
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You learn the target’s AC, and can use your Sneak Attack against that
+      target even if you don’t have advantage on the attack roll. Additionally,
+      if you deal Sneak Attack damage with a dagger against the target, you can
+      reroll a number of Sneak Attack damage dice up to your Intelligence or
+      Wisdom modifier (your choice, minimum 1). You must use the new rolls when
+      rerolling dice.</p>
+    tint: '#ffffff'
+    statuses:
+      - marked
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732079915745
+      modifiedTime: 1732079954181
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!1RFpDjhCuI9DC0v5.XcMy6d57o4J5Cxdy'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732077526754
+  modifiedTime: 1732079915795
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!1RFpDjhCuI9DC0v5'
+

@@ -18,11 +18,13 @@ flags:
       altValue: true
   core:
     sourceId: Item.0vRs1I0ANv5ovy62
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p><em>(6th level required)</em></p>
-
       <p>You cast @Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dispel Magic} with
       a range of 5 feet. Alternatively, as an attack as part of the attack
       action, you can attempt to open a 5-foot by 5-foot hole a magical barrier,
@@ -40,9 +42,120 @@ system:
   type:
     value: class
     subtype: mysticTechnique
-  requirements: Sword Saint 6
+  requirements: ''
   identifier: cut-the-weave-3-ki
-  activities: {}
+  activities:
+    GKiqWKp4xwpRYgO3:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties: []
+        spellbook: true
+      _id: GKiqWKp4xwpRYgO3
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: true
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    QCK7APnv1joXyleg:
+      type: attack
+      name: Open Hole
+      _id: QCK7APnv1joXyleg
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: square
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: dex
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: 6
@@ -54,7 +167,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317517097
-  modifiedTime: 1731969675824
+  modifiedTime: 1731982561879
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 55800000

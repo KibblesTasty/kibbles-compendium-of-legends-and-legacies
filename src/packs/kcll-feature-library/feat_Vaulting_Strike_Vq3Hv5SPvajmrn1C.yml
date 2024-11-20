@@ -59,7 +59,11 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -73,7 +77,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -101,18 +105,19 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: null
+          - custom:
+              enabled: true
+              formula: 1@scale.monk.die.die
+            number: null
             denomination: null
             bonus: ''
             types: []
-            custom:
-              enabled: true
-              formula: 1@scale.monk.die
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: vaulting-strike-1-ki
   enchant: {}
   prerequisites:
@@ -125,7 +130,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317507540
-  modifiedTime: 1731970233721
+  modifiedTime: 1731992380309
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 40600000

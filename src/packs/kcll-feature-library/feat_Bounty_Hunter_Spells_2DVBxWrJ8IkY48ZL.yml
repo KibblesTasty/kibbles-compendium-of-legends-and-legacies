@@ -26,74 +26,17 @@ flags:
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:Signika, sans-serif">Starting at 3rd level, you learn
-      an additional spell when you reach certain levels in this class, as shown
-      in the Bounty Hunter Spells table. The spell counts as a ranger spell for
-      you, but it doesn’t count against the number of ranger spells you
-      know.</span></p><table
-      style="box-sizing:border-box;user-select:text;width:437px;border-collapse:collapse;background:rgba(0,
-      0, 0, 0.05);border-top:1px solid
-      var(--color-border-light-tertiary);border-bottom:1px solid
-      var(--color-border-light-tertiary);margin:0.5em 0px;color:rgb(25, 24,
-      19);font-family:Signika,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><thead
-      style="box-sizing:border-box;user-select:text;background:rgba(0, 0, 0,
-      0.5);color:var(--color-text-light-highlight);text-shadow:1px 1px
-      var(--color-shadow-dark);border-bottom:1px solid
-      var(--color-border-dark)"><tr
-      style="box-sizing:border-box;user-select:text"><th id="ranger_level"
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Ranger Level</span></th><th id="spell"
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">Spell</span></th></tr></thead><tbody
-      style="box-sizing:border-box;user-select:text"><tr
-      style="box-sizing:border-box;user-select:text"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif">3rd</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">@UUID[Compendium.dnd5e.spells.0xmXiPiuYws1OGcX]{Hunter's
-      Mark}</span></td></tr><tr
-      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
-      255, 255, 0.2)"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif">5th</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">@UUID[Compendium.dnd5e.spells.3Lo9boi7P2ro6QV4]{Hold
-      Person}</span></td></tr><tr
-      style="box-sizing:border-box;user-select:text"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif">9th</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">@UUID[Compendium.dnd5e.spells.I2LUSF5ogc7Bj62e]{Speak with
-      Dead}</span></td></tr><tr
-      style="box-sizing:border-box;user-select:text;background-color:rgba(255,
-      255, 255, 0.2)"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif">13th</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">@UUID[Compendium.dnd5e.spells.ImlCJQwR1VL40Qem]{Arcane
-      Eye}</span></td></tr><tr
-      style="box-sizing:border-box;user-select:text"><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em 0px 0.25em
-      2px;text-align:center"><span style="font-family:Signika,
-      sans-serif">17th</span></td><td
-      style="box-sizing:border-box;user-select:text;padding:0.25em
-      0px;text-align:center"><span style="font-family:Signika,
-      sans-serif">@UUID[Compendium.dnd5e.spells.l9Ju5KE7bbn3WpTm]{Hold
-      Monster}</span></td></tr></tbody></table>
+      <p>Starting at 3rd level, you learn an additional spell when you reach
+      certain levels in this class, as shown in the Bounty Hunter Spells table.
+      The spell counts as a ranger spell for you, but it doesn’t count against
+      the number of ranger spells you know.</p><table><thead><tr><th>Ranger
+      Level</th><th>Spell</th></tr></thead><tbody><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.0xmXiPiuYws1OGcX]{Hunter's
+      Mark}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.3Lo9boi7P2ro6QV4]{Hold
+      Person}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.I2LUSF5ogc7Bj62e]{Speak
+      with
+      Dead}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.ImlCJQwR1VL40Qem]{Arcane
+      Eye}</td></tr><tr><td>17th</td><td>@UUID[Compendium.dnd5e.spells.l9Ju5KE7bbn3WpTm]{Hold
+      Monster}</td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -117,9 +60,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317486730
-  modifiedTime: 1727317486730
+  modifiedTime: 1731994443110
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 7900000

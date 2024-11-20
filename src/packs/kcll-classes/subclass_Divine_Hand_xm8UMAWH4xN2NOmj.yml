@@ -5,7 +5,23 @@ _id: xm8UMAWH4xN2NOmj
 img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Not all priests are clerics. Not all problems can be solved by prayer
+      and preaching. Sometimes a more subtle touch is needed to steer the world
+      as the faith dictates, and that is the role of a Divine Hand. A blade in
+      the night that commits the lesser evil for the greater good, or a quick
+      end to someone that sniffed too close to the cult of a dark god’s
+      business; both could be the work of these divinely guided
+      rogues.</p><p>Good is not nice, evil is not stupid. Whatever the
+      organization or god a Divine Hand serves, it is one that understands the
+      practical nature of the world. Spying, stealing, extracting information,
+      purging the heretics... they have many tasks before them, and complete
+      them with a grim determination.</p><hr /><p>The following are some
+      optional quirks for a player of this Archetype to choose from—these can be
+      either preexisting, signaling their fated path toward this Archetype, or
+      appear after they select this
+      Archetype.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.ObSVUVxWWpL99JKQ
+      rollable]</p>
     chat: ''
   identifier: divine-hand
   source:
@@ -15,7 +31,13 @@ system:
     - _id: M4Nza98Xw4zro75Z
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0xqLRMxswLmYSWH4
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Rbmjy7J5X2aWIUZQ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +46,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.R8nAcZ6Js0oNOnHY
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +59,10 @@ system:
       _id: MHH3XINPAEMqlYz7
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7Eg6y32x3FyivBgp
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +72,10 @@ system:
       _id: Igz2aEMnDus1J87y
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LcEEHCFZQgg9GOHT
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +83,48 @@ system:
       title: Roguish Archetype Feature
       hint: ''
       _id: 6R9mv98jS2R00qt9
+    - _id: jVxAuGuToI9Ye6s7
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:mar
+        choices: []
+      value:
+        chosen: []
+      level: 3
+      title: Sanctification
+      hint: ''
+    - _id: 47MZ254DvIAlIF1v
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 3
+          '5':
+            value: 4
+          '7':
+            value: 5
+          '9':
+            value: 6
+          '11':
+            value: 7
+          '13':
+            value: 8
+          '15':
+            value: 9
+          '17':
+            value: 10
+          '19':
+            value: 11
+      value: {}
+      title: Spells Known
+      hint: ''
   classIdentifier: rogue
   spellcasting:
     progression: third
@@ -69,9 +142,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729039504430
-  modifiedTime: 1729117267532
+  modifiedTime: 1732079682962
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xm8UMAWH4xN2NOmj'
 

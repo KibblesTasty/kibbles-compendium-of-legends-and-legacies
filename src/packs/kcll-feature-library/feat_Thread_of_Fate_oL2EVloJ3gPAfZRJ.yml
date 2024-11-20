@@ -1,35 +1,30 @@
-_id: Uaya8WxzYE9UTZvn
-name: Skyward Leap
+name: Thread of Fate
 type: feat
-img: icons/skills/movement/arrows-up-trio-red.webp
+_id: oL2EVloJ3gPAfZRJ
+img: icons/magic/life/heart-cross-purple-orange.webp
 system:
   activities:
-    x8TfH5SIMrAAPSEp:
-      type: utility
-      name: Jump
-      _id: x8TfH5SIMrAAPSEp
+    LlgWawixoYLLT96j:
+      type: heal
+      _id: LlgWawixoYLLT96j
       sort: 0
       activation:
-        type: bonus
+        type: special
         value: null
         override: false
         condition: ''
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: 2 * @abilities.int.mod
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
-        units: round
-        concentration: true
+        units: inst
+        concentration: false
         override: false
-        value: '1'
       effects: []
       range:
         override: false
@@ -50,11 +45,19 @@ system:
         spent: 0
         recovery: []
         max: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@scaling'
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
       img: ''
       appliedEffects: []
   uses:
@@ -63,20 +66,22 @@ system:
     max: ''
   description:
     value: >-
-      <p>As a bonus action, you jump 20 feet per ki spent and can hover as if
-      under the effect of the
-      @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate} spell by
-      concentrating (as if concentrating on a spell) until the end of your next
-      turn. You can end this concentration at any time.</p>
+      <p>Starting at 6th level, you can begin to see the path you must take to
+      bring your plans to fruition. When you start your turn with one or more
+      Influence Points, you gain temporary hit points equal to twice your
+      current Influence Points.</p><p> While you have temporary hit points from
+      this feature, you can transfer these temporary hit points to another
+      creature that is the target of one of your psionic abilities, or the
+      beneficiary of your Seeing power.</p>
     chat: ''
-  identifier: skyward-leap
+  identifier: thread-of-fate
   source:
     revision: 1
     rules: '2024'
   enchant: {}
   type:
-    value: class
-    subtype: mysticTechnique
+    value: ''
+    subtype: ''
   prerequisites:
     level: null
   properties: []
@@ -98,8 +103,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1731970050291
-  modifiedTime: 1731992178669
+  createdTime: 1732076656226
+  modifiedTime: 1732079049243
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!Uaya8WxzYE9UTZvn'
+_key: '!items!oL2EVloJ3gPAfZRJ'
 

@@ -1,16 +1,15 @@
-_id: Uaya8WxzYE9UTZvn
-name: Skyward Leap
+name: Medical Miracle
 type: feat
-img: icons/skills/movement/arrows-up-trio-red.webp
+_id: newKPhbcLLXiYpn6
+img: icons/magic/life/heart-pink.webp
 system:
   activities:
-    x8TfH5SIMrAAPSEp:
-      type: utility
-      name: Jump
-      _id: x8TfH5SIMrAAPSEp
+    bLWTXuQjzyavxlUk:
+      type: heal
+      _id: bLWTXuQjzyavxlUk
       sort: 0
       activation:
-        type: bonus
+        type: action
         value: null
         override: false
         condition: ''
@@ -18,22 +17,17 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
-        units: round
-        concentration: true
+        units: inst
+        concentration: false
         override: false
-        value: '1'
       effects: []
       range:
         override: false
-        units: self
+        units: touch
         special: ''
       target:
         template:
@@ -43,18 +37,25 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
+          type: object
         override: false
         prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: 2 * @prof
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
       img: ''
       appliedEffects: []
   uses:
@@ -63,20 +64,22 @@ system:
     max: ''
   description:
     value: >-
-      <p>As a bonus action, you jump 20 feet per ki spent and can hover as if
-      under the effect of the
-      @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate} spell by
-      concentrating (as if concentrating on a spell) until the end of your next
-      turn. You can end this concentration at any time.</p>
+      <p>When you reach 13th level, as an action, you can perform a medical
+      miracle to bring back a recently deceased creature that has died within
+      the last minute. When you do, it is returned to life with 1 hit point +
+      twice your proficiency modifier in temporary hit points. The creature
+      gains 1 level of &amp;Reference[Exhaustion] and cannot be revived by this
+      feature again until it completes a long rest.</p><p>Additionally, your
+      Patch Up feature can now cure the Stunned and Petrified conditions.</p>
     chat: ''
-  identifier: skyward-leap
+  identifier: medical-miracle
   source:
     revision: 1
     rules: '2024'
   enchant: {}
   type:
-    value: class
-    subtype: mysticTechnique
+    value: ''
+    subtype: ''
   prerequisites:
     level: null
   properties: []
@@ -98,8 +101,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1731970050291
-  modifiedTime: 1731992178669
+  createdTime: 1732077560935
+  modifiedTime: 1732080132124
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!Uaya8WxzYE9UTZvn'
+_key: '!items!newKPhbcLLXiYpn6'
 

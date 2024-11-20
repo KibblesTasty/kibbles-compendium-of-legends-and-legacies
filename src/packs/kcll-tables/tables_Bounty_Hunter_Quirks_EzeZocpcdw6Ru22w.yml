@@ -3,7 +3,91 @@ name: Bounty Hunter Quirks
 _id: EzeZocpcdw6Ru22w
 img: icons/skills/targeting/crosshair-scope-sniper-green.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: wBhvF5IEJu1zl4aO
+    text: >-
+      Without you around your companions would probably end up on the wrong side
+      of the law.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!EzeZocpcdw6Ru22w.wBhvF5IEJu1zl4aO'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: veZH6qxKYWlffIs1
+    text: >-
+      Without you around your companions would probably end up on the wrong side
+      of the law.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!EzeZocpcdw6Ru22w.veZH6qxKYWlffIs1'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: KQRNpCWIhE8AxaNM
+    text: >-
+      You carry your first bounty poster with you wherever you go to remind you
+      of your roots.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!EzeZocpcdw6Ru22w.KQRNpCWIhE8AxaNM'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: SzkgRkQFAblecrMW
+    text: >-
+      All it takes for evil to triumph is for good people to offer no reward for
+      stopping it.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!EzeZocpcdw6Ru22w.SzkgRkQFAblecrMW'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: sRHN643iRviBiDFi
+    text: >-
+      The local criminals are terrified of you and are on their best behavior
+      when you’re in town.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!EzeZocpcdw6Ru22w.sRHN643iRviBiDFi'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: fGUFk51d6xIMGngC
+    text: >-
+      The local criminals are terrified of you and are on their best behavior
+      when you’re in town.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!EzeZocpcdw6Ru22w.fGUFk51d6xIMGngC'
 replacement: true
 displayRoll: true
 sort: 900000
@@ -18,8 +102,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729117072515
-  modifiedTime: 1731956405872
+  modifiedTime: 1731994382229
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!EzeZocpcdw6Ru22w'
 

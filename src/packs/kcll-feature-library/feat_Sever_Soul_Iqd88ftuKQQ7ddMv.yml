@@ -36,14 +36,12 @@ flags:
 system:
   description:
     value: >-
-      <p><em>(17th level required)</em></p>
-
       <p>When you strike a creature, you can attempt to sever its soul. The
       target must make a Constitution saving throw. On failure, they take
-      necrotic damage equal to 6 rolls of your Martial Die. If this damage
+      necrotic damage equal to 6 rolls of your Martial Arts die. If this damage
       reduces them to 0 hit points, they die. Otherwise, they gain a level of
-      exhaustion. On pass, they take half as much damage, and suffer none of the
-      other effects.</p>
+      &amp;Reference[exhaustion]. On pass, they take half as much damage, and
+      suffer none of the other effects.</p>
     chat: ''
   source:
     custom: Sword Saint
@@ -58,70 +56,6 @@ system:
     subtype: mysticTechnique
   requirements: ''
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: damage
-      activation:
-        type: special
-        value: 1
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        concentration: false
-        units: inst
-        special: ''
-        override: false
-      effects: []
-      range:
-        units: ''
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
-        affects:
-          count: '1'
-          type: creature
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-          - number: null
-            denomination: null
-            bonus: ''
-            types:
-              - necrotic
-            custom:
-              enabled: true
-              formula: 6@scale.monk.die
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
-      sort: 0
     dnd5eactivity100:
       _id: dnd5eactivity100
       type: save
@@ -131,7 +65,11 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '6'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -145,7 +83,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -171,24 +109,25 @@ system:
       damage:
         onSave: half
         parts:
-          - number: null
+          - custom:
+              enabled: true
+              formula: 6@scale.monk.die.die
+            number: null
             denomination: null
             bonus: ''
             types:
               - necrotic
-            custom:
-              enabled: true
-              formula: 6@scale.monk.die
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       save:
         ability: con
         dc:
           calculation: wis
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: sever-soul-6-ki
   enchant: {}
   prerequisites:
@@ -201,7 +140,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317498898
-  modifiedTime: 1731969860640
+  modifiedTime: 1731990751747
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 26700000

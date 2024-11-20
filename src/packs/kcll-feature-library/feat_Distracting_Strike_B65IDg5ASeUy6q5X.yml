@@ -42,58 +42,66 @@ system:
     subtype: mysticTechnique
   requirements: ''
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    suBJLhDPoAySwris:
+      type: damage
+      sort: 0
       activation:
         type: special
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
-        concentration: false
         units: inst
-        special: ''
+        concentration: false
         override: false
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: self
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: '1'
-          type: creature
           choice: false
-          special: ''
-        prompt: true
+          count: ''
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: 1@scale.monk.die.die
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - slashing
+              - bludgeoning
+            scaling:
+              number: 1
+      name: ''
+      _id: suBJLhDPoAySwris
   identifier: distracting-strike-1-ki
   enchant: {}
   prerequisites:
@@ -106,7 +114,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317493666
-  modifiedTime: 1731969765941
+  modifiedTime: 1731989323189
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 18400000

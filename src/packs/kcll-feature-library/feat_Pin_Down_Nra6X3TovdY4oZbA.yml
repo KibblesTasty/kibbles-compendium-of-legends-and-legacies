@@ -18,11 +18,15 @@ flags:
       altValue: true
   core:
     sourceId: Item.5pYGCPGCkFtMy2ZN
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 11th level, when a creature you have marked with Dead or
-      Alive or moves 5 feet, stands up from being prone, or escapes from the
+      Alive moves 5 feet, stands up from being prone, or escapes from the
       Restrained condition while within 60 feet of you, you can use your
       reaction to make an opportunity attack against them if they are in range
       of a weapon you are wielding. If you make this attack with a ranged
@@ -40,7 +44,56 @@ system:
     subtype: ''
   requirements: ''
   identifier: pin-down
-  activities: {}
+  activities:
+    IPglJPhruFrtRwqE:
+      type: utility
+      _id: IPglJPhruFrtRwqE
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Opportunity Attack
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -50,9 +103,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317502327
-  modifiedTime: 1727317502327
+  modifiedTime: 1731994935968
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 32100000

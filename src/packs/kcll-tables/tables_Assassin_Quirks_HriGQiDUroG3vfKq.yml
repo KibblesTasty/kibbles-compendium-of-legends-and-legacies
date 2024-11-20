@@ -3,7 +3,83 @@ name: Assassin Quirks
 _id: HriGQiDUroG3vfKq
 img: icons/skills/melee/strike-dagger-arcane-pink.webp
 description: ''
-results: []
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: ZwIPnBfSuXWPZbvJ
+    text: >-
+      Life is cheap, death is expensive. You only kill what you are paid to
+      kill.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!HriGQiDUroG3vfKq.ZwIPnBfSuXWPZbvJ'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: 9UL4DMqZlBb3xj6H
+    text: >-
+      You have perfected the art of standing motionless. It doesn’t make you
+      invisible, but some people find it creepy
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!HriGQiDUroG3vfKq.9UL4DMqZlBb3xj6H'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: iZGHfznXj6qMnK3i
+    text: You are always fiddling with something sharp.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!HriGQiDUroG3vfKq.iZGHfznXj6qMnK3i'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: hLpDI83Rkr3UAtfk
+    text: Life is suffering. You are an angel of mercy
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!HriGQiDUroG3vfKq.hLpDI83Rkr3UAtfk'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: FdZiyS9uytueRGmT
+    text: Job satisfaction is important. You enjoy your work
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!HriGQiDUroG3vfKq.FdZiyS9uytueRGmT'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: RiA8PvigYhcWjQvL
+    text: You have a code you follow zealously that dictates who you can kill.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!HriGQiDUroG3vfKq.RiA8PvigYhcWjQvL'
 replacement: true
 displayRoll: true
 sort: 1000000
@@ -18,8 +94,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729117186784
-  modifiedTime: 1731956405872
+  modifiedTime: 1731995692331
   lastModifiedBy: pJeIW7qCa0HkURWq
-formula: ''
+formula: 1d6
 _key: '!tables!HriGQiDUroG3vfKq'
 

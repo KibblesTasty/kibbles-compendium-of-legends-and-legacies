@@ -5,7 +5,13 @@ _id: u0UDjVsyXsoR20v3
 img: icons/skills/melee/strike-dagger-arcane-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You specialize in the grim art of dealing death. Those who adhere to
+      this archetype are diverse: assassins, hired killers, spies, bounty
+      hunters and more.</p><hr /><p>The following are some optional quirks for
+      an
+      Assassin.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.HriGQiDUroG3vfKq
+      rollable]</p>
     chat: ''
   identifier: assassin
   source:
@@ -15,7 +21,10 @@ system:
     - _id: M4Nza98Xw4zro75Z
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4V1lDRTdULDWnOo3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,27 +33,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
-        optional: false
-        spell: null
-      value: {}
-      level: 9
-      title: Roguish Archetype Feature
-      hint: ''
-      _id: MHH3XINPAEMqlYz7
-    - type: ItemGrant
-      configuration:
-        items: []
-        optional: false
-        spell: null
-      value: {}
-      level: 13
-      title: Roguish Archetype Feature
-      hint: ''
-      _id: Igz2aEMnDus1J87y
-    - type: ItemGrant
-      configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bOZZSGBcC19B7J8F
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +44,75 @@ system:
       title: Roguish Archetype Feature
       hint: ''
       _id: 6R9mv98jS2R00qt9
+    - _id: Tua2KhpHEOEzDr6P
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - tool:disg
+              - tool:pois
+      value:
+        chosen: []
+      level: 3
+      title: Bonus Proficiency
+      hint: ''
+    - _id: kxw1ff06EMIxP6XF
+      type: ItemChoice
+      configuration:
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.OskDJVnptlGE0lQD
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.i9gqvyTvWnFck8IZ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IXsp6YxKgYNYVHH1
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Favored Approach
+      hint: >-
+        Starting at 13th level, you hone your skills gaining a favored approach
+        to dealing death. Select one of the following benefits:
+    - _id: rz36et9E2BkaaqXl
+      type: ItemChoice
+      configuration:
+        choices:
+          '9':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BuzyCDqyTDSwbiFL
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5YYrlTWLPXxwZLXc
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.PKy8XfucDz6QAP81
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Killer's Method
+      hint: >-
+        Starting at 9th level, you have mastered one technique of your choice
+        for approaching a target. Select one of the following benefits: If you
+        gain expertise in a skill you already have expertise in, you can instead
+        select another skill or tool you have proficiency in to gain expertise
+        in.
   classIdentifier: rogue
   spellcasting:
     progression: none
@@ -69,9 +130,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729039494670
-  modifiedTime: 1729117159175
+  modifiedTime: 1732077999845
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!u0UDjVsyXsoR20v3'
 

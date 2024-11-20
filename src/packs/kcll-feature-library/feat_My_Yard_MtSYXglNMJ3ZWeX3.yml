@@ -1,16 +1,16 @@
-_id: Uaya8WxzYE9UTZvn
-name: Skyward Leap
+name: My Yard
 type: feat
-img: icons/skills/movement/arrows-up-trio-red.webp
+_id: MtSYXglNMJ3ZWeX3
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
   activities:
-    x8TfH5SIMrAAPSEp:
+    9FDo7Frr1wu7pJEd:
       type: utility
-      name: Jump
-      _id: x8TfH5SIMrAAPSEp
+      name: Establish Holy Domain
+      _id: 9FDo7Frr1wu7pJEd
       sort: 0
       activation:
-        type: bonus
+        type: action
         value: null
         override: false
         condition: ''
@@ -18,16 +18,12 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
-            scaling: {}
+        targets: []
       description:
         chatFlavor: ''
       duration:
-        units: round
-        concentration: true
+        units: minute
+        concentration: false
         override: false
         value: '1'
       effects: []
@@ -39,7 +35,9 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
+          type: radius
+          size: '500'
+          count: ''
         affects:
           choice: false
           count: ''
@@ -63,20 +61,24 @@ system:
     max: ''
   description:
     value: >-
-      <p>As a bonus action, you jump 20 feet per ki spent and can hover as if
-      under the effect of the
-      @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate} spell by
-      concentrating (as if concentrating on a spell) until the end of your next
-      turn. You can end this concentration at any time.</p>
+      <p>At 20th level, you establish the holy domain of your yard wherever it
+      is needed. As an action, you can unleash a profound bark claiming the area
+      within 500 feet of you as your territory for 1 minute, with the following
+      effects while within your territory:</p><ul><li>You can use your Channel
+      Divinity options without expending the Channel Divinity option. When using
+      Bark the Evil this way, you can use it as a bonus action.</li><li>Your
+      movement speed and jumping distance is doubled, and you have advantage on
+      attack rolls.</li><li>Allied creatures have advantage on Saving Throws
+      against becoming frightened.</li></ul>
     chat: ''
-  identifier: skyward-leap
+  identifier: my-yard
   source:
     revision: 1
     rules: '2024'
   enchant: {}
   type:
-    value: class
-    subtype: mysticTechnique
+    value: ''
+    subtype: ''
   prerequisites:
     level: null
   properties: []
@@ -98,8 +100,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.1.1
-  createdTime: 1731970050291
-  modifiedTime: 1731992178669
+  createdTime: 1732075104871
+  modifiedTime: 1732078624404
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!Uaya8WxzYE9UTZvn'
+_key: '!items!MtSYXglNMJ3ZWeX3'
 

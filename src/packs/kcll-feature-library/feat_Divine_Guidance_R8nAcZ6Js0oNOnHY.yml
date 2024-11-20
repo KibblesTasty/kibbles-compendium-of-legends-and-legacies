@@ -21,13 +21,11 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 9th level, you learn two cleric cantrips of your
-      choice.</p>
-
-      <p>Additionally, holy water you create becomes more potent, dealing 3d6
-      radiant damage to fiends and undead. If you have no holy water from your
-      Sanctification feature when take a short rest, use your Sanctification
-      feature to create a new flask of Holy Water.</p>
+      <p>Starting at 9th level, you learn two Cleric cantrips of your choice.
+      </p><p>Additionally, holy water you create becomes more potent, dealing
+      4d6 radiant damage to fiends and undead. If you have no holy water from
+      your Sanctification feature when you take a short rest, you can use your
+      Sanctification feature to create a new flask of holy water.</p>
     chat: ''
   source:
     rules: '2014'
@@ -51,9 +49,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317504493
-  modifiedTime: 1727317504493
+  modifiedTime: 1732079744377
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 35700000

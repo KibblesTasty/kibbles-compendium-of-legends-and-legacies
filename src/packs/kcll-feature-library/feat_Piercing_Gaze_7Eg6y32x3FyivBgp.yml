@@ -26,12 +26,14 @@ flags:
 system:
   description:
     value: >-
-      <p>At 13th level, you can attempt pierce the veil of magic and treachery
-      around your foes. If a creature is shrouded from your sight by a spell or
-      magical effect, as a bonus action, you can make a Wisdom (Perception)
-      check against the spell save DC to see through the effect (including
-      illusions, magical darkness, or other magical impediment to seeing the
-      creature) until the end of your turn.</p>
+      <p>At 13th level, you can attempt to pierce the veil of magic and
+      treachery around your foes. If a creature within 60 feet is shrouded from
+      your sight by a spell or magical effect, you can make a Wisdom
+      (Perception) check (no action required) against the caster’s spell save DC
+      to see through the effect (including illusion spells, magical darkness, or
+      other magical impediments to seeing the creature). Once you fail to see
+      through an effect, you cannot try see through the same spell or effect
+      again.</p>
     chat: ''
   source:
     custom: Divine Agent
@@ -96,9 +98,15 @@ system:
         recovery: []
       check:
         ability: wis
-        associated: []
-        dc: {}
+        associated:
+          - prc
+        dc:
+          calculation: ''
+          formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: piercing-gaze
   enchant: {}
   prerequisites:
@@ -109,9 +117,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317490390
-  modifiedTime: 1727317490390
+  modifiedTime: 1732079765642
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 13500000

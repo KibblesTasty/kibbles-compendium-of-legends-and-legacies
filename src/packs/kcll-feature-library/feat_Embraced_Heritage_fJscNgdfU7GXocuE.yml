@@ -1,7 +1,110 @@
 name: Embraced Heritage
 type: feat
 img: icons/creatures/unholy/demon-horned-winged-laughing.webp
-effects: []
+effects:
+  - name: Blood of the Fiend
+    img: icons/creatures/unholy/demon-horned-winged-laughing.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fJscNgdfU7GXocuE
+    transfer: false
+    _id: ZLv8xN3q0NRTiTOz
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732126441246
+      modifiedTime: 1732126452497
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!fJscNgdfU7GXocuE.ZLv8xN3q0NRTiTOz'
+  - name: Eyes of the Fiend
+    img: icons/creatures/unholy/demon-horned-winged-laughing.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fJscNgdfU7GXocuE
+    transfer: false
+    _id: cOdnLVOVCIVuVxpU
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732126441593
+      modifiedTime: 1732126463428
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!fJscNgdfU7GXocuE.cOdnLVOVCIVuVxpU'
+  - name: Skin of the Fiend
+    img: icons/creatures/unholy/demon-horned-winged-laughing.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fJscNgdfU7GXocuE
+    transfer: false
+    _id: 9wqXKEscRatjGR78
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732126442243
+      modifiedTime: 1732126481784
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!fJscNgdfU7GXocuE.9wqXKEscRatjGR78'
 flags:
   betterRolls5e:
     quickDesc:
@@ -54,9 +157,28 @@ flags:
       altValue: false
   core:
     sourceId: Item.6WVemTwfvGPrYCqT
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
-    value: "<h4 id=\"sorcerer-origin-fiend-bloodline-variant-origin-spells-embraced-heritage\">Embraced Heritage</h4>\n<p>Starting at 6th level, when draw upon the power of your blood, you can embrace the dark power the courses through it, briefly enhancing your fiendish traits. Once per turn on your turn when you spend spend one or more sorcerer points, you can gain one of the following benefits for a number of rounds equal to the number of sorcerer points spent (for example, if you spend 1 sorcery point to empower a spell, you gain the effects until the start of your next turn).</p>\n<ul>\n<li>Blood of the Fiend.\_The power in your blood courses, granting you advantage on saving throws against spells and other magical effects.</li>\n<li>Eyes of the Fiend.\_Your eyes glow with an infernal gleam, you can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</li>\n<li>Skin of the Fiend.\_Your skin takes on an exotic hue, and you gain resistance to your choice of poison, fire, lightning, or cold damage.</li>\n</ul>"
+    value: >-
+      <p>Starting at 6th level, when drawing upon the power of your blood, you
+      can embrace the dark power the courses through it to briefly enhance your
+      fiendish traits. Once on each of your turns when you spend one or more
+      sorcery points, you can gain one of the following benefits for a number of
+      rounds equal to 1 + the number of sorcery points spent (ending at the
+      start of your turn after the number of rounds).</p><ul><li><strong>Blood
+      of the Fiend.</strong> The power in your blood courses, granting you
+      advantage on saving throws against spells and other magical
+      effects.</li><li><strong>Eyes of the Fiend.</strong> Your eyes glow with
+      an infernal gleam, and you can see normally in darkness, both magical and
+      nonmagical, to a distance of 120 feet.</li><li><strong>Skin of the
+      Fiend.</strong> Your skin takes on an exotic hue, and you gain resistance
+      to your choice of poison, fire, lightning, or cold
+      damage.</li></ul><p>Alternatively, you can spend 1 sorcery point to
+      activate one of these effects as a bonus action, lasting for 1 hour</p>
     chat: ''
   source:
     rules: '2014'
@@ -70,7 +192,63 @@ system:
     subtype: ''
   requirements: Fiend Origin 6
   identifier: embraced-heritage
-  activities: {}
+  activities:
+    Vu0Dpli9Y1MH4ksv:
+      type: utility
+      name: Gain Benefit
+      _id: Vu0Dpli9Y1MH4ksv
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: ZLv8xN3q0NRTiTOz
+        - _id: cOdnLVOVCIVuVxpU
+        - _id: 9wqXKEscRatjGR78
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -80,9 +258,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317514525
-  modifiedTime: 1727317514525
+  modifiedTime: 1732126442286
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 51600000

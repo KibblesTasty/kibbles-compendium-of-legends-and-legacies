@@ -55,13 +55,15 @@ system:
     value: >-
       <p>At 18th level, when you are reduced to 0 hit points, or as an action at
       any time, you can explode into fire, dealing 8d6 fire damage to all
-      creatures within a 30 foot radius and being temporarily reborn as a
-      phoenix. You can apply Rejuvenating Flames to this fire damage without
+      creatures within a 30 foot radius of you and being temporarily reborn as a
+      phoenix. You can apply
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.kml9j6esubAnF7qW]{Rejuvenating
+      Flames} to this fire damage as though it were a spell and without
       expending a use of the feature or sorcery points.</p><p>You assume the
-      form of a Fire Elemental as if by the shapechange spell. This form has the
+      form of a fire elemental as if by the shapechange spell. This form has the
       following modification: you gain a flying speed of 60 feet, gain the Flyby
       feature (meaning your movement does not provoke attacks of opportunity
-      when you fly out of an enemy's reach), you add your Charisma modifier
+      when you fly out of an enemy’s reach), you add your Charisma modifier
       (minimum +1) to all attack and damage rolls with your Touch attack, and
       can understand and speak any languages you can normally speak. It does not
       require concentration, and you cannot change your form as an action. You
@@ -95,11 +97,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -121,14 +121,14 @@ system:
         template:
           count: ''
           contiguous: false
-          type: ''
-          size: ''
+          type: radius
+          size: '30'
           width: ''
           height: ''
           units: ft
         affects:
-          count: '30'
-          type: object
+          count: ''
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -142,19 +142,20 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: 6
+          - custom:
+              enabled: false
+              formula: ''
+            number: 8
             denomination: 6
             bonus: ''
             types:
               - fire
-            custom:
-              enabled: false
-              formula: ''
             scaling:
-              mode: whole
-              number: null
-              formula: ''
+              number: 1
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: in-flames-reborn
   enchant: {}
   prerequisites:
@@ -165,9 +166,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317519695
-  modifiedTime: 1727317519695
+  modifiedTime: 1732127857243
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 60200000

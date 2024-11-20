@@ -21,16 +21,16 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 14th level, you are followed by a perpetual whispy fog.
-      When you cast a spell of 1st level or higher, the fog thickens, lightly
+      <p>Starting at 14th level, you are followed by a perpetual wispy fog. When
+      you cast a spell of 1st level or higher, the fog thickens, lightly
       obscuring the area within a 10 foot radius of you for a number of rounds
-      equal to the level of the spell cast. This fog leaves a sodden rime on
-      creatures of your choice within it, leaving them vulnerable to your magic.
-      This rime fades as soon as they leave the area of the fog.</p>
-
-      <p>You have advantage on spell attack rolls against creatures effected by
-      this rime, and effected by this rime within the fog are under the effect
-      of bane when saving against your spells.</p>
+      equal to the level of the spell cast. This thickened fog leaves a sodden
+      rime on creatures of your choice within it, leaving them vulnerable to
+      your magic. This rime fades as soon as they leave the area of the
+      fog.</p><p>You have advantage on spell attack rolls against creatures
+      effected by this rime, and creatures effected by this rime within the fog
+      are under the effect of the bane spell when saving against your
+      spells.</p>
     chat: ''
   source:
     rules: '2014'
@@ -54,9 +54,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317522373
-  modifiedTime: 1727317522373
+  modifiedTime: 1732129108393
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 64700000

@@ -5,7 +5,21 @@ _id: eegangx3cwWtFiOP
 img: icons/magic/water/wave-water-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>The power of water is the strength of flexibility, resilience, and a
+      relentless nature. Water parts to allow a ship to sail over it or a diver
+      to plunge into it, but their passing leaves no mark. Water flowing down a
+      mountain reaches the sea. It might bend and turn across valleys and down
+      hillsides, but it slowly and steadily returns to the waves. Those whose
+      souls are touched by the power of elemental water command a similar
+      power.</p><p>Your heritage ties back to powerful creatures of the sea,
+      such as nereids, the lords of the merfolk, or elemental powers. Like a
+      river, you feel the call of the ocean. The call is ever present in your
+      heart, and you are never completely at peace until you are near the
+      sea.</p><hr /><p>The following are some optional quirks for a player of
+      this Bloodline to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.9VRYyTKswc7TbsVk
+      rollable]</p>
     chat: ''
   identifier: sea-soul
   source:
@@ -15,7 +29,13 @@ system:
     - _id: KFPSv7k1DRgYDY1q
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.78eFUdf6iEkPODKN
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7SJ1xpx5FA7MR1Y8
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +44,13 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.PxRES7vtEbw2Zc1N
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lpDBXa7mWLdaAIHZ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +60,10 @@ system:
       _id: ymwF8gRq9rxfGQXI
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qIJYC3EgclkrmY3T
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +73,10 @@ system:
       _id: 762CwJWYksPTFgT1
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.L8PGydsfr2vlAPIr
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +84,158 @@ system:
       title: Sorcerous Origin Feature
       hint: ''
       _id: 0WKx3ZEu2UZuQW7J
+    - _id: rPHcya4yq0OGYEYi
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool: []
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Sea Soul Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Sea Soul Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+    - type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool: []
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Sea Soul Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Sea Soul Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+      _id: N2ofBAYNirxzG8Vi
+    - type: ItemChoice
+      configuration:
+        choices:
+          '5':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Sea Soul Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Sea Soul Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+      _id: bRl0G401MUOJxPqg
+    - type: ItemChoice
+      configuration:
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Sea Soul Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Sea Soul Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+      _id: 4Z8SPLsY6FenMEnS
+    - type: ItemChoice
+      configuration:
+        choices:
+          '9':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool: []
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Sea Soul Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Sea Soul Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+      _id: VBjYKbrG08pJSbke
   classIdentifier: sorcerer
   spellcasting:
     progression: none
@@ -69,9 +253,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729039573992
-  modifiedTime: 1731433400133
+  modifiedTime: 1732129168283
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!eegangx3cwWtFiOP'
 

@@ -5,7 +5,17 @@ _id: wrqugtoVdSW4zLNH
 img: icons/magic/fire/flame-burning-eye.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Some say the flames of a phoenix are the origin of all of life, and
+      these sparks are fragments of some primordial origin. Many dismiss such
+      mythological sources, explaining that these sparks are ancient blessings:
+      motes of power caught within the soul, remnants of some ancestor being
+      healed by powers of a phoenix.</p><p>Whatever their origin, they grant a
+      powerful duality of life and destruction in equal measure, flames that
+      cauterize the world.</p><hr /><p>The following are some optional quirks
+      for a player of this Bloodline to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.YI2IDQ8GdToXMfzG
+      rollable]</p>
     chat: ''
   identifier: phoenix-spark
   source:
@@ -15,7 +25,10 @@ system:
     - _id: KFPSv7k1DRgYDY1q
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8mHP2nW9PLHqXMTQ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +37,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.kml9j6esubAnF7qW
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +50,10 @@ system:
       _id: ymwF8gRq9rxfGQXI
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tSeFJqOg4qoSLMkJ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +63,10 @@ system:
       _id: 762CwJWYksPTFgT1
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.n5NUOzooFOLEihsV
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +74,164 @@ system:
       title: Sorcerous Origin Feature
       hint: ''
       _id: 0WKx3ZEu2UZuQW7J
+    - _id: kVIk3A7nbIjMGQch
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F
+          - uuid: Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Phoenix Magic
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Phoenix Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+    - type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Phoenix Magic
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Phoenix Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+      _id: 1TNJsfYelEktIp6S
+    - type: ItemChoice
+      configuration:
+        choices:
+          '5':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0
+          - uuid: Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Phoenix Magic
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Phoenix Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+      _id: GGVPivjfcTIcXvA5
+    - type: ItemChoice
+      configuration:
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c
+          - uuid: Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Phoenix Magic
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Phoenix Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+      _id: 0Iga9iI3jbbBNmhF
+    - type: ItemChoice
+      configuration:
+        choices:
+          '9':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Phoenix Magic
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Phoenix Origin Spells list. For each level of spells,
+        you can select one of the two spells to learn. You learn the selected
+        spell and it becomes a sorcerer spell for you, but it doesn’t count
+        against your number of sorcerer spells known.
+      _id: N4qnXEnF9sEAk9Xp
   classIdentifier: sorcerer
   spellcasting:
     progression: none
@@ -69,9 +249,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729039565571
-  modifiedTime: 1731433368714
+  modifiedTime: 1732128088739
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wrqugtoVdSW4zLNH'
 

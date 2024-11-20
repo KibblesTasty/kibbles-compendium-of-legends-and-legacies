@@ -5,7 +5,19 @@ _id: idfKBAFb8P401ldo
 img: icons/magic/light/orb-hands-humanoid-yellow.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Wizards of this pursuit delve what other Wizards consider untouchable.
+      The secrets of the divine. They discover and delve the paths of power that
+      divine magic activates, and seek to recreate it through precise
+      understanding and deep knowledge.</p><p>Some are deeply religious, devoted
+      to gods and seeking to understand them at a higher level, some follow
+      unrestrained academic curiosity, and yet others seek this power for
+      blasphemous reasons.</p><hr /><p>The following are some optional quirks
+      for a player of this Order to choose from—these can be either preexisting,
+      signaling their fated path toward this Order, or appear after they select
+      this
+      Order.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.DVYEFarrSO2rb0nM
+      rollable]</p>
     chat: ''
   identifier: theurge
   source:
@@ -15,7 +27,10 @@ system:
     - _id: UyPgcaeVdlC3ps69
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DM0BIpc6vwxW1CgG
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +39,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.F6mVAUlxlWfNYTlF
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +52,10 @@ system:
       _id: sXWTqzLmKrUyKwQn
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Zk9jzdp15B8XVehF
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +65,10 @@ system:
       _id: qJueaUlrzv7IxCF1
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.gQNXIHDyzxyJfMUw
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,6 +76,19 @@ system:
       title: Arcane Tradition Feature
       hint: ''
       _id: r39wBnRoRZehNmzP
+    - _id: 1Ld5KxnPrX5FNYb4
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:rel
+        choices: []
+      value:
+        chosen: []
+      level: 2
+      title: Theologian
+      hint: ''
   classIdentifier: wizard
   spellcasting:
     progression: none
@@ -69,9 +106,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729041729064
-  modifiedTime: 1731433895048
+  modifiedTime: 1732135622266
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!idfKBAFb8P401ldo'
 

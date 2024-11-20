@@ -26,8 +26,10 @@ flags:
 system:
   description:
     value: >-
-      <p>At 18th level, while you are empowered by Strength of Stone, you have
-      resistance to bludgeoning, piercing, and slashing damage.</p>
+      <p>At 18th level, while you are empowered by
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.03teb0Y8IDYRTn4z]{Strength
+      of Stone}, you have resistance to bludgeoning, piercing, and slashing
+      damage.</p>
     chat: ''
   source:
     rules: '2014'
@@ -51,9 +53,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317505070
-  modifiedTime: 1727317505070
+  modifiedTime: 1732130002571
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 36700000

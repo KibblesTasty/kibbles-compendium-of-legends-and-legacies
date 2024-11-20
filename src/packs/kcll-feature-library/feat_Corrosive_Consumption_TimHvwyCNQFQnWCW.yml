@@ -1,4 +1,4 @@
-name: 'Invocation: Corrosive Consumption'
+name: Corrosive Consumption
 type: feat
 img: icons/creatures/slimes/slime-face-melting-green.webp
 system:
@@ -16,8 +16,8 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
+    value: class
+    subtype: eldritchInvocation
   requirements: The Ooze
   identifier: invocation-corrosive-consumption
   activities: {}
@@ -39,9 +39,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317505819
-  modifiedTime: 1727317505819
+  modifiedTime: 1732134529871
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 37900000

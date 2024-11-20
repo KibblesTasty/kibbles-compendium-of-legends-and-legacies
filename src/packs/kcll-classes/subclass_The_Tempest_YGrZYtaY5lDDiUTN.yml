@@ -2,39 +2,45 @@ folder: WRTVyUK3eHm8joQy
 name: The Tempest
 type: subclass
 _id: YGrZYtaY5lDDiUTN
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/lightning/bolt-cloud-sky-white.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have made pact with a tempestuous being, born of wind and rain: an
+      ancient elemental, powerful storm giant, or perhaps a demigod of
+      disagreeable weather. What they sought through you may vary, but the mere
+      touch of their powers causes the storm winds to bend the knee.</p><p>Such
+      powers tend to be far better at calling the chaotic power at their
+      disposal than calming it, and many who ride the tempest will find the same
+      is true for them, leaving destruction in their wake if they are not
+      careful in how the use their power... if they even care about what remains
+      in their wake.</p><h5>Tempest Expanded Spells</h5><p>The ancient entity of
+      tempestuous power you’ve made a pact lets you choose from an expended list
+      of spells when you learn a warlock spell. The following spells are added
+      to the warlock spell list for you.</p><table><thead><tr><th>Spell
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n]{feather
+      fall},
+      @UUID[Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ]{thunderwave}</td></tr><tr><td>2nd</td><td>dust
+      cyclone,
+      @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitate}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{lightning
+      bolt}, vortex blast</td></tr><tr><td>4th</td><td>aero barrage,
+      @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{ice
+      storm}</td></tr><tr><td>5th</td><td>sky burst,
+      tornado</td></tr></tbody></table><h5>Additional
+      Invocations</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Psyo3diEn0uc7uPW]{Stormblessed}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zZ9vwPW8AOJde4In]{Stormcaller}</p>
     chat: ''
   identifier: the-tempest
   source:
     revision: 1
     rules: '2014'
   advancement:
-    - _id: NJr7Ti3YNfSw1JAm
-      type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 1
-      title: Expanded Spells
-      hint: ''
     - _id: ffvwBfEnlYIcP40n
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.naZ59JGPFGtUkPaP
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,44 +50,12 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 3
-      title: Expanded Spells
-      hint: ''
-      _id: KGv4vljZJskxs0Kw
-    - type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 5
-      title: Expanded Spells
-      hint: ''
-      _id: g0XD1o79bBXhIO6L
-    - type: ItemGrant
-      configuration:
-        items: []
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9kdtnB6r6S8aWnZs
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cDWvCYzHvsUrhYCd
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -92,44 +66,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 7
-      title: Expanded Spells
-      hint: ''
-      _id: 011EJS9fTWtapUYP
-    - type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 9
-      title: Expanded Spells
-      hint: ''
-      _id: OwyYLThVGSP4zvae
-    - type: ItemGrant
-      configuration:
-        items: []
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.m1MIQaEuxgiOLSQ0
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -139,7 +78,10 @@ system:
       _id: HuvjdTlxCWgn5pV2
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rQhj3dVshWFMhYmo
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -164,9 +106,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729041686579
-  modifiedTime: 1729117856561
+  modifiedTime: 1732135141048
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!YGrZYtaY5lDDiUTN'
 

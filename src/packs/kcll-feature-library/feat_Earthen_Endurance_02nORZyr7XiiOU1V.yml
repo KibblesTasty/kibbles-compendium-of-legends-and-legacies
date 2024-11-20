@@ -46,12 +46,12 @@ system:
   description:
     value: >-
       <p>Starting at 6th level, when you activate Strength of Stone, you can
-      confer the benefits of the stone aegis to another creature of your choice
+      share the benefits of the stone aegis with another creature of your choice
       within 30 feet, reducing bludgeoning, piercing, and slashing damage taken
       by that creature equal to your proficiency bonus.</p><p>When a creature
       under the effect of your protection takes damage (of any damage type), as
       a reaction you can expend one or more sorcery points to reduce the damage
-      taken 1d8 per sorcery points spent. When you absorb damage in this way,
+      taken 1d8 per sorcery points spent. After you absorb damage in this way,
       the next time you hit an melee attack before the end of your next turn,
       you can add 1d8 per sorcery points to the damage roll.</p>
     chat: ''
@@ -78,14 +78,13 @@ system:
         override: false
       consumption:
         targets:
-          - type: attribute
-            target: ''
+          - type: itemUses
             value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
             scaling:
-              mode: ''
-              formula: ''
+              mode: amount
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
       description:
@@ -127,19 +126,21 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: 1
-            denomination: 8
-            bonus: ''
-            types:
-              - healing
-            custom:
+          - custom:
               enabled: false
               formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types: []
             scaling:
               mode: whole
-              number: null
+              number: 1
               formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: earthen-endurance
   enchant: {}
   prerequisites:
@@ -150,9 +151,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317484879
-  modifiedTime: 1727317484879
+  modifiedTime: 1732130140512
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 5200000

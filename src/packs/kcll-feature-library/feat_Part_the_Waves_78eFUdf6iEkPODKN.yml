@@ -22,15 +22,14 @@ system:
   description:
     value: >-
       <p>At 1st level, your connection to waves and waters lets you bend them to
-      your will. You learn the <em>shape water</em> cantrip, and it does not
-      count against your spells known.</p>
-
-      <p>Additionally, when you cast a spell a water or cold spell (a spell that
-      controls water, deals water based bludgeoning damage, or deals cold
-      damage) affects other creatures that you can see, you can choose a number
-      of them equal to 1 + the spell’s level. The chosen creatures automatically
-      succeed on their saving throws against the spell, and they take no damage
-      if they would normally take half damage on a successful save.</p>
+      your will. You learn the manipulate water cantrip, and it does not count
+      against your spells known.</p><p>Additionally, when you cast a water or
+      cold spell (a spell that controls water, deals water based bludgeoning
+      damage, or deals cold damage) that affects other creatures that you can
+      see, you can choose a number of them equal to 1 + the spell’s level. The
+      chosen creatures automatically succeed on their saving throws against the
+      spell, and they take no damage if they would normally take half damage on
+      a successful save.</p>
     chat: ''
   source:
     rules: '2014'
@@ -54,9 +53,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317490084
-  modifiedTime: 1727317490084
+  modifiedTime: 1732129034030
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 13000000

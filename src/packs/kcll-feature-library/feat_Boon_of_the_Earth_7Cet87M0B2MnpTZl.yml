@@ -1,7 +1,44 @@
 name: Boon of the Earth
 type: feat
 img: icons/magic/earth/strike-fist-stone.webp
-effects: []
+effects:
+  - name: Boon of the Earth
+    img: icons/magic/earth/strike-fist-stone.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7Cet87M0B2MnpTZl
+    _id: GfvFvutT9KiuYVO7
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hp.bonuses.level
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732129608778
+      modifiedTime: 1732129712396
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!7Cet87M0B2MnpTZl.GfvFvutT9KiuYVO7'
 flags:
   betterRolls5e:
     quickDesc:

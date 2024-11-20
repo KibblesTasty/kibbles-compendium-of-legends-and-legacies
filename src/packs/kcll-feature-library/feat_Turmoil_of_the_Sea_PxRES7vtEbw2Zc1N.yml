@@ -18,13 +18,17 @@ flags:
       altValue: true
   core:
     sourceId: Item.xGAojCPFZvpvMtjB
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>Starting at 6th level, whenever you move, knock prone, or reduce the
-      movement speed of a creature with a spell, you can deal bludgeoning damage
-      to them equal to your Charisma modifier. You can deal this damage to a
-      creature once per turn.</p>
+      <p>Starting at 6th level, whenever you use a spell to move, knock prone,
+      or reduce the movement speed of a creature, you can deal bludgeoning
+      damage to them equal to your Charisma modifier. You can deal this damage
+      to a creature once per turn.</p>
     chat: ''
   source:
     rules: '2014'
@@ -38,7 +42,64 @@ system:
     subtype: ''
   requirements: Sea Soul 6
   identifier: turmoil-of-the-sea
-  activities: {}
+  activities:
+    mYc6exj3mpqGskFr:
+      type: damage
+      _id: mYc6exj3mpqGskFr
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@abilities.cha.mod'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -48,9 +109,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317503786
-  modifiedTime: 1727317503786
+  modifiedTime: 1732129074598
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 34600000

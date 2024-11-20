@@ -1,0 +1,58 @@
+name: Melting Mimicry
+type: feat
+img: icons/creatures/slimes/slime-giant-face-eyes.webp
+system:
+  description:
+    value: >-
+      <p>You can absorb the corpse of a Medium or smaller creature, erasing all
+      evidence of it. When you do so, you gain advantage on Charisma (Deception)
+      checks to act to mimic that creature, and can perfectly recreate their
+      features when disguising yourself as them with magic (such as alter self).
+      At your DM’s discretion, you may be able to absorb limited memories or
+      insights into the creature if it was recently deceased (potentially
+      learning its name, minor insights into its final experiences, etc.).</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ooze patron
+  identifier: invocation-melting-mimicry
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.uc4SpqOsbeSKwRE8
+_stats:
+  compendiumSource: Item.uc4SpqOsbeSKwRE8
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317521709
+  modifiedTime: 1732134574910
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 63600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: pXPW2hObdHRieY6E
+_key: '!items!pXPW2hObdHRieY6E'
+

@@ -2,39 +2,49 @@ folder: WRTVyUK3eHm8joQy
 name: The Knowledge Keeper
 type: subclass
 _id: 8PVLCBayQMC6e4oK
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/sundries/books/book-embossed-jewel-gold-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have made a pact with being of ancient knowledge. The actual nature
+      of this being can vary greatly, it can be a Pact with a sentient library,
+      an ancient spirit, or perhaps even a lost god of knowledge. This is a pact
+      for a Warlock that seeks something beyond simple power: they seek
+      knowledge—ancient and unknown knowledge that has once and will again
+      exist.</p><p>You can leverage this knowledge to know things that your
+      mortal peers would consider miracles, delve the secrets that others do not
+      even know exist, and (most importantly) perhaps even understand the
+      philosophical mechanics of existence.</p><h5>Knowledge Keeper Expanded
+      Spells</h5><p>The ancient entity of knowledge you’ve made a pact with lets
+      you choose from an expanded list of spells when you learn a warlock spell.
+      The following spells are added to the warlock spell list for
+      you.</p><table><thead><tr><th>Spell
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>induce
+      headache,
+      @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{identify}</td></tr><tr><td>2nd</td><td>@UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detect
+      thoughts}, @UUID[Compendium.dnd5e.spells.Item.SleYkHovQ8NagmeV]{locate
+      object}</td></tr><tr><td>3rd</td><td>immutability,
+      @UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with
+      dead}</td></tr><tr><td>4th</td><td>@UUID[Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9]{divination},
+      @UUID[Compendium.dnd5e.spells.Item.8sgwRh8NUNkn9Vi0]{secret
+      chest}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.W4Qx5z0id6da0vqg]{legend
+      lore}, field of stars</td></tr></tbody></table><hr /><p>The following are
+      some optional quirks for a player of this Otherworldly Patron to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.dVNPOfVEldSsozkn
+      rollable]</p>
     chat: ''
   identifier: the-knowledge-keeper
   source:
     revision: 1
     rules: '2014'
   advancement:
-    - _id: NJr7Ti3YNfSw1JAm
-      type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 1
-      title: Expanded Spells
-      hint: ''
     - _id: ffvwBfEnlYIcP40n
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.50CGBbNl7tRkuAoC
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,44 +54,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 3
-      title: Expanded Spells
-      hint: ''
-      _id: KGv4vljZJskxs0Kw
-    - type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 5
-      title: Expanded Spells
-      hint: ''
-      _id: g0XD1o79bBXhIO6L
-    - type: ItemGrant
-      configuration:
-        items: []
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sB9eEfN7JosZ2Xg2
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -92,44 +67,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 7
-      title: Expanded Spells
-      hint: ''
-      _id: 011EJS9fTWtapUYP
-    - type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 9
-      title: Expanded Spells
-      hint: ''
-      _id: OwyYLThVGSP4zvae
-    - type: ItemGrant
-      configuration:
-        items: []
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NbEZmYKO6uAcRdAq
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -139,7 +79,10 @@ system:
       _id: HuvjdTlxCWgn5pV2
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MMwdd0zt9Rpw69EZ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -147,6 +90,51 @@ system:
       title: Otherworldly Patron Feature
       hint: ''
       _id: DwL4PqZNv05vHXJz
+    - _id: iAJuG9oorQrQJoiz
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - skills:arc
+              - skills:his
+              - skills:nat
+      value:
+        chosen: []
+      level: 1
+      title: Esoteric Knowledge
+      hint: ''
+    - _id: K4DqUulj0PEa4aS6
+      type: ItemChoice
+      configuration:
+        choices:
+          '10':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+          - uuid: Compendium.dnd5e.classfeatures.Item.lEZKbWaVrSljRa9n
+          - uuid: Compendium.dnd5e.classfeatures.Item.61kXR1sniXHjvN17
+          - uuid: Compendium.dnd5e.classfeatures.Item.bbUEsCPTLzbbwK6o
+        spell: null
+        restriction:
+          type: class
+          subtype: eldritchInvocation
+      value:
+        added: {}
+        replaced: {}
+      title: Seeped in Ancient Knowledge
+      hint: >-
+        Additionally at 10th level, ancient knowledge has seeped so deeply into
+        you, you instinctively draw from the ancient knowledge of your Patron.
+        You gain the eldritch invocation Eyes of the Rune Keeper and it does not
+        count against your Invocations Known. If you already have this
+        invocation, you can select either Beast Speech or Eldritch Sight
+        instead.
   classIdentifier: warlock
   spellcasting:
     progression: none
@@ -164,9 +152,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729041667192
-  modifiedTime: 1729117820973
+  modifiedTime: 1732133333543
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!8PVLCBayQMC6e4oK'
 

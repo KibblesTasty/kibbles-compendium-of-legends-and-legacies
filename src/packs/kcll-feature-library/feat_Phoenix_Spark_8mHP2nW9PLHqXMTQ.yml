@@ -1,7 +1,44 @@
 name: Phoenix Spark
 type: feat
 img: icons/magic/fire/elemental-fire-humanoid.webp
-effects: []
+effects:
+  - name: Phoenix Spark
+    img: icons/magic/fire/elemental-fire-humanoid.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8mHP2nW9PLHqXMTQ
+    transfer: false
+    _id: XqU5fpSPqAtYp5Xi
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732127255072
+      modifiedTime: 1732127282792
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!8mHP2nW9PLHqXMTQ.XqU5fpSPqAtYp5Xi'
 flags:
   betterRolls5e:
     quickDesc:
@@ -38,22 +75,22 @@ flags:
 system:
   description:
     value: >-
-      <p>When you choose this origin at 1st level, spark ignites within you. As
-      a bonus action, you can rekindle that spark which ignites, burning until
-      the start of your next turn. You regain 1d6 hit points, and gain the
-      following benefits while the spark is burning:</p><ul><li><p>You form
-      immaterial wings for fire, allowing you to use your Charisma modifier to
-      calculate jumping distance instead of your Strength modifier, and reducing
-      any fall damage you take by your Charisma ability score. If you reduce
-      fall damage to 0, you don't fall prone. These wings shed bright light for
-      10 feet and dim light for an additional 10 feet.</p></li><li><p>When you
-      roll to deal fire damage or restore hit points with a spell you cast, you
-      can add your Charisma modifier to the amount rolled.</p></li><li><p>You
-      have resistance to fire damage.</p></li></ul><p>You can use this feature a
-      number of times equal to your proficiency bonus, regaining all uses when
-      you complete a long rest. While you have no uses remaining, you can use a
-      Sorcery Point to activate this ability instead of a use of the
-      feature.</p>
+      <p>When you choose this origin at 1st level, a spark ignites within you.
+      As a bonus action, you can rekindle that spark, burning until the start of
+      your next turn. You regain 1d6 hit points, and gain the following benefits
+      while the spark is burning:</p><ul><li><strong>Wings of Flame.</strong>
+      You form immaterial wings for fire, allowing you to use your Charisma to
+      calculate jumping distance instead of your Strength, and reducing any fall
+      damage you take by your Charisma ability score. If you reduce fall damage
+      to 0, you don’t fall prone. These wings shed bright light for 10 feet and
+      dim light for an additional 10 feet.</li><li><strong>Phoenix
+      Fire.</strong> When you roll to deal fire damage or restore hit points
+      with a spell you cast, you can add your Charisma modifier to one
+      roll.</li><li><strong>Fire Resistance.</strong> You have resistance to
+      fire damage.</li></ul><p>You can use this feature a number of times equal
+      to your proficiency bonus, regaining all uses when you complete a long
+      rest. While you have no uses remaining, you can use one sorcery point to
+      activate this ability instead of a use of the feature.</p>
     chat: ''
   source:
     custom: Phoenix Spark
@@ -70,64 +107,90 @@ system:
     subtype: ''
   requirements: Phoenix Spark 1
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    DTdXnTGpXfzixavp:
+      type: heal
+      name: Rekindle Spark
+      _id: DTdXnTGpXfzixavp
+      sort: 0
       activation:
-        type: special
-        value: 0
-        condition: ''
+        type: bonus
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        units: ''
-        special: ''
         override: false
-      effects: []
+      effects:
+        - _id: XqU5fpSPqAtYp5Xi
       range:
-        units: ''
-        special: ''
         override: false
+        units: self
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
+          choice: false
           count: ''
           type: ''
-          choice: false
-          special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+        max: ''
+      healing:
+        number: 1
+        denomination: '6'
+        types: []
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+    aM3SPEMZZ3MXoS7A:
+      type: forward
+      name: Sorcery Points
+      _id: aM3SPEMZZ3MXoS7A
       sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: DTdXnTGpXfzixavp
+      img: ''
   identifier: phoenix-spark
   enchant: {}
   prerequisites:
@@ -138,9 +201,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317491570
-  modifiedTime: 1727317491570
+  modifiedTime: 1732127304216
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 15300000

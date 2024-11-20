@@ -39,13 +39,13 @@ system:
   description:
     value: >-
       <p>Starting at 6th level, when you cast a spell that deals fire damage to
-      creatures that you can see, you can expend 1 sorcery point per creature to
-      protect creatures of your choice that would be affected from the flames.
-      The chosen creatures automatically succeed any saving throws against the
-      spell, and instead of taking fire damage regain hit points equal to half
-      the fire damage they would have taken from the spell a failed save or
-      hit.</p><p>Once you do so, you cannot do so again until you complete a
-      short or long rest.</p>
+      creatures that you can see, you can expend one sorcery point per creature
+      to protect creatures of your choice that would be affected from the
+      flames. The chosen creatures automatically succeed any saving throws
+      against the spell, and instead of taking fire damage, they regain hit
+      points equal to half the fire damage they would have taken from the spell
+      a failed save or hit.</p><p>Once you do so, you cannot do so again until
+      you complete a short or long rest.</p>
     chat: ''
   source:
     custom: Phoenix Spark
@@ -73,25 +73,30 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
+            target: ''
             scaling:
               mode: ''
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            scaling:
+              mode: amount
               formula: ''
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
       description:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: spec
         special: ''
         override: false
       target:
@@ -104,8 +109,8 @@ system:
           height: ''
           units: ''
         affects:
-          count: ''
-          type: ''
+          count: '@scaling'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -120,6 +125,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: rejuvenating-flames
   enchant: {}
   prerequisites:
@@ -130,9 +138,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317518170
-  modifiedTime: 1727317518170
+  modifiedTime: 1732127434403
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57600000

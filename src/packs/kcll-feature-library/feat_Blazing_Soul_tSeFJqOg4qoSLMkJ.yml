@@ -1,7 +1,44 @@
 name: Blazing Soul
 type: feat
 img: icons/magic/fire/projectile-smoke-swirl-red.webp
-effects: []
+effects:
+  - name: Blazing Soul
+    img: icons/magic/fire/projectile-smoke-swirl-red.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tSeFJqOg4qoSLMkJ
+    transfer: false
+    _id: EEHzapqyHgvSgNxe
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '30'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732127547824
+      modifiedTime: 1732127571690
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!tSeFJqOg4qoSLMkJ.EEHzapqyHgvSgNxe'
 flags:
   betterRolls5e:
     quickDesc:
@@ -23,21 +60,26 @@ flags:
       value: true
   core:
     sourceId: Item.Dyv57zREN0j3aRbc
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 14th level, when you activate a Phoenix Spark you can
-      expend a second use of the feature (or a sorcery point) to enhance the
+      expend a second use of the feature (or one sorcery point) to enhance the
       power of the spark for that activation. When you do so it lasts for 1
       minute. Additionally, the spark intensifies, giving you the additional
-      effects for the duration:</p><ul><li><p>Your immaterial wings of fire
-      solidify, and you gain a flying speed of 30 feet during the duration of
-      the spark.</p></li><li><p>You regain 1d6 hit points at the start of each
-      of your turns while under the effect.</p></li><li><p>If a creature hits
+      effects for the duration:</p><ul><li><strong>Wings of Fire.</strong> Your
+      immaterial wings of fire solidify, and you gain a flying speed of 30 feet
+      during the duration of the spark.</li><li><strong>Regeneration.</strong>
+      You regain 1d6 hit points at the start of each of your turns while under
+      the effect.</li><li><strong>Flaming Aura.</strong> If a creature hits you
       with an attack while within 5 feet of you, you can use your reaction to
       burn them with the flames, dealing 2d6 fire damage to
-      them.</p></li><li><p>You shed bright light in a 20 foot radius, and dim
-      light for an additional 20 feet.</p></li></ul>
+      them.</li><li><strong>Shed Light.</strong> You shed bright light in a 20
+      foot radius, and dim light for an additional 20 feet.</li></ul>
     chat: ''
   source:
     rules: '2014'
@@ -51,7 +93,200 @@ system:
     subtype: ''
   requirements: Phoenix Spark 14
   identifier: blazing-soul
-  activities: {}
+  activities:
+    gllUFRlHecDIMmUu:
+      type: utility
+      name: Enhance Spark
+      _id: gllUFRlHecDIMmUu
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8mHP2nW9PLHqXMTQ
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: EEHzapqyHgvSgNxe
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    3Dx3zxTkfb1tlh04:
+      type: forward
+      name: Sorcery Points
+      _id: 3Dx3zxTkfb1tlh04
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: gllUFRlHecDIMmUu
+      img: ''
+    BGAfTyzdyP0UcMJq:
+      type: heal
+      name: Regeneration
+      _id: BGAfTyzdyP0UcMJq
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 1
+        denomination: '6'
+        types: []
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+    mixjG19Y7NYQ71AG:
+      type: damage
+      name: Flaming Aura
+      _id: mixjG19Y7NYQ71AG
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: A creature hits you with an attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -61,9 +296,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317523676
-  modifiedTime: 1727317523676
+  modifiedTime: 1732127641586
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 67000000

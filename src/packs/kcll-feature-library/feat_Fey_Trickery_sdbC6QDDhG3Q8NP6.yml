@@ -1,0 +1,115 @@
+name: Fey Trickery
+type: feat
+_id: sdbC6QDDhG3Q8NP6
+img: icons/magic/nature/leaf-hand-green.webp
+system:
+  activities:
+    AtfaVd4tUYmvPCM2:
+      type: utility
+      name: Illusory Trick
+      _id: AtfaVd4tUYmvPCM2
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@prof'
+  description:
+    value: >-
+      <p>You learn the
+      @UUID[Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU]{minor illusion}
+      cantrip. It does not count against your cantrips
+      known.</p><p>Additionally, you are adept at illusory tricks, gaining the
+      ability to befuddle, trick and baffle people with your magic. As a bonus
+      action, you can do any of the following:</p><ul><li><strong>Minor
+      Illusions.</strong> You can cast minor illusion.</li><li><strong>Obscuring
+      Tricks.</strong> Make a creature of your choice (including yourself)
+      within 30 feet &amp;Reference[invisible] or &amp;Reference[heavily
+      obscured] by an illusion until the start of its next
+      turn.</li><li><strong>Glamorous Presence.</strong> Gain advantage on a
+      Deception, Intimidation, Performance, or Persuasion check, gaining a
+      grander presence through your illusions.</li></ul><p>You can do this a
+      number of times equal to your proficiency bonus, regaining all uses when
+      you complete a long rest</p>
+    chat: ''
+  identifier: fey-trickery
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732124818229
+  modifiedTime: 1732125011669
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!sdbC6QDDhG3Q8NP6'
+

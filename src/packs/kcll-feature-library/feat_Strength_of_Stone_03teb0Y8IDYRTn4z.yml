@@ -98,6 +98,59 @@ effects:
     statuses: []
     sort: 0
     _key: '!items.effects!03teb0Y8IDYRTn4z.cLLJuiLlVt9PnWnu'
+  - name: Strength of Stone
+    img: icons/magic/earth/strike-fist-stone-gray.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.03teb0Y8IDYRTn4z
+    transfer: false
+    _id: aDCSQPuMTF0ww25R
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '@prof'
+        priority: null
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '@prof'
+        priority: null
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '@prof'
+        priority: null
+      - key: system.attributes.ac.calc
+        mode: 2
+        value: custom
+        priority: null
+      - key: system.attributes.ac.formula
+        mode: 2
+        value: 13 + @abilities.cha.mod
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732129780621
+      modifiedTime: 1732129854981
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!03teb0Y8IDYRTn4z.aDCSQPuMTF0ww25R'
 flags:
   betterRolls5e:
     quickDesc:
@@ -138,17 +191,19 @@ system:
       your magical power to draw fortitude from the earth beneath your feet. As
       a bonus action, you can bolster your strength, gaining the following
       benefits for 1 minute, ending early if you become incapacitated or you end
-      it as a bonus action.</p><ul><li><p>Your can use your Charisma modifier in
-      place of your Strength modifier for attacks rolls, damage rolls, and
-      ability checks.</p></li><li><p>Your skin assumes a stony appearance. If
-      you are not wearing armor, your AC equals 13 + your Charisma
-      modifier.</p></li><li><p>You form a stone aegis around yourself reducing
-      bludgeoning, piercing, and slashing damage taken by your proficiency
-      bonus.</p></li></ul><p>You can cast stone forming as part of the same
-      bonus action used to activate this ability. You can use this ability a
-      number of times equal to your Proficiency bonus. If you have no uses
-      remaining, you can use it again by a sorcery point. You regain all
-      expended uses of this ability when you complete a long rest.</p>
+      it as a bonus action.</p><ul><li><strong>Stone Strength.</strong> You can
+      use your Charisma modifier in place of your Strength modifier for attack
+      rolls, damage rolls, and ability checks.</li><li><strong>Stone
+      Hide.</strong> Your skin assumes a stony appearance. If you are not
+      wearing armor, your AC equals 13 + your Charisma
+      modifier.</li><li><strong>Stone Aegis,</strong> You form a stone aegis
+      around yourself, reducing bludgeoning, piercing, and slashing damage taken
+      by your proficiency bonus.</li></ul><p>You can cast stone forming as part
+      of the same bonus action used to activate this ability. You can use this
+      ability a number of times equal to your proficiency bonus. If you have no
+      uses remaining, you can use it again by expending a sorcery point. You
+      regain all expended uses of this ability when you complete a long
+      rest.</p>
     chat: ''
   source:
     custom: Stoneheart
@@ -193,7 +248,8 @@ system:
         units: minute
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: aDCSQPuMTF0ww25R
       range:
         units: self
         special: ''
@@ -234,9 +290,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317485002
-  modifiedTime: 1727317485002
+  modifiedTime: 1732129780668
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 5400000

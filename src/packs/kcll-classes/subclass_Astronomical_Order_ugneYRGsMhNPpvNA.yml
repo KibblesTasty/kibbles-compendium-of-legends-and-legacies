@@ -2,10 +2,22 @@ folder: ie9aF24gRdWR7Wnl
 name: Astronomical Order
 type: subclass
 _id: ugneYRGsMhNPpvNA
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>The Astronomical Order are Wizards that specialize in the study of the
+      celestial bodies and their movements, interpreting mystical meaning and
+      understanding aspects of nature and magic from their order. They draw on
+      the stars and the insights they glean from these celestial mysteries
+      empower their magic.</p><p>Often found buried in star charts and ancient
+      tomes, they seek to delve into the secrets of ancient skies and uncover
+      new insights into the infinite depths above.</p><hr /><p>The following are
+      some optional quirks for a player of this Order to choose from—these can
+      be either preexisting, signaling their fated path toward this Order, or
+      appear after they select this
+      Order.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.DcAg6ZQAgIfz8XHf
+      rollable]</p>
     chat: ''
   identifier: astronomical-order
   source:
@@ -15,7 +27,13 @@ system:
     - _id: UyPgcaeVdlC3ps69
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EMqcXSNFACz1Dcvz
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fUM2qr7TxgYZmXs7
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -24,7 +42,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2lAk2kzLBXXo4tsa
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -34,7 +55,10 @@ system:
       _id: sXWTqzLmKrUyKwQn
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EJuJ3ac3gjDGzYav
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +68,10 @@ system:
       _id: qJueaUlrzv7IxCF1
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2SIGv5lpHtw33lNe
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -69,9 +96,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729041717511
-  modifiedTime: 1729118045387
+  modifiedTime: 1732135462467
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ugneYRGsMhNPpvNA'
 

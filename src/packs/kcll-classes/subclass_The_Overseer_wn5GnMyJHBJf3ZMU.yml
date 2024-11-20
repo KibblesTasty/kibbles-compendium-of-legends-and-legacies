@@ -2,39 +2,51 @@ folder: WRTVyUK3eHm8joQy
 name: The Overseer
 type: subclass
 _id: wn5GnMyJHBJf3ZMU
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/creatures/eyes/void-single-black-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have made a pact with an all seeing being of the outer planes: an
+      infamous creature whose very name is forbidden from being put to text by
+      almighty coastal wizards, most known for its all seeing eyes, great
+      paranoia, and reality warping dreams. The nature of your pact may be down
+      to madness (yours, its, or both), or working toward some greater scheme of
+      such brilliance that lesser minds cannot hope to
+      comprehend.</p><h5>Overseer Expanded Spells</h5><p>The Overseer lets you
+      choose from an expanded list of spells when you learn a Warlock spell. The
+      following spells are added to the Warlock spell list for
+      you.</p><table><thead><tr><th>Spell
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku]{sleep},
+      tranquil
+      moment</td></tr><tr><td>2nd</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{blindness/deafness},
+      @UUID[Compendium.dnd5e.spells.Item.DQzlB5Y3k791W5bH]{see
+      invisibility}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.cg50KpBkBdPK6vPL]{clairvoyance},
+      @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{slow}</td></tr><tr><td>4th</td><td>@UUID[Compendium.dnd5e.spells.Item.ImlCJQwR1VL40Qem]{arcane
+      eye},
+      @UUID[Compendium.dnd5e.spells.Item.7Fw7Bf1k3xxDVr5L]{fabricate}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.lnaGnxMzpYnbw1uU]{creation},
+      @UUID[Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ]{telekinesis}</td></tr></tbody></table><h5>Additional
+      Invocations</h5><p>When you select The Overseer as your otherworldly
+      patron, the following become additional options for your Warlock
+      invocation
+      selections.</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jFkrD0fiRmj8zqpb]{Controlled
+      Chaos}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vHp6QTfGwhp1XboR]{Overseer's
+      Sight}</p><hr /><p>The following are some optional quirks for a player of
+      this Otherworldly Patron to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.2b9kGOceMDTBt13Q
+      rollable]</p>
     chat: ''
   identifier: the-overseer
   source:
     revision: 1
     rules: '2014'
   advancement:
-    - _id: NJr7Ti3YNfSw1JAm
-      type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 1
-      title: Expanded Spells
-      hint: ''
     - _id: ffvwBfEnlYIcP40n
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qIBYC7yXp3qEQrAt
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,44 +56,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 3
-      title: Expanded Spells
-      hint: ''
-      _id: KGv4vljZJskxs0Kw
-    - type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 5
-      title: Expanded Spells
-      hint: ''
-      _id: g0XD1o79bBXhIO6L
-    - type: ItemGrant
-      configuration:
-        items: []
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hQkiQVtvbFnqsTVO
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -92,44 +69,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 7
-      title: Expanded Spells
-      hint: ''
-      _id: 011EJS9fTWtapUYP
-    - type: ItemGrant
-      configuration:
-        items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx
-        optional: false
-        spell:
-          ability:
-            - cha
-          preparation: pact
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-      value: {}
-      level: 9
-      title: Expanded Spells
-      hint: ''
-      _id: OwyYLThVGSP4zvae
-    - type: ItemGrant
-      configuration:
-        items: []
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.To4DUDglJpWrPlym
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -139,7 +81,10 @@ system:
       _id: HuvjdTlxCWgn5pV2
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fprcgY4EL2jHgtFi
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -164,9 +109,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729041675201
-  modifiedTime: 1729117843032
+  modifiedTime: 1732133865969
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wn5GnMyJHBJf3ZMU'
 

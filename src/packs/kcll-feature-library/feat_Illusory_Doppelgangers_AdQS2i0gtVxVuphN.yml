@@ -1,0 +1,153 @@
+name: Illusory Doppelgangers
+type: feat
+_id: AdQS2i0gtVxVuphN
+img: icons/magic/control/silhouette-hold-change-green.webp
+system:
+  activities:
+    yfWy2bOiPyioBjwM:
+      type: utility
+      name: Create Duplicate
+      _id: yfWy2bOiPyioBjwM
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '3'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+          - type: itemUses
+            value: '0'
+            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            scaling:
+              mode: amount
+              formula: '2'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    DxxksvPkMsTLbMV9:
+      type: forward
+      name: Sorcery Points
+      _id: DxxksvPkMsTLbMV9
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: yfWy2bOiPyioBjwM
+      img: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>At 18th level, as a bonus action you can create an illusory duplicate
+      of yourself at a point within 30 feet. The duplicate’s AC equals 10 + your
+      Dexterity modifier, and if targeted with an effect that forces a save, it
+      uses your saving throws. If an attack hits a duplicate or it fails a
+      saving throw that would cause it to take damage the duplicate is
+      destroyed. It ignores all other damage and effects, but an effect that
+      would otherwise cause it to take damage reveals it to be a duplicate. The
+      duplicate mimics your action and is indistinguishable from you until you
+      attack, cast a spell, or take damage. The duplicate looks real even to
+      creatures with blindsight or truesight.</p><p>When you create the
+      duplicate, you can expend 2 sorcery points to create an additional
+      duplicate, creating up to 3 duplicates.</p><p>At the end of each of your
+      turns while a duplicate exists, you can switch places with any active
+      duplicate within 120 feet, leaving no trace of which one is real until you
+      attack, cast a spell, or take damage.</p><p>Once you use this feature, you
+      cannot use it again until you complete a short or long rest. You can use
+      it again early by expending 2 sorcery points.</p>
+    chat: ''
+  identifier: illusory-doppelgangers
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732125270034
+  modifiedTime: 1732125754280
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!AdQS2i0gtVxVuphN'
+

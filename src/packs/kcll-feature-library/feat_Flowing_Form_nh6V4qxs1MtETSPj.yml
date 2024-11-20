@@ -4,17 +4,13 @@ img: icons/creatures/slimes/slime-movement-pseudopods-blue.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">At 1st level, as a bonus
-      action you can briefly completely assume a form akin to your patron. Until
-      the start of your next turn, your body becomes elastic and amorphous,
+      <p>At 1st level, as a bonus action you can briefly completely assume a
+      form akin to your patron. Until the start of your next turn, your body and
+      every object you are wearing and carrying becomes elastic and amorphous,
       allowing you to pass through gaps as narrow as one inch and granting
       immunity to the grappled and restrained conditions (freeing you if you are
-      currently affected by them).</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Once you do this, you cannot do so
-      again until you complete a short or long rest.</span></p>
+      currently affected by them).</p><p>Once you do this, you cannot do so
+      again until you complete a short or long rest.</p>
     chat: ''
   source:
     custom: The Ooze
@@ -42,11 +38,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -55,12 +49,13 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: round
         special: ''
         override: false
+        value: '1'
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -89,6 +84,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: flowing-form
   enchant: {}
   prerequisites:
@@ -115,9 +113,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317520183
-  modifiedTime: 1727317520183
+  modifiedTime: 1732141998598
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 61000000

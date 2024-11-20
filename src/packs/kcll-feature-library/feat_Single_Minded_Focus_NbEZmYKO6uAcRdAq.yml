@@ -1,7 +1,7 @@
 name: Single-Minded Focus
 type: feat
 _id: NbEZmYKO6uAcRdAq
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
 system:
   activities: {}
   uses:
@@ -9,7 +9,11 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Starting at 10th level, when you make a constitution saving throw to
+      maintain concentration on a Divination school spell, you automatically
+      pass the saving throw. If you are concentrating on a spell from another
+      school, you can add your spellcasting modifier to the result.</p>
     chat: ''
   identifier: single-minded-focus
   source:
@@ -23,7 +27,44 @@ system:
     level: null
   properties: []
   requirements: ''
-effects: []
+effects:
+  - name: Single-Minded Focus
+    img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NbEZmYKO6uAcRdAq
+    _id: OOc9MoT9uuVBCUPK
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.concentration.bonuses.save
+        mode: 2
+        value: '@abilities.cha.mod'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732141653239
+      modifiedTime: 1732141663310
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!NbEZmYKO6uAcRdAq.OOc9MoT9uuVBCUPK'
 folder: null
 sort: 0
 ownership:
@@ -37,7 +78,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732133028457
-  modifiedTime: 1732133337910
+  modifiedTime: 1732141650159
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!NbEZmYKO6uAcRdAq'
 

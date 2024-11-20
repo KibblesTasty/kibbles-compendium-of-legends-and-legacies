@@ -1,15 +1,75 @@
 name: Astral Orrery
 type: feat
 _id: EMqcXSNFACz1Dcvz
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/symbols/runes-triangle-magenta.webp
 system:
-  activities: {}
+  activities:
+    92b86eXktzki3Jiq:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties: []
+        spellbook: true
+      _id: 92b86eXktzki3Jiq
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Starting at 2nd level, you can invoke a special ritual as an action,
+      creating an ethereal orrery representing an accurate real time star chart
+      around you, even during the day or underground. While surrounded by your
+      Astral Orrery, you are able to see the positions of the stars and
+      celestial bodies in great detail, even during the day, and gain the
+      following abilities:</p><ul><li><strong>North Star.</strong> You can
+      determine which direction is north and what time of day it
+      is.</li><li><strong>Celestial Navigation.</strong> You can gain advantage
+      or grant advantage to another creature on making Wisdom (Survival) checks
+      to determine your location,</li><li><strong>Read the Heavens.</strong> You
+      can cast the @UUID[Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd]{augury}
+      spell as a ritual, consulting astral omens, even without having the spell
+      known or prepared.</li></ul><p>This ability may have unpredictable results
+      or not function as expected when used on planes other than the material.
+      This ethereal orrery lasts until you dismiss it (no action required) or
+      move.</p>
     chat: ''
   identifier: astral-orrery
   source:
@@ -29,7 +89,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -37,7 +101,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732135358378
-  modifiedTime: 1732135383742
+  modifiedTime: 1732144310997
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!EMqcXSNFACz1Dcvz'
 

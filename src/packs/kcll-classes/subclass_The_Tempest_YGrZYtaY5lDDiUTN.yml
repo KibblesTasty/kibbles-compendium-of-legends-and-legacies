@@ -50,14 +50,23 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: >-
+          - optional: false
+            uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9kdtnB6r6S8aWnZs
-            optional: false
-          - uuid: >-
+          - optional: false
+            uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cDWvCYzHvsUrhYCd
-            optional: false
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.ehvmg9U9fcMEhE4z
         optional: false
-        spell: null
+        spell:
+          ability:
+            - cha
+          preparation: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
       value: {}
       level: 6
       title: Otherworldly Patron Feature
@@ -108,7 +117,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729041686579
-  modifiedTime: 1732135141048
+  modifiedTime: 1732143602514
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!YGrZYtaY5lDDiUTN'
 

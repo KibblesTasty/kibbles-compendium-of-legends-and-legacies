@@ -1,7 +1,7 @@
 name: Celestial Canvas
 type: feat
 _id: 2SIGv5lpHtw33lNe
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/symbols/runes-star-pentagon-magenta.webp
 system:
   activities: {}
   uses:
@@ -9,7 +9,10 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Starting at 14th level, you can form and maintain an additional
+      Constellation using your Star Motes before the last created Constellation
+      is removed.</p>
     chat: ''
   identifier: celestial-canvas
   source:
@@ -37,7 +40,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732135452934
-  modifiedTime: 1732135465250
+  modifiedTime: 1732144345714
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!2SIGv5lpHtw33lNe'
 

@@ -4,9 +4,9 @@ img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 system:
   description:
     value: >-
-      <p><em>Prerequisite: The Overseer subclass, 15th level</em></p><p>You gain
-      truesight with a range of 30 feet. This range is doubled while you have a
-      spectral eye manifested from Lingering Gaze.</p>
+      <p>You gain &amp;Reference[truesight] with a range of 30 feet. This range
+      is doubled while you have a spectral eye manifested from Lingering
+      Gaze.</p>
     chat: ''
   source:
     rules: '2014'
@@ -16,16 +16,53 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: The Overseer 15
+    value: class
+    subtype: eldritchInvocation
+  requirements: Overseer patron
   identifier: overseers-sight
   activities: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 15
   properties: []
-effects: []
+effects:
+  - name: Overseer's Sight
+    img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vHp6QTfGwhp1XboR
+    _id: 3VxRTSCb6VFj3L9d
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.truesight
+        mode: 4
+        value: '30'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732143136245
+      modifiedTime: 1732143167649
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!vHp6QTfGwhp1XboR.3VxRTSCb6VFj3L9d'
 flags:
   rsr5e:
     quickDesc:
@@ -39,9 +76,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317525386
-  modifiedTime: 1727317525386
+  modifiedTime: 1732143134177
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 70000000

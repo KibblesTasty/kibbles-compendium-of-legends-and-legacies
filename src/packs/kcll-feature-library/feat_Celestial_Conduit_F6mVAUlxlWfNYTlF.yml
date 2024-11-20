@@ -61,14 +61,14 @@ system:
       consumption:
         targets: []
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
+          max: '9'
         spellSlot: true
       description:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
@@ -98,17 +98,21 @@ system:
         recovery: []
       healing:
         number: null
-        denomination: null
+        denomination: ''
         bonus: ''
-        types: []
+        types:
+          - temphp
         custom:
-          enabled: false
-          formula: ''
+          enabled: true
+          formula: '@abilities.int.mod + @scaling'
         scaling:
           mode: whole
           number: null
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: celestial-conduit
   enchant: {}
   prerequisites:
@@ -119,9 +123,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317496506
-  modifiedTime: 1727317496506
+  modifiedTime: 1732144172557
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 22800000

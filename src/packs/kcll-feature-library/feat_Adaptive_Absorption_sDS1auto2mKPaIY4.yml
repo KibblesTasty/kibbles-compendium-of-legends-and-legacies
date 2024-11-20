@@ -4,20 +4,17 @@ img: icons/creatures/slimes/slime-movement-swirling-green.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Starting at 1st level
-      when you make the pact, as a reaction to taking damage you can manipulate
-      your body gaining resistance to the damage type of the attack until the
-      start of your next turn. If the trigger of the reaction is being struck by
-      a melee weapon, you can force the attacker to make a Strength saving throw
-      against your spell save DC. On failure, their weapon becomes stuck,
-      forcing them to either release it, or become grappled by you (their
-      choice).</span></p><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">You can do this a number of times
-      equal to your proficiency bonus, regaining all uses when you complete a
-      long rest.</span></p>
+      <p>Starting at 1st level when you make the pact, as a reaction to taking
+      damage you can manipulate your body gaining resistance to the damage type
+      of the attack until the start of your next turn. If the trigger of the
+      reaction is taking damage from a melee weapon attack, you can force the
+      attacker to make a Strength saving throw against your spell save DC. On
+      failure, their weapon becomes stuck, forcing them to either release it, or
+      become &amp;Reference[grappled] by you (their choice). As an action they
+      can repeat the saving throw to retrieve a stuck weapon. You can release
+      stuck weapons at any time (no action required).</p><p>You can use this
+      feature a number of times equal to you proficiency bonus, regaining all
+      uses when you complete a long rest</p>
     chat: ''
   source:
     custom: The Ooze
@@ -34,65 +31,61 @@ system:
     subtype: ''
   requirements: The Ooze 1
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    FcQ6NqdVKBxomZPd:
+      type: save
+      _id: FcQ6NqdVKBxomZPd
+      sort: 0
       activation:
         type: reaction
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: You take damage
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        value: '1'
-        units: round
-        special: ''
         override: false
       effects: []
       range:
+        override: false
         units: self
         special: ''
-        override: false
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: self
           choice: false
-          special: ''
-        prompt: true
+          count: ''
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: adaptive-absorption
   enchant: {}
   prerequisites:
@@ -119,9 +112,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317523051
-  modifiedTime: 1727317523051
+  modifiedTime: 1732141954130
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 65800000

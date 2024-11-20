@@ -4,25 +4,84 @@ img: icons/magic/perception/eye-slit-pink.webp
 system:
   description:
     value: >-
-      <p>Starting at 14th level, you can conjure the full power of you patrons
-      magic suppressing eye. As an action, you manifest a giant spectral eye
-      which creates an antimagic field (as per the spell) in a 150 foot cone
-      until the start of your next turn.</p><p>Once you use this feature, you
-      can’t use it again until you finish a long rest.</p>
+      <p>Starting at 14th level, you can conjure the full power of your patron’s
+      magic suppressing eye. As an action, you manifest a giant spectral eye in
+      your space which creates an
+      @UUID[Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ]{antimagic field} (as
+      per the spell) in a 150 foot cone until the start of your next turn. This
+      eye does not move from the space it was manifested in.</p><p>Once you use
+      this feature, you can’t use it again until you finish a long rest.</p>
     chat: ''
   source:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
     value: ''
     subtype: ''
   requirements: ''
   identifier: suppressors-sight
-  activities: {}
+  activities:
+    l6g78YKQXaiSEvHJ:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '8'
+        properties: []
+        spellbook: true
+      _id: l6g78YKQXaiSEvHJ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: true
+        value: '1'
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '150'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -36,14 +95,18 @@ flags:
       value: true
   core:
     sourceId: Item.9X6DgwW4btZ60cxZ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.9X6DgwW4btZ60cxZ
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317514925
-  modifiedTime: 1727317514925
+  modifiedTime: 1732143042176
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 52200000

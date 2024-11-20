@@ -1,15 +1,75 @@
 name: Magical Mechanics
 type: feat
 _id: sB9eEfN7JosZ2Xg2
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/symbols/runes-star-blue.webp
 system:
-  activities: {}
+  activities:
+    Xd81alNgPjj9O4kg:
+      type: check
+      name: Identify Spell
+      _id: Xd81alNgPjj9O4kg
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You see a spell being cast
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - arc
+        dc:
+          calculation: ''
+          formula: ''
+        ability: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Starting at 6th level, your understanding of the mechanics behind
+      magical effects and the cosmic forces are developed enough that if you see
+      a spell being cast, you can use your reaction to make an Arcana check to
+      know what the spell is. If the spell you identify with this check would
+      force you to make a saving throw, you can make that saving throw with
+      advantage.</p><p>Additionally, your comprehension of magic allows you to
+      access magic that is beyond your power, but not beyond your knowledge. You
+      can cast from a Spell Scroll even if the spell isn’t on your spell list,
+      and you can add your proficiency bonus to the ability check to
+      successfully cast from a Spell Scroll.</p>
     chat: ''
   identifier: magical-mechanics
   source:
@@ -29,7 +89,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -37,7 +101,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732133003245
-  modifiedTime: 1732133016614
+  modifiedTime: 1732141590648
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!sB9eEfN7JosZ2Xg2'
 

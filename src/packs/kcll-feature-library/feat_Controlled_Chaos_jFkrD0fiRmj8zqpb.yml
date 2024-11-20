@@ -4,9 +4,10 @@ img: icons/sundries/gaming/dice-pair-white-green.webp
 system:
   description:
     value: >-
-      <p>Prerequisite: The Overseer subclass</p><p>When you roll on the Eye Ray
-      Effects table, you can roll twice and choose between the two effects. If
-      you roll the same value on both dice, you can pick any effect from the
+      <p>When you roll on the
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.HVtsr0Ll1NO61TZF]{Eye
+      Ray Effects table}, you can roll twice and choose between the two effects.
+      If you roll the same value on both dice, you can pick any effect from the
       table.</p>
     chat: ''
   source:
@@ -17,9 +18,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: The Overseer
+    value: class
+    subtype: eldritchInvocation
+  requirements: Overseer patron
   identifier: controlled-chaos
   activities: {}
   enchant: {}
@@ -40,9 +41,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317517467
-  modifiedTime: 1727317517467
+  modifiedTime: 1732143190513
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 56400000

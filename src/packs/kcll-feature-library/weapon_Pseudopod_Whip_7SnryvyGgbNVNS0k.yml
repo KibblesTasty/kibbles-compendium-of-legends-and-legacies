@@ -26,7 +26,7 @@ system:
     denomination: gp
   attunement: ''
   equipped: false
-  rarity: common
+  rarity: ''
   identified: true
   cover: null
   crewed: false
@@ -79,8 +79,8 @@ system:
   unidentified:
     description: ''
   type:
-    value: simpleM
-    baseItem: ''
+    value: martialM
+    baseItem: whip
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -180,7 +180,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317490579
-  modifiedTime: 1732134702593
+  modifiedTime: 1732141853352
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 13800000

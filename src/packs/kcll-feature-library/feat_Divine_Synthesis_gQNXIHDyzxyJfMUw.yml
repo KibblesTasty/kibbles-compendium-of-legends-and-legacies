@@ -22,16 +22,13 @@ system:
   description:
     value: >-
       <p>Starting at 14th level, your research into the synthesis of divine and
-      arcane reveals to a greater harmony of power. When you cast a 1st level or
-      higher spell an arcane spell (a spell from the Wizard spell list) or a
-      divine spell (a spell from the Cleric spell list) as your action, you can
-      cast a 1st level or higher spell from the other list with a casting time
-      of an action or bonus action as a bonus action (regardless of its casting
-      time). This ignores bypasses the rules of bonus action spells and leveled
-      spells on your turn.</p>
-
-      <p>The total level of the two spells combined cannot exceed your half your
-      Wizard level (rounded down).</p>
+      arcane reveals to you a greater harmony of power. When you cast a 1st
+      level or higher spell from the Wizard spell list or a spell from the
+      Cleric spell list as your action, you can cast a 1st level or higher spell
+      from the other list with a casting time of an action or bonus action as a
+      bonus action (regardless of its casting time).</p><p>The total level of
+      the two spells combined cannot exceed your half your Wizard level (rounded
+      down).</p>
     chat: ''
   source:
     rules: '2014'
@@ -55,9 +52,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317515363
-  modifiedTime: 1727317515363
+  modifiedTime: 1732144211274
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53000000

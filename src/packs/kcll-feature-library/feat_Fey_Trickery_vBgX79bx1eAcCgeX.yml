@@ -33,14 +33,12 @@ system:
     value: >-
       <p>Starting at 6th level, the touch of fey illusions and glamour on leave
       things never quite as they seem. As an action, or as a reaction when you
-      take damage, you can turn invisible and teleport up to 60 feet to an
-      unoccupied space you can see. you remain invisible until the start of your
-      next or cast a spell. When you do so, you can choose to leave behind a
-      mirror image yourself. If this mirror takes any damage, it vanishes into a
-      puff of mist.</p>
-
-      <p>Once you use this feature, you can't use it again until you finish a
-      short or long rest.</p>
+      take damage, you can turn &amp;Reference[invisible] and teleport up to 60
+      feet to an unoccupied space you can see. You remain invisible until the
+      start of your next or cast a spell. When you do so, you can choose to
+      leave behind a mirror image yourself. If this mirror takes any damage, it
+      vanishes into a puff of mist.</p><p>Once you use this feature, you can’t
+      use it again until you finish a short or long rest.</p>
     chat: ''
   source:
     custom: The Fey
@@ -68,11 +66,9 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -115,6 +111,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: Teleport
+      img: ''
+      appliedEffects: []
   identifier: fey-trickery
   enchant: {}
   prerequisites:
@@ -125,9 +124,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317525277
-  modifiedTime: 1727317525277
+  modifiedTime: 1732141170450
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 69800000

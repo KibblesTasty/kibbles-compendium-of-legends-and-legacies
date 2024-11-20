@@ -56,7 +56,41 @@ flags:
     sourceId: Item.OEmuJTbBEqK176W1
 system:
   description:
-    value: "<h4 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic\">Elemental Magic</h4>\n<h4 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-acid-black-copper\"><em>Prerequisite: Dragon patron, Pact of the Tome</em></h4>\n<p>You gain the following spells at the following levels based on the damage type selected for the Draconic Blast. They are warlock spells for you, and do not count against your spells known.</p>\n<h4 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-acid-black-copper\">Acid (Black / Copper)</h4>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>caustic brew</em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>acid arrow</em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>erode<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>vitriolic sphere</em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>acid rain<sup>K</sup></em></td>\n</tr>\n</tbody>\n</table>\n<section id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-lightning-blue-bronze\">\n<h5 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-lightning-blue-bronze\">Lightning (Blue / Bronze)</h5>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>lightning tendril<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>crackle<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>lightning bolt</em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>jumping jolt<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>sky burst<sup>K</sup></em></td>\n</tr>\n</tbody>\n</table>\n</section>\n<section id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-fire-red-gold-brass\">\n<h5 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-fire-red-gold-brass\">Fire (Red / Gold / Brass)</h5>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>burning hands</em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>aganazar's scorcher</em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>fireball</em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>wall of fire</em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>immolation</em></td>\n</tr>\n</tbody>\n</table>\n</section>\n<section id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-poison-green\">\n<h5 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-poison-green\">Poison (Green)</h5>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>bad blood<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>poison dart<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>stinking cloud</em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>poison puff<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>cloudkill</em></td>\n</tr>\n</tbody>\n</table>\n<div>\_</div>\n</section>\n<section id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-white-silver\">\n<h5 id=\"otherworldly-patron-the-dragon-eldritch-invocations-elemental-magic-white-silver\">White / Silver</h5>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Spells Learned</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td><em>arctic breath</em></td>\n</tr>\n<tr>\n<td>3rd</td>\n<td><em>cold snap<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>5th</td>\n<td><em>flash freeze<sup>K</sup></em></td>\n</tr>\n<tr>\n<td>7th</td>\n<td><em>ice storm</em></td>\n</tr>\n<tr>\n<td>9th</td>\n<td><em>cone of cold</em></td>\n</tr>\n</tbody>\n</table>\n<p>K\_Spells marked with the\_K\_are part of Kibbles' Generic Elemental Spells, a free expansion to 5e spells introducing more elemental spells.</p>\n</section>"
+    value: >-
+      <p>You gain the following spells at the following levels based on the
+      damage type selected for the Draconic Blast. They are warlock spells for
+      you, and do not count against your spells known.</p><h5>Acid (Black /
+      Copper)</h5><table><thead><tr><th>Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>acid
+      bubble</td></tr><tr><td>3rd</td><td>pseudopod
+      slam</td></tr><tr><td>5th</td><td>erode</td></tr><tr><td>7th</td><td>bile
+      beam</td></tr><tr><td>9th</td><td>acid
+      rain</td></tr></tbody></table><h5>Cold (White /
+      Silver)</h5><table><thead><tr><th>Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>arctic
+      breath</td></tr><tr><td>3rd</td><td>cold
+      snapK</td></tr><tr><td>5th</td><td>flash
+      freezeK</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{ice
+      storm}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{cone
+      of cold}</td></tr></tbody></table><h5>Fire (Red / Gold /
+      Brass)</h5><table><thead><tr><th>Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{burning
+      hands}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{scorching
+      ray}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{fireball}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{wall
+      of fire}</td></tr><tr><td>9th</td><td>pyroclastic
+      lance</td></tr></tbody></table><h5>Lightning (Blue /
+      Bronze)</h5><table><thead><tr><th>Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>lightning
+      tendril</td></tr><tr><td>3rd</td><td>crackle</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{lightning
+      bolt}</td></tr><tr><td>7th</td><td>jumping
+      jolt</td></tr><tr><td>9th</td><td>sky
+      burst</td></tr></tbody></table><h5>Poison
+      (Green)</h5><table><thead><tr><th>Level</th><th>Spells
+      Learned</th></tr></thead><tbody><tr><td>1st</td><td>bad
+      blood</td></tr><tr><td>3rd</td><td>poison
+      dart</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{stinking
+      cloud}</td></tr><tr><td>7th</td><td>poison
+      puff</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.LkvI11Uue774QBKZ]{cloudkill}</td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -66,9 +100,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: The Dragon
+    value: class
+    subtype: eldritchInvocation
+  requirements: Dragon patron, Pact of the Tome
   identifier: elemental-magic
   activities: {}
   enchant: {}
@@ -80,9 +114,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317504199
-  modifiedTime: 1727317504199
+  modifiedTime: 1732139428633
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 35300000

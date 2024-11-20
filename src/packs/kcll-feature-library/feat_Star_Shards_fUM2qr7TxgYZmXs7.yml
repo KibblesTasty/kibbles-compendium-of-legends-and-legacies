@@ -1,15 +1,217 @@
 name: Star Shards
 type: feat
 _id: fUM2qr7TxgYZmXs7
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/trades/academics-astronomy-navigation-blue.webp
 system:
-  activities: {}
+  activities:
+    Jr2RRGW4fpw4ce42:
+      type: damage
+      _id: Jr2RRGW4fpw4ce42
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: '@scaling'
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: Fire
+      img: ''
+      appliedEffects: []
+    7UPTCQyoDL1ICCaf:
+      type: heal
+      _id: 7UPTCQyoDL1ICCaf
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 1
+        denomination: '4'
+        types:
+          - temphp
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: whole
+          formula: ''
+        bonus: ''
+      name: Protect
+      img: ''
+      appliedEffects: []
+    vxxJqhk1DNWkal14:
+      type: utility
+      _id: vxxJqhk1DNWkal14
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Saving Throw Bonus
+        formula: '@scaling'
+      name: Saving Throw Bonus
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: lr
+        type: loseAll
+    max: '@abilities.int.mod'
   description:
-    value: ''
+    value: >-
+      <p>Additionally at 2nd level, you gain the ability to channel astral power
+      as you cast spells. When you expend a spell slot of 1st level or higher on
+      a Wizard spell, you generate a star mote orbiting you as a glowing point
+      of starlight. While you have one or more of these star motes, you can
+      expend them in the following ways:</p><ul><li>As a bonus action, you can
+      expend one or more to fire them at a creature within 60 feet, dealing 1d4
+      + 1 radiant damage per mote expended this way.</li><li>As a bonus action,
+      you can expend motes to protect yourself, granting you 1d4 temporary hit
+      points per mote expended this way.</li><li>As a reaction to failing a
+      Wisdom or Intelligence saving throw, or a Constitution saving throw to
+      maintain concentration on a spell, you can expend one or more motes to add
+      1 to the roll per mote expended (you can do this after rolling,
+      potentially turning a failure into a success).</li></ul><p>You can have a
+      maximum number of unused star motes equal to your Intelligence modifier.
+      All unused star motes fade when you complete a long rest.</p>
     chat: ''
   identifier: star-shards
   source:
@@ -29,7 +231,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -37,7 +243,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732135373366
-  modifiedTime: 1732135382904
+  modifiedTime: 1732144556866
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!fUM2qr7TxgYZmXs7'
 

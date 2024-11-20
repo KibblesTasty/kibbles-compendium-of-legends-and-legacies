@@ -1,15 +1,154 @@
 name: Building Storm
 type: feat
 _id: naZ59JGPFGtUkPaP
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/lightning/bolt-strike-explosion-blue.webp
 system:
-  activities: {}
+  activities:
+    KMjQwcSVsjQFVR5n:
+      type: utility
+      name: Build Storm
+      _id: KMjQwcSVsjQFVR5n
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: true
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    HOQ0K4b2wTgWJnd6:
+      type: damage
+      _id: HOQ0K4b2wTgWJnd6
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: >-
+          a creature ends their turn within 15 feet of you or strikes you with a
+          melee attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '15'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: loseAll
+    max: '5'
   description:
-    value: ''
+    value: >-
+      <p>Starting at 1st level, when you cast a warlock spell of 1st level or
+      higher using a Pact Magic spell slot on your turn, a storm begins to brew
+      around you. The storm gains storm levels based equal to the level of the
+      spell slot used. If you cast a spell while the storm is active, the storm
+      level is increased by the level of the spell slot used (up to a maximum
+      equal to your Charisma ability modifier).</p><p>While a storm is active
+      around you, you gain the following abilities based on how powerful the
+      storm is:</p><table><thead><tr><th>Storm</th><th>Level
+      Effect</th></tr></thead><tbody><tr><td>1</td><td>You can cast manipulate
+      wind as a bonus action.</td></tr><tr><td>2</td><td>You can use your
+      reaction to impose disadvantage on a ranged weapon attack made against a
+      target within 15 feet of you.</td></tr><tr><td>3</td><td>You gain a flying
+      speed of 15 feet, though cannot fly more than 15 feet above the ground
+      with this flying speed. </td></tr><tr><td>4</td><td>If a creature ends
+      their turn within 15 feet of you or strikes you with a melee attack, you
+      can use your reaction to deal 1d8 lightning damage to
+      them.</td></tr><tr><td>5</td><td>You gain flying speed equal to your
+      movement speed and are not longer restricted in how you can
+      fly.</td></tr></tbody></table><p>The storm loses 1 level each time you end
+      your turn without casting a 1st level or higher spell. You can prevent
+      this by concentrating on maintaining the storm (as if it were a spell)
+      starting from any action that increases the storm’s level. You can
+      maintain this concentration for up to 1 minute.</p>
     chat: ''
   identifier: building-storm
   source:
@@ -29,7 +168,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -37,7 +180,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732135044883
-  modifiedTime: 1732135154150
+  modifiedTime: 1732143570043
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!naZ59JGPFGtUkPaP'
 

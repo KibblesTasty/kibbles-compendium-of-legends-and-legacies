@@ -1,15 +1,89 @@
 name: Rolling Thunder
 type: feat
 _id: 9kdtnB6r6S8aWnZs
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/lightning/bolt-forked-large-blue-yellow.webp
 system:
-  activities: {}
+  activities:
+    2NbIvs3y8BEyMCx1:
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 10
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      _id: 2NbIvs3y8BEyMCx1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Starting at 6th level, you learn the spell
+      @UUID[Compendium.dnd5e.spells.Item.ehvmg9U9fcMEhE4z]{call lightning}. It
+      is a Warlock spell for you, but does not count against your spells
+      known.</p><p>Additionally, while you have a storm level of 1 or higher,
+      you can use your action to conjure bolts of lightning as per the call
+      lightning spell, treating your Building Storm as the storm cloud (even if
+      you are indoors). If your storm level is 2 or higher, you are considered
+      under “stormy conditions” as per the spell. If you cast call lightning
+      expending a Pact Magic slot, your storm level does not decrease while
+      concentrating on it.</p>
     chat: ''
   identifier: rolling-thunder
   source:
@@ -29,7 +103,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -37,7 +115,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732135060953
-  modifiedTime: 1732135153110
+  modifiedTime: 1732143728730
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9kdtnB6r6S8aWnZs'
 

@@ -1,7 +1,7 @@
 name: Constellations
 type: feat
 _id: 2lAk2kzLBXXo4tsa
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
 system:
   activities: {}
   uses:
@@ -9,7 +9,39 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Starting at 6th level, as a bonus action, you can form orbiting motes
+      from Star Shards into Constellations that empower you with astral powers.
+      A Constellation can be broken up at any time (no action required)
+      returning the component motes and ending the effect of the Constellation.
+      Forming a new Constellation while you already have one active breaks apart
+      the previously formed Constellation. The forms of the Constellations vary
+      from wizard to wizard, representing intricacies of beliefs and magic, but
+      always take the form of stars from the planet they are on, just connected
+      in unique ways. You can form the following
+      Constellations:</p><ul><li><strong>Constellation of Nightfall (2
+      Motes).</strong> While this Constellation is active, you gain darkvision
+      with a range of 60 feet.</li><li><strong>Constellation of Navigation (2
+      Motes).</strong> While this Constellation is active, you gain the benefits
+      of your
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EMqcXSNFACz1Dcvz]{Astral
+      Orrery}; moving does not dismiss it.</li><li><strong>Constellation of the
+      Eye (3 Motes).</strong> While the Constellation is active, you gain
+      advantage on Wisdom (Perception) checks.</li><li><strong>Constellation of
+      Mystery (3 Motes).</strong> While this Constellation is active, you gain
+      advantage on Intelligence (Arcana) checks.</li><li><strong>Constellation
+      of Brilliance (4 Motes).</strong> While the Constellation is active, when
+      you cast a spell that deals damage you can choose to have it deal radiant
+      damage instead of its normal damage type.</li><li><strong>Constellation of
+      the Void (4 motes).</strong> While this Constellation is active all
+      creatures of your choice within 20 feet of you gain resistance to radiant
+      damage.</li><li><strong>Constellation of the Messenger (5 Motes).</strong>
+      While this Constellation is active, you gain a flying speed of 30
+      feet.</li><li><strong>Constellation of the Shield (5 motes).</strong>
+      While this Constellation is active, you gain half cover against
+      attacks.</li></ul><p>While you have a Constellation formed, you shed 5
+      feet of dim light for each mote forming the constellation. Any formed
+      Constellation fades when you complete a long rest.</p>
     chat: ''
   identifier: constellations
   source:
@@ -37,7 +69,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732135392749
-  modifiedTime: 1732135437812
+  modifiedTime: 1732144595520
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!2lAk2kzLBXXo4tsa'
 

@@ -54,12 +54,13 @@ flags:
       altValue: false
   core:
     sourceId: Item.SfRgPuEhxiSH3HLg
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <h3 id="otherworldly-patron-the-dragon-draconic-blast-hoard-builder">Hoard
-      Builder</h3>
-
       <p>Starting at 10th level, when you take a long rest, at the end of the
       long rest you gain 1 temporary hit points for each 100 gold pieces in your
       possession, up to a maximum of your Warlock level.</p>
@@ -76,7 +77,63 @@ system:
     subtype: ''
   requirements: The Dragon 10
   identifier: hoard-builder
-  activities: {}
+  activities:
+    va255hoylsaEK8SH:
+      type: heal
+      _id: va255hoylsaEK8SH
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@classes.warlock.levels'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@scaling'
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -86,9 +143,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317517779
-  modifiedTime: 1727317517779
+  modifiedTime: 1732138413867
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 56900000

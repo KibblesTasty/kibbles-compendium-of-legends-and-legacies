@@ -56,7 +56,10 @@ flags:
     sourceId: Item.52mzF67qdTVqvCzS
 system:
   description:
-    value: "<h3 id=\"otherworldly-patron-the-dragon-eldritch-invocations-draconic-companion\">Draconic Companion</h3>\n<p><em>Prerequisite: Dragon patron, Pact of the Chain, 5th level</em></p>\n<p>You can cast <em>dragon's breath</em>\_targeting your pact of the chain familiar without expending a spell slot. Once you do so, you cannot do so again until you complete a short or long rest.</p>"
+    value: >-
+      <p>You can cast chromatic breath targeting your pact of the chain familiar
+      without expending a spell slot. Once you do so, you cannot do so again
+      until you complete a short or long rest.</p>
     chat: ''
   source:
     rules: '2014'
@@ -66,23 +69,23 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: The Dragon
+    value: class
+    subtype: eldritchInvocation
+  requirements: Dragon patron, Pact of the Chain
   identifier: draconic-companion
   activities: {}
   enchant: {}
   prerequisites:
-    level: null
+    level: 5
   properties: []
 _stats:
   compendiumSource: Item.52mzF67qdTVqvCzS
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317511185
-  modifiedTime: 1727317511185
+  modifiedTime: 1732139075741
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 46200000

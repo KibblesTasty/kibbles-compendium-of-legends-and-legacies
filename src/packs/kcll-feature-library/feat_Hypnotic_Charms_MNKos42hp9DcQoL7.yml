@@ -18,11 +18,15 @@ flags:
       altValue: true
   core:
     sourceId: Item.kzXbAomdrAmXHuzL
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
       <p>Starting at 14th level, your influence on the minds of others you have
-      charmed causes strengthens your influence. When a creature starts their
+      charmed causes strengthens your167 influence. When a creature starts their
       turn charmed by you, you can force them to make a Wisdom saving throw
       against your Warlock spell save DC, or move up to their movement speed
       where you direct. This cannot make them move into hazardous terrain, and
@@ -41,7 +45,59 @@ system:
     subtype: ''
   requirements: The Fey 14
   identifier: hypnotic-charms
-  activities: {}
+  activities:
+    KbDCORzVC1KpNfHj:
+      type: save
+      _id: KbDCORzVC1KpNfHj
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -51,9 +107,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317501257
-  modifiedTime: 1727317501257
+  modifiedTime: 1732141378630
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 30500000

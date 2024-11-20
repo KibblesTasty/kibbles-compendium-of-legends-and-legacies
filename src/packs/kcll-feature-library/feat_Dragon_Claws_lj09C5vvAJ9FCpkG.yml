@@ -57,34 +57,25 @@ flags:
 system:
   description:
     value: >-
-      <h3
-      id="otherworldly-patron-the-dragon-eldritch-invocations-dragon-claws">Dragon
-      Claws</h3>
-
-      <p><em>Prerequisite: Dragon patron, Pact of the Blade, Incompatible with
-      Improved Pact Weapon</em></p>
-
-      <p>As an action, you can grow draconic claws on one or both hands, lasting
-      until you dismiss them as an action.</p>
-
-      <p>This claws count as your pact weapon. While the claws are formed, you
-      cannot use a weapon or shield in the hand they are manifested in. These
-      are natural weapons that deal 1d6 slashing damage. When you form claws in
-      both hands, if you make an attack with your claws, you can make one
-      additional weapon attack with them as a bonus action. When you attack with
-      your claws, you can use your Charisma modifier, instead of Strength or
-      Dexterity, for the attack and damage rolls.</p>
-
-      <p>In addition, the claws gain a +1 bonus to its attack and damage rolls.
-      These benefits (Charisma, attack and damage bonus, and counting the
-      natural weapons as your pact weapon) also applies to any natural weapons
-      you gain through the Dragon Subclass (such as Dragon Form). You can
-      sacrifice a martial weapon with a bonus greater than +1 to attack and
-      damage rolls to your patron, permanently destroying it. When you do so,
-      the bonus to attack and damage rolls of your claws increases to that of
-      the sacrificed weapon. Your DM has the final say of which weapons can be
-      sacrificed in this way, and if any other properties are gained from the
-      ritual.</p>
+      <p><em>Incompatible with Improved Pact Weapon</em></p><p>As an action, you
+      can grow draconic claws on one or both hands, lasting until you dismiss
+      them as an action.</p><p>This claws count as your pact weapon. While the
+      claws are formed, you cannot use a weapon or shield in the hand they are
+      manifested in. These are natural weapons that deal 1d6 slashing damage.
+      When you form claws in both hands, if you make an attack with your claws,
+      you can make one additional weapon attack with them as a bonus action.
+      When you attack with your claws, you can use your Charisma modifier,
+      instead of Strength or Dexterity, for the attack and damage
+      rolls.</p><p>In addition, the claws gain a +1 bonus to its attack and
+      damage rolls. These benefits (Charisma, attack and damage bonus, and
+      counting the natural weapons as your pact weapon) also applies to any
+      natural weapons you gain through the Dragon Subclass (such as Dragon
+      Form). You can sacrifice a martial weapon with a bonus greater than +1 to
+      attack and damage rolls to your patron, permanently destroying it. When
+      you do so, the bonus to attack and damage rolls of your claws increases to
+      that of the sacrificed weapon. Your DM has the final say of which weapons
+      can be sacrificed in this way, and if any other properties are gained from
+      the ritual.</p>
     chat: ''
   source:
     rules: '2014'
@@ -94,9 +85,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
-    subtype: ''
-  requirements: The Dragon
+    value: class
+    subtype: eldritchInvocation
+  requirements: Dragon patron, Pact of the Blade
   identifier: dragon-claws
   activities: {}
   enchant: {}
@@ -108,9 +99,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317518750
-  modifiedTime: 1727317518750
+  modifiedTime: 1732139135547
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 58600000

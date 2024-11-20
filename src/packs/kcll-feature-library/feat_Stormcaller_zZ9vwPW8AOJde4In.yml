@@ -1,18 +1,63 @@
 name: Stormcaller
 type: feat
 _id: zZ9vwPW8AOJde4In
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/lightning/bolt-strike-explosion-purple.webp
 system:
-  activities: {}
+  activities:
+    ECAz3xzgIQt25bVH:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.ZPd73HtKF3At11jh
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '8'
+        properties: []
+        spellbook: true
+      _id: ECAz3xzgIQt25bVH
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
     value: >-
-      <p>You learn the spell control weather and can cast it without expending a
-      spell slot. When you cast it in this way, and change the Precipitation or
-      Wind, you can only increase the stage.</p>
+      <p>You learn the spell
+      @UUID[Compendium.dnd5e.spells.Item.ZPd73HtKF3At11jh]{control weather} and
+      can cast it without expending a spell slot. When you cast it in this way,
+      and change the Precipitation or Wind, you can only increase the stage.</p>
     chat: ''
   identifier: stormcaller
   source:
@@ -25,14 +70,18 @@ system:
   prerequisites:
     level: 15
   properties: []
-  requirements: ''
+  requirements: Tempest patron
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -40,7 +89,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732134832057
-  modifiedTime: 1732134851466
+  modifiedTime: 1732143330998
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zZ9vwPW8AOJde4In'
 

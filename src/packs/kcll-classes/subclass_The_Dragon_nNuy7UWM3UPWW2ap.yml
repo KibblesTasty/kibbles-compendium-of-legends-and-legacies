@@ -116,6 +116,33 @@ system:
       hint: >-
         Additionally at 10th level, you gain resistance to the damage type
         selected for your Draconic Blast.
+    - _id: 9YzJVDCN7iZwbVBY
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 1
+            faces: 8
+            modifiers: []
+          '5':
+            number: 2
+            faces: 8
+            modifiers: []
+          '11':
+            number: 3
+            faces: 8
+            modifiers: []
+          '17':
+            number: 4
+            faces: 8
+            modifiers: []
+      value: {}
+      title: Blast Damage
+      hint: ''
   classIdentifier: warlock
   spellcasting:
     progression: none
@@ -135,7 +162,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729041633658
-  modifiedTime: 1732132304578
+  modifiedTime: 1732138970176
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!nNuy7UWM3UPWW2ap'
 

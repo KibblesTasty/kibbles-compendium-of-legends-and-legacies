@@ -26,7 +26,44 @@ system:
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Patron's Paranoia
+    img: icons/magic/perception/eye-slit-red-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.To4DUDglJpWrPlym
+    _id: IgbdxYxcD5OL64Qq
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.init.bonus
+        mode: 2
+        value: '@abilities.cha.mod'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732142921661
+      modifiedTime: 1732142940596
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!To4DUDglJpWrPlym.IgbdxYxcD5OL64Qq'
 flags:
   rsr5e:
     quickDesc:

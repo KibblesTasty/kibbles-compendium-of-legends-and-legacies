@@ -30,17 +30,16 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 10th level, you frequent exposure to the fey makes you
+      <p>Starting at 10th level, your frequent exposure to the fey makes you
       immune to the charmed condition. Additionally, when a creature attempts to
       charm you or attack you, as a reaction you can force them to make a Wisdom
-      saving throw against your Warlock spell save DC, or become charmed by you
-      instead for 1 minute. A creature that is charmed this way by you can
-      repeat their saving throw at the end of each of their turns, and the charm
-      effect ends if they take damage.</p>
-
-      <p>Once you charm target with this feature, you cannot use it again until
-      you complete a long rest. You can use it again early by expending a use of
-      Fey Burst.</p>
+      saving throw against your Warlock spell save DC, or become
+      &amp;Reference[charmed] by you instead for 1 minute. A creature that is
+      charmed this way by you can repeat their saving throw at the end of each
+      of their turns, and the charm effect ends if they take damage.</p><p>Once
+      you charm a target with this feature, you cannot use it again until you
+      complete a long rest. You can use it again early by expending a use of Fey
+      Burst.</p>
     chat: ''
     unidentified: ''
   source:
@@ -70,7 +69,7 @@ system:
     max: '1'
     per: sr
     recovery:
-      - period: sr
+      - period: lr
         type: recoverAll
     spent: 0
   consume:
@@ -100,64 +99,87 @@ system:
     value: null
     charged: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    wFaS9TvvE9cfghJ7:
+      type: save
+      _id: wFaS9TvvE9cfghJ7
+      sort: 0
       activation:
         type: reaction
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: A creature attempts to charm or attack you
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets: []
       description:
         chatFlavor: ''
       duration:
+        units: minute
         concentration: false
-        units: inst
-        special: ''
         override: false
+        value: '1'
       effects: []
       range:
-        units: self
-        special: ''
         override: false
+        units: spec
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: self
           choice: false
-          special: ''
-        prompt: true
+          count: ''
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    9sPyIP4mmlkaQqvq:
+      type: forward
+      name: Fey Burst
+      _id: 9sPyIP4mmlkaQqvq
       sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CCRiwyPeiGX3QnMy
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: wFaS9TvvE9cfghJ7
+      img: ''
   identifier: beguiling-defenses
   enchant: {}
   prerequisites:
@@ -165,10 +187,10 @@ system:
   properties: []
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1678741777323
-  modifiedTime: 1727317482757
+  modifiedTime: 1732141302711
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.KXSenJ94vlrGLaHZ
   duplicateSource: null

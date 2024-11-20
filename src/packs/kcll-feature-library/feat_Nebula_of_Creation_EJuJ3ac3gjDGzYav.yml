@@ -1,13 +1,71 @@
 name: Nebula of Creation
 type: feat
 _id: EJuJ3ac3gjDGzYav
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/symbols/runes-star-magenta.webp
 system:
-  activities: {}
+  activities:
+    ABFE3v1Z03YfGNIf:
+      type: utility
+      _id: ABFE3v1Z03YfGNIf
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-@abilities.int.mod'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fUM2qr7TxgYZmXs7
+            scaling: {}
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
   description:
     value: >-
       <p>Starting at 10th level, as an action, you can create a number of star
@@ -33,7 +91,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -41,7 +103,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732135420239
-  modifiedTime: 1732135434128
+  modifiedTime: 1732144387746
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!EJuJ3ac3gjDGzYav'
 

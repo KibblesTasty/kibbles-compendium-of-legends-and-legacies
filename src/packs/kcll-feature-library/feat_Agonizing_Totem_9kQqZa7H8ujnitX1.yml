@@ -11,9 +11,11 @@ system:
       10 feet of it takes 1d6 necrotic damage.</p>
     chat: ''
   source:
-    custom: Spiritualist
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -89,7 +91,7 @@ system:
               number: null
               formula: ''
       sort: 0
-  identifier: totem-agonizing-totem
+  identifier: agonizing-totem
   enchant: {}
   prerequisites:
     level: null
@@ -124,9 +126,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317492683
-  modifiedTime: 1731015551068
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: 9kQqZa7H8ujnitX1
 sort: 2100000

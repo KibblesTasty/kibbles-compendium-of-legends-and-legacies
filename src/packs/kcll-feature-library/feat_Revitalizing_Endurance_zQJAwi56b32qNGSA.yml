@@ -31,6 +31,9 @@ system:
     unidentified: ''
   source:
     rules: '2014'
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   activation:
     type: ''
     cost: 0
@@ -80,7 +83,7 @@ system:
   recharge:
     value: null
     charged: false
-  identifier: manifestation-revitalizing-endurance
+  identifier: revitalizing-endurance
   prerequisites:
     level: 12
   activities:
@@ -148,7 +151,7 @@ _stats:
   systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1678742793587
-  modifiedTime: 1731647598648
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.PYHvAY27XghjT8kF
   duplicateSource: null

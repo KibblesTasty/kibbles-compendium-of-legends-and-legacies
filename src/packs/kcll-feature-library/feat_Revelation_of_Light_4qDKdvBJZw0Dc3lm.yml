@@ -14,9 +14,11 @@ system:
       perceive illusions as false, as with truesight.</p>
     chat: ''
   source:
-    custom: Oracle
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -86,7 +88,7 @@ system:
       name: ''
       img: ''
       appliedEffects: []
-  identifier: oracle-rite-revelation-of-light
+  identifier: revelation-of-light
   enchant: {}
   prerequisites:
     level: null
@@ -113,9 +115,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317488614
-  modifiedTime: 1731218375367
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 10600000

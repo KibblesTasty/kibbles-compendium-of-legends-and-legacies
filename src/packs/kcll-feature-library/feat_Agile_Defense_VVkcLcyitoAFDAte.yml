@@ -39,9 +39,11 @@ system:
       taken by the value rolled + your proficiency bonus.</p>
     chat: ''
   source:
-    custom: Sword Saint
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -110,7 +112,7 @@ system:
       name: ''
       img: ''
       appliedEffects: []
-  identifier: agile-parry-1-ki
+  identifier: agile-defense
   enchant: {}
   prerequisites:
     level: null
@@ -122,7 +124,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317507368
-  modifiedTime: 1731982419672
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 40400000

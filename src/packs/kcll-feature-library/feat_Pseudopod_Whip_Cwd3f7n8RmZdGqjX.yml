@@ -12,6 +12,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -20,7 +23,7 @@ system:
     value: ''
     subtype: ''
   requirements: Ooze patron, Pact of the Blade
-  identifier: invocation-pseudopod-whip
+  identifier: pseudopod-whip
   activities: {}
   enchant: {}
   prerequisites:
@@ -42,7 +45,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317495185
-  modifiedTime: 1732134721097
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 20700000

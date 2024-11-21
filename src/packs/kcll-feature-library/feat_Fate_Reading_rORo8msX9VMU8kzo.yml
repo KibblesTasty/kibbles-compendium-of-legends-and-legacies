@@ -34,9 +34,11 @@ system:
     value: "<p>Starting at 3rd level, your connection to the flow of fate gives you the ability to read from it, tracing outcomes and glimpsing the unknowable future. When you are hit by an attack, you can use your reaction to add your Wisdom modifier to your AC until the start of your next turn (including against the triggering attack). You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p><p>Additionally, you learn the spell @Compendium[dnd5e.spells.4v2H3hHb3Ph9XLNd]{Augury} and can cast it at will without expending spell slot.</p><blockquote><p><strong>Winding Paths of Fate</strong></p><p>This does not negate the normal drawback of casting augury multiple times. As you delve further for more information, it becomes harder to read as the flow becomes more turbulent for your changes to it.</p></blockquote><p>\_</p>"
     chat: ''
   source:
-    custom: Oracle
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: '@prof'
     recovery:
@@ -120,7 +122,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317522789
-  modifiedTime: 1732154590904
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 65300000

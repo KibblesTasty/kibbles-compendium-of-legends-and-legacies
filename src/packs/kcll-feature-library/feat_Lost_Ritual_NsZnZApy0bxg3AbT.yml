@@ -33,6 +33,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: '1'
     spent: 0
@@ -43,7 +46,7 @@ system:
     value: class
     subtype: occultistRite
   requirements: ''
-  identifier: rite-lost-ritual
+  identifier: lost-ritual
   activities:
     A3qew3ro1fM2iabD:
       type: utility
@@ -105,9 +108,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317502387
-  modifiedTime: 1730493189404
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 32200000

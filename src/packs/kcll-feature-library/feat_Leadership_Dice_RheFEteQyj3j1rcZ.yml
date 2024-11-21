@@ -49,9 +49,11 @@ system:
       rest.</p>
     chat: ''
   source:
-    custom: Warlord
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: '@scale.warlord.leadership-die.number'
     recovery:
@@ -75,7 +77,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317504892
-  modifiedTime: 1732154590904
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 36400000

@@ -13,6 +13,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -21,7 +24,7 @@ system:
     value: class
     subtype: occultistRite
   requirements: ''
-  identifier: voidwatcher-rite-piercing-gaze
+  identifier: piercing-gaze
   activities: {}
   enchant: {}
   prerequisites:
@@ -44,9 +47,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317510839
-  modifiedTime: 1731225069425
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: ahCohC4eu1489LM0
 sort: 4800000

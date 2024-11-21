@@ -12,9 +12,11 @@ system:
       modifier, after which its power fades and it crumbles.</span></p>
     chat: ''
   source:
-    custom: Spiritualist
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: '@abilities.wis.mod'
     recovery: []
@@ -89,7 +91,7 @@ system:
       name: ''
       img: ''
       appliedEffects: []
-  identifier: totem-life-totem
+  identifier: life-totem
   enchant: {}
   prerequisites:
     level: null
@@ -124,9 +126,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317508135
-  modifiedTime: 1731015860500
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: WjWKU4fgv6Ie0J8J
 sort: 2400000

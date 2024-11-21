@@ -29,9 +29,11 @@ system:
       melee weapon attack against them.</p>
     chat: ''
   source:
-    custom: Sword Saint
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -100,7 +102,7 @@ system:
       name: ''
       img: ''
       appliedEffects: []
-  identifier: instant-strike-1-ki
+  identifier: instant-strike
   enchant: {}
   prerequisites:
     level: null
@@ -112,7 +114,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317521801
-  modifiedTime: 1731989447262
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 63700000

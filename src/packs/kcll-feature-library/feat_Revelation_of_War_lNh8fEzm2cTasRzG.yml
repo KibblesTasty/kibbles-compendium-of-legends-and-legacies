@@ -38,6 +38,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -46,7 +49,7 @@ system:
     value: class
     subtype: occultistRite
   requirements: Mystery of War
-  identifier: oracle-rite-revelation-of-war
+  identifier: revelation-of-war
   activities:
     horAT6kJfHQAnSXV:
       type: utility
@@ -106,9 +109,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317518477
-  modifiedTime: 1731218375367
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 58100000

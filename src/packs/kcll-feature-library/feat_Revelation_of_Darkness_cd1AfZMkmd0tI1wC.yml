@@ -11,9 +11,11 @@ system:
       is in dim light or darkness within 30 feet as a bonus action.</p>
     chat: ''
   source:
-    custom: Oracle
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -76,7 +78,7 @@ system:
         prompt: false
         visible: false
       sort: 0
-  identifier: oracle-rite-revelation-of-darkness
+  identifier: revelation-of-darkness
   enchant: {}
   prerequisites:
     level: null
@@ -99,9 +101,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317512489
-  modifiedTime: 1731218375367
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 48300000

@@ -77,6 +77,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: '1'
     spent: 0
@@ -87,7 +90,7 @@ system:
     value: class
     subtype: occultistRite
   requirements: ''
-  identifier: witch-rite-riding-familiar
+  identifier: riding-familiar
   activities:
     l2pO0Ta2PORgU2Nt:
       type: utility
@@ -154,9 +157,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317524803
-  modifiedTime: 1731226756695
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 69100000

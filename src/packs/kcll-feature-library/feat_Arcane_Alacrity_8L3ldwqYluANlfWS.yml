@@ -10,6 +10,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -18,7 +21,7 @@ system:
     value: class
     subtype: spellbladeAegis
   requirements: ''
-  identifier: aegis-effect-arcane-alacrity
+  identifier: arcane-alacrity
   activities: {}
   enchant: {}
   prerequisites:
@@ -40,7 +43,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317491139
-  modifiedTime: 1731473789801
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 14600000

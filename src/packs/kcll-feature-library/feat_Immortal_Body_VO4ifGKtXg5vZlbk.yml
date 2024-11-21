@@ -38,9 +38,11 @@ system:
       benefit if you have 0 hit points.</p>
     chat: ''
   source:
-    custom: Warden
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -115,7 +117,7 @@ system:
       name: ''
       img: ''
       appliedEffects: []
-  identifier: manifestation-immortal-body
+  identifier: immortal-body
   enchant: {}
   prerequisites:
     level: 16
@@ -127,7 +129,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317507243
-  modifiedTime: 1731647988024
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 40200000

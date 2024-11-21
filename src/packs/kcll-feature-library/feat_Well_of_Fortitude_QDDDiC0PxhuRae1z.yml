@@ -33,6 +33,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: '@prof'
     spent: 0
@@ -43,7 +46,7 @@ system:
     value: class
     subtype: primalManifestation
   requirements: ''
-  identifier: manifestation-well-of-fortitude
+  identifier: well-of-fortitude
   activities:
     4TWfIARDzhgwZtHu:
       type: heal
@@ -110,7 +113,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317504023
-  modifiedTime: 1731646763952
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 35000000

@@ -54,6 +54,8 @@ system:
     custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -243,7 +245,7 @@ system:
         ability: wis
       img: ''
       appliedEffects: []
-  identifier: witch-rite-animate-hair
+  identifier: animate-hair
   enchant: {}
   prerequisites:
     level: null
@@ -253,9 +255,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317494311
-  modifiedTime: 1731226756695
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 19300000

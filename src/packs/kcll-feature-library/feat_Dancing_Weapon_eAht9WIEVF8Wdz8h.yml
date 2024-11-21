@@ -32,9 +32,11 @@ system:
       you after any attacks made this way.</p>
     chat: ''
   source:
-    custom: Sword Saint
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -104,7 +106,7 @@ system:
       name: Infuse Weapon
       img: ''
       appliedEffects: []
-  identifier: dancing-weapon-1-ki
+  identifier: dancing-weapon
   enchant: {}
   prerequisites:
     level: null
@@ -116,7 +118,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317513503
-  modifiedTime: 1731982625363
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 49900000

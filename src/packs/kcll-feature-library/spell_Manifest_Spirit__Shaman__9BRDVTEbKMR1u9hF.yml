@@ -41,9 +41,11 @@ system:
       recalled to you if you move more than 60 feet from it.</p>
     chat: ''
   source:
-    custom: Shaman
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   activation:
     type: bonus
     condition: ''
@@ -124,9 +126,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.1
   createdTime: 1727317492002
-  modifiedTime: 1727317492002
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 15900000

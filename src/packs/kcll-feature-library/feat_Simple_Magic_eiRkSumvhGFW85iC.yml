@@ -31,6 +31,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -39,7 +42,7 @@ system:
     value: class
     subtype: occultistRite
   requirements: ''
-  identifier: hedge-rite-simple-magic
+  identifier: simple-magic
   activities: {}
   enchant: {}
   prerequisites:
@@ -50,9 +53,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317513792
-  modifiedTime: 1731010730636
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 50400000

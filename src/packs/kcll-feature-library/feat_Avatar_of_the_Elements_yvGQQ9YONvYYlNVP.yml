@@ -35,6 +35,9 @@ system:
     unidentified: ''
   source:
     rules: '2014'
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   activation:
     type: ''
     cost: 0
@@ -84,7 +87,7 @@ system:
   recharge:
     value: null
     charged: false
-  identifier: shaman-rite-avatar-of-the-elements
+  identifier: avatar-of-the-elements
   prerequisites:
     level: 11
   activities:
@@ -225,10 +228,10 @@ system:
       img: ''
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1678742384521
-  modifiedTime: 1731221781964
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.bb3S5sNGZDOeEK0b
   duplicateSource: null

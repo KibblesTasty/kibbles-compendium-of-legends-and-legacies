@@ -31,9 +31,11 @@ system:
       Bulwark.</p>
     chat: ''
   source:
-    custom: Warden
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -96,7 +98,7 @@ system:
         prompt: false
         visible: false
       sort: 0
-  identifier: manifestation-protective-interdiction
+  identifier: protective-interdiction
   enchant: {}
   prerequisites:
     level: null
@@ -108,7 +110,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317496567
-  modifiedTime: 1731646497586
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 22900000

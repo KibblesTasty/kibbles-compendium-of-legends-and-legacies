@@ -38,6 +38,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -46,7 +49,7 @@ system:
     value: class
     subtype: occultistRite
   requirements: Mystery of Souls
-  identifier: oracle-rite-revelation-of-souls
+  identifier: revelation-of-souls
   activities:
     7M4See4gouG70EIQ:
       type: damage
@@ -178,9 +181,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317511064
-  modifiedTime: 1731218375367
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 46000000

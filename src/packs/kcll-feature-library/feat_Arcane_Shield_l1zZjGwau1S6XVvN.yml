@@ -12,6 +12,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -20,7 +23,7 @@ system:
     value: class
     subtype: spellbladeAegis
   requirements: ''
-  identifier: aegis-effect-arcane-shield
+  identifier: arcane-shield
   activities: {}
   enchant: {}
   prerequisites:
@@ -79,7 +82,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317518274
-  modifiedTime: 1731473224095
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 57700000

@@ -75,9 +75,11 @@ system:
       proficiency in the Intimidation skill.</p>
     chat: ''
   source:
-    custom: Witch
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -144,7 +146,7 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
-  identifier: witch-rite-evil-eye
+  identifier: evil-eye
   enchant: {}
   prerequisites:
     level: null
@@ -154,9 +156,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317515694
-  modifiedTime: 1731226756695
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 53500000

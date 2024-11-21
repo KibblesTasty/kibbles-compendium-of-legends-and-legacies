@@ -14,9 +14,11 @@ system:
       made mobile by other effects or features.</span></p>
     chat: ''
   source:
-    custom: Spiritualist
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -83,7 +85,7 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
-  identifier: totem-grappling-totem
+  identifier: grasping-totem
   enchant: {}
   prerequisites:
     level: null
@@ -115,9 +117,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317507006
-  modifiedTime: 1731015522185
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: VAiKxZnRJi39iFSz
 sort: 2300000

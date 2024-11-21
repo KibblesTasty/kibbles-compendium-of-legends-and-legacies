@@ -28,6 +28,9 @@ system:
     unidentified: ''
   source:
     rules: '2014'
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   activation:
     type: ''
     cost: 0
@@ -77,15 +80,15 @@ system:
   recharge:
     value: null
     charged: false
-  identifier: rite-rite-of-youth
+  identifier: rite-of-youth
   prerequisites:
     level: 15
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1678742374571
-  modifiedTime: 1730494236950
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.VeRfjrQ084DxnQqo
   duplicateSource: null

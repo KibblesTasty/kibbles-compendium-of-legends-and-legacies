@@ -37,6 +37,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -45,7 +48,7 @@ system:
     value: class
     subtype: occultistRite
   requirements: ''
-  identifier: rite-spatial-storage
+  identifier: spatial-storage
   activities:
     sm2APFkr5r0L3LnO:
       type: utility
@@ -92,9 +95,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317492861
-  modifiedTime: 1730494397511
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 17200000

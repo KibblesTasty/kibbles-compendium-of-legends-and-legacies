@@ -11,9 +11,11 @@ system:
       be regained from a totem for 1 minute once lost.</p>
     chat: ''
   source:
-    custom: Spiritualist
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -77,7 +79,7 @@ system:
         prompt: false
         visible: false
       sort: 0
-  identifier: totem-sanctuary-totem
+  identifier: sanctuary-totem
   enchant: {}
   prerequisites:
     level: null
@@ -105,9 +107,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1727317501550
-  modifiedTime: 1731048552017
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: MRcYUQdkOTg3F5xb
 sort: 2500000

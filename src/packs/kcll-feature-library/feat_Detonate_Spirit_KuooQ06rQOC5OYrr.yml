@@ -12,9 +12,11 @@ system:
       The spirit is immediately released and disappears.</p>
     chat: ''
   source:
-    custom: Shaman
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -91,7 +93,7 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
-  identifier: shaman-rite-detonate-spirit
+  identifier: detonate-spirit
   enchant: {}
   prerequisites:
     level: null
@@ -125,9 +127,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317499908
-  modifiedTime: 1731221781964
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 28400000

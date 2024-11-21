@@ -34,6 +34,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: '1'
     spent: 0
@@ -44,7 +47,7 @@ system:
     value: class
     subtype: occultistRite
   requirements: ''
-  identifier: witch-rite-familiar-swap
+  identifier: familiar-swap
   activities:
     Es7ZTSyxQ3PrVq26:
       type: utility
@@ -105,9 +108,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.1
   createdTime: 1727317523316
-  modifiedTime: 1731226756695
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 66300000

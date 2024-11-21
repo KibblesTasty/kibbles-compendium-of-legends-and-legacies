@@ -32,6 +32,9 @@ system:
   source:
     rules: '2014'
     revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     spent: 0
@@ -40,7 +43,7 @@ system:
     value: class
     subtype: primalManifestation
   requirements: Elemental Soul
-  identifier: manifestation-arise-ice
+  identifier: arise-ice
   activities:
     DNLVF8yVR8ydGrrx:
       type: cast
@@ -102,7 +105,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317505641
-  modifiedTime: 1731647920698
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 37600000

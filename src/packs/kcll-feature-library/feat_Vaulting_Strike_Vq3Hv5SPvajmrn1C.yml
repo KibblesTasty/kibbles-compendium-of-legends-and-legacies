@@ -38,9 +38,11 @@ system:
       over the target, landing in an occupied space adjacent to them.</p>
     chat: ''
   source:
-    custom: Sword Saint
+    custom: ''
     revision: 1
     rules: '2014'
+    book: ''
+    license: CC-BY-4.0
   uses:
     max: ''
     recovery: []
@@ -118,7 +120,7 @@ system:
       name: ''
       img: ''
       appliedEffects: []
-  identifier: vaulting-strike-1-ki
+  identifier: vaulting-strike
   enchant: {}
   prerequisites:
     level: null
@@ -130,7 +132,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317507540
-  modifiedTime: 1731992380309
+  modifiedTime: 1732156153238
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 40600000

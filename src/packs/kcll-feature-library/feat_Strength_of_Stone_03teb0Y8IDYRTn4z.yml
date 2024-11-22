@@ -109,15 +109,15 @@ effects:
     changes:
       - key: system.traits.dm.amount.bludgeoning
         mode: 2
-        value: '@prof'
+        value: '-@prof'
         priority: null
       - key: system.traits.dm.amount.piercing
         mode: 2
-        value: '@prof'
+        value: '-@prof'
         priority: null
       - key: system.traits.dm.amount.slashing
         mode: 2
-        value: '@prof'
+        value: '-@prof'
         priority: null
       - key: system.attributes.ac.calc
         mode: 2

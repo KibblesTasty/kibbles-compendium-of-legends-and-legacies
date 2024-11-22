@@ -2,7 +2,7 @@ folder: 69ctjebMzgjr3gRw
 name: Versatile Weapon Master
 type: feat
 _id: 0g08cNbxw8Dn7K35
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/melee/strike-weapons-orange.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,25 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You are an expert on the fluid use of versatile weapons, changing
+      stances to fit any situation. When you draw a versatile weapon you are
+      proficient with, or start your turn while wielding one, you can enter a
+      special stance as long as you aren’t wielding other weapons or a shield.
+      This lasts until the start of your next turn, drop or sheath your weapon,
+      or equip a shield. Each stance provides modifiers to your melee weapon
+      attacks made with the versatile weapon while in that
+      stance:</p><ul><li><strong>Neutral Stance.</strong> You add +1 to your
+      attack rolls, damage rolls, and armor class.</li><li><strong>Power
+      Stance.</strong> You don’t add your Proficiency bonus to attack rolls, but
+      add twice your Proficiency bonus to your damage
+      rolls.</li><li><strong>Accuracy Stance.</strong> You add twice your
+      Proficiency bonus to attack rolls (instead of just your Proficiency Bonus,
+      but don’t add your ability modifier to damage
+      rolls.</li><li><strong>Defensive Stance.</strong> You don’t add your
+      Proficiency bonus to attack rolls, but if you hit at least one attack
+      against a hostile creature, you can add your proficiency bonus to your AC
+      until the start of your next turn.</li></ul>
     chat: ''
   identifier: versatile-weapon-master
   source:
@@ -35,9 +53,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047462584
-  modifiedTime: 1729047852725
+  modifiedTime: 1732249051198
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!0g08cNbxw8Dn7K35'
 

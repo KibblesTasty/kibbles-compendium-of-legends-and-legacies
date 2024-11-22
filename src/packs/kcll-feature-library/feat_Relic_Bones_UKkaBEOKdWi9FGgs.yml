@@ -1,0 +1,82 @@
+name: Relic Bones
+type: feat
+_id: UKkaBEOKdWi9FGgs
+img: icons/magic/holy/angel-wings-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your bones have a lingering holy aura. You are immune to effects that
+      turn undead and have resistance to radiant damage.</p>
+    chat: ''
+  identifier: relic-bones
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Angelic Remains
+effects:
+  - name: Relic Bones
+    img: icons/magic/holy/angel-wings-gray.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UKkaBEOKdWi9FGgs
+    _id: Pv7XeB89r6ILJ0Nf
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: radiant
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732224560213
+      modifiedTime: 1732224568648
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!UKkaBEOKdWi9FGgs.Pv7XeB89r6ILJ0Nf'
+folder: null
+sort: 20100000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732220575833
+  modifiedTime: 1732224558466
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!UKkaBEOKdWi9FGgs'
+

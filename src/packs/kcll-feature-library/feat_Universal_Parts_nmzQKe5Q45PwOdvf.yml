@@ -1,0 +1,108 @@
+name: Universal Parts
+type: feat
+_id: nmzQKe5Q45PwOdvf
+img: icons/magic/death/skull-pile-glowing-pink.webp
+system:
+  activities:
+    8z8v6o6oI2iFcxUQ:
+      type: utility
+      _id: 8z8v6o6oI2iFcxUQ
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+          - type: hitDice
+            value: 1 - @prof
+            target: largest
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You can often find useful spare laying about, and your parts are easier
+      to repair in general. When you complete a long rest, you regain an
+      additional hit die. The number of hit dice you regain increases when your
+      proficiency bonus does.</p>
+    chat: ''
+  identifier: universal-parts
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Human Remains
+effects: []
+folder: null
+sort: 20400000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732220620670
+  modifiedTime: 1732224064590
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!nmzQKe5Q45PwOdvf'
+

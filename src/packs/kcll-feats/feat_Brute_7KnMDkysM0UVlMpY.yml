@@ -2,15 +2,119 @@ folder: oHNnGkIfPY35Nhxf
 name: Brute
 type: feat
 _id: 7KnMDkysM0UVlMpY
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/social/intimidation-impressing.webp
 system:
-  activities: {}
+  activities:
+    hgTOK4ZoJXGmNblk:
+      type: save
+      _id: hgTOK4ZoJXGmNblk
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: str
+          formula: ''
+      name: Brutal Threat
+      img: ''
+      appliedEffects: []
+    vSKMfHuwaXGZyeS9:
+      type: forward
+      name: Repeat Threat
+      _id: vSKMfHuwaXGZyeS9
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: hgTOK4ZoJXGmNblk
+      img: ''
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>Your attacks leave your enemies devastated and cowering in fear. You
+      gain the following benefits:</p><ul><li><strong>Ability Score
+      Increase.</strong> Increase your Strength or Constitution score by 1, to a
+      maximum of 20.</li><li><strong>Brutal Effort.</strong> When you roll
+      damage for a melee weapon attack, you can reroll the weapon’s damage dice
+      and use either total.</li><li><p>Gain the Brutal Threat special attack
+      (below)</p></li></ul><h5 id="brutal-threat">Brutal
+      Threat</h5><p><em>Active Ability (Attack)</em></p><p>When you take the
+      Attack action on your turn, you can replace one of your attacks to issue a
+      dire threat backed by your killing intent at a creature that can see or
+      hear you within 60 feet. The target must make a Wisdom saving
+      throw.</p><p>On failure, they become &amp;Reference[frightened] for 1
+      minute. If it fails by 5 or more, it becomes frozen in terror, suffering
+      the &amp;Reference[paralyzed] condition while it is frightened. A
+      frightened creature can repeat its saving throw at the end of each of its
+      turns, ending the effect on success (if it fails by less than 5 it can end
+      the paralyze effect, but cannot become paralyzed after the initial
+      save).</p><p>If you kill a target while it is frightened in this way, you
+      can repeat this action as a reaction targeting another creature within 30
+      feet that can see or hear you bypassing the usual usage restriction of the
+      feature.</p><p>Once you use this feature, you cannot use it again until
+      you complete a short or long rest.</p>
     chat: ''
   identifier: brute
   source:
@@ -21,23 +125,27 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
+    level: 4
   properties: []
-  requirements: ''
+  requirements: Intimidation proficiency
 effects: []
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046677789
-  modifiedTime: 1729047852725
+  modifiedTime: 1732226822865
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!7KnMDkysM0UVlMpY'
 

@@ -1,0 +1,49 @@
+name: Remembrance
+type: feat
+_id: 2hkp9yTKLugM5Vm8
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You've come back for your own bones... or at least you think you have.
+      You retain some of the skills you had in life. You can select one of the
+      following:</p><ul><li>Proficiency in a simple or martial weapon of your
+      choice.</li><li>Proficiency in two skills or tools of your
+      choice.</li><li>You additionally gain proficiency in one artisan’s tool or
+      language of your choice.</li></ul>
+    chat: ''
+  identifier: remembrance
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Returned Spirit
+effects: []
+folder: null
+sort: 200000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732221353791
+  modifiedTime: 1732221657665
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!2hkp9yTKLugM5Vm8'
+

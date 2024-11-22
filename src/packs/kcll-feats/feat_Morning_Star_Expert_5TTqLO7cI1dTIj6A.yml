@@ -2,15 +2,81 @@ folder: WyKoAfY7i7fksfdU
 name: Morning Star Expert
 type: feat
 _id: 5TTqLO7cI1dTIj6A
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/maces/mace-spiked-banded-wood.webp
 system:
-  activities: {}
+  activities:
+    Nbkse6IaCBAeoBwI:
+      type: damage
+      name: Rend
+      _id: Nbkse6IaCBAeoBwI
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You have mastered the use of a morning star, and are able to leverage
+      greater effectiveness from it. You gain the following
+      features:</p><ul><li><strong>Ability Score Increase.</strong> Increase
+      your Strength or Constitution ability score by 1, to a maximum of
+      20.</li><li><strong>Improved Critical.</strong> Your attacks with morning
+      stars score a critical hit on a roll of 19 or 20.</li><li><strong>Rend.
+      </strong>Your critical strikes wound the target. The target loses 1d10 hit
+      points at the end of each of their turns until the wound is healed. The
+      target or any creature within 5 feet of it can make a DC 10 Wisdom
+      (Medicine) check as an action to heal the wound.</li></ul>
     chat: ''
   identifier: morning-star-expert
   source:
@@ -29,15 +95,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047394384
-  modifiedTime: 1729047852725
+  modifiedTime: 1732248423441
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!5TTqLO7cI1dTIj6A'
 

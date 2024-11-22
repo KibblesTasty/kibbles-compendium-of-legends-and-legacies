@@ -2,15 +2,99 @@ folder: oHNnGkIfPY35Nhxf
 name: Line Breaker
 type: feat
 _id: AUqgjd0VXdxRPCVw
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/melee/hand-grip-sword-white-brown.webp
 system:
-  activities: {}
+  activities:
+    EU5sG1ewAhEFnWAX:
+      type: save
+      name: Mighty Impact
+      _id: EU5sG1ewAhEFnWAX
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+        value: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @abilities.str.mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: str
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You smash through your enemies, clearing the way for your
+      allies.</p><ul><li><strong>Ability Score Increase.</strong> Increase your
+      Strength or Constitution by 1, to a maximum of 20.</li><li><strong>Heavy
+      Impacts.</strong> When you push a creature, if the creature's movement is
+      stopped early by another creature, object, or terrain, they take 1d4
+      bludgeoning damage for each 5 feet moved before the
+      collision.</li><li>Gain the Might Impact special attack
+      (below).</li></ul><h5 id="mighty-impact">Mighty Impact</h5><p><em>Active
+      Ability (Attack)</em></p><p>When you take the Attack action on your turn,
+      you can replace one of your attacks to slam an enemy backwards. The target
+      must make a Strength saving throw. On failure, it takes 2d6 + your
+      Strength modifier damage and is pushed 15 feet away from you. On a
+      success, it takes half as much damage and is pushed 5 feet away from you.
+      The distance the target is pushed is reduced by 5 feet for every size
+      larger than you it is. The number of d6 increases by one when your
+      proficiency bonus increases (with the total number of d6 equaling your
+      proficiency bonus).</p><p>Once you use this feature, you cannot use it
+      again until you complete a short or long rest.</p>
     chat: ''
   identifier: line-breaker
   source:
@@ -29,15 +113,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046710254
-  modifiedTime: 1729047852725
+  modifiedTime: 1732249265099
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!AUqgjd0VXdxRPCVw'
 

@@ -1,0 +1,55 @@
+name: Magical Vitality
+type: feat
+_id: xJQDamOmMjOtD1xM
+img: icons/magic/life/heart-cross-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As you are powered by magic, your vitality can be restored by magical
+      power. Any creature (including you) with access to spell slots can expend
+      a spell slot as an action with a range of touch to restore 1d8 + their
+      spell casting modifier hit points donating their magical power to your
+      vitality. The amount restored increases by 1d8 for each spell slot level
+      above 1st. Whenever you are healed in this fashion, you can expend hit
+      dice (rolling them as normal) equal to the spell slot level used to regain
+      additional hit points.</p><p>Additionally, you can be returned to life
+      with the @UUID[Compendium.dnd5e.spells.Item.oyE5nVppa5mde5gT]{animate
+      dead} spell, which has the effects of
+      @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{revivify} when cast
+      targeting only you.</p>
+    chat: ''
+  identifier: magical-vitality
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 19100000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732217703609
+  modifiedTime: 1732222970879
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!xJQDamOmMjOtD1xM'
+

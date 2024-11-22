@@ -2,15 +2,36 @@ folder: oHNnGkIfPY35Nhxf
 name: Athlete
 type: feat
 _id: x9QINVPYbUt3D32W
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/movement/feet-winged-sandals-tan.webp
 system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You can accomplish mythical feats of athletic prowess. You gain the
+      following benefits:</p><ul><li><strong>Ability Score Increase.</strong>
+      Increase your Strength, Dexterity, or Constitution by 1, to a maximum of
+      20.</li><li><strong>Athletic Movement.</strong> Gain your choice of a
+      climbing speed or swimming speed equal to your movement
+      speed.</li><li>Gain the Athletic Feat special ability
+      (below).</li></ul><h5 id="athletic-feat">Athletic Feat</h5><p><em>Active
+      Ability (Special)</em> </p><p>You can perform an outrageous athletic feat.
+      You can do any of the following during your turn:</p><ul><li>Jump a
+      distance equal to your movement speed.</li><li>Lift twice your normal
+      lifting capacity until the end of your turn.</li><li>Move at normal speed
+      while carrying or dragging another creature until the end of your
+      turn.</li><li>Make a free Strength or Dexterity saving throw or ability
+      check against an ongoing effect or spell effecting you that would normally
+      take an action or only occur at the end of your turn</li><li>Take the Dash
+      action as a bonus action.</li></ul><p>Once you use this feature, you
+      cannot use it again until you complete a short or long rest. You can use
+      the feature again before completing a rest by taking a level of
+      exhaustion.</p>
     chat: ''
   identifier: athlete
   source:
@@ -21,9 +42,9 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
+    level: 4
   properties: []
-  requirements: ''
+  requirements: Athletics proficiency
 effects: []
 sort: 0
 ownership:
@@ -35,9 +56,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046659481
-  modifiedTime: 1729047852725
+  modifiedTime: 1732249216403
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!x9QINVPYbUt3D32W'
 

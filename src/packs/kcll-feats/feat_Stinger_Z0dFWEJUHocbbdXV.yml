@@ -2,7 +2,7 @@ folder: WyKoAfY7i7fksfdU
 name: Stinger
 type: feat
 _id: Z0dFWEJUHocbbdXV
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/ranged/dart-thrown-poison-green.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,19 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You specialize in the quiet and agonizing kill with subtle weapons. You
+      gain the following benefits related to blowguns and
+      darts:</p><ul><li><strong>Ability Score Increase.</strong> Increase your
+      Dexterity, Wisdom, or Constitution ability score by 1, to a maximum of
+      20.</li><li><strong>Efficient Poisons.</strong> When you apply a poison
+      blowgun needle or dart, you can apply it to twice as many pieces of
+      ammunition.</li><li><strong>Hidden Death.</strong> If you attack while
+      hidden from a target with a blowgun or dart, you can make a Dexterity
+      (Stealth) check with a −5 penalty for each time you’ve hit the target this
+      turn against their passive Wisdom (Perception) score (no action required).
+      On a success, you remain hidden from that target, though the target will
+      know which general direction you are in.</li></ul>
     chat: ''
   identifier: stinger
   source:
@@ -35,9 +47,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047419831
-  modifiedTime: 1729047852725
+  modifiedTime: 1732248284093
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Z0dFWEJUHocbbdXV'
 

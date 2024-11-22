@@ -1,0 +1,109 @@
+name: Antimagic Susceptibility
+type: feat
+_id: QOgwXU9nxCcgOPGO
+img: icons/magic/control/debuff-chains-ropes-net-purple-blue.webp
+system:
+  activities:
+    MuQBmDMXXDjPz4ui:
+      type: save
+      _id: MuQBmDMXXDjPz4ui
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: ''
+          formula: '10'
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As a magically alive force, you are weakened while in the area of an
+      @UUID[Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ]{antimagic field}. At
+      the start of each turn you spend it, you must make a DC 10 Charisma saving
+      throw. On failure, you have disadvantage on all attack rolls and ability
+      checks, and your speed is halved. If you fail by 5 or more, you are
+      stunned until the end of your turn. </p><p>If you are the target of
+      @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{dispel magic}, you
+      must succeed a Charisma saving throw against the caster's spell save DC
+      (even if the caster is an allied creature). On failure, you are stunned
+      until the end of your next turn.</p>
+    chat: ''
+  identifier: antimagic-susceptibility
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 19400000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732217742948
+  modifiedTime: 1732223307537
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!QOgwXU9nxCcgOPGO'
+

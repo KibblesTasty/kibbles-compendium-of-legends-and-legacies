@@ -1,0 +1,105 @@
+name: Spirit Soaring
+type: feat
+_id: A0LIAmkWQGo0mD7p
+img: icons/magic/air/fog-gas-smoke-dense-green.webp
+system:
+  activities:
+    eBKc5eZBDbqUwo7f:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties: []
+        spellbook: true
+      _id: eBKc5eZBDbqUwo7f
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You're loosely bound to this shell and capable of soaring free of it.
+      As an action, you can cast
+      @UUID[Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz]{gaseous form}, but
+      rather than transforming you leave your body behind, incapacitated, and
+      when the spell ends you return to your body's location. </p><p>Once you
+      use this feature, you cannot use it again until you complete a long
+      rest.</p>
+    chat: ''
+  identifier: spirit-soaring
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties:
+    - mgc
+  requirements: Wandering Spirit
+effects: []
+folder: null
+sort: 20900000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732221368341
+  modifiedTime: 1732221614939
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!A0LIAmkWQGo0mD7p'
+

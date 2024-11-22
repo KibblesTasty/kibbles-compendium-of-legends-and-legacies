@@ -2,7 +2,7 @@ folder: WyKoAfY7i7fksfdU
 name: War Pick Expert
 type: feat
 _id: vPmdjrCxq2JUtcJe
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/tools/hand/pickaxe-simple-stone-tan.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,16 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You have mastered the use of a war pick, and are able to tear down the
+      most formidable foes.</p><ul><li><strong>Ability Score Increase.</strong>
+      Increase your Strength or Constitution ability score by 1, to a maximum of
+      20.</li><li><strong>Siege Pick.</strong> Attacks you make with the war
+      pick against objects deal double damage.</li><li><strong>Sunder.</strong>
+      When you hit a target that is wearing armor or benefiting from natural
+      armor, you can use your bonus action to sunder the target, temporarily
+      leaving them vulnerable. The next attack roll against that creature has
+      advantage.</li></ul>
     chat: ''
   identifier: war-pick-expert
   source:
@@ -35,9 +44,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047438775
-  modifiedTime: 1729047852725
+  modifiedTime: 1732247693909
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!vPmdjrCxq2JUtcJe'
 

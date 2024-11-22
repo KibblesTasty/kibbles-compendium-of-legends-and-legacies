@@ -2,7 +2,7 @@ folder: WyKoAfY7i7fksfdU
 name: Axe Expert
 type: feat
 _id: 3hdpRGzYdwLBnbUU
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/axes/axe-battle.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,14 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You wield an axe like a force of nature, maximizing and embodying its
+      relentless and unstoppable power. You gain the following
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Strength or Constitution ability score by 1, to a maximum of
+      20.</li><li><strong>Axe Rush.</strong> While wielding a handaxe,
+      battleaxe, or greataxe, you can use a bonus action to move up to 5 feet
+      and add 1d6 to your next attack and damage roll with an axe</li></ul>
     chat: ''
   identifier: axe-expert
   source:
@@ -35,9 +42,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047344406
-  modifiedTime: 1729047852725
+  modifiedTime: 1732248959745
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!3hdpRGzYdwLBnbUU'
 

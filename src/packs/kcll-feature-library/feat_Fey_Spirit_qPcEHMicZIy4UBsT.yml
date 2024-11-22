@@ -1,0 +1,153 @@
+name: Fey Spirit
+type: feat
+_id: qPcEHMicZIy4UBsT
+img: icons/magic/nature/elemental-plant-humanoid.webp
+system:
+  activities:
+    RR1Ts9lWcusBJ1x2:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties: []
+        spellbook: true
+      _id: RR1Ts9lWcusBJ1x2
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    L3pIiWYfLa8JY0cK:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties: []
+        spellbook: true
+      _id: L3pIiWYfLa8JY0cK
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Sometimes a fey spirit finds itself inhabiting a pile of bones, often
+      not entirely aware of who, what or why, as is their way. Your creature
+      type is both Fey and Undead. You have access to additional fey magic, and
+      cast @UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{faerie fire} and
+      @UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{speak with animals}
+      each once without expending a spell slot, regaining the ability to do so
+      when you finish a long rest. Your spell casting ability for these spells
+      is Charisma.</p>
+    chat: ''
+  identifier: fey-spirit
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Fey Energy
+effects: []
+folder: null
+sort: 20700000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732221327934
+  modifiedTime: 1732221906015
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!qPcEHMicZIy4UBsT'
+

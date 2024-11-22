@@ -2,7 +2,7 @@ folder: WyKoAfY7i7fksfdU
 name: Natural Weapon Expert
 type: feat
 _id: gmDbCjsk0ll18bfW
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/creatures/abilities/paw-print-orange.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,13 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You master the use of your natural weapons, granting you the following
+      benefits:</p><ul><li><strong>Ferocity.</strong> As a bonus action, you can
+      make a single weapon attack with your natural
+      weapon.</li><li><strong>Natural Perfection.</strong> Your natural weapon
+      damage die increases to 1d6. If it is already 1d6 or greater, it increases
+      by d2 (or one step higher), up to a maximum of 1d12.</li></ul>
     chat: ''
   identifier: natural-weapon-expert
   source:
@@ -23,7 +29,7 @@ system:
   prerequisites:
     level: null
   properties: []
-  requirements: ''
+  requirements: Have one or more natural weapons
 effects: []
 sort: 0
 ownership:
@@ -35,9 +41,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047404143
-  modifiedTime: 1729047852725
+  modifiedTime: 1732248325668
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!gmDbCjsk0ll18bfW'
 

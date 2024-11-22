@@ -1,0 +1,234 @@
+name: Bestial Configuration
+type: feat
+_id: NVGwZc2ALUeAdB11
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+system:
+  activities:
+    oW8y18AkYgnottoz:
+      type: attack
+      name: Fangs
+      _id: oW8y18AkYgnottoz
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: '@mod'
+            types:
+              - piercing
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    wCMqnUxOvKz43Wh3:
+      type: attack
+      name: Claws
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        value: '5'
+        units: ft
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - slashing
+            scaling:
+              number: 1
+      _id: wCMqnUxOvKz43Wh3
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Inconveniently, you don't have hands. You cannot do anything that
+      requires hands (such as holding weapons or casting spells with somatic
+      components, but you can grapple a single target with your
+      mouth.</p><p>Your movement speed becomes 35 feet, and you gain natural
+      weapons in the form of fangs that deal 1d10 + your Strength modifier
+      piercing damage, and claws that deal 1d6 + your Strength modifier slashing
+      damage. Your claws have the Light property, you are considered to be
+      holding them for the purpose of using them as weapons.</p><section
+      id="secret-DX5EWiZkgPM5OYBL" class="secret"><h5><span
+      class="fontstyle0">B</span>eware a Lack of Hands.</h5><p>This option has
+      broad ramifications. It's a choice that offers some unique advantages, but
+      in many cases not a good one. <br /></p></section>
+    chat: ''
+  identifier: bestial-configuration
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Beast Remains
+effects:
+  - name: Bestial Configuration
+    img: icons/creatures/mammals/elk-moose-marked-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NVGwZc2ALUeAdB11
+    _id: vVaGm6UbmyYK6r9F
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '5'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732224224349
+      modifiedTime: 1732224235663
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!NVGwZc2ALUeAdB11.vVaGm6UbmyYK6r9F'
+folder: null
+sort: 19500000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732217996069
+  modifiedTime: 1732224319648
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!NVGwZc2ALUeAdB11'
+

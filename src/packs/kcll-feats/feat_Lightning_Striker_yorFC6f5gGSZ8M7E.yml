@@ -2,7 +2,7 @@ folder: 69ctjebMzgjr3gRw
 name: Lightning Striker
 type: feat
 _id: yorFC6f5gGSZ8M7E
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/melee/strikes-sword-scimitar.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,15 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You have mastered wielding weapons with lightning speed, granting the
+      following benefits:</p><ul><li><strong>Quick Draw.</strong> Whenever you
+      make an attack, you can draw a light melee weapon as part of taking the
+      attack.</li><li><strong>Twin Strike.</strong> When you make an attack
+      while wielding more than one light melee weapon and make an attack with
+      one of them, you can subtract the damage dice of another light melee
+      weapon you are carrying from the attack roll to add twice its damage dice
+      to the damage roll of that attack on hit.</li></ul>
     chat: ''
   identifier: lightning-striker
   source:
@@ -35,9 +43,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047469161
-  modifiedTime: 1729047852725
+  modifiedTime: 1732249090231
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!yorFC6f5gGSZ8M7E'
 

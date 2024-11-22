@@ -2,15 +2,106 @@ folder: oHNnGkIfPY35Nhxf
 name: Grappler
 type: feat
 _id: vIwEyBuie8xLDAeX
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/melee/hand-grip-staff-blue.webp
 system:
-  activities: {}
+  activities:
+    M9rdMwK3eKF2LbAR:
+      type: save
+      _id: M9rdMwK3eKF2LbAR
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '20'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @abilities.str.mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+        onSave: none
+      save:
+        ability:
+          - str
+        dc:
+          calculation: str
+          formula: ''
+      name: Martial Toss
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You master grappling and leverage to pin and fling your foes. You gain
+      the following benefits:</p><ul><li><strong>Ability Score
+      Increase.</strong> Increase your Strength or Constitution by 1, to a
+      maximum of 20.</li><li><strong>Quick Grabs.</strong> When you take the
+      Attack action on your turn, you can make one unarmed strike or attempt to
+      grapple as a bonus action.</li><li>Gain the Martial Toss special attack
+      (below).</li></ul><h5 id="martial-toss">Martial Toss</h5><p><em>Active
+      Ability (Attack)</em></p><p>When you take the Attack action on your turn,
+      you can replace one of your attacks to attempt to hurl a creature of your
+      size or smaller. The target must make a Strength saving throw. An object
+      or creature you are grappling automatically fails. If you successfully
+      lift them, you can throw them 20 feet. The range is increased by 10 feet
+      for each size smaller than you the target is.</p><p>The creature’s
+      movement ends early if it collides with another creature or obstacle. The
+      thrown creature and anything it collides with takes 2d6 + your Strength
+      modifier, and the thrown creature falls prone. The number of d6 increases
+      by one when your proficiency bonus increases (with the total number of d6
+      equaling your proficiency bonus).</p><p>A creature can choose to fail
+      their save against this ability. You can throw a willing creature more
+      carefully, dealing no damage to them unless they collide with something
+      during their flight. </p><p>Once you use this feature to successfully
+      throw a creature or object, you cannot use it again until you complete a
+      short or long rest.</p>
     chat: ''
   identifier: grappler
   source:
@@ -21,7 +112,7 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
+    level: 4
   properties: []
   requirements: ''
 effects: []
@@ -29,15 +120,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046699007
-  modifiedTime: 1729047852725
+  modifiedTime: 1732249255694
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!vIwEyBuie8xLDAeX'
 

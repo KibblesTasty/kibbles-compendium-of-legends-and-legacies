@@ -1,0 +1,265 @@
+name: Flaming Skeleton
+type: feat
+_id: 39AJycuGUOxJVi3i
+img: icons/magic/fire/flame-burning-creature-skeleton.webp
+system:
+  activities:
+    atcV1T9nlHTvwFqe:
+      type: utility
+      name: Burst Alight
+      _id: atcV1T9nlHTvwFqe
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: T64Q4k9cnoG8I6wY
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    OgSodyBrDWC3Ph9e:
+      type: damage
+      name: Aura
+      _id: OgSodyBrDWC3Ph9e
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    NP5x5oDs7YwKtxc9:
+      type: damage
+      name: Hit or Deal Fire Damage
+      _id: NP5x5oDs7YwKtxc9
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@prof'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You glow with an inner flame. As a bonus action, you can burst alight,
+      becoming a flaming skeleton for 1 minute. For the duration, you have
+      resistance to fire damage and any other creature that starts their turn
+      within 5 feet of you takes 1d4 fire damage. While this effect is active,
+      once per turn when you hit a creature within 5 feet of you with an attack
+      or deal fire damage, you can add bonus damage to that damage roll equal to
+      your proficiency bonus (affecting one target of the damage roll).
+      </p><p>Once you use this feature, you cannot use it again until you
+      complete a long rest.</p>
+    chat: ''
+  identifier: flaming-skeleton
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Infernal Energy
+effects:
+  - name: Flaming Skeleton
+    img: icons/magic/fire/flame-burning-creature-skeleton.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.39AJycuGUOxJVi3i
+    transfer: false
+    _id: T64Q4k9cnoG8I6wY
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732221729436
+      modifiedTime: 1732222308808
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!39AJycuGUOxJVi3i.T64Q4k9cnoG8I6wY'
+folder: null
+sort: 20800000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732221340052
+  modifiedTime: 1732221838587
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!39AJycuGUOxJVi3i'
+

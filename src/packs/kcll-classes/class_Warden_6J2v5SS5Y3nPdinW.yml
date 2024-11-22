@@ -337,16 +337,16 @@ system:
         distance:
           units: ''
         scale:
-          '2':
-            value: 2
+          '1':
+            value: -2
           '5':
-            value: 3
+            value: -3
           '9':
-            value: 4
+            value: -4
           '13':
-            value: 5
+            value: -5
           '17':
-            value: 6
+            value: -6
       value: {}
       title: Bulwark Reduction
       hint: ''
@@ -643,7 +643,7 @@ _stats:
   systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: 1680650622405
-  modifiedTime: 1731649940042
+  modifiedTime: 1732228431103
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Compendium.dnd5e.classes.pvEzGSv71zBhaolc
   duplicateSource: null

@@ -2,7 +2,7 @@ folder: WyKoAfY7i7fksfdU
 name: Lance Master
 type: feat
 _id: JIQYEjxJL8CgZzoI
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/polearms/spear-flared-silver-pink.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,22 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You use maximize the effectiveness of a lance, gaining the following
+      benefits:</p><ul><li><strong>Impaled Movement.</strong> While you are
+      mounted, if you strike a creature smaller than your mount with a lance,
+      you can push that creature until the end of your turn, you make another
+      attack, or you move in something other than a straight line. This movement
+      counts as if you are grappling the creature for the duration of the
+      movement, and your mounts movement speed is reduced to half while pushing
+      them.</li><li><strong>Piercing Charge.</strong> When you hit an attack
+      with a lance after traveling at least 10 feet, you can make an additional
+      attack at another creature behind the target hit with disadvantage, as
+      long as they are in reach of your weapon (you can move between attacks,
+      but only in a straight line) with disadvantage. You can continue to repeat
+      this until you miss, run out of movement, or run out of creatures in a
+      line to hit.</li><li><strong>Expert Handling.</strong> A lance no longer
+      requires two-hands when you aren’t mounted</li></ul>
     chat: ''
   identifier: lance-master
   source:
@@ -35,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047379852
-  modifiedTime: 1729047852725
+  modifiedTime: 1732248473666
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JIQYEjxJL8CgZzoI'
 

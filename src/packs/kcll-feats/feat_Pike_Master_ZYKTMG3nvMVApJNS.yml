@@ -2,7 +2,7 @@ folder: WyKoAfY7i7fksfdU
 name: Pike Master
 type: feat
 _id: ZYKTMG3nvMVApJNS
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/polearms/pike-flared-brown.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,16 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You master the effective use of a pike, making the most of its extreme
+      range.</p><ul><li><strong>Extended Reach.</strong> Your reach with a pike
+      increases by 5 feet on your turn.</li><li><strong>Set for Charge.</strong>
+      If you haven’t yet moved this turn, you can use your bonus action to set
+      for charge, reducing your movement speed to 0 and gaining a second
+      reaction that can only be used to make attacks of opportunity until the
+      start of your next turn.</li><li><strong>Zone Control.</strong> While
+      wielding a pike, creatures provoke an attack of opportunity when they
+      enter the reach of the pike.</li></ul>
     chat: ''
   identifier: pike-master
   source:
@@ -35,9 +44,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047413676
-  modifiedTime: 1729047852725
+  modifiedTime: 1732248311492
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ZYKTMG3nvMVApJNS'
 

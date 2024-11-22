@@ -2,15 +2,112 @@ folder: oHNnGkIfPY35Nhxf
 name: Storm Shooter
 type: feat
 _id: xo5OykUp1dS9SilO
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/ranged/arrows-flying-salvo-blue.webp
 system:
-  activities: {}
+  activities:
+    pUKLGgX6qiJmYfSl:
+      type: save
+      name: Arrow Storm
+      _id: pUKLGgX6qiJmYfSl
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: material
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: '2'
+          - type: itemUses
+            value: '1'
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @abilities.dex.mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: dex
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <ul><li><strong>Ability Score Increase.</strong> Increase your Strength,
+      Dexterity or Constitution by 1, to a maximum of
+      20.</li><li><strong>Raining Death.</strong> If you kill a creature within
+      a single ranged weapon attack (reducing it from maximum hit points to 0
+      hit points) using the Attack action on your turn, you can make one
+      additional ranged weapon attack as a bonus action that turn.</li><li>Gain
+      the Arrow Storm special attack (below)</li></ul><h5 id="arrow-storm">Arrow
+      Storm</h5><p><em>Active Ability (Attack)</em></p><p>When you take the
+      Attack action on your turn, you can replace one of your attacks by firing
+      innumerable pieces of ammunition into the sky which rain down around a
+      point within 60 feet of you. All creatures within 10 feet of the point
+      must make a Dexterity saving throw. On failure, they take 2d6 + your
+      Dexterity modifier damage, or half as much on success. The number of d6
+      increases by one when your proficiency bonus increases (with the total
+      number of d6 equaling your proficiency bonus). A number of pieces of
+      ammunition are consumed equal to the number of targets that make the save
+      against the ability times two.</p><p>Once you use this feature, you cannot
+      use it again until you complete a short or long rest.</p>
     chat: ''
   identifier: storm-shooter
   source:
@@ -21,7 +118,7 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
+    level: 4
   properties: []
   requirements: ''
 effects: []
@@ -29,15 +126,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729046720187
-  modifiedTime: 1729047852725
+  modifiedTime: 1732249286692
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xo5OykUp1dS9SilO'
 

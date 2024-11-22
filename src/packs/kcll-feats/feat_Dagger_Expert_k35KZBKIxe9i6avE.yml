@@ -2,7 +2,7 @@ folder: WyKoAfY7i7fksfdU
 name: Dagger Expert
 type: feat
 _id: k35KZBKIxe9i6avE
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/daggers/dagger-ritual-brown.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,16 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You wield daggers with perfection and poise, able to use them fluidly
+      in any situation.</p><ul><li><strong>Dagger Tricks.</strong> You can draw
+      or stow any number of daggers during your turn. You have advantage on any
+      ability check to conceal your daggers.</li><li><strong>Improved
+      Critical.</strong> Your attacks with daggers score a critical hit on a
+      roll of 19 or 20.</li><li><strong>Swift Stabbing.</strong> When you use
+      two-weapon fighting using a dagger in both hands, you can take both
+      attacks as part of the Attack action on your turn (without expending your
+      bonus action). You can only make this attack once per turn.</li></ul>
     chat: ''
   identifier: dagger-expert
   source:
@@ -35,9 +44,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047355222
-  modifiedTime: 1729047852725
+  modifiedTime: 1732248901798
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!k35KZBKIxe9i6avE'
 

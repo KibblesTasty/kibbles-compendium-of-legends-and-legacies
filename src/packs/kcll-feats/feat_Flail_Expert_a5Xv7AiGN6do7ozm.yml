@@ -2,7 +2,7 @@ folder: WyKoAfY7i7fksfdU
 name: Flail Expert
 type: feat
 _id: a5Xv7AiGN6do7ozm
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/maces/flail-spiked-grey.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,16 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Your mastery with a flail allows you to use the challenging weapon with
+      deadly skill. You gain the following benefits while wielding a
+      flail:</p><ul><li><strong>Dangerous Swings.</strong> When you miss a melee
+      weapon attack made with a flail, you can make a new attack roll against
+      another creature you of your choice within the weapon’s range. You cannot
+      attack the same creature twice this way.</li><li><strong>Wind Up.</strong>
+      As a bonus action, you can whirl the flail building momentum. The next
+      attack you make with it before the end of your turns an additional 1d8
+      damage on hit.</li></ul>
     chat: ''
   identifier: flail-expert
   source:
@@ -35,9 +44,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047361789
-  modifiedTime: 1729047852725
+  modifiedTime: 1732248887998
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!a5Xv7AiGN6do7ozm'
 

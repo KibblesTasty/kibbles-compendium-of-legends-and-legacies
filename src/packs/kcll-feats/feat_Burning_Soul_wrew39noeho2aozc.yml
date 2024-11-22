@@ -2,9 +2,132 @@ folder: iD1OKYjdAcPe0h8l
 name: Burning Soul
 type: feat
 _id: wrew39noeho2aozc
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/fire/flame-burning-yellow-orange.webp
 system:
-  activities: {}
+  activities:
+    oEY3lONkSU1uTqHc:
+      type: heal
+      name: Explosive Rejuvenation
+      _id: oEY3lONkSU1uTqHc
+      sort: -100000
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 2
+        denomination: '4'
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: (@prof)d4
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+    ddzwKWAxYf0NKnbw:
+      type: save
+      name: Explosive Rejuvenation
+      _id: ddzwKWAxYf0NKnbw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d4
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery:
@@ -50,7 +173,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +185,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047545029
-  modifiedTime: 1732252886767
+  modifiedTime: 1732309082312
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wrew39noeho2aozc'
 

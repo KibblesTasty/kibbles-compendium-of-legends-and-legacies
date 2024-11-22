@@ -2,9 +2,61 @@ folder: eY6MBIKazfiSmnlA
 name: Dragon Form
 type: feat
 _id: htP7kK6cMeE2xPIf
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/creatures/reptiles/dragon-winged-blue.webp
 system:
-  activities: {}
+  activities:
+    uxqaKJK7d5kf3XUD:
+      type: utility
+      name: Dragon Aspect
+      _id: uxqaKJK7d5kf3XUD
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery:
@@ -67,7 +119,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -75,7 +131,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047666285
-  modifiedTime: 1732253921640
+  modifiedTime: 1732311121564
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!htP7kK6cMeE2xPIf'
 

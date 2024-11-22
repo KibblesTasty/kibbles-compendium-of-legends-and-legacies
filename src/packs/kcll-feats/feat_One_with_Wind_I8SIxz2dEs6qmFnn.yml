@@ -2,9 +2,84 @@ folder: iD1OKYjdAcPe0h8l
 name: One with Wind
 type: feat
 _id: I8SIxz2dEs6qmFnn
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/air/air-wave-gust-blue.webp
 system:
-  activities: {}
+  activities:
+    FcMg2pLUdyoXh2eL:
+      type: attack
+      name: Wind Strike
+      _id: FcMg2pLUdyoXh2eL
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: 5 * @prof
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '@prof'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: spellcasting
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof - 1)d6 + @mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery:
@@ -54,7 +129,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -62,7 +141,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047519195
-  modifiedTime: 1732252691630
+  modifiedTime: 1732310583583
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!I8SIxz2dEs6qmFnn'
 

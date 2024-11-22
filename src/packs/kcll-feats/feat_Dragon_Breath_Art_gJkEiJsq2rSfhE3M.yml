@@ -2,9 +2,157 @@ folder: eY6MBIKazfiSmnlA
 name: Dragon Breath Art
 type: feat
 _id: gJkEiJsq2rSfhE3M
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/creatures/abilities/dragon-ice-breath-blue.webp
 system:
-  activities: {}
+  activities:
+    PZK9FTyr2um0kxHH:
+      type: save
+      name: Dragon Breath (Cone)
+      _id: PZK9FTyr2um0kxHH
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cube
+          size: '15'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof + 1)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - poison
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+    2trBaQVfk3jCL2BW:
+      type: save
+      name: Dragon Breath (Line)
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: line
+          size: '30'
+          width: '5'
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof + 1)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - poison
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: 2trBaQVfk3jCL2BW
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery:
@@ -51,7 +199,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -59,7 +211,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047677738
-  modifiedTime: 1732253932493
+  modifiedTime: 1732311054699
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!gJkEiJsq2rSfhE3M'
 

@@ -2,13 +2,121 @@ folder: iD1OKYjdAcPe0h8l
 name: Earth Shaper
 type: feat
 _id: cgr4z4ECxyTyJoHk
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
 system:
-  activities: {}
+  activities:
+    q4LSNTntW5ctPTdx:
+      type: utility
+      name: 'Stonewall: Circle'
+      _id: q4LSNTntW5ctPTdx
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    iwrM74SpRS6uVVxM:
+      type: utility
+      name: 'Stonewall: Line'
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: line
+          size: '30'
+          width: '5'
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      _id: iwrM74SpRS6uVVxM
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery:
-      - period: sr
+      - period: lr
         type: recoverAll
     max: '1'
   description:
@@ -19,12 +127,12 @@ system:
       by 1, to a maximum of 20.</li><li><strong>Stone Forming.</strong> You
       learn the stone formingK cantrip.</li><li>You gain the Stonewall special
       action (below).</li></ul><h5 id="stonewall">Stonewall</h5><p><em>Active
-      Ability (Action, Supernatural)</em> </p><p>As an action, you cause a 20
+      Ability (Action, Supernatural)</em></p><p>As an action, you cause a 20
       foot high, 1 foot thick wall of stone to erupt from the ground either in a
       20 foot radius around you, or in a 30-foot long straight line that has a
       least one part of the wall within 20 feet of you.</p><p>The wall lasts for
       up to 10 minutes. The wall can be destroyed, and has an AC of 16 and a
-      number of hit193 points equal to 5 × your character level (the entire ring
+      number of hit points equal to 5 × your character level (the entire ring
       sharing the same hit points, crumbling to dust when reduced to zero). The
       wall immediately crumbles if you fall unconscious.</p><p>Once you use this
       ability, you cannot use it again until you complete a long rest.</p>
@@ -46,7 +154,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -54,7 +166,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047571946
-  modifiedTime: 1732252986831
+  modifiedTime: 1732309378732
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!cgr4z4ECxyTyJoHk'
 

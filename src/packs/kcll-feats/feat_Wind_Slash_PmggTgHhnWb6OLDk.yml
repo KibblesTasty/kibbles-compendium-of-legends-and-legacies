@@ -2,9 +2,81 @@ folder: iD1OKYjdAcPe0h8l
 name: Wind Slash
 type: feat
 _id: PmggTgHhnWb6OLDk
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/air/air-pressure-shield-blue.webp
 system:
-  activities: {}
+  activities:
+    1MmUoYZzu1vUWY6f:
+      type: attack
+      name: Wind Slash
+      _id: 1MmUoYZzu1vUWY6f
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        ability: spellcasting
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - slashing
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery:
@@ -51,7 +123,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -59,7 +135,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047529964
-  modifiedTime: 1732252699663
+  modifiedTime: 1732310648902
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!PmggTgHhnWb6OLDk'
 

@@ -2,9 +2,66 @@ folder: 73In4hNhe0sdUDQA
 name: Vanishing Trick
 type: feat
 _id: B9xGrKBlC9no4V91
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/unholy/projectiles-binary-pink.webp
 system:
-  activities: {}
+  activities:
+    Kp6CaoaQKjLobnsY:
+      type: save
+      name: Nether Swap
+      _id: Kp6CaoaQKjLobnsY
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: 5 * @prof
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creatureOrObject
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery:
@@ -28,9 +85,9 @@ system:
       a bonus action, you swap places with a Small to Large creature or object
       that is not being worn or carried you can see within 15 feet of you. If
       the target is an unwilling creature, it makes a Charisma saving throw
-      against your Mystic Path DC. On a successful195 save, the ability fails
-      and neither creature is teleported. The maximum distance increases by 5
-      feet when your proficiency bonus increases (always equaling 5 times your
+      against your Mystic Path DC. On a successful save, the ability fails and
+      neither creature is teleported. The maximum distance increases by 5 feet
+      when your proficiency bonus increases (always equaling 5 times your
       proficiency bonus).</p><p>Once you use this feature, you cannot use it
       again until you complete a short or long rest.</p>
     chat: ''
@@ -52,7 +109,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -60,7 +121,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047621342
-  modifiedTime: 1732253474294
+  modifiedTime: 1732311743359
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!B9xGrKBlC9no4V91'
 

@@ -2,9 +2,77 @@ folder: iD1OKYjdAcPe0h8l
 name: Lightning Rod
 type: feat
 _id: yEWOXZWzxnh0Qs6w
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/lightning/bolt-strike-forked-blue.webp
 system:
-  activities: {}
+  activities:
+    HsD9hd38IxFmdV6n:
+      type: save
+      name: Lightning Burst
+      _id: HsD9hd38IxFmdV6n
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery:
@@ -47,7 +115,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -55,7 +127,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047566747
-  modifiedTime: 1732252937250
+  modifiedTime: 1732310146756
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!yEWOXZWzxnh0Qs6w'
 

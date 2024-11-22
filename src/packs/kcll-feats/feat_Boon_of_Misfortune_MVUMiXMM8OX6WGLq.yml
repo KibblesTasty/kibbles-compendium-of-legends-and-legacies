@@ -1,0 +1,47 @@
+folder: Ul0S2zNLp1x7Y6yn
+name: Boon of Misfortune
+type: feat
+_id: MVUMiXMM8OX6WGLq
+img: icons/magic/control/modfiy-luck-fortune-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A twisted boon that doesn't negate your bad luck, but lets you share
+      it. Whenever you roll a 1 on the d20 for an attack roll, saving throw, or
+      ability check, you can choose a creature within 60 feet. Their d20 next
+      roll before the start of your next turn becomes a 1.</p>
+    chat: ''
+  identifier: boon-of-misfortune
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: supernaturalGift
+    subtype: epicBoon
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732296652030
+  modifiedTime: 1732308375082
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!MVUMiXMM8OX6WGLq'
+

@@ -1,0 +1,49 @@
+folder: Ul0S2zNLp1x7Y6yn
+name: Boon of Bond
+type: feat
+_id: EAl4KByEkNJW1Lf9
+img: icons/magic/life/crosses-trio-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You and another willing creature become permanently bonded together by
+      a magical connection. Any damage taken or healing done to either creature
+      is split between the two creatures. Either creature can transfer their hit
+      points to the other creature by touching them as an action if the other
+      creature has less hit points than they do (up to an amount that would
+      equalize their hit points).</p>
+    chat: ''
+  identifier: boon-of-bond
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: supernaturalGift
+    subtype: epicBoon
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732295783807
+  modifiedTime: 1732308375082
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!EAl4KByEkNJW1Lf9'
+

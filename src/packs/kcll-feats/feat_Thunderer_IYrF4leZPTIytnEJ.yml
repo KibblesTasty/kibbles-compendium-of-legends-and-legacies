@@ -2,24 +2,162 @@ folder: eY6MBIKazfiSmnlA
 name: Thunderer
 type: feat
 _id: IYrF4leZPTIytnEJ
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/sonic/projectile-shock-wave-blue.webp
 system:
-  activities: {}
+  activities:
+    BAdcUh1E2eB6hMNl:
+      type: save
+      name: Quaking Smash
+      _id: BAdcUh1E2eB6hMNl
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '15'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - thunder
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+    8Wr88bJh6CNBdk9k:
+      type: save
+      name: Quaking Smash (Large)
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: cone
+          size: '30'
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d8
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - thunder
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: 8Wr88bJh6CNBdk9k
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
     value: >-
-      <p>Ability Score Bonus. Increase your Strength or Constitution ability
-      score by 1, to a maximum of 20.</p><ul><li><strong>Stable
-      Footing.</strong> You gain advantage from being knocked down by ground
-      shaking or heaving.</li><li>You gain the Quaking Smash special attack
-      (below).</li></ul><h5 id="quaking-smash">Quaking Smash</h5><p><em>Active
-      Ability (Attack, Supernatural)</em></p><p>As an attack as part of the
-      attack action, you slam the ground causing an eruption of thunder to erupt
-      outward in a 15 foot cone. Creatures in the area must make a Constitution
-      save. On failure they take 2d6 thunder damage and are knocked prone. On
+      <ul><li><p><strong>Ability Score Bonus.</strong> Increase your Strength or
+      Constitution ability score by 1, to a maximum of
+      20.</p></li><li><strong>Stable Footing.</strong> You gain advantage from
+      being knocked down by ground shaking or heaving.</li><li>You gain the
+      Quaking Smash special attack (below).</li></ul><h5
+      id="quaking-smash">Quaking Smash</h5><p><em>Active Ability (Attack,
+      Supernatural)</em></p><p>As an attack as part of the attack action, you
+      slam the ground causing an eruption of thunder to erupt outward in a 15
+      foot cone. Creatures in the area must make a Constitution save. On failure
+      they take 2d6 thunder damage and are knocked &amp;Reference[prone]. On
       success, they take half as much damage and aren’t knocked prone. The
       number of d6 damage dealt increase when your proficiency bonus
       increases.</p><p>If you are Large or Larger when you take this action, the
@@ -44,7 +182,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -52,7 +194,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729047688069
-  modifiedTime: 1732253962959
+  modifiedTime: 1732311417322
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!IYrF4leZPTIytnEJ'
 

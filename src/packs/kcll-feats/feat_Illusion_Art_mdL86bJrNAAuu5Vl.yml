@@ -4,13 +4,130 @@ type: feat
 _id: mdL86bJrNAAuu5Vl
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
-  activities: {}
+  activities:
+    kuIn3CGa1wgISMmQ:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: null
+        properties: []
+        spellbook: true
+      _id: kuIn3CGa1wgISMmQ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    D7brhxCBmIy9Ukin:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties: []
+        spellbook: true
+      _id: D7brhxCBmIy9Ukin
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: Illusion Steps
+      img: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You master the arts of illusion, mastering a special art to create them
+      through a unique method. You gain the following
+      benefits:</p><ul><li><strong>Mind Tricks.</strong> You learn the
+      @UUID[Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU]{minor illusion}
+      cantrip and cast it without a material component, using a spellcasting
+      ability modifier of your choice. When you form a weapon with minor
+      illusion, you can use it as if it were a real weapon for the duration. On
+      hit, it does psychic damage instead of its normal damage type.</li><li>You
+      gain the Illusion Steps special bonus action (below).</li></ul><h5
+      id="illusion-steps">Illusion Steps</h5><p><em>Active Ability (Bonus
+      Action, Supernatural)</em></p><p>You can cast
+      @UUID[Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{mirror image} as a
+      bonus action without expending a spell slot. When cast this way, it
+      conjures a number of duplicates equal to your proficiency bonus. When you
+      cast this ability or as a bonus action while it is active, you can move
+      one or more of the duplicates out of your space, moving up to your
+      movement speed. A duplicate outside of your space looks just like you and
+      mimics your action, but if you attack or interact with anything while it
+      is not in your space, it is revealed as an illusion until to returns to
+      your space.</p><p>If you start your turn with one or more duplicate not in
+      your space, you can either recall them to your space or swap positions
+      with one (destroying the duplicate in the process).</p><p>Once you use
+      this feature, you cannot use it again until you complete a long rest.</p>
     chat: ''
   identifier: illusion-art
   source:
@@ -21,7 +138,7 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
+    level: 4
   properties: []
   requirements: ''
 effects: []
@@ -29,15 +146,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047611202
-  modifiedTime: 1729047852725
+  modifiedTime: 1732253265840
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!mdL86bJrNAAuu5Vl'
 

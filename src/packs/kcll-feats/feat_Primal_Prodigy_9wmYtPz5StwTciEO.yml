@@ -1,7 +1,7 @@
 name: Primal Prodigy
 type: feat
 _id: 9wmYtPz5StwTciEO
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/nature/hand-weapon-wood-bark-brown.webp
 system:
   activities: {}
   uses:
@@ -9,7 +9,13 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Your connection to the primal power grows stronger. You learn one
+      additional Primal Manifestation from the Warden Primal Manifestation list.
+      You cannot select a manifestation you already know, or one that requires a
+      level restriction, even if you are already of that level. You can only
+      select one with a prerequisite of a subclass if you have at least one
+      level in that subclass.</p>
     chat: ''
   identifier: primal-prodigy
   source:
@@ -22,7 +28,7 @@ system:
   prerequisites:
     level: null
   properties: []
-  requirements: ''
+  requirements: Warden
 effects: []
 folder: null
 sort: 0
@@ -35,9 +41,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047730354
-  modifiedTime: 1729047852725
+  modifiedTime: 1732254308648
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9wmYtPz5StwTciEO'
 

@@ -7,10 +7,28 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You have mastered a special connection to water and can beckon it to
+      your call. You gain the following benefits:</p><ul><li><strong>Ability
+      Score Bonus.</strong> Increase your Strength, Dexterity, or Wisdom ability
+      score by 1, to a maximum of 20.</li><li><strong>Water Walker.</strong> You
+      can walk on top of surfaces made of water as if they are solid
+      ground.</li><li>You gain the Water Whip special attack
+      (below).</li></ul><h5 id="water-whip">Water Whip</h5><p><em>Active Ability
+      (Attack, Supernatural)</em></p><p>When you take the Attack action on your
+      turn, you can replace one of your attacks with creating and using a whip
+      of water. You can slam this into a creature within 30 feet of you, forcing
+      it to make a Strength saving throw. On a failed save, the target takes a
+      number of d8 damage equal to your proficiency bonus, and is knocked 10
+      feet in a direction of your choice (including straight up, if you so
+      choose). On a successful save, the target takes half as much damage and
+      isn’t moved.</p><p>Once you use this ability, you cannot use it again
+      until you complete a short or long rest.</p>
     chat: ''
   identifier: water-weaver
   source:
@@ -21,8 +39,9 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
-  properties: []
+    level: 4
+  properties:
+    - mgc
   requirements: ''
 effects: []
 sort: 0
@@ -35,9 +54,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047593518
-  modifiedTime: 1729047852725
+  modifiedTime: 1732253140657
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!1TFCNiSSB7dunwQY'
 

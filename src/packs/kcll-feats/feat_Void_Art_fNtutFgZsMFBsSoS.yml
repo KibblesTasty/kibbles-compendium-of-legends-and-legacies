@@ -7,10 +7,34 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>After intense study and sudden enlightenment you’ve mastered the true
+      essence of cutting through space itself. You gain the following
+      benefits:</p><ul><li><strong>Part Magic.</strong> When you succeed a
+      Dexterity saving throw against a spell or similar magical effect and you
+      would take half damage, you can use your reaction to cut the effect from
+      existence around you, taking no damage instead.</li><li>You gain the
+      special Void Strike action (below).</li></ul><h5 id="void-strike">Void
+      Strike</h5><p><em>Active Ability (Action, Supernatural)</em></p><p>As an
+      action, you make a special attack that strikes the dimensional boundaries
+      around a creature, disrupting them and potentially briefly pulling the
+      creature into the ethereal plane. The target makes a Charisma saving
+      throw. On failure, they take force damage equal to 2d6 + your Mystic Path
+      modifier and are banished to the ethereal plane until the start of your
+      next turn. On success, they take half as much and are not banished to the
+      ethereal plane.</p><p>The creature cannot move while on the ethereal
+      plane, but can otherwise take any action they can normally take, but they
+      cannot interact with things on the material plane unless they normally
+      could. You can choose to do no damage with this ability, and the target
+      can choose to fail their save. The number of d6 damage the target takes
+      increases when your proficiency bonus increase, remaining equal to your
+      proficiency bonus.</p><p>Once you use this feature, you cannot use it
+      again until you complete a short or long rest.</p>
     chat: ''
   identifier: void-art
   source:
@@ -35,9 +59,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047615866
-  modifiedTime: 1729047852725
+  modifiedTime: 1732253536682
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!fNtutFgZsMFBsSoS'
 

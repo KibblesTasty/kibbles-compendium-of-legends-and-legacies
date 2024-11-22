@@ -7,10 +7,30 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You harbor within your soul an ember of the flame of life akin to the
+      power of a phoenix. You gain the following
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Strength, Constitution or Charisma ability score by 1, to a maximum of
+      20.</li><li><strong>Resilient Life.</strong> You gain advantage on death
+      saving throws. If you have Explosive Rejuvenation available when you would
+      fail your 3rd death saving throw, it automatically activates instead.
+      </li><li>You gain the Explosive Rejuvenation special bonus action
+      (below).</li></ul><h5 id="explosive-rejuvenation">Explosive
+      Rejuvenation</h5><p><em>Active Ability (Bonus Action,
+      Supernatural)</em></p><p>As a bonus action, you can unleash the power of
+      the ember within your soul, exploding with fire. You regain 2d4 hit
+      points, and all creatures within 10 feet of you must make a Dexterity
+      saving throw, taking 2d4 fire damage on a failed save, or half as much on
+      a successful one.</p><p>The fire damage and hit points regard increase by
+      1d4 each time your proficiency increases (remaining equal to your
+      proficiency bonus).</p><p>Once you use this ability, you cannot use it
+      again until you complete a long rest.</p>
     chat: ''
   identifier: burning-soul
   source:
@@ -21,8 +41,9 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
-  properties: []
+    level: 4
+  properties:
+    - mgc
   requirements: ''
 effects: []
 sort: 0
@@ -35,9 +56,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047545029
-  modifiedTime: 1729047852725
+  modifiedTime: 1732252886767
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wrew39noeho2aozc'
 

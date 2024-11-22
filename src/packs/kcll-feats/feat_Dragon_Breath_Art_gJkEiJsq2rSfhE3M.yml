@@ -7,10 +7,31 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You master the art of gathering elemental power within yourself to
+      unleash in blasts akin to a dragon’s breath. You gain the following
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Constitution, or Charisma ability score by 1, to a maximum of
+      20.</li><li><strong>Familiarity.</strong> You gain advantage on saving
+      throws against the breath weapons of dragons.</li></ul><h5
+      id="dragon-breath">Dragon Breath</h5><p><em>Active Ability (Attack,
+      Supernatural)</em></p><p>As an attack as part of the attack action, you
+      can unleash a cone of elemental devastation. Creatures in a 15 foot cone
+      or 5 by 30 foot line (your choice) must make a Dexterity (for acid, fire
+      or lightning) or Constitution (for cold or poison) saving throw. On
+      failure, they take 3d6 acid, cold, fire, lightning, or poison damage
+      (select when you take this feat), or half as much on a successful one. The
+      number of d6 increases when your proficiency bonus increases (to 4d6 at
+      5th level, 5d6 at 9th level, 6d6 at 13th level, and 7d6 at 17th
+      level).</p><p>If you are transformed by the Dragon Aspect of the Dragon
+      Form feat, the area of effect is doubled (to a 30 foot cone or 60 foot
+      line).</p><p>Once you use this feature, you cannot use it again until you
+      complete a short or long rest.</p>
     chat: ''
   identifier: dragon-breath-art
   source:
@@ -21,8 +42,9 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
-  properties: []
+    level: 4
+  properties:
+    - mgc
   requirements: ''
 effects: []
 sort: 0
@@ -35,9 +57,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047677738
-  modifiedTime: 1729047852725
+  modifiedTime: 1732253932493
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!gJkEiJsq2rSfhE3M'
 

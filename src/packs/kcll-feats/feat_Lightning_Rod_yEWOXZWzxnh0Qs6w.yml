@@ -7,10 +7,27 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You learn to store lightning energy within your body. You gain the
+      following benefits:</p><ul><li><strong>Ability Score Bonus.</strong>
+      Increase your Strength, Constitution, or Intelligence ability score by 1,
+      to a maximum of 20.</li><li><strong>Lightning Draw.</strong> When a
+      creature within 10 feet of you takes lightning damage, as a reaction you
+      can redirect that damage to yourself.</li><li>You gain the Lightning Burst
+      special attack (below).</li></ul><h5 id="lightning-burst">Lightning
+      Burst</h5><p><em>Active Ability (Attack, Supernatural)</em></p><p>When you
+      take the Attack action on your turn, you can replace one attack by
+      unleashing lightning that blasts all targets of your choice within 10 feet
+      of you. Each target must make a Dexterity saving throw. On failure, they
+      take 2d6 lightning damage. On success they take half as much damage. The
+      lightning damage increases by 1d6 each time your proficiency bonus
+      increases.</p><p>Once you use this feature, you cannot use it again until
+      you complete a short or long rest.</p>
     chat: ''
   identifier: lightning-rod
   source:
@@ -21,8 +38,9 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
-  properties: []
+    level: 4
+  properties:
+    - mgc
   requirements: ''
 effects: []
 sort: 0
@@ -35,9 +53,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047566747
-  modifiedTime: 1729047852725
+  modifiedTime: 1732252937250
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!yEWOXZWzxnh0Qs6w'
 

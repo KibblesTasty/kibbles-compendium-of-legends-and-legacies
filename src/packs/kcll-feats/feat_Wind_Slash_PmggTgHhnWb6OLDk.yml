@@ -7,10 +7,31 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>The wind conveys the will of your attacks, granting you the following
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Strength, Dexterity or Wisdom ability score by 1, to a maximum of
+      20.</li><li><strong>Cloudbreaker.</strong> You can cut dust, fog, or
+      clouds. As an attack as part of the attack action, you can clear a 30 foot
+      cone of dust, fog, or cloud. Depending on the source of the obscuring
+      effect, the area may become obscured again after 1d4 rounds.</li><li>You
+      gain the Wind Slash special attack (below).</li></ul><h5
+      id="wind-slash">Wind Slash</h5><p><em>Active Ability (Attack,
+      Supernatural)</em></p><p>When you take the Attack action on your turn, you
+      can replace one of your attacks with a special attack, launching a blades
+      of wind at targets within 60 feet. You launch a number of blades equal to
+      your proficiency modifier, but can increase the number of attacks made by
+      giving up additional attacks you can make as part of the Attack action
+      (launching one additional attack for each attack forgone). The blades are
+      ranged weapon attacks using your Mystic Path modifier. Each blade deals
+      1d6 + your Mystic Path modifier slashing damage on damage on
+      hit.</p><p>Once you use this feature, you cannot use it again until you
+      complete a short or long rest.</p>
     chat: ''
   identifier: wind-slash
   source:
@@ -22,7 +43,8 @@ system:
     subtype: ''
   prerequisites:
     level: null
-  properties: []
+  properties:
+    - mgc
   requirements: ''
 effects: []
 sort: 0
@@ -35,9 +57,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047529964
-  modifiedTime: 1729047852725
+  modifiedTime: 1732252699663
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!PmggTgHhnWb6OLDk'
 

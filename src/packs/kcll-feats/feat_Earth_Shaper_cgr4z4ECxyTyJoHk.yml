@@ -7,10 +7,27 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You have mastered a special connection to the earth and can call upon
+      the stones buried in to heed your calls.</p><ul><li><strong>Ability Score
+      Bonus.</strong> Increase your Strength, Constitution, or Wisdom modifier
+      by 1, to a maximum of 20.</li><li><strong>Stone Forming.</strong> You
+      learn the stone formingK cantrip.</li><li>You gain the Stonewall special
+      action (below).</li></ul><h5 id="stonewall">Stonewall</h5><p><em>Active
+      Ability (Action, Supernatural)</em> </p><p>As an action, you cause a 20
+      foot high, 1 foot thick wall of stone to erupt from the ground either in a
+      20 foot radius around you, or in a 30-foot long straight line that has a
+      least one part of the wall within 20 feet of you.</p><p>The wall lasts for
+      up to 10 minutes. The wall can be destroyed, and has an AC of 16 and a
+      number of hit193 points equal to 5 × your character level (the entire ring
+      sharing the same hit points, crumbling to dust when reduced to zero). The
+      wall immediately crumbles if you fall unconscious.</p><p>Once you use this
+      ability, you cannot use it again until you complete a long rest.</p>
     chat: ''
   identifier: earth-shaper
   source:
@@ -21,7 +38,7 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
+    level: 4
   properties: []
   requirements: ''
 effects: []
@@ -35,9 +52,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047571946
-  modifiedTime: 1729047852725
+  modifiedTime: 1732252986831
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!cgr4z4ECxyTyJoHk'
 

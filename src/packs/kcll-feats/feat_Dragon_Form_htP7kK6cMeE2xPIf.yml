@@ -7,10 +7,47 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You have learned to invoke the powers of a dragon. You gain the
+      following features:</p><ul><li><strong>Ability Score Bonus.</strong>
+      Increase your Strength, Constitution, or Charisma ability score by 1, to a
+      maximum of 20.</li><li><strong>Mystic Language. </strong>You learn
+      draconic. If you already know draconic, you learn one additional language
+      of your choice.</li><li>You gain the Dragon Aspect special transformation
+      ability (below).</li></ul><h5 id="dragon-aspect">Dragon
+      Aspect</h5><p><em>Active Ability (Bonus Action,
+      Supernatural)</em></p><p>As a bonus action, you can physical transform
+      your body, choose number up to your Proficiency bonus of the following
+      draconic features:</p><ul><li><strong>Fangs.</strong> Gain dragon-like
+      fangs, gaining a natural weapon that deals 1d8 piercing
+      damage.</li><li><strong>Claws.</strong> Transform one or both hands into
+      dragonlike claws, gaining natural weapons that deal 1d6 slashing damage
+      and have the Light property.</li><li><strong>Scales.</strong> Gain
+      dragon-like scales. When you aren’t wearing armor, your base AC is 13 +
+      Dexterity modifier. You can use your natural armor to determine your AC if
+      the armor you wear would leave you with a lower AC. A shield’s benefits
+      apply as normal while you use your natural armor. You gain resistance to
+      acid, cold, fire, lightning or poison damage (selected when you take the
+      feat).</li><li><strong>Wings (Requires 9th level).</strong> If you are not
+      wearing armor, dragon-like wings sprout from your back. Until the
+      transformation ends, you have a 30 foot flying
+      speed.</li><li><strong>Eyes. </strong>You gain a darkvision of 60 feet. If
+      you already have a darkvision, you gain a blindsight of 15
+      feet.</li><li><strong>Elemental Damage.</strong> A weapon you are holding
+      or natural weapon of your choice is wreathed in elemental power, changing
+      its damage type to that element. The first time you hit a creature with
+      that weapon on your turn, you deal damage an additional 1d4 damage of that
+      elemental type.</li></ul><p>The transformation lasts 1 minute or until you
+      end it early as a bonus action. If they don’t otherwise have a bonus to
+      attack and damage rolls, natural weapons granted by this transformation
+      gain a bonus to attack and damage rolls equal to half your proficiency
+      bonus (rounded down). Once you use this feature, you cannot use it again
+      until you complete a short or long rest.</p>
     chat: ''
   identifier: dragon-form
   source:
@@ -21,8 +58,9 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
-  properties: []
+    level: 4
+  properties:
+    - mgc
   requirements: ''
 effects: []
 sort: 0
@@ -35,9 +73,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047666285
-  modifiedTime: 1729047852725
+  modifiedTime: 1732253921640
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!htP7kK6cMeE2xPIf'
 

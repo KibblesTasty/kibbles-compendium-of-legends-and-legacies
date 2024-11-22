@@ -1,15 +1,78 @@
 name: Helping Hand
 type: feat
 _id: DIUzMdJ8El8qmu1m
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/social/diplomacy-handshake-yellow.webp
 system:
-  activities: {}
+  activities:
+    oMU2U3tClIVnV4r0:
+      type: utility
+      _id: oMU2U3tClIVnV4r0
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You are always there to give your allies a hand. You gain the following
+      benefits:</p><ul><li><strong>Ability Score Increase.</strong> Increase
+      Wisdom, Intelligence, or Charisma by 1, to a maximum of
+      20.</li><li><strong>Boosting Shoves.</strong> When a willing allied
+      creature moves out of your reach, you can use your reaction to give them a
+      boost, shoving them 5 feet. This occurs before any opportunity attack
+      their movement might provoke, and may prevent them from taking an
+      opportunity attack.</li><li><strong>Get Down.</strong> When an allied
+      creature is forced to make a Dexterity saving throw while within 5 feet of
+      you, you can use your reaction to shove them 5 feet, potentially out of
+      the effect. If the effect is targeted, you can instead interpose yourself,
+      giving them advantage on saving throw, but forcing you to save against the
+      same effect.</li></ul>
     chat: ''
   identifier: helping-hand
   source:
@@ -29,15 +92,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047719028
-  modifiedTime: 1729047852725
+  modifiedTime: 1732254371835
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!DIUzMdJ8El8qmu1m'
 

@@ -10,7 +10,14 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You are touched by the winds, either from a blessing of a powerful
+      entity or through focused mastery and study of their essence, allowing you
+      to borrow and harness their power.</p><p> You learn the windborne weapon
+      and manipulate wind cantrips and the become wind spell. You can cast it
+      innately without expending a spell slot once, regaining the ability to so
+      when you complete a short or long rest. When you cast it this way, you
+      cast it a level equal to your proficiency bonus.</p>
     chat: ''
   identifier: wind-affinity
   source:
@@ -35,9 +42,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047524911
-  modifiedTime: 1729047852725
+  modifiedTime: 1732252576939
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!YmHKfS575C1cwDPV'
 

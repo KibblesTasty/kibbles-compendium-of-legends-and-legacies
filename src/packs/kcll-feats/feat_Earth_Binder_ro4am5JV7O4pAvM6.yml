@@ -7,10 +7,36 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>Your mastery of the earthly powers allows you to call upon its power to
+      entrap foes. You gain the following the
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Strength, Constitution, or Wisdom modifier by 1, to a maximum of
+      20.</li><li><strong>Grasping Earth.</strong> Once per turn, when you hit a
+      Large or smaller creature with a melee weapon attack as part of the Attack
+      action, its speed is reduced by 10 feet. If it is flying, it must a
+      Strength saving throw, or fall prone.</li><li>You gain the Earthen Wave
+      special attack (below).</li></ul><h5 id="earthen-wave">Earthen
+      Wave</h5><p><em>Active Ability (Attack, Supernatural)</em></p><p>When you
+      take the Attack action on your turn, you can replace one of your attacks
+      with causing the ground beneath a target creature within 30 feet to surge
+      and warp. The target must make a Dexterity saving throw against your
+      Mystic Path DC. On failure, you can cause one of the following effects of
+      your choice:</p><ul><li><strong>Earth Spike.</strong> The target takes 2d6
+      + your Mystic Path modifier piercing damage.</li><li><strong>Earth
+      Grip.</strong> The target is grasped by the earth and their movement speed
+      becomes 0 until the start of your next turn.</li><li><strong>Earth
+      Slam.</strong> The target takes 1d6 + your Mystic Path modifier
+      bludgeoning damage and is knocked 5 feet in a direction of your
+      choice.</li></ul><p>On success, they take no damage and suffer no
+      additional effects. The damage the target takes is increased by 1d6 when
+      your proficiency bonus increases.</p><p>Once you use this ability, you
+      cannot use it again until you complete a short or long rest.</p>
     chat: ''
   identifier: earth-binder
   source:
@@ -21,8 +47,9 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
-  properties: []
+    level: 4
+  properties:
+    - mgc
   requirements: ''
 effects: []
 sort: 0
@@ -35,9 +62,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047577447
-  modifiedTime: 1729047852725
+  modifiedTime: 1732253035019
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ro4am5JV7O4pAvM6'
 

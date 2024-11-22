@@ -1,20 +1,132 @@
 name: Prophetic Dreamer
 type: feat
 _id: qCCOUI10C1uRMHiE
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/control/sleep-bubble-purple.webp
 system:
-  activities: {}
+  activities:
+    Kjo0FL0ph6QothlZ:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties: []
+        spellbook: true
+      _id: Kjo0FL0ph6QothlZ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    nMIoG2UsmB5N1GOV:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.d54VDyFulD9xxY7J
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '5'
+        properties: []
+        spellbook: true
+      _id: nMIoG2UsmB5N1GOV
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>When you sleep or fall deep within a trance, you often dream of
+      prophetic events to come, vague hints and esoteric clues as to which paths
+      may be beneficial to you, and which may lead to your doom.</p><p>You learn
+      the @UUID[Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd]{augury} spell and
+      you can cast it without an action, spell slot, or components, though you
+      must be asleep or deep within a trance for at least 1 hour to gain the
+      prophetic visions. When you reach 9th level, you can instead cast the
+      @UUID[Compendium.dnd5e.spells.Item.d54VDyFulD9xxY7J]{commune} spell this
+      way. Once you cast either augury or commune this way, you cannot cast them
+      that way again until you complete a long rest.</p>
     chat: ''
   identifier: prophetic-dreamer
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: David Lewis
+    custom: ''
+    license: ''
   enchant: {}
   type:
     value: feat
@@ -29,15 +141,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047737368
-  modifiedTime: 1729047852725
+  modifiedTime: 1732254166047
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!qCCOUI10C1uRMHiE'
 

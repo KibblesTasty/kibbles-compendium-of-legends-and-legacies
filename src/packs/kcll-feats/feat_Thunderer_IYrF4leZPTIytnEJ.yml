@@ -10,7 +10,22 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Ability Score Bonus. Increase your Strength or Constitution ability
+      score by 1, to a maximum of 20.</p><ul><li><strong>Stable
+      Footing.</strong> You gain advantage from being knocked down by ground
+      shaking or heaving.</li><li>You gain the Quaking Smash special attack
+      (below).</li></ul><h5 id="quaking-smash">Quaking Smash</h5><p><em>Active
+      Ability (Attack, Supernatural)</em></p><p>As an attack as part of the
+      attack action, you slam the ground causing an eruption of thunder to erupt
+      outward in a 15 foot cone. Creatures in the area must make a Constitution
+      save. On failure they take 2d6 thunder damage and are knocked prone. On
+      success, they take half as much damage and aren’t knocked prone. The
+      number of d6 damage dealt increase when your proficiency bonus
+      increases.</p><p>If you are Large or Larger when you take this action, the
+      size of the cone caused by the effect doubles and the d6 damage dice
+      become d8 damage dice.</p><p>Once you use this feature, you cannot use it
+      again until you complete a short or long rest.</p>
     chat: ''
   identifier: thunderer
   source:
@@ -35,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047688069
-  modifiedTime: 1729047852725
+  modifiedTime: 1732253962959
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!IYrF4leZPTIytnEJ'
 

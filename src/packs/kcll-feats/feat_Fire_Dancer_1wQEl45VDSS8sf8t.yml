@@ -7,10 +7,32 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You’ve danced among the flames so long and with such skill that now the
+      flames dance along with you. You gain the following
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Strength, Dexterity, or Charisma ability score by 1, to a maximum of
+      20.191</li><li><strong>Through The Flames.</strong> You have advantage on
+      Dexterity saving throws where failing them would result in taking fire
+      damage.</li><li>You gain the Cinder Sweep special attack
+      (below).</li></ul><h5 id="cinder-sweep">Cinder Sweep</h5><p><em>Active
+      Ability (Attack, Supernatural)</em></p><p>When you take the Attack action
+      on your turn, you can replace one of your attacks with moving up to 5 feet
+      without provoking attacks of opportunity and then cause an explosion of
+      fire around you. All creatures within 10 feet of you must make a Dexterity
+      saving throw. On failure, a creature takes 2d6 fire damage and becomes
+      ignited. Creatures that are ignited take 1d6 fire damage at the end of
+      each of their turns until a creature within 5 feet of the ignited target
+      spends their action to douse the flames. On success, creatures take half
+      as much damage and are not ignited. The initial fire damage increases by
+      1d6 when your proficiency bonus increases.</p><p>Once you use this
+      feature, you cannot use it again until you complete a short or long
+      rest.</p>
     chat: ''
   identifier: fire-dancer
   source:
@@ -21,7 +43,7 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
+    level: 4
   properties: []
   requirements: ''
 effects: []
@@ -35,9 +57,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047535750
-  modifiedTime: 1729047852725
+  modifiedTime: 1732252682397
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!1wQEl45VDSS8sf8t'
 

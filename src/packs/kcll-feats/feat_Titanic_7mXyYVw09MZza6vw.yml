@@ -7,10 +7,30 @@ system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
   description:
-    value: ''
+    value: >-
+      <p>You awaken or learn a mystical ability drawing on the ancient power of
+      the titans. You gain the following benefits:</p><ul><li><strong>Ability
+      Score Bonus.</strong> Increase your Strength, Constitution, or Wisdom
+      ability score by 1, to a maximum of 20.</li><li><strong>Mystic Language.
+      You learn giant.</strong> If you already know giant, you learn one
+      additional language of your choice.</li><li>You gain the Titanic Aspect
+      special transformation (below).</li></ul><h5 id="titanic-aspect">Titanic
+      Aspect</h5><p><em>Active Ability (Action, Supernatural)</em></p><p>As an
+      action, you come under the Enlarge effect of the enlarge/reduce
+      spell.</p><p>In addition to the normal effect, your flesh takes on rough
+      stone-like appearance, causing your unarmed strikes to deal an additional
+      1d4 damage and reducing all damage from bludgeoning, piercing, and
+      slashing damage by your proficiency bonus, or your damage reduction is
+      increased by 1 if you already have a stronger source of it.</p><p>The
+      effect lasts 10 minutes. You can end this effect early as an action,
+      returning to normal size. It ends early if you fall unconscious. Once you
+      use this feature, you cannot use it again until you complete a short or
+      long rest.</p>
     chat: ''
   identifier: titanic
   source:
@@ -21,8 +41,9 @@ system:
     value: feat
     subtype: ''
   prerequisites:
-    level: null
-  properties: []
+    level: 4
+  properties:
+    - mgc
   requirements: ''
 effects: []
 sort: 0
@@ -35,9 +56,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.1
   createdTime: 1729047692442
-  modifiedTime: 1729047852725
+  modifiedTime: 1732254045798
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!7mXyYVw09MZza6vw'
 

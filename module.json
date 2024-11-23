@@ -98,8 +98,8 @@
 			}
 		},
 		{
-			"name": "kcll-spells",
-			"label": "KCLL Spells",
+			"name": "kcll-spells-vol-2",
+			"label": "KCLL Spells Volume 2",
 			"system": "dnd5e",
 			"type": "Item",
 			"flags": {
@@ -109,8 +109,8 @@
 			}
 		},
 		{
-			"name": "kcll-elemental-spells",
-			"label": "Elemental Spells",
+			"name": "kcll-spells-vol-1",
+			"label": "KCLL Spells Volume 1",
 			"system": "dnd5e",
 			"type": "Item",
 			"flags": {
@@ -145,7 +145,7 @@
 					"name": "Items & Spells",
 					"sorting": "m",
 					"color": "#bf4545",
-					"packs": ["kcll-spells", "kcll-elemental-spells", "kcll-items"]
+					"packs": ["kcll-spells-vol-1", "kcll-spells-vol-2", "kcll-items"]
 				},
 				{
 					"name": "Monsters",

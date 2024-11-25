@@ -1,0 +1,64 @@
+name: Quicksilver Steps
+type: spell
+_id: g5ss8CJwcbc0nAUd
+img: systems/dnd5e/icons/svg/items/spell.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: quicksilver-steps
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    units: inst
+  level: 4
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties: []
+  range:
+    units: self
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732560105783
+  modifiedTime: 1732560109200
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!g5ss8CJwcbc0nAUd'
+

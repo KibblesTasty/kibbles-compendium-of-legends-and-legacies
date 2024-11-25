@@ -71,7 +71,7 @@ system:
     chat: ''
     unidentified: ''
   source:
-    book: KCCC
+    book: ''
     custom: ''
   activation:
     type: action
@@ -87,10 +87,15 @@ system:
     width: null
     units: ''
     type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: 30
     long: null
     units: ft
+    special: ''
   uses:
     value: null
     max: ''
@@ -142,10 +147,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
+  systemVersion: 4.1.1
+  coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1721354427691
+  modifiedTime: 1732558908564
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.5XnwpQz8nrYbMVAr
   duplicateSource: null

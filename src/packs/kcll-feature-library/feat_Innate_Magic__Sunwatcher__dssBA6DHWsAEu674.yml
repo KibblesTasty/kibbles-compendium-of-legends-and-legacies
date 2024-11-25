@@ -14,9 +14,10 @@ system:
       the spell Endurance Dice.</p><table><thead><tr><th>Warden
       Level</th><th>Innate Spells (1/long rest
       each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.ge3Saet9zPTDyaoL]{heroism}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.7buEm5KhI5lP8m1z]{guiding
-      bolt}</td></tr><tr><td>5th</td><td>blazing
-      beacon</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{daylight}</td></tr><tr><td>13th</td><td>brilliant
-      blade</td></tr><tr><td>17th</td><td>heavenly ray</td></tr></tbody></table>
+      bolt}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.GnlaegZCh2yFvu0t]{blazing
+      beacon}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{daylight}</td></tr><tr><td>13th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ncPnLiLE9bBUYs7R]{brilliant
+      blade}</td></tr><tr><td>17th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.zslATBRXIUWbPJBF]{heavenly
+      ray}</td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -274,6 +275,87 @@ system:
       activity:
         id: zYyFZ15vyTyktdVM
       img: ''
+    qEUZSahaRzoNSeA0:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.GnlaegZCh2yFvu0t
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: qEUZSahaRzoNSeA0
+      sort: 350000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    qiHy2nZzjiuiVTh3:
+      type: forward
+      name: Blazing Beacon
+      _id: qiHy2nZzjiuiVTh3
+      sort: 375000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: qEUZSahaRzoNSeA0
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -298,7 +380,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317513283
-  modifiedTime: 1732221374043
+  modifiedTime: 1732568227489
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 67700000

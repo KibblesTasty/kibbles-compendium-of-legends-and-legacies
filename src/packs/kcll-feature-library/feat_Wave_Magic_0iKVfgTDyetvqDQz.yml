@@ -1,0 +1,96 @@
+name: Wave Magic
+type: feat
+img: icons/magic/water/wave-water-blue.webp
+effects: []
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.HziIBhyduoNeNnt0
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You learn additional spells when you reach certain levels in this
+      class, as shown on the Sea Soul Origin Spells list. For each level of
+      spells, you can select one of the two spells to learn. You learn the
+      selected spell and it becomes a sorcerer spell for you, but it doesn’t
+      count against your number of sorcerer spells
+      known.</p><table><thead><tr><th>Sorcerer
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.gr7FEFNxpA0WC7kd]{crashing
+      wave},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.xMHUqFm6vCEMvoKq]{water
+      blast}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.o7Dbxjo3VrhXHvnN]{become
+      water},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.sOn2CzDiolR202dP]{dancing
+      wave}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{sleet
+      storm},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.mixWq7caO9lIZgsh]{water
+      cannon}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{ice
+      storm},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.72gCBB25zBeOwGI6]{geyser}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.RDll5odK6xtxXXgx]{acid
+      rain},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.KsrO77pXZrT9mYuH]{pressure
+      cutter}</td></tr></tbody></table><blockquote><p>For all the Sorcerer
+      subclasses presented in this book, they grant 5 origin spells from a list
+      of 10. If you allow Sorcerers 10 origin spells, you can simply grant them
+      all ten instead of having them choose.</p><p>If you let them replace one
+      or more origin spells with other spells when they gain a level (not
+      recommended), use the following selections for each option:</p><p>You may
+      swap your origin spells with any water or ice based spell from the Cleric,
+      Druid, Sorcerer, or Wizard spell list.</p><p>Selections for Origin spells
+      must otherwise abide by the rules of spells you could
+      learn.</p></blockquote>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Sea Soul 1
+  identifier: sea-soul-origin-spell-list
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_stats:
+  compendiumSource: Item.HziIBhyduoNeNnt0
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317485557
+  modifiedTime: 1732563815275
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 26500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 0iKVfgTDyetvqDQz
+_key: '!items!0iKVfgTDyetvqDQz'
+

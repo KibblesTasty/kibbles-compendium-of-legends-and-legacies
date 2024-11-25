@@ -18,6 +18,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.EpgCsqqyEDEo41mu
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -30,12 +34,12 @@ system:
       a spell again before completing a long rest by spending 1 + the level of
       the spell Endurance Dice.</p><table><thead><tr><th>Warden
       Level</th><th>Innate Spells (1/long rest
-      each)</th></tr></thead><tbody><tr><td>1st</td><td>create
-      pit</td></tr><tr><td>3rd</td><td>earth
-      ripple</td></tr><tr><td>5th</td><td>become
-      stone</td></tr><tr><td>9th</td><td>quicksand</td></tr><tr><td>13th</td><td>stone
-      coffin</td></tr><tr><td>17th</td><td>orbital
-      stones</td></tr></tbody></table>
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.SWUtXCI5pYrChsKx]{create
+      pit}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.QsFND6hqcN35t99g]{earth
+      ripple}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.D678DwGhaklDyNsi]{become
+      stone}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.TXTNQVT7XHpmBZGo]{quicksand}</td></tr><tr><td>13th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.eGyG7KfONP3ZHqHC]{stone
+      coffin}</td></tr><tr><td>17th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.b3BPK7kvSBIhMOZ9]{orbital
+      stones}</td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -52,7 +56,88 @@ system:
     subtype: ''
   requirements: Stoneblood 1
   identifier: innate-magic-stoneblood
-  activities: {}
+  activities:
+    yM2jtpjtlnxIS0gj:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.SWUtXCI5pYrChsKx
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: yM2jtpjtlnxIS0gj
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    qMtUTudrEtBity42:
+      type: forward
+      name: Create Pit
+      _id: qMtUTudrEtBity42
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: yM2jtpjtlnxIS0gj
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -64,7 +149,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317497852
-  modifiedTime: 1732221374043
+  modifiedTime: 1732568075110
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 44500000

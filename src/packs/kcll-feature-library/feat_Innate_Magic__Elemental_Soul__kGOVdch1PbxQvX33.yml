@@ -34,12 +34,12 @@ system:
       a spell again before completing a long rest by spending 1 + the level of
       the spell Endurance Dice.</p><table><thead><tr><th><p>Warden
       Level</p></th><th><p>Innate Spells (1/long rest
-      each)</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>Aldricor's
+      each)</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.akewLhjVIzM5NDYF]{Aldricor's
       elemental
-      rebuke</p></td></tr><tr><td><p>3</p></td><td><p>Entomb</p></td></tr><tr><td><p>5</p></td><td><p>Cold
-      Snap</p></td></tr><tr><td><p>9</p></td><td><p>@Compendium[dnd5e.spells.dhqBY4TvVjxVmOZd]{Sleet
-      Storm}</p></td></tr><tr><td><p>13</p></td><td><p>Fire
-      Cyclone</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire
+      rebuke}</p></td></tr><tr><td><p>3</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.L0QrRetzjScv7Toe]{Entomb}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.osUsK9fweTuRcFqW]{Cold
+      Snap}</p></td></tr><tr><td><p>9</p></td><td><p>@Compendium[dnd5e.spells.dhqBY4TvVjxVmOZd]{Sleet
+      Storm}</p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.e8JUyK1m2i2SMhza]{Fire
+      Cyclone}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire
       Shield}</p></td></tr></tbody></table>
     chat: ''
   source:
@@ -73,7 +73,7 @@ system:
           - material
         spellbook: true
       _id: vNVjhwUR66mtyifN
-      sort: 0
+      sort: 700000
       activation:
         type: action
         value: null
@@ -113,7 +113,7 @@ system:
     W3hiWd8SsaeF8CWl:
       type: forward
       _id: W3hiWd8SsaeF8CWl
-      sort: 0
+      sort: 750000
       activation:
         type: action
         value: null
@@ -155,7 +155,7 @@ system:
           - material
         spellbook: true
       _id: qDUOfzmMJBvOolyE
-      sort: 0
+      sort: 1100000
       activation:
         type: action
         value: null
@@ -197,7 +197,7 @@ system:
       type: forward
       name: Fire Shield
       _id: x767QUbMXBern4lz
-      sort: 0
+      sort: 1200000
       activation:
         type: action
         value: null
@@ -221,6 +221,330 @@ system:
       activity:
         id: ''
       img: ''
+    oXs30GGa2AEhKh5S:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.akewLhjVIzM5NDYF
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: oXs30GGa2AEhKh5S
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    Q5m1TnTZBs1IdIM1:
+      type: forward
+      name: Aldricor's Elemental Rebuke
+      _id: Q5m1TnTZBs1IdIM1
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: oXs30GGa2AEhKh5S
+      img: ''
+    ixEOttHWSPYmGl89:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.L0QrRetzjScv7Toe
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: ixEOttHWSPYmGl89
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    WuDmL5Rz0ExDMZij:
+      type: forward
+      name: Entomb
+      _id: WuDmL5Rz0ExDMZij
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: ixEOttHWSPYmGl89
+      img: ''
+    zZoArlBOlLRWZnW4:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.osUsK9fweTuRcFqW
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: zZoArlBOlLRWZnW4
+      sort: 500000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    m32ph351bUT8dGPy:
+      type: forward
+      name: Cold Snap
+      _id: m32ph351bUT8dGPy
+      sort: 600000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: zZoArlBOlLRWZnW4
+      img: ''
+    8GbNDsEbPvTZ9UDV:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.e8JUyK1m2i2SMhza
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 8GbNDsEbPvTZ9UDV
+      sort: 800000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    sjgxGMMyCbrD737F:
+      type: forward
+      name: Fire Cyclone
+      _id: sjgxGMMyCbrD737F
+      sort: 900000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: 8GbNDsEbPvTZ9UDV
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -232,7 +556,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317518002
-  modifiedTime: 1732221374043
+  modifiedTime: 1732567493918
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 75300000

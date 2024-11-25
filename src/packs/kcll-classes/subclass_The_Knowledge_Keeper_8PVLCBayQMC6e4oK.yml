@@ -19,17 +19,19 @@ system:
       you choose from an expanded list of spells when you learn a warlock spell.
       The following spells are added to the warlock spell list for
       you.</p><table><thead><tr><th>Spell
-      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>induce
-      headache,
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.VeWYNmiuiaz80DDV]{induce
+      headache},
       @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{identify}</td></tr><tr><td>2nd</td><td>@UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detect
       thoughts}, @UUID[Compendium.dnd5e.spells.Item.SleYkHovQ8NagmeV]{locate
-      object}</td></tr><tr><td>3rd</td><td>immutability,
+      object}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.niyyFXVtHXS50K6i]{immutability},
       @UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak with
       dead}</td></tr><tr><td>4th</td><td>@UUID[Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9]{divination},
       @UUID[Compendium.dnd5e.spells.Item.8sgwRh8NUNkn9Vi0]{secret
       chest}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.W4Qx5z0id6da0vqg]{legend
-      lore}, field of stars</td></tr></tbody></table><hr /><p>The following are
-      some optional quirks for a player of this Otherworldly Patron to choose
+      lore},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.kavtEz77wE9NMQMu]{field
+      of stars}</td></tr></tbody></table><hr /><p>The following are some
+      optional quirks for a player of this Otherworldly Patron to choose
       from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.dVNPOfVEldSsozkn
       rollable]</p>
     chat: ''
@@ -154,7 +156,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729041667192
-  modifiedTime: 1732133333543
+  modifiedTime: 1732570105233
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!8PVLCBayQMC6e4oK'
 

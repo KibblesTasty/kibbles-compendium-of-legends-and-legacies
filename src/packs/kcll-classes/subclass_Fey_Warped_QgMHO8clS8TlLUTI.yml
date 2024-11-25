@@ -29,11 +29,14 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - optional: false
-            uuid: >-
+          - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sdbC6QDDhG3Q8NP6
-          - optional: false
-            uuid: Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.oIzA2MEHwxhtQneU
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jBmAKQkwBvuVjaq3
+            optional: false
         optional: false
         spell:
           ability:
@@ -287,7 +290,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729039541651
-  modifiedTime: 1732128547377
+  modifiedTime: 1732568451700
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!QgMHO8clS8TlLUTI'
 

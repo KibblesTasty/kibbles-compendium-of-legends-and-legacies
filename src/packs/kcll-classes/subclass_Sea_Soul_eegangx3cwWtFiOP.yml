@@ -36,6 +36,9 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7SJ1xpx5FA7MR1Y8
             optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0iKVfgTDyetvqDQz
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -93,7 +96,11 @@ system:
             replacement: false
         allowDrops: false
         type: spell
-        pool: []
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.gr7FEFNxpA0WC7kd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.xMHUqFm6vCEMvoKq
         spell:
           ability:
             - cha
@@ -122,7 +129,11 @@ system:
             replacement: false
         allowDrops: false
         type: spell
-        pool: []
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.o7Dbxjo3VrhXHvnN
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.sOn2CzDiolR202dP
         spell:
           ability:
             - cha
@@ -154,6 +165,8 @@ system:
         type: spell
         pool:
           - uuid: Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.mixWq7caO9lIZgsh
         spell:
           ability:
             - cha
@@ -185,6 +198,8 @@ system:
         type: spell
         pool:
           - uuid: Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.72gCBB25zBeOwGI6
         spell:
           ability:
             - cha
@@ -214,7 +229,11 @@ system:
             replacement: false
         allowDrops: false
         type: spell
-        pool: []
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.RDll5odK6xtxXXgx
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.KsrO77pXZrT9mYuH
         spell:
           ability:
             - cha
@@ -255,7 +274,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729039573992
-  modifiedTime: 1732129168283
+  modifiedTime: 1732563790067
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!eegangx3cwWtFiOP'
 

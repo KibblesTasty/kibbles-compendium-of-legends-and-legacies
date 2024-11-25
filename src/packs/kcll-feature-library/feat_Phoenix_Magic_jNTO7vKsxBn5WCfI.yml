@@ -1,0 +1,68 @@
+name: Phoenix Magic
+type: feat
+_id: jNTO7vKsxBn5WCfI
+img: icons/creatures/magical/spirit-fire-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You learn additional spells when you reach certain levels in this
+      class, as shown on the Phoenix Origin Spells list. For each level of
+      spells, you can select one of the two spells to learn. You learn the
+      selected spell and it becomes a sorcerer spell for you, but it doesn’t
+      count against your number of sorcerer spells
+      known.</p><table><thead><tr><th>Sorcerer
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{burning
+      hands}, @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{cure
+      wounds}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.5ajKrbmMbmIDmaOp]{become
+      fire}, @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{lesser
+      restoration}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{fireball},
+      @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{revivify}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{fire
+      shield}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{wall of
+      fire}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.hIupiGkjHVVweobC]{pyroclastic
+      lance}, @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{greater
+      restoration}</td></tr></tbody></table><blockquote><p>For all the Sorcerer
+      subclasses presented in this book, they grant 5 origin spells from a list
+      of 10. If you allow Sorcerers 10 origin spells, you can simply grant them
+      all ten instead of having them choose.</p><p>If you let them replace one
+      or more origin spells with other spells when they gain a level (not
+      recommended), use the following selections for each option:</p><p>You may
+      swap your origin spells with evocation spells that deal fire damage from
+      the Cleric, Druid, Sorcerer, or Wizard spell lists.</p><p>Selections for
+      Origin spells must otherwise abide by the rules of spells you could
+      learn.</p></blockquote>
+    chat: ''
+  identifier: phoenix-magic
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Phoenix Spark 1
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732568823805
+  modifiedTime: 1732569001246
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!jNTO7vKsxBn5WCfI'
+

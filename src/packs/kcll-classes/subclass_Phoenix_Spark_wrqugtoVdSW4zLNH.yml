@@ -29,6 +29,9 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8mHP2nW9PLHqXMTQ
             optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jNTO7vKsxBn5WCfI
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -116,6 +119,8 @@ system:
         type: spell
         pool:
           - uuid: Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.5ajKrbmMbmIDmaOp
         spell:
           ability:
             - cha
@@ -211,6 +216,8 @@ system:
         type: spell
         pool:
           - uuid: Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.hIupiGkjHVVweobC
         spell:
           ability:
             - cha
@@ -251,7 +258,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729039565571
-  modifiedTime: 1732128088739
+  modifiedTime: 1732568991297
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wrqugtoVdSW4zLNH'
 

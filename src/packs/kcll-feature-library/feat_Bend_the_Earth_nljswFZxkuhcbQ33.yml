@@ -18,11 +18,17 @@ flags:
       altValue: true
   core:
     sourceId: Item.mkqeogn9FRveN773
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>You can cast manipulate earth as a bonus action. You can use this
-      technique as an action without spending a ki point.</p>
+      <p>You can cast
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.C19r6t2W86h1dbO7]{manipulate
+      earth} as a bonus action. You can use this technique as an action without
+      spending a ki point.</p>
     chat: ''
   source:
     rules: '2014'
@@ -37,9 +43,53 @@ system:
   type:
     value: class
     subtype: elementalDiscipline
-  requirements: Way of the Elements 6
+  requirements: ''
   identifier: bend-the-earth
-  activities: {}
+  activities:
+    AkaHiv5VZbozk6M4:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.C19r6t2W86h1dbO7
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: null
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: AkaHiv5VZbozk6M4
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
   enchant: {}
   prerequisites:
     level: null
@@ -51,7 +101,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317520491
-  modifiedTime: 1732221374043
+  modifiedTime: 1732569560126
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 79400000

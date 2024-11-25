@@ -244,6 +244,249 @@ system:
       activity:
         id: ''
       img: ''
+    wQf9IbzTY8PrOujM:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.AcB57Bk8aRCQatZC
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: wQf9IbzTY8PrOujM
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    wsY6mGD7egYxj0tK:
+      type: forward
+      name: Elemental Orb
+      _id: wsY6mGD7egYxj0tK
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: wQf9IbzTY8PrOujM
+      img: ''
+    BmLIBSlhqT5ZOXTa:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.fD2HGhZc06cg13p6
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: BmLIBSlhqT5ZOXTa
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    9uLaBRtvcm1z1us8:
+      type: forward
+      name: Dragon Surge
+      _id: 9uLaBRtvcm1z1us8
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: BmLIBSlhqT5ZOXTa
+      img: ''
+    Ol3nQT7IhSPpI3lm:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.xhZvDpzDLxRk9jog
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: Ol3nQT7IhSPpI3lm
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    KAE8cgGJ5p5EFaqS:
+      type: forward
+      name: Elemental Exhalation
+      _id: KAE8cgGJ5p5EFaqS
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: Ol3nQT7IhSPpI3lm
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -259,10 +502,10 @@ system:
       a spell again before completing a long rest by spending 1 + the level of
       the spell Endurance Dice.</p><table><thead><tr><th>Warden
       Level</th><th>Innate Spells (1/long rest
-      each)</th></tr></thead><tbody><tr><td>1st</td><td>elemental
-      orb</td></tr><tr><td>3rd</td><td>dragon
-      surge</td></tr><tr><td>5th</td><td>elemental
-      exhalation</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t]{fly}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0]{fear}</td></tr><tr><td>17th</td><td>@UUID[Compendium.dnd5e.spells.Item.8sgwRh8NUNkn9Vi0]{secret
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.AcB57Bk8aRCQatZC]{elemental
+      orb}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.fD2HGhZc06cg13p6]{dragon
+      surge}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.xhZvDpzDLxRk9jog]{elemental
+      exhalation}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t]{fly}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0]{fear}</td></tr><tr><td>17th</td><td>@UUID[Compendium.dnd5e.spells.Item.8sgwRh8NUNkn9Vi0]{secret
       chest}</td></tr></tbody></table>
     chat: ''
   identifier: innate-magic-dreadwing
@@ -298,7 +541,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1731637068797
-  modifiedTime: 1732221374043
+  modifiedTime: 1732565403805
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!lYRB0SoJdUcFMlaQ'
 

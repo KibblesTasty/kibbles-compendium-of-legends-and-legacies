@@ -21,10 +21,17 @@ flags:
 system:
   description:
     value: >-
-      <p>Starting at 6th level, You learn the bend the earth, control the
-      flames, gust the wind, and shape the river Elemental Techniques. These do
-      not count against your Elemental Techniques. If you already know any of
-      these techniques, you select a new technique to replace it.</p>
+      <p>Starting at 6th level, You learn the
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nljswFZxkuhcbQ33]{bend
+      the earth},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TY2jbgs3sJOGFhC3]{control
+      the flames},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hXgdk6RPBPBMjryp]{gust
+      the wind}, and
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.urOg0xehRNz7S675]{shape
+      the river} Elemental Techniques. These do not count against your Elemental
+      Techniques. If you already know any of these techniques, you select a new
+      technique to replace it.</p>
     chat: ''
   source:
     rules: '2014'
@@ -53,7 +60,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317517728
-  modifiedTime: 1732221374043
+  modifiedTime: 1732569489683
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 74800000

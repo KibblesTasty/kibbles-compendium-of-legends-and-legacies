@@ -56,7 +56,7 @@ flags:
     sourceId: Item.ueV11XdpCwkIRUNn
 system:
   description:
-    value: "<h3 id=\"druid-circle-circle-of-growth-circle-spells\">Circle Spells</h3>\n<p>At 2nd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Growth Spells table. Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</p>\n<table style=\"width:98.533%;height:104px\">\n<thead>\n<tr style=\"height:16px\">\n<th style=\"width:26.0546%;height:16px\">Druid Level</th>\n<th style=\"width:73.201%;height:16px\">Circle Spells</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:20px\">\n<td style=\"width:26.0546%;height:20px\">2nd</td>\n<td style=\"width:73.201%;height:20px\"><em>bramble binding<sup>K</sup>,\_entangle</em></td>\n</tr>\n<tr style=\"height:20px\">\n<td style=\"width:26.0546%;height:20px\">3rd</td>\n<td style=\"width:73.201%;height:20px\"><em>barkskin,\_sprout tree<sup>K</sup></em></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:26.0546%;height:16px\">5th</td>\n<td style=\"width:73.201%;height:16px\"><em>plant growth,\_speak with plants</em></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:26.0546%;height:16px\">7th</td>\n<td style=\"width:73.201%;height:16px\"><em>grasping vine,\_guardian of nature</em></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:26.0546%;height:16px\">9th</td>\n<td style=\"width:73.201%;height:16px\"><em>tree stride,\_wrath of nature</em></td>\n</tr>\n</tbody>\n</table>"
+    value: "<p>At 2nd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Growth Spells table. Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</p><table><thead><tr><th>Druid Level</th><th>Circle Spells</th></tr></thead><tbody><tr><td>2nd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.KfG3ib4M4V65TUpf]{bramble binding},\_@UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{entangle}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH]{barkskin},\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.3UqdbA1eJhdX142L]{sprout tree}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW]{plant growth},\_@UUID[Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy]{speak with plants}</td></tr><tr><td>7th</td><td>grasping vine,\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.WzABrBTSH2EIVfAX]{carnivorous garden}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.DUBgwHPakcLDkB6W]{tree stride},\_wild evocation</td></tr></tbody></table>"
     chat: ''
   source:
     rules: '2014'
@@ -85,7 +85,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317517675
-  modifiedTime: 1732221374043
+  modifiedTime: 1732562359008
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 74700000

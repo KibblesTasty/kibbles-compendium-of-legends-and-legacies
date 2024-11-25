@@ -93,10 +93,16 @@ system:
     width: null
     units: ft
     type: cone
+    affects:
+      count: ''
+      type: ''
+    template:
+      count: ''
   range:
     value: null
     long: null
     units: self
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -154,7 +160,7 @@ _stats:
   systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1732558819354
+  modifiedTime: 1732563837573
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.7zmTd51kpa5SJxyW
   duplicateSource: null

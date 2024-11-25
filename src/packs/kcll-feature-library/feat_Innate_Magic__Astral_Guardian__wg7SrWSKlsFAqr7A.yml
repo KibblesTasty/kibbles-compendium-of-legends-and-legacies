@@ -244,6 +244,249 @@ system:
       activity:
         id: 9RPWLKWdR3JQtCVw
       img: ''
+    iUkP1rOpnhNNwPBe:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.qxxgJ27cfIEc5ZEP
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: iUkP1rOpnhNNwPBe
+      sort: 175000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    ldR4B2YAErgsxiEZ:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.MqMcTc5vCWIUBrza
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: ldR4B2YAErgsxiEZ
+      sort: 350000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    x0CEtyWz4gucJqCd:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.xdJtoXpWjYWHdNaw
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: x0CEtyWz4gucJqCd
+      sort: 387500
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    YfUhP9oSvdMHaISP:
+      type: forward
+      name: Arcane Conduit
+      _id: YfUhP9oSvdMHaISP
+      sort: 187500
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: iUkP1rOpnhNNwPBe
+      img: ''
+    Tjonmoep0YYEY9sc:
+      type: forward
+      name: Ghost Step
+      _id: Tjonmoep0YYEY9sc
+      sort: 375000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: ldR4B2YAErgsxiEZ
+      img: ''
+    cKKRwEmCNJBZ01Rp:
+      type: forward
+      name: Dimension Cutter
+      _id: cKKRwEmCNJBZ01Rp
+      sort: 393750
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: x0CEtyWz4gucJqCd
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -260,11 +503,11 @@ system:
       the spell Endurance Dice.</p><table><thead><tr><th>Warden
       Level</th><th>Innate Spells (1/long rest
       each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detect
-      magic}</td></tr><tr><td>3rd</td><td>arcane
-      conduit</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{misty
-      step}</td></tr><tr><td>9th</td><td>ghost
-      step</td></tr><tr><td>13th</td><td>dimension
-      cutter</td></tr><tr><td>17th</td><td>@UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{dimension
+      magic}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.qxxgJ27cfIEc5ZEP]{arcane
+      conduit}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{misty
+      step}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.MqMcTc5vCWIUBrza]{ghost
+      step}</td></tr><tr><td>13th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.xdJtoXpWjYWHdNaw]{dimension
+      cutter}</td></tr><tr><td>17th</td><td>@UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{dimension
       door}</td></tr></tbody></table>
     chat: ''
   identifier: innate-magic-astral-guardian
@@ -300,7 +543,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1731640396114
-  modifiedTime: 1732221374043
+  modifiedTime: 1732564957747
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wg7SrWSKlsFAqr7A'
 

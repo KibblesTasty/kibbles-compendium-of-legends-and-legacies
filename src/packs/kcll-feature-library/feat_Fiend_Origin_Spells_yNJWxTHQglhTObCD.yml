@@ -1,0 +1,70 @@
+name: Fiend Origin Spells
+type: feat
+_id: yNJWxTHQglhTObCD
+img: icons/magic/fire/explosion-embers-evade-silhouette.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You learn additional spells when you reach certain levels in this
+      class, as shown on the Fiend Origin Spells table. For each level of
+      spells, you can select one of the two spells to learn. You learn the
+      selected spell and it becomes a sorcerer spell for you, but it doesn’t
+      count against your number of sorcerer spells
+      known.</p><table><thead><tr><th>Sorcerer
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{burning
+      hands}, @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{hellish
+      rebuke}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{darkness},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.oC9e6l0u77zR07Hl]{infernal
+      shackles}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{fireball},
+      @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{stinking
+      cloud}</td></tr><tr><td>7th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.K2DY7Hweit3gO8hR]{iron
+      garden}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{wall of
+      fire}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{insect
+      plague},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.hIupiGkjHVVweobC]{pyroclastic
+      lance}</td></tr></tbody></table><blockquote><p>For all the Sorcerer
+      subclasses presented in this book, they grant 5 origin spells from a list
+      of 10. If you allow Sorcerers 10 origin spells, you can simply grant them
+      all ten instead of having them choose.</p><p>If you let them replace one
+      or more origin spells with other spells when they gain a level (not
+      recommended), use the following selections for each option:</p><p>You may
+      swap your origin spells for evocation or conjuration spells from the
+      Sorcerer, Warlock, or Wizard spell list.</p><p>Selections for Origin
+      spells must otherwise abide by the rules of spells you could
+      learn.</p></blockquote>
+    chat: ''
+  identifier: fiend-origin-spells
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Fiendish Bloodline 1
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732568511460
+  modifiedTime: 1732568709162
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!yNJWxTHQglhTObCD'
+

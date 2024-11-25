@@ -13,11 +13,12 @@ system:
       a spell again before completing a long rest by spending 1 + the level of
       the spell Endurance Dice.</p><table><thead><tr><th>Warden
       Level</th><th>Innate Spells (1/long rest
-      each)</th></tr></thead><tbody><tr><td>1st</td><td>unburden</td></tr><tr><td>3rd</td><td>arcane
-      ablation</td></tr><tr><td>5th</td><td>clay
-      touch</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I]{protection
-      from energy}</td></tr><tr><td>13th</td><td>iron
-      garden</td></tr><tr><td>17th</td><td>repair</td></tr></tbody></table>
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.9sg7fS6spIpk53Rr]{unburden}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.hJhqF63LIPLsrR4Z]{arcane
+      ablation}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.TwQe7J3HvGv7Sdxz]{clay
+      touch}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I]{protection
+      from
+      energy}</td></tr><tr><td>13th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.K2DY7Hweit3gO8hR]{iron
+      garden}</td></tr><tr><td>17th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.C7RmUMnvmyQYiiwY]{repair}</td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -50,7 +51,7 @@ system:
           - material
         spellbook: true
       _id: 7yZ1VFDj3TbOrQRU
-      sort: 0
+      sort: 800000
       activation:
         type: action
         value: null
@@ -91,7 +92,7 @@ system:
       type: forward
       name: Protection from Energy
       _id: zP1Wr4vm5G1VO5kw
-      sort: 0
+      sort: 850000
       activation:
         type: action
         value: null
@@ -114,6 +115,411 @@ system:
         max: ''
       activity:
         id: 7yZ1VFDj3TbOrQRU
+      img: ''
+    oWeH1U97gl59Fv6q:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.9sg7fS6spIpk53Rr
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: oWeH1U97gl59Fv6q
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    QtuNrvnuYN7xbNEb:
+      type: forward
+      name: Unburden
+      _id: QtuNrvnuYN7xbNEb
+      sort: 300000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: oWeH1U97gl59Fv6q
+      img: ''
+    0EwTqTekAPiRoVn3:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.hJhqF63LIPLsrR4Z
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 0EwTqTekAPiRoVn3
+      sort: 400000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    tEcv2hrOEfTL3HFH:
+      type: forward
+      name: Arcane Ablation
+      _id: tEcv2hrOEfTL3HFH
+      sort: 500000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: 0EwTqTekAPiRoVn3
+      img: ''
+    Fh1LBuuv29b5jK4H:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.TwQe7J3HvGv7Sdxz
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: Fh1LBuuv29b5jK4H
+      sort: 600000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    V1t6hq2Mmbs3zp17:
+      type: forward
+      name: Clay Touch
+      _id: V1t6hq2Mmbs3zp17
+      sort: 700000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: Fh1LBuuv29b5jK4H
+      img: ''
+    rNjXyHMxMFYyIDHg:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.K2DY7Hweit3gO8hR
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: rNjXyHMxMFYyIDHg
+      sort: 900000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    zITjxHGQK1b0IVsP:
+      type: forward
+      name: Iron Garden
+      _id: zITjxHGQK1b0IVsP
+      sort: 1000000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: rNjXyHMxMFYyIDHg
+      img: ''
+    APthMqNNjLl1pUKb:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.C7RmUMnvmyQYiiwY
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: APthMqNNjLl1pUKb
+      sort: 1100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    BiIdN8U9SR77cUbQ:
+      type: forward
+      name: Repair
+      _id: BiIdN8U9SR77cUbQ
+      sort: 1200000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: APthMqNNjLl1pUKb
       img: ''
   enchant: {}
   prerequisites:
@@ -139,7 +545,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317518055
-  modifiedTime: 1732221374043
+  modifiedTime: 1732568031109
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 75400000

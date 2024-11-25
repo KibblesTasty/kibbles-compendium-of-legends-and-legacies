@@ -296,6 +296,168 @@ system:
       activity:
         id: qzu6S4lvHMRP0Fuh
       img: ''
+    EO8XpuBIB5nzzQXF:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.vIG4qHxOD5NmLbcA
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: EO8XpuBIB5nzzQXF
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    ZvtLWF5li4nTdF35:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.1OFWgeEdSf4I4cCC
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: ZvtLWF5li4nTdF35
+      sort: 600000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    2oekDtJkaWEBdRlN:
+      type: forward
+      name: Grip of the Dead
+      _id: 2oekDtJkaWEBdRlN
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: EO8XpuBIB5nzzQXF
+      img: ''
+    cC1HDtkexwGWOFCS:
+      type: forward
+      name: Ribcage
+      _id: cC1HDtkexwGWOFCS
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: ZvtLWF5li4nTdF35
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -311,12 +473,13 @@ system:
       a spell again before completing a long rest by spending 1 + the level of
       the spell Endurance Dice.</p><table><thead><tr><th>Warden
       Level</th><th>Innate Spells (1/long rest
-      each)</th></tr></thead><tbody><tr><td>1st</td><td>grip of the
-      dead</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{false
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.vIG4qHxOD5NmLbcA]{grip
+      of the
+      dead}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{false
       life}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd]{augury}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{speak
       with
       dead}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.oyE5nVppa5mde5gT]{animate
-      dead}†</td></tr><tr><td>17th</td><td>ribcage</td></tr></tbody></table><p>†You
+      dead}†</td></tr><tr><td>17th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.1OFWgeEdSf4I4cCC]{ribcage}</td></tr></tbody></table><p>†You
       cannot cast this spell again early using Endurance Dice</p>
     chat: ''
   identifier: innate-magic-bone-binder
@@ -353,7 +516,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1731640405985
-  modifiedTime: 1732221374043
+  modifiedTime: 1732565288755
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xObSPdYy0qbOl5oC'
 

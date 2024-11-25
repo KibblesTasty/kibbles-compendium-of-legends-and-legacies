@@ -34,13 +34,13 @@ system:
       a spell again before completing a long rest by spending 1 + the level of
       the spell Endurance Dice.</p><table><thead><tr><th><p>Warden
       Level</p></th><th><p>Innate Spells (1/long rest
-      each)</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>Grasping
-      Roots</p></td></tr><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.2VXGS206tuChoeXy]{Speak
+      each)</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.nyr117aRcouUM9kX]{Grasping
+      Roots}</p></td></tr><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.2VXGS206tuChoeXy]{Speak
       with
       Plants}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[dnd5e.spells.YWtwzp6ZnQJMEmVW]{Plant
-      Growth}</p></td></tr><tr><td><p>13th</p></td><td><p>Summon
-      Plant</p></td></tr><tr><td><p>17th</p></td><td><p>Carnivorous
-      Garden</p></td></tr></tbody></table>
+      Growth}</p></td></tr><tr><td><p>13th</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Y4Tqxxrw6Y7IYZii]{Summon
+      Plant}</p></td></tr><tr><td><p>17th</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.WzABrBTSH2EIVfAX]{Carnivorous
+      Garden}</p></td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -298,6 +298,249 @@ system:
       activity:
         id: HpTzm2C12XEFlaB8
       img: ''
+    BA7ycyIp2qHmjoHy:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.nyr117aRcouUM9kX
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: BA7ycyIp2qHmjoHy
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    MdwWdMeAWnKxXz5J:
+      type: forward
+      name: Grasping Roots
+      _id: MdwWdMeAWnKxXz5J
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: BA7ycyIp2qHmjoHy
+      img: ''
+    Zqxs4hIQTrM58m8j:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Y4Tqxxrw6Y7IYZii
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: Zqxs4hIQTrM58m8j
+      sort: 600000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    1DfWe0OxNJRxeDmO:
+      type: forward
+      name: Summon Plant
+      _id: 1DfWe0OxNJRxeDmO
+      sort: 700000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: Zqxs4hIQTrM58m8j
+      img: ''
+    4dNxd0sdjnRxKuRj:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.WzABrBTSH2EIVfAX
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 4dNxd0sdjnRxKuRj
+      sort: 800000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    4dFrnWpCNEZlnKzr:
+      type: forward
+      name: Carnivorous Garden
+      _id: 4dFrnWpCNEZlnKzr
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: 4dNxd0sdjnRxKuRj
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -309,7 +552,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317515584
-  modifiedTime: 1732221374043
+  modifiedTime: 1732567244530
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 71300000

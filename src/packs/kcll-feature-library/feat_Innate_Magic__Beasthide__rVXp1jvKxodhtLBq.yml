@@ -38,7 +38,7 @@ system:
       with
       Animals}</p></td></tr><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.X8w9EzYLGc4vQ1H2]{Animal
       Messenger}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{Alter
-      Self}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce}</p></td></tr><tr><td><p>13th</p></td><td><p>Mutate</p></td></tr><tr><td><p>17th</p></td><td><p>@Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph}</p></td></tr></tbody></table>
+      Self}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce}</p></td></tr><tr><td><p>13th</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.q4y6ERr3SBxm6zWt]{Mutate}</p></td></tr><tr><td><p>17th</p></td><td><p>@Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph}</p></td></tr></tbody></table>
     chat: ''
   source:
     rules: '2014'
@@ -456,6 +456,87 @@ system:
       activity:
         id: 4VY7FnSq3vwGSv9X
       img: ''
+    lGv3eP3dacjni33C:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.q4y6ERr3SBxm6zWt
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: lGv3eP3dacjni33C
+      sort: 575000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+    weSVl25EZiOWwFmr:
+      type: forward
+      name: Mutate
+      _id: weSVl25EZiOWwFmr
+      sort: 587500
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: lGv3eP3dacjni33C
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -467,7 +548,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317522945
-  modifiedTime: 1732221374043
+  modifiedTime: 1732565013559
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 83300000

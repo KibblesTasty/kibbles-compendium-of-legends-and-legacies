@@ -18,11 +18,17 @@ flags:
       altValue: true
   core:
     sourceId: Item.tcLGMIJLDN71jR5a
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
-      <p>You can cast manipulate fireK as a bonus action. You can use this
-      technique as an action without expending a ki point.</p>
+      <p>You can cast
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.RWuxCrJk2KNZSZLE]{manipulate
+      fire} as a bonus action. You can use this technique as an action without
+      expending a ki point.</p>
     chat: ''
   source:
     rules: '2014'
@@ -39,7 +45,51 @@ system:
     subtype: elementalDiscipline
   requirements: Way of the Elements 6
   identifier: control-the-flames
-  activities: {}
+  activities:
+    B8U24SHddClGQkTj:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.RWuxCrJk2KNZSZLE
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: null
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: B8U24SHddClGQkTj
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
   enchant: {}
   prerequisites:
     level: null
@@ -51,7 +101,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317505702
-  modifiedTime: 1732221374043
+  modifiedTime: 1732569519949
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 56600000

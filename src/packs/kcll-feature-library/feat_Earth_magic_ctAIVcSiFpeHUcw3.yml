@@ -1,0 +1,54 @@
+name: Earth magic
+type: feat
+img: icons/magic/earth/projectile-boulder-debris.webp
+system:
+  description:
+    value: "<p>You learn additional spells when you reach certain levels in this class, as shown on the Stoneheart Orgin Spells table. For each level of spells, you can select one of the two spells to learn. You learn the selected spell and it becomes a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known.</p><table><thead><tr><th>Sorcerer Level</th><th>Spell</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.SWUtXCI5pYrChsKx]{Create Pit},\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.2ZWwxaD6X8F8r2TW]{Stone Fist}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.QsFND6hqcN35t99g]{Earth Ripple},\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.9X13OXPVpY5PMlJO]{Stone Pillar}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.cbsPKpweJPzp4A5O]{Seismic Wave},\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.TXTNQVT7XHpmBZGo]{Quicksand}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79]{Stoneskin},\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.eGyG7KfONP3ZHqHC]{Stone Coffin}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.Ld86H55nvBhmon9Z]{Fissure},\_@UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{Wall of Stone}</td></tr></tbody></table><blockquote><p>For all the Sorcerer subclasses presented in this book, they grant 5 origin spells from a list of 10. If you allow Sorcerers 10 origin spells, you can simply grant them all ten instead of having them choose.</p><p>If you let them replace one or more origin spells with other spells when they gain a level (not recommended), use the following selections for each option:</p><p>You may swap your origin spells with transmutation spells that affect the earth or stone from Druid, Sorcerer, or Wizard spell lists.</p><p>Selections for Origin spells must otherwise abide by the rules of spells you could learn.</p></blockquote>"
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Stoneheart 1
+  identifier: stoneheart-origin-spells
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.1iRTH6YMcGsK716a
+_stats:
+  compendiumSource: Item.1iRTH6YMcGsK716a
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1727317512708
+  modifiedTime: 1732564100403
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 66800000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: ctAIVcSiFpeHUcw3
+_key: '!items!ctAIVcSiFpeHUcw3'
+

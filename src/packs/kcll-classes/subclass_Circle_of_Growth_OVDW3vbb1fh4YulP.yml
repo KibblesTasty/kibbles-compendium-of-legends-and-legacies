@@ -80,6 +80,116 @@ system:
       title: Druid Circle Features
       hint: ''
       _id: hudBZVJN9CmM6iQh
+    - _id: amM2Gvw0TZKTJnTg
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.KfG3ib4M4V65TUpf
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 2
+      title: Circle Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.3UqdbA1eJhdX142L
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Circle Spells
+      hint: ''
+      _id: may658Uu66mEwzQA
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Circle Spells
+      hint: ''
+      _id: S48HpNNVmG55lHU0
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.VNjahL7xK5zkD1LU
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.WzABrBTSH2EIVfAX
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Circle Spells
+      hint: ''
+      _id: ZbTzi4lPyiWJInY1
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.DUBgwHPakcLDkB6W
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.Ld86H55nvBhmon9Z
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Circle Spells
+      hint: ''
+      _id: kbCvOSkVsJ8yF4S5
   classIdentifier: druid
   spellcasting:
     progression: none
@@ -99,7 +209,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1729038327774
-  modifiedTime: 1731878427165
+  modifiedTime: 1732572179179
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!OVDW3vbb1fh4YulP'
 

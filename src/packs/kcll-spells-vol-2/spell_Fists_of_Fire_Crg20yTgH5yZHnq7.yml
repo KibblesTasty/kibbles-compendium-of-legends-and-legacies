@@ -1,26 +1,195 @@
 name: Fists of Fire
 type: spell
 _id: Crg20yTgH5yZHnq7
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/fire/flame-burning-fist-strike.webp
 system:
-  activities: {}
+  activities:
+    kwCCR8sYOqmRoC2h:
+      type: attack
+      _id: kwCCR8sYOqmRoC2h
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: str
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    9RVUgvc8OnQ5JpVN:
+      type: utility
+      name: Cast
+      _id: 9RVUgvc8OnQ5JpVN
+      sort: -100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    F7pr5ULYd2W6rpdk:
+      type: damage
+      name: Grappling
+      _id: F7pr5ULYd2W6rpdk
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cause your fists to erupt in flames. For the duration, your fists
+      become a set of simple natural weapons that deal 1d6 fire damage. You are
+      proficient in these weapons, and they have the Light property. For the
+      duration, any flammable object you attempt to hold catches fire. If you
+      end your turn grappling another creature with your hands, it takes 1d4
+      fire damage. You can end the spell early (no action required). </p><p>The
+      damage this spell does to grappled targets increases by 1d4 at 5th level
+      (2d4), 11th level (3d4), and 17th level (4d4)</p>
     chat: ''
   identifier: fists-of-fire
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 0
   materials:
     value: ''
@@ -30,7 +199,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -50,7 +221,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +233,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732557844591
-  modifiedTime: 1732557849561
+  modifiedTime: 1732575062068
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Crg20yTgH5yZHnq7'
 

@@ -1,15 +1,82 @@
 name: Water Bullet
 type: spell
 _id: GwiSawelfE3bNBMg
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/water/projectile-water-ice-orb.webp
 system:
-  activities: {}
+  activities:
+    q7EpIDtnvtLsrHdK:
+      type: attack
+      _id: q7EpIDtnvtLsrHdK
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - piercing
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create a compressed bead of water and fire it at a creature you can
+      see within range. Make a ranged spell attack. On a hit, the target takes
+      1d6 + your spellcasting ability modifier piercing damage. </p><p>This
+      spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level
+      (3d6), and 17th level (4d6).</p>
     chat: ''
   identifier: water-bullet
   source:
@@ -30,10 +97,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '90'
   school: con
   target:
     template:
@@ -43,14 +113,19 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +133,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732561018831
-  modifiedTime: 1732561027535
+  modifiedTime: 1732587314770
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GwiSawelfE3bNBMg'
 

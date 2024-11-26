@@ -1,15 +1,83 @@
 name: Illusionary Dart
 type: spell
 _id: pQKkEcbUJOaS2SD3
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/skills/ranged/dart-thrown-poison-green.webp
 system:
-  activities: {}
+  activities:
+    yxqcsBifSy417Is3:
+      type: attack
+      _id: yxqcsBifSy417Is3
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create and throw an illusionary dart at a creature you can see
+      within range. Make a ranged spell attack. On hit, they take 1d8 psychic
+      damage. </p><p>The number of darts you can throw with this spell increases
+      when you reach 5th level (2 darts), 11th (3 darts), and 17th level (4
+      darts). You can direct the dart at the same target or at different ones.
+      Make a separate attack roll for each dart.</p>
     chat: ''
   identifier: illusionary-dart
   source:
@@ -30,10 +98,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: ill
   target:
     template:
@@ -43,14 +114,19 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +134,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732558574743
-  modifiedTime: 1732558578483
+  modifiedTime: 1732583349283
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!pQKkEcbUJOaS2SD3'
 

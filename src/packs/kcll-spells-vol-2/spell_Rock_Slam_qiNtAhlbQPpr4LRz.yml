@@ -1,15 +1,83 @@
 name: Rock Slam
 type: spell
 _id: qiNtAhlbQPpr4LRz
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/projectile-stone-ball-orange.webp
 system:
-  activities: {}
+  activities:
+    4PbV1idNiIkSL49k:
+      type: attack
+      _id: 4PbV1idNiIkSL49k
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You fling a rock at a creature you can see within range. Make a ranged
+      spell attack. On a hit, the target takes 1d10 bludgeoning damage. On a
+      critical hit, the target is knocked &amp;Reference[prone] or 10 feet
+      backwards (your choice).</p><p>The spell’s damage increases by 1d10 when
+      you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
     chat: ''
   identifier: rock-slam
   source:
@@ -30,10 +98,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: trs
   target:
     template:
@@ -43,14 +114,19 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +134,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732560175101
-  modifiedTime: 1732560178598
+  modifiedTime: 1732586955193
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!qiNtAhlbQPpr4LRz'
 

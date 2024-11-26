@@ -1,15 +1,138 @@
 name: Decaying Touch
 type: spell
 _id: ZKAiQfTSPNGWKwTR
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/unholy/hand-claw-fire-blue.webp
 system:
-  activities: {}
+  activities:
+    WquXNWOEtGD7ivPQ:
+      type: attack
+      _id: WquXNWOEtGD7ivPQ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    vHyR4qS9HFz157Uj:
+      type: damage
+      name: Secondary
+      _id: vHyR4qS9HFz157Uj
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: whole
+              number: 1
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You wreath your hand in necrotic decay, causing anything you touch to
+      wither and die. Make a melee spell attack against a creature or object
+      within range. On a hit, the target takes 1d6 necrotic damage and starts to
+      flake and decay. The first time it takes damage from another source before
+      the start of your next turn, it takes an additional 1d6 necrotic damage.
+      Targets immune to diseases are immune to this effect. </p><p>The both the
+      initial and secondary damage of the spell increases by 1d6 when you reach
+      5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
     chat: ''
   identifier: decaying-touch
   source:
@@ -23,16 +146,19 @@ system:
     units: inst
   level: 0
   materials:
-    value: ''
+    value: powdered remains of a dead animal
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: nec
   target:
@@ -43,14 +169,19 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +189,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732557000118
-  modifiedTime: 1732557004568
+  modifiedTime: 1732574791537
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ZKAiQfTSPNGWKwTR'
 

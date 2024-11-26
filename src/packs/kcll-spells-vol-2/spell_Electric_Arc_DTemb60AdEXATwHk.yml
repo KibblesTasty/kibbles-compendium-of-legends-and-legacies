@@ -1,15 +1,136 @@
 name: Electric Arc
 type: spell
 _id: DTemb60AdEXATwHk
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/lightning/bolt-forked-teal.webp
 system:
-  activities: {}
+  activities:
+    qG4lAzkM7RHFt9K9:
+      type: attack
+      _id: qG4lAzkM7RHFt9K9
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    UHF3K2PYDTH57NcF:
+      type: damage
+      name: Secondary
+      _id: UHF3K2PYDTH57NcF
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: whole
+              number: 1
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You shoot a jolt of lightning at a creature you can see within range.
+      Make a ranged spell attack against the target. On hit, the target takes
+      1d8 primary lightning damage and an arc of lightning jumps from the target
+      to another creature within 15 feet, using the same attack roll, dealing
+      1d4 secondary lightning damage on hit.</p><p> This spell’s damage
+      increases by 1d8 primary and 1d4 secondary damage when you reach 5th level
+      (2d8 and 2d4), 11th level (3d8 and 3d4), and 17th level (4d8 and 4d4).</p>
     chat: ''
   identifier: electric-arc
   source:
@@ -30,10 +151,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: evo
   target:
     template:
@@ -43,14 +167,19 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +187,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732557162352
-  modifiedTime: 1732557169256
+  modifiedTime: 1732574823055
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!DTemb60AdEXATwHk'
 

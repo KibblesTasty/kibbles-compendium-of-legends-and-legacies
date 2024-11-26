@@ -1,15 +1,60 @@
 name: Manipulate Earth
 type: spell
 _id: C19r6t2W86h1dbO7
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/explosion-lava-stone-yellow.webp
 system:
-  activities: {}
+  activities:
+    nQOov8ACiZmAkmQ0:
+      type: utility
+      name: Cast
+      _id: nQOov8ACiZmAkmQ0
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You mold earth you can see within range, causing it to twist and buckle
+      to your command. Select one of the following effects:</p><ul><li>You can
+      excavate a 5-foot cube of loose dirt or soil and move it along the ground
+      to another unoccupied space within 5 feet.</li><li>You can make minor
+      alterations to dirt or stone, such as changing its color or carving small,
+      simple shapes.</li><li>You can turn a 5-foot square of earth or stone into
+      difficult terrain for 1 hour. You can create up to three patches of
+      difficult terrain this way; if you create additional patches, the first
+      one you created returns to normal terrain.</li></ul>
     chat: ''
   identifier: manipulate-earth
   source:
@@ -20,7 +65,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: spec
+    special: ''
   level: 0
   materials:
     value: ''
@@ -30,27 +76,37 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cube
+      size: '5'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +114,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732559212257
-  modifiedTime: 1732559216144
+  modifiedTime: 1732583533638
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!C19r6t2W86h1dbO7'
 

@@ -1,15 +1,84 @@
 name: Shadow Lash
 type: spell
 _id: UXCRMOW1pzv4qncu
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/control/debuff-energy-snare-purple-pink.webp
 system:
-  activities: {}
+  activities:
+    VC9h8BIx5KZgD92S:
+      type: attack
+      _id: VC9h8BIx5KZgD92S
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 2
+              formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You form a whip of shadows that lashes out toward a creature within
+      range. Make a melee spell attack, on hit, the target takes 2d4 psychic
+      damage. In addition, if the target is in dim light or darkness, you make
+      the attack roll with advantage. </p><p>The spell’s damage increases by 2d4
+      when you reach 5th level (4d4), 11th level (6d4), and 17th level
+      (8d4).</p>
     chat: ''
   identifier: shadow-lash
   source:
@@ -30,10 +99,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '10'
   school: ill
   target:
     template:
@@ -50,7 +122,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +134,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732560246000
-  modifiedTime: 1732560252884
+  modifiedTime: 1732586944307
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!UXCRMOW1pzv4qncu'
 

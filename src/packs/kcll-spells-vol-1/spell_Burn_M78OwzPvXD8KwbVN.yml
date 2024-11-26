@@ -96,10 +96,15 @@ system:
     width: null
     units: ''
     type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: touch
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -157,7 +162,7 @@ _stats:
   systemVersion: 4.1.1
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1732556237162
+  modifiedTime: 1732574977748
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.alZa3eB3Mtef9mQE
   duplicateSource: null

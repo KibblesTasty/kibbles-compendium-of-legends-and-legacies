@@ -1,15 +1,61 @@
 name: Manipulate Fire
 type: spell
 _id: RWuxCrJk2KNZSZLE
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/fire/flame-burning-embers-yellow.webp
 system:
-  activities: {}
+  activities:
+    QHLl5a0ThFv90wbH:
+      type: utility
+      name: Cast
+      _id: QHLl5a0ThFv90wbH
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: YrgfSQKMviLGT9DI
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You control a fire you can see within range, causing it to bend to your
+      command. Select one of the following effects:</p><ul><li>You can grant a
+      creature of your choice within range resistance to fire damage until the
+      start of your next turn.</li><li>You can spark or spread fire in a 5-foot
+      cube, as long as there is fuel that can be ignited within the
+      area.</li><li>You can douse fire within a 5-foot cube.</li><li>You can
+      adjust a flame's brightness (halving or doubling it), color (turning the
+      flames to any color of your choice), or shape (forming simple shapes)
+      within a 5-foot cube for 10 minutes.</li></ul>
     chat: ''
   identifier: manipulate-fire
   source:
@@ -30,27 +76,74 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cube
+      size: '5'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
-effects: []
+      type: any
+      special: ''
+effects:
+  - name: Manipulate Fire
+    img: icons/magic/fire/flame-burning-embers-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.RWuxCrJk2KNZSZLE
+    transfer: false
+    _id: YrgfSQKMviLGT9DI
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732583622837
+      modifiedTime: 1732583638785
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!RWuxCrJk2KNZSZLE.YrgfSQKMviLGT9DI'
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -58,7 +151,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1732559247759
-  modifiedTime: 1732559251859
+  modifiedTime: 1732586683219
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!RWuxCrJk2KNZSZLE'
 

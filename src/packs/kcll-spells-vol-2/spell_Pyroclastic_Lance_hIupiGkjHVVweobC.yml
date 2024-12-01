@@ -1,15 +1,150 @@
 name: Pyroclastic Lance
 type: spell
 _id: hIupiGkjHVVweobC
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/fire/projectile-bolt-zigzag-orange.webp
 system:
-  activities: {}
+  activities:
+    2qPxcNtYuGtn2Jj1:
+      type: attack
+      _id: 2qPxcNtYuGtn2Jj1
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 8
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    7fBz5jzkSSoLrzco:
+      type: save
+      name: Pyroclastic Ash
+      _id: 7fBz5jzkSSoLrzco
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '10'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You conjure a lance of blazing lava and hurl it at a creature you can
+      see within range. Make a ranged spell attack. On a hit, the target takes
+      8d6 fire damage. Hit or miss, the lance then explodes in a 10-foot radius
+      sphere of pyroclastic ash centered on the target. The ash lasts until the
+      start of your next turn, and its area is heavily obscured. Any creature
+      starting its turn within the ash cloud must succeed on a Constitution
+      saving throw or take 4d6 fire damage and be &amp;Reference[blinded] until
+      the start of its next turn.</p><p><strong>At Higher Levels.</strong> When
+      you cast this spell using a spell slot of 6th level or higher, the initial
+      damage increases by 1d6 for each slot level above 5th.</p>
     chat: ''
   identifier: pyroclastic-lance
   source:
@@ -30,10 +165,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '120'
   school: con
   target:
     template:
@@ -43,22 +181,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560080099
-  modifiedTime: 1732560086035
+  modifiedTime: 1732995418490
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!hIupiGkjHVVweobC'
 

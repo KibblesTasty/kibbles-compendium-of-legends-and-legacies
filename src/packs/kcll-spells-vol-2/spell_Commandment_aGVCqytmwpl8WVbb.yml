@@ -1,15 +1,120 @@
 name: Commandment
 type: spell
 _id: aGVCqytmwpl8WVbb
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
-  activities: {}
+  activities:
+    0gGQc9BZ8tXj300y:
+      type: utility
+      name: Cast
+      _id: 0gGQc9BZ8tXj300y
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: jftgZP3XhQCtbsiB
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    RtwsVHfZR1LwVQ4F:
+      type: damage
+      _id: RtwsVHfZR1LwVQ4F
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You issue a divine order to another creature you can see within range
+      that can hear and understand you, invoking divine authority to compel
+      them. If the target intentionally violates the issued order, it takes 4d6
+      radiant damage. Once a creature takes damage this way, they cannot take
+      damage again from it until the start of your next turn. </p><p>Some
+      examples of orders you can issue would include ordering the target not to
+      attack, not to move, or not to breathe. If you issue an impossible order,
+      the spell ends immediately. </p><p><strong>At Higher Levels.</strong> When
+      you cast this spell using a spell slot of 5th level or higher, you can
+      target one additional creature for each slot level above 4th.</p>
     chat: ''
   identifier: commandment
   source:
@@ -20,7 +125,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 4
   materials:
     value: ''
@@ -30,10 +136,14 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: enc
   target:
     template:
@@ -42,23 +152,61 @@ system:
       type: ''
     affects:
       choice: false
-      count: ''
-      type: ''
-effects: []
+      count: '@scaling'
+      type: creature
+      special: ''
+effects:
+  - name: Commandment
+    img: icons/magic/control/debuff-energy-hold-levitate-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.aGVCqytmwpl8WVbb
+    transfer: false
+    _id: jftgZP3XhQCtbsiB
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1732648380265
+      modifiedTime: 1732648385587
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!aGVCqytmwpl8WVbb.jftgZP3XhQCtbsiB'
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556683346
-  modifiedTime: 1732557353546
+  modifiedTime: 1732995418490
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!aGVCqytmwpl8WVbb'
 

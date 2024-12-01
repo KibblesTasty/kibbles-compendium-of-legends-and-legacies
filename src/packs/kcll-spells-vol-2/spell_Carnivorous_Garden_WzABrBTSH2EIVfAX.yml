@@ -1,15 +1,137 @@
 name: Carnivorous Garden
 type: spell
 _id: WzABrBTSH2EIVfAX
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/nature/plant-venus-flytrap-blood.webp
 system:
-  activities: {}
+  activities:
+    RMnfADN5xirUiG82:
+      type: utility
+      name: Cast
+      _id: RMnfADN5xirUiG82
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    x9qIuYiQLeyqBKkI:
+      type: attack
+      _id: x9qIuYiQLeyqBKkI
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
+            types:
+              - piercing
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You summon clinging plant growth in four 15-foot squares you can see
+      within range, and a snarling carnivorous plant in the central space of
+      each area. Each 15-foot square is difficult terrain. When you cast the
+      spell, each plant makes one attack against a creature of your choice
+      within 5 feet of it. The plants make melee spell attacks with your spell
+      attack modifier, dealing 2d8 piercing damage on hit. </p><p>If a creature
+      ends its turn within 5 feet of one or more of the carnivorous plants, the
+      plants automatically attack that creature unless you use your reaction to
+      prevent them from doing so. </p><p>The plants have AC 14 and 30 hit
+      points, and have vulnerability to fire and slashing damage. Each plant
+      regains all its hit points at the start of your turn if it has at least 1
+      hit point, and dies if it is reduced to zero hit points. When the spell
+      ends, the difficult terrain disappears, except where the plants themselves
+      were. This difficult terrain also disappears if the plant was killed with
+      fire damage. </p><p><strong>At Higher Levels.</strong> When you cast this
+      spell using a spell slot of 5th level or higher, you can summon 1
+      additional carnivorous plant for each slot level above 4th.</p>
     chat: ''
   identifier: carnivorous-garden
   source:
@@ -20,45 +142,58 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 4
   materials:
-    value: ''
+    value: a dried carnivorous plant
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: square
+      size: '15'
+      count: 3 + @scaling
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556638323
-  modifiedTime: 1732557384598
+  modifiedTime: 1732995418490
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!WzABrBTSH2EIVfAX'
 

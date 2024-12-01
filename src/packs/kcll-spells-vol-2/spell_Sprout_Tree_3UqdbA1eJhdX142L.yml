@@ -1,15 +1,78 @@
 name: Sprout Tree
 type: spell
 _id: 3UqdbA1eJhdX142L
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/nature/tree-twisted-glow-yellow.webp
 system:
-  activities: {}
+  activities:
+    MFI20uD8FA7XT7k1:
+      type: save
+      _id: MFI20uD8FA7XT7k1
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You point at an empty 5-foot space on the ground you can see within
+      range, and a tree sprouts there, rapidly growing to a height of 20 feet
+      with a 2-foot radius trunk. The tree must grow on dirt, sand, or another
+      appropriate surface. At the DM's discretion, it can burst through up to 6
+      inches of hard material. The tree stops growing if it would hit a ceiling
+      or other object. </p><p>Any creature in this space must make a Dexterity
+      saving throw. On a failure, it is lifted 20 feet into the air in the
+      branches of the tree. On a success, it moves 5 feet to an unoccupied space
+      of its choice (if there is no empty space to which it can move, it
+      automatically fails). A Large or smaller creature can choose to fail this
+      save, while a Huge or larger creature automatically succeeds. </p><p>The
+      tree provides as half cover to any creature within its branches, and
+      three-quarters cover from effects originating on the other side of its
+      trunk. The tree has 50 hit points and AC 13. </p><p>The tree remains after
+      the spell ends, but may die rapidly if sprouted in an unsuitable location
+      or environment. Its wood is flammable only when dried, and serves no
+      useful purpose except as firewood.</p>
     chat: ''
   identifier: sprout-tree
   source:
@@ -30,35 +93,46 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '2'
+      count: ''
+      height: '20'
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560378520
-  modifiedTime: 1732560382307
+  modifiedTime: 1732995418490
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!3UqdbA1eJhdX142L'
 

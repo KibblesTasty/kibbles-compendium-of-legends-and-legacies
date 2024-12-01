@@ -1,15 +1,142 @@
 name: Iron Garden
 type: spell
 _id: K2DY7Hweit3gO8hR
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/barrier-stone-explosion-red.webp
 system:
-  activities: {}
+  activities:
+    2GqtTgwpsw2Mq0Et:
+      type: save
+      _id: 2GqtTgwpsw2Mq0Et
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: KZNiOy7V9UG0JtS5
+          onSave: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 8
+            bonus: ''
+            types:
+              - piercing
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    WbbMsS3gVKLjKD7t:
+      type: damage
+      _id: WbbMsS3gVKLjKD7t
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Iron spikes lance up from the ground, impaling every creature within 20
+      feet of you. Each creature in the area must make a Dexterity saving throw.
+      On a failure, it takes 6d8 piercing damage and its speed drops to 0 until
+      the end of its next turn. On a success, it takes half as much damage and
+      its speed is not reduced. </p><p>Until the start of your next turn, when a
+      creature moves into or within the area, it takes 1d8 piercing damage for
+      every 5 feet it travels. At the start of your next turn, the spikes rust
+      away to dust. </p><p><strong>At Higher Levels.</strong> When you cast this
+      spell using a spell slot of 5th level or higher, the initial damage
+      increases by 1d8 for each spell slot level above 4th.</p>
     chat: ''
   identifier: iron-garden
   source:
@@ -30,7 +157,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,26 +168,70 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '20'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
-effects: []
+      type: creature
+      special: ''
+effects:
+  - name: Iron Garden
+    img: icons/magic/control/debuff-chains-ropes-net-white.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.K2DY7Hweit3gO8hR
+    transfer: false
+    _id: KZNiOy7V9UG0JtS5
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 3
+        value: '0'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1732650594583
+      modifiedTime: 1732650626869
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!K2DY7Hweit3gO8hR.KZNiOy7V9UG0JtS5'
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558732545
-  modifiedTime: 1732558735866
+  modifiedTime: 1732995418490
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!K2DY7Hweit3gO8hR'
 

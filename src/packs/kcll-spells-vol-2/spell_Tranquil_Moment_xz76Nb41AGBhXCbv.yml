@@ -1,22 +1,123 @@
 name: Tranquil Moment
 type: spell
 _id: xz76Nb41AGBhXCbv
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 system:
-  activities: {}
+  activities:
+    MiFyDxXa9YzklJqM:
+      type: check
+      _id: MiFyDxXa9YzklJqM
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - ani
+          - ins
+          - med
+          - prc
+          - sur
+        dc:
+          calculation: ''
+          formula: ''
+        ability: wis
+      name: Wisdom
+      img: ''
+      appliedEffects: []
+    vjLbX2As2dB3BckD:
+      type: check
+      sort: -100000
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - arc
+          - his
+          - nat
+          - psi
+          - rel
+        dc:
+          calculation: ''
+          formula: ''
+        ability: int
+      name: Intelligence
+      _id: vjLbX2As2dB3BckD
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You slow your personal perception of time, giving you a moment to
+      think. As part of the bonus action used to cast the spell, you can make a
+      Wisdom or Intelligence ability check that would normally require an action
+      (such as the Search action). If that action would be at disadvantage due
+      to time or pressure, you do not have disadvantage on the check.</p>
     chat: ''
   identifier: tranquil-moment
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
@@ -30,7 +131,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -50,15 +153,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560764975
-  modifiedTime: 1732560767836
+  modifiedTime: 1733017371184
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xz76Nb41AGBhXCbv'
 

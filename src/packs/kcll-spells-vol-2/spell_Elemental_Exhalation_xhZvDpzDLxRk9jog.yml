@@ -1,15 +1,86 @@
 name: Elemental Exhalation
 type: spell
 _id: xhZvDpzDLxRk9jog
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/creatures/abilities/dragon-ice-breath-blue.webp
 system:
-  activities: {}
+  activities:
+    i9sK3kfAvNnMKntT:
+      type: save
+      _id: i9sK3kfAvNnMKntT
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - poison
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You gather elemental power in your lungs, selecting one damage type out
+      of acid, cold, fire, lightning, or poison, and then exhale it in a mighty
+      gust of energy. Each creature in a 20-foot cone must make a Dexterity
+      saving throw. On a failed save, a creature takes 3d8 damage of the chosen
+      type, or half as much damage on a successful save. </p><p>If you cannot
+      breathe, have no mouth, or your mouth is currently covered, the spell
+      fails. </p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 3rd level or higher, the damage increases by 1d8 for
+      each level above 2nd.</p>
     chat: ''
   identifier: elemental-exhalation
   source:
@@ -23,14 +94,17 @@ system:
     units: inst
   level: 2
   materials:
-    value: ''
+    value: a fragment of a dragon's scale
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -39,26 +113,33 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cone
+      size: '20'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557634881
-  modifiedTime: 1732557639622
+  modifiedTime: 1733003942553
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xhZvDpzDLxRk9jog'
 

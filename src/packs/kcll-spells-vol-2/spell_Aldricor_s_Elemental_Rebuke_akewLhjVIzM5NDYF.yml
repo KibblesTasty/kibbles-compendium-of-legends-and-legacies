@@ -1,24 +1,101 @@
 name: Aldricor's Elemental Rebuke
 type: spell
 _id: akewLhjVIzM5NDYF
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
 system:
-  activities: {}
+  activities:
+    Ghkp9LqSObWHjG8c:
+      type: save
+      _id: Ghkp9LqSObWHjG8c
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You manipulate some of the incoming elemental energy, harnessing its
+      power in your hand. The damage you take from the triggering attack or
+      effect is cut in half. You can then hurl the energy back at the creature
+      that damaged you if it is within 60 feet of you. The creature must make a
+      Dexterity saving throw, taking 1d8 damage of the triggering type on a
+      failed save, or half as much damage on a successful one.</p><p><strong>At
+      Higher Levels.</strong> When you cast this spell using a spell slot of 2nd
+      level or higher, the damage increases by 1d8 for each slot level above
+      1st.</p>
     chat: ''
   identifier: aldricors-elemental-rebuke
   source:
     revision: 1
     rules: '2024'
+    book: ''
+    page: ''
+    custom: TAG
+    license: ''
   activation:
-    type: action
+    type: reaction
     value: null
-    condition: ''
+    condition: >-
+      which you take when you take acid, cold, fire, lightning, or thunder
+      damage
   duration:
     units: inst
   level: 1
@@ -30,10 +107,12 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: evo
   target:
     template:
@@ -43,22 +122,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556317905
-  modifiedTime: 1732557571166
+  modifiedTime: 1733001110059
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!akewLhjVIzM5NDYF'
 

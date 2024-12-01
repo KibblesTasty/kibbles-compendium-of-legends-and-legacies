@@ -1,15 +1,86 @@
 name: Create Pit
 type: spell
 _id: SWUtXCI5pYrChsKx
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/explosion-lava-stone-orange.webp
 system:
-  activities: {}
+  activities:
+    nnTLRoqGU5JGrHiV:
+      type: save
+      _id: nnTLRoqGU5JGrHiV
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: half
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You choose a 10-foot square area on the ground in an area of dirt or
+      natural stone you can see. The ground buckles and opens into a 10-foot
+      deep pit. If the surface is not large enough to contain the pit, the spell
+      fails. Each creature in the area must make a Dexterity saving throw. On a
+      success, a creature jumps to a space 5 feet outside the spell's radius. On
+      a failure, a creature falls to the bottom of the pit (taking normal
+      &amp;Reference[falling] damage). The sides of the pit are rough, and can
+      be climbed. A creature that saves but cannot locate an empty space to move
+      to falls &amp;Reference[prone], hanging from the edge of the pit, and
+      cannot stand until it moves out of the pit area or drops into it. The pit
+      remains until filled.</p><p><strong>At Higher Levels.</strong> When you
+      cast this spell using a spell slot of 2nd level or higher, the pit is 5
+      feet deeper for each slot level above 1st, to a maximum of 20 feet
+      deep.</p>
     chat: ''
   identifier: create-pit
   source:
@@ -30,35 +101,45 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: square
+      size: '10'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556693097
-  modifiedTime: 1732557344645
+  modifiedTime: 1732998186519
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!SWUtXCI5pYrChsKx'
 

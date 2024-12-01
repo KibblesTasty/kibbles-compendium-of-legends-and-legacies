@@ -1,26 +1,120 @@
 name: Become Water
 type: spell
 _id: o7Dbxjo3VrhXHvnN
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/water/elemental-water.webp
 system:
-  activities: {}
+  activities:
+    letZPoiyQEvrudEW:
+      type: utility
+      name: Cast
+      _id: letZPoiyQEvrudEW
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: GWAwTUkidhbKnR8V
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    9y73oTSQldBHpwLw:
+      type: save
+      _id: 9y73oTSQldBHpwLw
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You become a burst of elemental water. Until the start of your next
+      turn, you gain the following benefits.</p><ul><li>You gain resistance to
+      bludgeoning, piercing, and slashing damage from nonmagical
+      attacks.</li><li>You can move through the space of other creatures and
+      ignore difficult terrain. The first time you move through a Large or
+      smaller creature on a turn, it must succeed on a Strength saving throw or
+      be knocked &amp;Reference[prone].</li></ul><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 3rd level
+      or higher, it lasts for 1 additional round for each level above 2nd.</p>
     chat: ''
   identifier: become-water
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '@scaling'
   level: 2
   materials:
     value: ''
@@ -30,7 +124,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -43,22 +139,76 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
-effects: []
+      type: self
+      special: ''
+effects:
+  - name: Become Water
+    img: icons/magic/water/elemental-water.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.o7Dbxjo3VrhXHvnN
+    transfer: false
+    _id: GWAwTUkidhbKnR8V
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1732997859280
+      modifiedTime: 1732997907091
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!o7Dbxjo3VrhXHvnN.GWAwTUkidhbKnR8V'
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556462909
-  modifiedTime: 1732557484386
+  modifiedTime: 1732997942963
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!o7Dbxjo3VrhXHvnN'
 

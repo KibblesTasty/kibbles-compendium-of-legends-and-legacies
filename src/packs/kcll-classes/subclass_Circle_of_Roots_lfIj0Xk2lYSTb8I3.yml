@@ -109,6 +109,9 @@ system:
         items:
           - uuid: Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH
             optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.3UqdbA1eJhdX142L
+            optional: false
         optional: false
         spell:
           ability:
@@ -127,6 +130,9 @@ system:
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.yJJk49Ti4GQhNzfm
             optional: false
         optional: false
         spell:
@@ -203,9 +209,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1729038339401
-  modifiedTime: 1732572293890
+  modifiedTime: 1732647093249
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!lfIj0Xk2lYSTb8I3'
 

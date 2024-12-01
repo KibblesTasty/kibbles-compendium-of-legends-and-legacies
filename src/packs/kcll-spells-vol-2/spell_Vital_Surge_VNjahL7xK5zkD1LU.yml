@@ -1,26 +1,129 @@
 name: Vital Surge
 type: spell
 _id: VNjahL7xK5zkD1LU
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/life/heart-area-circle-red-green.webp
 system:
-  activities: {}
+  activities:
+    WtUcZjwrE8sJO5al:
+      type: utility
+      name: Cast
+      _id: WtUcZjwrE8sJO5al
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: cnhjgMigZp4H39h1
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    AMXOfMwRYaBch7ca:
+      type: heal
+      _id: AMXOfMwRYaBch7ca
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 4
+        denomination: '8'
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You infuse a vital surge of life into up to 4 creatures of your choice
+      within range. Once during the spell's duration, a target can trigger this
+      vital surge as a bonus action, regaining 4d8 hit points. When it does so,
+      it can choose to expend up to 4 hit dice, rolling them and healing for the
+      result (adding its Constitution modifier to each die as normal).
+      </p><p>Once a creature triggers its healing surge, the spell ends for that
+      creature. </p><p><strong>At Higher Levels.</strong> When you cast this
+      spell using a spell slot of 5th level or higher, the maximum number of
+      targets and the maximum number of hit dice a target can expend both
+      increase by 1 for each slot level above 4th.</p>
     chat: ''
   identifier: vital-surge
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
-    value: null
+    type: minute
+    value: 1
     condition: ''
   duration:
-    units: inst
+    units: hour
+    value: '8'
   level: 4
   materials:
     value: ''
@@ -30,10 +133,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: trs
   target:
     template:
@@ -42,23 +148,61 @@ system:
       type: ''
     affects:
       choice: false
-      count: ''
-      type: ''
-effects: []
+      count: 3 + @scaling
+      type: creature
+      special: ''
+effects:
+  - name: Vital Surge
+    img: icons/magic/life/heart-cross-strong-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.VNjahL7xK5zkD1LU
+    transfer: false
+    _id: cnhjgMigZp4H39h1
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1732645282443
+      modifiedTime: 1732645318007
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!VNjahL7xK5zkD1LU.cnhjgMigZp4H39h1'
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560934618
-  modifiedTime: 1732560939440
+  modifiedTime: 1732995418490
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!VNjahL7xK5zkD1LU'
 

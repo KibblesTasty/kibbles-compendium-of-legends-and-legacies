@@ -1,15 +1,90 @@
 name: Stone Pillar
 type: spell
 _id: 9X13OXPVpY5PMlJO
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/barrier-stone-pillar-purple.webp
 system:
-  activities: {}
+  activities:
+    u8y9hSM7Lv3hKwjy:
+      type: save
+      name: Cast
+      _id: u8y9hSM7Lv3hKwjy
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cause a pillar of stone to rise from the ground in a space you can
+      see within range. The pillar occupies a 5-foot space and rises up to 30
+      feet into the air. The ground where it appears must have space to
+      accommodate it, and you can't target a space under a Large or larger
+      creature.</p><p>If a pillar is created under a Medium or smaller creature,
+      that creature must succeed on a Dexterity saving throw or be lifted by the
+      pillar. A creature can choose to fail its save. If a pillar is prevented
+      from reaching its full height because of a ceiling or other obstacle, a
+      creature on the pillar takes 3d8 bludgeoning damage and is
+      &amp;Reference[restrained], crushed between the pillar and the obstacle.
+      The restrained creature can use an action to make a Strength (Athletics)
+      or Dexterity (Acrobatics) check (the creature’s choice) against the spell
+      save DC. On a success, the creature is no longer restrained and must
+      either move off the pillar or fall.</p><p>The pillar has AC 5 and 30 hit
+      points. When reduced to 0 hit points, it crumbles into rubble, creating an
+      area of difficult terrain in a 15-foot square centered on the pillar,
+      which lasts until the rubble is cleared. Each 5-foot-square in the area
+      requires at least 1 minute to clear by hand.</p>
     chat: ''
   identifier: stone-pillar
   source:
@@ -30,35 +105,46 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '2'
+      height: '30'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560498693
-  modifiedTime: 1732560501776
+  modifiedTime: 1733000754023
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9X13OXPVpY5PMlJO'
 

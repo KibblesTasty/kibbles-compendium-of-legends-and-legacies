@@ -1,7 +1,7 @@
 name: Immutability
 type: spell
 _id: niyyFXVtHXS50K6i
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
 system:
   activities: {}
   uses:
@@ -9,7 +9,16 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You assume an immutable form. You become immune to other transmutation
+      spells or magical effects that would alter your form. </p><p>If you don’t
+      move during your turn, you gain advantage on Strength or Constitution
+      saving throws made before the start of your next turn, and cannot be moved
+      or knocked down against your will. </p><p>While the spell is active, as a
+      reaction to taking bludgeoning, piercing, or slashing damage you can gain
+      resistance to that damage type (Including the triggering damage) until the
+      end of your next turn, but your movement speed becomes zero until the end
+      of your next turn.</p>
     chat: ''
   identifier: immutability
   source:
@@ -20,7 +29,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 3
   materials:
     value: ''
@@ -30,7 +40,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -56,9 +69,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558633308
-  modifiedTime: 1732558638955
+  modifiedTime: 1733008800150
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!niyyFXVtHXS50K6i'
 

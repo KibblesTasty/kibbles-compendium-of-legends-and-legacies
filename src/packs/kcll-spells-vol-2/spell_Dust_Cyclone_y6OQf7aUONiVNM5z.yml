@@ -1,15 +1,125 @@
 name: Dust Cyclone
 type: spell
 _id: y6OQf7aUONiVNM5z
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/air/air-burst-spiral-yellow.webp
 system:
-  activities: {}
+  activities:
+    l5gRkDZ57RZVG4k2:
+      type: utility
+      name: Cast
+      _id: l5gRkDZ57RZVG4k2
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    szVXWllSNLIAujoJ:
+      type: save
+      _id: szVXWllSNLIAujoJ
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A small cyclone whips up at a point you can see on the ground within
+      range. The cyclone is a 5-foot-radius, 30-foot-high cylinder centered on
+      that point. </p><p>Any creature that starts its turn within the radius of
+      the dust cyclone or enters its radius for the first time during its turn
+      must make a Strength saving throw. On a failed save, the creature takes
+      1d12 bludgeoning damage is pushed 5 feet away from the center. On a
+      successful save, the creature takes half as much damage isn’t pushed.
+      </p><p>As a bonus action, you can move the dust cyclone up 30 feet in any
+      direction. The first time you pass the dust cyclone’s radius through a
+      creature, that creature must make the saving throw against the dust
+      cyclone’s damage and are pushed out its way on failure. You can continue
+      to move the dust cyclone, but its strength is exhausted until the end of
+      your turn and subsequent creatures an unaffected by it passing through
+      them. </p><p>If the dust cyclone moves over sand, dust, loose dirt, or
+      small gravel, it sucks up the material and heavily obscures its radius
+      until the start of your next turn.</p>
     chat: ''
   identifier: dust-cyclone
   source:
@@ -20,45 +130,59 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
-    value: ''
+    value: a pinch of dust
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: con
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '5'
+      count: ''
+      height: '30'
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557146823
-  modifiedTime: 1732557150770
+  modifiedTime: 1733017227741
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!y6OQf7aUONiVNM5z'
 

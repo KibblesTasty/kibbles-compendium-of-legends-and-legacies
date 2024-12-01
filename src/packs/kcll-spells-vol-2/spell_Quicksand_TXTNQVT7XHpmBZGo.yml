@@ -1,15 +1,109 @@
 name: Quicksand
 type: spell
 _id: TXTNQVT7XHpmBZGo
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/explosion-lava-stone-yellow.webp
 system:
-  activities: {}
+  activities:
+    S2NStjH1FNEModix:
+      type: utility
+      name: Cast
+      _id: S2NStjH1FNEModix
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    fdhsg7xsydAwRJPg:
+      type: save
+      _id: fdhsg7xsydAwRJPg
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cause the ground in a 20-foot radius centered on a point you can
+      see to turn to quicksand for the duration of the spell. A creature moving
+      within or out of the area must spend 4 feet of movement for every foot it
+      moves. A creature ending its turn in the area must succeed on a Strength
+      saving throw or fall &amp;Reference[prone].</p>
     chat: ''
   identifier: quicksand
   source:
@@ -20,45 +114,58 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 3
   materials:
-    value: ''
+    value: a pinch of sand
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '20'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560093163
-  modifiedTime: 1732560096881
+  modifiedTime: 1732998313090
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!TXTNQVT7XHpmBZGo'
 

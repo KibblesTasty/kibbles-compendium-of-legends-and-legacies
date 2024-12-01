@@ -1,26 +1,127 @@
 name: Become Fire
 type: spell
 _id: 5ajKrbmMbmIDmaOp
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/fire/elemental-fire-humanoid.webp
 system:
-  activities: {}
+  activities:
+    IrZQo0kEJrs7C8IP:
+      type: utility
+      name: Cast
+      _id: IrZQo0kEJrs7C8IP
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: H3vywsyMahSz7i8U
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    eRjsjnqlc4Nw8RZt:
+      type: damage
+      _id: eRjsjnqlc4Nw8RZt
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You become a burst of elemental flames. Until the start of your next
+      turn, you gain the following benefits:</p><ul><li>You gain resistance to
+      fire damage and to bludgeoning, piercing, and slashing damage from
+      nonmagical attacks.</li><li>You can move through the space of other
+      creatures and ignore difficult terrain. The first time you enter another
+      creature’s space on a turn, it takes 1d6 fire damage.</li><li>Any time you
+      are hit by a melee attack, the attacker takes 1d6 fire
+      damage.</li></ul><p><strong>At Higher Levels.</strong> When you cast this
+      spell using a spell slot of 3rd level or higher, it lasts for 1 additional
+      round for each level above 2nd.</p>
     chat: ''
   identifier: become-fire
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '@scaling'
   level: 2
   materials:
     value: ''
@@ -30,7 +131,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -43,22 +146,80 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
-effects: []
+      type: self
+      special: ''
+effects:
+  - name: Become Fire
+    img: icons/magic/fire/elemental-fire-humanoid.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.5ajKrbmMbmIDmaOp
+    transfer: false
+    _id: H3vywsyMahSz7i8U
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1732997041704
+      modifiedTime: 1732997910231
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!5ajKrbmMbmIDmaOp.H3vywsyMahSz7i8U'
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556453310
-  modifiedTime: 1732557496750
+  modifiedTime: 1732997743243
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!5ajKrbmMbmIDmaOp'
 

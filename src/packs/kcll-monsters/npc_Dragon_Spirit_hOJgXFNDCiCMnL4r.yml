@@ -1,7 +1,6 @@
-folder: 5mPI8vwfYWGUMrVa
-name: Beast Companion
+name: Dragon Spirit
 type: npc
-_id: AqEA5xkcVZpOl7dR
+folder: 5mPI8vwfYWGUMrVa
 img: icons/svg/mystery-man.svg
 system:
   currency:
@@ -12,42 +11,42 @@ system:
     cp: 0
   abilities:
     str:
-      value: 16
-      proficient: 1
+      value: 18
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 14
-      proficient: 0
-      max: null
-      bonuses:
-        check: ''
-        save: ''
-    con:
-      value: 16
-      proficient: 1
-      max: null
-      bonuses:
-        check: ''
-        save: ''
-    int:
-      value: 5
-      proficient: 0
-      max: null
-      bonuses:
-        check: ''
-        save: ''
-    wis:
       value: 10
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
+    con:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
     cha:
-      value: 6
+      value: 18
       proficient: 0
       max: null
       bonuses:
@@ -306,9 +305,9 @@ system:
     movement:
       burrow: null
       climb: null
-      fly: null
+      fly: 40
       swim: null
-      walk: null
+      walk: 30
       units: null
       hover: false
     attunement:
@@ -332,13 +331,13 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: null
-      calc: default
+      flat: 12
+      calc: natural
     hd:
       spent: 0
     hp:
-      value: 5
-      max: 5
+      value: 50
+      max: 50
       temp: 0
       tempmax: 0
       formula: ''
@@ -354,18 +353,18 @@ system:
     biography:
       value: ''
       public: ''
-    alignment: unalisgned
+    alignment: unaligned
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: beast
-      custom: ''
+      value: dragon
       subtype: ''
       swarm: ''
+      custom: ''
     environment: ''
-    cr: null
+    cr: 1
     spellLevel: 0
   resources:
     legact:
@@ -381,7 +380,7 @@ system:
     revision: 1
     rules: '2024'
   traits:
-    size: med
+    size: lg
     di:
       bypasses: []
       value: []
@@ -404,13 +403,13 @@ system:
       value: []
       custom: ''
 prototypeToken:
-  name: Beast Companion
+  name: Dragon Spirit
   displayName: 0
   actorLink: false
   appendNumber: false
   prependAdjective: false
-  width: 1
-  height: 1
+  width: 2
+  height: 2
   texture:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
@@ -480,14 +479,94 @@ prototypeToken:
   flags: {}
   randomImg: false
 items:
+  - name: Multiattack
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The dragon makes a number of attacks equal to half this spell’s
+          level (rounded down). It can only attack with its bite or tail once
+          each per turn.</p>
+        chat: ''
+      activities:
+        EWts1aoNQk7sQH5K:
+          _id: EWts1aoNQk7sQH5K
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    _id: 2JgyedHcDsRpyaN3
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: 1733008019340
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!hOJgXFNDCiCMnL4r.2JgyedHcDsRpyaN3'
   - name: Bite
     type: weapon
-    _id: wH15XOL1ajeFO5tN
+    _id: OvnA6pu4yuBXibe4
     img: icons/creatures/abilities/mouth-teeth-long-red.webp
     system:
       activities:
-        aXY5fpYn4jKr7Dch:
-          _id: aXY5fpYn4jKr7Dch
+        MWiOyhgPth24Mfnd:
+          _id: MWiOyhgPth24Mfnd
           type: attack
           sort: 0
           activation:
@@ -529,15 +608,29 @@ items:
               threshold: null
             flat: false
             type:
-              value: ''
+              value: melee
               classification: ''
-            ability: ''
+            ability: none
             bonus: ''
           damage:
             critical:
               bonus: ''
             includeBase: true
-            parts: []
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 6
+                bonus: ''
+                types:
+                  - acid
+                  - cold
+                  - fire
+                  - poison
+                  - lightning
+                scaling:
+                  number: 1
           name: ''
           img: ''
           appliedEffects: []
@@ -546,9 +639,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p><em>Melee Weapon Attack:</em> [your spell attack modifier to hit],
-          reach 5 ft., one target. Hit: 1d8 + PB piercing damage.</p>
+        value: ''
         chat: ''
       identifier: bite
       source:
@@ -585,14 +676,14 @@ items:
       damage:
         base:
           number: 1
-          denomination: 8
+          denomination: 6
           types:
             - piercing
           custom:
             enabled: false
           scaling:
             number: 1
-          bonus: ''
+          bonus: '4'
         versatile:
           number: null
           denomination: null
@@ -607,12 +698,12 @@ items:
       range:
         value: null
         long: null
-        reach: null
-        units: ''
+        reach: 10
+        units: ft
       mastery: ''
     effects: []
     folder: null
-    sort: 0
+    sort: 100000
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
@@ -626,18 +717,18 @@ items:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731881494266
-      modifiedTime: 1731881572983
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: 1733008018138
       lastModifiedBy: pJeIW7qCa0HkURWq
-    _key: '!actors.items!AqEA5xkcVZpOl7dR.wH15XOL1ajeFO5tN'
+    _key: '!actors.items!hOJgXFNDCiCMnL4r.OvnA6pu4yuBXibe4'
   - name: Claw
     type: weapon
-    img: icons/creatures/claws/claw-bear-paw-swipe-red.webp
+    _id: RrMUtH8UgSg12h2f
+    img: icons/creatures/claws/claw-scaled-red.webp
     system:
       activities:
-        aXY5fpYn4jKr7Dch:
-          _id: aXY5fpYn4jKr7Dch
+        253JHkQ8P6WA07et:
           type: attack
           sort: 0
           activation:
@@ -679,9 +770,9 @@ items:
               threshold: null
             flat: false
             type:
-              value: ''
+              value: melee
               classification: ''
-            ability: ''
+            ability: none
             bonus: ''
           damage:
             critical:
@@ -689,16 +780,15 @@ items:
             includeBase: true
             parts: []
           name: ''
+          _id: 253JHkQ8P6WA07et
       uses:
         spent: 0
         recovery: []
         max: ''
       description:
-        value: >-
-          <p><em>Melee Weapon Attack:</em> [your spell attack modifier to hit],
-          reach 5 ft., one target. Hit: 1d8 + PB slashing damage.</p>
+        value: ''
         chat: ''
-      identifier: bite
+      identifier: claw
       source:
         revision: 1
         rules: '2024'
@@ -733,14 +823,14 @@ items:
       damage:
         base:
           number: 1
-          denomination: 8
+          denomination: 4
           types:
             - slashing
           custom:
             enabled: false
           scaling:
             number: 1
-          bonus: ''
+          bonus: '4'
         versatile:
           number: null
           denomination: null
@@ -756,11 +846,11 @@ items:
         value: null
         long: null
         reach: null
-        units: ''
+        units: ft
       mastery: ''
     effects: []
     folder: null
-    sort: 0
+    sort: 300000
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
@@ -774,19 +864,18 @@ items:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731881752526
-      modifiedTime: 1731881797320
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: 1733008018138
       lastModifiedBy: pJeIW7qCa0HkURWq
-    _id: sGIE4FsXX0O2Pd77
-    _key: '!actors.items!AqEA5xkcVZpOl7dR.sGIE4FsXX0O2Pd77'
-  - name: Slam
+    _key: '!actors.items!hOJgXFNDCiCMnL4r.RrMUtH8UgSg12h2f'
+  - name: Tail
     type: weapon
-    img: icons/skills/melee/unarmed-punch-fist-white.webp
+    _id: W3x8X019sehDTln6
+    img: icons/creatures/abilities/tail-swipe-green.webp
     system:
       activities:
-        aXY5fpYn4jKr7Dch:
-          _id: aXY5fpYn4jKr7Dch
+        CIUpsw3d6DhCXGw9:
           type: attack
           sort: 0
           activation:
@@ -828,9 +917,9 @@ items:
               threshold: null
             flat: false
             type:
-              value: ''
+              value: melee
               classification: ''
-            ability: ''
+            ability: none
             bonus: ''
           damage:
             critical:
@@ -838,16 +927,15 @@ items:
             includeBase: true
             parts: []
           name: ''
+          _id: CIUpsw3d6DhCXGw9
       uses:
         spent: 0
         recovery: []
         max: ''
       description:
-        value: >-
-          <p><em>Melee Weapon Attack:</em> [your spell attack modifier to hit],
-          reach 5 ft., one target. Hit: 1d8 + PB bludgeoning damage.</p>
+        value: ''
         chat: ''
-      identifier: bite
+      identifier: tail
       source:
         revision: 1
         rules: '2024'
@@ -889,7 +977,7 @@ items:
             enabled: false
           scaling:
             number: 1
-          bonus: ''
+          bonus: '4'
         versatile:
           number: null
           denomination: null
@@ -904,12 +992,12 @@ items:
       range:
         value: null
         long: null
-        reach: null
-        units: ''
+        reach: 15
+        units: ft
       mastery: ''
     effects: []
     folder: null
-    sort: 0
+    sort: 400000
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
@@ -923,14 +1011,208 @@ items:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731881754887
-      modifiedTime: 1731881942126
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: 1733008018138
       lastModifiedBy: pJeIW7qCa0HkURWq
-    _id: 1S6tu5Ty9CBPf0qk
-    _key: '!actors.items!AqEA5xkcVZpOl7dR.1S6tu5Ty9CBPf0qk'
+    _key: '!actors.items!hOJgXFNDCiCMnL4r.W3x8X019sehDTln6'
+  - name: Breath Weapon
+    type: feat
+    _id: vAPWH16LYXGGzBmG
+    img: icons/creatures/abilities/dragon-ice-breath-blue.webp
+    system:
+      activities:
+        1TMhIFYhrXfsHL9J:
+          type: save
+          _id: 1TMhIFYhrXfsHL9J
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: cone
+              size: '30'
+              count: ''
+            affects:
+              choice: false
+              count: ''
+              type: creature
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 5
+                denomination: 8
+                bonus: ''
+                types:
+                  - acid
+                  - cold
+                  - fire
+                  - poison
+                scaling:
+                  number: 1
+            onSave: half
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          name: Cone
+          img: ''
+          appliedEffects: []
+        SVXgHvLmlh7y9qkX:
+          type: save
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              count: ''
+              type: line
+              size: '60'
+              width: '5'
+            affects:
+              choice: false
+              count: ''
+              type: creature
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 5
+                denomination: 8
+                bonus: ''
+                types:
+                  - acid
+                  - fire
+                  - lightning
+                scaling:
+                  number: 1
+            onSave: half
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          name: Line
+          _id: SVXgHvLmlh7y9qkX
+          img: ''
+          appliedEffects: []
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      description:
+        value: >-
+          <p>The dragon exhales elemental power in its breath weapon area from
+          the dragon table. Each creature in that area must make a Dexterity
+          saving throw with a DC equal to your spell save DC, taking 5d8 + the
+          spell's level elemental damage on a failed save, or half as much
+          damage on a successful one.</p>
+        chat: ''
+      identifier: breath-weapon
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    effects: []
+    folder: null
+    sort: 500000
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: 1733008018138
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!hOJgXFNDCiCMnL4r.vAPWH16LYXGGzBmG'
 effects: []
-sort: 100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
@@ -942,9 +1224,11 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731881432179
+  systemVersion: 4.1.2
+  createdTime: 1733006814710
   modifiedTime: 1733006814829
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!actors!AqEA5xkcVZpOl7dR'
+_id: hOJgXFNDCiCMnL4r
+sort: 200000
+_key: '!actors!hOJgXFNDCiCMnL4r'
 

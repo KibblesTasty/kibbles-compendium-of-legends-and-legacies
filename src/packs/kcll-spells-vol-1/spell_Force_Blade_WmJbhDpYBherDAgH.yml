@@ -99,10 +99,15 @@ system:
     width: null
     units: ''
     type: self
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: 10
     long: null
     units: ft
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -156,10 +161,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1732556237162
+  modifiedTime: 1733016851320
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.5vmGIMbvW5kzTSJS
   duplicateSource: null

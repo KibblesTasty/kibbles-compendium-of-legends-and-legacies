@@ -1,15 +1,177 @@
 name: Heavenly Ray
 type: spell
 _id: zslATBRXIUWbPJBF
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/light/beam-strike-village-yellow.webp
 system:
-  activities: {}
+  activities:
+    Waa0DxAEQlVru80r:
+      type: utility
+      name: Cast
+      _id: Waa0DxAEQlVru80r
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    XxQQWdzJhuDqdlru:
+      type: heal
+      _id: XxQQWdzJhuDqdlru
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 2
+        denomination: '8'
+        types: []
+        custom:
+          enabled: true
+          formula: 2d8[healing] + 2d8[temphp]
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    y0qoXu3JLAC7C8ey:
+      type: damage
+      _id: y0qoXu3JLAC7C8ey
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A golden pillar of celestial radiance shines down in a 10-foot radius,
+      60-foot-high cylinder centered on a point you can see within range. Until
+      the spell ends, the cylinder is filled with bright light and sheds dim
+      light for 10 feet in all directions from it. </p><p>When a creature enters
+      the spell’s area for the first time on a turn or starts its turn there,
+      the celestial radiance infuses its body with positive energy. If the
+      creature is not an undead or construct, it regains 2d8 hit points and
+      gains 2d8 temporary hit points. If it is a construct, the light has no
+      effect. If it is undead, it instead takes 2d8 radiant damage. </p><p>The
+      first time a creature is healed by this spell, it is healed without
+      restriction; every subsequent time a creature is healed by this spell, it
+      can't be healed above half its maximum hit points. </p><p>As a bonus
+      action, you can move the pillar up to 60 feet in any direction.</p>
     chat: ''
   identifier: heavenly-ray
   source:
@@ -20,7 +182,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 4
   materials:
     value: ''
@@ -30,35 +193,47 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: evo
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '10'
+      height: '60'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558100688
-  modifiedTime: 1732558105001
+  modifiedTime: 1732995418490
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zslATBRXIUWbPJBF'
 

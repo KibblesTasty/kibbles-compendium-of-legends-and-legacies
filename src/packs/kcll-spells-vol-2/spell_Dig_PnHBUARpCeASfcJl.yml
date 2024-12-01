@@ -1,15 +1,57 @@
 name: Dig
 type: spell
 _id: PnHBUARpCeASfcJl
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/projectile-stone-landslide.webp
 system:
-  activities: {}
+  activities:
+    08s2C2AP0IhNXPnl:
+      type: utility
+      name: Cast
+      _id: 08s2C2AP0IhNXPnl
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Until the end of your turn, you gain a burrowing speed of 30 feet. You
+      can move through dirt, sand, or clay with this movement, and leave behind
+      a tunnel equal to your size that remains stable for 1 minute (after which
+      it may remain or collapse based on the properties of the ground moved
+      through). You cannot move through stone (natural or constructed) with this
+      movement.</p>
     chat: ''
   identifier: dig
   source:
@@ -20,17 +62,21 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 3
   materials:
-    value: ''
+    value: a mole's claw
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -43,22 +89,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: self
+      special: ''
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557058542
-  modifiedTime: 1732557062957
+  modifiedTime: 1732648823321
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!PnHBUARpCeASfcJl'
 

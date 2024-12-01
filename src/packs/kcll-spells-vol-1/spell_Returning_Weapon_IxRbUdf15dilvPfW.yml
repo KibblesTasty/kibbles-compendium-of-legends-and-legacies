@@ -123,6 +123,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.4SZAods2ts8OCJDe
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: IxRbUdf15dilvPfW
 system:
   description:
@@ -204,15 +208,66 @@ system:
   properties:
     - vocal
     - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: mhKPVwYEdOdjFTpD
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        type: ''
+        categories: []
+        properties: []
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   coreVersion: '12.331'
   createdTime: 1721351321060
-  modifiedTime: 1732558896537
+  modifiedTime: 1733018822606
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.4SZAods2ts8OCJDe
   duplicateSource: null

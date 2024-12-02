@@ -1,0 +1,168 @@
+name: The Hunger
+type: feat
+_id: j7e635JfP60ZtbGZ
+img: icons/creatures/abilities/fang-tooth-blood-red.webp
+system:
+  activities:
+    cbnNM2uxOirLlNwV:
+      type: utility
+      name: Transform
+      _id: cbnNM2uxOirLlNwV
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: inTtI1PPvk6i13gY
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - inTtI1PPvk6i13gY
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Beginning at 14th level, you can temporarily transform into a powerful
+      avatar that devours blood. As an action, you assume this form for 1
+      minute, gaining the following powers:</p><ul><li><strong>Damage
+      Resistance.</strong> You have resistance to bludgeoning, piercing, and
+      slashing damage from non-magical attacks.</li><li><strong>Blood
+      Frenzy.</strong> You have advantage on attack rolls against bloodied
+      creatures (creatures with less than half of their maximum hit
+      points).</li><li><strong>Life Drain.</strong> You can use Life Drain on
+      each of your turns without expending uses of the
+      feature.</li><li><strong>Bloody Shroud.</strong> When you use Sanguine
+      Empowerment, you gain temporary hit points equal to the hit points
+      expended.</li></ul><p>This form ends early if you end your turn without
+      dealing or receiving damage since the start of your last turn or if you
+      become incapacitated. Once you use this feature, you cannot use it again
+      until you complete a long rest.</p>
+    chat: ''
+  identifier: the-hunger
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: The Bloodbound 14
+effects:
+  - name: The Hunger
+    img: icons/creatures/abilities/fang-tooth-blood-red.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.j7e635JfP60ZtbGZ
+    transfer: false
+    _id: inTtI1PPvk6i13gY
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733180745969
+      modifiedTime: 1733180781733
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!j7e635JfP60ZtbGZ.inTtI1PPvk6i13gY'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733180449439
+  modifiedTime: 1733180801647
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!j7e635JfP60ZtbGZ'
+

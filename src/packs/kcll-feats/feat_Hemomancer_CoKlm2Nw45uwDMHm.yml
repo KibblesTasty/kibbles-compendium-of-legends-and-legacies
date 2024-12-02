@@ -2,13 +2,80 @@ folder: 76Thsx1OBiq8Xno4
 name: Hemomancer
 type: feat
 _id: CoKlm2Nw45uwDMHm
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/unholy/strike-beam-blood-red-blue.webp
 system:
-  activities: {}
+  activities:
+    SufRie5ywyJYxRQp:
+      type: damage
+      _id: SufRie5ywyJYxRQp
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: 5 * @scaling
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@details.level'
   description:
     value: >-
       <p>You can sacrifice your essence to cast spells with the "(blood magic)"
@@ -41,15 +108,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.2
   createdTime: 1730492248634
-  modifiedTime: 1730492283328
+  modifiedTime: 1733111887696
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!CoKlm2Nw45uwDMHm'
 

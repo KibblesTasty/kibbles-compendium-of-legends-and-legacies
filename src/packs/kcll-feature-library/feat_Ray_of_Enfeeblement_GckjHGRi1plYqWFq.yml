@@ -58,7 +58,11 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You learn the @UUID[Compendium.dnd5e.spells.Item.ODhLKBxLnvvLOnw1]{ray
+      of enfeeblement} spell and you can cast it once without expending a spell
+      slot. You regain the ability to cast it in this way again after completing
+      a short or long rest.</p>
     chat: ''
   identifier: ray-of-enfeeblement
   source:
@@ -91,9 +95,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1731226162801
-  modifiedTime: 1732221374043
+  modifiedTime: 1733173371999
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GckjHGRi1plYqWFq'
 

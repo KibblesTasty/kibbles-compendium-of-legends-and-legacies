@@ -1,0 +1,49 @@
+name: Crimson Font
+type: feat
+_id: d32nXTSMa25lbMT8
+img: icons/skills/wounds/blood-drip-droplet-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>At 1st level, when you cast a blood magic spell, you can contribute hit
+      points of blood up to your Warden Level to the spell without taking
+      damage. Any hit points contributed beyond that reduce your hit points as
+      normal.</p><p> Additionally, you are immune to any effect that drains your
+      blood, makes you take damage from bleeding, or causes effects that involve
+      bleeding. You are not immune to the damage that makes you bleed.</p>
+    chat: ''
+  identifier: crimson-font
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Blood Forger 1
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733177059102
+  modifiedTime: 1733177763367
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!d32nXTSMa25lbMT8'
+

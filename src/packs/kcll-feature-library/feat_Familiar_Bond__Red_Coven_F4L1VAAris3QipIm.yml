@@ -1,0 +1,120 @@
+name: 'Familiar Bond: Red Coven'
+type: feat
+_id: F4L1VAAris3QipIm
+img: icons/creatures/birds/corvid-call-sound-glowing.webp
+system:
+  activities:
+    8qKCAmHrMgQK4mtH:
+      type: damage
+      _id: 8qKCAmHrMgQK4mtH
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: 4 * @classes.occultist.levels
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling'
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@abilities.wis.mod'
+  description:
+    value: >-
+      <p>As a reaction to an allied creature taking damage while within 5 feet
+      of your familiar, you can transfer up to four times your Occultist level
+      of that damage (up to 12 at level 3 when you get this feature) to another
+      willing creature within 60 feet of it. The damage transferred cannot
+      exceed the current hit points of the target of the transfer. You can do
+      this a number of times equal to your Spellcasting modifier, regaining all
+      uses when you complete a long rest.</p>
+    chat: ''
+  identifier: familiar-bond-red-coven
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733169031519
+  modifiedTime: 1733171897633
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!F4L1VAAris3QipIm'
+

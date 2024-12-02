@@ -1,0 +1,50 @@
+name: Restore Vitality
+type: feat
+_id: ZF5RyUWLh41DXr28
+img: icons/magic/life/heart-cross-purple-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 7th level, your
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UXXK6Gpfe0gi9S0e]{Innate
+      Magic} ability to cast blood transfusion without expending a spell slot is
+      refreshed when you complete a short rest. When you cast blood transfusion
+      on a target other than yourself, you can expend hit points up to your
+      Warden level (instead of up to 5), increasing the amount it heals the
+      target based on the spell effect.</p>
+    chat: ''
+  identifier: restore-vitality
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733177109400
+  modifiedTime: 1733177927219
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!ZF5RyUWLh41DXr28'
+

@@ -1,0 +1,200 @@
+name: Karmic Curse
+type: spell
+img: icons/magic/control/energy-stream-link-large-orange.webp
+system:
+  description:
+    value: >-
+      <p>You hex a target creature, placing a karmic binding on it. For the
+      duration of the spell, the first time the target it damages another
+      creature on a turn, it takes 4d6 psychic damage.</p>
+    chat: ''
+  materials:
+    value: >-
+      something from the target creature—such as blood, hair, or scales—which
+      the spell consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  level: 3
+  school: enc
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    lxHr00gLfpv1Nggs:
+      type: utility
+      name: Cast
+      _id: lxHr00gLfpv1Nggs
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: wrfm2JMeENdxlRBY
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    WoSFx8udAB37fzb7:
+      type: damage
+      name: Karma
+      _id: WoSFx8udAB37fzb7
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: ''
+              number: 1
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: karmic-curse
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: zVBpnuoxTQRYZVu4
+effects:
+  - name: Karmic Curse
+    img: icons/magic/control/energy-stream-link-large-orange.webp
+    origin: Item.zVBpnuoxTQRYZVu4
+    transfer: false
+    _id: wrfm2JMeENdxlRBY
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!zVBpnuoxTQRYZVu4.wrfm2JMeENdxlRBY'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733168417035
+  modifiedTime: 1733176687434
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 16900000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!zVBpnuoxTQRYZVu4'
+

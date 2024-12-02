@@ -1,0 +1,51 @@
+name: Beating Hearts
+type: feat
+_id: jHALZRh615n6m4k7
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 1st level, you can sense the beating hearts of life in
+      creatures around you. You can use your spellcasting modifier, instead of
+      your Wisdom modifier, for making Perception and Insight checks against
+      living creatures with blood, and to calculate your passive scores to sense
+      living creatures.</p><p> You can heighten this sense further by casting
+      sense blood without expending a spell slot or material components, but
+      once you do so, you cannot do so this way again until you complete a long
+      rest.</p>
+    chat: ''
+  identifier: beating-hearts
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: The Bloodbound 1
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733179993823
+  modifiedTime: 1733180403573
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!jHALZRh615n6m4k7'
+

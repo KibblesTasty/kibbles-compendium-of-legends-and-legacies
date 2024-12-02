@@ -1,0 +1,58 @@
+name: Sanguine Empowerment
+type: feat
+_id: XC3ehkOMKus5nrgm
+img: icons/skills/wounds/blood-drip-droplet-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 6th level, you can sacrifice your hit points to empower
+      your magic. When you expend a Pact Magic spell slot to cast a spell that
+      has an effect that scales with spell level, you can expend a number of hit
+      points equal 1 + to the level of the spell to increase the level at which
+      you cast the spell by one level (for example, if you cast the 2nd level
+      spell hold person using a 3rd level Pact Magic Spell slot, you could
+      expend 3 hit points to cast it at the 4th level).</p><p>When you cast a
+      cantrip, you can scale the cantrip to its next level of power (for
+      example, casting it as if you were 11th level) by spending 3 hit points
+      this way. This works even when you are 17th level, and the cantrip would
+      generally not scale further (adding an additional die or firing an
+      additional beam in the case of eldritch blast).</p><p> You can spend a
+      total number of hit points this way equal to your Warlock level, after
+      which you cannot spend more hit points to empower your spells until you
+      complete a long rest.</p>
+    chat: ''
+  identifier: sanguine-empowerment
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: The Bloodbound 6
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733180140817
+  modifiedTime: 1733180325588
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!XC3ehkOMKus5nrgm'
+

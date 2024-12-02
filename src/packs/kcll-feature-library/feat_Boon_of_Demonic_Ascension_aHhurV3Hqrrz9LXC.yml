@@ -1,0 +1,59 @@
+name: Boon of Demonic Ascension
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You sacrifice a 9th-level spell slot, you can remain in the form
+      granted by your
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BvSQPgk8r6Ut61dA]{Demonic
+      Ascension} as long as you like, entering or exiting it as a bonus action
+      at any time.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: cultistBoon
+  requirements: ''
+  identifier: boon-of-unholy-nature-7th-level
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.GG0r30PbneZkeaOH
+_stats:
+  compendiumSource: Item.GG0r30PbneZkeaOH
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317510556
+  modifiedTime: 1733175289420
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 63500000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: aHhurV3Hqrrz9LXC
+_key: '!items!aHhurV3Hqrrz9LXC'
+

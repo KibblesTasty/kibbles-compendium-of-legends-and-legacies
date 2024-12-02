@@ -1,0 +1,82 @@
+name: Sanguine Vitality
+type: feat
+_id: etENdU8dVgHAx5KV
+img: icons/magic/life/heart-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your rich diet of the blood of your enemies empowers you. Your maximum
+      hit points are increased by 1 for each Occultist level you have.</p>
+    chat: ''
+  identifier: sanguine-vitality
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Red Coven
+effects:
+  - name: Sanguine Vitality
+    img: icons/magic/life/heart-pink.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.etENdU8dVgHAx5KV
+    _id: BQWZapodbqGXiWS3
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hp.bonuses.overall
+        mode: 2
+        value: '@classes.occultist.levels'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733173033590
+      modifiedTime: 1733173064175
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!etENdU8dVgHAx5KV.BQWZapodbqGXiWS3'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733172613334
+  modifiedTime: 1733173287648
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!etENdU8dVgHAx5KV'
+

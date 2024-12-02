@@ -1,0 +1,57 @@
+name: Boon Seeker
+type: feat
+img: icons/magic/unholy/hands-praying-fire-green.webp
+system:
+  description:
+    value: >-
+      <p>You can make one additional sacrifice to receive a boon using your
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.epHkCwimMBPHfGL3]{Dark
+      Powers} feature.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: cultist-rite-boon-seeker
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.TdaI6Zz0HTTFpgHh
+_stats:
+  compendiumSource: Item.TdaI6Zz0HTTFpgHh
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317489788
+  modifiedTime: 1733114753660
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 32600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 6mTPshLaJVkjF8um
+_key: '!items!6mTPshLaJVkjF8um'
+

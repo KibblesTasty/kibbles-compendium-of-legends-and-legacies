@@ -1,0 +1,116 @@
+name: Life Drain
+type: feat
+_id: c4UAUVigDrf2haA1
+img: icons/magic/life/heart-broken-red.webp
+system:
+  activities:
+    4JglL0KXJIDg8Grz:
+      type: damage
+      _id: 4JglL0KXJIDg8Grz
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@abilities.cha.mod'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@prof'
+  description:
+    value: >-
+      <p>At 1st level, you gain the ability to drain the vitality of other
+      creatures through their blood. When you hit a creature with an attack
+      (including weapon or spell attacks), you can use your bonus action to
+      drain their life, dealing additional necrotic damage equal to your
+      Charisma modifier and regaining hit points equal to the necrotic damage
+      dealt.</p><p> You can use this feature a number of times equal to your
+      proficiency bonus, regaining all uses when you complete a long rest.</p>
+    chat: ''
+  identifier: life-drain
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: The Bloodbound 1
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733179904756
+  modifiedTime: 1733179975728
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!c4UAUVigDrf2haA1'
+

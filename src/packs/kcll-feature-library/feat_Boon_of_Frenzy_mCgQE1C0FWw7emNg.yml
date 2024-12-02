@@ -1,0 +1,56 @@
+name: Boon of Frenzy
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You sacrifice a 2nd level spell slot, gaining the Two-Weapon Fighting
+      or Dueling Fighting Style of the Fighter class.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: cultistBoon
+  requirements: ''
+  identifier: boon-of-frenzy-2nd-level
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.bXr5SuEQ08gt7n42
+_stats:
+  compendiumSource: Item.bXr5SuEQ08gt7n42
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317519135
+  modifiedTime: 1733175403704
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 77300000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: mCgQE1C0FWw7emNg
+_key: '!items!mCgQE1C0FWw7emNg'
+

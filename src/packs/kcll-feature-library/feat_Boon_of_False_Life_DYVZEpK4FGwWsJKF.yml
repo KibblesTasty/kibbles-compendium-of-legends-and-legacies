@@ -1,0 +1,58 @@
+name: Boon of False Life
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You sacrifice a spell slot of 1st level or higher, gaining temporary
+      hit points equal to 6 + twice the level of the sacrificed spell slot. When
+      you complete a short rest under the effect of this boon, you regain 1d4 +
+      half the initial temporary hit points granted by the boon.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: cultistBoon
+  requirements: ''
+  identifier: boon-of-false-life-1st-level
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.F2FyAe7TestfRxNg
+_stats:
+  compendiumSource: Item.F2FyAe7TestfRxNg
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317495552
+  modifiedTime: 1733175364520
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 41000000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: DYVZEpK4FGwWsJKF
+_key: '!items!DYVZEpK4FGwWsJKF'
+

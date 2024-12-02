@@ -1,0 +1,150 @@
+name: Rupturing Curse
+type: spell
+img: icons/magic/unholy/strike-beam-blood-small-red-gray.webp
+system:
+  description:
+    value: >-
+      <p>You invoke a curse on a creature you can see within range, rupturing
+      their tendons. For the duration, the creatures hit points are reduced by
+      [[/r 2d4]] for each 5 feet they move. Creatures without blood are immune
+      to this curse.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      something from the target creature—such as blood, hair, or scales—which
+      the spell consumes and a drop of your blood worth at least 2 hit point,
+      which the spell consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - concentration
+  level: 3
+  school: nec
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    ZZplqiFNUuuiBrJw:
+      type: utility
+      name: Cast
+      _id: ZZplqiFNUuuiBrJw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: Zk68oKV9JMIkFHYx
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: rupturing-curse
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+effects:
+  - name: Rupturing Curse
+    img: icons/magic/unholy/strike-beam-blood-small-red-gray.webp
+    origin: Item.ixoFxSpMbrVvVKVJ
+    transfer: false
+    _id: Zk68oKV9JMIkFHYx
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!7X3pOd4kKhwRCn9R.Zk68oKV9JMIkFHYx'
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733176689646
+  modifiedTime: 1733176689646
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: 7X3pOd4kKhwRCn9R
+sort: 0
+_key: '!items!7X3pOd4kKhwRCn9R'
+

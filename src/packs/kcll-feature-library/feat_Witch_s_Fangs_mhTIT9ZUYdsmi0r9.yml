@@ -1,0 +1,132 @@
+name: Witch's Fangs
+type: feat
+_id: mhTIT9ZUYdsmi0r9
+img: icons/creatures/abilities/fang-tooth-blood-red.webp
+system:
+  activities:
+    76GTjDp6qTZzL6Mj:
+      type: attack
+      _id: 76GTjDp6qTZzL6Mj
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: true
+              formula: (ceil((@classes.occultist.levels + 2) / 6))d4
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - piercing
+            scaling:
+              number: 1
+          - custom:
+              enabled: true
+              formula: (ceil((@classes.occultist.levels + 2) / 6))d4
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As an action, you grow long canine fangs and attempt to bite a creature
+      within 5 feet of you, making a melee spell attack. On hit, the target
+      takes 1d4 piercing damage and 1d4 necrotic damage, and you gain temporary
+      hit points equal to the necrotic damage dealt.</p><p>The piercing and
+      necrotic damage each increase by 1d4 at 5th level (2d4), 11th level (3d4),
+      and 17th level (4d4).</p><p> Starting at 6th level, you can apply your
+      Witch’s Touch feature to attacks made with this feature.</p>
+    chat: ''
+  identifier: witchs-fangs
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Red Coven
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733172728424
+  modifiedTime: 1733173287648
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!mhTIT9ZUYdsmi0r9'
+

@@ -1,0 +1,107 @@
+name: Malicious Transfusion
+type: feat
+_id: KBmnN3KkV5Deb2XZ
+img: icons/magic/unholy/projectiles-blood-salvo-red.webp
+system:
+  activities:
+    6phGn2cbm2inQ68o:
+      type: save
+      _id: 6phGn2cbm2inQ68o
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: enemy
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When your familiar redirects damage, you can target an unwilling
+      creature. When you do so, the target creature must make a Charisma saving
+      throw. On a failure, it takes the redirected damage as normal, and the
+      amount transferred can exceed its current hit points. On a success, it
+      takes half the redirected damage, and you take the other half of the
+      redirected damage.</p>
+    chat: ''
+  identifier: malicious-transfusion
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Red Coven
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733171969377
+  modifiedTime: 1733173287648
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!KBmnN3KkV5Deb2XZ'
+

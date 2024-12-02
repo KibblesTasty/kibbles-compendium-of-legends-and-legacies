@@ -2,16 +2,161 @@ folder: dEKdIs3BMtY7tMZL
 name: Sanguine Sword
 type: subclass
 _id: aIlZv2T6mM4HkSpK
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/skills/melee/strike-axe-red.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Spellblades of the Sanguine Sword are a rare and feared lot, blood
+      seekers that fuel their bloody rampages with the blood they spill. They
+      slash their way through hordes in a never ending flurry of blood, magic,
+      and blade, their fallen foes feeding further violence.</p><p>Those that
+      follow the Sanguine Sword are not inherently evil—or at least not all view
+      themselves as such—but the slaughter fueled nature of their powers provide
+      a dark path of temptation, the next kill always offering a temptation to
+      drive the slaughter further. Even their staunchest ally may give them a
+      wide berth on the battlefield, while many will dismiss them as more savage
+      beast than hero, regardless of their goals and intentions.</p>
     chat: ''
   identifier: sanguine-sword
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: vCFQCjawR4DfeLPb
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FpkRWqbEML0cPWuS
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4Brx1Z9JQj4PAP0R
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Owkgp8gtdkethVXj
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: H4nRHWY7oxvyanDi
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.HcMEWNhSwxfdcQEl
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: oKSgQ6TPuOjbgwRW
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.l4qhclAE8zW2qJEw
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: JEUoTURwxbGje7Mr
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Sanguine Sword Spells
+      hint: ''
+      _id: lDx8kmlI26l96PGx
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Sanguine Sword Spells
+      hint: ''
+      _id: 7CQgLQAS8RiUjAOb
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Sanguine Sword Spells
+      hint: ''
+      _id: qc46hMJmzgzfxM2n
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Sanguine Sword Spells
+      hint: ''
+      _id: GFojob1gZuaeJhJf
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Sanguine Sword Spells
+      hint: ''
+      _id: K5rEmVFwkJDFyAzd
   classIdentifier: spellblade
   spellcasting:
     progression: none
@@ -29,9 +174,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.2
   createdTime: 1729045789693
-  modifiedTime: 1729045793415
+  modifiedTime: 1733179205921
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!aIlZv2T6mM4HkSpK'
 

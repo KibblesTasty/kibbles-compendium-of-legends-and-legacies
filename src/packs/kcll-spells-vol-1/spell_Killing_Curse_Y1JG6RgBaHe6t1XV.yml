@@ -108,10 +108,15 @@ system:
     width: null
     units: ''
     type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: 60
     long: null
     units: ft
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -137,7 +142,7 @@ system:
     dc: null
     scaling: spell
   level: 5
-  school: nec
+  school: enc
   components:
     vocal: true
     somatic: true
@@ -233,7 +238,7 @@ _stats:
   systemVersion: 4.1.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733018822606
+  modifiedTime: 1733167576145
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.WPpEODCA0eCeRgMm
   duplicateSource: null

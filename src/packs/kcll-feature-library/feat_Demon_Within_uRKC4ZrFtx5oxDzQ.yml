@@ -1,0 +1,123 @@
+name: Demon Within
+type: feat
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 15th-level Blood Cultist)</em> </p><p>The first time
+      you drop to 0 hit points, you assume your
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BvSQPgk8r6Ut61dA]{Demonic
+      Ascension} form (not counting as a use of the feature) and regain half
+      your maximum hit points. Once this effect is triggered, you cannot trigger
+      it again until you complete a long rest.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: cultist-rite-demon-within
+  activities:
+    yIgW49wKbPR3fYw7:
+      type: heal
+      _id: yIgW49wKbPR3fYw7
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: floor( @attributes.hp.max / 2)
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: 15
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.uGwPcbrl1wLmrzQt
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.uGwPcbrl1wLmrzQt
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317524323
+  modifiedTime: 1733114753660
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 85700000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: uRKC4ZrFtx5oxDzQ
+_key: '!items!uRKC4ZrFtx5oxDzQ'
+

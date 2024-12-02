@@ -4,12 +4,12 @@ img: icons/skills/wounds/blood-drip-droplet-red.webp
 system:
   description:
     value: >-
-      <p><span style="font-family:Signika, sans-serif">Beginning at 6th level,
-      when you deal piercing or slashing damage to creature that has blood, you
-      can use the blood of the creatures you damaged to fuel blood magic spells
-      until the end of your next turn, reducing the hit points needed to cast
-      spells by up to half the piercing or slashing you've dealt in that
-      time.</span></p>
+      <p>Beginning at 6th level, when you deal piercing or slashing damage to a
+      creature that has blood, the next time you cast a spell with the Blood
+      Magic tag before the end of your next turn, you can reduce the amount of
+      your own hit points you need to expend by the piercing or slashing damage
+      you dealt to that creature with that attack (you can pick the highest
+      damage piercing or slashing damage attack you made during that time).</p>
     chat: ''
   source:
     rules: '2014'
@@ -22,9 +22,9 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: Cultist 6
+  requirements: Blood Cultist 6
   identifier: sanguine-power
   activities: {}
   enchant: {}
@@ -45,9 +45,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1727317494990
-  modifiedTime: 1732221374043
+  modifiedTime: 1733111640262
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 40200000

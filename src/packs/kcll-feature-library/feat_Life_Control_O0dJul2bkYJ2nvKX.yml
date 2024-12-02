@@ -1,0 +1,116 @@
+name: Life Control
+type: feat
+_id: O0dJul2bkYJ2nvKX
+img: icons/magic/control/fear-fright-monster-purple-blue.webp
+system:
+  activities:
+    7HCZ3O66g5TihiUM:
+      type: heal
+      _id: 7HCZ3O66g5TihiUM
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: a creature makes a death save within 60 feet of you
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '1'
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Starting at 14th level, you are under the effects of
+      @UUID[Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{death ward} until the
+      effect is triggered, ending the effect as normal. You regain this effect
+      when you complete a long rest.</p><p>Additionally, when a creature makes a
+      death save within 60 feet of you, you can use your reaction to turn the
+      roll into a 20, allowing them to recover with 1 hit point. Once you do so,
+      you cannot do so again until you complete a long rest.</p>
+    chat: ''
+  identifier: life-control
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Blood Forger 14
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733177144926
+  modifiedTime: 1733177508614
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!O0dJul2bkYJ2nvKX'
+

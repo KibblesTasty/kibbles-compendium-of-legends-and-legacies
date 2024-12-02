@@ -1,0 +1,67 @@
+name: Boon of Demonic Claws
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You sacrifice a 1st level or higher spell slot, reforming one or more
+      (based on the table below) of your arms into natural weapons in the form
+      of demonic claws. The power of the demonic claw depends on the level of
+      the spell slot sacrificed, gaining a larger damage dice and a growing
+      bonus to attack and damage rolls.</p><p>When making attacks with your
+      demonic claw, you can use your Spellcasting modifier in place of your
+      Strength modifier for attack and damage rolls. If you have more than one
+      claw, you can make a single weapon attack with the second claw as a bonus
+      action after making an attack with the first
+      claw.</p><table><thead><tr><th>Spell Slot Sacrificed</th><th>Claw
+      Damage</th><th>Attack/Damage Bonus</th><th># of
+      Claws</th></tr></thead><tbody><tr><td>1st</td><td>1d6</td><td>+1</td><td>1</td></tr><tr><td>2nd</td><td>1d6</td><td>+1</td><td>2</td></tr><tr><td>3rd</td><td>1d8</td><td>+1</td><td>2</td></tr><tr><td>4th</td><td>1d8</td><td>+2</td><td>2</td></tr><tr><td>5th</td><td>1d10</td><td>+2</td><td>2</td></tr><tr><td>6th</td><td>1d12</td><td>+2</td><td>2</td></tr><tr><td>7th</td><td>1d12</td><td>+3</td><td>2</td></tr></tbody></table><p><br
+      /></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: cultistBoon
+  requirements: ''
+  identifier: boon-of-demonic-claws-1st-level
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.nfjQIbdYgdTkUEoL
+_stats:
+  compendiumSource: Item.nfjQIbdYgdTkUEoL
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317487801
+  modifiedTime: 1733175378603
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 29600000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 3vzuPzX7ixOEihQo
+_key: '!items!3vzuPzX7ixOEihQo'
+

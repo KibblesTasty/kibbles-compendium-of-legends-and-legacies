@@ -1,0 +1,56 @@
+name: Boon of Fury
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You sacrifice a 3rd level spell slot, you can attack twice, instead of
+      once, whenever you take the Attack action on your turn.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: cultistBoon
+  requirements: ''
+  identifier: boon-of-fury-3rd-level
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.pSiLQrGOTWRRDRDi
+_stats:
+  compendiumSource: Item.pSiLQrGOTWRRDRDi
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317526032
+  modifiedTime: 1733175437635
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 88100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: wOplUBzA2za6ynVt
+_key: '!items!wOplUBzA2za6ynVt'
+

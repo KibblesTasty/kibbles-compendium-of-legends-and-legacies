@@ -1,0 +1,115 @@
+name: Sanguine Surge
+type: feat
+_id: 4Brx1Z9JQj4PAP0R
+img: icons/magic/life/heart-cross-purple-orange.webp
+system:
+  activities:
+    mVEFyAFXEADWnbaK:
+      type: heal
+      _id: mVEFyAFXEADWnbaK
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8z1ZumnpUGIVnxqi
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@abilities.int.mod + (floor(@classes.spellblade.levels / 2))'
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 3rd level, you gain a new option for your Arcane Surge
+      feature: </p><ul><li><p>When you cast a spell with the Blood Magic tag,
+      you can expend an Arcane Surge to gain temporary hit points equal to your
+      spellcasting modifier + half your Spellblade level (rounded
+      down)</p></li></ul>
+    chat: ''
+  identifier: sanguine-surge
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Sanguine Sword 3
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733178516366
+  modifiedTime: 1733179148569
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!4Brx1Z9JQj4PAP0R'
+

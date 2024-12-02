@@ -1,0 +1,224 @@
+name: Bloodline Curse
+type: spell
+img: icons/magic/unholy/strike-beam-blood-large-red-gray.webp
+system:
+  description:
+    value: >-
+      <p>You invoke a curse on a creature’s bloodline. Up to 5 creatures of your
+      choice (other than the target) of the same creature type within range are
+      bound to that creature by a magical curse. If a creature is directly
+      related (ancestor, descendant, or sibling) to the target creature, the
+      range at which they can be cursed with this bond increases to 1
+      mile.</p><p>When that creature becomes bloodied (reduced to less than half
+      its maximum hit points) and again if that creature dies, all creatures
+      effected by the curse must make a Charisma saving throw, taking 5d6 +
+      twice the cursed creature’s CR (or level) necrotic damage on failed save,
+      or half as much on success. This curse has no effect on creatures without
+      blood.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      with a 6th level slot or higher, the number of creatures you can target
+      increases by 1 for each level above 5th. When using a 9th-level spell
+      slot, the range at which you can target a related creature can be
+      unlimited, though you must be aware of the target’s existence.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      something from the target creature—such as blood, hair, or scales—which
+      the spell consumes and a drop of your blood worth at least 5 hit point,
+      which the spell consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  level: 5
+  school: nec
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: hour
+    value: '1'
+  range:
+    units: ft
+    value: '120'
+    special: ''
+  activities:
+    eou6EgeYCVtfEnA4:
+      type: utility
+      name: Cast
+      _id: eou6EgeYCVtfEnA4
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: qvUH1SKST0NX30BQ
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    v6OTXCoit6khTdum:
+      type: save
+      _id: v6OTXCoit6khTdum
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: bloodline-curse
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+effects:
+  - name: Bloodline Curse
+    img: icons/magic/unholy/strike-beam-blood-large-red-gray.webp
+    origin: Item.K3EJE681LFn3N7NN
+    transfer: false
+    _id: qvUH1SKST0NX30BQ
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!7vSQknpd5lby9V2d.qvUH1SKST0NX30BQ'
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733176687062
+  modifiedTime: 1733176687434
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: 7vSQknpd5lby9V2d
+sort: 2800000
+_key: '!items!7vSQknpd5lby9V2d'
+

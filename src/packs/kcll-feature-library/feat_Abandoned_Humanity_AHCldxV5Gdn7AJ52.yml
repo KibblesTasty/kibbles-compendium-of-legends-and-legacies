@@ -1,0 +1,45 @@
+name: Abandoned Humanity
+type: feat
+_id: AHCldxV5Gdn7AJ52
+img: icons/creatures/abilities/mouth-teeth-rows-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You cast aside your humanity. Your creature type ceases to be humanoid.
+      Select a new creature type from aberration, fiend, or monstrosity.</p>
+    chat: ''
+  identifier: abandoned-humanity
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Humanoid Creature Type
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733114428799
+  modifiedTime: 1733114753660
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!AHCldxV5Gdn7AJ52'
+

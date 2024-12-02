@@ -1,0 +1,195 @@
+name: Curse Of Misfortune
+type: spell
+img: icons/sundries/gaming/dice-pair-white-green.webp
+system:
+  description:
+    value: >-
+      <p>You curse a creature within range, bringing it bad luck. When you place
+      this curse, pick a number from 2 to 19. Whenever the target rolls the
+      chosen number on an attack roll, saving throw, or ability check, that
+      number is treated as 1. </p><p>Additionally, once during the effect you
+      can use your reaction when the target rolls an attack roll, saving throw,
+      or ability check to force to reroll the d20 and use the lower roll. You
+      regain the ability to do this each time the target rolls your chosen
+      number.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      something from the target creature—such as blood, hair, or scales—which
+      the spell consumes) .You curse a cre
+    consumed: true
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  level: 3
+  school: enc
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    pJ6w7BIchPJmecR6:
+      type: utility
+      name: Cast
+      _id: pJ6w7BIchPJmecR6
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: bfTJz4Yugvap0gD8
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    LmbqzP79vVp47UYi:
+      type: utility
+      name: Force Reroll
+      _id: LmbqzP79vVp47UYi
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: curse-of-misfortune
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: dEYBvXvaGCEYHbEU
+effects:
+  - name: Curse Of Misfortune
+    img: icons/sundries/gaming/dice-pair-white-green.webp
+    origin: Item.dEYBvXvaGCEYHbEU
+    transfer: false
+    _id: bfTJz4Yugvap0gD8
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!dEYBvXvaGCEYHbEU.bfTJz4Yugvap0gD8'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733168417035
+  modifiedTime: 1733176687434
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 10200000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!dEYBvXvaGCEYHbEU'
+

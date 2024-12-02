@@ -1,0 +1,57 @@
+name: Boon of Fiendish Vigor
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You sacrifice a 3rd level spell slot, gaining 5 current and maximum hit
+      points. If you regain hit points by spending Hit Dice at the end of a
+      short rest, you regain an extra 1d6 hit points.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: cultistBoon
+  requirements: ''
+  identifier: boon-of-fiendish-vigor-3rd-level
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.LTQ0I0DLR9JnA9BR
+_stats:
+  compendiumSource: Item.LTQ0I0DLR9JnA9BR
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317516084
+  modifiedTime: 1733175432111
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 72100000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: hSeyV9ASEd8nHpwf
+_key: '!items!hSeyV9ASEd8nHpwf'
+

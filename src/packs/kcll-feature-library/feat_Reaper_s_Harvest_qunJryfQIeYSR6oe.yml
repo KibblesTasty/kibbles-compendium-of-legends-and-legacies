@@ -1,0 +1,105 @@
+name: Reaper's Harvest
+type: feat
+_id: qunJryfQIeYSR6oe
+img: icons/magic/life/heart-cross-strong-purple-orange.webp
+system:
+  activities:
+    ps8zrntMqhUCCdpw:
+      type: heal
+      _id: ps8zrntMqhUCCdpw
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@abilities.con.mod'
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Additionally at 7th level, once per turn while you are bloodied (at
+      less than half your maximum hit points) and deal necrotic damage to an
+      enemy, you regain hit points equal to your Constitution modifier. This
+      cannot restore hit points beyond half of your maximum hit points.</p>
+    chat: ''
+  identifier: reapers-harvest
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Blood Forger 7
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733177125601
+  modifiedTime: 1733177576353
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!qunJryfQIeYSR6oe'
+

@@ -1,0 +1,58 @@
+name: Unholy Gift
+type: feat
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+system:
+  description:
+    value: >-
+      <p>Once per turn, when you expend your own hit points to cast a spell
+      using Blood Magic, you can cause one allied creature other than yourself
+      within 30 feet to gain temporary hit points equal to the sacrificed hit
+      points.</p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: occultistRite
+  requirements: ''
+  identifier: cultist-rite-unholy-gift
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.JYIAScfBnrymJ2hg
+_stats:
+  compendiumSource: Item.JYIAScfBnrymJ2hg
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317489041
+  modifiedTime: 1733114753660
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 31400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: 5iSjBLtYCQ6hgsx1
+_key: '!items!5iSjBLtYCQ6hgsx1'
+

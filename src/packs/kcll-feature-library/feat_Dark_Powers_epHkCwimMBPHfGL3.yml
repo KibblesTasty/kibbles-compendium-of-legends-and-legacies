@@ -1,0 +1,100 @@
+name: Dark Powers
+type: feat
+img: icons/magic/unholy/hand-marked-pink.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, your hit point maximum increases by 1 and
+      increases by 1 again whenever you gain a level in this class and you gain
+      the ability to sacrifice spell slots for dark boons. At the end of a long
+      rest, select up to 2 sacrifices to make from the following
+      list.</p><p>When you sacrifice a spell slot, that spell slot is expended
+      and cannot be regained while the boon is active. The boon ends and regains
+      the expanded spell slot when you complete your next long rest, unless you
+      select the same boon again at the end of that long rest continuing its
+      effect.</p><p>The number of sacrifices you can make to receive boons
+      increases at 3rd level (to 3), 6th level (to 4), 9th level (to 5), 12th
+      level (to 6), 15th level (to 7), and 18th level (to 8).</p><h5>1st Level
+      Spell
+      Slot</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DYVZEpK4FGwWsJKF]{Boon
+      of False
+      Life}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3vzuPzX7ixOEihQo]{Boon
+      of Demonic
+      Claws}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tO2uDQgmBV0lfR7Z]{Boon
+      of
+      Swiftness}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wqh8R0RwowmulQw9]{Boon
+      of Demonic Leaps}</p><h5>2nd Level Spell
+      Slot</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vHB8EvPd4UfIWvLe]{Boon
+      of Demonic
+      Sight}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vrc06T0qQl6CLLoW]{Boon
+      of Fiendish
+      Talent}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mCgQE1C0FWw7emNg]{Boon
+      of Frenzy}</p><h5>3rd Level Spell
+      Slot</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.O2GOPMZrONH1Id1A]{Boon
+      of Burning
+      Eyes}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hSeyV9ASEd8nHpwf]{Boon
+      of Fiendish
+      Vigor}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wOplUBzA2za6ynVt]{Boon
+      of Fury}</p><h5>4th Level Spell
+      Slot</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zS9eLcxTE80W2ylr]{Boon
+      of Demonic
+      Resistance}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TwNjRT5kuVgvLGnU]{Boon
+      of
+      Telepathy}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Zzwwj5kysV62v4yZ]{Boon
+      of Unholy Strength}</p><h5>5th Level Spell
+      Slot</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mvLLqJxJAaAhPvGL]{Boon
+      of Resilience}</p><h5>6th Level Spell
+      Slot</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.onz9y6Rx4MDBOo8t]{Boon
+      of Unholy
+      Weapon}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8H0a5NtNxA3DBSpQ]{Boon
+      of Demonic Wings}</p><h5>9th Level Spell
+      Slot</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.aHhurV3Hqrrz9LXC]{Boon
+      of Demonic Ascension}</p><p></p>
+    chat: ''
+  source:
+    rules: '2014'
+    revision: 1
+    book: ''
+    custom: ''
+    license: CC-BY-4.0
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Blood Cultist 1
+  identifier: dark-dedication
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+effects: []
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+    quickFooter:
+      value: true
+  core:
+    sourceId: Item.2duObkwoKPq3lpZw
+_stats:
+  compendiumSource: Item.2duObkwoKPq3lpZw
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727317514018
+  modifiedTime: 1733177339777
+  lastModifiedBy: pJeIW7qCa0HkURWq
+folder: null
+sort: 68900000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_id: epHkCwimMBPHfGL3
+_key: '!items!epHkCwimMBPHfGL3'
+

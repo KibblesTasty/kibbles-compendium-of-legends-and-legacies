@@ -4,34 +4,18 @@ img: icons/magic/unholy/silhouette-evil-horned-giant.webp
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Starting at 14th level, you can
-      fully invest into the rites of your dark faith, being granted a form of
-      terrifying power. As a bonus action, you transform into a demonic form for
-      1 minute, gaining the following benefits:</span></p><ul
-      style="box-sizing:border-box;user-select:text;margin:0.5em 0px;padding:0px
-      0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">While in this form you have
-      resistance to non-magical bludgeoning, piercing, and slashing
-      damage.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">Your movement speed increases by
-      10 feet.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">You optionally can become large
-      sized for duration, increasing your weapon attack damage by
-      1d4.</span></li><li style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">Each time you kill a creature, the
-      duration of the demonic form increases by 1 minute.</span></li></ul><p
-      style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-size:14px;text-align:start"><span
-      style="font-family:Signika, sans-serif">Once you assume this form, you
-      cannot assume it again until you complete a long rest.</span></p>
+      <p>Starting at 14th level, as a culmination of your sacrificial boons, you
+      are granted a form of terrifying power. As a bonus action, you transform
+      into this fiendish form for 1 minute, gaining the following
+      benefits:</p><ul><li><strong>Demonic Resistance.</strong> While in this
+      form you have resistance to non-magical bludgeoning, piercing, and
+      slashing damage and advantage on saving throws against
+      magic.</li><li><strong>Movement Speed.</strong> Your movement speed
+      increases by 10 feet.</li><li><strong>Enlarged.</strong> You optionally
+      can become large sized for duration, increasing your weapon attack damage
+      by 1d4.</li></ul><p>Each time you kill a creature, the duration of the
+      demonic form increases by 1 minute. Once you assume this form, you cannot
+      assume it again until you complete a long rest.</p>
     chat: ''
   source:
     rules: '2014'
@@ -40,20 +24,197 @@ system:
     custom: ''
     license: CC-BY-4.0
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: Cultist 14
+  requirements: Blood Cultist 14
   identifier: demonic-ascension
-  activities: {}
+  activities:
+    lh7mB0rlqbNwQaYF:
+      type: utility
+      name: Transform
+      _id: lh7mB0rlqbNwQaYF
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: w7JxXJpgZWpgfXwi
+        - _id: OlmZ7FcjniuCVs1y
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - w7JxXJpgZWpgfXwi
+        - OlmZ7FcjniuCVs1y
   enchant: {}
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Demonic Ascension
+    img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BvSQPgk8r6Ut61dA
+    transfer: false
+    _id: w7JxXJpgZWpgfXwi
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '10'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733111511446
+      modifiedTime: 1733111580536
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!BvSQPgk8r6Ut61dA.w7JxXJpgZWpgfXwi'
+  - name: Demonic Ascension (Large)
+    img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BvSQPgk8r6Ut61dA
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '10'
+        priority: null
+      - key: system.traits.size
+        mode: 5
+        value: lg
+        priority: null
+      - key: system.bonuses.mwak.damage
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rwak.damage
+        mode: 2
+        value: 1d4
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733111564599
+      modifiedTime: 1733111610534
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: OlmZ7FcjniuCVs1y
+    _key: '!items.effects!BvSQPgk8r6Ut61dA.OlmZ7FcjniuCVs1y'
 flags:
   rsr5e:
     quickDesc:
@@ -62,14 +223,18 @@ flags:
       value: true
   core:
     sourceId: Item.ZOmNFumwAWG7jMyE
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.ZOmNFumwAWG7jMyE
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1727317494132
-  modifiedTime: 1732221374043
+  modifiedTime: 1733111566566
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 39000000

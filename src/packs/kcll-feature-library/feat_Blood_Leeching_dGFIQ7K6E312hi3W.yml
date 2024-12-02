@@ -1,0 +1,47 @@
+name: Blood Leeching
+type: feat
+_id: dGFIQ7K6E312hi3W
+img: icons/magic/unholy/strike-beam-blood-red-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you cast a blood magic spell of 1st level or higher with
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CmfNeJpULWO9ZpIt]{Sanguine
+      Power}, if the spell does not consume all of the stored hit points, you
+      gain temporary hit points equal to the remainder.</p>
+    chat: ''
+  identifier: blood-leaching
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: occultistRite
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733114523127
+  modifiedTime: 1733114753660
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!dGFIQ7K6E312hi3W'
+

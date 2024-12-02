@@ -2,16 +2,105 @@ folder: dEKdIs3BMtY7tMZL
 name: Blood Cultist
 type: subclass
 _id: 9RTUgL0blhULQ54Q
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/unholy/hand-claw-glow-orange.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>The dark tradition of a Blood Cultist is one that seeks power at any
+      cost. They are those prepared to give up everything for power, dedicated
+      themselves to mysterious rituals, forbidden techniques, and whispered
+      taboos in order to grasp hold of ancient and terrible powers. Masters of
+      sacrifice, blood magic, and willing to cast aside their humanity (or
+      relevant equivalent!), they are driven beyond what most would consider
+      rational, natural, or even possible on their eternal quest to go beyond
+      the limiting walls of mortality to find new dark powers.</p><h5>Cultist
+      Specific
+      Rites</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AHCldxV5Gdn7AJ52]{Abandoned
+      Humanity}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dGFIQ7K6E312hi3W]{Blood
+      Leeching}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.6mTPshLaJVkjF8um]{Boon
+      Seeker}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZeTQXiDRzEgetdil]{Cultist's
+      Touch}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.uRKC4ZrFtx5oxDzQ]{Demon
+      Within}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CAF8CTBBTEl5Lc9t]{Empowered
+      Blood
+      Magic}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ktGnOFcMB15kI7Of]{Sacrificial
+      Absolution}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5iSjBLtYCQ6hgsx1]{Unholy
+      Gift}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jM5BAOW3etgIikIF]{Wretched
+      Resilience}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9kzBGNPdQivJdrMw]{Zealous
+      Conviction}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.U0JeCsVuKdkIZixC]{Zealous
+      Dedication}</p><p></p><blockquote><h5>Unusual Resources</h5><p>Cultists
+      are a unique type of full caster. They sacrifice the majority of their
+      spell slots to empower themselves, which would normally leave them with
+      little room to cast spells, but make up for that shortcoming through being
+      able to more freely sacrifice their own hit points through Blood
+      Magic.</p><h5>Variable Casting Stat</h5><p>There’s a reasonable argument
+      for Intelligence, Wisdom, or Charisma as a casting stat for the Cultist
+      subclass. It’s perfectly fine if you allow them to use any casting stat,
+      but it’s recommended to disallow multiclassing if allowing them to select
+      casting stats other than Wisdom.</p></blockquote>
     chat: ''
   identifier: blood-cultist
   source:
     revision: 1
     rules: '2014'
-  advancement: []
+  advancement:
+    - _id: jeAJoF134uFuxJcb
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4i59mhw4J4jgMyAP
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.epHkCwimMBPHfGL3
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Occult Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.C07iQjPbWyLJ8Kun
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.CoKlm2Nw45uwDMHm
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Occult Tradition Feature
+      hint: ''
+      _id: otPeILSuqhNKdWzt
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CmfNeJpULWO9ZpIt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Occult Tradition Feature
+      hint: ''
+      _id: cXyoj28oZANppksh
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BvSQPgk8r6Ut61dA
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Occult Tradition Feature
+      hint: ''
+      _id: Iy2K9U5ifv6fLxBR
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -29,9 +118,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.4
+  systemVersion: 4.1.2
   createdTime: 1729045744644
-  modifiedTime: 1729045751146
+  modifiedTime: 1733114747860
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9RTUgL0blhULQ54Q'
 

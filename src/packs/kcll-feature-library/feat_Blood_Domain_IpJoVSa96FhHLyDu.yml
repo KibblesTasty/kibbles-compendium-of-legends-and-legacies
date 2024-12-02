@@ -1,0 +1,159 @@
+name: Blood Domain
+type: feat
+_id: IpJoVSa96FhHLyDu
+img: icons/magic/unholy/strike-beam-blood-large-red-gray.webp
+system:
+  activities:
+    n0JkPXJXQKgC2pDA:
+      type: utility
+      name: Exert Influence
+      _id: n0JkPXJXQKgC2pDA
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 4u9USsLwKhRxr5gL
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - 4u9USsLwKhRxr5gL
+  uses:
+    spent: 0
+    recovery: []
+    max: '1'
+  description:
+    value: >-
+      <p>Starting at 17th level, as a bonus action you exert influence over the
+      blood of creatures within 20 feet of you for 1 minute. All allied
+      creatures of your choice within range gain resistance to slashing and
+      piercing damage, while all hostile creatures in range bleed profusely when
+      taking piercing or slashing damage, taking an additional 10 damage at the
+      start of their turn if they’ve taken piercing or slashing damage since the
+      end of their last turn.</p><p>Additionally, once during the effect as an
+      action, you can exert your full control over the field to cast hold
+      monster or hold person as a 5th-level spell, without expending a spell
+      slot, targeting a creature (or creatures if the spell targets multiple
+      creatures) within the domain. When you cast it this way, if a creature
+      passes their saving throw against the effect, they are under the effect of
+      slow until the start of your next turn.</p><p>Creatures without blood are
+      unaffected by the blood domain. Once you use this ability, you cannot use
+      it again until you complete a long rest.</p>
+    chat: ''
+  identifier: blood-domain
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Blood Forger 17
+effects:
+  - name: Blood Domain
+    img: icons/magic/unholy/strike-beam-blood-large-red-gray.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IpJoVSa96FhHLyDu
+    transfer: false
+    _id: 4u9USsLwKhRxr5gL
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733177223652
+      modifiedTime: 1733177252921
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!IpJoVSa96FhHLyDu.4u9USsLwKhRxr5gL'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733177162601
+  modifiedTime: 1733177515358
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!IpJoVSa96FhHLyDu'
+

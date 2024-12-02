@@ -1,0 +1,65 @@
+name: Blood Forge
+type: feat
+_id: zPrISQ1zklZ8DfsA
+img: icons/skills/melee/strike-flail-spiked-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Starting at 1st level, when you roll initiative or as a bonus action at
+      any time, you can forge your blood into armaments. You can conjure up to
+      two weapons, or a weapon and a shield at the same time in this way.
+      Weapons and shields created this way are automatically equipped as part of
+      conjuring them, and can be dismissed at any time (no action required).
+      Shields act as a normal shield would, while weapons depend on the
+      properties selected from the Blood Forged Weapon table below.</p><p>If you
+      become bloodied (reduced to half your maximum hit points or less), your
+      Blood Forged weapons deal 1d4 additional necrotic damage. The size of this
+      die increases at 5th (to 1d6), 11th (to 1d8), and 17th (to 1d10)
+      level.</p><h5 id="blood-forged-weapon-table">Blood Forged Weapon
+      Table</h5><table><thead><tr><th>Properties</th><th>Damage
+      Dice</th></tr></thead><tbody><tr><td>—</td><td>1d4 slashing + 1d4
+      necrotic</td></tr><tr><td>Light</td><td>1d6
+      slashing</td></tr><tr><td>Reach</td><td>1d6
+      slashing</td></tr><tr><td>Two-Handed</td><td>1d6 slashing + 1d6
+      necrotic</td></tr></tbody></table><p>The damage die of these weapons are
+      increased by any Warden class feature that increases the damage die of
+      natural weapons. If the damage die of any d6 weapon is increased to a d8,
+      it instead becomes 1d4 slashing and 1d4 necrotic damage. When the damage
+      die of any weapon with multiple dice increases, you can select which
+      damage die to increase.</p>
+    chat: ''
+  identifier: blood-forge
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Blood Forger 1
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733177039577
+  modifiedTime: 1733177850882
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!zPrISQ1zklZ8DfsA'
+

@@ -1,0 +1,269 @@
+name: Devouring Mist
+type: spell
+img: icons/skills/wounds/blood-cells-red.webp
+system:
+  description:
+    value: >-
+      <p>You transform into a swirling mist of blood with a 15-foot radius.
+      While in this form, you cannot take any actions, but you gain the
+      following benefits: </p><ul><li><p>You have a flying speed of 60 feet,
+      with hover.</p></li><li><p>You can enter and occupy other creatures'
+      spaces, and do not treat them as difficult terrain.</p></li><li><p>You can
+      pass through small gaps and cracks without squeezing.</p></li><li><p>You
+      have resistance to all damage except radiant, force, and psychic
+      damage.<br /></p></li></ul><p>The first time you move into a creature's
+      space, it must make a Constitution saving throw. On a failure, it takes
+      6d8 necrotic damage and you regain 10 hit points. On a success, it takes
+      half as much damage, and you regain only 5 hit points. You can regain a
+      total of 50 hit points through this spell, after which you no longer
+      regain hit points from this effect. </p><p>At the start of your next turn,
+      you return to your previous form. You fall if still aloft unless you have
+      a way to stop your fall.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 15 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 7
+  school: nec
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: round
+    value: '1'
+  range:
+    units: self
+    value: '60'
+    special: ''
+  activities:
+    vWmB5kl1cx6VqUPl:
+      type: utility
+      _id: vWmB5kl1cx6VqUPl
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '15'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: eHxduahdfGtWP8AP
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Transform
+    ip3VBVThZZLtiTCP:
+      type: save
+      _id: ip3VBVThZZLtiTCP
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: devouring-mist
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: ''
+folder: null
+_id: Dds69EuLiv8ETLCa
+effects:
+  - name: Devouring Mist
+    img: icons/skills/wounds/blood-cells-red.webp
+    origin: Item.Dds69EuLiv8ETLCa
+    transfer: false
+    _id: eHxduahdfGtWP8AP
+    type: base
+    system: {}
+    changes:
+      - key: attributes.movement.fly
+        mode: 4
+        value: '60'
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: necrotic
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: thunder
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!Dds69EuLiv8ETLCa.eHxduahdfGtWP8AP'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!Dds69EuLiv8ETLCa'
+

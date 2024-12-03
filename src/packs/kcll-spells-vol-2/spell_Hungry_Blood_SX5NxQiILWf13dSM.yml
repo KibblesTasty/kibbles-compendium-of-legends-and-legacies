@@ -1,0 +1,157 @@
+name: Hungry Blood
+type: spell
+img: icons/magic/death/mouth-bite-fangs-vampire.webp
+system:
+  description:
+    value: >-
+      <p>You animate a stream of blood, which forms into a fanged maw and bites
+      a creature of your choice within range. Make a melee spell attack. On a
+      hit, the target takes 2d6 piercing damage and 2d6 necrotic damage, and you
+      regain 2d6 hit points. </p><p><strong>At Higher Levels.</strong> When you
+      cast this spell using a spell slot of 3rd level or higher, the necrotic
+      damage and hit points regained both increase by 1d6.<br /></p>
+    chat: ''
+  materials:
+    value: a drop of your blood worth at least 2 hit points, which the spell consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 2
+  school: trs
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: ft
+    value: '15'
+    special: ''
+  activities:
+    sJlpOTavcpJdNiCu:
+      type: attack
+      _id: sJlpOTavcpJdNiCu
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '2'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: hungry-blood
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: SX5NxQiILWf13dSM
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!SX5NxQiILWf13dSM'
+

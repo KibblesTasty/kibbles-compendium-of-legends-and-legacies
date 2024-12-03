@@ -1,0 +1,172 @@
+name: Vampiric Blade
+type: spell
+img: icons/skills/melee/strike-sword-dagger-runes-red.webp
+system:
+  description:
+    value: >-
+      <p>You drain your own life essence to empower the weapon used in the
+      casting of the spell. When you hit with the weapon, you deal an additional
+      1d8 necrotic damage and regain hit points equal to the necrotic damage
+      dealt. The spell ends when it has dealt necrotic damage equal to twice the
+      hit points expended to cast the spell.</p>
+    chat: ''
+  materials:
+    value: >-
+      a melee weapon worth at least 1 sp and a splash of your blood worth up to
+      10 hit points, which the spell consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 3
+  school: nec
+  activation:
+    condition: ''
+    type: bonus
+    value: 1
+  duration:
+    units: minute
+    value: '10'
+  range:
+    units: self
+    special: ''
+  activities:
+    1xA40ZKHc5tcSibt:
+      type: enchant
+      _id: 1xA40ZKHc5tcSibt
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '10'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: BCIYukdzaO5H8fSS
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant: {}
+      restrictions:
+        allowMagical: false
+        categories:
+          - simpleM
+          - martialM
+        properties: []
+        type: weapon
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: vampiric-blade
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: ''
+folder: null
+_id: JYTzsnZp2sJtVcaq
+effects:
+  - type: enchantment
+    name: Vampiric Blade
+    img: icons/skills/melee/strike-sword-dagger-runes-red.webp
+    disabled: true
+    _id: BCIYukdzaO5H8fSS
+    system: {}
+    changes:
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d8", "necrotic"]]'
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!JYTzsnZp2sJtVcaq.BCIYukdzaO5H8fSS'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!JYTzsnZp2sJtVcaq'
+

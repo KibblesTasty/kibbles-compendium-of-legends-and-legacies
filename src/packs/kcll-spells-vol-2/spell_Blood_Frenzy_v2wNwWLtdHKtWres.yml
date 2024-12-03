@@ -1,0 +1,173 @@
+name: Blood Frenzy
+type: spell
+img: icons/skills/melee/blood-slash-foam-red.webp
+system:
+  description:
+    value: >-
+      <p>You touch a willing creature, launching it into an empowered frenzy.
+      For the duration, all attacks against the target creature have advantage,
+      but the target gains the following benefits: </p><ul><li><p>The target is
+      immune to the charmed and frightened conditions.</p></li><li><p>The target
+      has advantage on its melee weapon attacks.</p></li><li><p>When taking
+      damage would reduce the creature to 0 hit points, it must make a
+      Constitution saving throw with the DC equal to half the damage taken. On a
+      success, it is reduced to 1 hit point instead. </p></li></ul><p>If you
+      target yourself, you cannot lose concentration on this spell as a result
+      of taking damage.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 4 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - concentration
+    - bloodMagic
+    - mgc
+  level: 4
+  school: enc
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: touch
+    special: ''
+  activities:
+    xePFCqdObNbEJWxy:
+      type: utility
+      name: Cast
+      _id: xePFCqdObNbEJWxy
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '4'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: oqEJCKxd9eXCrvKh
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: blood-frenzy
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: willing
+      special: ''
+folder: null
+_id: v2wNwWLtdHKtWres
+effects:
+  - name: Blood Frenzy
+    img: icons/skills/melee/blood-slash-foam-red.webp
+    origin: Item.v2wNwWLtdHKtWres
+    transfer: false
+    _id: oqEJCKxd9eXCrvKh
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.ci.value
+        mode: 2
+        value: charmed
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: frightened
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!v2wNwWLtdHKtWres.oqEJCKxd9eXCrvKh'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!v2wNwWLtdHKtWres'
+

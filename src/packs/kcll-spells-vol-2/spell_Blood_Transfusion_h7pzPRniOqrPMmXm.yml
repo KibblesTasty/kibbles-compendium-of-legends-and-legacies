@@ -1,0 +1,133 @@
+name: Blood Transfusion
+type: spell
+img: icons/magic/life/crosses-trio-red.webp
+system:
+  description:
+    value: >-
+      <p>You infuse a creature you touch with life drawn from the blood used in
+      the material component of the spell. The target regains hit points equal
+      to twice the amount expended.</p><p><strong>At Higher Levels.
+      </strong>When you cast this spell using a spell slot of 2nd level or
+      higher, the amount of hit points consumed by the spell increases by 5 for
+      each slot level above 1st.<br /></p>
+    chat: ''
+  materials:
+    value: a splash of your blood worth 5 hit points, which the spell consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 1
+  school: nec
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: touch
+    special: ''
+  activities:
+    E0L9rwraB0MRcJbi:
+      type: heal
+      _id: E0L9rwraB0MRcJbi
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '5'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+              formula: '5'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: 0
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: 10 * @scaling
+        scaling:
+          number: 1
+          mode: ''
+          formula: ''
+        bonus: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: blood-transfusion
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: h7pzPRniOqrPMmXm
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!h7pzPRniOqrPMmXm'
+

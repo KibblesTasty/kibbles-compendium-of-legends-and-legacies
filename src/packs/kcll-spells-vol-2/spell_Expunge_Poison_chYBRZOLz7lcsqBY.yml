@@ -1,0 +1,137 @@
+name: Expunge Poison
+type: spell
+img: icons/magic/acid/dissolve-drip-droplet-smoke.webp
+system:
+  description:
+    value: >-
+      <p>You point at a willing creature that has just become poisoned, and
+      expel its tainted blood. The target takes 5 necrotic damage and is no
+      longer poisoned.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 1 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 1
+  school: trs
+  activation:
+    condition: >-
+      which you can take when a creature within range fails a saving throw
+      against becoming poisoned
+    type: reaction
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    cNRoZYB8IxKqWNch:
+      type: damage
+      _id: cNRoZYB8IxKqWNch
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '1'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: null
+            denomination: 0
+            bonus: '5'
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: expunge-poison
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: willing
+      special: ''
+folder: null
+_id: chYBRZOLz7lcsqBY
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!chYBRZOLz7lcsqBY'
+

@@ -1,0 +1,135 @@
+name: Morbid Puppet
+type: spell
+img: icons/magic/control/control-influence-puppet.webp
+system:
+  description:
+    value: >-
+      <p>You seize control of the blood within a freshly slain corpse or
+      unconscious creature. The target must be Medium or smaller, and cannot
+      have died more than 1 minute ago. For the duration, you can use your bonus
+      action to make the target move up to 20 feet and make a single melee
+      attack. It uses your spellcasting modifier for the attack roll.<br />If
+      the corpse is carrying a weapon or has a natural weapon, the attack deals
+      the weapon’s damage (without any bonuses from the target's features).
+      Otherwise, it makes a Slam attack which deal 1d6 (or 1 for a Tiny target)
+      + your spellcasting modifier damage. </p><p>If an unconscious target
+      regains consciousness within the spell's duration, it can make a Charisma
+      saving throw at the end of each of its turns to regain control of its
+      body. You can end this spell at any time (no action
+      required).</p><p><strong>At Higher Levels.</strong> When you cast this
+      spell with a spell slot of 4th level or higher, the target can be
+      Large.<br /></p>
+    chat: ''
+  materials:
+    value: a drop of your blood worth at least 2 hit points, which the spell consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 2
+  school: trs
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    tTApWVK8XoOx4IsF:
+      type: utility
+      name: Cast
+      _id: tTApWVK8XoOx4IsF
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '2'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: morbid-puppet
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creatureOrObject
+      special: ''
+folder: null
+_id: cSIG4ABQW9IIsmIM
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!cSIG4ABQW9IIsmIM'
+

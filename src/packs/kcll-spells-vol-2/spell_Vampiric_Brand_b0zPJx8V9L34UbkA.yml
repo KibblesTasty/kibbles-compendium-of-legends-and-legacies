@@ -1,0 +1,187 @@
+name: Vampiric Brand
+type: spell
+img: icons/magic/symbols/rune-sigil-hook-white-red.webp
+system:
+  description:
+    value: >-
+      <p>You force a creature within range to make a Wisdom saving throw. On a
+      failure, a vampiric brand appears on its flesh. Until the spell ends, any
+      time the target takes damage, it takes an additional 2d6 necrotic damage,
+      and you regain hit points equal to half the necrotic damage dealt. Any
+      time the branded creature regains hit points, you regain half as much.
+      </p><p>The branded creature can repeat its saving throw at the end of each
+      of its turns, ending the spell on a success.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 5 hit points, which the spell
+      consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - concentration
+    - bloodMagic
+    - mgc
+  level: 5
+  school: nec
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: '30'
+    special: ''
+  activities:
+    Rh8m9xCFHkNPx8wS:
+      type: save
+      _id: Rh8m9xCFHkNPx8wS
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '5'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+    UZW09OKMtD4d9Iv7:
+      type: damage
+      _id: UZW09OKMtD4d9Iv7
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: vampiric-brand
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: b0zPJx8V9L34UbkA
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!b0zPJx8V9L34UbkA'
+

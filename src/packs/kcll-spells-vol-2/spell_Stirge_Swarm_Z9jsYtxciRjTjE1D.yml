@@ -1,0 +1,189 @@
+name: Stirge Swarm
+type: spell
+img: icons/creatures/invertebrates/wasp-swarm-tan.webp
+system:
+  description:
+    value: >-
+      <p>You conjure a swirling swarm of magical Stirges that hover in a 20-foot
+      radius of a point you can see within range. A creature starting its turn
+      in the area or entering it for the first time on a turn must make a
+      Dexterity saving throw. On a failure, the stirges drain its blood,
+      reducing its hit points by 4d4 + 12 and restoring 4 hit points to you. On
+      a successful save, a creature takes half as much damage and you regain 2
+      hit points. The swarm ignores you and any creatures without blood.
+      </p><p>You can move the swarm up to 30 feet in any direction as a bonus
+      action. When the spell ends, the stirges disappear.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 10 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - concentration
+    - bloodMagic
+    - mgc
+  level: 6
+  school: con
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    wtNiL5Hrkqlkelss:
+      type: utility
+      name: Cast
+      _id: wtNiL5Hrkqlkelss
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '10'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+    QfyRC8CG3Ce9I7pG:
+      type: save
+      _id: QfyRC8CG3Ce9I7pG
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 4
+            bonus: '12'
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: stirge-swarm
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: sphere
+      count: ''
+      size: '20'
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: Z9jsYtxciRjTjE1D
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!Z9jsYtxciRjTjE1D'
+

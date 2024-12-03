@@ -1,0 +1,181 @@
+name: Sanguine Doom
+type: spell
+img: icons/magic/unholy/orb-droplet-pink.webp
+system:
+  description:
+    value: >-
+      <p>You summon a shower of blood at a point you can see within range.
+      Darkness washes over a 30-foot radius around the point, extinguishing all
+      lights (including light from lower-level spells), and a rain of blood
+      falls upon the area. Creatures and objects that are not being worn or
+      carried within the area take 4d6 acid damage, and creatures must succeed
+      on a Wisdom saving throw or suffer a doom curse. The next time a cursed
+      creature is hit with an attack, it attack becomes a critical hit, after
+      which the curse ends.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 6 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 6
+  school: nec
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: ft
+    value: '120'
+    special: ''
+  activities:
+    tuVx7ICQgBZ8hUoz:
+      type: save
+      _id: tuVx7ICQgBZ8hUoz
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '6'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 7TnpiHA4jkA4wiRw
+          onSave: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: ''
+              number: 1
+        onSave: full
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: sanguine-doom
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: radius
+      count: ''
+      size: '30'
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: 1vaDkW93E08yzhjo
+effects:
+  - name: Doom Curse
+    img: icons/magic/unholy/orb-droplet-pink.webp
+    origin: Item.1vaDkW93E08yzhjo
+    transfer: false
+    _id: 7TnpiHA4jkA4wiRw
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - cursed
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!1vaDkW93E08yzhjo.7TnpiHA4jkA4wiRw'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!1vaDkW93E08yzhjo'
+

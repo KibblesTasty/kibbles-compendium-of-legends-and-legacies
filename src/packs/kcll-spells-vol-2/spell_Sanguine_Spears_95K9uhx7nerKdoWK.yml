@@ -1,0 +1,221 @@
+name: Sanguine Spears
+type: spell
+img: icons/skills/melee/strike-spear-red.webp
+system:
+  description:
+    value: >-
+      <p>You crystallize some of your blood into three floating spears, which
+      orbit you for the duration. You can use your action or your bonus action
+      to launch one of the spears at a creature within range, making a ranged
+      spell attack. On a hit, the target takes 2d6 piercing damage and 2d6
+      necrotic damage, and you regain 5 hit points. Once you've launched all the
+      spears, the spell ends.</p><p><strong>At Higher Levels.</strong> When you
+      cast this spell using a spell slot of 4th level or higher, you can expend
+      2 additional hit points to create 1 more spear for each slot level above
+      3rd.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 6 hit points, which the spell
+      consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 3
+  school: trs
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '10'
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    xS66dlcWVoOx6wuf:
+      type: utility
+      name: Summon Spears
+      _id: xS66dlcWVoOx6wuf
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '6'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+              formula: '2'
+          - type: itemUses
+            value: '-3'
+            target: ''
+            scaling:
+              mode: amount
+              formula: '-1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+    QfJDGoc7rSmzCpFi:
+      type: attack
+      name: Launch Spear
+      _id: QfJDGoc7rSmzCpFi
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+        value: '60'
+        units: ft
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - piercing
+            scaling:
+              mode: ''
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+  uses:
+    spent: 3
+    recovery: []
+    max: '3'
+  identifier: sanguine-spears
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: self
+      special: ''
+folder: null
+_id: 95K9uhx7nerKdoWK
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!95K9uhx7nerKdoWK'
+

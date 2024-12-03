@@ -1,0 +1,253 @@
+name: Wall Of Blood
+type: spell
+img: icons/skills/wounds/blood-cells-vessel-red.webp
+system:
+  description:
+    value: >-
+      <p>You manifest some of your blood into a barrier on a solid surface you
+      can see within range. You can make the wall up to 60 feet long, 20 feet
+      high, and 5 feet thick, or in a ring up to 20 feet in diameter, 20 feet
+      high, and 5 feet thick. The wall is opaque and lasts for the duration.
+      Moving through the wall costs 3 feet of movement for each foot
+      traveled.</p><p>Any creature entering the wall must make a Constitution
+      saving throw, suffering 3d8 necrotic damage on a failure or half as much
+      on a success. When a creature enters the wall, you can expend 2 hit points
+      to increase the necrotic damage it would take by 2d8.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 4 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - concentration
+    - bloodMagic
+    - mgc
+  level: 4
+  school: con
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: minute
+    value: '10'
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    ZiWHW3FmlzCp92vZ:
+      type: utility
+      name: Cast (Wall)
+      _id: ZiWHW3FmlzCp92vZ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '4'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+    AtNvIyamWaRAggsH:
+      type: utility
+      name: Cast (Ring)
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '4'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: radius
+          size: '20'
+        affects:
+          choice: false
+          count: ''
+          type: space
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      _id: AtNvIyamWaRAggsH
+    1bo7fsQvNG8anMI2:
+      type: save
+      _id: 1bo7fsQvNG8anMI2
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: wall-of-blood
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: SMS
+    license: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: wall
+      count: ''
+      size: '60'
+      width: '20'
+      height: '5'
+    affects:
+      choice: false
+      count: ''
+      type: space
+      special: ''
+folder: null
+_id: lZTtk1tX5zlN04fe
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!lZTtk1tX5zlN04fe'
+

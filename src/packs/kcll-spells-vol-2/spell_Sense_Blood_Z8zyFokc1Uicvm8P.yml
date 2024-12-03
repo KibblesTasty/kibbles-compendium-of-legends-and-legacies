@@ -1,0 +1,126 @@
+name: Sense Blood
+type: spell
+img: icons/magic/perception/eye-ringed-glow-angry-red.webp
+system:
+  description:
+    value: >-
+      <p>You gain the ability to sense the blood of other creatures. For the
+      duration, you have advantage on Wisdom (Perception) and Wisdom (Insight)
+      checks against creatures with blood. </p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 3rd or 4th
+      level, the duration becomes 8 hours. When you use a spell slot of 5th
+      level or higher, the duration becomes 24 hours.<br /></p>
+    chat: ''
+  materials:
+    value: a drop of your blood worth at least 1 hit point, which the spell consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - concentration
+    - bloodMagic
+    - mgc
+  level: 1
+  school: div
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: hour
+    value: '1'
+  range:
+    units: self
+    special: ''
+  activities:
+    sNN2WxfrugXXcVGv:
+      type: utility
+      name: Cast
+      _id: sNN2WxfrugXXcVGv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '1'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: sense-blood
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: self
+      special: ''
+folder: null
+_id: Z8zyFokc1Uicvm8P
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!Z8zyFokc1Uicvm8P'
+

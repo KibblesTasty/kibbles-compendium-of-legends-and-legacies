@@ -1,0 +1,159 @@
+name: Corpse Explosion
+type: spell
+img: icons/magic/death/skull-weapon-staff-glow-pink.webp
+system:
+  description:
+    value: >-
+      <p>You cause an eruption of blood from the corpse of a Small or larger
+      creature that had blood and was slain within the last minute. Each
+      creature within 15 feet of the corpse must make a Dexterity saving throw.
+      On a failure, it takes 3d8 necrotic damage and 3d8 thunder damage. On a
+      success, it takes half as much damage.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 4th level
+      or higher, you can target one additional corpse for each slot level above
+      3rd. A creature affected by multiple corpse explosions makes its saving
+      throw at disadvantage, but only takes damage once.</p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 3 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 3
+  school: nec
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    r2jL4yCyMLUkzH9Y:
+      type: save
+      _id: r2jL4yCyMLUkzH9Y
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '3'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - thunder
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: corpse-explosion
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: radius
+      size: '15'
+      count: '@scaling'
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: hrp4QbFEhc6mZQQS
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!hrp4QbFEhc6mZQQS'
+

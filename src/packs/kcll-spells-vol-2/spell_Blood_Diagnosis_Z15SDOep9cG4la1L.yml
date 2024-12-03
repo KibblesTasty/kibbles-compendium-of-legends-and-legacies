@@ -1,0 +1,129 @@
+name: Blood Diagnosis
+type: spell
+img: icons/sundries/documents/document-symbol-circle-gold-red.webp
+system:
+  description:
+    value: >-
+      <p>You spill a drop of your blood and mix it with a sample of any
+      creature's blood. You learn the following information about the sample:
+      </p><ul><li><p>The type of creature it came from </p></li><li><p>If that
+      creature was poisoned or diseased when the blood sample was given
+      </p></li><li><p>Any medical information related to the creature's blood
+      (blood type, general health, malnutrition, etc.) </p></li><li><p>If the
+      creature is a blood relative of any other creature whose blood you've
+      previously cast this spell on</p></li></ul>
+    chat: ''
+  materials:
+    value: >-
+      a drop of your blood worth 1 hit point and a drop of any creature's blood,
+      both of which the spell consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - ritual
+    - bloodMagic
+    - mgc
+  level: 1
+  school: div
+  activation:
+    condition: ''
+    type: minute
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: touch
+    special: ''
+  activities:
+    HcIcjoZj2NE84UgZ:
+      type: utility
+      name: Cast
+      _id: HcIcjoZj2NE84UgZ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '1'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: blood-diagnosis
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: object
+      special: ''
+folder: null
+_id: Z15SDOep9cG4la1L
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!Z15SDOep9cG4la1L'
+

@@ -1,0 +1,204 @@
+name: Gory Doom
+type: spell
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  description:
+    value: >-
+      <p>When a creature that has flesh, blood, or bone that you can see is
+      reduced to 0 hit points, you can attempt to make it explode in a shower of
+      gore. If the target is still alive and merely unconscious, it must make a
+      Constitution saving throw. On a success, it does not explode, but suffers
+      one death saving throw failure if applicable.</p><p>If the target is dead
+      or fails its saving throw, it violently explodes in shards of flesh,
+      blood, and bone. Each creature within 10 feet must make a Dexterity saving
+      throw. A creature takes 3d6 necrotic damage on a failure or half as much
+      damage on a success.</p><p><strong>At Higher Levels.</strong> When you
+      cast this spell using a spell slot of 3rd level or higher, the damage
+      increases by 1d6 for each level above 2nd.</p><section
+      id="secret-GNRp6t0aPLJlfxdZ" class="secret"><h5>Foundry Note</h5><p>Both
+      activities are set up to consume the hit points and spell slot; if it's a
+      living target that fails its saving throw, just un-check the consumption
+      for the explosion.</p></section>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 2 hit points, which the spell
+      consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 2
+  school: nec
+  activation:
+    condition: >-
+      which you can take when a creature is reduced to 0 hit points within 60
+      feet of you.
+    type: reaction
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: ft
+    value: '60'
+    special: ''
+  activities:
+    sQd9IzdTQ6hbtW0g:
+      type: save
+      name: Living Target
+      _id: sQd9IzdTQ6hbtW0g
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '2'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+    fnf1msxWQcTMwbKG:
+      type: save
+      name: Explosion
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '2'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: fnf1msxWQcTMwbKG
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: gory-doom
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: ''
+folder: null
+_id: rVjEDbLndDy391mz
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!rVjEDbLndDy391mz'
+

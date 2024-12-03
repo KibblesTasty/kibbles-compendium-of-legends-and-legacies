@@ -1,0 +1,146 @@
+name: Crimson Tide
+type: spell
+img: icons/skills/wounds/blood-cells-vessel-red-orange.webp
+system:
+  description:
+    value: >-
+      <p>You unleash a sweeping tide of blood along the ground, transforming the
+      terrain into difficult terrain for all creatures but yourself until the
+      start of your next turn. Each creature in the area when you cast the spell
+      must make a Dexterity saving throw. A creature takes 6d6 necrotic damage
+      on a failure or half as much on a success.</p><p>At the start of your next
+      turn, the tide recedes as the spell ends, collecting the blood and
+      returning it to you, restoring the 10 hit points used to cast the
+      spell.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 10 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 3
+  school: con
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: round
+    value: '1'
+  range:
+    units: self
+    special: ''
+  target:
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+    template:
+      units: ft
+      type: radius
+      size: '15'
+      contiguous: false
+      count: ''
+  activities:
+    7QslskufHWJOEy1N:
+      type: save
+      _id: 7QslskufHWJOEy1N
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '10'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: crimson-tide
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+folder: null
+_id: ps4Qg1vATUAlX4Sw
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!ps4Qg1vATUAlX4Sw'
+

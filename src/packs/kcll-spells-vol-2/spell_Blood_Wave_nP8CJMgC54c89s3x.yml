@@ -1,0 +1,163 @@
+name: Blood Wave
+type: spell
+img: icons/magic/air/fog-gas-smoke-dense-orange.webp
+system:
+  description:
+    value: >-
+      <p>You release a wave of magical blood that spreads out in a 15-foot cone.
+      Creatures in the area must make a Strength saving throw. On a failure, a
+      creature takes 2d6 bludgeoning damage and 2d6 necrotic damage and is
+      knocked &amp;Reference[prone]. On a success, it takes half as much damage
+      and is not knocked prone.</p><p>If the wave kills a creature or passes
+      over a corpse that has died within the last minute, it grows, increasing
+      its size by 5 feet (e. g. it becomes a 20-foot cone). It can increase to
+      up to twice its original size. Creatures without blood don't trigger this
+      effect.</p><p><strong>At Higher Levels. </strong>When you cast this spell
+      using a spell slot of 3rd level or higher, the spell’s range increases by
+      5 feet and the necrotic damage increases by 1d6 damage for each slot level
+      above 2nd.<br /></p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 4 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 2
+  school: trs
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: self
+    special: ''
+  activities:
+    zpnWG7pY1vxmYFDk:
+      type: save
+      _id: zpnWG7pY1vxmYFDk
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '4'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: blood-wave
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: cone
+      size: 15 + 5 * @scaling.increase
+      count: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+folder: null
+_id: nP8CJMgC54c89s3x
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!nP8CJMgC54c89s3x'
+

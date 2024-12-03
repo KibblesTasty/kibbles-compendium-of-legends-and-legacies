@@ -1,0 +1,145 @@
+name: Explode Heart
+type: spell
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
+system:
+  description:
+    value: >-
+      <p>You point at a creature and attempt to make its heart explode in a
+      violent spasm. If the target has fewer than 20 hit points, its heart
+      explodes and it immediately dies. If it has more than 20 hit points, it
+      must make a Constitution saving throw. On a failure, it takes 10d6
+      necrotic damage and is &amp;Reference[stunned] until the start of your
+      next turn. On a success, it takes half as much damage and is not stunned.
+      If this damage reduces the target to 0 hit points, it
+      dies.</p><p>Creatures without a heart are immune to this spell, though at
+      your DM’s discretion similar organs or components (for example, a golem’s
+      magic core) may qualify as a heart.</p>
+    chat: ''
+  materials:
+    value: >-
+      a splash of your blood worth at least 6 hit points, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - somatic
+    - material
+    - bloodMagic
+    - mgc
+  level: 5
+  school: nec
+  activation:
+    condition: ''
+    type: action
+    value: 1
+  duration:
+    units: inst
+  range:
+    units: ft
+    value: '30'
+    special: ''
+  activities:
+    6xavq1s8jmn4yh2I:
+      type: save
+      _id: 6xavq1s8jmn4yh2I
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '6'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 10
+            denomination: 4
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  identifier: explode-heart
+  source:
+    revision: 1
+    rules: '2024'
+  preparation:
+    mode: prepared
+    prepared: false
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: ''
+folder: null
+_id: pZaYJykZeb9YkpRv
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733250986488
+  modifiedTime: 1733250986488
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!items!pZaYJykZeb9YkpRv'
+

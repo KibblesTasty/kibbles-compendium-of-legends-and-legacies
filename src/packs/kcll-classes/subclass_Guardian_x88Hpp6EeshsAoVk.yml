@@ -94,7 +94,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.hJhqF63LIPLsrR4Z
+            optional: false
         optional: false
         spell:
           ability: []
@@ -193,9 +196,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.2
   createdTime: 1729045963215
-  modifiedTime: 1731437862654
+  modifiedTime: 1733252621963
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!x88Hpp6EeshsAoVk'
 

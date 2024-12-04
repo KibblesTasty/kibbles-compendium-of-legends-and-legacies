@@ -3,13 +3,136 @@ type: spell
 _id: 2qgdVgTugnKyzt5B
 img: icons/magic/water/projectiles-ice-explosion.webp
 system:
-  activities: {}
+  activities:
+    terONoHov7im9HZ0:
+      type: save
+      _id: terONoHov7im9HZ0
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    7Mu1rgHiWI8tWK47:
+      type: damage
+      _id: 7Mu1rgHiWI8tWK47
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 8
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+      name: Inner damage
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A huge chunk of ice appears in the sky before crashing down at a point
+      within range before shattering into an explosion of ice. Creatures within
+      30 feet of the point must make a Dexterity saving throw. On failure, a
+      creature takes 6d6 cold damage, and if it was within 10 feet of the target
+      point, it takes an additional 6d8 bludgeoning damage. On success, a
+      creature takes half as much cold damage, and half as much bludgeoning
+      damage (if applicable).</p><p> The spell’s area of effect becomes
+      difficult terrain until the end of your next turn.</p>
     chat: ''
   identifier: glacial-crash
   source:
@@ -30,35 +153,45 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '300'
   school: evo
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '30'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 800000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558064025
-  modifiedTime: 1733176687434
+  modifiedTime: 1733264239357
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!2qgdVgTugnKyzt5B'
 

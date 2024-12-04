@@ -3,13 +3,86 @@ type: spell
 _id: zET5sKgzij8jKSsV
 img: icons/commodities/metal/ingot-stamped-steel.webp
 system:
-  activities: {}
+  activities:
+    V3jkXlr2TjwfvVz6:
+      type: save
+      _id: V3jkXlr2TjwfvVz6
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 10
+            denomination: 10
+            bonus: '10'
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You conjure an anvil 500 feet above a point you can see. At initiative
+      count 0 (losing ties) on the next round, the anvil hits the ground. Each
+      creature within 5 feet of the target point must make a Dexterity saving
+      throw. On a success, it moves to the closest unoccupied space outside of
+      the radius. If no space is available or a creature cannot move, it
+      automatically fails. On a failure, a creature takes 10d10 + 10 bludgeoning
+      damage. Creatures within 20 feet of the target point take 4d4 thunder
+      damage.</p><p>If the path of the anvil (directly above the target point)
+      is interrupted, the creature or object above it is hit first. If the
+      creature or object is killed or destroyed, the anvil continues, though the
+      damage dealt is subtracted from the final impact damage of the anvil. If
+      the anvil deals less than 80 damage, the anvil survives the impact, and is
+      an anvil of moderate quality.</p><p><strong>At Higher Levels.</strong>
+      When cast with a 9th-level spell slot, the range of the spell becomes 120
+      miles, though you must still be able to see the target (such as via
+      scrying).</p>
     chat: ''
   identifier: anvil-drop
   source:
@@ -20,7 +93,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 5
   materials:
     value: ''
@@ -30,35 +104,45 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '120'
   school: con
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '5'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 16500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556373766
-  modifiedTime: 1733176687434
+  modifiedTime: 1733253994248
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zET5sKgzij8jKSsV'
 

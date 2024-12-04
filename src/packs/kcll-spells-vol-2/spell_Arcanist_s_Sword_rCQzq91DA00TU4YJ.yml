@@ -3,13 +3,203 @@ type: spell
 _id: rCQzq91DA00TU4YJ
 img: icons/weapons/swords/sword-runed-glowing.webp
 system:
-  activities: {}
+  activities:
+    NyRvowxr0N6gL6bU:
+      type: utility
+      name: Cast
+      _id: NyRvowxr0N6gL6bU
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    H2vxZPaUGgGIm5vp:
+      type: attack
+      name: ''
+      _id: H2vxZPaUGgGIm5vp
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: ft
+        special: ''
+        value: '20'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 10
+            bonus: '@mod'
+            types:
+              - force
+            scaling:
+              mode: ''
+              number: 1
+      img: ''
+      appliedEffects: []
+    tmfXgW9g3tjhGdA4:
+      type: save
+      name: Whirl
+      _id: tmfXgW9g3tjhGdA4
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: ft
+        special: ''
+        value: '20'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 10
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: ''
+              number: 1
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create a glowing sword-shaped plane of force that hovers within
+      range for the duration. When the sword appears and as a bonus action on
+      subsequent turns, you can give the sword one of the following
+      commands.</p><ul><li><strong>Attack:</strong> The sword moves up to 20
+      feet toward a creature and makes a melee spell attack against it. On a
+      hit, the target takes force damage equal to 3d10 + your spellcasting
+      ability modifier.</li><li><strong>Guard:</strong> The sword moves up 20
+      feet into a creature’s space and grants the creature half cover as it
+      attempts to deflect incoming attacks. The first time a hostile creature
+      comes within 5 feet of the sword, the sword makes a melee spell attack
+      against that creature. On a hit, the target takes force damage equal to
+      3d10 + your spellcasting ability modifier. The sword cannot attack again
+      until you command it again</li><li><strong>Whirl:</strong> The sword moves
+      up to 20 feet toward a point and then begins to spin in a deadly whirl. A
+      creature that starts in the sword’s space or passes within 5 feet of the
+      sword on its turn must succeed on a Dexterity saving throw or take 3d10
+      force damage.</li></ul>
     chat: ''
   identifier: arcanists-sword
   source:
@@ -20,20 +210,27 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 7
   materials:
-    value: ''
+    value: >-
+      a miniature platinum sword with a grip and pommel of copper and zinc,
+      worth 250 gp
     consumed: false
-    cost: 0
+    cost: 250
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: con
   target:
     template:
@@ -43,22 +240,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 14300000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556404066
-  modifiedTime: 1733176687434
+  modifiedTime: 1733254576318
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!rCQzq91DA00TU4YJ'
 

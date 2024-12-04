@@ -1,26 +1,91 @@
 name: Vessel of Transportation
 type: spell
 _id: 9FEB4Szw8pwlFIku
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/tools/nautical/steering-wheel.webp
 system:
-  activities: {}
+  activities:
+    zCmM2iwZPkcPclSI:
+      type: summon
+      _id: zCmM2iwZPkcPclSI
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      bonuses: {}
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        proficiency: false
+        saves: false
+      profiles:
+        - uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.a1BQNuXf3RWYOW3J
+          _id: pyByJkQ9W454tRNx
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You weave together creation magic and conjure a vehicle of your choice
+      within range, which uses the Magical Vessel stat block. The vehicle can
+      take any shape you wish, but is no more than 10 feet on any
+      side.</p><p>When you cast the spell, you can designate any number of
+      creatures you can see as pilots. A pilot inside the vehicle can attempt to
+      mentally control it as an action, unless another pilot is already
+      controlling it. The pilot can end this control at will (no action
+      required), or its control ends automatically if it exits the
+      vehicle.</p><p>While in control of the vehicle, the pilot is deaf and
+      blind to its surroundings. Instead, it sees and hears through an invisible
+      sensor that follows the vehicle and hovers 5 feet outside of it at all
+      times. The pilot move the sensor as a bonus action to another location
+      within 5 feet of the vehicle.</p><p> If a pilot is mentally controlling
+      the vehicle, you can terminate its control as an action. As part of the
+      same action, you can choose to become the new pilot of the vehicle.</p>
     chat: ''
   identifier: vessel-of-transportation
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
-    value: null
+    type: hour
+    value: 1
     condition: ''
   duration:
-    units: inst
+    units: hour
+    value: '8'
   level: 5
   materials:
     value: ''
@@ -30,10 +95,14 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: con
   target:
     template:
@@ -43,22 +112,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 2100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560861823
-  modifiedTime: 1733176687434
+  modifiedTime: 1733292180675
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9FEB4Szw8pwlFIku'
 

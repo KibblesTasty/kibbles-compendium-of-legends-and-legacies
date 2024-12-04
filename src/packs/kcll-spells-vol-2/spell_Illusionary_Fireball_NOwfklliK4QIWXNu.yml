@@ -3,13 +3,80 @@ type: spell
 _id: NOwfklliK4QIWXNu
 img: icons/magic/light/explosion-star-glow-orange.webp
 system:
-  activities: {}
+  activities:
+    ze1B6CojzOPcdFkM:
+      type: save
+      _id: ze1B6CojzOPcdFkM
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A bright streak flashes from your fingertip to a point you can see
+      within range before blossoming into a 20-foot radius illusionary
+      explosion. Each creature of your choice in the area must make a Wisdom
+      saving throw. On a failure, a creature takes 6d6 psychic damage. On a
+      success, a creature realizes the fire is illusionary and takes no
+      damage.</p><p>You can choose to make illusion an explosion of ice,
+      lightning, or pure force energy.</p><p><strong>At Higher Levels.</strong>
+      When you cast this spell using a spell slot of 4th level or higher, the
+      damage increases by 1d6 for each slot level above 3rd.</p>
     chat: ''
   identifier: illusionary-fireball
   source:
@@ -23,42 +90,53 @@ system:
     units: inst
   level: 3
   materials:
-    value: ''
+    value: something that looks like bat guano
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '120'
   school: ill
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '20'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 6100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558588586
-  modifiedTime: 1733176687434
+  modifiedTime: 1733280539280
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!NOwfklliK4QIWXNu'
 

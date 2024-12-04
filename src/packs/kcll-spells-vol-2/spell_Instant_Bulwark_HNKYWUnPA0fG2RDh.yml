@@ -3,22 +3,85 @@ type: spell
 _id: HNKYWUnPA0fG2RDh
 img: icons/magic/earth/barrier-stone-explosion-spiked.webp
 system:
-  activities: {}
+  activities:
+    Rz6NnAal4nlTbFh1:
+      type: heal
+      _id: Rz6NnAal4nlTbFh1
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 4
+        denomination: '10'
+        types: []
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: whole
+          formula: ''
+        bonus: '@mod'
+      name: Cast
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cause a 15-foot-long, 10-foot-tall, 6-inch thick wall of earth to
+      erupt from the ground in an empty space you can see within range. The wall
+      grants total cover and blocks any damage originating from the far side of
+      the wall. It blocks ranged attacks and any area-ofeffect spells or magical
+      effects with areas intersecting the wall.</p><p>The wall has hit points
+      equal to 4d10 + your spellcasting modifier. It takes all damage it blocks,
+      even if that damage normally only affects creatures, but it only suffers
+      the blocked damage one time even if it protects multiple creatures. If it
+      is reduced to 0 hit points, it crumbles to dust and any excess damage is
+      dealt as normal. If the wall is not destroyed, it crumbles at the start of
+      your next turn.</p><p><strong>At Higher Levels.</strong> When you cast
+      this spell using a spell slot of 4th level or higher, the wall has 1d10
+      additional hit points and is 5 feet longer for each level above 3rd.</p>
     chat: ''
   identifier: instant-bulwark
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: reaction
     value: null
-    condition: ''
+    condition: >-
+      which you can take when a creature within range takes damage from a ranged
+      attack or area effect
   duration:
     units: inst
   level: 3
@@ -30,35 +93,47 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: wall
+      size: 15 + 5 * @scaling.increase
+      width: '0.5'
+      height: '10'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 4600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558700399
-  modifiedTime: 1733176687434
+  modifiedTime: 1733280991209
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!HNKYWUnPA0fG2RDh'
 

@@ -16,13 +16,19 @@ system:
       Bloodbound Expanded Spells</h5><table><thead><tr><th>Spell
       Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{false
       life}, @UUID[Compendium.dnd5e.spells.Item.ksaaTxIbKx2sJfia]{inflict
-      wounds}</td></tr><tr><td>2nd</td><td>bloody burst, compelled
-      convulsion</td></tr><tr><td>3rd</td><td>crimson tide,
+      wounds}</td></tr><tr><td>2nd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.GQ6p0wOy2GYQidAx]{bloody
+      burst},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Ywbrg3zSxTTGIjqY]{compelled
+      convulsion}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ps4Qg1vATUAlX4Sw]{crimson
+      tide},
       @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.8HgZEXkHBz2hcDkv]{invest
-      life}</td></tr><tr><td>4th</td><td>blood frenzy,
+      life}</td></tr><tr><td>4th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.v2wNwWLtdHKtWres]{blood
+      frenzy},
       @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.VNjahL7xK5zkD1LU]{vital
       surge}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM]{dominate
-      person}, life support</td></tr></tbody></table>
+      person},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.u7dwLJcxTYgdYR9f]{life
+      support}</td></tr></tbody></table>
     chat: ''
   identifier: the-bloodbound
   source:
@@ -103,7 +109,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1729045804111
-  modifiedTime: 1733180476442
+  modifiedTime: 1733253105452
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!YDmyfSmshjuIT7L2'
 

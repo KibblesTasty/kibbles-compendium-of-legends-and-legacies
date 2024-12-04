@@ -3,13 +3,126 @@ type: spell
 _id: 6EP3SxjKQH1LYT0Y
 img: icons/magic/water/elemental-water.webp
 system:
-  activities: {}
+  activities:
+    9HL6ZJdYkteIgoku:
+      type: utility
+      name: Cast
+      _id: 9HL6ZJdYkteIgoku
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 1dvmTdKwMsSnfWeO
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    IjaNtenheYwFp6Ta:
+      type: save
+      _id: IjaNtenheYwFp6Ta
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You freeze over, taking on a form of elemental ice. Until the spell
+      ends, you gain the following benefits:</p><ul><li>You are immune to cold
+      damage.</li><li>You can move across difficult terrain created by ice or
+      snow without spending extra movement.</li><li>The ground in a 15-foot
+      radius around you is icy and is difficult terrain for creatures other than
+      you. The radius moves with you.</li><li>You can use your action to create
+      a 30-foot cone of freezing wind extending from your outstretched hand in a
+      direction you choose. Each creature in the cone must make a Constitution
+      saving throw. A creature takes 4d8 cold damage on a failed save, or half
+      as much damage on a successful one. A creature that fails its save against
+      this effect has its speed halved until the start of your next
+      turn.</li><li>During your turn, if you roll cold damage, you gain
+      temporary hit points equal to one die rolled (your choice).</li></ul>
     chat: ''
   identifier: form-of-ice
   source:
@@ -20,7 +133,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '10'
   level: 6
   materials:
     value: ''
@@ -30,7 +144,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -44,21 +161,62 @@ system:
       choice: false
       count: ''
       type: ''
-effects: []
+effects:
+  - name: Form of Ice
+    img: icons/magic/water/elemental-water.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.6EP3SxjKQH1LYT0Y
+    transfer: false
+    _id: 1dvmTdKwMsSnfWeO
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.di.value
+        mode: 2
+        value: cold
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 100
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733262478188
+      modifiedTime: 1733262931337
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!6EP3SxjKQH1LYT0Y.1dvmTdKwMsSnfWeO'
 folder: null
 sort: 1600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557916680
-  modifiedTime: 1733176687434
+  modifiedTime: 1733262478224
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!6EP3SxjKQH1LYT0Y'
 

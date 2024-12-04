@@ -1,15 +1,83 @@
 name: Sudden Hazards
 type: spell
 _id: Na1aIGZBPrH4KuWm
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
 system:
-  activities: {}
+  activities:
+    kHv1kQPAVk9eSq93:
+      type: save
+      _id: kHv1kQPAVk9eSq93
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 8
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cause illusions of deadly traps or other hazards to spring up,
+      filling a 60 foot cube originating from you. Swinging blades, lava flows,
+      or other phantom hazards fill the minds of each creature of your choice
+      within the area. An affected creature can move at half speed to evade the
+      dangers, or move at its normal speed and take 1d8 psychic damage for each
+      5 feet it moves within the area. Any affected creature ending its turn in
+      the area must make a Dexterity saving throw. It takes 5d8 psychic damage
+      on a failure or half as much on a success.</p><p> Each time a creature
+      ends its turn in the area, it can make a Wisdom saving throw. On a
+      success, it realizes the traps are fake, and the spell ends for that
+      creature.</p>
     chat: ''
   identifier: sudden-hazards
   source:
@@ -20,7 +88,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 5
   materials:
     value: ''
@@ -30,7 +99,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -39,26 +111,33 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cube
+      size: '60'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 6200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560525275
-  modifiedTime: 1733176687434
+  modifiedTime: 1733289904832
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Na1aIGZBPrH4KuWm'
 

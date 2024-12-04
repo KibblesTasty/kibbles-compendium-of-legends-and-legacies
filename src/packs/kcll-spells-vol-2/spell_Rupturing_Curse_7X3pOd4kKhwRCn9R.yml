@@ -14,13 +14,14 @@ system:
       something from the target creature—such as blood, hair, or scales—which
       the spell consumes and a drop of your blood worth at least 2 hit point,
       which the spell consumes
-    consumed: false
+    consumed: true
     cost: 0
     supply: 0
   properties:
     - somatic
     - material
     - concentration
+    - bloodMagic
   level: 3
   school: nec
   activation:
@@ -142,7 +143,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733176689646
-  modifiedTime: 1733176689646
+  modifiedTime: 1733288092570
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: 7X3pOd4kKhwRCn9R
 sort: 0

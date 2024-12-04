@@ -3,37 +3,101 @@ type: spell
 _id: zFThmsPTUHpFpv6u
 img: icons/skills/melee/maneuver-sword-katana-yellow.webp
 system:
-  activities: {}
+  activities:
+    ov1TDYOktNZkSHoP:
+      type: damage
+      name: Cast
+      _id: ov1TDYOktNZkSHoP
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 0
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: whole
+              number: 1
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You vanish, teleporting to an empty space within 5 feet of the creature
+      that damaged you, and immediately make a weapon attack against them with
+      the weapon used in the spell’s casting. </p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 3rd level
+      or higher, if your attack hits, it deals 1d8 additional force damage for
+      each slot level above 2nd.</p>
     chat: ''
   identifier: instant-counter
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: reaction
     value: null
-    condition: ''
+    condition: >-
+      which you take in response to being damaged by a creature within 30 feet
+      of you that you can see
   duration:
     units: inst
   level: 2
   materials:
-    value: ''
+    value: a melee weapon worth at least 1 sp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: con
   target:
     template:
@@ -43,22 +107,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 16600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558712248
-  modifiedTime: 1733176687434
+  modifiedTime: 1733281135763
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zFThmsPTUHpFpv6u'
 

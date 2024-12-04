@@ -3,13 +3,93 @@ type: spell
 _id: zr4cDgx44Iutt5EI
 img: icons/magic/unholy/strike-body-life-soul-green.webp
 system:
-  activities: {}
+  activities:
+    RU70je5kah6yfkOc:
+      type: attack
+      _id: RU70je5kah6yfkOc
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: null
+            denomination: 0
+            bonus: '1'
+            types:
+              - piercing
+            scaling:
+              mode: ''
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 12
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You conjure a swarm of magical wasps, which zip out to sting creatures
+      of your choice within a 40-foot cone. Make a ranged spell attack against
+      each individual target. On a hit, a creature takes 1 piercing damage +
+      4d12 poison damage. After they attack, the magic wasps fade away.
+      </p><p><strong>At Higher Levels.</strong> When you cast this spell using a
+      spell slot of 4th level or higher, the poison damage increases by 1d12 for
+      each second slot level above 3rd.</p>
     chat: ''
   identifier: wasp-barrage
   source:
@@ -30,7 +110,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,26 +121,33 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cone
+      size: '40'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 17100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560991154
-  modifiedTime: 1733176687434
+  modifiedTime: 1733292872644
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zr4cDgx44Iutt5EI'
 

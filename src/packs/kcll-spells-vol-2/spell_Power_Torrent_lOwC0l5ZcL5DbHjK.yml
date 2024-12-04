@@ -3,13 +3,76 @@ type: spell
 _id: lOwC0l5ZcL5DbHjK
 img: icons/magic/light/beam-rays-blue-large.webp
 system:
-  activities: {}
+  activities:
+    FFTSux1cN8hcmVLg:
+      type: damage
+      _id: FFTSux1cN8hcmVLg
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 12
+            bonus: 4 + @scaling.increase
+            types:
+              - force
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You unleash a massive torrent of raw arcane energy, blasting a line 60
+      feet long and 15 feet wide with overwhelming power. This spell passes
+      through all obstacles, walls, and all other non-magical barriers. All
+      creatures in the area take 4d12 + 4 force damage. </p><p>The torrent
+      dispels all spells of 1st level or lower cast on creatures in its path,
+      and any Constitution saving throws to maintain concentration triggered by
+      this damage are made with disadvantage. </p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 7th level
+      or higher, the damage increases by 1d12 + 1 for each slot level above
+      6th.</p>
     chat: ''
   identifier: power-torrent
   source:
@@ -30,7 +93,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,26 +104,34 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: line
+      size: '60'
+      width: '15'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 12100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559544301
-  modifiedTime: 1733176687434
+  modifiedTime: 1733286420836
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!lOwC0l5ZcL5DbHjK'
 

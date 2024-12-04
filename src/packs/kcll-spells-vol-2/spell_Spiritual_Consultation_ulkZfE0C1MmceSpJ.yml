@@ -3,34 +3,94 @@ type: spell
 _id: ulkZfE0C1MmceSpJ
 img: icons/magic/unholy/silhouette-light-fire-blue.webp
 system:
-  activities: {}
+  activities:
+    2w27VrU4tGbbCuee:
+      type: utility
+      name: Cast
+      _id: 2w27VrU4tGbbCuee
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Ability Check
+        formula: 1d20 + 5 + @scaling.increase
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You call forth a spirit to aid you with your ability checks. Choose one
+      skill out of Arcana, Animal Handling, History, Investigation, Medicine,
+      Nature, Perception, Religion, or Survival. The spirit is proficient in the
+      chosen skill. It is ethereal and ephemeral and cannot interact with
+      physical objects, but can provide guidance on matters relating to chosen
+      skill.</p><p>For the duration, you can treat any check you make in the
+      skill as if you have proficiency with it so long as the spirit can
+      communicate with you. Alternatively, the spirit can make Intelligence or
+      Wisdom checks itself, with a +5 modifier. The spirit will follow you,
+      staying within of you at all times. You can choose to release it early,
+      dismissing it back from whence it came.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 2nd level
+      or higher, the spirit’s bonus on making ability checks directly increases
+      by 1 for each slot level above 1st, up to a maximum of +9.</p>
     chat: ''
   identifier: spiritual-consultation
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
-    value: null
+    type: minute
+    value: 1
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '10'
   level: 1
   materials:
-    value: ''
-    consumed: false
-    cost: 0
+    value: 1 gp worth of incense, which the spell consumes
+    consumed: true
+    cost: 1
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -50,15 +110,19 @@ sort: 15200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560355673
-  modifiedTime: 1733176687434
+  modifiedTime: 1733288940980
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ulkZfE0C1MmceSpJ'
 

@@ -3,13 +3,78 @@ type: spell
 _id: ETL1v4QQpCOIFXDl
 img: icons/magic/death/undead-skeleton-energy-green.webp
 system:
-  activities: {}
+  activities:
+    lwv3HJ4YJw3YnyL5:
+      type: save
+      _id: lwv3HJ4YJw3YnyL5
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 7
+            denomination: 10
+            bonus: '7'
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You point at a creature within range, and attempt to make its skeleton
+      rip free of its body. The creature must make a Constitution saving throw.
+      The target takes 7d10 + 7 necrotic damage on a failed save, or half as
+      much damage on a successful one.</p><p>If this damage kills the target,
+      its flesh sloughs of its skeleton, collapsing into a pile. Its skeleton
+      emerges and becomes a
+      @UUID[Compendium.dnd5e.monsters.Actor.nU8GN8La8DCt8SDb]{Skeleton}, hostile
+      to all living creatures, and attacks the closest target.</p>
     chat: ''
   identifier: deglove-creature
   source:
@@ -23,17 +88,21 @@ system:
     units: inst
   level: 5
   materials:
-    value: ''
+    value: a finger bone
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: nec
   target:
     template:
@@ -50,15 +119,19 @@ sort: 3700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557013667
-  modifiedTime: 1733176687434
+  modifiedTime: 1733260117543
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ETL1v4QQpCOIFXDl'
 

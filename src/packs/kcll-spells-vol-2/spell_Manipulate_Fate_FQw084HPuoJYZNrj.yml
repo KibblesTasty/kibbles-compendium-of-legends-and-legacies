@@ -3,13 +3,77 @@ type: spell
 _id: FQw084HPuoJYZNrj
 img: icons/sundries/gaming/dice-pair-white-green.webp
 system:
-  activities: {}
+  activities:
+    JEf28qLjG3taROQr:
+      type: utility
+      name: Cast
+      _id: JEf28qLjG3taROQr
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You reach out and grasp the imperceptible threads of fate, enabling
+      yourself to subtly manipulate them. For the duration when a creature
+      within 60 feet of you makes an attack roll, saving throw, or ability
+      check, you can use your reaction to tweak its fate, altering the die
+      result. You can choose to manipulate fate after the die is rolled, but
+      before the outcome is determined.</p><p>You can nudge the roll to your
+      choice of adjacent faces on the die (potential outcomes listed
+      below).</p><table><thead><tr><th>d20</th><th>Tweaked
+      Fates</th></tr></thead><tbody><tr><td>1</td><td>7, 13, or
+      19</td></tr><tr><td>2</td><td>12, 18, or 20</td></tr><tr><td>3</td><td>17,
+      16, or 19</td></tr><tr><td>4</td><td>11, 14, or
+      18</td></tr><tr><td>5</td><td>13, 15, or 18</td></tr><tr><td>6</td><td>9,
+      14, or 16</td></tr><tr><td>7</td><td>1, 15, or
+      17</td></tr><tr><td>8</td><td>10, 16, or 20</td></tr><tr><td>9</td><td>6,
+      11, or 19</td></tr><tr><td>10</td><td>8, 12, or
+      17</td></tr><tr><td>11</td><td>4, 9, or 13</td></tr><tr><td>12</td><td>2,
+      10, or 15</td></tr><tr><td>13</td><td>1, 5, or
+      11</td></tr><tr><td>14</td><td>4, 6, or 20</td></tr><tr><td>15</td><td>5,
+      7, 12</td></tr><tr><td>16</td><td>3, 6, or
+      8</td></tr><tr><td>17</td><td>3, 7, or 10</td></tr><tr><td>18</td><td>2,
+      4, or 5</td></tr><tr><td>19</td><td>1, 3, or
+      9</td></tr><tr><td>20</td><td>2, 8, or
+      14</td></tr></tbody></table><p>Instead of nudging, you can instead choose
+      to cast aside subtlety and yank the thread of fate, selecting any value on
+      the d20 as the result. If you do so, you suffer a backlash. Roll a number
+      of d6 equal to the difference between your selection and the original
+      result; you take that much necrotic damage, and the spell immediately
+      ends.</p>
     chat: ''
   identifier: manipulate-fate
   source:
@@ -20,17 +84,22 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 9
   materials:
-    value: ''
+    value: a spool of silk thread
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
     units: self
     special: ''
@@ -50,15 +119,19 @@ sort: 3800000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559231835
-  modifiedTime: 1733176687434
+  modifiedTime: 1733281802496
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!FQw084HPuoJYZNrj'
 

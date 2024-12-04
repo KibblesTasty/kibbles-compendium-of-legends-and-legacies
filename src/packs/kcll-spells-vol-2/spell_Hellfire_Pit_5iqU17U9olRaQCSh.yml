@@ -3,13 +3,207 @@ type: spell
 _id: 5iqU17U9olRaQCSh
 img: icons/magic/fire/barrier-wall-explosion-orange.webp
 system:
-  activities: {}
+  activities:
+    Q0Qc4FTRTKPbZCdF:
+      type: save
+      _id: Q0Qc4FTRTKPbZCdF
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    thCuypDL3VlyhVMv:
+      type: damage
+      _id: thCuypDL3VlyhVMv
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    cNeZo3VlbcTIbET4:
+      type: save
+      _id: cNeZo3VlbcTIbET4
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: Escape
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You open a pit to hell beneath the feet of your foes. A supernatural
+      void opens in a 10-foot radius, 10-foot deep pit opens around a point you
+      can see within range.</p><p>Creatures in the area must make a Dexterity
+      saving throw. On success, they can move 5 feet outside the radius of the
+      spell. If they cannot move 5 feet out of the radius of the spell (such as
+      having no path or insufficient movement speed), they automatically fail
+      the saving throw. Creatures that fall their saving throw fall to the
+      bottom of the pit (taking 1d6 bludgeoning damage and falling
+      &amp;Reference[prone]). The floor of the pit is a blazing inferno of hell.
+      Creatures that start their turn in the pit take 4d6 fire damage and 4d6
+      necrotic damage.</p><p>The pit is difficult to escape, voraciously drawing
+      creatures caught in to the depths of hell with strong winds, roaring
+      fires, and infernal chains. A creature can spend 20 feet of movement (or
+      10 if they a flying or climbing speed) to attempt to escape the pit,
+      making a Strength saving throw against your spell save DC. On success,
+      they escape. On failure, fall back to the floor of the pit and their
+      movement speed becomes 0 until the start of their next turn.</p><p>When
+      the spell ends, the supernatural void to hell closes, and all creatures in
+      the pit are deposited on the ground where the pit opened prone.</p>
     chat: ''
   identifier: hellfire-pit
   source:
@@ -20,7 +214,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 7
   materials:
     value: ''
@@ -30,35 +225,46 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '10'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 1400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558123727
-  modifiedTime: 1733176687434
+  modifiedTime: 1733275160178
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!5iqU17U9olRaQCSh'
 

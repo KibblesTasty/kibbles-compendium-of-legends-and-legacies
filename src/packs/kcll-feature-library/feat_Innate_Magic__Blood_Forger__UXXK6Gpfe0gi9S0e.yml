@@ -3,7 +3,79 @@ type: feat
 _id: UXXK6Gpfe0gi9S0e
 img: icons/magic/unholy/strike-beam-blood-small-red-blue.webp
 system:
-  activities: {}
+  activities:
+    x7ZNbJq4ArkybY7D:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.h7pzPRniOqrPMmXm
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: null
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: x7ZNbJq4ArkybY7D
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+    1rUjEarnuPwIfjN4:
+      type: forward
+      name: Blood Transfusion
+      _id: 1rUjEarnuPwIfjN4
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+            scaling: {}
+      description:
+        chatFlavor: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      activity:
+        id: x7ZNbJq4ArkybY7D
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -19,13 +91,13 @@ system:
       a spell again before completing a long rest by spending 1 + the level of
       the spell Endurance Dice.</p><table><thead><tr><th>Warden
       Level</th><th>Innate Spells (1/long rest
-      each)</th></tr></thead><tbody><tr><td>1st</td><td>blood
-      transfusion</td></tr><tr><td>3rd</td><td>sense
-      blood</td></tr><tr><td>5th</td><td>morbid
-      puppet</td></tr><tr><td>9th</td><td>crimson
-      tide</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{locate
-      creature}</td></tr><tr><td>17th</td><td>ichorous
-      blood</td></tr></tbody></table>
+      each)</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.h7pzPRniOqrPMmXm]{blood
+      transfusion}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Z8zyFokc1Uicvm8P]{sense
+      blood}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.cSIG4ABQW9IIsmIM]{morbid
+      puppet}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ps4Qg1vATUAlX4Sw]{crimson
+      tide}</td></tr><tr><td>13th</td><td>@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{locate
+      creature}</td></tr><tr><td>17th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.XYlNm2hWK5pNq2sz]{ichorous
+      blood}</td></tr></tbody></table>
     chat: ''
   identifier: innate-magic-blood-forger
   source:
@@ -45,7 +117,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -53,7 +129,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733177074094
-  modifiedTime: 1733177664997
+  modifiedTime: 1733252966726
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!UXXK6Gpfe0gi9S0e'
 

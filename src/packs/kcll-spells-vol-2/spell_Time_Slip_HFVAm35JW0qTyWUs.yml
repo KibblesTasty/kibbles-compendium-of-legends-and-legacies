@@ -1,15 +1,62 @@
 name: Time Slip
 type: spell
 _id: HFVAm35JW0qTyWUs
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/time/clock-spinning-gold-pink.webp
 system:
-  activities: {}
+  activities:
+    QUzchW0v46Bme20y:
+      type: utility
+      name: Cast
+      _id: QUzchW0v46Bme20y
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: XthAG2lyM9qSxDHl
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You surround yourself with a film of distorted time, setting yourself
+      slightly off from time's normal flow. While you are in this bubble of
+      distorted time, you have a +2 bonus to AC. If you would take damage from
+      an attack or fail a saving throw against a spell of 2nd level or lower,
+      you can use your reaction to revert your personal timeline and negate the
+      effect — causing the attack to miss or the save to succeed. Afterward,
+      this spell ends.</p><p><strong>At Higher Levels.</strong> When you cast
+      this spell using a spell slot of 3rd level or higher, the maximum level of
+      a spell you can negate increases to be equal to the level of the spell
+      slot used.</p>
     chat: ''
   identifier: time-slip
   source:
@@ -20,17 +67,22 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
-    value: ''
+    value: an small ornate hourglass worth at least 25 gold pieces
     consumed: false
-    cost: 0
+    cost: 25
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
     units: self
     special: ''
@@ -44,21 +96,62 @@ system:
       choice: false
       count: ''
       type: ''
-effects: []
+effects:
+  - name: Time Slip
+    img: icons/magic/time/clock-spinning-gold-pink.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.HFVAm35JW0qTyWUs
+    transfer: false
+    _id: XthAG2lyM9qSxDHl
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '2'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733291027916
+      modifiedTime: 1733291057841
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!HFVAm35JW0qTyWUs.XthAG2lyM9qSxDHl'
 folder: null
 sort: 4500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560727673
-  modifiedTime: 1733176687434
+  modifiedTime: 1733291027961
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!HFVAm35JW0qTyWUs'
 

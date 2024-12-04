@@ -84,13 +84,16 @@ system:
         max: ''
       enchant: {}
       restrictions:
-        allowMagical: false
+        allowMagical: true
         categories:
           - simpleM
           - martialM
         properties: []
         type: weapon
       name: ''
+      img: ''
+      appliedEffects:
+        - BCIYukdzaO5H8fSS
   uses:
     spent: 0
     recovery: []
@@ -162,7 +165,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733250986488
-  modifiedTime: 1733250986488
+  modifiedTime: 1733293174534
   lastModifiedBy: pJeIW7qCa0HkURWq
 sort: 0
 ownership:

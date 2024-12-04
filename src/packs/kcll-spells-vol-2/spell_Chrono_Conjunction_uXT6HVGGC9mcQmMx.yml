@@ -3,37 +3,101 @@ type: spell
 _id: uXT6HVGGC9mcQmMx
 img: icons/magic/time/clock-spinning-gold-pink.webp
 system:
-  activities: {}
+  activities:
+    oQYmrQ9ORTPORb2g:
+      type: save
+      _id: oQYmrQ9ORTPORb2g
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>As a reaction to a creature rolling a save, ability check, or attack
+      roll, you search all possible timelines and merge the outcome you desire
+      with reality. Select a value from 1 to 20 as the outcome of the roll. An
+      unwilling creature can attempt to resist by making a Charisma saving
+      throw; on a success, the spell has no effect.</p><p> Once you cast this
+      spell, you cannot cast it again until 24 hours have passed.</p>
     chat: ''
   identifier: chrono-conjunction
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: reaction
     value: null
-    condition: ''
+    condition: >-
+      which you take when a creature you can see within 60 feet rolls a save,
+      ability check, or attack roll.
   duration:
     units: inst
   level: 6
   materials:
-    value: ''
+    value: something from the past or future
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
@@ -50,15 +114,19 @@ sort: 15100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556661878
-  modifiedTime: 1733176687434
+  modifiedTime: 1733258863038
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!uXT6HVGGC9mcQmMx'
 

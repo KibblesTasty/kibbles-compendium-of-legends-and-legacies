@@ -3,13 +3,126 @@ type: spell
 _id: 7wrVw2OsSl6TCz4S
 img: icons/magic/earth/construct-stone.webp
 system:
-  activities: {}
+  activities:
+    Ey3dMRGZ2FBPjNCz:
+      type: utility
+      name: Cast
+      _id: Ey3dMRGZ2FBPjNCz
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: MOmxRVmgwow2cj6q
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    iUji3d1vCJxj1tSJ:
+      type: save
+      _id: iUji3d1vCJxj1tSJ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '15'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - piercing
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You become made of stone. Until the spell ends, you gain the following
+      benefits:</p><ul><li><p>You have resistance to bludgeoning, piercing, and
+      slashing damage from nonmagical attacks.</p></li><li><p>You can move
+      across difficult terrain made of earth or stone without spending extra
+      movement. You can move through solid earth or stone as if it was air and
+      without destabilizing it, but you can’t end your movement there. If you do
+      so, you are ejected to the nearest unoccupied space, this spell ends, and
+      you are stunned until the end of your next turn.</p></li><li><p>You can
+      use your action to call spikes of stone to raise from the ground. All
+      creatures of your choice within 15 feet of you must make a Dexterity
+      saving throw. A creature takes 4d8 piercing damage on a failed save, or
+      half as much on a successful one. Its space becomes difficult terrain
+      either way</p></li></ul>
     chat: ''
   identifier: form-of-stone
   source:
@@ -20,7 +133,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '10'
   level: 6
   materials:
     value: ''
@@ -30,7 +144,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -44,21 +161,74 @@ system:
       choice: false
       count: ''
       type: ''
-effects: []
+effects:
+  - name: Form of Stone
+    img: icons/magic/earth/construct-stone.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.7wrVw2OsSl6TCz4S
+    transfer: false
+    _id: MOmxRVmgwow2cj6q
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 100
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733262915054
+      modifiedTime: 1733263043866
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!7wrVw2OsSl6TCz4S.MOmxRVmgwow2cj6q'
 folder: null
 sort: 1900000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557928325
-  modifiedTime: 1733176687434
+  modifiedTime: 1733263082231
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!7wrVw2OsSl6TCz4S'
 

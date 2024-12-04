@@ -3,13 +3,70 @@ type: spell
 _id: enveiGga7G2mAwdW
 img: icons/magic/lightning/projectile-tendrils-teal.webp
 system:
-  activities: {}
+  activities:
+    gS1plT2I0V3gRFUh:
+      type: damage
+      _id: gS1plT2I0V3gRFUh
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A visible field of static energy crackles to life in a 20-foot radius
+      around a point you can see within range. If a creature takes an action,
+      reaction, or moves at least 5 feet within the field, it takes 1d12
+      lightning damage. A creature can take damage from each trigger once per
+      turn (taking an action, a reaction, or moving).</p>
     chat: ''
   identifier: static-field
   source:
@@ -30,35 +87,45 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '20'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 10400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560434640
-  modifiedTime: 1733176687434
+  modifiedTime: 1733289291602
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!enveiGga7G2mAwdW'
 

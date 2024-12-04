@@ -3,13 +3,68 @@ type: spell
 _id: zUi1niP9Be7JWYjH
 img: icons/magic/light/beams-explosion-blue.webp
 system:
-  activities: {}
+  activities:
+    RPMOEVLzWof6BIen:
+      type: save
+      _id: RPMOEVLzWof6BIen
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A vivid rainbow of prismatic lights springs out from your hand. Each
+      creature in a 15-foot cone must make a Constitution saving throw. On a
+      failure, a creature is &amp;Reference[blinded] until the start of your
+      next turn. On a success, a creature is not blinded but is disoriented by
+      the brilliant flash and cannot make attacks of opportunity until the start
+      of your next turn. </p><p>Creatures that are already blinded or cannot see
+      you aren’t affected as they do not see the burst.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 2nd level
+      or higher, the size of the cone expands by 5 additional feet.</p>
     chat: ''
   identifier: prismatic-flash
   source:
@@ -20,17 +75,21 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 1
   materials:
-    value: ''
+    value: a prism
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -39,26 +98,33 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cone
+      size: 15 + 5 * @scaling.increase
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 16800000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559576957
-  modifiedTime: 1733176687434
+  modifiedTime: 1733286512589
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zUi1niP9Be7JWYjH'
 

@@ -3,13 +3,145 @@ type: spell
 _id: pkGarqAIUtf9rh6v
 img: icons/skills/movement/ball-spinning-blue.webp
 system:
-  activities: {}
+  activities:
+    6XQ0g1sjOvVXzatC:
+      type: attack
+      _id: 6XQ0g1sjOvVXzatC
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: str
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - slashing
+            scaling:
+              mode: ''
+              number: 1
+      name: Strength Attack
+      img: ''
+      appliedEffects: []
+    KNt86Hm1SJEOcdSH:
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: dex
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - slashing
+            scaling:
+              mode: ''
+              number: 1
+      name: Dexterity Attack
+      _id: KNt86Hm1SJEOcdSH
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You make a series of three slashes, each one magically releasing a
+      razor-sharp blast of wind at a target within range. You can launch them at
+      one target or several. </p><p>Make a weapon attack with the weapon used in
+      the casting of this spell for each slash. On hit, the target takes
+      slashing damage equal to 1d6 + the ability modifier used for the attack.
+      </p><p><strong>At Higher Levels.</strong> When you cast this spell using a
+      spell slot of 3rd level or higher, you can create one additional slash for
+      each slot level above 2nd.</p>
     chat: ''
   identifier: crescent-wind-slash
   source:
@@ -23,17 +155,20 @@ system:
     units: inst
   level: 2
   materials:
-    value: ''
+    value: a melee weapon worth at least 1 sp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: evo
   target:
     template:
@@ -50,15 +185,19 @@ sort: 13600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556707566
-  modifiedTime: 1733176687434
+  modifiedTime: 1733259276223
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!pkGarqAIUtf9rh6v'
 

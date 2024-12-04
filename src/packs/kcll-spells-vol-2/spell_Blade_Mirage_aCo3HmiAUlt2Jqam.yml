@@ -3,34 +3,83 @@ type: spell
 _id: aCo3HmiAUlt2Jqam
 img: icons/skills/melee/strikes-sword-scimitar.webp
 system:
-  activities: {}
+  activities:
+    o4BTHQMc9cNwLR59:
+      type: utility
+      name: Cast
+      _id: o4BTHQMc9cNwLR59
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You twist illusions around a melee weapon you are holding. When you
+      cast the spell, and as a bonus action on your subsequent turns for the
+      duration, you can feint with the illusory blades, distracting a creature
+      within 5 feet of you and giving you advantage on the next weapon attack
+      against it before the end of the turn. The spell ends early if you let go
+      of the weapon.</p><p> As an action, a creature that can see you can make
+      an Intelligence (Investigation) check against your spell save DC. On a
+      success, it becomes immune to the spell's effects.</p>
     chat: ''
   identifier: blade-mirage
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 1
   materials:
-    value: ''
+    value: a melee weapon worth at least 1 sp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
     units: self
     special: ''
@@ -50,15 +99,19 @@ sort: 9500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556564791
-  modifiedTime: 1733176687434
+  modifiedTime: 1733256200393
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!aCo3HmiAUlt2Jqam'
 

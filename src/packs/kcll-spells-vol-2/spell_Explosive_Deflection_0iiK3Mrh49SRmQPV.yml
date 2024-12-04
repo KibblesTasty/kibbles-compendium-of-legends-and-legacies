@@ -1,36 +1,99 @@
 name: Explosive Deflection
 type: spell
 _id: 0iiK3Mrh49SRmQPV
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/explosion-lava-orange.webp
 system:
-  activities: {}
+  activities:
+    kMrmSAu0MeJ7uYxy:
+      type: damage
+      _id: kMrmSAu0MeJ7uYxy
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You release an explosive blast of energy to deflect an attack. Roll 2d6
+      and reduce the attack's damage by the result. If the attack's damage was
+      reduced to 0, and it was a melee attack, the attacker takes the remainder
+      of your dice roll as thunder damage. </p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 2nd level
+      or higher, the dice rolled increase by 1d6 for each slot level above
+      2nd.</p>
     chat: ''
   identifier: explosive-deflection
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: reaction
     value: null
-    condition: ''
+    condition: which you take when you are hit by an attack
   duration:
     units: inst
   level: 1
   materials:
-    value: ''
+    value: a pinch of black powder
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -50,15 +113,19 @@ sort: 200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557783503
-  modifiedTime: 1733176687434
+  modifiedTime: 1733261373250
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!0iiK3Mrh49SRmQPV'
 

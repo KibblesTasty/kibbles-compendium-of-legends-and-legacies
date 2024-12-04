@@ -3,20 +3,73 @@ type: spell
 _id: hMPjmyR4NqMfsHdL
 img: icons/skills/movement/arrow-upward-yellow.webp
 system:
-  activities: {}
+  activities:
+    h3kdTgl8jSKakvxn:
+      type: save
+      _id: h3kdTgl8jSKakvxn
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create a howling blast of wind, attempting to pull a Huge or
+      smaller creature that you can see within range toward you. The target must
+      succeed a Strength saving throw or be yanked off its feet and pulled to
+      you, landing within 5 feet of you and falling &amp;Reference[prone].
+      Flying creatures make this save at disadvantage.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell lot of 3rd level
+      or higher, the range of the spell increases by 10 feet.</p>
     chat: ''
   identifier: vacuum-pull
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
@@ -30,10 +83,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: 30 + 10 * @scaling.increase
   school: evo
   target:
     template:
@@ -43,22 +99,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: Huge or smaller
 effects: []
 folder: null
 sort: 11000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560848500
-  modifiedTime: 1733176687434
+  modifiedTime: 1733291999524
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!hMPjmyR4NqMfsHdL'
 

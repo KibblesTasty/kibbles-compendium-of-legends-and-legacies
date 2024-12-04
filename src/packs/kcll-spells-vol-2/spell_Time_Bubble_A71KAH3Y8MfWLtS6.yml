@@ -3,13 +3,63 @@ type: spell
 _id: A71KAH3Y8MfWLtS6
 img: icons/magic/time/hourglass-tilted-glowing-gold.webp
 system:
-  activities: {}
+  activities:
+    XkTm6P2LCny39Ke0:
+      type: utility
+      name: Cast
+      _id: XkTm6P2LCny39Ke0
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create a bubble of accelerated time in a 20-foot radius around a
+      point you can see within range. When you cast the spell, initiative
+      (including your current turn) is interrupted, and all creatures within the
+      bubble can take an additional turn immediately (following the initiative
+      order). Nothing inside the bubble can reach outside it or affect creatures
+      outside. Any attacks passing through the bubble miss and any spells
+      passing through it fail. If a creature exits the bubble, its additional
+      turn immediately ends. </p><p>If any creature is only partly within the
+      bubble when you cast the spell, the spell fails.</p><p>After every
+      creature inside the bubble has acted, the spell ends and you resume your
+      turn, with initiative proceeding as normal.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell with a 9th-level spell slot, the
+      creatures inside the bubble take two rounds of turns before the spell
+      ends.</p>
     chat: ''
   identifier: time-bubble
   source:
@@ -20,45 +70,57 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: spec
+    special: ''
   level: 8
   materials:
-    value: ''
+    value: something from the past or future
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '20'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 2400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560673854
-  modifiedTime: 1733176687434
+  modifiedTime: 1733290721441
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!A71KAH3Y8MfWLtS6'
 

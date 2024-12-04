@@ -3,13 +3,130 @@ type: spell
 _id: E3XJzSnAmKvvPfOB
 img: icons/magic/light/explosion-beam-impact-silhouette.webp
 system:
-  activities: {}
+  activities:
+    norwQm3MCozDXsgn:
+      type: heal
+      _id: norwQm3MCozDXsgn
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 4
+        denomination: '8'
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    AUtWDHpg2XY54ydF:
+      type: save
+      _id: AUtWDHpg2XY54ydF
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You call down a spectral angelic avatar which slowly descends from the
+      sky toward a target point within range. The avatar fills a 30-foot-radius,
+      60-foot high cylinder with bright light. When you cast the spell and at
+      the start of your next turn, you can choose to either heal all creatures
+      within the light, restoring 4d8 hit points to creatures of your choice
+      that are not undead or fiends within it, or burn all creatures within the
+      light, forcing each one to make a Constitution saving throw, taking 4d8
+      radiant damage on a failed save or half as much on a success.</p><p> At
+      the start of your turn on the third and final turn of the spell, the
+      spell's effects are doubled, either restoring 8d8 hit points or dealing
+      8d8 radiant damage.</p>
     chat: ''
   identifier: divine-descent
   source:
@@ -20,7 +137,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '3'
   level: 8
   materials:
     value: ''
@@ -30,35 +148,47 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '120'
   school: evo
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '30'
+      height: '60'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 3600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557075901
-  modifiedTime: 1733176687434
+  modifiedTime: 1733260663031
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!E3XJzSnAmKvvPfOB'
 

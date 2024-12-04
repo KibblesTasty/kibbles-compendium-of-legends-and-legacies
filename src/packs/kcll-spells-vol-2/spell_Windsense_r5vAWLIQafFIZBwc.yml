@@ -3,24 +3,67 @@ type: spell
 _id: r5vAWLIQafFIZBwc
 img: icons/magic/perception/eye-ringed-green.webp
 system:
-  activities: {}
+  activities:
+    DgN9lUNdVPMM2TRj:
+      type: utility
+      name: Cast
+      _id: DgN9lUNdVPMM2TRj
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cast your senses out into the wind. Until the start of your next
+      turn, you gain &amp;Reference[blindsight] within 60 feet and have
+      advantage on Wisdom (Perception) checks. Additionally, when you make
+      ranged weapon attacks, you do not require line of sight as long as the
+      target is within your blindsight, and the target does not benefit from
+      cover.</p>
     chat: ''
   identifier: windsense
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 2
   materials:
     value: ''
@@ -30,7 +73,8 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
   range:
     units: self
     special: ''
@@ -50,15 +94,19 @@ sort: 14200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732561076530
-  modifiedTime: 1733176687434
+  modifiedTime: 1733293421973
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!r5vAWLIQafFIZBwc'
 

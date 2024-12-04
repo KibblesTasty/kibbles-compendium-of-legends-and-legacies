@@ -3,13 +3,90 @@ type: spell
 _id: ve07USa0t8CqRq7e
 img: icons/magic/unholy/orb-hands-pink.webp
 system:
-  activities: {}
+  activities:
+    iIijfohnZbg3h7hK:
+      type: save
+      _id: iIijfohnZbg3h7hK
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: kYasTuIZJllIllV7
+          onSave: false
+        - _id: zHo434HtYmtF3QHs
+          onSave: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects:
+        - kYasTuIZJllIllV7
+        - zHo434HtYmtF3QHs
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Your shadow elongates into a horrifying abomination and attempts to
+      consume the shadow of a creature you choose in range. The target must make
+      a Charisma saving throw. On a failure, the target's shadow is devoured. It
+      takes 6d6 necrotic damage and is magically weakened, subtracting 1d4 from
+      its attack rolls, saving throws, and ability checks for the duration, and
+      adding 1d4 to your attack rolls, saving throws, and ability checks for the
+      duration. On a success, the target takes half as much damage and suffers
+      no other effects.</p><p>If either you or the target has no shadow, the
+      spell fails. If the target's shadow is consumed, they have no shadow until
+      the spell ends.</p><p><strong>At Higher Levels.</strong> When you cast
+      this spell with a 5th-level spell slot or higher, you can target an
+      additional creature for each spell slot level above 4th. The bonus you
+      gain from consuming shadows does not increase beyond 1d4, even if you
+      consume multiple shadows.</p>
     chat: ''
   identifier: devour-shadow
   source:
@@ -20,7 +97,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 4
   materials:
     value: ''
@@ -30,10 +108,14 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: nec
   target:
     template:
@@ -42,23 +124,142 @@ system:
       type: ''
     affects:
       choice: false
-      count: ''
-      type: ''
-effects: []
+      count: '@scaling'
+      type: creature
+      special: ''
+effects:
+  - name: Devour Shadow Buff
+    img: icons/magic/unholy/orb-hands-pink.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ve07USa0t8CqRq7e
+    transfer: false
+    _id: kYasTuIZJllIllV7
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.msak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rsak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.mwak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rwak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.abilities.check
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.abilities.save
+        mode: 2
+        value: 1d4
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733260188159
+      modifiedTime: 1733260295551
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!ve07USa0t8CqRq7e.kYasTuIZJllIllV7'
+  - name: Devour Shadow Debuff
+    img: icons/magic/unholy/orb-hands-pink.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ve07USa0t8CqRq7e
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.msak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.rsak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.mwak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.rwak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.abilities.check
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.abilities.save
+        mode: 2
+        value: '-1d4'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733260301985
+      modifiedTime: 1733260317507
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _id: zHo434HtYmtF3QHs
+    _key: '!items.effects!ve07USa0t8CqRq7e.zHo434HtYmtF3QHs'
 folder: null
 sort: 15600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557042767
-  modifiedTime: 1733176687434
+  modifiedTime: 1733260305273
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ve07USa0t8CqRq7e'
 

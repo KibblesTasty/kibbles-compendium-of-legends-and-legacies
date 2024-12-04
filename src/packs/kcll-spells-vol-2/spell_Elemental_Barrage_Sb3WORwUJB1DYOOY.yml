@@ -1,36 +1,83 @@
 name: Elemental Barrage
 type: spell
 _id: Sb3WORwUJB1DYOOY
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/earth/projectile-stone-bullet-pink.webp
 system:
-  activities: {}
+  activities:
+    kz0DNgmno1LMiTu5:
+      type: utility
+      name: Cast
+      _id: kz0DNgmno1LMiTu5
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch of piece of ammunition and infuse it with chaotic elemental
+      power. If that piece of ammunition is fired before the start of your next
+      turn, it transforms into three elemental bolts, one each dealing fire,
+      cold, and lightning damage.</p><p> Make a weapon attack roll for each
+      elemental bolt. You can fire all three at the same target or at different
+      targets within the weapon's range. On a hit, each bolt deals elemental
+      damage equal to the attack's normal damage, but of its elemental damage
+      type.</p>
     chat: ''
   identifier: elemental-barrage
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 2
   materials:
-    value: ''
+    value: a piece of ammunition
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - material
   range:
     units: self
     special: ''
@@ -50,15 +97,19 @@ sort: 7900000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557623253
-  modifiedTime: 1733176687434
+  modifiedTime: 1733261007756
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Sb3WORwUJB1DYOOY'
 

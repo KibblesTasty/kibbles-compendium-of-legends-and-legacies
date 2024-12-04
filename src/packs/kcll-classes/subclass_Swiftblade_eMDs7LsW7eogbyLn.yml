@@ -97,7 +97,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.UONMjAYFak72x81C
+            optional: false
         optional: false
         spell:
           ability: []
@@ -113,7 +116,10 @@ system:
       _id: Mj7fddTdwv0LhLFL
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.Plh223jKRmEmeXq8
+            optional: false
         optional: false
         spell:
           ability: []
@@ -180,9 +186,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.2
   createdTime: 1729045971118
-  modifiedTime: 1731438578314
+  modifiedTime: 1733252743205
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!eMDs7LsW7eogbyLn'
 

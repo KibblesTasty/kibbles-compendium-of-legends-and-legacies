@@ -3,13 +3,134 @@ type: spell
 _id: HAjg30treCfxwJ1i
 img: icons/magic/unholy/beams-impact-pink.webp
 system:
-  activities: {}
+  activities:
+    F9KRt7m33dbvnpPv:
+      type: save
+      _id: F9KRt7m33dbvnpPv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: XJZZZoxWTOOzLVzg
+          onSave: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    8X8CZon0FCNcaEjT:
+      type: damage
+      _id: 8X8CZon0FCNcaEjT
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A wave of necrotic energy pours out from your outstretched hand in a
+      30-foot cone. Each creature in the area must make a Constitution saving
+      throw as it is burned by unholy fire. On a failure, it takes 4d6 necrotic
+      damage and becomes wreathed in black fire for the duration. Once per turn
+      when it is hit by an attack, its wounds flare and it takes an additional
+      1d6 necrotic damage. On a successful save, the target takes half as much
+      damage and is not enveloped in black fire.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 3rd level
+      or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
     chat: ''
   identifier: unholy-wave
   source:
@@ -20,7 +141,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
     value: ''
@@ -30,7 +152,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -39,26 +164,66 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cone
+      size: '30'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
-effects: []
+      type: creature
+      special: ''
+effects:
+  - name: Unholy Wave
+    img: icons/magic/unholy/beams-impact-pink.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.HAjg30treCfxwJ1i
+    transfer: false
+    _id: XJZZZoxWTOOzLVzg
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733291869332
+      modifiedTime: 1733291883286
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!HAjg30treCfxwJ1i.XJZZZoxWTOOzLVzg'
 folder: null
 sort: 4400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560823018
-  modifiedTime: 1733176687434
+  modifiedTime: 1733291920601
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!HAjg30treCfxwJ1i'
 

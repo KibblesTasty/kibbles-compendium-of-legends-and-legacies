@@ -3,13 +3,84 @@ type: spell
 _id: meqFItNOFFbkbgai
 img: icons/magic/earth/projectile-stone-landslide.webp
 system:
-  activities: {}
+  activities:
+    F16xWDyUwlU6qUOW:
+      type: save
+      _id: F16xWDyUwlU6qUOW
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 10
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cause the earth to ripple, triggering an avalanche of rock and
+      stone to surge forward in a line 60 feet long and 15 feet wide. The length
+      of the line is doubled if cast on a steeply sloped surface. Each creature
+      caught in the surging tumble of rocks must make a Dexterity saving throw.
+      On a failure, a creature takes 6d10 bludgeoning damage and is knocked
+      &amp;Reference[prone]. On a failure by 5 or more, it is
+      &amp;Reference[stunned] until the end of its next turn, and on a failure
+      by 10 or more it is moved to the closest free space at the end of the line
+      created by the spell. On a successful save, a creature takes half as much
+      damage and suffers none of the spell’s other effects. The spell creates a
+      15 by 15 foot area of difficult terrain at the end of the line created by
+      the spell.</p><p>At Higher Levels. When you cast this spell using a spell
+      slot of 7th level or higher, the damage increases by 1d10 for each slot
+      level above 6th.</p>
     chat: ''
   identifier: avalanche
   source:
@@ -30,7 +101,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,26 +112,34 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: line
+      size: '60'
+      width: '15'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 12300000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556425466
-  modifiedTime: 1733176687434
+  modifiedTime: 1733254847625
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!meqFItNOFFbkbgai'
 

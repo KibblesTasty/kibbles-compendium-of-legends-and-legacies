@@ -1,15 +1,140 @@
 name: Bile Beam
 type: spell
 _id: GSBuzZo5xEhtkIqT
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/acid/pouring-gas-smoke-liquid.webp
 system:
-  activities: {}
+  activities:
+    WnxoAEuGHld4Jmag:
+      type: save
+      _id: WnxoAEuGHld4Jmag
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 12
+            denomination: 4
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    SWKEBjUkFDKSqHKV:
+      type: damage
+      _id: SWKEBjUkFDKSqHKV
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 4
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You unleash a beam of acid in a line 5 feet wide and 100 feet long,
+      which stops early if it impacts a creature, Large or larger object, or
+      solid surface. If the beam hits a creature, the creature must make a
+      Dexterity saving throw. On a failure, it takes 12d4 acid damage and an
+      additional 4d4 acid damage at the end of its next turn. On a success, it
+      takes half as much initial acid damage and no additional damage.</p><p>If
+      a creature or object is killed or destroyed by the beam, the beam
+      continues until it impacts another creature or object.</p><p><strong>At
+      Higher Levels.</strong> When you cast the spell using a spell slot of 5th
+      level or higher, the initial damage increases by 1d4 for each level above
+      4th.</p>
     chat: ''
   identifier: bile-beam
   source:
@@ -30,7 +155,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -39,7 +167,10 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: line
+      size: '100'
+      width: '5'
+      count: ''
     affects:
       choice: false
       count: ''
@@ -50,15 +181,19 @@ sort: 4100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556505553
-  modifiedTime: 1733176687434
+  modifiedTime: 1733255937736
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GSBuzZo5xEhtkIqT'
 

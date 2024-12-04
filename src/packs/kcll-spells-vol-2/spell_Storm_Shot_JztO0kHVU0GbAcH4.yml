@@ -3,24 +3,154 @@ type: spell
 _id: JztO0kHVU0GbAcH4
 img: icons/magic/water/strike-ice-blade-fang.webp
 system:
-  activities: {}
+  activities:
+    N2HbWRIf3sPCRUsd:
+      type: damage
+      _id: N2HbWRIf3sPCRUsd
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    EzmleGcqlxp7RHms:
+      type: save
+      _id: EzmleGcqlxp7RHms
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: true
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a piece of ammunition or weapon with the thrown property,
+      imbuing it with a crackling storm of power for the duration. The first
+      time you attack with the weapon, it explodes into a raging storm on
+      reaching its destination. On a hit, the target takes an additional 4d8
+      lightning damage. On a miss, the target takes half as much damage.</p><p>
+      Hit or miss, the target and all creatures within 20 feet of it must make a
+      Strength saving throw against the raging storm unleashed by the attack. On
+      a failed, a creature is thrown 20 feet straight up (falling immediately if
+      not otherwise held aloft) and takes 2d8 lightning damage. On a successful
+      save, it is not thrown into the air and takes half as much lightning
+      damage.</p>
     chat: ''
   identifier: storm-shot
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 5
   materials:
     value: ''
@@ -30,9 +160,12 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: trs
   target:
@@ -43,22 +176,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: object
+      special: ''
 effects: []
 folder: null
 sort: 5200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560509431
-  modifiedTime: 1733176687434
+  modifiedTime: 1733289424218
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JztO0kHVU0GbAcH4'
 

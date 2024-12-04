@@ -3,13 +3,95 @@ type: spell
 _id: s2Nft5d4ld1wzBzs
 img: icons/weapons/swords/sword-broad-serrated-blue.webp
 system:
-  activities: {}
+  activities:
+    eS16CRFr92v7kUFy:
+      type: summon
+      _id: eS16CRFr92v7kUFy
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: '@mod'
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: true
+        saves: false
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: 1zFW8HqpIVxBh99w
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.yqDxHTe6zkrppqni
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You bring a Tiny nonmagical object that is not being worn or carried to
+      life. The object uses the following
+      stats:</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.yqDxHTe6zkrppqni]{Dancing
+      Object}</p><p>If the object is a weapon, it deals the weapon’s damage dice
+      + your Spellcasting modifier of the weapon’s damage type instead. The
+      spell can only animate one-handed weapons without the special property
+      this way.</p><p>As a bonus action, you can mentally command the animated
+      object as long as it is within 60 feet of you. You decide what action the
+      creature will take and where it will move during its next turn, or you can
+      issue a general command, such as to guard a particular chamber or
+      corridor. If you issue no commands, the creature only defends itself
+      against hostile creatures. Once given an order, the creature continues to
+      follow it until its task is complete.</p><p> If the object is securely
+      attached to a surface or a larger object, such as a chain bolted to a
+      wall, its speed is 0. It has blindsight with a radius of 30 feet and is
+      blind beyond that distance. When the animated object drops to 0 hit
+      points, it reverts to its original object form, and any remaining damage
+      carries over to its original object form.</p>
     chat: ''
   identifier: dancing-object
   source:
@@ -50,15 +132,19 @@ sort: 14600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556979069
-  modifiedTime: 1733176687434
+  modifiedTime: 1733259807846
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!s2Nft5d4ld1wzBzs'
 

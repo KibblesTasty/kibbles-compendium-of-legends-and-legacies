@@ -3,13 +3,73 @@ type: spell
 _id: S8V8QrGJoW1qtXxX
 img: icons/magic/unholy/orb-stone-pink.webp
 system:
-  activities: {}
+  activities:
+    pdF7dldq5THxBBsR:
+      type: save
+      _id: pdF7dldq5THxBBsR
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You shroud the mind of a creature you can see within range in shadow,
+      twisting its view of the world. The target perceives everything beyond 15
+      feet as wreathed in shadow, indistinct in shape and sound. When the target
+      attempts to target a creature wreathed in shadow with an attack or spell,
+      it must pass a Wisdom saving throw, or it instead targets a random
+      different target within range. When the target becomes able to see a
+      creature that was previously wreathed in shadow, it must pass a Wisdom
+      saving throw, or become &amp;Reference[frightened] of that creature until
+      the start of its next turn.</p><p>At the end of each of the target's
+      turns, it makes a Wisdom saving throw. On a failure, the shadows draw 5
+      feet closer, closing off the distance the target can see clearly. If the
+      target’s entire vision becomes shrouded in shadow (after its third
+      failure), it becomes paralyzed with fear until it succeeds on this save.
+      If the target succeeds on this saving throw, the spell ends.</p>
     chat: ''
   identifier: mounting-paranoia
   source:
@@ -20,7 +80,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 3
   materials:
     value: ''
@@ -30,10 +91,14 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: ill
   target:
     template:
@@ -43,22 +108,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 7700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559415907
-  modifiedTime: 1733176687434
+  modifiedTime: 1733283302256
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!S8V8QrGJoW1qtXxX'
 

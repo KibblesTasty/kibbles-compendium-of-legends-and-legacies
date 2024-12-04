@@ -3,34 +3,88 @@ type: spell
 _id: ncPnLiLE9bBUYs7R
 img: icons/weapons/swords/sword-gold-holy.webp
 system:
-  activities: {}
+  activities:
+    6gvmeqmGpIjrA3mw:
+      type: save
+      _id: 6gvmeqmGpIjrA3mw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You brandish the weapon used in this spell’s casting, holding it aloft
+      as it flashes with brilliant light. Each creature within 20 feet of you
+      must make a Constitution saving throw. On a failure, a creature is
+      &amp;Reference[blinded] until the end of your next turn. On a success, it
+      is blinded until the end of your current turn.</p>
     chat: ''
   identifier: brilliant-blade
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
     units: inst
   level: 3
   materials:
-    value: ''
+    value: a melee weapon worth at least 1 sp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -39,7 +93,9 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '20'
+      count: ''
     affects:
       choice: false
       count: ''
@@ -50,15 +106,19 @@ sort: 12500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556620554
-  modifiedTime: 1733176687434
+  modifiedTime: 1733257990690
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ncPnLiLE9bBUYs7R'
 

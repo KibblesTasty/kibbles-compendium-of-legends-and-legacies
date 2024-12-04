@@ -3,7 +3,7 @@ type: feat
 img: icons/magic/unholy/strike-beam-blood-large-red-purple.webp
 system:
   description:
-    value: "<p>Starting at 1st level, you learn the\_Blood Bolt\_cantrip and gain the following blood magic spells as you level, and can select additional spells from blood magic when you learn new spells.</p><table><thead><tr><th>Occultist Level</th><th>Spells Learned</th></tr></thead><tbody><tr><td>1st</td><td>Crimson Poison, Sense Blood</td></tr><tr><td>3rd</td><td>Compelled Convulsion, Morbid Puppet</td></tr><tr><td>5th</td><td>Blood Explosion, Vampiric Blade</td></tr><tr><td>7th</td><td>Exsanguinate, Macabre Marionette</td></tr><tr><td>9th</td><td>Explode Heart, Life Link</td></tr></tbody></table>"
+    value: "<p>Starting at 1st level, you learn the\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.9GgLfzH08fhCb47o]{Blood Bolt}\_cantrip and gain the following blood magic spells as you level, and can select additional spells from blood magic when you learn new spells.</p><table><thead><tr><th>Occultist Level</th><th>Spells Learned</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.bJ1J7xiKmxmGjp5s]{Crimson Poison}, @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Z8zyFokc1Uicvm8P]{Sense Blood}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Ywbrg3zSxTTGIjqY]{Compelled Convulsion}, @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.cSIG4ABQW9IIsmIM]{Morbid Puppet}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.hrp4QbFEhc6mZQQS]{Corpse Explosion}, @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.JYTzsnZp2sJtVcaq]{Vampiric Blade}</td></tr><tr><td>7th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.zJDJ3CwnwLWhUb0r]{Exsanguinate}, @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.u0TkV2eL0NRHHL3E]{Macabre Marionette}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.pZaYJykZeb9YkpRv]{Explode Heart}, @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.kBeMDWIQ50fx6ALn]{Life Link}</td></tr></tbody></table>"
     chat: ''
   source:
     rules: '2014'
@@ -20,7 +20,51 @@ system:
     subtype: ''
   requirements: Blood Cultist 1
   identifier: blood-casting
-  activities: {}
+  activities:
+    A4rLHgBJQ7Eemuh6:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Ywbrg3zSxTTGIjqY
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: null
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: A4rLHgBJQ7Eemuh6
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
   enchant: {}
   prerequisites:
     level: null
@@ -34,6 +78,10 @@ flags:
       value: true
   core:
     sourceId: Item.l3M3FR30e7dr0YLk
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.l3M3FR30e7dr0YLk
   duplicateSource: null
@@ -41,7 +89,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1727317488489
-  modifiedTime: 1733177334693
+  modifiedTime: 1733252881847
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 30600000

@@ -3,13 +3,81 @@ type: spell
 _id: y6CVFPOfvjt6YZuN
 img: icons/magic/light/projectiles-salvo-teal.webp
 system:
-  activities: {}
+  activities:
+    HORDFfraeeNmP5h4:
+      type: save
+      _id: HORDFfraeeNmP5h4
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create a false sky above you, filled with gleaming stars, which
+      immediately begin to rain down. When you cast the spell, 3 stars
+      immediately fall, with 1 additional star falling at the start of each of
+      your turns for the duration. For each falling star, choose a creature
+      within 60 feet of you. That creature must make a Dexterity saving throw,
+      taking 4d8 radiant damage on a failure or half as much on a success. A
+      creature cannot be targeted by more than one falling star in a turn.
+      </p><p><strong>At Higher Levels.</strong> When you cast this spell using a
+      spell slot of 5th level or higher, the number of stars that fall in the
+      initial cast and on subsequent turns increases by 1 for each slot level
+      above 4th.</p>
     chat: ''
   identifier: starfall
   source:
@@ -20,7 +88,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: ''
   level: 4
   materials:
     value: ''
@@ -30,7 +99,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -39,26 +111,33 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
-    affects:
-      choice: false
+      type: radius
+      size: '60'
       count: ''
-      type: ''
+    affects:
+      choice: true
+      count: 3 + @scaling.increase
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 16200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560395115
-  modifiedTime: 1733176687434
+  modifiedTime: 1733289203298
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!y6CVFPOfvjt6YZuN'
 

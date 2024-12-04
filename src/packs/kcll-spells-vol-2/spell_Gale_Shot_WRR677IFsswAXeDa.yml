@@ -1,38 +1,105 @@
 name: Gale Shot
 type: spell
 _id: WRR677IFsswAXeDa
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/air/fog-gas-smoke-dense-blue.webp
 system:
-  activities: {}
+  activities:
+    07D8etMzfoZpeohR:
+      type: damage
+      _id: 07D8etMzfoZpeohR
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a piece of ammunition or weapon with the thrown property,
+      imbuing it with the power of a hurricane for the duration. The first time
+      you attack with the empowered item, it is propelled with hurricane force.
+      On a hit, the target takes an additional 4d8 damage from the attack and is
+      knocked backwards 30 feet. Any creature the target collides with takes 2d8
+      bludgeoning damage. On a miss, the target takes half as much damage and is
+      not knocked back.</p><p>Once an attack has been made with the piece of
+      ammunition or weapon, the spell ends.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 5th level,
+      the shot deals an additional 1d8 damage and the target is knocked
+      backwards an additional 10 feet. </p>
     chat: ''
   identifier: gale-shot
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
-  level: 1
+    units: round
+    value: '1'
+  level: 4
   materials:
-    value: ''
+    value: a piece of ammunition or a weapon worth at least 1 cp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: evo
   target:
@@ -43,22 +110,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: object
+      special: ''
 effects: []
 folder: null
 sort: 8900000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558021487
-  modifiedTime: 1733176687434
+  modifiedTime: 1733263851446
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!WRR677IFsswAXeDa'
 

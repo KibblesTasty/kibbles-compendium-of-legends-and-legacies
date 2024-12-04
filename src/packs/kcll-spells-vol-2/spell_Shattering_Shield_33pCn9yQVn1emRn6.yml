@@ -3,22 +3,82 @@ type: spell
 _id: 33pCn9yQVn1emRn6
 img: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
 system:
-  activities: {}
+  activities:
+    79HttXexSzgswMG1:
+      type: damage
+      _id: 79HttXexSzgswMG1
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+              - cold
+            scaling:
+              mode: whole
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cause a shield of ice to erupt and block the triggering attack. The
+      attack's damage is reduced by 1d8 + your spellcasting modifier. If the
+      attack damage is not completely blocked, the shield shatters, dealing the
+      amount of blocked damage as cold damage to the attacker. If the shield is
+      not broken, it melts away after blocking the damage.</p><p><strong>At
+      Higher Levels.</strong> When you cast this spell using a spell slot of 3rd
+      level or higher, the amount of damage blocked increases by 1d8 for each
+      slot level above 2nd.</p>
     chat: ''
   identifier: shattering-shield
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: reaction
     value: null
-    condition: ''
+    condition: which you can take when a creature within range is hit by a melee attack
   duration:
     units: inst
   level: 2
@@ -30,10 +90,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: con
   target:
     template:
@@ -43,22 +106,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 900000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560260249
-  modifiedTime: 1733176687434
+  modifiedTime: 1733288538060
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!33pCn9yQVn1emRn6'
 

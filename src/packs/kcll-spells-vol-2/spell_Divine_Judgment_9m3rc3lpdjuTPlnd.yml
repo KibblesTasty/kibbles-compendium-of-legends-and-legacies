@@ -1,15 +1,86 @@
 name: Divine Judgment
 type: spell
 _id: 9m3rc3lpdjuTPlnd
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
-  activities: {}
+  activities:
+    surrEAcwG658sGyW:
+      type: save
+      _id: surrEAcwG658sGyW
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A brilliant sword of radiant energy forms above the target point and
+      slams down in an explosion of divine power. Each creature in a
+      10-foot-radius, 30-foot high cylinder centered on the target point must
+      make a Dexterity saving throw. On a failure, a creature takes 2d8 radiant
+      damage, and 2d8 additional radiant damage if it is an undead or fiend. On
+      a success, it takes half as much damage. </p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 3rd level
+      or higher, the base damage increases by 1d8 for each slot level above
+      2nd.</p><blockquote><h5>Alignment Powers</h5><p>If your DM uses alignment
+      for creatures, they can optionally rule that the bonus damage applies all
+      creature types as long as the creature is of the opposite moral alignment
+      of the caster (evil to good or good to evil). As not all settings use
+      strict alignment, this is a variant rule at the GM’s
+      discretion.</p></blockquote>
     chat: ''
   identifier: divine-judgment
   source:
@@ -30,35 +101,46 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: evo
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '10'
+      height: '30'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 2300000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557092455
-  modifiedTime: 1733176687434
+  modifiedTime: 1733260782834
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9m3rc3lpdjuTPlnd'
 

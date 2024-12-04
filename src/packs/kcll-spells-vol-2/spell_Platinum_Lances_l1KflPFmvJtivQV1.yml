@@ -3,13 +3,79 @@ type: spell
 _id: l1KflPFmvJtivQV1
 img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
-  activities: {}
+  activities:
+    4D2oOZxjLSP7Zmm9:
+      type: save
+      _id: 4D2oOZxjLSP7Zmm9
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 8
+            denomination: 8
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You conjure four giant lances of radiant energy that plummet down at
+      four different points you can see. Each creature in a 10-foot-radius,
+      100-foot-high cylinder centered on each point must make a Dexterity saving
+      throw. </p><p>On a failed save, a creature takes 8d8 radiant damage and is
+      knocked &amp;Reference[prone]. On a successful save, it takes half as much
+      damage and is not knocked prone. A creature in the area of more than one
+      lance is affected only once.</p><p><strong>At Higher Levels.</strong> When
+      you cast this spell using a spell slot of 7th level or higher, the damage
+      increases by 1d8 for each slot level above 6th.</p>
     chat: ''
   identifier: platinum-lances
   source:
@@ -30,35 +96,46 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '150'
   school: evo
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '10'
+      count: '4'
+      height: '100'
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 11700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559491202
-  modifiedTime: 1733176687434
+  modifiedTime: 1733285021908
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!l1KflPFmvJtivQV1'
 

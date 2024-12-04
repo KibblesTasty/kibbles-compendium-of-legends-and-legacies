@@ -3,36 +3,105 @@ type: spell
 _id: Iz0bxGcgMImlATB9
 img: icons/skills/ranged/arrows-flying-salvo-yellow.webp
 system:
-  activities: {}
+  activities:
+    lopsyokNaUr72pFi:
+      type: damage
+      _id: lopsyokNaUr72pFi
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a piece of ammunition or a weapon with the thrown property,
+      conjuring a shadowy duplicate superimposed over it until the end of your
+      next turn. The first time you attack with the empowered item before the
+      end of your next turn, select a second target within the attack's range
+      and make a separate ranged weapon attack. On a hit, the target is struck
+      by the duplicate item and takes 2d8 force damage. This damage roll does
+      not add any modifiers or bonus associated to weapon attacks.</p><p>Once an
+      attack has been made with the piece of ammunition or weapon, the spell
+      ends.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 2nd Level or higher, you can select one additional
+      target for each slot level above 1st.</p>
     chat: ''
   identifier: multishot
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 3
   materials:
-    value: ''
+    value: >-
+      a piece of ammunition or a weapon with the thrown property worth at least
+      1 cp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: trs
   target:
@@ -43,22 +112,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: object
+      special: ''
 effects: []
 folder: null
 sort: 4900000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559427164
-  modifiedTime: 1733176687434
+  modifiedTime: 1733283371286
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Iz0bxGcgMImlATB9'
 

@@ -3,13 +3,145 @@ type: spell
 _id: rRRXZmS6G5hcGxNS
 img: icons/magic/fire/barrier-wall-explosion-orange.webp
 system:
-  activities: {}
+  activities:
+    b6mQyxpgbqk9bafc:
+      type: attack
+      _id: b6mQyxpgbqk9bafc
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: str
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: Strength Attack
+      img: ''
+      appliedEffects: []
+    bGk1G1CW5v1j5yHk:
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: dex
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: Dexterity Attack
+      _id: bGk1G1CW5v1j5yHk
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You flourish the weapon used in the casting and whirl it around,
+      setting it ablaze. Make one weapon attack, applying the roll to each
+      creature within 15 feet. Each target takes 6d6 fire damage on hit, or half
+      as much on a miss. </p><p><strong>At Higher Levels.</strong> When you cast
+      this spell using a spell slot of 4th Level or higher, the damage increases
+      by 1d6 for each slot level above 3rd.</p>
     chat: ''
   identifier: whirling-conflagration
   source:
@@ -23,14 +155,17 @@ system:
     units: inst
   level: 3
   materials:
-    value: ''
+    value: a melee weapon with which you are proficient worth at least 1 sp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -39,7 +174,9 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '15'
+      count: ''
     affects:
       choice: false
       count: ''
@@ -50,15 +187,19 @@ sort: 14400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732561063722
-  modifiedTime: 1733176687434
+  modifiedTime: 1733293104135
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!rRRXZmS6G5hcGxNS'
 

@@ -3,24 +3,70 @@ type: spell
 _id: JQs9Df7SCmizW8Qm
 img: icons/magic/air/wind-vortex-swirl-blue-purple.webp
 system:
-  activities: {}
+  activities:
+    vn3So8BzQ8UYIaz5:
+      type: utility
+      name: Cast
+      _id: vn3So8BzQ8UYIaz5
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: MxGYzDSMUfXJR3Ai
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You become a burst of elemental wind. Until the start of the next turn,
+      you gain the following benefits.</p><ul><li>You gain resistance to
+      lightning damage and bludgeoning, piercing, and slashing damage from
+      nonmagical attacks.</li><li>You gain a flying speed of 30 feet, can move
+      through the space of other creatures, and ignore difficult terrain, but
+      will fall if you are in the air when the spell ends.</li></ul><p>At Higher
+      Levels. When you cast this spell using a spell slot of 3rd level or
+      higher, it lasts for 1 additional round for each level above 2nd.</p>
     chat: ''
   identifier: become-wind
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '@scaling'
   level: 2
   materials:
     value: ''
@@ -30,7 +76,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -43,22 +91,84 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
-effects: []
+      type: self
+      special: ''
+effects:
+  - name: Become Wind
+    img: icons/magic/air/wind-vortex-swirl-blue-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.JQs9Df7SCmizW8Qm
+    transfer: false
+    _id: MxGYzDSMUfXJR3Ai
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '30'
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733255669505
+      modifiedTime: 1733255714629
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!JQs9Df7SCmizW8Qm.MxGYzDSMUfXJR3Ai'
 folder: null
 sort: 5000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556471045
-  modifiedTime: 1733176687434
+  modifiedTime: 1733255860713
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JQs9Df7SCmizW8Qm'
 

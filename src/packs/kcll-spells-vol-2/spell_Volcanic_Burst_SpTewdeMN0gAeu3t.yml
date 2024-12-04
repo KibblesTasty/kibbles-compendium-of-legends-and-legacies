@@ -3,13 +3,94 @@ type: spell
 _id: SpTewdeMN0gAeu3t
 img: icons/magic/earth/lava-explosion-orange.webp
 system:
-  activities: {}
+  activities:
+    qIaHAJHtsT84zHKU:
+      type: save
+      _id: qIaHAJHtsT84zHKU
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 10
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You call fiery forces from below the earth to violently erupt,
+      designating a point you can see within range to explode with magma. The
+      ground in a 10-foot radius around the point explodes in a shower of fire
+      and rock, raining down in a 20-foot radius. Every creature in the 20-foot
+      radius must make a Dexterity saving throw. On a failure, it takes 4d10
+      bludgeoning damage and 4d6 fire damage. If a creature in the inner 10-foot
+      radius fails its save, it is additionally flung 10 feet up into the air,
+      taking normal falling damage (1d6 bludgeoning damage) and falling
+      &amp;Reference[prone] when it lands. On a successful save, a creature
+      takes half damage and suffers no additional effects.</p><p>The inner
+      10-foot radius becomes difficult terrain until cleared by hand. Each
+      5-foot-square portion of the area requires at least 1 minute to clear by
+      hand.</p>
     chat: ''
   identifier: volcanic-burst
   source:
@@ -23,42 +104,53 @@ system:
     units: inst
   level: 6
   materials:
-    value: ''
+    value: a piece of obsidian
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '120'
   school: trs
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '20'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 8000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560945687
-  modifiedTime: 1733176687434
+  modifiedTime: 1733292584918
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!SpTewdeMN0gAeu3t'
 

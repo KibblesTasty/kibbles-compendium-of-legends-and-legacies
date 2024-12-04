@@ -1,15 +1,88 @@
 name: Blastwave
 type: spell
 _id: vZp0ZldA9xJnMfHJ
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/fire/beam-jet-stream-spiral-yellow.webp
 system:
-  activities: {}
+  activities:
+    CT3VH8uczhXhO5kc:
+      type: save
+      _id: CT3VH8uczhXhO5kc
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - thunder
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You unleash a fiery blast of power outward in all directions. Each
+      creature of your choice within 30 feet of you must make a Dexterity saving
+      throw. On a failure, a creature takes 4d8 thunder damage and 4d8 fire
+      damage and is knocked back 10 feet. On a success, it takes half as much
+      and is not knocked back</p>
     chat: ''
   identifier: blastwave
   source:
@@ -30,7 +103,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,26 +114,33 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
-    affects:
-      choice: false
+      type: radius
+      size: '30'
       count: ''
-      type: ''
+    affects:
+      choice: true
+      count: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 15500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556578386
-  modifiedTime: 1733176687434
+  modifiedTime: 1733256795385
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!vZp0ZldA9xJnMfHJ'
 

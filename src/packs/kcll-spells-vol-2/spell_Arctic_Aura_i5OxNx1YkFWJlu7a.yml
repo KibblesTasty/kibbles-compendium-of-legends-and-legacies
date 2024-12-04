@@ -3,13 +3,117 @@ type: spell
 _id: i5OxNx1YkFWJlu7a
 img: icons/magic/water/snowflake-ice-snow-white.webp
 system:
-  activities: {}
+  activities:
+    AQjslmRN8DFcRZhw:
+      type: utility
+      name: Cast
+      _id: AQjslmRN8DFcRZhw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    cVXPaxZdUqBUq1eV:
+      type: save
+      _id: cVXPaxZdUqBUq1eV
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
+            types: []
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>For the duration you unleash a freezing aura. Any creature starting its
+      turn within 20 feet of you must make a Constitution saving throw. On a
+      failure, it takes 2d8 cold damage and its speed is reduced to 0 until the
+      start of its next turn. On a success, a creature takes half as much damage
+      and its speed halved. </p><p>As a bonus action on each of your turns for
+      the duration, you can actively control the aura, excluding a number of
+      creatures in the area up to your spellcasting modifier from the effects
+      until the end of your next turn. </p><p><strong>At Higher Levels.</strong>
+      When you cast this spell using a spell slot of 4th level or higher, the
+      damage increases by 1d8 for each slot level above 3rd.</p>
     chat: ''
   identifier: arctic-aura
   source:
@@ -20,7 +124,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 3
   materials:
     value: ''
@@ -30,7 +135,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -39,26 +147,33 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
-    affects:
-      choice: false
+      type: radius
+      size: '20'
       count: ''
-      type: ''
+    affects:
+      choice: true
+      count: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 11200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556410799
-  modifiedTime: 1733176687434
+  modifiedTime: 1733254766945
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!i5OxNx1YkFWJlu7a'
 

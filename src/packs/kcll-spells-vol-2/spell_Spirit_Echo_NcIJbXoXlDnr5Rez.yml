@@ -3,24 +3,66 @@ type: spell
 _id: NcIJbXoXlDnr5Rez
 img: icons/creatures/magical/spirit-undead-ghost-purple.webp
 system:
-  activities: {}
+  activities:
+    7bKymRSGYkOHKAhe:
+      type: utility
+      name: Cast
+      _id: 7bKymRSGYkOHKAhe
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You summon a ghostly echo of yourself. It shares your space and acts
+      automatically, mirroring your actions. The first time on your turn you
+      make a weapon attack, it attacks the same target. It makes a separate
+      attack roll using your attack modifier. On a hit, roll your attack's
+      normal damage; the target takes force damage equal to half the result.</p>
     chat: ''
   identifier: spirit-echo
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
     value: ''
@@ -30,7 +72,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -50,15 +95,19 @@ sort: 6300000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560342562
-  modifiedTime: 1733176687434
+  modifiedTime: 1733288814887
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!NcIJbXoXlDnr5Rez'
 

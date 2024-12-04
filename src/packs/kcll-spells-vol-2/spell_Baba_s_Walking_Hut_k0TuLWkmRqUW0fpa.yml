@@ -3,36 +3,153 @@ type: spell
 _id: k0TuLWkmRqUW0fpa
 img: icons/environment/settlement/house-poles.webp
 system:
-  activities: {}
+  activities:
+    FSwklXiinXeT3hIe:
+      type: utility
+      _id: FSwklXiinXeT3hIe
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Cast
+      img: ''
+      appliedEffects: []
+    Xb1Asr5p3kobHxO7:
+      type: save
+      _id: Xb1Asr5p3kobHxO7
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 10
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a hut, cabin, or other building no more than 15 feet by 15
+      feet by 10 feet. On completion of the spell, the building grows legs large
+      enough to support it, as well as the structural integrity needed stand and
+      move, and becomes a gargantuan creature. It has 250 hit points, an AC of
+      12, and a walking speed of 20 feet. If it drops to 0 hit points, the spell
+      ends.</p><p>On your turn, you can direct it to move (no action required)
+      and it will continue to move as directed until you direct it to stop or
+      reaches its destination. It can take no actions, but if it walks over a
+      Large or smaller creature, you can direct it to attempt to step on that
+      creature, and that creature must succeed a Dexterity saving throw, or take
+      2d10 bludgeoning damage and be knocked &amp;Reference[prone].</p><p>If you
+      cast this spell on the same building every day for a year, the spell lasts
+      until dispelled, or you cast it on another building.</p>
     chat: ''
   identifier: babas-walking-hut
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
-    value: null
+    type: minute
+    value: 10
     condition: ''
   duration:
-    units: inst
+    units: hour
+    value: '24'
   level: 6
   materials:
-    value: ''
+    value: a chicken leg
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: trs
   target:
@@ -50,15 +167,19 @@ sort: 11300000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556440100
-  modifiedTime: 1733176687434
+  modifiedTime: 1733254968139
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!k0TuLWkmRqUW0fpa'
 

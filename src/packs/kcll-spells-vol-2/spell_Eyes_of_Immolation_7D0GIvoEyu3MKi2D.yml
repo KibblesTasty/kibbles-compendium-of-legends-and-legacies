@@ -3,13 +3,135 @@ type: spell
 _id: 7D0GIvoEyu3MKi2D
 img: icons/magic/fire/flame-burning-eye.webp
 system:
-  activities: {}
+  activities:
+    nliYfDEHHckexjyf:
+      type: save
+      _id: nliYfDEHHckexjyf
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: JEsVhFtQ864yvXIj
+          onSave: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    7ySMSZA7EC2DhzbP:
+      type: damage
+      _id: 7ySMSZA7EC2DhzbP
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Your eyes glow with fiery light before focusing on a creature you can
+      see within range, causing a beam of fire to shoot from your eyes. The
+      target creature must make a Dexterity saving throw. On a failed save, it
+      takes 3d6 fire damage and is set ablaze, taking 1d6 damage at the end of
+      each of its turns until it or another creature within 5 feet of it spends
+      an action to douse the flames. On a successful save, the creature takes
+      half as much damage and is not set ablaze. </p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 2nd level
+      or higher, the initial damage increases by 1d6 for each slot level above
+      1st.</p>
     chat: ''
   identifier: eyes-of-immolation
   source:
@@ -30,10 +152,12 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '30'
   school: evo
   target:
     template:
@@ -43,22 +167,60 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
-effects: []
+      type: creature
+      special: ''
+effects:
+  - name: Eyes of Immolation
+    img: icons/magic/fire/flame-burning-eye.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.7D0GIvoEyu3MKi2D
+    transfer: false
+    _id: JEsVhFtQ864yvXIj
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733261444789
+      modifiedTime: 1733261444789
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!7D0GIvoEyu3MKi2D.JEsVhFtQ864yvXIj'
 folder: null
 sort: 1800000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557703093
-  modifiedTime: 1733176687434
+  modifiedTime: 1733261473160
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!7D0GIvoEyu3MKi2D'
 

@@ -3,13 +3,173 @@ type: spell
 _id: DO6Z4UTztVyQxH2X
 img: icons/magic/fire/projectile-feathers-embers-gold.webp
 system:
-  activities: {}
+  activities:
+    7aRGP9JalsQxWJJa:
+      type: utility
+      name: Cast
+      _id: 7aRGP9JalsQxWJJa
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    Q6fCHikBzTGooelX:
+      type: save
+      _id: Q6fCHikBzTGooelX
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 8
+            denomination: 6
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    DxkzTMhfj4xEy3c9:
+      type: heal
+      _id: DxkzTMhfj4xEy3c9
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 8
+        denomination: '6'
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You place an ember of divine flame within a creature, which lies
+      dormant until it is triggered. It activates if its carrier is reduced to 0
+      hit points or uses its bonus action to activate it.</p><p> When the ember
+      is activated, it explodes, causing all creatures within 20 feet except the
+      carrier to make a Dexterity saving throw. On a failure, a creature takes
+      8d6 radiant damage. On a success, it takes half as much damage. The
+      ember's carrier regains 8d6 hit points.</p>
     chat: ''
   identifier: final-flame
   source:
@@ -20,19 +180,23 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: hour
+    value: '8'
   level: 6
   materials:
-    value: ''
+    value: a phoenix's feather
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: evo
   target:
@@ -43,22 +207,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 3300000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557827973
-  modifiedTime: 1733176687434
+  modifiedTime: 1733261730030
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!DO6Z4UTztVyQxH2X'
 

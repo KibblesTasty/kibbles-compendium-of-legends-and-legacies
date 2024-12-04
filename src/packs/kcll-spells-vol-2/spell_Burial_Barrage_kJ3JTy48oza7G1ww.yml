@@ -3,13 +3,85 @@ type: spell
 _id: kJ3JTy48oza7G1ww
 img: icons/magic/earth/projectiles-stone-salvo.webp
 system:
-  activities: {}
+  activities:
+    DDrnvDyZO30xd8Hv:
+      type: attack
+      _id: DDrnvDyZO30xd8Hv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 12
+            bonus: '1'
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You unearth five heavy chunks of earth or stone and hurl them at
+      targets within range. You can hurl them at one target or several. Make a
+      ranged spell attack for each hurled object. On a hit, a target takes 1d12
+      + 1 bludgeoning damage, and if it is Large or smaller, falls
+      &amp;Reference[prone]. Attacks made as part of this spell have advantage
+      against prone targets, and ignore disadvantage for making a ranged attack
+      against a prone target farther than 5 feet away.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 6th level
+      or higher, you can hurl one additional object for each slot level above
+      5th.</p>
     chat: ''
   identifier: burial-barrage
   source:
@@ -30,10 +102,13 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
@@ -43,22 +118,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creatureOrObject
+      special: ''
 effects: []
 folder: null
 sort: 11400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556625627
-  modifiedTime: 1733176687434
+  modifiedTime: 1733258099430
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!kJ3JTy48oza7G1ww'
 

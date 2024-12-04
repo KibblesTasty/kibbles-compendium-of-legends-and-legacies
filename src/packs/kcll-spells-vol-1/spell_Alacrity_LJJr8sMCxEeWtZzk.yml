@@ -138,10 +138,15 @@ system:
     width: null
     units: ''
     type: self
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: self
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -242,7 +247,7 @@ _stats:
   systemVersion: 4.1.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733018822606
+  modifiedTime: 1733287977834
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.coP7ErmmTpTuxEfT
   duplicateSource: null

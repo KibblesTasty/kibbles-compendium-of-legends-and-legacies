@@ -104,7 +104,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.ktifg3gQ8Miqojlu
+            optional: false
         optional: false
         spell:
           ability: []
@@ -120,7 +123,10 @@ system:
       _id: VTY77x7IhFaXnXFE
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.X40fTEW2n7ePJo6u
+            optional: false
         optional: false
         spell:
           ability: []
@@ -136,7 +142,10 @@ system:
       _id: mMj89RMteBxAZERN
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.Lluh6hC5E4EnweQN
+            optional: false
         optional: false
         spell:
           ability: []
@@ -152,7 +161,10 @@ system:
       _id: jGomefOoAb9l0YDG
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.q8JSgTKqjWxVYDwU
+            optional: false
         optional: false
         spell:
           ability: []
@@ -183,9 +195,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.2
   createdTime: 1729046022535
-  modifiedTime: 1731450688393
+  modifiedTime: 1733252710484
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!v27jyazCbdD70kKB'
 

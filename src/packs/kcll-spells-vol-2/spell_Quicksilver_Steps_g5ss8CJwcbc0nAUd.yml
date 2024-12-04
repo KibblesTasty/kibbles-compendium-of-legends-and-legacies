@@ -3,13 +3,59 @@ type: spell
 _id: g5ss8CJwcbc0nAUd
 img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 system:
-  activities: {}
+  activities:
+    7Ck0vnEDQKIPx6kr:
+      type: utility
+      name: Cast
+      _id: 7Ck0vnEDQKIPx6kr
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You lighten your own steps with a spell of effortless quickness. For
+      the duration of the spell, your movement does not provoke attacks of
+      opportunity. When another creature you can see or hear ends its turn, you
+      can move up to 10 feet (no action required). You can move in this way up
+      to 4 times, regaining all uses at the start of your next turn. The first
+      attack against you after each movement is made at
+      disadvantage.</p><p><strong>At Higher Levels.</strong> When you cast this
+      spell using a spell slot of 5th level or higher, the number of times you
+      can move at the end of another creature’s turn increases by 1 for each
+      slot level above 4th.</p>
     chat: ''
   identifier: quicksilver-steps
   source:
@@ -20,7 +66,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 4
   materials:
     value: ''
@@ -30,7 +77,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -43,22 +93,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: self
+      special: ''
 effects: []
 folder: null
 sort: 10700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560105783
-  modifiedTime: 1733176687434
+  modifiedTime: 1733286877001
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!g5ss8CJwcbc0nAUd'
 

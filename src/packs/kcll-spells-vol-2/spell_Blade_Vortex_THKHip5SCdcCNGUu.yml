@@ -1,15 +1,112 @@
 name: Blade Vortex
 type: spell
 _id: THKHip5SCdcCNGUu
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/skills/melee/strikes-sword-triple-gray.webp
 system:
-  activities: {}
+  activities:
+    vq9sHrZcchP5CCNz:
+      type: utility
+      name: Cast
+      _id: vq9sHrZcchP5CCNz
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    eo2lcy3k97kxgWJE:
+      type: damage
+      _id: eo2lcy3k97kxgWJE
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 4
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You fill the air in a 10-foot radius around you with spinning blades
+      until the start of your next turn. When the creature enters the area for
+      the first time on a turn or starts its turn there, it takes 4d4 slashing
+      damage. Until the spell ends, you have half cover against all ranged
+      attacks.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 4th level higher, the damage increases by 1d4 for
+      each level above 3rd.</p>
     chat: ''
   identifier: blade-vortex
   source:
@@ -20,17 +117,21 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 3
   materials:
-    value: ''
+    value: a spinning top
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
     units: self
     special: ''
@@ -39,7 +140,9 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '10'
+      count: ''
     affects:
       choice: false
       count: ''
@@ -50,15 +153,19 @@ sort: 8100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556573252
-  modifiedTime: 1733176687434
+  modifiedTime: 1733256700376
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!THKHip5SCdcCNGUu'
 

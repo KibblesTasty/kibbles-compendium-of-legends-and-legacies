@@ -3,20 +3,83 @@ type: spell
 _id: ODXTV1tFPJc7ZPRW
 img: icons/skills/movement/arrow-upward-yellow.webp
 system:
-  activities: {}
+  activities:
+    02cI4eUS7xhPNAMQ:
+      type: save
+      _id: 02cI4eUS7xhPNAMQ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>Fueled by a burst of divine strength, you move up to 20 feet in a
+      straight line in a swift burst of movement. If you collide with a
+      creature, the charge ends early, and the creature must make a Strength
+      saving throw. On a failure, it takes 2d6 radiant damage and is knocked
+      &amp;Reference[prone]. On a success, it takes half as much damage and is
+      not knocked prone.</p>
     chat: ''
   identifier: sanctified-charge
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
@@ -30,7 +93,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,26 +104,34 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: line
+      size: '20'
+      width: '5'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 6400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560187039
-  modifiedTime: 1733176687434
+  modifiedTime: 1733288211722
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ODXTV1tFPJc7ZPRW'
 

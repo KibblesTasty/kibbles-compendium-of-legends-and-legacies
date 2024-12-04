@@ -3,13 +3,108 @@ type: spell
 _id: gZqLxUywvS48bsXx
 img: icons/magic/fire/barrier-wall-flame-ring-blue.webp
 system:
-  activities: {}
+  activities:
+    nRi5dxQ6GtdfuYXz:
+      type: utility
+      name: Cast
+      _id: nRi5dxQ6GtdfuYXz
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    Nw0PjyRj7rbBDvR6:
+      type: damage
+      _id: Nw0PjyRj7rbBDvR6
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You shroud a target in a luminous ethereal shroud which reacts
+      violently to the presence of magic. For the duration, if the target casts
+      a spell, it takes 2d4 force damage. This damage increases by 1d4 for each
+      spell level of the spell cast (no additional damage for cantrips).
+      </p><p>Additionally, if the target ends its turn while concentrating on a
+      spell, it takes 1d4 force damage.</p>
     chat: ''
   identifier: ethereal-immolation
   source:
@@ -20,7 +115,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
     value: ''
@@ -30,10 +126,14 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '120'
   school: evo
   target:
     template:
@@ -43,22 +143,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 10800000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557678921
-  modifiedTime: 1733176687434
+  modifiedTime: 1733261113692
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!gZqLxUywvS48bsXx'
 

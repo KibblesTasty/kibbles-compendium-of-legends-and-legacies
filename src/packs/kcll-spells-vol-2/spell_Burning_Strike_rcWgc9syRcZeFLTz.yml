@@ -3,36 +3,162 @@ type: spell
 _id: rcWgc9syRcZeFLTz
 img: icons/magic/fire/projectile-bolt-zigzag-orange.webp
 system:
-  activities: {}
+  activities:
+    VcD1f0jirkZRwbnq:
+      type: damage
+      _id: VcD1f0jirkZRwbnq
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: Vmx4p8MDeSSzNbD8
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 4
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: Initial Damage
+      img: ''
+      appliedEffects: []
+    lkasjbuRoOOswoQZ:
+      type: damage
+      name: Ongoing Damage
+      _id: lkasjbuRoOOswoQZ
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a weapon or a piece of ammunition, imbuing it with licking
+      flames. The next time you attack with the empowered item, it bursts into
+      brilliant fire. On a hit, the target takes an additional 4d4 fire damage
+      and begins to burn. On a miss, the target takes half as much damage and
+      does not start to burn. A burning target sheds bright light in a 10-foot
+      radius and dim light for an additional 10 feet, and takes 1d4 fire damage
+      at the end of each of its turns. The target or another creature within 5
+      feet can use an action to extinguish the flames.</p><p>If you target a
+      weapon with the light property, you can immediately make a single weapon
+      attack with it as part of the same action as casting the spell. Once you
+      make one attack with the targeted item, the spell ends.</p><p><strong>At
+      Higher Levels.</strong> When you cast this spell using a spell slot of 3rd
+      level or higher, both the initial and ongoing burn damage are increased by
+      1d4 damage.</p>
     chat: ''
   identifier: burning-strike
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 2
   materials:
-    value: ''
+    value: a piece of ammunition or a weapon worth at least 1 cp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: trs
   target:
@@ -44,21 +170,58 @@ system:
       choice: false
       count: ''
       type: ''
-effects: []
+effects:
+  - name: Burning Strike
+    img: icons/magic/fire/projectile-bolt-zigzag-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.rcWgc9syRcZeFLTz
+    transfer: false
+    _id: Vmx4p8MDeSSzNbD8
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733258292003
+      modifiedTime: 1733258292003
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!rcWgc9syRcZeFLTz.Vmx4p8MDeSSzNbD8'
 folder: null
 sort: 14500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556632123
-  modifiedTime: 1733176687434
+  modifiedTime: 1733258292037
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!rcWgc9syRcZeFLTz'
 

@@ -3,13 +3,113 @@ type: spell
 _id: qxxgJ27cfIEc5ZEP
 img: icons/magic/light/explosion-beam-impact-silhouette.webp
 system:
-  activities: {}
+  activities:
+    97XcflxEbchJav3s:
+      type: utility
+      name: Activate
+      _id: 97XcflxEbchJav3s
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    QKi12NIePy9wbuD5:
+      type: damage
+      _id: QKi12NIePy9wbuD5
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You tap directly into the arcane weave. For the duration, you have
+      resistance to all damage from magical sources besides force damage.</p><p>
+      At the start of each of your turns while tapped into this power, you and
+      all creatures with 5 feet of you take 1d6 Force damage. The damage
+      increases by 1d6 each turn to a maximum of 4d6 damage.</p>
     chat: ''
   identifier: arcane-conduit
   source:
@@ -20,7 +120,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
     value: ''
@@ -30,7 +131,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -50,15 +154,19 @@ sort: 14100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556388652
-  modifiedTime: 1733176687434
+  modifiedTime: 1733254179461
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!qxxgJ27cfIEc5ZEP'
 

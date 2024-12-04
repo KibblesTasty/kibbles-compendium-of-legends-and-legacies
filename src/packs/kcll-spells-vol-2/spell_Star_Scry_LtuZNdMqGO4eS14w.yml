@@ -3,24 +3,78 @@ type: spell
 _id: LtuZNdMqGO4eS14w
 img: icons/magic/light/explosion-star-glow-blue-purple.webp
 system:
-  activities: {}
+  activities:
+    2HOZQMYRGRdh8DwI:
+      type: check
+      _id: 2HOZQMYRGRdh8DwI
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - navg
+        dc:
+          calculation: ''
+          formula: '10'
+        ability: int
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You describe a location, person, or object during the casting of the
+      spell. Afterward, an illusion of a starry night sky forms above your head,
+      showing the night sky at midnight above the target. You can then make an
+      Intelligence (Navigator’s Tools) check to determine the general region of
+      the described target. The DC is 10 if you’ve been to the area before, 15
+      if you’ve been within 100 miles, and 20 if you’ve never been within 100
+      miles of the location. </p><p>The spell fails if you give an inaccurate
+      description or false name for the target, or if you cast it on the same
+      target more than once within 24 hours.</p>
     chat: ''
   identifier: star-scry
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
-    value: null
+    type: minute
+    value: 1
     condition: ''
   duration:
     units: inst
+    value: '1'
   level: 2
   materials:
     value: ''
@@ -30,7 +84,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,7 +95,9 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '60'
+      count: ''
     affects:
       choice: false
       count: ''
@@ -50,15 +108,19 @@ sort: 5500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560409490
-  modifiedTime: 1733176687434
+  modifiedTime: 1733289082384
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!LtuZNdMqGO4eS14w'
 

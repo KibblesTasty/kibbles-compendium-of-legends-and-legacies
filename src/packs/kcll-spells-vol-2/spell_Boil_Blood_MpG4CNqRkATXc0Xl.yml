@@ -3,13 +3,80 @@ type: spell
 _id: MpG4CNqRkATXc0Xl
 img: icons/magic/death/skull-fire-white-yellow.webp
 system:
-  activities: {}
+  activities:
+    WayimFHnwEsUDcIW:
+      type: save
+      _id: WayimFHnwEsUDcIW
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 4
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 2
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You point at a creature that has taken slashing or piercing damage
+      within the last minute and make its blood heat to boiling. The target must
+      succeed on a Constitution saving throw or its blood overheats. At the
+      start of each of its turns, it takes 3d4 fire damage and is crippled with
+      agony, turning all terrain into difficult terrain for it.</p><p>At the end
+      of each of its turns, the target can make another Constitution saving
+      throw. On a success, the spell ends on the target.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 3rd level
+      or higher, the damage increases by 2d4 for each slot level above 2nd.</p>
     chat: ''
   identifier: boil-blood
   source:
@@ -20,7 +87,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
     value: ''
@@ -30,10 +98,14 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: nec
   target:
     template:
@@ -43,22 +115,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: that has taken slashing or piercing damage within the last minute
 effects: []
 folder: null
 sort: 5800000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556594750
-  modifiedTime: 1733176687434
+  modifiedTime: 1733257838285
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!MpG4CNqRkATXc0Xl'
 

@@ -3,13 +3,59 @@ type: spell
 _id: 1OFWgeEdSf4I4cCC
 img: icons/magic/death/bones-crossed-gray.webp
 system:
-  activities: {}
+  activities:
+    Tj76L740Bk1Z7ivh:
+      type: utility
+      name: Cast
+      _id: Tj76L740Bk1Z7ivh
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cause a series of giant bones to burst from the earth around a
+      point you can see on the ground within range. The bones form a dome in a
+      10-foot radius around the target point. Small or larger creatures cannot
+      pass through the cage, and attacks that deal bludgeoning or slashing
+      damage cannot be made through it. The cage functions as half cover against
+      other attacks or spells that pass through it.</p><p>The cage has 40 hit
+      points, AC 13, and is vulnerable to bludgeoning damage. If it is reduced
+      to 0 hit points, it crumbles to dust and the spell ends.</p><p><strong>At
+      Higher Levels.</strong> When cast with a 5th level or higher spell slot,
+      the cage has an additional 10 hit points for each level above 4th.</p>
     chat: ''
   identifier: ribcage
   source:
@@ -20,45 +66,58 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 4
   materials:
-    value: ''
+    value: a rib bone
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: nec
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '10'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560158703
-  modifiedTime: 1733176687434
+  modifiedTime: 1733287821104
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!1OFWgeEdSf4I4cCC'
 

@@ -101,6 +101,119 @@ system:
       title: Occult Tradition Feature
       hint: ''
       _id: Iy2K9U5ifv6fLxBR
+    - _id: qVDsw4blFTqyqSLK
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.9GgLfzH08fhCb47o
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.bJ1J7xiKmxmGjp5s
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Z8zyFokc1Uicvm8P
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 1
+      title: Blood Casting
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Ywbrg3zSxTTGIjqY
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.cSIG4ABQW9IIsmIM
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Blood Casting
+      hint: ''
+      _id: YQlTYcqmkbTdsUkg
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.hrp4QbFEhc6mZQQS
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.JYTzsnZp2sJtVcaq
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Blood Casting
+      hint: ''
+      _id: 7TZC6qaw0RQ6Ijn3
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.zJDJ3CwnwLWhUb0r
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.u0TkV2eL0NRHHL3E
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Blood Casting
+      hint: ''
+      _id: fzVo6VEGHFALt2xt
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.pZaYJykZeb9YkpRv
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.kBeMDWIQ50fx6ALn
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Blood Casting
+      hint: ''
+      _id: L7n4bwB9wejXBewH
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -120,7 +233,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1729045744644
-  modifiedTime: 1733114747860
+  modifiedTime: 1733252906091
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9RTUgL0blhULQ54Q'
 

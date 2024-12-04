@@ -3,36 +3,104 @@ type: spell
 _id: S51UIPG9tcuGYj50
 img: icons/skills/ranged/arrow-flying-white-blue.webp
 system:
-  activities: {}
+  activities:
+    rOxKXFMsL0wK4Wqv:
+      type: damage
+      _id: rOxKXFMsL0wK4Wqv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 8
+            bonus: '3'
+            types:
+              - bludgeoning
+              - piercing
+              - slashing
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a piece of ammunition or a weapon with the thrown property,
+      granting it a razor-sharp edge. The first time a creature attacks with the
+      empowered item, it adds +3 to its attack and damage rolls, and ignores all
+      resistances and immunities to the weapon's damage type. On a hit, the
+      creature takes 6d8 additional damage. If this damage reduces the target to
+      0 hit points, it receives a mortal wound and immediately dies.</p><p> Once
+      an attack has been made with the piece of ammunition or weapon, the spell
+      ends.</p>
     chat: ''
   identifier: vorpal-shot
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 5
   materials:
-    value: ''
+    value: >-
+      a piece of ammunition or a weapon with the thrown property worth at least
+      1 cp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: trs
   target:
@@ -43,22 +111,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: object
+      special: ''
 effects: []
 folder: null
 sort: 7600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560956754
-  modifiedTime: 1733176687434
+  modifiedTime: 1733292678901
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!S51UIPG9tcuGYj50'
 

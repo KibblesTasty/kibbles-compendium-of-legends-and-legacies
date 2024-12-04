@@ -101,7 +101,10 @@ system:
       hint: ''
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.dZPVQ0mLpEjsaVFj
+            optional: false
         optional: false
         spell:
           ability: []
@@ -135,7 +138,10 @@ system:
       _id: LQnMuFvXmfC8pGCg
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.osUsK9fweTuRcFqW
+            optional: false
         optional: false
         spell:
           ability: []
@@ -151,7 +157,10 @@ system:
       _id: LssxVLKwsIXeBtXt
     - type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.0na17bsIHn4Gcjbj
+            optional: false
         optional: false
         spell:
           ability: []
@@ -195,9 +204,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.0
+  systemVersion: 4.1.2
   createdTime: 1729046006807
-  modifiedTime: 1731442723064
+  modifiedTime: 1733252680611
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!kAEqwYVcRc5j3DLF'
 

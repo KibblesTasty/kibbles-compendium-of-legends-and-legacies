@@ -3,13 +3,59 @@ type: spell
 _id: zmyvKVMqKYGtGb3p
 img: icons/magic/time/hourglass-tilted-gray.webp
 system:
-  activities: {}
+  activities:
+    pR2NCR0teEUmqdur:
+      type: utility
+      name: Cast
+      _id: pR2NCR0teEUmqdur
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You place a temporal marker on an object. For the duration, you can
+      activate that marker, bringing the object to your hand and calling it
+      forward in time from the moment you cast the spell. When you do so, the
+      current timeline is unaltered, except that the object disappears from its
+      present location. </p><p>The object appears in the its exact state from
+      the time the spell was cast, including its condition, charges, and other
+      properties. The object appears even if it has been consumed or destroyed
+      in the intervening time.</p><p>You can only have one object anchored to
+      you at a time. Once this spell has been cast on an object, it can never be
+      cast on the same object again.</p>
     chat: ''
   identifier: time-anchor
   source:
@@ -20,20 +66,25 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: year
+    value: '1'
   level: 8
   materials:
-    value: ''
+    value: a shattered hourglass
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: trs
   target:
     template:
@@ -50,15 +101,19 @@ sort: 17000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560661427
-  modifiedTime: 1733176687434
+  modifiedTime: 1733290591634
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zmyvKVMqKYGtGb3p'
 

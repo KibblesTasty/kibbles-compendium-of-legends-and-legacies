@@ -3,13 +3,78 @@ type: spell
 _id: lvmMBFGkDzDtNvIR
 img: icons/weapons/swords/greatsword-evil-green.webp
 system:
-  activities: {}
+  activities:
+    6Qnh0CvUAFR1FpV7:
+      type: save
+      _id: 6Qnh0CvUAFR1FpV7
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 10
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>A rain of swords begins to fall in a 20-foot-radius, 40-foot high
+      cylinder centered on a point within range. Any creatures starting its turn
+      in the area or entering it for the first time on its turn must make a
+      Dexterity saving throw. On a failure, it takes 6d10 slashing damage. On a
+      success, it takes half as much damage.</p><p>The swords are stuck upright
+      in the ground and can be removed and used by anyone within 5 feet of the
+      spell's area, functioning as nonmagical longswords. They vanish when the
+      spell ends.</p>
     chat: ''
   identifier: rain-of-swords
   source:
@@ -20,8 +85,9 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
-  level: 3
+    units: minute
+    value: '1'
+  level: 7
   materials:
     value: ''
     consumed: false
@@ -30,35 +96,47 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
-  school: con
+    value: '120'
+  school: evo
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '20'
+      height: '40'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 12200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560118832
-  modifiedTime: 1733176687434
+  modifiedTime: 1733287008857
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!lvmMBFGkDzDtNvIR'
 

@@ -3,13 +3,103 @@ type: spell
 _id: GnlaegZCh2yFvu0t
 img: icons/magic/light/explosion-star-glow-orange.webp
 system:
-  activities: {}
+  activities:
+    0iqwvsaRUQmxHREg:
+      type: utility
+      name: Cast
+      _id: 0iqwvsaRUQmxHREg
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    YEnCbVhxWAWr4ORq:
+      type: save
+      _id: YEnCbVhxWAWr4ORq
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You are bathed in holy light, shedding bright light up to 30 feet and
+      dim light for additional 30 feet.</p><p>Any creature that targets you with
+      an attack roll or spell that requires them to see you must make a
+      Constitution saving throw. On a failure, they are &amp;Reference[blinded]
+      until the start of their next turn. A creature with darkvision makes this
+      roll with disadvantage. A creature without eyes automatically passes their
+      saving throw.</p>
     chat: ''
   identifier: blazing-beacon
   source:
@@ -20,7 +110,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
     value: ''
@@ -30,7 +121,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -43,22 +137,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: self
+      special: ''
 effects: []
 folder: null
 sort: 4200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556584044
-  modifiedTime: 1733176687434
+  modifiedTime: 1733257325530
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GnlaegZCh2yFvu0t'
 

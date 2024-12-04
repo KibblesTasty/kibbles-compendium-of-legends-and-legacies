@@ -3,13 +3,56 @@ type: spell
 _id: 8HFo5jn3bUJYhXi3
 img: icons/magic/time/clock-stopwatch-white-blue.webp
 system:
-  activities: {}
+  activities:
+    LWfPzaasxJ7hiLkF:
+      type: utility
+      name: Cast
+      _id: LWfPzaasxJ7hiLkF
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a willing creature, sending it six seconds into the future.
+      The target vanishes, reappearing at the same location (or the nearest
+      unoccupied space) at the start of its next turn. </p><p><strong>At Higher
+      Levels.</strong> When you cast this spell with a spell slot of 3rd level
+      or higher, the duration increases by 1 additional round for each slot
+      level above 2nd. If you cast this spell with a 9th-level spell slot, the
+      duration increases to 24 hours.</p>
     chat: ''
   identifier: time-skip
   source:
@@ -20,19 +63,23 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '@scaling'
   level: 2
   materials:
-    value: ''
+    value: a small symbol made up of two connected triangles
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: trs
   target:
@@ -43,22 +90,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: willing
+      special: ''
 effects: []
 folder: null
 sort: 2000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560717542
-  modifiedTime: 1733176687434
+  modifiedTime: 1733290877350
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!8HFo5jn3bUJYhXi3'
 

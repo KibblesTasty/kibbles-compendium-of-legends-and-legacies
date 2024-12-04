@@ -3,13 +3,77 @@ type: spell
 _id: cZfCm2o4JKNcGvqL
 img: icons/magic/acid/projectile-faceted-glob.webp
 system:
-  activities: {}
+  activities:
+    RBvNRr6F1kLNTUcM:
+      type: save
+      _id: RBvNRr6F1kLNTUcM
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 4
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: whole
+              number: 2
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create a bubble of acid that floats to the target point before
+      bursting in a shower of acid. Each creature and object within 5 feet must
+      make a Dexterity saving throw. On a failure, it takes 3d4 acid damage, or
+      half as much on a success.</p><p><strong>At Higher Levels.</strong> When
+      you cast this spell using a spell slot of 2nd level or higher, the damage
+      increases by 2d4 for each slot level above 1st.</p>
     chat: ''
   identifier: acid-bubble
   source:
@@ -30,35 +94,45 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: con
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '5'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creatureOrObject
+      special: ''
 effects: []
 folder: null
 sort: 10000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556276710
-  modifiedTime: 1733176687434
+  modifiedTime: 1733253644826
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!cZfCm2o4JKNcGvqL'
 

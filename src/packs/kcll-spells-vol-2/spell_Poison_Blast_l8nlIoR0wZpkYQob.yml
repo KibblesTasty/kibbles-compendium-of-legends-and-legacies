@@ -1,15 +1,132 @@
 name: Poison Blast
 type: spell
 _id: l8nlIoR0wZpkYQob
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/skills/toxins/cauldron-bubbles-overflow-green.webp
 system:
-  activities: {}
+  activities:
+    YQX9j5tw0t7dBeVl:
+      type: save
+      _id: YQX9j5tw0t7dBeVl
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 12
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    LDbB3ixSvghNtiKV:
+      type: damage
+      _id: LDbB3ixSvghNtiKV
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You exhale a cloud of poison that magically expands to fill a 30 foot
+      cone. Each creature in the area must make a Constitution saving throw. On
+      a failure, it takes 4d12 poison damage and becomes
+      &amp;Reference[poisoned] until the start of its next turn. On a success,
+      it takes half as much damage and is not poisoned.</p><p>The area is
+      lightly obscured until the start of your turn, and any creature that ends
+      its turn within the area takes 2d4 poison damage.</p>
     chat: ''
   identifier: poison-blast
   source:
@@ -20,7 +137,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 4
   materials:
     value: ''
@@ -30,7 +148,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,26 +159,33 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cone
+      size: '30'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 11900000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559502868
-  modifiedTime: 1733176687434
+  modifiedTime: 1733286300500
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!l8nlIoR0wZpkYQob'
 

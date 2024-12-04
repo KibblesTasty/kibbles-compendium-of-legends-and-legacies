@@ -1,36 +1,107 @@
 name: Heavy Blow
 type: spell
 _id: ROaRoS38jD1ENwKI
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/skills/melee/strike-hammer-destructive-blue.webp
 system:
-  activities: {}
+  activities:
+    mVnrpaLGk115jYsQ:
+      type: save
+      _id: mVnrpaLGk115jYsQ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: whole
+              number: null
+              formula: 1d6
+        onSave: full
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You impart great heft to an unarmed strike or weapon you are holding.
+      The first time you hit with a melee weapon attack using that weapon before
+      the start of your next turn, your blow strikes with great force, and the
+      attack deals an extra 1d10 bludgeoning damage to the target and must
+      succeed a Constitution saving throw, or becomes &amp;Reference[dazed]
+      until the start of its next turn. While dazed this way, it cannot take
+      reactions, and attacks against it have advantage.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 2nd level
+      or higher, the extra damage increases by 1d6 for each slot level above
+      2nd.</p>
     chat: ''
   identifier: heavy-blow
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 1
   materials:
-    value: ''
+    value: a weapon or unarmed strike that does bludgeoning damage
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - material
   range:
     units: self
     special: ''
@@ -50,15 +121,19 @@ sort: 7200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558114877
-  modifiedTime: 1733176687434
+  modifiedTime: 1733274948317
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ROaRoS38jD1ENwKI'
 

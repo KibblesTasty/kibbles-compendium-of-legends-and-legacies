@@ -3,13 +3,61 @@ type: spell
 _id: lHToYDKyHJXLU210
 img: icons/magic/air/wind-vortex-swirl-red.webp
 system:
-  activities: {}
+  activities:
+    bxDNLh8gVw0qYRIh:
+      type: utility
+      name: Cast
+      _id: bxDNLh8gVw0qYRIh
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: adCU8WghUC1W1VVv
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>For the duration of the spell, you gain the benefits of the
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.tulFpPNGD9304eDa]{form
+      of fire},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.6EP3SxjKQH1LYT0Y]{form
+      of ice},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.7wrVw2OsSl6TCz4S]{form
+      of stone},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.oCJr03FYdXfug0Cm]{form
+      of water}, and
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.kzHP3BB5igk1bUk0]{form
+      of wind} spells.</p>
     chat: ''
   identifier: form-of-the-elements
   source:
@@ -20,7 +68,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '10'
   level: 9
   materials:
     value: ''
@@ -30,7 +79,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -44,21 +96,58 @@ system:
       choice: false
       count: ''
       type: ''
-effects: []
+effects:
+  - name: Form of the Elements
+    img: icons/magic/air/wind-vortex-swirl-red.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.lHToYDKyHJXLU210
+    transfer: false
+    _id: adCU8WghUC1W1VVv
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 100
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733263156817
+      modifiedTime: 1733263164431
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!lHToYDKyHJXLU210.adCU8WghUC1W1VVv'
 folder: null
 sort: 12000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557940207
-  modifiedTime: 1733176687434
+  modifiedTime: 1733263156842
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!lHToYDKyHJXLU210'
 

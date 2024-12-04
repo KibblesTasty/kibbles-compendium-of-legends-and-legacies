@@ -3,13 +3,78 @@ type: spell
 _id: BBAMdtmkDCBNplKB
 img: icons/magic/light/beams-rays-orange-purple.webp
 system:
-  activities: {}
+  activities:
+    EuqrX5Go5sPPlMGm:
+      type: save
+      _id: EuqrX5Go5sPPlMGm
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 8
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You summon a giant spectral angel that appears around you before
+      crashing its greatsword down in a line. All creatures in a line 30 feet
+      long and 5 feet wide in a direction of your choice must make a Dexterity
+      saving throw. A target takes 5d8 radiant damage on a failed save, or half
+      as much damage on a successful one. A creature takes an additional 1d8
+      damage if it is undead or a fiend.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 4th level
+      or higher, the damage increases by 1d8 for each level above 3rd.</p>
     chat: ''
   identifier: angelic-slash
   source:
@@ -30,7 +95,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -39,7 +106,10 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: line
+      size: '30'
+      width: '5'
+      count: ''
     affects:
       choice: false
       count: ''
@@ -50,15 +120,19 @@ sort: 2700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556326826
-  modifiedTime: 1733176687434
+  modifiedTime: 1733253792478
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!BBAMdtmkDCBNplKB'
 

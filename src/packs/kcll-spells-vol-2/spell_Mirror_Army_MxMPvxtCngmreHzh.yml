@@ -1,15 +1,69 @@
 name: Mirror Army
 type: spell
 _id: MxMPvxtCngmreHzh
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
 system:
-  activities: {}
+  activities:
+    pL7uWRhTxIbwonRD:
+      type: utility
+      name: Cast
+      _id: pL7uWRhTxIbwonRD
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Duplicate
+        formula: 1d20cs>=11
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create an illusory duplicate of every allied creature of your
+      choice within 30 feet. Until the spell ends, the duplicates move alongside
+      their real counterparts and mimic their actions, making it impossible to
+      track which is real.</p><p>Each time an affected creature is attacked,
+      roll a d20 to determine whether the attack instead targets the duplicate.
+      On a roll of 11 or higher, the attack targets the duplicate. A duplicate's
+      AC equals 10 + the real creature’s Dexterity modifier. If a duplicate is
+      hit by an attack, it is destroyed. Duplicates ignore all other damage and
+      effects, and the spell ends once all duplicates have been
+      destroyed.</p><p> A creature is unaffected by this spell if it can’t see,
+      if it relies on senses other than sight (such as blindsight), or if it has
+      truesight or another means of automatically disbelieving illusions.</p>
     chat: ''
   identifier: mirror-army
   source:
@@ -20,7 +74,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 4
   materials:
     value: ''
@@ -30,16 +85,21 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
+    value: '30'
   school: ill
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: '30'
+      count: ''
     affects:
       choice: false
       count: ''
@@ -50,15 +110,19 @@ sort: 6000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559404928
-  modifiedTime: 1733176687434
+  modifiedTime: 1733283220427
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!MxMPvxtCngmreHzh'
 

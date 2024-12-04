@@ -3,36 +3,179 @@ type: spell
 _id: Dt8LaE1VrZe3CGmH
 img: icons/magic/lightning/strike-arrow-spear-red.webp
 system:
-  activities: {}
+  activities:
+    ASKMHxYPqyBIU1Wv:
+      type: attack
+      _id: ASKMHxYPqyBIU1Wv
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        ability: str
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: Strength Attack
+      img: ''
+      appliedEffects: []
+    dDP8Ad6L1bvPTHMQ:
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        ability: dex
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: Dexterity Attack
+      _id: dDP8Ad6L1bvPTHMQ
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a piece of ammunition or a weapon with the thrown property,
+      imbuing it with crackling lightning for the duration.</p><p>The first time
+      you attack with the empowered item, it transforms into a bolt of
+      lightning, blasting out from you in a line 100 feet long and 5 feet wide.
+      Make one weapon attack, applying the result against every creature in the
+      line. This attack deals 4d8 lightning damage on a hit, and half as much
+      damage on a miss. This damage roll doesn't add any modifiers or bonuses
+      associated with weapon attacks. The lightning ignites flammable objects in
+      the area that aren’t being worn or carried.</p><p>Once an attack has been
+      made with the piece of ammunition or weapon, the spell
+      ends.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 4th level or higher, the damage increases by 1d8 for
+      each level above 3rd, up to a maximum of 6d8 at 5th level.</p>
     chat: ''
   identifier: lightning-shot
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
+    type: bonus
     value: null
     condition: ''
   duration:
-    units: inst
+    units: round
+    value: '1'
   level: 3
   materials:
-    value: ''
+    value: a piece of ammunition or a weapon worth at least 1 cp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
   range:
-    units: self
+    units: touch
     special: ''
   school: trs
   target:
@@ -43,22 +186,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: object
+      special: a piece of ammunition or a weapon with the thrown property
 effects: []
 folder: null
 sort: 3500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732559195028
-  modifiedTime: 1733176687434
+  modifiedTime: 1733281571089
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Dt8LaE1VrZe3CGmH'
 

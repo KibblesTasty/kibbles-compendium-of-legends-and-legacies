@@ -3,13 +3,123 @@ type: spell
 _id: a8sjT7NYYcgF5i3p
 img: icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp
 system:
-  activities: {}
+  activities:
+    WDdt3veShwmQaPpa:
+      type: utility
+      _id: WDdt3veShwmQaPpa
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Cast
+      img: ''
+      appliedEffects: []
+    Lai1zgKBk2dfJ9qV:
+      type: save
+      _id: Lai1zgKBk2dfJ9qV
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 8
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You conjure a howling blizzard of swirling clouds of ice and snow which
+      fills a 30-foot-radius, 40-foot-high cylinder centered at a point you can
+      see within range. The area becomes heavily obscured and difficult terrain.
+      Any creature that starts its turn within the area or enters it for the
+      first time on its turn must make a Constitution saving throw. A creature
+      takes 6d8 cold damage on a failed saving throw, or half as much on a
+      successful one.</p><p><strong>At Higher Levels.</strong> When you cast
+      this spell using a spell slot of 7th level or higher, the damage increases
+      by 1d8 for each slot level above 6th.</p>
     chat: ''
   identifier: blizzard
   source:
@@ -20,7 +130,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 6
   materials:
     value: ''
@@ -30,35 +141,47 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '120'
   school: evo
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: cylinder
+      size: '30'
+      height: '40'
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 9400000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732556588551
-  modifiedTime: 1733176687434
+  modifiedTime: 1733257453460
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!a8sjT7NYYcgF5i3p'
 

@@ -1,26 +1,70 @@
 name: Spelltrap
 type: spell
 _id: sKXWHhY6ihoGtM21
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/symbols/star-inverted-yellow.webp
 system:
-  activities: {}
+  activities:
+    Eckm0G0kmql8u16A:
+      type: utility
+      name: Cast
+      _id: Eckm0G0kmql8u16A
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: WEHbE0HYRyH6PaJ4
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You mark a spelltrap on yourself, creating a small glowing mark on your
+      skin. The next time you make a saving throw against a spell of 1st level
+      or lower, the spell is harmlessly absorbed and none of its effects take
+      place. </p><p>On your next turn afterward, you can cast the spell absorbed
+      by the spelltrap without expending a spell slot. If you do not cast it
+      within that turn, the spell trap fades and the trapped spell is lost.</p>
     chat: ''
   identifier: spelltrap
   source:
     revision: 1
     rules: '2024'
   activation:
-    type: action
-    value: null
+    type: minute
+    value: 1
     condition: ''
   duration:
-    units: inst
+    units: hour
+    value: '8'
   level: 2
   materials:
     value: ''
@@ -30,7 +74,9 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
   range:
     units: self
     special: ''
@@ -44,21 +90,58 @@ system:
       choice: false
       count: ''
       type: ''
-effects: []
+effects:
+  - name: Spelltrap
+    img: icons/magic/symbols/star-inverted-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.sKXWHhY6ihoGtM21
+    transfer: false
+    _id: WEHbE0HYRyH6PaJ4
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 28800
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733288632980
+      modifiedTime: 1733288657527
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!sKXWHhY6ihoGtM21.WEHbE0HYRyH6PaJ4'
 folder: null
 sort: 14700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560329164
-  modifiedTime: 1733176687434
+  modifiedTime: 1733288633024
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!sKXWHhY6ihoGtM21'
 

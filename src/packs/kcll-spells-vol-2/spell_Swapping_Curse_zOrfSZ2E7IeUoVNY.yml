@@ -3,13 +3,126 @@ type: spell
 _id: zOrfSZ2E7IeUoVNY
 img: icons/magic/air/wind-vortex-swirl-purple.webp
 system:
-  activities: {}
+  activities:
+    GdvqKr8ALawDJsPa:
+      type: save
+      _id: GdvqKr8ALawDJsPa
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    MwLIe2rA4UHo1lSO:
+      type: damage
+      _id: MwLIe2rA4UHo1lSO
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 10
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You cast a curse targeting two individuals. Both targets must make a
+      Charisma saving throw (which they can choose to fail). If both targets
+      fail their saving throws, their souls are swapped for the duration. A soul
+      controls the body it inhabits. It uses the ability scores and actions of
+      its new body (except legendary actions or legendary resistance), but
+      retains its own spellcasting (if any), and has disadvantage on attack
+      rolls and Strength, Dexterity, and Constitution saving throws for 1d4
+      turns after swapping bodies.</p><p> At the end of a swapped creature's
+      turn, it can choose to repeat the saving throw, ending the effect on a
+      success. If its challenge rating (or character level if it has no
+      challenge rating) is higher than that of its current body, it has
+      advantage on the save. </p><p>If a creature dies while its soul is
+      swapped, both souls return to their original bodies. After a soul returns
+      from a dying creature to a living body, it takes 5d10 necrotic damage.</p>
     chat: ''
   identifier: swapping-curse
   source:
@@ -20,20 +133,28 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 2
   materials:
-    value: ''
+    value: >-
+      something from each creature —such blood, hair, or scales—the spell is
+      targeting, which the spell consumes
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: abj
   target:
     template:
@@ -42,23 +163,28 @@ system:
       type: ''
     affects:
       choice: false
-      count: ''
-      type: ''
+      count: '2'
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 16700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560637111
-  modifiedTime: 1733176687434
+  modifiedTime: 1733290343765
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zOrfSZ2E7IeUoVNY'
 

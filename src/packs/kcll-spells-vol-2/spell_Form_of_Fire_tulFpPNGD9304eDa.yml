@@ -3,13 +3,180 @@ type: spell
 _id: tulFpPNGD9304eDa
 img: icons/magic/fire/elemental-fire-humanoid.webp
 system:
-  activities: {}
+  activities:
+    QogXdNrsdtzgDpCd:
+      type: utility
+      name: Cast
+      _id: QogXdNrsdtzgDpCd
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: Guk6Poff0KfI9CRo
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    hXzBx3m0e559ZFKC:
+      type: damage
+      _id: hXzBx3m0e559ZFKC
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: A creature within5  feet hits you with a melee attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    MhJXUnqMk7RSdkuQ:
+      type: save
+      _id: MhJXUnqMk7RSdkuQ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: line
+          size: '30'
+          width: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You become elemental fire, shedding bright light in a 30-foot radius
+      and dim light for an additional 30 feet. Until the spell ends, you gain
+      the following benefits:</p><ul><li>You are immune to fire
+      damage.</li><li>You can move through the space of other creatures and
+      ignore difficult terrain. The first time on a turn you enter the space of
+      another creature, it takes 2d6 fire damage.</li><li>If a creature within 5
+      feet hits you with a melee attack, it takes 2d6 fire damage.</li><li>You
+      can use your action to create a line of fire 30 feet long and 5 feet wide
+      extending from you in a direction of your choice. Each creature in the
+      line must make a Dexterity saving throw. A creature takes 6d6 fire damage
+      on a failed save, or half as much damage on a successful
+      one.</li><li>During your turn, if you roll fire damage, you can maximize
+      one die of the fire damage dealt.</li></ul>
     chat: ''
   identifier: form-of-fire
   source:
@@ -20,7 +187,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '10'
   level: 6
   materials:
     value: ''
@@ -30,7 +198,10 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
     units: self
     special: ''
@@ -44,21 +215,62 @@ system:
       choice: false
       count: ''
       type: ''
-effects: []
+effects:
+  - name: Form of Fire
+    img: icons/magic/fire/elemental-fire-humanoid.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.tulFpPNGD9304eDa
+    transfer: false
+    _id: Guk6Poff0KfI9CRo
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.di.value
+        mode: 2
+        value: fire
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 100
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733262246931
+      modifiedTime: 1733262938253
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!tulFpPNGD9304eDa.Guk6Poff0KfI9CRo'
 folder: null
 sort: 15000000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732557907918
-  modifiedTime: 1733176687434
+  modifiedTime: 1733262317180
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!tulFpPNGD9304eDa'
 

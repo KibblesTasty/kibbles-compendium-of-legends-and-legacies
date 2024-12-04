@@ -3,13 +3,74 @@ type: spell
 _id: PZwZXC6eQZmpLsKu
 img: icons/magic/earth/projectile-stone-landslide.webp
 system:
-  activities: {}
+  activities:
+    sra6YgU2udWMtNzV:
+      type: save
+      _id: sra6YgU2udWMtNzV
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You create a 5-foot radius illusory pit at a point you can see on the
+      ground. Each creature within the area when the spell is cast must succeed
+      on a Wisdom saving throw or believe it has fallen into the pit. It falls
+      &amp;Reference[prone], cannot stand up, and cannot see beyond the radius
+      of the pit.</p><p>A creature can spend its action to attempt to climb out
+      of the pit, repeating its saving throw. On a success, it spends all of its
+      movement to stand up and then realizes the pit is an illusion, ending the
+      spell for it. On a failure, it continues to believe it is stuck in the
+      pit. An affected creature can move within the spaces covered by the
+      pit.</p><p>A creature with a flying speed automatically succeeds on its
+      saving throw. Each time a creature under the effect takes damage, it can
+      repeat its saving throw.</p><p><strong>At Higher Levels.</strong> When you
+      cast the spell using a spell slot of 2nd level or higher, the radius of
+      the pit increases by 5 feet for each level above 1st, to a maximum of a 20
+      feet with a 4th-level spell slot</p>
     chat: ''
   identifier: illusory-pit
   source:
@@ -20,7 +81,8 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: minute
+    value: '1'
   level: 1
   materials:
     value: ''
@@ -30,35 +92,46 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '60'
   school: ill
   target:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: radius
+      size: min(5 * @scaling, 20)
+      count: ''
     affects:
       choice: false
       count: ''
-      type: ''
+      type: creature
+      special: ''
 effects: []
 folder: null
 sort: 6800000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732558600975
-  modifiedTime: 1733176687434
+  modifiedTime: 1733280690263
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!PZwZXC6eQZmpLsKu'
 

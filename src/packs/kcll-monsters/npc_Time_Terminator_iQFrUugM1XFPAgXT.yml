@@ -1,0 +1,1782 @@
+name: Time Terminator
+type: npc
+folder: null
+_id: iQFrUugM1XFPAgXT
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 19
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 22
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 19
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    psi:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 40
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 18
+      calc: natural
+    hd:
+      spent: 0
+    hp:
+      value: 250
+      max: 250
+      temp: 0
+      tempmax: 0
+      formula: 29d8 + 116
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Chaotic Evil
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: construct
+    environment: ''
+    cr: 14
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Flee, Mortals!
+    custom: XP
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value:
+        - poison
+      custom: ''
+    dr:
+      bypasses:
+        - mgc
+      value:
+        - fire
+        - bludgeoning
+        - piercing
+        - slashing
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - poisoned
+      custom: ''
+    languages:
+      value:
+        - common
+      custom: ''
+prototypeToken:
+  name: Time Terminator
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    system:
+      description:
+        value: >-
+          The time terminator makes four attacks. If can use predetermined
+          strike in place of any attack if available.
+        chat: ''
+      activities:
+        rkXpUT2gLMT20lk2:
+          _id: rkXpUT2gLMT20lk2
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    _id: okgim4ebolitYpYc
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.okgim4ebolitYpYc'
+  - name: Severing Strike
+    type: weapon
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +11 to hit, reach 5 ft. , one target. Hit: 7 (1d4
+          + 5) slashing damage and 12 (4d6) force damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        3ypVCTiDpSlPNnR1:
+          _id: 3ypVCTiDpSlPNnR1
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: dex
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            parts:
+              - number: 4
+                denomination: 6
+                types:
+                  - force
+                custom:
+                  enabled: false
+                scaling:
+                  number: 1
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      damage:
+        base:
+          number: 1
+          denomination: 4
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: severing-strike
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    img: icons/svg/sword.svg
+    _id: vvO1Z1StXYVrPr03
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.vvO1Z1StXYVrPr03'
+  - name: Heat Ray
+    type: weapon
+    system:
+      description:
+        value: >-
+          Ranged Spell Attack: +11 to hit, range 60 ft. , one target. Hit: 10
+          (2d6 + 5) fire damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        sOhWenyyUiuCVOL6:
+          _id: sOhWenyyUiuCVOL6
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: spellcasting
+            type:
+              value: ranged
+              classification: spell
+            critical:
+              threshold: null
+            flat: false
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      damage:
+        base:
+          number: 2
+          denomination: 6
+          bonus: ''
+          types:
+            - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 60
+        long: null
+        units: ft
+        reach: null
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: heat-ray
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    img: icons/svg/sword.svg
+    _id: Q5W6DRaUgpY4pvnj
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.Q5W6DRaUgpY4pvnj'
+  - name: Predetermined Strike
+    type: feat
+    system:
+      description:
+        value: >-
+          The time terminator travels forward in time to the point where it has
+          already stabbed a creature within 60 feet of it. It teleports to that
+          creature and that creature makes a DC 19 Charisma saving throw, taking
+          6d6 force damage on failure or half as much on a successful save.
+        chat: ''
+      uses:
+        max: '1'
+        recovery:
+          - period: recharge
+            formula: '4'
+            type: recoverAll
+        spent: 0
+      activities:
+        fa1upj4S9hZNhXHM:
+          _id: fa1upj4S9hZNhXHM
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      identifier: predetermined-strike
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: 3i5RNzHJfSuMARIJ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.3i5RNzHJfSuMARIJ'
+  - name: Bloodied Fractured Existence
+    type: feat
+    system:
+      description:
+        value: >-
+          The time assassin becomes to flicker in and out of reality. Each time
+          it would take damage, it rolls a d4. On a 2, it takes half damage. On
+          a 4, it takes no damage.
+        chat: ''
+      activities:
+        QzPI5Zdf2zc49j19:
+          _id: QzPI5Zdf2zc49j19
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: bloodied-fractured-existence
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: koz0dP6fhrUcA8Dq
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.koz0dP6fhrUcA8Dq'
+  - name: Undo
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          If the time hunter misses an attack, fails a skill check, or fails a
+          saving throw, it can use its reaction to go back in time, retrying
+          that attack roll, ability check, or saving throw.
+        chat: ''
+      activities:
+        cua9zZHvmNBdzcXS:
+          _id: cua9zZHvmNBdzcXS
+          type: utility
+          activation:
+            type: reaction
+            value: null
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: undo
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: g51OFgSxzSNrZpLn
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.g51OFgSxzSNrZpLn'
+  - name: Displacement
+    type: feat
+    system:
+      description:
+        value: >-
+          At the start of its turn, the time terminator manipulates its flow
+          through timeline to teleport anywhere of its choice within 30 feet of
+          where it started its turn.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: displacement
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: ee73J7nQXjWKPtrc
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.ee73J7nQXjWKPtrc'
+  - name: Rewind
+    type: feat
+    system:
+      description:
+        value: >-
+          When the time terminator is reduced to 0 hit points, it travels
+          backwards in time to before the fight started. It regains all hit
+          points, sheds all conditions or spell effects, regains all spent
+          spells or abilities other than this one, and teleports up to 30 feet.
+          Once it uses this power, it cannot do so again for 24 hours.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: rewind
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: Bcsf9A2pHnw2xVaA
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.Bcsf9A2pHnw2xVaA'
+  - name: Innate Spellcasting
+    type: feat
+    system:
+      description:
+        value: >-
+          The time terminator's innate spellcasting ability is Intelligence
+          (spell save DC 19). It can innately cast the following spells,
+          requiring no material components: <br />1/day each: Haste, Slow, Time
+          Loopk, Time Skipk, Time Trapk, Time Anchork, Time Stop
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: innate-spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/light/projectiles-star-purple.webp
+    _id: ZdztAZFaHktLtnll
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.ZdztAZFaHktLtnll'
+  - _id: td7Zq6xinz30tBM5
+    name: Haste
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>Choose a willing creature that you can see within range. Until the
+          spell ends, the target's speed is doubled, it gains a +2 bonus to AC,
+          it has advantage on Dexterity Saving Throws, and it gains an
+          additional action on each of its turns. That action can be used only
+          to take the Attack (one weapon attack only), Dash, Disengage, Hide, or
+          Use an Object action.</p><p>When the spell ends, the target can't move
+          or take Actions until after its next turn, as a wave of lethargy
+          sweeps over it.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '30'
+        units: ft
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 3
+      school: trs
+      materials:
+        value: A shaving of licorice root
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: DEPrzDiNHOqKj4Hj
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: haste
+    sort: 0
+    flags:
+      dnd5e:
+        migratedUses: 1
+    img: icons/magic/control/buff-flight-wings-runes-purple.webp
+    effects:
+      - name: Haste
+        origin: Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5
+        duration:
+          startTime: null
+          seconds: 60
+          combat: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: true
+        _id: DEPrzDiNHOqKj4Hj
+        changes:
+          - key: system.attributes.ac.bonus
+            mode: 2
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.burrow
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.climb
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.fly
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.swim
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.walk
+            mode: 1
+            value: '2'
+            priority: null
+        description: >-
+          <p>Until the spell ends, the target's speed is doubled, it gains a +2
+          bonus to AC, it has advantage on Dexterity Saving Throws, and it gains
+          an additional action on each of its turns. That action can be used
+          only to take the Attack (one weapon attack only), Dash, Disengage,
+          Hide, or Use an Object action.</p>
+        transfer: false
+        statuses: []
+        flags:
+          core:
+            sourceId: >-
+              Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
+        tint: '#ffffff'
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.1.2
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        img: icons/magic/control/buff-flight-wings-runes-purple.webp
+        type: base
+        system: {}
+        sort: 0
+        _key: >-
+          !actors.items.effects!iQFrUugM1XFPAgXT.td7Zq6xinz30tBM5.DEPrzDiNHOqKj4Hj
+    folder: 5Si35RRLLaaoWvC3
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.td7Zq6xinz30tBM5'
+  - _id: qqQnbmD1VghuR5bX
+    name: Slow
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You alter time around up to six creatures of your choice in a
+          40-foot cube within range. Each target must succeed on a Wisdom saving
+          throw or be affected by this spell for the duration.</p><p>An affected
+          target's speed is halved, it takes a -2 penalty to AC and Dexterity
+          saving throws, and it can't use reactions. On its turn, it can use
+          either an action or a bonus action, not both. Regardless of the
+          creature's abilities or magic items, it can't make more than one melee
+          or ranged attack during its turn.</p><p>If the creature attempts to
+          cast a spell with a casting time of 1 action, roll a d20. On an 11 or
+          higher, the spell doesn't take effect until the creature's next turn,
+          and the creature must use its action on that turn to complete the
+          spell. If it can't, the spell is wasted.</p><p>A creature affected by
+          this spell makes another Wisdom saving throw at the end of its turn.
+          On a successful save, the effect ends for it.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: cube
+          size: '40'
+          contiguous: false
+      range:
+        value: '120'
+        units: ft
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 3
+      school: trs
+      materials:
+        value: A drop of molasses.
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: YtN8kTDQyxFaxpEx
+              onSave: false
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+        dnd5eactivity300:
+          _id: dnd5eactivity300
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: YtN8kTDQyxFaxpEx
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: 1d20
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: slow
+    sort: 0
+    flags:
+      dnd5e:
+        migratedUses: 1
+    img: icons/magic/air/fog-gas-smoke-dense-pink.webp
+    effects:
+      - name: Slow
+        origin: Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz
+        duration:
+          startTime: null
+          seconds: 60
+          combat: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: true
+        _id: YtN8kTDQyxFaxpEx
+        changes:
+          - key: system.attributes.ac.bonus
+            mode: 2
+            value: '-2'
+            priority: null
+          - key: system.attributes.movement.burrow
+            mode: 1
+            value: '0.5'
+            priority: null
+          - key: system.attributes.movement.climb
+            mode: 1
+            value: '0.5'
+            priority: null
+          - key: system.attributes.movement.fly
+            mode: 1
+            value: '0.5'
+            priority: null
+          - key: system.attributes.movement.swim
+            mode: 1
+            value: '0.5'
+            priority: null
+          - key: system.attributes.movement.walk
+            mode: 1
+            value: '0.5'
+            priority: null
+        description: >-
+          <p>An affected target's speed is halved, it takes a -2 penalty to AC
+          and Dexterity saving throws, and it can't use reactions. On its turn,
+          it can use either an action or a bonus action, not both. Regardless of
+          the creature's abilities or magic items, it can't make more than one
+          melee or ranged attack during its turn.</p>
+        transfer: false
+        statuses: []
+        flags: {}
+        tint: '#ffffff'
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.1.2
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        img: icons/magic/air/fog-gas-smoke-dense-pink.webp
+        type: base
+        system: {}
+        sort: 0
+        _key: >-
+          !actors.items.effects!iQFrUugM1XFPAgXT.qqQnbmD1VghuR5bX.YtN8kTDQyxFaxpEx
+    folder: 5Si35RRLLaaoWvC3
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.qqQnbmD1VghuR5bX'
+  - _id: 0YnVEJ3SqzntgtRq
+    name: Time Stop
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You briefly stop the flow of time for everyone but yourself. No
+          time passes for other creatures, while you take 1d4 + 1 turns in a
+          row, during which you can use Actions and move as normal.</p><p>This
+          spell ends if one of the Actions you use during this period, or any
+          Effects that you create during this period, affects a creature other
+          than you or an object being worn or carried by someone other than you.
+          In addition, the spell ends if you move to a place more than 1,000
+          feet from the location where you cast it.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: self
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: self
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 9
+      school: trs
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      properties:
+        - vocal
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: 1d4+1
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: time-stop
+    sort: 0
+    flags:
+      dnd5e:
+        migratedUses: 1
+    img: icons/magic/time/clock-stopwatch-white-blue.webp
+    effects: []
+    folder: KL6ZY4VRMjojGrL4
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!iQFrUugM1XFPAgXT.0YnVEJ3SqzntgtRq'
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733345040090
+  modifiedTime: 1733351676084
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!actors!iQFrUugM1XFPAgXT'
+

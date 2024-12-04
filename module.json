@@ -124,6 +124,12 @@
 			"label": "KCLL Items",
 			"system": "dnd5e",
 			"type": "Item"
+		},
+		{
+			"name": "kcll-monster-feats",
+			"label": "KCLL Monster Features",
+			"system": "dnd5e",
+			"type": "Item"
 		}
 	],
 	"packFolders": [{
@@ -151,7 +157,7 @@
 					"name": "Monsters",
 					"sorting": "a",
 					"color": "#9e2e2e",
-					"packs": ["kcll-monsters"]
+					"packs": ["kcll-monsters", "kcll-monster-feats"]
 				}
 			]
 		}]

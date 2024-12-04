@@ -1,0 +1,1065 @@
+name: Crystal Prismasaur
+type: npc
+folder: null
+_id: X0u03gliKPKvL5oV
+img: >-
+  modules/kibbles-compendium-of-legends-and-legacies/assets/Monster%20Tokens/CrystalPrimasaur.png
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 22
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 23
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 4
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    psi:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: str
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 13
+      calc: natural
+    hd:
+      spent: 0
+    hp:
+      value: 145
+      max: 145
+      temp: 0
+      tempmax: 0
+      formula: 12d12 + 72
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Unaligned
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: monstrosity
+    environment: ''
+    cr: 7
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Flee, Mortals!
+    custom: XP
+  traits:
+    size: huge
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: —
+prototypeToken:
+  name: Crystal Prismasaur
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 3
+  height: 3
+  texture:
+    src: >-
+      modules/kibbles-compendium-of-legends-and-legacies/assets/Monster%20Tokens/CrystalPrimasaur.png
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    system:
+      description:
+        value: The prismasaur makes one gore attack and two attacks with its talons.
+        chat: ''
+      activities:
+        RDdlkCmGZKI2zJel:
+          _id: RDdlkCmGZKI2zJel
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    _id: Q7MAOdYTtZWcb2hZ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!X0u03gliKPKvL5oV.Q7MAOdYTtZWcb2hZ'
+  - name: Gore
+    type: weapon
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +9 to hit, reach 5 ft. , one target. Hit: 25
+          (3d12 + 6) piercing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        AMx4Sh2EKdQiAhpv:
+          _id: AMx4Sh2EKdQiAhpv
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: str
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      damage:
+        base:
+          number: 3
+          denomination: 12
+          bonus: ''
+          types:
+            - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: gore
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    img: icons/svg/sword.svg
+    _id: uOuhrw6752UwhA9Z
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!X0u03gliKPKvL5oV.uOuhrw6752UwhA9Z'
+  - name: Talons
+    type: weapon
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +9 to hit, reach 5 ft. , one target. Hit: 16 (3d6
+          + 6) slashing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        X5ZkqaemFlgfe7Y0:
+          _id: X5ZkqaemFlgfe7Y0
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: str
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      damage:
+        base:
+          number: 3
+          denomination: 6
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: talons
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    img: icons/svg/sword.svg
+    _id: NoSXiAhJNhkqglOW
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!X0u03gliKPKvL5oV.NoSXiAhJNhkqglOW'
+  - name: Prismatic Rays
+    type: feat
+    system:
+      description:
+        value: >-
+          The prismasaur unleashes up to five rays of energy, each targeting a
+          creature within 120 feet of it. Each ray targets a different creature
+          of its choice within range, forcing them to make a DC 16 Dexterity
+          saving throw. On a failed save, a target takes 18 (4d8) damage, with
+          the first ray being acid damage, the second being cold damage, the
+          third being fire damage, and the fourth being lightning damage, and
+          the fifth being force damage. On a successful save, a creature takes
+          half as much damage.
+        chat: ''
+      uses:
+        max: '1'
+        recovery:
+          - period: recharge
+            formula: '5'
+            type: recoverAll
+        spent: 0
+      activities:
+        VmGP2K7ERisKxCnN:
+          _id: VmGP2K7ERisKxCnN
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      identifier: prismatic-rays
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: 7iodO80jTIQNZ631
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!X0u03gliKPKvL5oV.7iodO80jTIQNZ631'
+  - name: Bloodied Shattering Hide
+    type: feat
+    system:
+      description:
+        value: >-
+          If the prismasaur is reduced to less than half of its maximum hit
+          points, the crystals in the hide of prismasaur begin to shatter. Once
+          per turn when it takes 5 or more damage, one of the crystals in its
+          hide shatters. The monster takes an additional 5 damage, but fires 1d4
+          rays of the Prismatic Rays feature (not consuming the usage of the
+          feature).
+        chat: ''
+      activities:
+        TCS040tg3V4xqSYt:
+          _id: TCS040tg3V4xqSYt
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: bloodied-shattering-hide
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: r9zkzh90QTS0UBBU
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!X0u03gliKPKvL5oV.r9zkzh90QTS0UBBU'
+  - name: Chromatic Refraction
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>When the prismasaur takes acid, cold, fire, lightning, or force
+          damage, the crystals embedded into its body flash absorb the power.
+          The monster rolls a d6 on the table
+          below.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.3mn0Xdsqb7xpTL8T
+          rollable]</p>
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      identifier: chromatic-refraction
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: m4tAlTaARwEzUVfA
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: 1733345571835
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!X0u03gliKPKvL5oV.m4tAlTaARwEzUVfA'
+effects: []
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733345040090
+  modifiedTime: 1733351676084
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!actors!X0u03gliKPKvL5oV'
+

@@ -1,0 +1,2240 @@
+name: Ancient Breaker
+type: npc
+folder: null
+_id: 3YTwkvaquR2Afj91
+img: >-
+  modules/kibbles-compendium-of-legends-and-legacies/assets/Monster%20Tokens/AncientBreaker.png
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 25
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 23
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 12
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    psi:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: str
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 18
+      calc: natural
+    hd:
+      spent: 0
+    hp:
+      value: 250
+      max: 250
+      temp: 0
+      tempmax: 0
+      formula: 20d12 + 120
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Unaligned
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: construct
+    environment: ''
+    cr: 16
+    spellLevel: 0
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 3
+      max: 3
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Flee, Mortals!
+    custom: Proficiency
+  traits:
+    size: huge
+    di:
+      bypasses: []
+      value:
+        - poison
+        - psychic
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - petrified
+        - poisoned
+      custom: ''
+    languages:
+      value: []
+      custom: Understands the languages of its creator but can’t speak
+prototypeToken:
+  name: Ancient Breaker
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 3
+  height: 3
+  texture:
+    src: >-
+      modules/kibbles-compendium-of-legends-and-legacies/assets/Monster%20Tokens/AncientBreaker.png
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker uses Slam, Crushing Sweep, or Ramming Charge, and then
+          makes a Stomp attack. It can use Rubble Toss in place of any attack.
+        chat: ''
+      activities:
+        a3xyLITrB89miYkK:
+          _id: a3xyLITrB89miYkK
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    _id: 97W0ElagxLYgHR84
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.97W0ElagxLYgHR84'
+  - name: Slam
+    type: weapon
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +12 to hit, reach 15 ft. , one target. Hit: 23
+          (3d10 + 7) bludgeoning damage, and the target must succeed on a DC 20
+          Strength saving throw or be pushed up to 10 feet in a direction of the
+          breaker's choice.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        TAhz2m1hacUEFkiI:
+          _id: TAhz2m1hacUEFkiI
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: str
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+        AjsoDspmh7T8HOYR:
+          _id: AjsoDspmh7T8HOYR
+          type: save
+          activation:
+            type: action
+            value: 1
+            override: false
+          save:
+            ability:
+              - str
+            dc:
+              formula: '20'
+              calculation: initial
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          damage:
+            parts: []
+      damage:
+        base:
+          number: 3
+          denomination: 10
+          bonus: ''
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 15
+        units: ft
+        long: null
+        reach: null
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: slam
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    img: icons/magic/movement/trail-streak-impact-blue.webp
+    _id: fbn7Ugf6k1kEK2pE
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.fbn7Ugf6k1kEK2pE'
+  - name: Stomp
+    type: weapon
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +12 to hit, reach 5 ft. , one target. Hit: 20
+          (3d8 + 7) bludgeoning damage, and the target must succeed a DC 20
+          Strength saving throw or be knocked prone.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        1QVMaqYd8LqIRfko:
+          _id: 1QVMaqYd8LqIRfko
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: str
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      damage:
+        base:
+          number: 3
+          denomination: 8
+          bonus: ''
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: stomp
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    img: icons/svg/sword.svg
+    _id: aqN9Q9z9ThvPCz0g
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.aqN9Q9z9ThvPCz0g'
+  - name: Rubble Toss
+    type: weapon
+    system:
+      description:
+        value: >-
+          Ranged Weapon Attack: +12 to hit, range 60/180 ft. , one target. Hit:
+          20 (3d8 + 7) bludgeoning damage. If the breaker has destroyed a
+          structure within 15 feet of its current location, the damage is 26
+          (3d12 + 7) damage instead.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        Nxeu8TLwdcX9qF2U:
+          _id: Nxeu8TLwdcX9qF2U
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: ''
+            type:
+              value: ranged
+            critical:
+              threshold: null
+            flat: false
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      damage:
+        base:
+          number: 3
+          denomination: 8
+          bonus: ''
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 60
+        long: 180
+        units: ft
+        reach: null
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: rubble-toss
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    img: icons/svg/sword.svg
+    _id: yaoy8qtsAScWHrMf
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.yaoy8qtsAScWHrMf'
+  - name: Crushing Sweep
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker sweeps a siege arm around in a 180 degree arc in on
+          direction. Any creatures within 15 feet of it in that direction must
+          make a DC 20 Dexterity saving throw, taking 29 (5d8 + 7) damage and
+          being knocked prone on a failed save or half as much damage and not
+          being knocked prone on a successful save.
+        chat: ''
+      activities:
+        cNK9X95QE1vsvNWv:
+          _id: cNK9X95QE1vsvNWv
+          type: save
+          activation:
+            type: action
+            value: 1
+            override: false
+          save:
+            ability:
+              - dex
+            dc:
+              formula: '20'
+              calculation: initial
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          damage:
+            parts: []
+      uses:
+        max: '1'
+        recovery:
+          - period: recharge
+            formula: '4'
+            type: recoverAll
+        spent: 0
+      identifier: crushing-sweep
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: O7oROZRQpzZLXbmS
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.O7oROZRQpzZLXbmS'
+  - name: Ramming Charge
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker charges up to 30 feet in a straight line. Any creature or
+          structure in its path must make a Strength saving throw with a DC of
+          20, taking 29 (5d8 + 7) damage and being knocked prone on a failed
+          save, or taking half as much damage and not being knocked prone on a
+          successful save. This movement allows it to pass through the spaces of
+          other creatures with no penalty to movement and without taking attacks
+          of opportunity, but if a creature one size smaller or larger than the
+          charging creature succeeds a saving throw against the ability, the
+          breaker's charge is stopped.
+        chat: ''
+      uses:
+        max: '1'
+        recovery:
+          - period: recharge
+            formula: '4'
+            type: recoverAll
+        spent: 0
+      activities:
+        faHHTtjsbIWUr4kL:
+          _id: faHHTtjsbIWUr4kL
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      identifier: ramming-charge
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: CVgf4XFSiOaikbhD
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.CVgf4XFSiOaikbhD'
+  - name: Titanic Grasp
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker attempts to grab a Medium or smaller creature within 15
+          feet of it. That creature must make a DC 20 Dexterity saving throw or
+          take 13 (3d8) bludgeoning damage and become grappled (escape DC 17) by
+          breaker. The breaker can use a creature grappled this way as a
+          projectile for Rubble Toss. When used as a projectile, the grappled
+          creature takes damage equal to the target (hit or miss), and is
+          released from the grapple, being flung to the nearest unoccupied space
+          adjacent to the target.
+        chat: ''
+      activities:
+        RR7buPSxf7IJomLN:
+          _id: RR7buPSxf7IJomLN
+          type: save
+          activation:
+            type: action
+            value: 1
+            override: false
+          save:
+            ability:
+              - dex
+            dc:
+              formula: '20'
+              calculation: initial
+          damage:
+            parts:
+              - number: 3
+                denomination: 8
+                types:
+                  - bludgeoning
+                custom:
+                  enabled: false
+                scaling:
+                  number: 1
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      uses:
+        max: '1'
+        recovery:
+          - period: recharge
+            formula: '4'
+            type: recoverAll
+        spent: 0
+      identifier: titanic-grasp
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: HWECeZJUi3lGe6Hd
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.HWECeZJUi3lGe6Hd'
+  - name: Legendary Actions
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker can take 3 legendary actions, choosing from the options
+          below. Only one legendary action can be used at a time and only at the
+          end of another creature's turn. The breaker regains spent legendary
+          actions at the start of its turn.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: legendary-actions
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: legendary
+    img: icons/magic/light/hand-sparks-glow-yellow.webp
+    _id: xFTKw8jWeXXpg5rl
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.xFTKw8jWeXXpg5rl'
+  - name: Lighting Gaze
+    type: feat
+    system:
+      description:
+        value: >-
+          A crack of lightning strikes out from the breaker's eyes toward a
+          creature within 120 feet of it. The target must make a DC 19 Dexterity
+          saving throw, or take 15 (2d8 + 6) lightning damage.
+        chat: ''
+      activities:
+        s2TzP43Knyettyue:
+          _id: s2TzP43Knyettyue
+          type: utility
+          activation:
+            type: legendary
+            value: 1
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: lighting-gaze
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: l4WcxmF7BwgV9VMi
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.l4WcxmF7BwgV9VMi'
+  - name: Lumbering Steps
+    type: feat
+    system:
+      description:
+        value: The breaker moves up to 15 feet.
+        chat: ''
+      activities:
+        yDWzj6hI6D7UisFy:
+          _id: yDWzj6hI6D7UisFy
+          type: utility
+          activation:
+            type: legendary
+            value: 1
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: lumbering-steps
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: VkGwnInA4JTkZHOy
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.VkGwnInA4JTkZHOy'
+  - name: System Repair
+    type: feat
+    system:
+      description:
+        value: The breaker removes one condition from itself.
+        chat: ''
+      activities:
+        I5NNnASgSsjxO0KF:
+          _id: I5NNnASgSsjxO0KF
+          type: utility
+          activation:
+            type: legendary
+            value: 1
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: system-repair
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: QHfpfWoRYW1Wam9D
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.QHfpfWoRYW1Wam9D'
+  - name: Shatter Terrain
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker stomps, turning terrain within 30 feet of it into
+          difficult terrain.
+        chat: ''
+      activities:
+        e4qVclgcMNnPoMHE:
+          _id: e4qVclgcMNnPoMHE
+          type: utility
+          activation:
+            type: legendary
+            value: 2
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '2'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: shatter-terrain
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: OZJ8gk9Lt2KOH6h8
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.OZJ8gk9Lt2KOH6h8'
+  - name: Forestalling Stomp
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          If a creature two or more sizes smaller than it enters its space, the
+          breaker can use Stomp against the creature as a reaction.
+        chat: ''
+      activities:
+        gDNOKNw2Cqf0tdb8:
+          _id: gDNOKNw2Cqf0tdb8
+          type: utility
+          activation:
+            type: reaction
+            value: null
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: forestalling-stomp
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: Oj1bUAPfnaUYUnvm
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.Oj1bUAPfnaUYUnvm'
+  - name: Colossal Collapse
+    type: feat
+    system:
+      description:
+        value: >-
+          If the breaker is knocked prone or reduced to 0 hit points, all
+          creatures within 10 feet of it must make a DC 15 Dexterity saving
+          throw to avoid being crushed, taking 18 (4d8) bludgeoning damage on
+          failure.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: colossal-collapse
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: OGl2MTWNNO8RIBLt
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.OGl2MTWNNO8RIBLt'
+  - name: Devastating Blows
+    type: feat
+    system:
+      description:
+        value: >-
+          When the breaker misses a single target attack, the target takes half
+          the damage the attack would have dealt on a hit.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: devastating-blows
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: U08T3FNQIn4fTdYT
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.U08T3FNQIn4fTdYT'
+  - name: Legendary Resistance
+    type: feat
+    system:
+      description:
+        value: If the breaker fails a saving throw, it can choose to succeed instead.
+        chat: ''
+      activities:
+        o9ML1vfLGRDVfTfL:
+          _id: o9ML1vfLGRDVfTfL
+          type: utility
+          activation:
+            type: special
+            value: null
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legres.value
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+        palfGiEwqAbyTrII:
+          _id: palfGiEwqAbyTrII
+          type: utility
+          activation:
+            type: special
+            value: null
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        max: '3'
+        spent: 0
+        recovery: []
+      identifier: legendary-resistance
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/equipment/shield/kite-wooden-oak-glow.webp
+    _id: vZZc6XYiaIZyCOwG
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.vZZc6XYiaIZyCOwG'
+  - name: Scale Immunity
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker has resistance to the damage of any spell that doesn’t
+          target an area of effect, and it suffers no other conditions or
+          effects from them. The breaker ignores difficult terrain created from
+          effects on the ground.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: scale-immunity
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: CoJpOeFMC37VG3t2
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.CoJpOeFMC37VG3t2'
+  - name: Siege Monster
+    type: feat
+    system:
+      description:
+        value: The breaker deals double damage to objects and structures.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: siege-monster
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+    _id: oLNEyVFkq8xPV2b3
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.oLNEyVFkq8xPV2b3'
+  - name: Titan Armor
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker has resistance to damage from attacks from Medium or
+          smaller sized creatures.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: titan-armor
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: q664fNrI1AvGcYNP
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.q664fNrI1AvGcYNP'
+  - name: Unstoppable Advance
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker’s advance cannot be stopped. If the breaker’s speed would
+          be reduced to zero, it is reduced to half its speed instead. Any
+          obstacle or building that would stop its advance takes 39 (6d12)
+          bludgeoning damage. The breaker treats magical barriers that would
+          stop its movement as difficult terrain.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: unstoppable-advance
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: KnmtSnuhL9a4IuwL
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.KnmtSnuhL9a4IuwL'
+  - name: Weak Spots
+    type: feat
+    system:
+      description:
+        value: >-
+          Does not benefit from its Titan Armor feature when it is prone, or
+          when the attacks are made by creatures that have scaled 15 feet or
+          more up it, or are flying 15 feet or higher while within 5 feet of it.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: weak-spots
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: wRQOZfI4w1Bks6h1
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.wRQOZfI4w1Bks6h1'
+  - name: Bloodied Overdrive
+    type: feat
+    system:
+      description:
+        value: >-
+          The breaker loses its Scale Immunity and Titan Armor feature. It
+          immediately recharges any actions that currently unavailable. For the
+          next minute, it can make one additional Stomp or Slam attack when
+          using its Multiattack.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: bloodied-overdrive
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: A27LcxIwnTri0aLL
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!3YTwkvaquR2Afj91.A27LcxIwnTri0aLL'
+effects: []
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733345040090
+  modifiedTime: 1733351676084
+  lastModifiedBy: pJeIW7qCa0HkURWq
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_key: '!actors!3YTwkvaquR2Afj91'
+

@@ -49,8 +49,14 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets: []
-      description: {}
+        targets:
+          - type: attribute
+            value: '2'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
@@ -70,9 +76,15 @@ system:
       uses:
         spent: 0
         recovery: []
+        max: ''
       roll:
         prompt: false
         visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - Zk68oKV9JMIkFHYx
   uses:
     spent: 0
     recovery: []
@@ -143,7 +155,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733176689646
-  modifiedTime: 1733288092570
+  modifiedTime: 1733342523030
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: 7X3pOd4kKhwRCn9R
 sort: 0

@@ -3,13 +3,106 @@ type: spell
 _id: Y4Tqxxrw6Y7IYZii
 img: icons/magic/nature/tree-animated-strike.webp
 system:
-  activities: {}
+  activities:
+    Ea6GPWkrz9t1q3Be:
+      type: summon
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 10 * @scaling.increase
+        attackDamage: '@item.level'
+        saveDamage: '@item.level'
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: false
+        saves: true
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: VfBGVp7D0c6girpa
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.Z9cbhBoiX1SJbqKj
+          level:
+            min: null
+            max: null
+          types: []
+        - count: ''
+          name: ''
+          _id: qEwEbqd12ZoZWl79
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.BsOpZ7lqy88uXXFq
+          level:
+            min: null
+            max: null
+          types: []
+        - count: ''
+          name: ''
+          _id: 21Va0g5Dt2SvkC7x
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.cFVSdvH5y6N6z7Ed
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      _id: Ea6GPWkrz9t1q3Be
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You call forth a magical plant, which manifests in an unoccupied space
+      that you can see within range. It uses the Plant Spirit stat block, and
+      you select either the Dryad, Shambling Mound, or Treant option when you
+      cast the spell. The creature disappears when it drops to 0 hit points or
+      when the spell ends. </p><p>The creature is an ally to you and your
+      companions. In combat, it shares your initiative count, and takes its turn
+      immediately after yours. It obeys your verbal commands. If you don’t issue
+      any command, it takes the Dodge action and moves only to avoid
+      hazards.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 3rd level or higher, certain values increase in its
+      stat block.</p>
     chat: ''
   identifier: summon-plant
   source:
@@ -20,20 +113,26 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: hour
+    value: '1'
   level: 3
   materials:
-    value: ''
+    value: a carved wooden figurine worth at least 300 gp
     consumed: false
-    cost: 0
+    cost: 300
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '90'
   school: con
   target:
     template:
@@ -43,22 +142,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 9200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560591087
-  modifiedTime: 1733176687434
+  modifiedTime: 1733339906376
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Y4Tqxxrw6Y7IYZii'
 

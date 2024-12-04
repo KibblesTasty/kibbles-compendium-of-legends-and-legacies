@@ -12,21 +12,21 @@ system:
     cp: 0
   abilities:
     str:
-      value: 10
+      value: 15
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 10
+      value: 21
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 10
+      value: 12
       proficient: 0
       max: null
       bonuses:
@@ -53,7 +53,7 @@ system:
       bonuses:
         check: ''
         save: ''
-  vehicleType: water
+  vehicleType: land
   attributes:
     init:
       ability: ''
@@ -67,11 +67,11 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: null
+      walk: 150
       units: null
       hover: false
     ac:
-      flat: null
+      flat: 15
       calc: default
       motionless: ''
     hp:
@@ -89,8 +89,8 @@ system:
         '1': null
         '2': null
     capacity:
-      creature: ''
-      cargo: 0
+      creature: 1 crew, 8 passengers
+      cargo: 1
   details:
     biography:
       value: ''
@@ -122,14 +122,17 @@ system:
         - blinded
         - charmed
         - deafened
+        - exhaustion
         - frightened
+        - incapacitated
         - paralyzed
         - petrified
         - poisoned
+        - prone
         - stunned
         - unconscious
       custom: ''
-    dimensions: ''
+    dimensions: 10' by 10'
   cargo:
     crew: []
     passengers: []
@@ -209,9 +212,236 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
-items: []
+items:
+  - name: Magical Swiftness
+    type: feat
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>The vessel is extraordinarily quick. It can move at up to 15 miles
+          an hour at a regular pace or 20 miles at a fast pace.</p>
+        chat: ''
+      identifier: new-feature
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: 5ZBRg6E9v1Xmn60R
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733330217412
+      modifiedTime: 1733330236239
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!a1BQNuXf3RWYOW3J.5ZBRg6E9v1Xmn60R'
+  - name: Levitating Movement
+    type: feat
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>The vessel gently hovers up to 3 feet off the ground at all times.
+          It move across uneven terrain, over water, or up or down stairs and
+          slopes, but it can't traverse hazardous liquids such as lava or move
+          over elevation changes greater than 10 feet.</p>
+        chat: ''
+      identifier: new-feature
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: ku6tUhFgNs0Y3GXx
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733330246803
+      modifiedTime: 1733334014790
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!a1BQNuXf3RWYOW3J.ku6tUhFgNs0Y3GXx'
+  - name: Comfortable Interior
+    type: feat
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>So long as the interior is not exposed directly to the elements,
+          the atmosphere within the vessel is considered comfortable and dry
+          regardless of the weather outside.</p>
+        chat: ''
+      identifier: new-feature
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: 9xNauNgpZBqfp8JJ
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733334019257
+      modifiedTime: 1733334033272
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!a1BQNuXf3RWYOW3J.9xNauNgpZBqfp8JJ'
+  - name: Psychic Link
+    type: feat
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>When the vehicle would take any damage, the caster instead loses
+          the same amount of hit points. The caster can choose to end the spell
+          instead of losing these hit points</p>
+        chat: ''
+      identifier: new-feature
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: ulXcVju8TpsdUnJA
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733334042353
+      modifiedTime: 1733334052391
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!a1BQNuXf3RWYOW3J.ulXcVju8TpsdUnJA'
+  - name: Limited Capacity
+    type: feat
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>The vessel's speed becomes 0 if any of the following conditions are
+          met: </p><ul><li><p>There are greater than 9 creatures within the
+          vessel. </p></li><li><p>There is a Large or larger creature within the
+          vessel. </p></li><li><p>The vessel is carrying or towing a combined
+          2,000 lbs. or more</p></li></ul>
+        chat: ''
+      identifier: new-feature
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: R32x97eGcwNy7Ufx
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733334067751
+      modifiedTime: 1733334098760
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!a1BQNuXf3RWYOW3J.R32x97eGcwNy7Ufx'
 effects: []
-sort: 0
+sort: 800000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
@@ -223,7 +453,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733292041093
-  modifiedTime: 1733292143526
+  modifiedTime: 1733340692384
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!actors!a1BQNuXf3RWYOW3J'
 

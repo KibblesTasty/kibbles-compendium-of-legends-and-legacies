@@ -17,13 +17,14 @@ system:
       something from the target creature—such as blood, hair, or scales—which
       the spell consumes and a drop of your blood worth at least 1 hit point,
       which the spell consumes
-    consumed: false
+    consumed: true
     cost: 0
     supply: 0
   properties:
     - somatic
     - material
     - concentration
+    - bloodMagic
   level: 1
   school: nec
   activation:
@@ -51,8 +52,14 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets: []
-      description: {}
+        targets:
+          - type: attribute
+            value: '1'
+            target: attributes.hp.value
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
@@ -72,9 +79,15 @@ system:
       uses:
         spent: 0
         recovery: []
+        max: ''
       roll:
         prompt: false
         visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - pXMlQ0g8YmSemGqn
   uses:
     spent: 0
     recovery: []
@@ -145,7 +158,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733176688417
-  modifiedTime: 1733176688417
+  modifiedTime: 1733342547953
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: SXpDQvAKLqkxuT5V
 sort: 0

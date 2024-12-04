@@ -3,13 +3,100 @@ type: spell
 _id: 1VTueopGtybrUEhU
 img: icons/creatures/claws/claw-bear-paw-swipe-red.webp
 system:
-  activities: {}
+  activities:
+    wdfci5WaSigTP1oc:
+      type: summon
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 15 * @scaling.increase
+        attackDamage: '@item.level'
+        saveDamage: '@item.level'
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: false
+        saves: true
+        ability: ''
+      profiles:
+        - uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.2Vityu1uWeWaZ0to
+          _id: JFGmZ1VZNBJD69JC
+          level:
+            min: null
+            max: null
+          types: []
+        - uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.lteISwztY0bPl7oh
+          _id: Vyq8XltpZJ8fAorG
+          level:
+            min: null
+            max: null
+          types: []
+        - uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.DvqW3GxAaCbqXBJ2
+          _id: 5UH1hPhuNdUqahyH
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      _id: wdfci5WaSigTP1oc
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You call forth a magical monstrosity spirit, which manifests in an
+      occupied space that you can see within range. It uses the Monstrosity
+      Spirit stat block, and you select either the Blinker, Burrower, or
+      Displacer option when you cast the spell. The creature disappears when it
+      drops to 0 hit points or when the spell ends. </p><p>The creature is an
+      ally to you and your companions. In combat, it shares your initiative
+      count, and takes its turn immediately after yours. It obeys your verbal
+      commands. If you don’t issue any command, it takes the Dodge action and
+      moves only to avoid hazards. </p><p><strong>At Higher Levels.</strong>
+      When you cast this spell using a spell slot of 3rd level or higher,
+      certain values increase in its stat block.</p>
     chat: ''
   identifier: summon-monstrosity
   source:
@@ -20,20 +107,26 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: hour
+    value: '1'
   level: 3
   materials:
-    value: ''
+    value: a statuette carved from a monster bone or fang worth at least 300 gp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '90'
   school: con
   target:
     template:
@@ -43,22 +136,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 500000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560577580
-  modifiedTime: 1733176687434
+  modifiedTime: 1733338256033
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!1VTueopGtybrUEhU'
 

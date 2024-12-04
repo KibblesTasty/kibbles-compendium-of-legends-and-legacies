@@ -1,9 +1,91 @@
 name: Summon Swarm
 type: spell
 _id: 2qJflQD4uV6y566H
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/creatures/invertebrates/wasp-swarm-movement.webp
 system:
-  activities: {}
+  activities:
+    gllbY3fPx1Dytr5D:
+      type: summon
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 5 * @scaling.increase
+        attackDamage: '@item.level'
+        saveDamage: '@item.level'
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: false
+        saves: true
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: XuIYkiIWQPbmexSD
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.jkbkg3SUCPdHUzur
+          level:
+            min: null
+            max: null
+          types: []
+        - count: ''
+          name: ''
+          _id: Xrlzb9vmDwJK8nQ4
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.NXZMDPtl7QVQKHCw
+          level:
+            min: null
+            max: null
+          types: []
+        - count: ''
+          name: ''
+          _id: aA2INxECfEfFwXYB
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.zI0L56ED4I4qsJXE
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      _id: gllbY3fPx1Dytr5D
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
@@ -20,20 +102,26 @@ system:
     value: null
     condition: ''
   duration:
-    units: inst
+    units: hour
+    value: '1'
   level: 2
   materials:
-    value: ''
+    value: a golden insect worth at least 200 gp
     consumed: false
     cost: 0
     supply: 0
   preparation:
     mode: prepared
     prepared: false
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
   range:
-    units: self
+    units: ft
     special: ''
+    value: '90'
   school: con
   target:
     template:
@@ -43,22 +131,27 @@ system:
     affects:
       choice: false
       count: ''
-      type: ''
+      type: space
+      special: ''
 effects: []
 folder: null
 sort: 700000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.1.2
   createdTime: 1732560602829
-  modifiedTime: 1733176687434
+  modifiedTime: 1733342362714
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!2qJflQD4uV6y566H'
 

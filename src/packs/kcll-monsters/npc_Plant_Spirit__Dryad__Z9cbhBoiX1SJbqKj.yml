@@ -1,8 +1,7 @@
-folder: 5mPI8vwfYWGUMrVa
-name: Bone Construct
+name: Plant Spirit (Dryad)
 type: npc
-_id: pfewC5ywwxyO4z23
-img: icons/magic/death/skeleton-reptile-while-purple.webp
+folder: 5mPI8vwfYWGUMrVa
+img: icons/svg/mystery-man.svg
 system:
   currency:
     pp: 0
@@ -12,7 +11,7 @@ system:
     cp: 0
   abilities:
     str:
-      value: 10
+      value: 16
       proficient: 0
       max: null
       bonuses:
@@ -26,28 +25,28 @@ system:
         check: ''
         save: ''
     con:
-      value: 16
+      value: 14
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 1
+      value: 10
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 1
+      value: 16
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 1
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -109,7 +108,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -263,7 +262,6 @@ system:
       bonuses:
         check: ''
         passive: ''
-    value: []
   tools: {}
   spells:
     spell1:
@@ -309,7 +307,7 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: 39
+      walk: 20
       units: null
       hover: false
     attunement:
@@ -334,15 +332,15 @@ system:
       limit: 1
     ac:
       flat: 12
-      calc: natural
+      calc: flat
     hd:
       spent: 0
     hp:
-      value: 0
-      max: 0
+      value: 35
+      max: 35
       temp: 0
       tempmax: 0
-      formula: ''
+      formula: '0'
     death:
       ability: ''
       roll:
@@ -355,16 +353,13 @@ system:
     biography:
       value: ''
       public: ''
-    alignment: unaligned
+    alignment: Unaligned
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: undead
-      custom: ''
-      subtype: ''
-      swarm: ''
+      value: plant
     environment: ''
     cr: null
     spellLevel: 0
@@ -385,33 +380,30 @@ system:
     size: med
     di:
       bypasses: []
-      value:
-        - poison
-        - psychic
+      value: []
       custom: ''
     dr:
       bypasses: []
       value:
-        - necrotic
-        - piercing
+        - bludgeoning
       custom: ''
     dv:
       bypasses: []
       value:
-        - bludgeoning
+        - fire
       custom: ''
     dm:
       amount: {}
       bypasses: []
     ci:
-      value:
-        - exhaustion
-      custom: ''
-    languages:
       value: []
       custom: ''
+    languages:
+      value:
+        - sylvan
+      custom: Understand the languages you speak
 prototypeToken:
-  name: Bone Construct
+  name: Plant Spirit
   displayName: 0
   actorLink: false
   appendNumber: false
@@ -419,7 +411,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: icons/magic/death/skeleton-reptile-while-purple.webp
+    src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -487,64 +479,23 @@ prototypeToken:
   flags: {}
   randomImg: false
 items:
-  - name: Grapple
+  - name: Multiattack
     type: feat
-    _id: Mg7uMewi5ERbJLO1
-    img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
     system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
       description:
         value: >-
-          <p>The Bone Construct makes a grapple or shove check against a target
-          creature within 5 feet.</p>
+          The plant makes a number of attacks equal to half this spell’s level
+          (rounded down).
         chat: ''
-      identifier: grapple
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731692369641
-      modifiedTime: 1731692457005
-      lastModifiedBy: pJeIW7qCa0HkURWq
-    _key: '!actors.items!pfewC5ywwxyO4z23.Mg7uMewi5ERbJLO1'
-  - name: Slam
-    type: weapon
-    _id: ysXAHKF6rQ9V6ECR
-    img: icons/skills/melee/unarmed-punch-fist.webp
-    system:
       activities:
-        Wnzyt1fSrqkA1z6f:
-          _id: Wnzyt1fSrqkA1z6f
-          type: attack
-          sort: 0
+        oF4D77BDrmno4gdi:
+          _id: oF4D77BDrmno4gdi
+          type: utility
           activation:
             type: action
-            value: null
+            value: 1
             override: false
+          sort: 0
           consumption:
             scaling:
               allowed: false
@@ -569,25 +520,164 @@ items:
           uses:
             spent: 0
             recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    _id: myYxjlyfPP96kGpL
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!Z9cbhBoiX1SJbqKj.myYxjlyfPP96kGpL'
+  - name: Tree Stride
+    type: feat
+    system:
+      description:
+        value: >-
+          Once on its turn, the plant can use 10 feet of its movement to step
+          magically into one living tree within its reach and emerge from a
+          second living tree within 60 feet of the first tree, appearing in an
+          unoccupied space within 5 feet of the second tree. Both trees must be
+          Large or larger.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      identifier: tree-stride-dryad-only
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/nature/tree-spirit-green.webp
+    _id: lUEo4qdsAYWWAXrP
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: 1733339337269
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!Z9cbhBoiX1SJbqKj.lUEo4qdsAYWWAXrP'
+  - name: Vine Lash
+    type: weapon
+    _id: TxzStP2zzlf9BS1O
+    img: icons/magic/nature/root-vine-thorned-pink.webp
+    system:
+      activities:
+        rMmvAyP4iaos7Xnz:
+          _id: rMmvAyP4iaos7Xnz
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
           attack:
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: ''
+            ability: none
+            bonus: ''
           damage:
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
             parts: []
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
         max: ''
       description:
         value: >-
-          <p><em>Melee Weapon Attack:</em> STR mod + PB to hit, reach 5 ft., one
-          target. Hit: 1d8 + STR mod.</p>
+          <p>Melee Weapon Attack: your spell attack modifier to hit, reach 15
+          ft., one target. Hit: 1d8 + 3 + the spell’s level slashing damage and
+          the target is &amp;Reference[grappled](escape DC equals your spell
+          save DC). Until this grapple ends, plant can’t use this attack on
+          another target</p>
         chat: ''
-      identifier: slam
+      identifier: vine-lash
       source:
         revision: 1
         rules: '2024'
@@ -623,12 +713,13 @@ items:
         base:
           number: 1
           denomination: 8
-          types: []
+          types:
+            - slashing
           custom:
             enabled: false
           scaling:
             number: 1
-          bonus: ''
+          bonus: '3'
         versatile:
           number: null
           denomination: null
@@ -643,8 +734,8 @@ items:
       range:
         value: null
         long: null
-        reach: null
-        units: ''
+        reach: 15
+        units: ft
       mastery: ''
     effects: []
     folder: null
@@ -652,19 +743,22 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731692385929
-      modifiedTime: 1731692488099
+      systemVersion: 4.1.2
+      createdTime: 1733339359552
+      modifiedTime: 1733340111655
       lastModifiedBy: pJeIW7qCa0HkURWq
-    _key: '!actors.items!pfewC5ywwxyO4z23.ysXAHKF6rQ9V6ECR'
+    _key: '!actors.items!Z9cbhBoiX1SJbqKj.TxzStP2zzlf9BS1O'
 effects: []
-sort: 1900000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
@@ -676,9 +770,11 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731692243098
+  systemVersion: 4.1.2
+  createdTime: 1733339127879
   modifiedTime: 1733340692384
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!actors!pfewC5ywwxyO4z23'
+_id: Z9cbhBoiX1SJbqKj
+sort: 100000
+_key: '!actors!Z9cbhBoiX1SJbqKj'
 

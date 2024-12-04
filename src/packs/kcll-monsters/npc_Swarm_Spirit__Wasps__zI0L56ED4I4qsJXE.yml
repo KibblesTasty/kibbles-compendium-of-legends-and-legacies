@@ -1,8 +1,7 @@
-folder: 5mPI8vwfYWGUMrVa
-name: Bone Construct
+name: Swarm Spirit (Wasps)
 type: npc
-_id: pfewC5ywwxyO4z23
-img: icons/magic/death/skeleton-reptile-while-purple.webp
+folder: 5mPI8vwfYWGUMrVa
+img: icons/svg/mystery-man.svg
 system:
   currency:
     pp: 0
@@ -12,21 +11,21 @@ system:
     cp: 0
   abilities:
     str:
-      value: 10
+      value: 3
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 8
+      value: 13
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 16
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -40,7 +39,7 @@ system:
         check: ''
         save: ''
     wis:
-      value: 1
+      value: 7
       proficient: 0
       max: null
       bonuses:
@@ -109,7 +108,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -263,7 +262,6 @@ system:
       bonuses:
         check: ''
         passive: ''
-    value: []
   tools: {}
   spells:
     spell1:
@@ -307,16 +305,16 @@ system:
     movement:
       burrow: null
       climb: null
-      fly: null
+      fly: 30
       swim: null
-      walk: 39
+      walk: 5
       units: null
       hover: false
     attunement:
       max: 3
     senses:
-      darkvision: 60
-      blindsight: null
+      darkvision: null
+      blindsight: 10
       tremorsense: null
       truesight: null
       units: null
@@ -333,16 +331,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 12
-      calc: natural
+      flat: 10
+      calc: flat
     hd:
       spent: 0
     hp:
-      value: 0
-      max: 0
+      value: 10
+      max: 10
       temp: 0
       tempmax: 0
-      formula: ''
+      formula: '0'
     death:
       ability: ''
       roll:
@@ -355,16 +353,14 @@ system:
     biography:
       value: ''
       public: ''
-    alignment: unaligned
+    alignment: Unaligned
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: undead
-      custom: ''
-      subtype: ''
-      swarm: ''
+      value: beast
+      swarm: tiny
     environment: ''
     cr: null
     spellLevel: 0
@@ -385,33 +381,30 @@ system:
     size: med
     di:
       bypasses: []
-      value:
-        - poison
-        - psychic
+      value: []
       custom: ''
     dr:
       bypasses: []
       value:
-        - necrotic
+        - bludgeoning
         - piercing
+        - slashing
       custom: ''
     dv:
       bypasses: []
-      value:
-        - bludgeoning
+      value: []
       custom: ''
     dm:
       amount: {}
       bypasses: []
     ci:
-      value:
-        - exhaustion
+      value: []
       custom: ''
     languages:
       value: []
-      custom: ''
+      custom: Understands the languages you speak
 prototypeToken:
-  name: Bone Construct
+  name: Swarm Spirit
   displayName: 0
   actorLink: false
   appendNumber: false
@@ -419,7 +412,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: icons/magic/death/skeleton-reptile-while-purple.webp
+    src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -487,64 +480,23 @@ prototypeToken:
   flags: {}
   randomImg: false
 items:
-  - name: Grapple
+  - name: Multiattack
     type: feat
-    _id: Mg7uMewi5ERbJLO1
-    img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
     system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
       description:
         value: >-
-          <p>The Bone Construct makes a grapple or shove check against a target
-          creature within 5 feet.</p>
+          The swarm makes a number of attacks equal to half this spell’s level
+          (rounded down).
         chat: ''
-      identifier: grapple
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731692369641
-      modifiedTime: 1731692457005
-      lastModifiedBy: pJeIW7qCa0HkURWq
-    _key: '!actors.items!pfewC5ywwxyO4z23.Mg7uMewi5ERbJLO1'
-  - name: Slam
-    type: weapon
-    _id: ysXAHKF6rQ9V6ECR
-    img: icons/skills/melee/unarmed-punch-fist.webp
-    system:
       activities:
-        Wnzyt1fSrqkA1z6f:
-          _id: Wnzyt1fSrqkA1z6f
-          type: attack
-          sort: 0
+        n6CnvUG58jvmDRqD:
+          _id: n6CnvUG58jvmDRqD
+          type: utility
           activation:
             type: action
-            value: null
+            value: 1
             override: false
+          sort: 0
           consumption:
             scaling:
               allowed: false
@@ -569,25 +521,167 @@ items:
           uses:
             spent: 0
             recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    _id: pbwNWEsWRVmOiSiG
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zI0L56ED4I4qsJXE.pbwNWEsWRVmOiSiG'
+  - name: Swarm
+    type: feat
+    system:
+      description:
+        value: >-
+          The swarm can occupy another creature’s space and vice versa, and the
+          swarm can move through any opening large enough for a Tiny creature.
+          The swarm can’t regain hit points or gain temporary hit points.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: swarm
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/creatures/mammals/bats-movement-flying-purple.webp
+    _id: oD7WUe9pKj58VCFW
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zI0L56ED4I4qsJXE.oD7WUe9pKj58VCFW'
+  - name: Sting
+    type: weapon
+    _id: OpmjZuRFdK3QdNHK
+    img: icons/creatures/abilities/stinger-poison-green.webp
+    system:
+      activities:
+        Ti58lUtvbzbXgEKl:
+          _id: Ti58lUtvbzbXgEKl
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
           attack:
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: ''
+            ability: none
+            bonus: ''
           damage:
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
-            parts: []
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 4
+                bonus: ''
+                types:
+                  - poison
+                scaling:
+                  number: 1
+          name: ''
       uses:
         spent: 0
         recovery: []
         max: ''
       description:
         value: >-
-          <p><em>Melee Weapon Attack:</em> STR mod + PB to hit, reach 5 ft., one
-          target. Hit: 1d8 + STR mod.</p>
+          <p>Melee Weapon Attack: your spell attack modifier to hit, reach 0
+          ft., one target in the swarm's space. Hit: 2d4 + the spell’s level
+          piercing damage + 1d4 poison damage.</p>
         chat: ''
-      identifier: slam
+      identifier: sting
       source:
         revision: 1
         rules: '2024'
@@ -604,8 +698,6 @@ items:
         denomination: gp
       rarity: ''
       attunement: ''
-      attuned: false
-      equipped: true
       armor:
         value: null
       cover: null
@@ -621,9 +713,10 @@ items:
       ammunition: {}
       damage:
         base:
-          number: 1
-          denomination: 8
-          types: []
+          number: 2
+          denomination: 4
+          types:
+            - piercing
           custom:
             enabled: false
           scaling:
@@ -643,28 +736,34 @@ items:
       range:
         value: null
         long: null
-        reach: null
-        units: ''
+        reach: 0
+        units: ft
       mastery: ''
+      attuned: false
+      equipped: true
     effects: []
     folder: null
     sort: 0
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.NXZMDPtl7QVQKHCw.Item.hxO3sZ97dcFv9z5Q
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731692385929
-      modifiedTime: 1731692488099
+      systemVersion: 4.1.2
+      createdTime: 1733342253274
+      modifiedTime: 1733342253274
       lastModifiedBy: pJeIW7qCa0HkURWq
-    _key: '!actors.items!pfewC5ywwxyO4z23.ysXAHKF6rQ9V6ECR'
+    _key: '!actors.items!zI0L56ED4I4qsJXE.OpmjZuRFdK3QdNHK'
 effects: []
-sort: 1900000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
@@ -676,9 +775,11 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731692243098
-  modifiedTime: 1733340692384
+  systemVersion: 4.1.2
+  createdTime: 1733340694865
+  modifiedTime: 1733342267877
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!actors!pfewC5ywwxyO4z23'
+_id: zI0L56ED4I4qsJXE
+sort: 0
+_key: '!actors!zI0L56ED4I4qsJXE'
 

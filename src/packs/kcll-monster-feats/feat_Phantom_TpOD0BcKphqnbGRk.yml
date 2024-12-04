@@ -1,0 +1,60 @@
+folder: 3kUkYhDfpKa8T7qR
+name: Phantom
+type: feat
+_id: TpOD0BcKphqnbGRk
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The monster gains the ability to create illusionary duplicates of
+      itself, providing false targets and mirror images to distract and confuse
+      its foes. This could be some magic it has mastered, or an innate property
+      of its nature, warped by magic. It gains the following
+      feature:</p><ul><li><strong>Phantom Army.</strong> At the end of each of
+      its turns, the creature creates 1d4 + 1 phantom duplicates of itself, and
+      then teleports itself and its duplicates to unoccupied spaces within 30
+      feet of it. Each duplicate has the save attributes and AC as the creature,
+      but only 1 hit point and cannot take any actions, disappearing at the
+      start of the creature’s next turn.</li><li><strong>CR Adjustment:</strong>
+      +2</li></ul><section id="secret-E8UIMyoQmECqX8So"
+      class="secret"><h5>Tactical Hint</h5><p>On seeing a phantom destroyed, you
+      can offer the players the chance to make Intelligence (Arcana) or
+      Intelligence (Nature) check with a DC of 14. On success, you can reveal
+      the details of the ability, which makes it easy to defeat. Magic Missile
+      is a particularly effective solution, but any effect that deals guaranteed
+      damage can quickly check duplicates.</p></section>
+    chat: ''
+  identifier: phantom
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: monster
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733353702198
+  modifiedTime: 1733353894714
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!TpOD0BcKphqnbGRk'
+

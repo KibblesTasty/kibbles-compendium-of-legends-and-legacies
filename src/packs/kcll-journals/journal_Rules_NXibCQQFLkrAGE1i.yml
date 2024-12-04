@@ -142,6 +142,135 @@ pages:
       modifiedTime: 1733191934923
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!journal.pages!NXibCQQFLkrAGE1i.7fVrfxPp9OykJ5OS'
+  - sort: 300000
+    name: Monster Feats
+    type: text
+    _id: GealwXJT3NoRFcEi
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Feats for monsters are tools that allow you turn a generic monster
+        into a more elite or specialized version of that monster with a simple
+        drag-and-drop new ability. Each feat is designed to give the monster a
+        straightforward new power that makes encountering it a slight
+        twist.</p><p>While replacing monsters entirely with more complicated
+        monsters with detailed movesets works in some cases (and this very book
+        includes some such monsters), many times simple generic monsters fit the
+        bill. You don’t want every creature on the battlefield doing complicated
+        things every turn, as it grinds combat to a halt. But you might want one
+        or two elites or champions to mix things up, and these represent a way
+        to turn any monster into those in just moments.</p><p>Monster feats are
+        great for the little battles in between the set pieces. While making a
+        custom monster from scratch or scouring your pile of favorite monster
+        source books for the perfect epic encounter can make sense for a
+        capstone, sometimes you just want an orc bandit with a bit more cleaving
+        or a wolf that surprises your players with a sudden leap to their tasty
+        looking backline character.</p><p>Monster feats give you a way to have
+        these little twists and bumps without them feeling ad-hoc or arbitrary,
+        especially as many of them are mechanics that players will recognize
+        from the Active Martial Feats available to them. Things always seem more
+        fair if the Player Characters can theoretically gain the same powers,
+        and it might even motivate them to take one of them as their next feat
+        after seeing it in action.</p><p>This is why they are called ‘monster
+        feats’ rather than ‘monster powers’. It gives players a sense of ‘oh
+        that’s why this monster can do this thing, it has a feat’ without
+        devolving fully to using Player Character rules to build
+        monsters.</p><blockquote><h5>Comparison to Player Feats</h5><p>One might
+        be tempted to ask at this point ‘why not just the player facing Active
+        Martial Feats?’ Indeed, that’s where this started, as that proved a
+        popular idea. But monster feats have somewhat different
+        considerations.</p><p>For player feats, any two feats should be roughly
+        balanced against the other options. You don’t want a gradient of power
+        in the feats, because you don’t want ‘right’ and ‘wrong’ options, and
+        they have equal opportunity cost to the player. For monster feats, there
+        is no opportunity cost to the feat, so the balance is a lever the DM
+        pulls rather than an absolute, so having a gradient of tools from minor
+        to ‘overpowered’ is a feature of the design, rather than a
+        problem.</p></blockquote><h3>Proficiency Scaling</h3><p>One aspect of
+        these feats is that they scale with the proficiency bonus. This is to
+        make sure they remain relevant across all levels of play, but can cause
+        some confusion as not all monsters list their proficiency bonus. While
+        on newer monsters it will be listed as “PB” most frequently, it might
+        not appear on older monsters at all.</p><p>Fortunately, the PB of a
+        monster can be reverse engineered from their CR, simply by treating
+        their CR as if it were the level of a player character. To make that
+        more clear, here’s a graph that you can quickly reference to determine
+        the proficiency bonus based on CR. Note that the CR adjustment of an
+        added monster feat should not be taken into account when determining the
+        proficiency bonus—they are added after all the math of a creature is
+        ‘baked’ in.</p><table><caption>Monster Proficiency Bonus
+        Reference</caption><thead><tr><th>Challenge Rating
+        (CR)</th><th>Proficiency Bonus
+        (PB)</th></tr></thead><tbody><tr><td>1–4</td><td>2</td></tr><tr><td>5–8</td><td>3</td></tr><tr><td>9–12</td><td>4</td></tr><tr><td>13–17</td><td>5</td></tr><tr><td>18–21</td><td>6</td></tr><tr><td>22–25</td><td>7</td></tr><tr><td>26–28</td><td>8</td></tr><tr><td>29–30</td><td>9</td></tr></tbody></table><h3>CR
+        Adjustment</h3><p>Each feat contains a rough CR adjustment, but in the
+        balance between this being accurate and simple, I’ve opted to make it
+        simple. This means that while the CR adjustment will give you a
+        reasonable grasp of how it might impact the encounter, it cannot account
+        for all the variables that might be at play across a wide range of
+        levels.</p><p>The best approach is to start using these conservatively.
+        Try one out here or there in what would otherwise be an easy fight and
+        get used to them. The best encounter building technique is experience in
+        building encounters.</p><p>With any group, balance is will always be as
+        much as an art as a science, because players do not play predictable or
+        optimally (or not predictably optimally) so balancing monster statistics
+        against player statistics is only half the job (assuming you are trying
+        to build an encounter that challenges them, but has a low chance of
+        ending the campaign).</p><p>If a CR adjustment is 1/2, the CR is only
+        adjusted if the monster’s CR is less than 1 (rounding to 1 if the
+        monster is CR 1/4). The CR adjustment for Dynamic Feats are less
+        concrete.</p><p>Adding multiple new feats does not necessarily increase
+        the monster’s CR in a linear fashion. And CR adjustments after the first
+        can be treated as half the listed value. This is because the monster’s
+        action economy and defensive CR will typically be unable to fully
+        utilize multiple feats, but adding multiple feats is not recommended
+        until you have some experience with their
+        application.</p><h3>Interaction with Multiattack</h3><p>Many monster
+        feats that grant a new way to attack will read ‘as part of its
+        multiattack action’. This means that it can replace any attack the
+        monster can take as part of the multiattack action.</p><p>When using the
+        feat conservatively, you can replace the monsters strongest attack with
+        the new action, but the CR adjustment and assumption of the feat is that
+        it can replace any attack the monster can take as part of the
+        multiattack action, typically replacing one of its weaker attacks (if it
+        has stronger and weaker attacks).</p><blockquote><h5>Monster Feats In
+        Action</h5><p>Using Monster Feats can help make enemies do unexpected
+        things that keep combat fresh and dynamic, but tend to go over best when
+        introduced in a few a time, letting the players get the hang of the new
+        tools that monsters might be able to engage against them.</p><p>It can
+        also help to make their recharge more transparent, such as rolling the
+        recharge die in public after the monster attacks. This lets players have
+        knowledge of what the monster can do that, but this knowledge doesn’t
+        exceed what the player could plausibly read from the combat situation
+        after seeing the monster exert themselves into a special
+        attack.</p><p>Sometimes the best solution is simply to let players know
+        a monster is an elite monster using special powers if they are used
+        monsters with more limited power sets, and after some time they’ll
+        simply come to expect that a monster with a fancier helmet might break
+        out some special abilities compared to a normal
+        variant.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733352024033
+      modifiedTime: 1733352235760
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!journal.pages!NXibCQQFLkrAGE1i.GealwXJT3NoRFcEi'
 folder: null
 sort: 0
 ownership:

@@ -1,0 +1,55 @@
+name: Rampaging
+type: feat
+_id: rx6SqWEXAR38nFBF
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The monster can move with a surge of power that endangers all nearby
+      creatures in a burst of ferocity. This feat is most appropriate on
+      aggressive creatures that either have many weapons (such as claws) or
+      large weapons (such as great axes), and prefer to charge into groups of
+      enemies aggressively. It gains the following feature:
+      </p><ul><li><p><strong>Whirlwind (Recharge 4–6).</strong> As part of its
+      multiattack action (or as action if it lacks the multiattack action), the
+      monster strikes out all creatures of its choice within 5 feet of it.
+      Targets must make a Dexterity saving throw with a DC of 8 + STR mod + PB,
+      taking PBd8 + STR mod damage on a failed saving throw or half as much on a
+      successful saving throw. </p></li><li><p><strong>CR Adjustment:</strong>
+      +½</p></li></ul>
+    chat: ''
+  identifier: rampaging
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: monster
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+folder: 0qSrsjrjZBUbgTSG
+sort: 200000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733352480868
+  modifiedTime: 1733353894714
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!rx6SqWEXAR38nFBF'
+

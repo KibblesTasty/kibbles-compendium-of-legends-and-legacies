@@ -1,0 +1,58 @@
+folder: iJyR9aYbzFjgxXo9
+name: Divinely Favored
+type: feat
+_id: G0P03mvEj42JlH5A
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A monster favored by its gods or a higher power. This feat is most
+      appropriate for a type of monster that has an actively involved god in the
+      fate of their species (orcs, goblins, giants, etc.). The creature gains
+      the following benefits. </p><ul><li><p><strong>Blessed.</strong> The
+      creature adds +1d4 to all attack rolls and saving throws.
+      </p></li><li><p><strong>Divine Strike (Recharge 4–6).</strong> As part of
+      its Multiattack action (or as an action if it lacks the Multiattack
+      action) the monster holds aloft its weapon and calls down divine
+      retribution at a point within 60 feet. All creatures within 15 feet of the
+      target point must make a Constitution saving throw with a DC of 8 + CHA
+      mod + PB. On a failed save, creatures take PBd8 radiant damage (if the
+      creature is good, neutral aligned, or unaligned) or necrotic damage (if
+      the creature is evil aligned). On a successful save, they take half as
+      much damage. The monster then regains PBd8 hit points.
+      </p></li><li><p><strong>CR Adjustment:</strong> +1</p></li></ul>
+    chat: ''
+  identifier: divinely-favored
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: monster
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733352611900
+  modifiedTime: 1733353894714
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!G0P03mvEj42JlH5A'
+

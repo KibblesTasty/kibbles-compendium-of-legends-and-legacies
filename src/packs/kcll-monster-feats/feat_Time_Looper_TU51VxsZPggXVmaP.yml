@@ -1,0 +1,63 @@
+folder: 3kUkYhDfpKa8T7qR
+name: Time Looper
+type: feat
+_id: TU51VxsZPggXVmaP
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A particularly strange twist of fate has granted this monster the
+      ability to twist the flow of time around it, jumping back and forth
+      between time.</p><ul><li><strong>Reset (Recharge 5–6).</strong> At the
+      start of the creature’s turn, it can use its reaction to regain full hit
+      points, recharge all other abilities, regain all resources, clear all
+      conditions and spells affecting it, and teleport to anywhere it has been
+      since the start of its last turn.</li><li><strong>CR Adjustment:</strong>
+      ×2</li></ul><section id="secret-LZql9SpbGpUTynLV"
+      class="secret"><h5>Tactical Hint</h5><p>The obvious solution that requires
+      no hint is that if the target is killed before it uses or recharges the
+      ability, there is no need for additional solutions.</p><p>However, more
+      tactical approaches can result in easier times. Once the creature has used
+      the ability once, you can reveal the details of the ability on a
+      Intelligence (Arcana) ability check with a DC of 15 or higher, which would
+      reveal that it needs its reaction to use the ability. A reaction can be
+      denied by any effect that incapacitates a creature, some features, or some
+      spells like shocking grasp.</p><h5>Running the Creature</h5><p>While this
+      might sound challenging to run, you can simply keep additional copies of
+      the creature block and reset to another one when it uses the ability,
+      minus the expended ability.</p></section>
+    chat: ''
+  identifier: time-looper
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: monster
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733353729704
+  modifiedTime: 1733353894714
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!TU51VxsZPggXVmaP'
+

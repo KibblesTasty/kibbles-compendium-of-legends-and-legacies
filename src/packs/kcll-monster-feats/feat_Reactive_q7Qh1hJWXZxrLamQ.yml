@@ -1,0 +1,50 @@
+folder: iJyR9aYbzFjgxXo9
+name: Reactive
+type: feat
+_id: q7Qh1hJWXZxrLamQ
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Some monsters are exceptional at handling many foes at the same time,
+      and core tool of doing so is be able to respond quickly. The monster gains
+      the following features:</p><ul><li><strong>Reactive.</strong> The monster
+      gains an additional reaction per round.</li><li><strong>Vengeful
+      Blow.</strong> When the monster is hit by an attack, it can make one
+      attack as a reaction against the attacker, if the attacker is in range of
+      an available action.</li><li><strong>CR Adjustment:</strong> + 1</li></ul>
+    chat: ''
+  identifier: reactive
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: monster
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733353011078
+  modifiedTime: 1733353894714
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!q7Qh1hJWXZxrLamQ'
+

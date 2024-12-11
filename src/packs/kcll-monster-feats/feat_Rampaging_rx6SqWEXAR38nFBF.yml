@@ -1,9 +1,80 @@
 name: Rampaging
 type: feat
 _id: rx6SqWEXAR38nFBF
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/melee/strike-sword-gray.webp
 system:
-  activities: {}
+  activities:
+    59TPM6AmIVlMN2kA:
+      type: save
+      name: Whirlwind
+      _id: 59TPM6AmIVlMN2kA
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: recharge
+            formula: '4'
+            type: recoverAll
+        max: '1'
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: str
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
@@ -41,7 +112,11 @@ sort: 200000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -49,7 +124,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733352480868
-  modifiedTime: 1733353894714
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1733955616097
+  lastModifiedBy: rWrNJIT5ckSNK1mM
 _key: '!items!rx6SqWEXAR38nFBF'
 

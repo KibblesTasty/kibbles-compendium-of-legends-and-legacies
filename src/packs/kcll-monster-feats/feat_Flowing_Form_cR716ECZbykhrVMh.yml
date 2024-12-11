@@ -2,7 +2,7 @@ folder: YZ5Le1FMHMc5uYyj
 name: Flowing Form
 type: feat
 _id: cR716ECZbykhrVMh
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/water/water-drop-swirl-blue.webp
 system:
   activities: {}
   uses:
@@ -33,7 +33,64 @@ system:
     level: null
   properties: []
   requirements: ''
-effects: []
+effects:
+  - name: Flowing Form
+    img: icons/magic/water/water-drop-swirl-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monster-feats.Item.cR716ECZbykhrVMh
+    _id: urWVrpZwdfUS5yPy
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1733960617251
+      modifiedTime: 1733960658837
+      lastModifiedBy: rWrNJIT5ckSNK1mM
+    _key: '!items.effects!cR716ECZbykhrVMh.urWVrpZwdfUS5yPy'
 sort: 0
 ownership:
   default: 0
@@ -46,7 +103,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733353385972
-  modifiedTime: 1733353894714
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1733960605491
+  lastModifiedBy: rWrNJIT5ckSNK1mM
 _key: '!items!cR716ECZbykhrVMh'
 

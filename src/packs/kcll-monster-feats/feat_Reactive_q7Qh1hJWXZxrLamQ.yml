@@ -2,9 +2,57 @@ folder: iJyR9aYbzFjgxXo9
 name: Reactive
 type: feat
 _id: q7Qh1hJWXZxrLamQ
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/melee/swords-parry-block-yellow.webp
 system:
-  activities: {}
+  activities:
+    HFf90ZIkHwsQMdgC:
+      type: utility
+      name: Vengeful Blow
+      _id: HFf90ZIkHwsQMdgC
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
@@ -36,7 +84,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -44,7 +96,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733353011078
-  modifiedTime: 1733353894714
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1733958949134
+  lastModifiedBy: rWrNJIT5ckSNK1mM
 _key: '!items!q7Qh1hJWXZxrLamQ'
 

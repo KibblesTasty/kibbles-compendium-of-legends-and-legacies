@@ -2,9 +2,80 @@ folder: iJyR9aYbzFjgxXo9
 name: Leaping
 type: feat
 _id: zZwFy8ME92vZ6ZuA
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/movement/arrow-upward-blue.webp
 system:
-  activities: {}
+  activities:
+    3OShdDCN2XqtIadk:
+      type: save
+      name: Mighty Leap
+      _id: 3OShdDCN2XqtIadk
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: min(20, @attributes.movement.walk)
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: recharge
+            formula: '4'
+            type: recoverAll
+        max: '1'
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: str
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
@@ -24,11 +95,11 @@ system:
       by a creature smaller than it. Any creature that it lands on, or that is
       within 5 feet of its landing area, must make a Constitution saving throw
       with a DC of 8 + STR mod + PB, taking PBd6 + STR mod damage on failure and
-      being knocked prone. On success, the creature takes half as much damage
-      and is not knocked prone. Targets in the space the monster lands in are
-      ejected to nearest free space within 5 feet. If there is no free space
-      within 5 feet, the automatically fail the save and cannot stand up until
-      they are no longer sharing a space with
+      being knocked &amp;Reference[prone]. On success, the creature takes half
+      as much damage and is not knocked prone. Targets in the space the monster
+      lands in are ejected to nearest free space within 5 feet. If there is no
+      free space within 5 feet, the automatically fail the save and cannot stand
+      up until they are no longer sharing a space with
       creature.</p></li><li><p><strong>CR Adjustment:</strong> +1</p></li></ul>
     chat: ''
   identifier: leaping
@@ -48,7 +119,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -56,7 +131,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733352740537
-  modifiedTime: 1733353894714
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1733958437037
+  lastModifiedBy: rWrNJIT5ckSNK1mM
 _key: '!items!zZwFy8ME92vZ6ZuA'
 

@@ -2,9 +2,63 @@ folder: iJyR9aYbzFjgxXo9
 name: Grappling
 type: feat
 _id: UKXtbj6av7OfPV3B
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
 system:
-  activities: {}
+  activities:
+    mvDgZnv31IxcQ3yL:
+      type: save
+      name: Grab
+      _id: mvDgZnv31IxcQ3yL
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+          - dex
+        dc:
+          calculation: str
+          formula: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
@@ -13,13 +67,14 @@ system:
     value: >-
       <p>These monsters specialize in getting hold of their foes and keeping the
       close. It most often found in bruisers or large monsters, such as ogres or
-      trolls. The monster gains the following features:
-      </p><ul><li><p><strong>Grab.</strong> As a bonus action, the creature
-      attempts to grab a target within reach. The target must make a Strength or
-      Dexterity saving throw (DC 8 + STR mod + PB) or become grappled (escape DC
-      10 + STR mod). </p></li><li><p><strong>Beat.</strong> The monster has
-      advantage on attacks against creatures it is grappling.
-      </p></li><li><p><strong>CR Adjustment:</strong> +½</p></li></ul>
+      trolls. The monster gains the following
+      features:</p><ul><li><p><strong>Grab.</strong> As a bonus action, the
+      creature attempts to grab a target within reach. The target must make a
+      Strength or Dexterity saving throw (DC 8 + STR mod + PB) or become
+      &amp;Reference[grappled] (escape DC 10 + STR
+      mod).</p></li><li><p><strong>Beat.</strong> The monster has advantage on
+      attacks against creatures it is grappling.</p></li><li><p><strong>CR
+      Adjustment:</strong> +½</p></li></ul>
     chat: ''
   identifier: grappling
   source:
@@ -38,7 +93,11 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -46,7 +105,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733352656000
-  modifiedTime: 1733353894714
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1733960981907
+  lastModifiedBy: rWrNJIT5ckSNK1mM
 _key: '!items!UKXtbj6av7OfPV3B'
 

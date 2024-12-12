@@ -932,7 +932,7 @@ items:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.3i5RNzHJfSuMARIJ'
-  - name: Bloodied Fractured Existence
+  - name: Fractured Existence
     type: feat
     system:
       description:
@@ -946,16 +946,18 @@ items:
           _id: QzPI5Zdf2zc49j19
           type: utility
           activation:
-            type: action
+            type: special
             value: 1
             override: false
+            condition: ''
           sort: 0
           consumption:
             scaling:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -963,23 +965,35 @@ items:
           effects: []
           range:
             override: false
+            units: self
+            special: ''
           target:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
           roll:
             prompt: false
             visible: false
+            name: Flicker
+            formula: 1d4
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: bloodied-fractured-existence
       source:
         revision: 1
@@ -991,7 +1005,7 @@ items:
       prerequisites:
         level: null
       properties: []
-      requirements: ''
+      requirements: Bloodied
     img: icons/svg/combat.svg
     _id: koz0dP6fhrUcA8Dq
     effects: []
@@ -1000,7 +1014,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -1008,8 +1026,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734041809968
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!iQFrUugM1XFPAgXT.koz0dP6fhrUcA8Dq'
   - name: Undo
     type: feat

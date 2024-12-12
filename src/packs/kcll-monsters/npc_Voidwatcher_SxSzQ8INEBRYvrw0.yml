@@ -828,19 +828,36 @@ items:
     system:
       description:
         value: >-
-          The voidwatcher is a 7th-level spellcaster. Its spellcasting ability
-          is Wisdom (spell save DC 18, +8 to hit with spell attacks). It has the
-          following spells known: <br />Cantrips (at will): Burn, Decaying
-          Touch, Fire Bolt, Message<br />1st level (4 slots): Eyes Of
-          Immolationk, Hellish Rebuke, Melting Globk<br />2nd level (3 slots):
-          Shatter, Unstable Explosionk<br />3rd level (3 slots): Erodek,
-          Hungering Voidk<br />4th level (1 slot): Dimension Cutterk, Pillar Of
-          Firek
+          <p>The voidwatcher is a 7th-level spellcaster. Its spellcasting
+          ability is Wisdom (spell save DC 18, +8 to hit with spell attacks). It
+          has the following spells known: <br /></p><p>Cantrips (at will):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.M78OwzPvXD8KwbVN]{Burn},
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ZKAiQfTSPNGWKwTR]{Decaying
+          Touch}, @UUID[Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio]{Fire
+          Bolt},
+          @UUID[Compendium.dnd5e.spells.Item.icZokbgV1jIMpNCv]{Message}<br
+          /></p><p>1st level (4 slots):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.7D0GIvoEyu3MKi2D]{Eyes
+          Of Immolation},
+          @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{Hellish Rebuke},
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.qH2nuuphmRnOfwmG]{Melting
+          Glob}<br /></p><p>2nd level (3 slots):
+          @UUID[Compendium.dnd5e.spells.Item.wJKpSvSTbSkTjqyb]{Shatter},
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.Zuw7NOfOHAzLpSyO]{Unstable
+          Explosion}<br /></p><p>3rd level (3 slots):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.WPyc9AsaDre1BX9S]{Erode},
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.CiHpqg6YWWBHjR0E]{Hungering
+          Void}<br /></p><p>4th level (1 slot):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.xdJtoXpWjYWHdNaw]{Dimension
+          Cutter},
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.hncx6dhPDfDhlFMT]{Pillar
+          Of Fire}</p>
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: spellcasting
       source:
         revision: 1
@@ -869,8 +886,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734040466852
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!SxSzQ8INEBRYvrw0.ha8ybq1Nnhtiweuv'
   - name: Burn
     type: spell

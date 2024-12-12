@@ -911,7 +911,7 @@ items:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!actors.items!otjGEY6gX2VFsAmp.KbWcr5sHO3bUh0Yd'
-  - name: Bonus Action War Cry
+  - name: War Cry
     type: feat
     system:
       description:
@@ -920,20 +920,22 @@ items:
           creatures within 60 feet of it 1d8 + 4 temporary hit points.
         chat: ''
       activities:
-        SGIjFHTaT7UCcLKX:
-          _id: SGIjFHTaT7UCcLKX
-          type: utility
-          activation:
-            type: action
-            value: 1
-            override: false
+        dAP1iaJYo14EUHt7:
+          type: heal
+          _id: dAP1iaJYo14EUHt7
           sort: 0
+          activation:
+            type: bonus
+            value: null
+            override: false
+            condition: ''
           consumption:
             scaling:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -941,23 +943,39 @@ items:
           effects: []
           range:
             override: false
+            units: self
+            special: ''
           target:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
-          roll:
-            prompt: false
-            visible: false
+            max: ''
+          healing:
+            number: 1
+            denomination: '8'
+            types: []
+            custom:
+              enabled: false
+            scaling:
+              number: 1
+            bonus: '4'
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: bonus-action-war-cry
       source:
         revision: 1
@@ -978,7 +996,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -986,8 +1008,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734038181585
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!otjGEY6gX2VFsAmp.VQtZaJ1A7HtCYRn7'
   - name: Get Back Up
     type: feat

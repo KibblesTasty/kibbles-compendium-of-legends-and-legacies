@@ -618,179 +618,7 @@ items:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!actors.items!MjcjPcrlx39ISD0v.UdiLH7uLpzrb2wHP'
-  - name: Action Multiattack
-    type: feat
-    system:
-      description:
-        value: >-
-          The weregator makes three attacks, one with its bite, one with its
-          claws, and one with its tail.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: action-multiattack
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: ''
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    img: icons/svg/book.svg
-    _id: WfvnHZA5vf9wFHUE
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!MjcjPcrlx39ISD0v.WfvnHZA5vf9wFHUE'
-  - name: Bite
-    type: feat
-    system:
-      description:
-        value: >-
-          Melee Weapon Attack: +9 to hit, reach 5 ft. , one target, Hit: 17
-          (2d10 + 6) piercing damage.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: bite
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: ''
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    img: icons/creatures/abilities/mouth-teeth-long-red.webp
-    _id: pLBZgtpOsYn8uuEp
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!MjcjPcrlx39ISD0v.pLBZgtpOsYn8uuEp'
-  - name: Claws
-    type: feat
-    system:
-      description:
-        value: >-
-          Melee Weapon Attack: +9 to hit, reach 5 ft. , one target, Hit: 11 (2d4
-          + 6) slashing damage.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: claws
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: ''
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    img: icons/svg/book.svg
-    _id: LbQFFyUxtUdFRkrO
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!MjcjPcrlx39ISD0v.LbQFFyUxtUdFRkrO'
-  - name: Tail
-    type: feat
-    system:
-      description:
-        value: >-
-          Melee Weapon Attack: +9 to hit, reach 10 ft. , one target, Hit: 15
-          (2d8 + 6) bludgeoning damage.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: tail
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: ''
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    img: icons/svg/book.svg
-    _id: E19qHGltwKVfkTJH
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!MjcjPcrlx39ISD0v.E19qHGltwKVfkTJH'
-  - name: Bonus Action Death Roll
+  - name: Death Roll
     type: feat
     system:
       description:
@@ -802,10 +630,73 @@ items:
           weregator can't bite another target. Both the weregator and the target
           fall prone.
         chat: ''
-      activities: {}
+      activities:
+        cM2CACL8n3E5x9sF:
+          type: save
+          name: Death Roll
+          _id: cM2CACL8n3E5x9sF
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 4
+                denomination: 10
+                bonus: ''
+                types:
+                  - bludgeoning
+                scaling:
+                  number: 1
+            onSave: half
+          save:
+            ability:
+              - str
+            dc:
+              calculation: ''
+              formula: '17'
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: bonus-action-death-roll
       source:
         revision: 1
@@ -826,7 +717,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -834,42 +729,131 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734042564906
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!MjcjPcrlx39ISD0v.00Rp6QYpDpDy6ved'
-  - name: Bloodied Frenzy
-    type: feat
+  - name: Bite
+    type: weapon
+    _id: k2NJ7W1tU9YkJDyN
+    img: systems/dnd5e/icons/svg/items/weapon.svg
     system:
-      description:
-        value: >-
-          When the weregator is reduced to less than half of its maximum hit
-          points, it enters a frenzy. For the rest of combat, it gains advantage
-          on its attacks.
-        chat: ''
-      activities: {}
+      activities:
+        67hyzAMX7BNyosKf:
+          _id: 67hyzAMX7BNyosKf
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
       uses:
         spent: 0
         recovery: []
-      identifier: bloodied-frenzy
+        max: ''
+      description:
+        value: >-
+          <p>Melee Weapon Attack: +9 to hit, reach 5 ft., one target, Hit: 17
+          (2d10 + 6) piercing damage.</p>
+        chat: ''
+      identifier: bite
       source:
         revision: 1
         rules: '2024'
-      enchant: {}
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
       type:
-        value: ''
-        subtype: ''
-      prerequisites:
-        level: null
+        value: natural
+        baseItem: ''
+      ammunition: {}
+      damage:
+        base:
+          number: 2
+          denomination: 10
+          types:
+            - piercing
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      magicalBonus: null
       properties: []
-      requirements: ''
-    img: icons/svg/book.svg
-    _id: eDdDQQcix0FHb3sw
+      proficient: null
+      range:
+        value: null
+        long: null
+        reach: null
+        units: ''
+      mastery: ''
     effects: []
     folder: null
     sort: 0
     ownership:
       default: 0
-      pJeIW7qCa0HkURWq: 3
+      rWrNJIT5ckSNK1mM: 3
     flags: {}
     _stats:
       compendiumSource: null
@@ -877,10 +861,318 @@ items:
       coreVersion: '12.331'
       systemId: dnd5e
       systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!MjcjPcrlx39ISD0v.eDdDQQcix0FHb3sw'
+      createdTime: 1734042606627
+      modifiedTime: 1734042667647
+      lastModifiedBy: rWrNJIT5ckSNK1mM
+    _key: '!actors.items!MjcjPcrlx39ISD0v.k2NJ7W1tU9YkJDyN'
+  - name: Claws
+    type: weapon
+    _id: rDUloNmYJUH70tSE
+    img: systems/dnd5e/icons/svg/items/weapon.svg
+    system:
+      activities:
+        ba4ucNRoVGz2QM2k:
+          _id: ba4ucNRoVGz2QM2k
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: ''
+        chat: ''
+      identifier: claws
+      source:
+        revision: 1
+        rules: '2024'
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: natural
+        baseItem: ''
+      ammunition: {}
+      damage:
+        base:
+          number: 2
+          denomination: 4
+          types:
+            - slashing
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      magicalBonus: null
+      properties: []
+      proficient: null
+      range:
+        value: null
+        long: null
+        reach: null
+        units: ''
+      mastery: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      rWrNJIT5ckSNK1mM: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1734042640763
+      modifiedTime: 1734042658994
+      lastModifiedBy: rWrNJIT5ckSNK1mM
+    _key: '!actors.items!MjcjPcrlx39ISD0v.rDUloNmYJUH70tSE'
+  - name: Tail
+    type: weapon
+    _id: 4iEqevXGTtpXILs5
+    img: systems/dnd5e/icons/svg/items/weapon.svg
+    system:
+      activities:
+        1X0ummDJXtaq2yXo:
+          _id: 1X0ummDJXtaq2yXo
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: ''
+        chat: ''
+      identifier: tail
+      source:
+        revision: 1
+        rules: '2024'
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: natural
+        baseItem: ''
+      ammunition: {}
+      damage:
+        base:
+          number: 2
+          denomination: 8
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      magicalBonus: null
+      properties:
+        - rch
+      proficient: null
+      range:
+        value: null
+        long: null
+        reach: null
+        units: ''
+      mastery: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      rWrNJIT5ckSNK1mM: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1734042677753
+      modifiedTime: 1734042694768
+      lastModifiedBy: rWrNJIT5ckSNK1mM
+    _key: '!actors.items!MjcjPcrlx39ISD0v.4iEqevXGTtpXILs5'
+  - name: Frenzy
+    type: feat
+    _id: YvcEsxR0NsHlB0cT
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>When the weregator is reduced to less than half of its maximum hit
+          points, it enters a frenzy. For the rest of combat, it gains advantage
+          on its attacks.</p>
+        chat: ''
+      identifier: frenzy
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      rWrNJIT5ckSNK1mM: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1734042710310
+      modifiedTime: 1734042720357
+      lastModifiedBy: rWrNJIT5ckSNK1mM
+    _key: '!actors.items!MjcjPcrlx39ISD0v.YvcEsxR0NsHlB0cT'
 effects: []
 flags:
   dnd5e:

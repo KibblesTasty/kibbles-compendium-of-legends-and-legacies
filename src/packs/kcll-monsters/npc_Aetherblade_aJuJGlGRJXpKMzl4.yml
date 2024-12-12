@@ -507,15 +507,20 @@ items:
             type: action
             value: 1
             override: false
+            condition: ''
           attack:
-            ability: dex
+            ability: int
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: ''
+            bonus: '5'
           damage:
             parts: []
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
           sort: 0
           consumption:
@@ -523,7 +528,8 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -535,13 +541,20 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       damage:
         base:
           number: 3
@@ -573,6 +586,7 @@ items:
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: aetherblade
       source:
         revision: 1
@@ -599,6 +613,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      mastery: ''
     img: icons/svg/sword.svg
     _id: 8PhEMn7BSNXyjkJF
     effects: []
@@ -607,7 +622,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -615,8 +634,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734036685359
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!aJuJGlGRJXpKMzl4.8PhEMn7BSNXyjkJF'
   - name: Aethersweep
     type: feat
@@ -758,16 +777,24 @@ items:
     system:
       description:
         value: >-
-          The aetherblade is a 3rd-level spellcaster. Its spellcasting ability
-          is Intelligence (spell save DC 14, +6 to hit with spell attacks). It
-          has the following spells: <br />Cantrips (at will): Force Boltk,
-          Light, Prestidigitation<br />1st level (4 slots): Magic Missile,
-          Shield<br />2nd Level (3 slots): Star Dustk
+          <p>The aetherblade is a 3rd-level spellcaster. Its spellcasting
+          ability is Intelligence (spell save DC 14, +6 to hit with spell
+          attacks). It has the following spells: </p><p>Cantrips (at will):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.763vzjinGJcEzrZC]{Force
+          Bolt}, @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{Light},
+          @UUID[Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ]{Prestidigitation}</p><p>1st
+          level (4 slots):
+          @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile},
+          @UUID[Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7]{Shield}</p><p>2nd
+          Level (3 slots):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.o34N3OOzHmWaXTfA]{Star
+          Dust}</p>
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: spellcasting
       source:
         revision: 1
@@ -796,8 +823,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734036597120
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!aJuJGlGRJXpKMzl4.NGJeVmpKQ4ZXFzDn'
   - _id: UySdOWgGMPFDqMSW
     name: Light

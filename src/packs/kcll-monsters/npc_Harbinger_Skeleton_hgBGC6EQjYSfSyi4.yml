@@ -834,10 +834,73 @@ items:
           make a DC 13 Dexterity saving throw, taking 17 (5d6) fire damage on
           failure, or half as much on a successful save.
         chat: ''
-      activities: {}
+      activities:
+        fm7oa1hEbT1lZf5r:
+          type: save
+          _id: fm7oa1hEbT1lZf5r
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 5
+                denomination: 6
+                bonus: ''
+                types:
+                  - fire
+                scaling:
+                  number: 1
+            onSave: half
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: ''
+              formula: '13'
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: explode
       source:
         revision: 1
@@ -850,7 +913,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    img: icons/svg/book.svg
+    img: icons/magic/fire/explosion-fireball-medium-orange.webp
     _id: fIh7Nsmku8GLT85C
     effects: []
     folder: null
@@ -858,7 +921,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -866,8 +933,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734041074464
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!hgBGC6EQjYSfSyi4.fIh7Nsmku8GLT85C'
   - name: Illumination
     type: feat

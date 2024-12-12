@@ -488,10 +488,8 @@ items:
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 8 (1d8
-          + 3) slashing damage Battlefield Presence. The captain can let one
-          allied creature that can see or hear it make a single melee weapon
-          attack as a reaction.
+          <p>Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 8
+          (1d8 + 3) slashing damage </p>
         chat: ''
       identified: true
       equipped: true
@@ -575,6 +573,7 @@ items:
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: longsword
       source:
         revision: 1
@@ -601,6 +600,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      mastery: ''
     img: icons/weapons/swords/greatsword-guard.webp
     _id: xPl8SNU77tRJgZGT
     effects: []
@@ -617,8 +617,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734039110704
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!PiHF0CPSyH2XDq56.xPl8SNU77tRJgZGT'
   - _id: EXOxG0EUmsqog81s
     name: Half Plate Armor
@@ -741,6 +741,89 @@ items:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!actors.items!PiHF0CPSyH2XDq56.Mm0sGc8lbzutuaIN'
+  - name: Battlefield Presence
+    type: feat
+    _id: Vy2RtMz9pPpjuXXJ
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    system:
+      activities:
+        zi65yAtvKZOD2cgJ:
+          type: utility
+          _id: zi65yAtvKZOD2cgJ
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>The captain can let one allied creature that can see or hear it
+          make a single melee weapon attack as a reaction.</p>
+        chat: ''
+      identifier: battlefield-presence
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      rWrNJIT5ckSNK1mM: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: 1734039120060
+      modifiedTime: 1734039130533
+      lastModifiedBy: rWrNJIT5ckSNK1mM
+    _key: '!actors.items!PiHF0CPSyH2XDq56.Vy2RtMz9pPpjuXXJ'
 effects: []
 flags:
   dnd5e:

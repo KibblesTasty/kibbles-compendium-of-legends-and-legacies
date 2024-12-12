@@ -722,7 +722,7 @@ items:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.BbRSknQg0diMPk3G'
-  - name: Spectral Blade Rush (Recharge 5−6)
+  - name: Spectral Blade Rush
     type: feat
     system:
       description:
@@ -741,29 +741,37 @@ items:
             type: action
             value: 1
             override: false
+            condition: ''
           save:
             ability:
               - dex
             dc:
               formula: '15'
-              calculation: initial
+              calculation: ''
           damage:
             parts:
-              - number: 3
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 3
                 denomination: 8
+                bonus: ''
                 types:
                   - necrotic
-                custom:
-                  enabled: false
                 scaling:
                   number: 1
+            onSave: half
           sort: 0
           consumption:
             scaling:
               allowed: false
             spellSlot: true
-            targets: []
-          description: {}
+            targets:
+              - type: itemUses
+                value: '1'
+                scaling: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -771,20 +779,33 @@ items:
           effects: []
           range:
             override: false
+            units: self
+            special: ''
           target:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
-        recovery: []
+        recovery:
+          - period: recharge
+            formula: '5'
+            type: recoverAll
+        max: '1'
       identifier: spectral-blade-rush-recharge-56
       source:
         revision: 1
@@ -805,7 +826,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -813,10 +838,10 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734041645638
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!xJsDHRoCHx9wdIgp.I39kdQ01Uk4tOmzI'
-  - name: Spectral Blade Wind (Recharge 5−6)
+  - name: Spectral Blade Wind
     type: feat
     system:
       description:
@@ -828,20 +853,26 @@ items:
           within 5 feet of one of the targets hit.
         chat: ''
       activities:
-        puRqqdoeNFAHN8xY:
-          _id: puRqqdoeNFAHN8xY
-          type: utility
+        Z5Y4QqAm1QsuOL4L:
+          type: attack
+          _id: Z5Y4QqAm1QsuOL4L
+          sort: 0
           activation:
             type: action
-            value: 1
+            value: null
             override: false
-          sort: 0
+            condition: ''
           consumption:
             scaling:
               allowed: false
             spellSlot: true
-            targets: []
-          description: {}
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -849,23 +880,67 @@ items:
           effects: []
           range:
             override: false
+            units: self
+            special: ''
           target:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
-          roll:
-            prompt: false
-            visible: false
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: dex
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 8
+                bonus: '@mod'
+                types:
+                  - slashing
+                scaling:
+                  number: 1
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types:
+                  - necrotic
+                scaling:
+                  number: 1
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
-        recovery: []
+        recovery:
+          - period: recharge
+            formula: '5'
+            type: recoverAll
+        max: '1'
       identifier: spectral-blade-wind-recharge-56
       source:
         revision: 1
@@ -886,7 +961,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -894,8 +973,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734041735637
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!xJsDHRoCHx9wdIgp.4I3AHiqDAC3dW2ey'
   - name: Spell Cleave
     type: feat

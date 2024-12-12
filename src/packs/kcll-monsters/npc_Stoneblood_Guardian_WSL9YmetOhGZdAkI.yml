@@ -775,7 +775,7 @@ items:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!actors.items!WSL9YmetOhGZdAkI.RpejFjLCkUzM2rbR'
-  - name: Bonus Action Grab
+  - name: Grab
     type: feat
     system:
       description:
@@ -784,20 +784,22 @@ items:
           reach as a bonus action.
         chat: ''
       activities:
-        NACcLG0hnS6toRJ6:
-          _id: NACcLG0hnS6toRJ6
-          type: utility
-          activation:
-            type: action
-            value: 1
-            override: false
+        hLsaJjy0X3vHhLyd:
+          type: check
+          _id: hLsaJjy0X3vHhLyd
           sort: 0
+          activation:
+            type: bonus
+            value: null
+            override: false
+            condition: ''
           consumption:
             scaling:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -805,23 +807,37 @@ items:
           effects: []
           range:
             override: false
+            units: self
+            special: ''
           target:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
-          roll:
-            prompt: false
-            visible: false
+            max: ''
+          check:
+            associated:
+              - ath
+            dc:
+              calculation: ''
+              formula: ''
+            ability: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: bonus-action-grab
       source:
         revision: 1
@@ -842,7 +858,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -850,8 +870,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734039402582
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!WSL9YmetOhGZdAkI.vAPieluFysG0cCEd'
   - name: Endurance
     type: feat

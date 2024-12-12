@@ -718,15 +718,20 @@ items:
             type: action
             value: 1
             override: false
+            condition: ''
           attack:
             ability: str
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: ''
+            bonus: '1'
           damage:
             parts: []
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
           sort: 0
           consumption:
@@ -734,7 +739,8 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -746,13 +752,20 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       damage:
         base:
           number: 4
@@ -784,6 +797,7 @@ items:
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: claws
       source:
         revision: 1
@@ -810,6 +824,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      mastery: ''
     img: icons/svg/sword.svg
     _id: nRmT2wm30OLbEL8D
     effects: []
@@ -818,7 +833,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -826,8 +845,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734040732411
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!Ejjz2iz7ElfAVTtc.nRmT2wm30OLbEL8D'
   - name: Rampaging Charge
     type: feat

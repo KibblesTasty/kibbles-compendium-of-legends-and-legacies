@@ -507,15 +507,20 @@ items:
             type: action
             value: 1
             override: false
+            condition: ''
           attack:
-            ability: dex
+            ability: spellcasting
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: ''
+            bonus: ''
           damage:
             parts: []
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
           sort: 0
           consumption:
@@ -523,7 +528,8 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -535,13 +541,20 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       damage:
         base:
           number: 1
@@ -573,6 +586,7 @@ items:
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: longsword
       source:
         revision: 1
@@ -599,6 +613,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      mastery: ''
     img: icons/weapons/swords/greatsword-guard.webp
     _id: PqZcHZCMewBjcIC3
     effects: []
@@ -607,7 +622,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -615,8 +634,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734040160160
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!zZ5JriOIFhNx1emT.PqZcHZCMewBjcIC3'
   - name: Fire Strike
     type: weapon
@@ -642,23 +661,30 @@ items:
             type: action
             value: 1
             override: false
+            condition: ''
           attack:
-            ability: dex
+            ability: spellcasting
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: spell
+            bonus: ''
           damage:
             parts:
-              - number: 2
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
                 denomination: 10
+                bonus: ''
                 types:
                   - fire
-                custom:
-                  enabled: false
                 scaling:
                   number: 1
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
           sort: 0
           consumption:
@@ -666,7 +692,8 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -678,13 +705,20 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       damage:
         base:
           number: 1
@@ -716,6 +750,7 @@ items:
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: fire-strike
       source:
         revision: 1
@@ -742,6 +777,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      mastery: ''
     img: icons/svg/sword.svg
     _id: Ca8Je2cHwfIsJmkF
     effects: []
@@ -750,7 +786,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -758,8 +798,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734040145697
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!zZ5JriOIFhNx1emT.Ca8Je2cHwfIsJmkF'
   - name: Spell Strike
     type: feat
@@ -846,17 +886,28 @@ items:
     system:
       description:
         value: >-
-          The swordmage is a 5th-level spellcaster. Its spellcasting ability is
-          Intelligence (spell save DC 15, +7 to hit with spell attacks). It has
-          the following spells: <br />Cantrips (at will): Fire Bolt, Light,
-          Prestidigitation<br />1st level (4 slots): Burning Hands, Disguise
-          Self, Shield<br />2nd Level (3 slots): Hurricane Slashk, Mirror
-          Image<br />3rd level (2 slots): Lightning Bolt
+          <p>The swordmage is a 5th-level spellcaster. Its spellcasting ability
+          is Intelligence (spell save DC 15, +7 to hit with spell attacks). It
+          has the following spells: </p><p>Cantrips (at will):
+          @UUID[Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio]{Fire Bolt},
+          @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{Light},
+          @UUID[Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ]{Prestidigitation}</p><p>1st
+          level (4 slots):
+          @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands},
+          @UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{Disguise Self},
+          @UUID[Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7]{Shield}</p><p>2nd
+          Level (3 slots):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.k136yidCXvOCZB7g]{Hurricane
+          Slash}, @UUID[Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{Mirror
+          Image}</p><p>3rd level (2 slots):
+          @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Lightning
+          Bolt}</p>
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: spellcasting
       source:
         revision: 1
@@ -885,8 +936,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734040318084
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!zZ5JriOIFhNx1emT.TeHPX2wlyehQyGwb'
   - _id: bB2wgILwyxWFV6GI
     name: Fire Bolt

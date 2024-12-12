@@ -725,16 +725,20 @@ items:
             type: action
             value: 1
             override: false
+            condition: ''
           attack:
-            ability: ''
+            ability: str
             type:
               value: ranged
+              classification: ''
             critical:
               threshold: null
             flat: false
+            bonus: ''
           damage:
             parts: []
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
           sort: 0
           consumption:
@@ -742,7 +746,8 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -754,13 +759,20 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       damage:
         base:
           number: 4
@@ -792,6 +804,7 @@ items:
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: wind-slash
       source:
         revision: 1
@@ -818,6 +831,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      mastery: ''
     img: icons/magic/air/air-pressure-shield-blue.webp
     _id: 3SwoCvEFEJZOCZpy
     effects: []
@@ -826,7 +840,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -834,8 +852,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734042747995
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!xXZO5WTCN0Z6VQR2.3SwoCvEFEJZOCZpy'
   - name: Claw Wind Strike
     type: feat
@@ -921,7 +939,7 @@ items:
       modifiedTime: null
       lastModifiedBy: null
     _key: '!actors.items!xXZO5WTCN0Z6VQR2.heyDGPhwtduv0gfF'
-  - name: Instant Counter (Recharge 4–6)
+  - name: Instant Counter
     type: feat
     img: icons/svg/combat.svg
     system:
@@ -1004,10 +1022,10 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734042755759
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!xXZO5WTCN0Z6VQR2.r3B3bMZe4EzUotay'
-  - name: Bloodied Wind Shroud
+  - name: Wind Shroud
     type: feat
     img: icons/svg/combat.svg
     system:
@@ -1024,16 +1042,18 @@ items:
           _id: YsZUsi8LZATiO34F
           type: utility
           activation:
-            type: reaction
+            type: special
             value: null
             override: false
+            condition: ''
           sort: 0
           consumption:
             scaling:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -1041,23 +1061,35 @@ items:
           effects: []
           range:
             override: false
+            units: self
+            special: ''
           target:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
           roll:
             prompt: false
             visible: false
+            name: ''
+            formula: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: bloodied-wind-shroud
       source:
         revision: 1
@@ -1074,6 +1106,10 @@ items:
       adnd5e:
         itemInfo:
           type: reaction
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _id: Ek0yO2GTvUrMg6Zz
     effects: []
     folder: null
@@ -1088,8 +1124,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734042786680
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!xXZO5WTCN0Z6VQR2.Ek0yO2GTvUrMg6Zz'
   - _id: 9TqEAZpvY2otE3oJ
     name: Half Plate Armor

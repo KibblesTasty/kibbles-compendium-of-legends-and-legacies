@@ -508,15 +508,20 @@ items:
             type: action
             value: 1
             override: false
+            condition: ''
           attack:
-            ability: dex
+            ability: spellcasting
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: spell
+            bonus: ''
           damage:
             parts: []
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
           sort: 0
           consumption:
@@ -524,7 +529,8 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -536,13 +542,20 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
+          name: ''
+          img: ''
+          appliedEffects: []
       damage:
         base:
           number: 1
@@ -574,6 +587,7 @@ items:
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: fire-staff
       source:
         revision: 1
@@ -600,6 +614,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      mastery: ''
     img: icons/svg/sword.svg
     _id: 8mxqNsqNcFBEscP8
     effects: []
@@ -608,7 +623,11 @@ items:
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -616,8 +635,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734039075612
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!zGz7J3M4xuSCmPIY.8mxqNsqNcFBEscP8'
   - name: Bonus Action Foresight
     type: feat
@@ -746,17 +765,27 @@ items:
     system:
       description:
         value: >-
-          The oracle is a 4th-level spellcaster. Its spellcasting ability is
+          <p>The oracle is a 4th-level spellcaster. Its spellcasting ability is
           Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the
-          following spells known: <br />Cantrips (at will): Burnk, Fire Bolt,
-          Manipulate Firek<br />1st level (4 slots): Burning Hands, Eyes Of
-          Immolationk, Hellish Rebuke, Karmic Reflectionk<br />2nd level (3
-          slots): Become Firek, Scorching Ray
+          following spells known: <br /></p><p>Cantrips (at will):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.M78OwzPvXD8KwbVN]{Burn},
+          @UUID[Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio]{Fire Bolt},
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.RWuxCrJk2KNZSZLE]{Manipulate
+          Fire}</p><p>1st level (4 slots):
+          @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands},
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.7D0GIvoEyu3MKi2D]{Eyes
+          Of Immolation}, Hellish Rebuke,
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.WyqjrKirS65i9ahH]{Karmic
+          Reflection}</p><p>2nd level (3 slots):
+          @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.5ajKrbmMbmIDmaOp]{Become
+          Fire}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching
+          Ray}</p>
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
+        max: ''
       identifier: spellcasting
       source:
         revision: 1
@@ -785,8 +814,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1734039050365
+      lastModifiedBy: rWrNJIT5ckSNK1mM
     _key: '!actors.items!zGz7J3M4xuSCmPIY.cSZnGOr4j0npOpxJ'
   - _id: XBbiLHRyHfV26EwH
     name: Fire Bolt

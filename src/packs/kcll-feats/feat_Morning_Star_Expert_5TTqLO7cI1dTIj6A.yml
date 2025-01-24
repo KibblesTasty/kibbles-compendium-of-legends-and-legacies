@@ -90,6 +90,29 @@ system:
     level: null
   properties: []
   requirements: ''
+  advancement:
+    - _id: AN68BzrjHhPaStms
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -105,9 +128,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.2.2
   createdTime: 1729047394384
-  modifiedTime: 1732248423441
+  modifiedTime: 1737756505689
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!5TTqLO7cI1dTIj6A'
 

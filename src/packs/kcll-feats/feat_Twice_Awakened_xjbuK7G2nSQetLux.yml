@@ -34,6 +34,27 @@ system:
     level: null
   properties: []
   requirements: Awakened Undead
+  advancement:
+    - _id: CJeOwSYB9j6oREYe
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -45,9 +66,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   createdTime: 1732224762165
-  modifiedTime: 1733351678697
+  modifiedTime: 1737755021623
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xjbuK7G2nSQetLux'
 

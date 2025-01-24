@@ -2,7 +2,7 @@ folder: 76Thsx1OBiq8Xno4
 name: Vital Blood
 type: feat
 _id: CxqUmO4xsG8hvO7c
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/unholy/projectile-helix-blood-red.webp
 system:
   activities: {}
   uses:
@@ -39,6 +39,27 @@ system:
     level: null
   properties: []
   requirements: Spellcasting or Pact Magic Feature
+  advancement:
+    - _id: GkqdAbHCg4fxTpVE
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -50,9 +71,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   createdTime: 1730492325422
-  modifiedTime: 1733351678697
+  modifiedTime: 1737756088461
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!CxqUmO4xsG8hvO7c'
 

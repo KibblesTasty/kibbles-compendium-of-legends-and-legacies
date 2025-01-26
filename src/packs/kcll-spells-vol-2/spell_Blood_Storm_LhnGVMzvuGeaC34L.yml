@@ -51,7 +51,7 @@ system:
           allowed: false
         spellSlot: true
         targets:
-          - type: material
+          - type: attribute
             value: '2'
             target: attributes.hp.value
             scaling:
@@ -84,7 +84,7 @@ system:
               enabled: false
               formula: ''
             number: 3
-            denomination: 8
+            denomination: '8'
             bonus: ''
             types:
               - slashing
@@ -100,6 +100,8 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
@@ -136,9 +138,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   createdTime: 1733250986488
-  modifiedTime: 1733351679157
+  modifiedTime: 1737918130451
   lastModifiedBy: pJeIW7qCa0HkURWq
 sort: 0
 ownership:

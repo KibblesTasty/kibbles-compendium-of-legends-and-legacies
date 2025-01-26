@@ -81,13 +81,12 @@ system:
       <p>Acid rain begins falling within a 40-foot-radius 60-foot-high cylinder
       centered on a point you choose within range. When a creature moves into
       the spell's area for the first time on a turn or starts its turn there,
-      the creature must succeed on a Dexterity saving throw or take [[/damage
-      6d4 acid]] damage, and become covered in acid. On a successful save, a
-      creature takes half the initial damage and is not covered in acid.</p>
-
-      <p>A creature takes [[/damage 3d4 acid]] damage if it ends its turn while
-      covered with acid. The target or a creature within 5 feet of it can end
-      this damage by using its action to clear away the acid.</p>
+      the creature must succeed on a Dexterity saving throw or take 6d4 acid
+      damage, and become covered in acid. On a successful save, a creature takes
+      half the initial damage and is not covered in acid.</p><p>A creature takes
+      3d4 acid damage if it ends its turn while covered with acid. The target or
+      a creature within 5 feet of it can end this damage by using its action to
+      clear away the acid.</p>
     chat: ''
     unidentified: ''
   source:
@@ -169,15 +168,123 @@ system:
     - vocal
     - somatic
     - concentration
+  activities:
+    S9Fdl4LjyMbCGaRL:
+      type: save
+      _id: S9Fdl4LjyMbCGaRL
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: '4'
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    6VDkY8N0WQuXinSq:
+      type: damage
+      _id: 6VDkY8N0WQuXinSq
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: '4'
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: ''
+      name: ''
+      img: ''
+      appliedEffects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733351679743
+  modifiedTime: 1737865448462
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.Usog9YxzT1vGQMbT
   duplicateSource: null

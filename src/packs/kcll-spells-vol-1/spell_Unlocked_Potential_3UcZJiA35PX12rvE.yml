@@ -63,10 +63,15 @@ system:
     width: null
     units: ''
     type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: 60
     long: null
     units: ft
+    special: ''
   uses:
     value: null
     max: ''
@@ -172,10 +177,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733351679743
+  modifiedTime: 1737864510830
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.FIKY5OXZVg6UMtTv
   duplicateSource: null

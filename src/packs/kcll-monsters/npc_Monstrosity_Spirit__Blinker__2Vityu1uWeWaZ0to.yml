@@ -338,8 +338,8 @@ system:
     hp:
       value: 35
       max: 35
-      temp: 0
-      tempmax: 0
+      temp: null
+      tempmax: null
       formula: '0'
     death:
       ability: ''
@@ -806,9 +806,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   createdTime: 1733337394393
-  modifiedTime: 1733351676084
+  modifiedTime: 1737864885255
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: 2Vityu1uWeWaZ0to
 sort: 1300000

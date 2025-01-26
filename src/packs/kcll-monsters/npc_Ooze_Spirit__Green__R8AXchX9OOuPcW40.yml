@@ -328,8 +328,8 @@ system:
     hp:
       value: 5
       max: 5
-      temp: 0
-      tempmax: 0
+      temp: null
+      tempmax: null
       formula: '0'
     death:
       ability: ''
@@ -351,7 +351,7 @@ system:
     type:
       value: ooze
     environment: ''
-    cr: 1
+    cr: null
     spellLevel: 0
   resources:
     legact:
@@ -716,9 +716,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   createdTime: 1733016894834
-  modifiedTime: 1733351676084
+  modifiedTime: 1737864889243
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: R8AXchX9OOuPcW40
 sort: 700000

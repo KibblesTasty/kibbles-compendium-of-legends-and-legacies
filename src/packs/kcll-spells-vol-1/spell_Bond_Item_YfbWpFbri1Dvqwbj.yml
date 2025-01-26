@@ -100,10 +100,15 @@ system:
     width: null
     units: ''
     type: object
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: touch
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -251,10 +256,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733351679743
+  modifiedTime: 1737864489405
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.H7TfJIzUUQufIBdh
   duplicateSource: null

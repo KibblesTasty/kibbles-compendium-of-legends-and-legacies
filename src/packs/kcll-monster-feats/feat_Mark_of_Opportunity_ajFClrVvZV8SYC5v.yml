@@ -4,7 +4,58 @@ type: feat
 _id: ajFClrVvZV8SYC5v
 img: icons/skills/targeting/crosshair-pointed-orange.webp
 system:
-  activities: {}
+  activities:
+    zt1D5NfGmxWKtS5u:
+      type: utility
+      _id: zt1D5NfGmxWKtS5u
+      sort: 0
+      activation:
+        type: turnEnd
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: zOArRPZcRq65daZM
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '@abilities.movement.walk'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: any
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects:
+        - zOArRPZcRq65daZM
   uses:
     spent: 0
     recovery: []
@@ -34,20 +85,60 @@ system:
     level: null
   properties: []
   requirements: ''
-effects: []
+effects:
+  - name: Mark of Opportunity
+    img: icons/skills/targeting/crosshair-pointed-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monster-feats.Item.ajFClrVvZV8SYC5v
+    transfer: false
+    _id: zOArRPZcRq65daZM
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739485447148
+      modifiedTime: 1739485465749
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!ajFClrVvZV8SYC5v.zOArRPZcRq65daZM'
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.0
   createdTime: 1733352976846
-  modifiedTime: 1733958862057
-  lastModifiedBy: rWrNJIT5ckSNK1mM
+  modifiedTime: 1739485488704
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ajFClrVvZV8SYC5v'
 

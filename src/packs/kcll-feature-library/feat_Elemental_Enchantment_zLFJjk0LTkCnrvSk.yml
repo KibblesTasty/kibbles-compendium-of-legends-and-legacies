@@ -68,7 +68,9 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a weapon converting its damage type to Fire, Cold, or
+      Lightning while you wield it.</p>
     chat: ''
   identifier: elemental-enchantment
   source:
@@ -93,15 +95,15 @@ effects:
     _id: t7wzHf8PSFQlccOQ
     system: {}
     changes:
-      - key: system.damage.base.denomination
+      - key: system.damage.types
         mode: 2
         value: fire
         priority: null
-      - key: system.damage.base.denomination
+      - key: system.damage.types
         mode: 2
         value: cold
         priority: null
-      - key: system.damage.base.denomination
+      - key: system.damage.types
         mode: 2
         value: lightning
         priority: null
@@ -119,15 +121,18 @@ effects:
     transfer: true
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
+      systemVersion: 4.3.0
       createdTime: 1731475464293
-      modifiedTime: 1731475484190
+      modifiedTime: 1739479771270
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!items.effects!zLFJjk0LTkCnrvSk.t7wzHf8PSFQlccOQ'
 folder: null
@@ -145,9 +150,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.0
   createdTime: 1731475388898
-  modifiedTime: 1732221374043
+  modifiedTime: 1739479702580
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zLFJjk0LTkCnrvSk'
 

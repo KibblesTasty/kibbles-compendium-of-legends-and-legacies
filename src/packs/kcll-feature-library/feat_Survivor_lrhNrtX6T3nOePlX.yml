@@ -58,7 +58,7 @@ system:
       _id: dnd5eactivity000
       type: heal
       activation:
-        type: special
+        type: turnStart
         value: 0
         condition: ''
         override: false
@@ -129,9 +129,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.0
   createdTime: 1727317518918
-  modifiedTime: 1732221374043
+  modifiedTime: 1739486789500
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 76900000

@@ -4,7 +4,54 @@ type: feat
 _id: TpOD0BcKphqnbGRk
 img: icons/magic/defensive/illusion-evasion-echo-purple.webp
 system:
-  activities: {}
+  activities:
+    5OdoxMdS3kEa7Ans:
+      type: utility
+      _id: 5OdoxMdS3kEa7Ans
+      sort: 0
+      activation:
+        type: turnEnd
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Duplicates
+        formula: 1d4 + 1
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
@@ -23,11 +70,11 @@ system:
       at the start of the creature’s next turn.</li><li><strong>CR
       Adjustment:</strong> +2</li></ul><section class="secret"
       id="secret-E8UIMyoQmECqX8So"><h5>Tactical Hint</h5><p>On seeing a phantom
-      destroyed, you can offer the players the chance to make Intelligence
-      (Arcana) or Intelligence (Nature) check with a DC of 14. On success, you
-      can reveal the details of the ability, which makes it easy to defeat.
-      Magic Missile is a particularly effective solution, but any effect that
-      deals guaranteed damage can quickly check duplicates.</p></section>
+      destroyed, you can offer the players the chance to make [[/check arc
+      dc=14]] or [[/check nat dc=14]] check. On success, you can reveal the
+      details of the ability, which makes it easy to defeat. Magic Missile is a
+      particularly effective solution, but any effect that deals guaranteed
+      damage can quickly check duplicates.</p></section>
     chat: ''
   identifier: phantom
   source:
@@ -46,15 +93,19 @@ sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.0
   createdTime: 1733353702198
-  modifiedTime: 1733955717147
-  lastModifiedBy: rWrNJIT5ckSNK1mM
+  modifiedTime: 1739484550849
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!TpOD0BcKphqnbGRk'
 

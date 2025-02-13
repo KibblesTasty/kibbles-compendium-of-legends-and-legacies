@@ -261,7 +261,7 @@ system:
       _id: VSCtFRibamd43xZb
       sort: 0
       activation:
-        type: special
+        type: turnStart
         value: null
         override: false
         condition: ''
@@ -323,7 +323,12 @@ system:
         bonus: '@scaling'
       name: ''
       img: ''
-      appliedEffects: []
+      appliedEffects:
+        - RGTnaZtA2nxOgfsg
+        - 1vEV6iBq5cvFpzlT
+        - ZxYNgx7M5VGlmUNC
+        - SWBRqZFwR0fSxW0D
+        - pu7AP2ZyVA3HnT5p
   enchant: {}
   prerequisites:
     level: null
@@ -333,9 +338,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.0
   createdTime: 1727317516406
-  modifiedTime: 1732221374043
+  modifiedTime: 1739486215174
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 72700000

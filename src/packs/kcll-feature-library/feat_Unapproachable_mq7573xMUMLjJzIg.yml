@@ -24,7 +24,54 @@ system:
     subtype: ''
   requirements: Dreadlord 1
   identifier: unapproachable
-  activities: {}
+  activities:
+    5ozFMcLSTHNtREKb:
+      type: utility
+      _id: 5ozFMcLSTHNtREKb
+      sort: 0
+      activation:
+        type: encounter
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -38,14 +85,18 @@ flags:
       value: true
   core:
     sourceId: Item.YPt70j8Lzlz8upiv
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: Item.YPt70j8Lzlz8upiv
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.0
   createdTime: 1727317519323
-  modifiedTime: 1732221374043
+  modifiedTime: 1739486718250
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 77600000

@@ -20,6 +20,7 @@ Hooks.once("init", () => {
   const dazed = {
     label: "KCLL.Dazed",
     icon: `${MODULE_PATH}/assets/icons/dazed.svg`,
+    id: "dazed",
     _id: dnd5e.utils.staticID("dnd5edazed"),
     reference: "Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.NXibCQQFLkrAGE1i.JournalEntryPage.8t64sXFlxtCVP3b1",
   }

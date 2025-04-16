@@ -347,7 +347,9 @@ system:
     - _id: fHxn6aohcLIZ0bql
       type: Subclass
       configuration: {}
-      value: {}
+      value:
+        document: null
+        uuid: null
       level: 1
       title: Warlord Specialization
       hint: |-
@@ -430,6 +432,91 @@ system:
       value: {}
       title: Leadership Distance
       hint: ''
+    - _id: dZHMy3530RPCjzvD
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 4
+      title: ''
+    - _id: dBMWU3h8MBO4PcEm
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 8
+      title: ''
+    - _id: nROeTbeO8vrGjqAp
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 12
+      title: ''
+    - _id: prZMkvcCNoLvF4yB
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 16
+      title: ''
+    - _id: puDaUsYrlks0z5gm
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 19
+      title: ''
   saves:
     - wis
     - cha
@@ -567,12 +654,12 @@ system:
       sort: 1600000
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   coreVersion: '12.331'
   createdTime: 1682022640155
-  modifiedTime: 1731527757822
+  modifiedTime: 1744825884693
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Compendium.dnd5e.classes.ABEBgWyRhVlDUIfq
+  compendiumSource: null
   duplicateSource: null
 folder: iq2yIqBIoLBEd3dB
 sort: 100000

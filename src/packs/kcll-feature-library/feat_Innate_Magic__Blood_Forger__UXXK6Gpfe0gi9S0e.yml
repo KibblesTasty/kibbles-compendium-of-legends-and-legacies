@@ -19,6 +19,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: x7ZNbJq4ArkybY7D
       sort: 0
       activation:
@@ -76,6 +77,8 @@ system:
       activity:
         id: x7ZNbJq4ArkybY7D
       img: ''
+      spell:
+        ability: wis
   uses:
     spent: 0
     recovery: []
@@ -127,9 +130,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.8
   createdTime: 1733177074094
-  modifiedTime: 1733351678102
+  modifiedTime: 1744825633548
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!UXXK6Gpfe0gi9S0e'
 

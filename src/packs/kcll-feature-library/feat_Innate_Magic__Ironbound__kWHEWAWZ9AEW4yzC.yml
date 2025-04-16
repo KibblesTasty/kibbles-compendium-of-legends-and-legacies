@@ -50,6 +50,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 7yZ1VFDj3TbOrQRU
       sort: 800000
       activation:
@@ -116,6 +117,8 @@ system:
       activity:
         id: 7yZ1VFDj3TbOrQRU
       img: ''
+      spell:
+        ability: wis
     oWeH1U97gl59Fv6q:
       type: cast
       spell:
@@ -131,6 +134,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: oWeH1U97gl59Fv6q
       sort: 200000
       activation:
@@ -197,6 +201,8 @@ system:
       activity:
         id: oWeH1U97gl59Fv6q
       img: ''
+      spell:
+        ability: wis
     0EwTqTekAPiRoVn3:
       type: cast
       spell:
@@ -212,6 +218,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 0EwTqTekAPiRoVn3
       sort: 400000
       activation:
@@ -278,6 +285,8 @@ system:
       activity:
         id: 0EwTqTekAPiRoVn3
       img: ''
+      spell:
+        ability: wis
     Fh1LBuuv29b5jK4H:
       type: cast
       spell:
@@ -293,6 +302,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: Fh1LBuuv29b5jK4H
       sort: 600000
       activation:
@@ -359,6 +369,8 @@ system:
       activity:
         id: Fh1LBuuv29b5jK4H
       img: ''
+      spell:
+        ability: wis
     rNjXyHMxMFYyIDHg:
       type: cast
       spell:
@@ -374,6 +386,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: rNjXyHMxMFYyIDHg
       sort: 900000
       activation:
@@ -440,6 +453,8 @@ system:
       activity:
         id: rNjXyHMxMFYyIDHg
       img: ''
+      spell:
+        ability: wis
     APthMqNNjLl1pUKb:
       type: cast
       spell:
@@ -455,6 +470,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: APthMqNNjLl1pUKb
       sort: 1100000
       activation:
@@ -521,6 +537,8 @@ system:
       activity:
         id: APthMqNNjLl1pUKb
       img: ''
+      spell:
+        ability: wis
   enchant: {}
   prerequisites:
     level: null
@@ -539,13 +557,13 @@ flags:
       activity: []
       effect: []
 _stats:
-  compendiumSource: Item.iC7R7WcOZQJ53udJ
+  compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1727317518055
-  modifiedTime: 1732568031109
+  modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 75400000

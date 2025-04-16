@@ -72,6 +72,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: vNVjhwUR66mtyifN
       sort: 700000
       activation:
@@ -140,6 +141,8 @@ system:
         id: vNVjhwUR66mtyifN
       name: Sleet Storm
       img: ''
+      spell:
+        ability: wis
     qDUOfzmMJBvOolyE:
       type: cast
       spell:
@@ -154,6 +157,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: qDUOfzmMJBvOolyE
       sort: 1100000
       activation:
@@ -221,6 +225,8 @@ system:
       activity:
         id: ''
       img: ''
+      spell:
+        ability: wis
     oXs30GGa2AEhKh5S:
       type: cast
       spell:
@@ -236,6 +242,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: oXs30GGa2AEhKh5S
       sort: 100000
       activation:
@@ -302,6 +309,8 @@ system:
       activity:
         id: oXs30GGa2AEhKh5S
       img: ''
+      spell:
+        ability: wis
     ixEOttHWSPYmGl89:
       type: cast
       spell:
@@ -317,6 +326,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: ixEOttHWSPYmGl89
       sort: 300000
       activation:
@@ -383,6 +393,8 @@ system:
       activity:
         id: ixEOttHWSPYmGl89
       img: ''
+      spell:
+        ability: wis
     zZoArlBOlLRWZnW4:
       type: cast
       spell:
@@ -398,6 +410,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: zZoArlBOlLRWZnW4
       sort: 500000
       activation:
@@ -464,6 +477,8 @@ system:
       activity:
         id: zZoArlBOlLRWZnW4
       img: ''
+      spell:
+        ability: wis
     8GbNDsEbPvTZ9UDV:
       type: cast
       spell:
@@ -479,6 +494,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 8GbNDsEbPvTZ9UDV
       sort: 800000
       activation:
@@ -545,18 +561,20 @@ system:
       activity:
         id: 8GbNDsEbPvTZ9UDV
       img: ''
+      spell:
+        ability: wis
   enchant: {}
   prerequisites:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.YpNwif3IhEk0djbx
+  compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1727317518002
-  modifiedTime: 1732567493918
+  modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 75300000

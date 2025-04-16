@@ -72,8 +72,9 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: hB6lBSA6IrrVaAd7
-      sort: 100000
+      sort: 500000
       activation:
         type: action
         value: null
@@ -124,8 +125,9 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: JvA6Iy89OsOSJP9x
-      sort: 200000
+      sort: 700000
       activation:
         type: action
         value: null
@@ -176,8 +178,9 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: HpTzm2C12XEFlaB8
-      sort: 400000
+      sort: 900000
       activation:
         type: action
         value: null
@@ -218,7 +221,7 @@ system:
       type: forward
       name: Entangle
       _id: EcGLO2r18amtl7Ao
-      sort: 150000
+      sort: 600000
       activation:
         type: action
         value: null
@@ -242,11 +245,13 @@ system:
       activity:
         id: hB6lBSA6IrrVaAd7
       img: ''
+      spell:
+        ability: wis
     UZcHFylfFQMrLNz7:
       type: forward
       name: Speak with Plants
       _id: UZcHFylfFQMrLNz7
-      sort: 300000
+      sort: 800000
       activation:
         type: action
         value: null
@@ -270,11 +275,13 @@ system:
       activity:
         id: JvA6Iy89OsOSJP9x
       img: ''
+      spell:
+        ability: wis
     C1iIZzu8ocUQQbyh:
       type: forward
       name: Plant Growth
       _id: C1iIZzu8ocUQQbyh
-      sort: 500000
+      sort: 1000000
       activation:
         type: action
         value: null
@@ -298,6 +305,8 @@ system:
       activity:
         id: HpTzm2C12XEFlaB8
       img: ''
+      spell:
+        ability: wis
     BA7ycyIp2qHmjoHy:
       type: cast
       spell:
@@ -313,8 +322,9 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: BA7ycyIp2qHmjoHy
-      sort: 0
+      sort: 100000
       activation:
         type: action
         value: null
@@ -355,7 +365,7 @@ system:
       type: forward
       name: Grasping Roots
       _id: MdwWdMeAWnKxXz5J
-      sort: 0
+      sort: 200000
       activation:
         type: action
         value: null
@@ -379,6 +389,8 @@ system:
       activity:
         id: BA7ycyIp2qHmjoHy
       img: ''
+      spell:
+        ability: wis
     Zqxs4hIQTrM58m8j:
       type: cast
       spell:
@@ -394,8 +406,9 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: Zqxs4hIQTrM58m8j
-      sort: 600000
+      sort: 1100000
       activation:
         type: action
         value: null
@@ -436,7 +449,7 @@ system:
       type: forward
       name: Summon Plant
       _id: 1DfWe0OxNJRxeDmO
-      sort: 700000
+      sort: 1200000
       activation:
         type: action
         value: null
@@ -460,6 +473,8 @@ system:
       activity:
         id: Zqxs4hIQTrM58m8j
       img: ''
+      spell:
+        ability: wis
     4dNxd0sdjnRxKuRj:
       type: cast
       spell:
@@ -475,8 +490,9 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 4dNxd0sdjnRxKuRj
-      sort: 800000
+      sort: 300000
       activation:
         type: action
         value: null
@@ -517,7 +533,7 @@ system:
       type: forward
       name: Carnivorous Garden
       _id: 4dFrnWpCNEZlnKzr
-      sort: 0
+      sort: 400000
       activation:
         type: action
         value: null
@@ -541,18 +557,20 @@ system:
       activity:
         id: 4dNxd0sdjnRxKuRj
       img: ''
+      spell:
+        ability: wis
   enchant: {}
   prerequisites:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.CQNuADrZ1Tv13Ijz
+  compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1727317515584
-  modifiedTime: 1732567244530
+  modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 71300000

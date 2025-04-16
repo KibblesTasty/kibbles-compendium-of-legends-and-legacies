@@ -18,6 +18,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: Wmxe13Q2VVRt1HQk
       sort: 100000
       activation:
@@ -70,6 +71,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: yDcQQ5aivJeUvGJK
       sort: 200000
       activation:
@@ -122,6 +124,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: qzu6S4lvHMRP0Fuh
       sort: 400000
       activation:
@@ -174,6 +177,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: Rx4n9EQowQSOL7KK
       sort: 500000
       activation:
@@ -240,6 +244,8 @@ system:
       activity:
         id: Wmxe13Q2VVRt1HQk
       img: ''
+      spell:
+        ability: wis
     gfXvKlLLozcRtPO0:
       type: forward
       name: Augury
@@ -268,6 +274,8 @@ system:
       activity:
         id: yDcQQ5aivJeUvGJK
       img: ''
+      spell:
+        ability: wis
     qAdNTEnhUnYwLKrB:
       type: forward
       name: Speak with Dead
@@ -296,6 +304,8 @@ system:
       activity:
         id: qzu6S4lvHMRP0Fuh
       img: ''
+      spell:
+        ability: wis
     EO8XpuBIB5nzzQXF:
       type: cast
       spell:
@@ -311,6 +321,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: EO8XpuBIB5nzzQXF
       sort: 0
       activation:
@@ -364,6 +375,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: ZvtLWF5li4nTdF35
       sort: 600000
       activation:
@@ -430,6 +442,8 @@ system:
       activity:
         id: EO8XpuBIB5nzzQXF
       img: ''
+      spell:
+        ability: wis
     cC1HDtkexwGWOFCS:
       type: forward
       name: Ribcage
@@ -458,6 +472,8 @@ system:
       activity:
         id: ZvtLWF5li4nTdF35
       img: ''
+      spell:
+        ability: wis
   uses:
     spent: 0
     recovery: []
@@ -514,9 +530,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1731640405985
-  modifiedTime: 1732565288755
+  modifiedTime: 1744825644528
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xObSPdYy0qbOl5oC'
 

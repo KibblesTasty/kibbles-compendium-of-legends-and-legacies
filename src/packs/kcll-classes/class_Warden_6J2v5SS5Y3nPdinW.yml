@@ -353,15 +353,17 @@ system:
     - _id: z4I5KQ4O6LSOWkZY
       type: Subclass
       configuration: {}
-      value: {}
-      level: 3
+      value:
+        document: null
+        uuid: null
+      level: 1
       title: Warden's Bond
       hint: |-
         You select an aspect of primal powers, gaining the
-        ability to manifest your bond with that power. The
-        options for Warden Bonds are listed at the end of the
-        class. Your choice grants you features at 1st level and
-        again at 3rd, 7th, 14th, and 17th levels.
+            ability to manifest your bond with that power. The
+            options for Warden Bonds are listed at the end of the
+            class. Your choice grants you features at 1st level and
+            again at 3rd, 7th, 14th, and 17th levels.
     - _id: ufJ6xVJHiOVJlBtc
       type: ScaleValue
       configuration:
@@ -528,6 +530,91 @@ system:
       level: 1
       title: ''
       hint: ''
+    - _id: dZHMy3530RPCjzvD
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 4
+      title: ''
+    - _id: dBMWU3h8MBO4PcEm
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 8
+      title: ''
+    - _id: nROeTbeO8vrGjqAp
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 12
+      title: ''
+    - _id: prZMkvcCNoLvF4yB
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 16
+      title: ''
+    - _id: puDaUsYrlks0z5gm
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 19
+      title: ''
   saves:
     - str
     - wis
@@ -546,7 +633,7 @@ system:
     value: []
   spellcasting:
     progression: none
-    ability: ''
+    ability: wis
     preparation:
       formula: ''
   subclass: ''
@@ -640,12 +727,12 @@ system:
       sort: 1300000
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   coreVersion: '12.331'
   createdTime: 1680650622405
-  modifiedTime: 1732228431103
+  modifiedTime: 1744825884693
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Compendium.dnd5e.classes.pvEzGSv71zBhaolc
+  compendiumSource: null
   duplicateSource: null
 folder: HUaII7dx2BNLZrSg
 sort: 100000

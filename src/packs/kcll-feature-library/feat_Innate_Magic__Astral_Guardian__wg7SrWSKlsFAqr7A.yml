@@ -18,6 +18,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: EUPgFqDqECP9IaAJ
       sort: 100000
       activation:
@@ -70,6 +71,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: braHefuuDGuK1av1
       sort: 200000
       activation:
@@ -122,6 +124,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 9RPWLKWdR3JQtCVw
       sort: 400000
       activation:
@@ -188,6 +191,8 @@ system:
       activity:
         id: EUPgFqDqECP9IaAJ
       img: ''
+      spell:
+        ability: wis
     EcuwCmRAkoi8OqZS:
       type: forward
       name: Misty Step
@@ -216,6 +221,8 @@ system:
       activity:
         id: braHefuuDGuK1av1
       img: ''
+      spell:
+        ability: wis
     JQ1AGhKLWKjc96kU:
       type: forward
       name: Dimension Door
@@ -244,6 +251,8 @@ system:
       activity:
         id: 9RPWLKWdR3JQtCVw
       img: ''
+      spell:
+        ability: wis
     iUkP1rOpnhNNwPBe:
       type: cast
       spell:
@@ -259,6 +268,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: iUkP1rOpnhNNwPBe
       sort: 175000
       activation:
@@ -312,6 +322,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: ldR4B2YAErgsxiEZ
       sort: 350000
       activation:
@@ -365,6 +376,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: x0CEtyWz4gucJqCd
       sort: 387500
       activation:
@@ -431,6 +443,8 @@ system:
       activity:
         id: iUkP1rOpnhNNwPBe
       img: ''
+      spell:
+        ability: wis
     Tjonmoep0YYEY9sc:
       type: forward
       name: Ghost Step
@@ -459,6 +473,8 @@ system:
       activity:
         id: ldR4B2YAErgsxiEZ
       img: ''
+      spell:
+        ability: wis
     cKKRwEmCNJBZ01Rp:
       type: forward
       name: Dimension Cutter
@@ -487,6 +503,8 @@ system:
       activity:
         id: x0CEtyWz4gucJqCd
       img: ''
+      spell:
+        ability: wis
   uses:
     spent: 0
     recovery: []
@@ -541,9 +559,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1731640396114
-  modifiedTime: 1732564957747
+  modifiedTime: 1744825643121
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wg7SrWSKlsFAqr7A'
 

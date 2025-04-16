@@ -18,6 +18,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: pyQSPeiwiLbpXpej
       sort: 100000
       activation:
@@ -70,6 +71,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 1cGqxIJQYDBCOguA
       sort: 200000
       activation:
@@ -122,6 +124,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: SCKYFMsgksaMdCMr
       sort: 400000
       activation:
@@ -188,6 +191,8 @@ system:
       activity:
         id: ''
       img: ''
+      spell:
+        ability: wis
     OPI0xjSxbb0nxwTY:
       type: forward
       name: Fear
@@ -216,6 +221,8 @@ system:
       activity:
         id: ''
       img: ''
+      spell:
+        ability: wis
     3e4jHSQi3feQRx4W:
       type: forward
       name: Secret Chest
@@ -244,6 +251,8 @@ system:
       activity:
         id: ''
       img: ''
+      spell:
+        ability: wis
     wQf9IbzTY8PrOujM:
       type: cast
       spell:
@@ -259,6 +268,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: wQf9IbzTY8PrOujM
       sort: 0
       activation:
@@ -325,6 +335,8 @@ system:
       activity:
         id: wQf9IbzTY8PrOujM
       img: ''
+      spell:
+        ability: wis
     BmLIBSlhqT5ZOXTa:
       type: cast
       spell:
@@ -340,6 +352,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: BmLIBSlhqT5ZOXTa
       sort: 0
       activation:
@@ -406,6 +419,8 @@ system:
       activity:
         id: BmLIBSlhqT5ZOXTa
       img: ''
+      spell:
+        ability: wis
     Ol3nQT7IhSPpI3lm:
       type: cast
       spell:
@@ -421,6 +436,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: Ol3nQT7IhSPpI3lm
       sort: 0
       activation:
@@ -487,6 +503,8 @@ system:
       activity:
         id: Ol3nQT7IhSPpI3lm
       img: ''
+      spell:
+        ability: wis
   uses:
     spent: 0
     recovery: []
@@ -539,9 +557,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1731637068797
-  modifiedTime: 1732565403805
+  modifiedTime: 1744825639633
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!lYRB0SoJdUcFMlaQ'
 

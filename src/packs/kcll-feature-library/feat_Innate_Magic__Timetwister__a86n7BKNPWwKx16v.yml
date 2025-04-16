@@ -18,6 +18,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: NJB7AOb8elafkqXv
       sort: 100000
       activation:
@@ -70,6 +71,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: LSIviKynQCfSiszM
       sort: 200000
       activation:
@@ -122,6 +124,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: dS4OCzAcCWJR1Cw7
       sort: 400000
       activation:
@@ -174,6 +177,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 8NWbOukxo31lzxdD
       sort: 500000
       activation:
@@ -226,6 +230,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 4uzrlDkKFSYv97kS
       sort: 600000
       activation:
@@ -292,6 +297,8 @@ system:
       activity:
         id: NJB7AOb8elafkqXv
       img: ''
+      spell:
+        ability: wis
     0nQ9nuJz9wrBbQdo:
       type: forward
       name: Hold Person
@@ -320,6 +327,8 @@ system:
       activity:
         id: LSIviKynQCfSiszM
       img: ''
+      spell:
+        ability: wis
     HTYVMi71EsBLhc4S:
       type: forward
       name: Slow
@@ -348,6 +357,8 @@ system:
       activity:
         id: dS4OCzAcCWJR1Cw7
       img: ''
+      spell:
+        ability: wis
     IZitz0fb8ZrNRXhq:
       type: forward
       name: Haste
@@ -376,6 +387,8 @@ system:
       activity:
         id: 8NWbOukxo31lzxdD
       img: ''
+      spell:
+        ability: wis
     3yV4hdxdZ6w5fNlN:
       type: forward
       name: Hold Monster
@@ -404,6 +417,8 @@ system:
       activity:
         id: 4uzrlDkKFSYv97kS
       img: ''
+      spell:
+        ability: wis
     bkZJVmR2o9u62MOw:
       type: cast
       spell:
@@ -419,6 +434,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: bkZJVmR2o9u62MOw
       sort: 350000
       activation:
@@ -485,6 +501,8 @@ system:
       activity:
         id: bkZJVmR2o9u62MOw
       img: ''
+      spell:
+        ability: wis
   uses:
     spent: 0
     recovery: []
@@ -535,9 +553,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1731639482506
-  modifiedTime: 1732568178249
+  modifiedTime: 1744825634701
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!a86n7BKNPWwKx16v'
 

@@ -70,6 +70,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 7CTev48ykWK0FvJJ
       sort: 100000
       activation:
@@ -122,6 +123,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 1HLou1jOosjhLAjs
       sort: 200000
       activation:
@@ -174,6 +176,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: cKqXlQe1Eq0jkEhF
       sort: 400000
       activation:
@@ -226,6 +229,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: v0wuzdIe2AjBLF09
       sort: 500000
       activation:
@@ -278,6 +282,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 4VY7FnSq3vwGSv9X
       sort: 600000
       activation:
@@ -344,6 +349,8 @@ system:
       activity:
         id: 7CTev48ykWK0FvJJ
       img: ''
+      spell:
+        ability: wis
     53jsSMGw4stRm7FG:
       type: forward
       name: Animal Messenger
@@ -372,6 +379,8 @@ system:
       activity:
         id: 1HLou1jOosjhLAjs
       img: ''
+      spell:
+        ability: wis
     q7DHfgoMHBexVro9:
       type: forward
       name: Alter Self
@@ -400,6 +409,8 @@ system:
       activity:
         id: cKqXlQe1Eq0jkEhF
       img: ''
+      spell:
+        ability: wis
     7ZcCwVlpGJMLN7Ws:
       type: forward
       name: Enlarge/Reduce
@@ -428,6 +439,8 @@ system:
       activity:
         id: v0wuzdIe2AjBLF09
       img: ''
+      spell:
+        ability: wis
     khEzQbYZS8KSgNi0:
       type: forward
       name: Polymorph
@@ -456,6 +469,8 @@ system:
       activity:
         id: 4VY7FnSq3vwGSv9X
       img: ''
+      spell:
+        ability: wis
     lGv3eP3dacjni33C:
       type: cast
       spell:
@@ -471,6 +486,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: lGv3eP3dacjni33C
       sort: 575000
       activation:
@@ -537,18 +553,20 @@ system:
       activity:
         id: lGv3eP3dacjni33C
       img: ''
+      spell:
+        ability: wis
   enchant: {}
   prerequisites:
     level: null
   properties: []
 _stats:
-  compendiumSource: Item.pRtXN8U24uTwHxYx
+  compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1727317522945
-  modifiedTime: 1732565013559
+  modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 83300000

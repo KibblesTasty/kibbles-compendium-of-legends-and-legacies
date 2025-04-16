@@ -49,6 +49,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: 1zBfvD3EgIvYKwAs
       sort: 100000
       activation:
@@ -101,6 +102,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: N97cteP1lhUjxEya
       sort: 200000
       activation:
@@ -153,6 +155,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: zYyFZ15vyTyktdVM
       sort: 400000
       activation:
@@ -219,6 +222,8 @@ system:
         id: 1zBfvD3EgIvYKwAs
       name: Heroism
       img: ''
+      spell:
+        ability: wis
     Rl3J3ANbabszxu3L:
       type: forward
       name: Guiding Bolt
@@ -247,6 +252,8 @@ system:
       activity:
         id: N97cteP1lhUjxEya
       img: ''
+      spell:
+        ability: wis
     KIlOdJxDyyMqQpON:
       type: forward
       name: Daylight
@@ -275,6 +282,8 @@ system:
       activity:
         id: zYyFZ15vyTyktdVM
       img: ''
+      spell:
+        ability: wis
     qEUZSahaRzoNSeA0:
       type: cast
       spell:
@@ -290,6 +299,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: wis
       _id: qEUZSahaRzoNSeA0
       sort: 350000
       activation:
@@ -356,6 +366,8 @@ system:
       activity:
         id: qEUZSahaRzoNSeA0
       img: ''
+      spell:
+        ability: wis
   enchant: {}
   prerequisites:
     level: null
@@ -374,13 +386,13 @@ flags:
       activity: []
       effect: []
 _stats:
-  compendiumSource: Item.uBND573Ph6Us1UAM
+  compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1727317513283
-  modifiedTime: 1732568227489
+  modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 67700000

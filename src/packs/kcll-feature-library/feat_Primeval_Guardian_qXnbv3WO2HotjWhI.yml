@@ -23,6 +23,14 @@ effects:
         mode: 2
         value: prone
         priority: null
+      - key: system.abilities.str.check.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.str.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -36,15 +44,18 @@ effects:
     tint: '#ffffff'
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
+      systemVersion: 4.3.8
       createdTime: 1731615761077
-      modifiedTime: 1731615897663
+      modifiedTime: 1744833993135
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!items.effects!qXnbv3WO2HotjWhI.ENgNk7IO26Z7JUYz'
 flags:

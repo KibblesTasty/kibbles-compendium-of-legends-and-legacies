@@ -58,7 +58,87 @@ system:
     level: null
   properties: []
   requirements: Astronomical Order 6
-effects: []
+effects:
+  - name: Constellation of the Eye
+    img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2lAk2kzLBXXo4tsa
+    _id: nRme2PCc6c4b5twz
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.prc.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744830652333
+      modifiedTime: 1744830680335
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!2lAk2kzLBXXo4tsa.nRme2PCc6c4b5twz'
+  - name: Constellation of Mystery
+    img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2lAk2kzLBXXo4tsa
+    _id: c44hRmw2FnMZbgFQ
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.arc.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744830683202
+      modifiedTime: 1744830702212
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!2lAk2kzLBXXo4tsa.c44hRmw2FnMZbgFQ'
 folder: null
 sort: 1100000
 ownership:

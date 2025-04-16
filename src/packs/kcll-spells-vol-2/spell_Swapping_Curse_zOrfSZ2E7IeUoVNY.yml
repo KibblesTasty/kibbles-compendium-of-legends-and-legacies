@@ -23,7 +23,8 @@ system:
         units: inst
         concentration: false
         override: false
-      effects: []
+      effects:
+        - _id: DxhgjjeVMs3ehxqQ
       range:
         override: false
       target:
@@ -166,7 +167,55 @@ system:
       count: '2'
       type: creature
       special: ''
-effects: []
+effects:
+  - name: Swapping Curse
+    img: icons/magic/air/wind-vortex-swirl-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.zOrfSZ2E7IeUoVNY
+    transfer: false
+    _id: DxhgjjeVMs3ehxqQ
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.str.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.dex.save.roll.mode
+        mode: 2
+        value: ''
+        priority: null
+      - key: system.abilities.con.save.roll.mode
+        mode: 2
+        value: ''
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 4
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744836214442
+      modifiedTime: 1744836243192
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!zOrfSZ2E7IeUoVNY.DxhgjjeVMs3ehxqQ'
 folder: null
 sort: 16700000
 ownership:
@@ -182,9 +231,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.8
   createdTime: 1732560637111
-  modifiedTime: 1733351679157
+  modifiedTime: 1744836214493
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zOrfSZ2E7IeUoVNY'
 

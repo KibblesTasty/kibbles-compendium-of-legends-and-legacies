@@ -26,7 +26,107 @@ system:
     level: null
   properties: []
   requirements: ''
-effects: []
+effects:
+  - name: Boon of Crafting
+    img: icons/skills/trades/smithing-anvil-silver-red.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.3ItU6D3BGi6HuxUn
+    _id: i8EEIQhOlEU8zEZA
+    type: base
+    system: {}
+    changes:
+      - key: system.tools.alchemist.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.brewer.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.calligrapher.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.carpenter.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.cobbler.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.cook.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.glassblower.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.jeweler.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.leatherworker.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.mason.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.painter.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.potter.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.smith.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.tinker.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.weaver.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.tools.woodcarver.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744827959215
+      modifiedTime: 1744829344662
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!3ItU6D3BGi6HuxUn.i8EEIQhOlEU8zEZA'
 sort: 0
 ownership:
   default: 0

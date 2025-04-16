@@ -1,7 +1,59 @@
 name: Perfect Escape
 type: feat
 img: icons/magic/movement/trail-streak-zigzag-yellow.webp
-effects: []
+effects:
+  - name: Freedom of Movement
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.f5X0tdUE8WlhLk6I
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    _id: OzohK52jMZFPKlRx
+    changes:
+      - key: system.traits.di.value
+        mode: 2
+        value: paralyzed
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: restrained
+        priority: null
+      - key: system.abilities.dex.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    description: >-
+      <p>The target's Movement is unaffected by difficult terrain, and Spells
+      and other magical Effects can neither reduce the target's speed nor cause
+      the target to be Paralyzed or Restrained.</p>
+    transfer: false
+    statuses: []
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: >-
+        Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT.ActiveEffect.OnWa3f4IQ3pneB5T
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744833253499
+      modifiedTime: 1744833269478
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    img: icons/skills/melee/strike-blade-knife-white-red.webp
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!f5X0tdUE8WlhLk6I.OzohK52jMZFPKlRx'
 flags:
   betterRolls5e:
     quickDesc:
@@ -23,6 +75,10 @@ flags:
       value: true
     quickFooter:
       value: true
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -47,7 +103,57 @@ system:
     subtype: ''
   requirements: Arcane Archer 20
   identifier: perfect-escape
-  activities: {}
+  activities:
+    h5pL5W3XRmmaqE3U:
+      type: utility
+      _id: h5pL5W3XRmmaqE3U
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: OzohK52jMZFPKlRx
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects:
+        - OzohK52jMZFPKlRx
   enchant: {}
   prerequisites:
     level: null
@@ -57,9 +163,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1727317514409
-  modifiedTime: 1744825720992
+  modifiedTime: 1744833275476
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 69400000

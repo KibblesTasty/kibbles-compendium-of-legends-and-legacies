@@ -190,7 +190,47 @@ system:
       level: 0
       title: ''
       hint: ''
-effects: []
+effects:
+  - name: Burning Soul
+    img: icons/magic/fire/flame-burning-yellow-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.wrew39noeho2aozc
+    _id: NBhH1sPqVirbOeiT
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.death.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744829819101
+      modifiedTime: 1744829831634
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!wrew39noeho2aozc.NBhH1sPqVirbOeiT'
 sort: 0
 ownership:
   default: 0

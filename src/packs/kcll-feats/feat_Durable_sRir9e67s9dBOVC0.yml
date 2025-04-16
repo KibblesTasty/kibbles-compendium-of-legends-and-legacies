@@ -186,6 +186,14 @@ effects:
         mode: 2
         value: '-@prof'
         priority: null
+      - key: system.abilities.str.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.con.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -199,15 +207,18 @@ effects:
     tint: '#ffffff'
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
+      systemVersion: 4.3.8
       createdTime: 1732228023986
-      modifiedTime: 1732228454689
+      modifiedTime: 1744829942955
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!items.effects!sRir9e67s9dBOVC0.qvu02Z18cQ6TObko'
 sort: 0

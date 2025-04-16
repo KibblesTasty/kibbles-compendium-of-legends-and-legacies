@@ -10,7 +10,15 @@ effects:
     _id: M5jLNSwy2La1dTva
     type: base
     system: {}
-    changes: []
+    changes:
+      - key: system.abilities.str.check.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.str.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -24,15 +32,18 @@ effects:
     tint: '#ffffff'
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.1.1
+      systemVersion: 4.3.8
       createdTime: 1731617335715
-      modifiedTime: 1731617348350
+      modifiedTime: 1744834017897
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!items.effects!84CvdbfHvXPv6xf1.M5jLNSwy2La1dTva'
 flags:

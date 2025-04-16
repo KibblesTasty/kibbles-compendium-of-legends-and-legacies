@@ -60,7 +60,8 @@ system:
         units: inst
         concentration: false
         override: false
-      effects: []
+      effects:
+        - _id: c7YcrdvNJg5a9I3g
       range:
         override: false
       target:
@@ -103,7 +104,51 @@ system:
       special: ''
 folder: null
 _id: Z8zyFokc1Uicvm8P
-effects: []
+effects:
+  - name: Sense Blood
+    img: icons/magic/perception/eye-ringed-glow-angry-red.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Z8zyFokc1Uicvm8P
+    transfer: false
+    _id: c7YcrdvNJg5a9I3g
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.prc.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.ins.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744835867581
+      modifiedTime: 1744835905637
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!Z8zyFokc1Uicvm8P.c7YcrdvNJg5a9I3g'
 flags:
   dnd5e:
     riders:
@@ -114,9 +159,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.8
   createdTime: 1733250986488
-  modifiedTime: 1733351679157
+  modifiedTime: 1744835867618
   lastModifiedBy: pJeIW7qCa0HkURWq
 sort: 0
 ownership:

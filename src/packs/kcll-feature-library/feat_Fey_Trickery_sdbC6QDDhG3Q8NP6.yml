@@ -28,7 +28,8 @@ system:
         units: inst
         concentration: false
         override: false
-      effects: []
+      effects:
+        - _id: aMD7yubAWEnaoapN
       range:
         override: false
         units: self
@@ -94,7 +95,55 @@ system:
     level: null
   properties: []
   requirements: Fey Warped 1
-effects: []
+effects:
+  - name: Glamorous Presence
+    img: icons/magic/nature/leaf-hand-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sdbC6QDDhG3Q8NP6
+    transfer: false
+    _id: aMD7yubAWEnaoapN
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.dec.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.int.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.prf.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744832165747
+      modifiedTime: 1744832224569
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!sdbC6QDDhG3Q8NP6.aMD7yubAWEnaoapN'
 folder: null
 sort: 16800000
 ownership:
@@ -110,9 +159,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1732124818229
-  modifiedTime: 1732221374043
+  modifiedTime: 1744832165828
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!sdbC6QDDhG3Q8NP6'
 

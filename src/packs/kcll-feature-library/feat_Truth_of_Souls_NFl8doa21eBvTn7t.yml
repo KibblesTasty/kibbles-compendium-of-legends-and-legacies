@@ -1,7 +1,47 @@
 name: Truth of Souls
 type: feat
 img: icons/magic/death/undead-ghosts-trio-blue.webp
-effects: []
+effects:
+  - name: Truth of Souls
+    img: icons/magic/death/undead-ghosts-trio-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NFl8doa21eBvTn7t
+    _id: X4OayJNIiJcT8ruC
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744834285868
+      modifiedTime: 1744834298609
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!NFl8doa21eBvTn7t.X4OayJNIiJcT8ruC'
 flags:
   betterRolls5e:
     quickDesc:

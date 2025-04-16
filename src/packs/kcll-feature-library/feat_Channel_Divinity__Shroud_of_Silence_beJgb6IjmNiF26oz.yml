@@ -53,7 +53,8 @@ system:
         units: inst
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: m5yuxctTyAj2p0Kz
       range:
         units: self
         special: ''
@@ -95,7 +96,47 @@ system:
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Shroud of Silence
+    img: icons/magic/control/silhouette-aura-energy.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.beJgb6IjmNiF26oz
+    transfer: false
+    _id: m5yuxctTyAj2p0Kz
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.ste.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744830572562
+      modifiedTime: 1744830606199
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!beJgb6IjmNiF26oz.m5yuxctTyAj2p0Kz'
 flags:
   rsr5e:
     quickDesc:
@@ -117,9 +158,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 4.3.8
   createdTime: 1727317511698
-  modifiedTime: 1744825720992
+  modifiedTime: 1744830572649
   lastModifiedBy: pJeIW7qCa0HkURWq
 folder: null
 sort: 65300000

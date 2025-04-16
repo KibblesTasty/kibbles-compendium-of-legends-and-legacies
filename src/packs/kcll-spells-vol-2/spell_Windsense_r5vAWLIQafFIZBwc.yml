@@ -23,7 +23,8 @@ system:
         units: inst
         concentration: false
         override: false
-      effects: []
+      effects:
+        - _id: EHo0MBJy8wbsxj51
       range:
         override: false
       target:
@@ -88,7 +89,51 @@ system:
       choice: false
       count: ''
       type: ''
-effects: []
+effects:
+  - name: Windsense
+    img: icons/magic/perception/eye-ringed-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.r5vAWLIQafFIZBwc
+    transfer: false
+    _id: EHo0MBJy8wbsxj51
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 4
+        value: '60'
+        priority: null
+      - key: system.skills.prc.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744836278471
+      modifiedTime: 1744836336534
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!r5vAWLIQafFIZBwc.EHo0MBJy8wbsxj51'
 folder: null
 sort: 14200000
 ownership:
@@ -104,9 +149,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.8
   createdTime: 1732561076530
-  modifiedTime: 1733351679157
+  modifiedTime: 1744836278564
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!r5vAWLIQafFIZBwc'
 

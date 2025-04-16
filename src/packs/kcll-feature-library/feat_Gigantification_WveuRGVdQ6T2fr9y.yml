@@ -16,6 +16,14 @@ effects:
         mode: 5
         value: huge
         priority: null
+      - key: system.abilities.str.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.con.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
     disabled: true
     duration:
       rounds: 10
@@ -27,16 +35,19 @@ effects:
       startTurn: null
     origin: Item.G6XoWLGp8WEzUAzr
     transfer: false
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     tint: '#ffffff'
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.3
+      systemVersion: 4.3.8
       createdTime: null
-      modifiedTime: 1731614766813
+      modifiedTime: 1744832447546
       lastModifiedBy: pJeIW7qCa0HkURWq
     name: Gigantification
     img: icons/creatures/magical/construct-iron-stomping-yellow.webp

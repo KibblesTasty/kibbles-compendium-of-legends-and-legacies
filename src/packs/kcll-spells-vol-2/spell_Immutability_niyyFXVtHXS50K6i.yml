@@ -3,7 +3,51 @@ type: spell
 _id: niyyFXVtHXS50K6i
 img: icons/magic/defensive/shield-barrier-glowing-blue.webp
 system:
-  activities: {}
+  activities:
+    Yd1QGaihNMa2g6DB:
+      type: utility
+      _id: Yd1QGaihNMa2g6DB
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 4MF4qqa4xf66zL8Y
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Cast
+      img: ''
+      appliedEffects:
+        - 4MF4qqa4xf66zL8Y
   uses:
     spent: 0
     recovery: []
@@ -58,21 +102,69 @@ system:
       count: ''
       type: ''
       special: ''
-effects: []
+effects:
+  - name: Immutability
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.niyyFXVtHXS50K6i
+    transfer: false
+    _id: 4MF4qqa4xf66zL8Y
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.str.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.attributes.con.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744835778045
+      modifiedTime: 1744835916445
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!niyyFXVtHXS50K6i.4MF4qqa4xf66zL8Y'
 folder: null
 sort: 12600000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.8
   createdTime: 1732558633308
-  modifiedTime: 1733351679157
+  modifiedTime: 1744835862415
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!niyyFXVtHXS50K6i'
 

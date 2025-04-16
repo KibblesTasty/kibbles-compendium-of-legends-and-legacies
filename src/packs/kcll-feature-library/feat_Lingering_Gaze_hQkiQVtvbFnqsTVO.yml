@@ -33,7 +33,47 @@ system:
   prerequisites:
     level: null
   properties: []
-effects: []
+effects:
+  - name: Lingering Gaze
+    img: icons/magic/perception/eye-tendrils-web-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hQkiQVtvbFnqsTVO
+    _id: rxat4lgPuRZIcLu1
+    type: base
+    system: {}
+    changes:
+      - key: system.skillls.prc.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744832594746
+      modifiedTime: 1744832604567
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!hQkiQVtvbFnqsTVO.rxat4lgPuRZIcLu1'
 flags:
   rsr5e:
     quickDesc:

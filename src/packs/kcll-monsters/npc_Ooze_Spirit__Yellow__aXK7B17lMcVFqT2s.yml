@@ -467,7 +467,6 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -479,6 +478,12 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -572,12 +577,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!aXK7B17lMcVFqT2s.nrV8OM9zhecG7OTA'
   - name: Pseudopod
     type: feat
@@ -694,12 +700,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!aXK7B17lMcVFqT2s.GgGRlkmJsUtJ2EiA'
 effects: []
 ownership:
@@ -712,13 +719,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1733016897722
   modifiedTime: 1737864897927
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 _id: aXK7B17lMcVFqT2s
 sort: 900000
 _key: '!actors!aXK7B17lMcVFqT2s'
-

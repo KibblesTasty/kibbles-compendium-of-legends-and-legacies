@@ -430,7 +430,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -486,6 +485,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Grapple
     type: feat
@@ -524,12 +529,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1731692369641
       modifiedTime: 1731692457005
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!pfewC5ywwxyO4z23.Mg7uMewi5ERbJLO1'
   - name: Slam
     type: weapon
@@ -656,12 +662,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1731692385929
       modifiedTime: 1731692488099
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!pfewC5ywwxyO4z23.ysXAHKF6rQ9V6ECR'
 effects: []
 sort: 1900000
@@ -674,11 +681,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1731692243098
   modifiedTime: 1733351676084
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 _key: '!actors!pfewC5ywwxyO4z23'
-

@@ -156,7 +156,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -212,6 +211,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Magical Swiftness
     type: feat
@@ -250,12 +255,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733330217412
       modifiedTime: 1733330236239
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!a1BQNuXf3RWYOW3J.5ZBRg6E9v1Xmn60R'
   - name: Levitating Movement
     type: feat
@@ -296,12 +302,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733330246803
       modifiedTime: 1733334014790
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!a1BQNuXf3RWYOW3J.ku6tUhFgNs0Y3GXx'
   - name: Comfortable Interior
     type: feat
@@ -341,12 +348,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733334019257
       modifiedTime: 1733334033272
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!a1BQNuXf3RWYOW3J.9xNauNgpZBqfp8JJ'
   - name: Psychic Link
     type: feat
@@ -386,12 +394,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733334042353
       modifiedTime: 1733334052391
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!a1BQNuXf3RWYOW3J.ulXcVju8TpsdUnJA'
   - name: Limited Capacity
     type: feat
@@ -433,12 +442,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733334067751
       modifiedTime: 1733334098760
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!a1BQNuXf3RWYOW3J.R32x97eGcwNy7Ufx'
 effects: []
 sort: 800000
@@ -449,11 +459,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733292041093
   modifiedTime: 1733351676084
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 _key: '!actors!a1BQNuXf3RWYOW3J'
-

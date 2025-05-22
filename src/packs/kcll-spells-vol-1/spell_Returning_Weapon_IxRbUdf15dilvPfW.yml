@@ -54,7 +54,7 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -62,6 +62,7 @@ effects:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     img: icons/weapons/thrown/shuriken-triple-purple.webp
     type: base
     system: {}
@@ -121,8 +122,7 @@ flags:
       type: Boolean
       value: false
       altValue: false
-  core:
-    sourceId: Item.4SZAods2ts8OCJDe
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -271,11 +271,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: 1721351321060
   modifiedTime: 1743698941714
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: null
+  compendiumSource: Item.4SZAods2ts8OCJDe
   duplicateSource: null
+  exportSource: null
 _key: '!items!IxRbUdf15dilvPfW'
-

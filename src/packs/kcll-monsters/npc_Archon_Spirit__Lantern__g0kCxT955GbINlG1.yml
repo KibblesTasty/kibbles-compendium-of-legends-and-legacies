@@ -424,7 +424,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -480,6 +479,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -552,12 +557,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!g0kCxT955GbINlG1.ohqTztHiWUj2x8oF'
   - name: Lantern's Light
     type: feat
@@ -596,12 +602,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733335134285
       modifiedTime: 1733335154917
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!g0kCxT955GbINlG1.2akclAXRZgIctgbm'
   - name: Radiant Bolt
     type: weapon
@@ -745,12 +752,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733335190023
       modifiedTime: 1733335248575
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!g0kCxT955GbINlG1.l8t1ZpvaYjjHQVZC'
 effects: []
 ownership:
@@ -762,13 +770,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733334716919
   modifiedTime: 1733351676084
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 sort: 1200000
 _id: g0kCxT955GbINlG1
 _key: '!actors!g0kCxT955GbINlG1'
-

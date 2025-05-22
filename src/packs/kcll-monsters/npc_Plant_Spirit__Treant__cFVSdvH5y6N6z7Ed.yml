@@ -422,7 +422,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -478,6 +477,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -550,12 +555,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!cFVSdvH5y6N6z7Ed.myYxjlyfPP96kGpL'
   - name: Vine Lash
     type: weapon
@@ -703,12 +709,13 @@ items:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.Z9cbhBoiX1SJbqKj.Item.TxzStP2zzlf9BS1O
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733339925997
       modifiedTime: 1733340099551
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!cFVSdvH5y6N6z7Ed.K4K4rqBU5BNUwo5m'
   - name: Entangling Slam
     type: weapon
@@ -856,12 +863,13 @@ items:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.BsOpZ7lqy88uXXFq.Item.cO3C5o8NrAHcn3lH
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733340081878
       modifiedTime: 1733340081878
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!cFVSdvH5y6N6z7Ed.xx42FRFNQbu6CfCN'
 effects: []
 ownership:
@@ -873,13 +881,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733339132477
   modifiedTime: 1733351676084
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 _id: cFVSdvH5y6N6z7Ed
 sort: 400000
 _key: '!actors!cFVSdvH5y6N6z7Ed'
-

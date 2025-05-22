@@ -143,12 +143,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733111511446
       modifiedTime: 1733111580536
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!BvSQPgk8r6Ut61dA.w7JxXJpgZWpgfXwi'
   - name: Demonic Ascension (Large)
     img: icons/magic/unholy/silhouette-evil-horned-giant.webp
@@ -207,12 +208,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733111564599
       modifiedTime: 1733111610534
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _id: OlmZ7FcjniuCVs1y
     _key: '!items.effects!BvSQPgk8r6Ut61dA.OlmZ7FcjniuCVs1y'
 flags:
@@ -221,21 +223,21 @@ flags:
       value: true
     quickFooter:
       value: true
-  core:
-    sourceId: Item.ZOmNFumwAWG7jMyE
+  core: {}
   dnd5e:
     riders:
       activity: []
       effect: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.ZOmNFumwAWG7jMyE
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1727317494132
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 39000000
 ownership:
@@ -244,4 +246,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: BvSQPgk8r6Ut61dA
 _key: '!items!BvSQPgk8r6Ut61dA'
-

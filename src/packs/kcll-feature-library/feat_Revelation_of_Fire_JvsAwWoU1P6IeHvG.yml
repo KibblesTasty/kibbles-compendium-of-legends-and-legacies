@@ -28,12 +28,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.0
       createdTime: 1731209504893
       modifiedTime: 1731209504893
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!JvsAwWoU1P6IeHvG.laxFKFx84WkyBp6W'
 flags:
   betterRolls5e:
@@ -49,8 +50,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.tpIrKyzl5Ivd0s5f
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -204,14 +204,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.tpIrKyzl5Ivd0s5f
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317499202
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 46800000
 ownership:
@@ -220,4 +221,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: JvsAwWoU1P6IeHvG
 _key: '!items!JvsAwWoU1P6IeHvG'
-

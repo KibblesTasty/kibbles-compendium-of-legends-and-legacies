@@ -424,7 +424,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -480,6 +479,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -552,12 +557,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oFwBFnEhA9OU3ACw.ohqTztHiWUj2x8oF'
   - name: Rallying Call
     type: feat
@@ -659,12 +665,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733334763317
       modifiedTime: 1733334849577
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!oFwBFnEhA9OU3ACw.OLVjYJ0HtsCANu87'
   - name: Trumpet
     type: feat
@@ -772,12 +779,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733334863209
       modifiedTime: 1733334932236
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!oFwBFnEhA9OU3ACw.MklysmQEK63eL3R8'
 effects: []
 ownership:
@@ -789,13 +797,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733334719477
   modifiedTime: 1733351676084
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 sort: 1600000
 _id: oFwBFnEhA9OU3ACw
 _key: '!actors!oFwBFnEhA9OU3ACw'
-

@@ -35,12 +35,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.0
       createdTime: 1731436297277
       modifiedTime: 1731436366514
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!f2B6v2S1WrjBGk56.nBuhSPF403Nsyf2p'
 flags:
   betterRolls5e:
@@ -56,8 +57,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.FLgQ9PVZNsjh8Ktt
+  core: {}
   rsr5e:
     quickDesc:
       value: true
@@ -153,14 +153,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.FLgQ9PVZNsjh8Ktt
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317514357
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 69300000
 ownership:
@@ -169,4 +170,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: f2B6v2S1WrjBGk56
 _key: '!items!f2B6v2S1WrjBGk56'
-

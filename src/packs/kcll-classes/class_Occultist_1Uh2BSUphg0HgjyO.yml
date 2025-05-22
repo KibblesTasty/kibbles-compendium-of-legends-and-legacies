@@ -3,8 +3,7 @@ type: class
 img: icons/magic/unholy/silhouette-light-fire-blue.webp
 effects: []
 flags:
-  core:
-    sourceId: Item.HoOaXrGI9QmZj7qK
+  core: {}
 system:
   description:
     value: >-
@@ -645,12 +644,13 @@ system:
 _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: 1682023488524
   modifiedTime: 1744825884693
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: null
+  compendiumSource: Item.HoOaXrGI9QmZj7qK
   duplicateSource: null
+  exportSource: null
 folder: TdxsRwVpXIXEkJmU
 sort: 100000
 ownership:
@@ -658,4 +658,3 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _id: 1Uh2BSUphg0HgjyO
 _key: '!items!1Uh2BSUphg0HgjyO'
-

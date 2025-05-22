@@ -20,12 +20,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     name: Strength
     img: icons/magic/control/buff-strength-muscle-damage-orange.webp
     type: base
@@ -52,12 +53,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     name: Armor
     img: icons/magic/defensive/armor-stone-skin.webp
     type: base
@@ -84,12 +86,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     name: Aegis
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
     type: base
@@ -144,12 +147,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732129780621
       modifiedTime: 1732129854981
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!03teb0Y8IDYRTn4z.aDCSQPuMTF0ww25R'
 flags:
   betterRolls5e:
@@ -170,8 +174,7 @@ flags:
         use: true
       altValue:
         use: true
-  core:
-    sourceId: Item.WfvRAnK9szJFw6Dc
+  core: {}
   rsr5e:
     quickDesc:
       value: true
@@ -288,14 +291,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.WfvRAnK9szJFw6Dc
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317485002
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 25700000
 ownership:
@@ -304,4 +308,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: 03teb0Y8IDYRTn4z
 _key: '!items!03teb0Y8IDYRTn4z'
-

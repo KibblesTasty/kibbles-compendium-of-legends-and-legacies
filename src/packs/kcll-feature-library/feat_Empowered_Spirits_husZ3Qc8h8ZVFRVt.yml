@@ -36,12 +36,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1731047798678
       modifiedTime: 1731221389388
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.RGTnaZtA2nxOgfsg'
   - name: Empowered Spirits (2nd)
     img: icons/creatures/magical/construct-golem-stone-blue.webp
@@ -77,12 +78,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1731047803876
       modifiedTime: 1731221393785
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.1vEV6iBq5cvFpzlT'
   - name: Empowered Spirits (3rd)
     img: icons/creatures/magical/construct-golem-stone-blue.webp
@@ -118,12 +120,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1731047804352
       modifiedTime: 1731221397072
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.ZxYNgx7M5VGlmUNC'
   - name: Empowered Spirits (4th)
     img: icons/creatures/magical/construct-golem-stone-blue.webp
@@ -159,12 +162,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1731047804690
       modifiedTime: 1731221400188
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.SWBRqZFwR0fSxW0D'
   - name: Empowered Spirits (5th)
     img: icons/creatures/magical/construct-golem-stone-blue.webp
@@ -200,12 +204,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1731047805235
       modifiedTime: 1731221403174
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.pu7AP2ZyVA3HnT5p'
 flags:
   betterRolls5e:
@@ -221,8 +226,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.9IOIZyo6CqLDTzYF
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -334,14 +338,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.9IOIZyo6CqLDTzYF
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.3.0
   createdTime: 1727317516406
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 72700000
 ownership:
@@ -350,4 +355,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: husZ3Qc8h8ZVFRVt
 _key: '!items!husZ3Qc8h8ZVFRVt'
-

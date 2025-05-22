@@ -32,12 +32,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1731878103001
       modifiedTime: 1731878157507
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!g2ztw2P82BXLaoDa.gLgGIht3xCkAm8TB'
   - name: Nourishing Magic (Huge)
     img: icons/magic/nature/tree-twisted-glow-yellow.webp
@@ -68,12 +69,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1731878161119
       modifiedTime: 1731878172183
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _id: 1mqDKZh7qbnBsHJl
     _key: '!items.effects!g2ztw2P82BXLaoDa.1mqDKZh7qbnBsHJl'
 flags:
@@ -126,8 +128,7 @@ flags:
       type: Boolean
       value: false
       altValue: false
-  core:
-    sourceId: Item.CONLpc4gApCiAUbG
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -222,14 +223,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.CONLpc4gApCiAUbG
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317515202
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 70700000
 ownership:
@@ -238,4 +240,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: g2ztw2P82BXLaoDa
 _key: '!items!g2ztw2P82BXLaoDa'
-

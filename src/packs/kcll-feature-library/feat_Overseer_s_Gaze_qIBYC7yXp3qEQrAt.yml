@@ -455,12 +455,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732142619633
       modifiedTime: 1732142841040
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!qIBYC7yXp3qEQrAt.RV6FdgLT1ZmgFV2m'
   - name: Slowing Ray
     img: icons/magic/perception/eye-winged-pink.webp
@@ -508,12 +509,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732142777951
       modifiedTime: 1732142824163
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!qIBYC7yXp3qEQrAt.l30Dvfc7dBqUb7rD'
 flags:
   rsr5e:
@@ -521,21 +523,21 @@ flags:
       value: true
     quickFooter:
       value: true
-  core:
-    sourceId: Item.K7sPLQyHF9HEheid
+  core: {}
   dnd5e:
     riders:
       activity: []
       effect: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.K7sPLQyHF9HEheid
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317522318
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 82300000
 ownership:
@@ -544,4 +546,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: qIBYC7yXp3qEQrAt
 _key: '!items!qIBYC7yXp3qEQrAt'
-

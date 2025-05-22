@@ -423,7 +423,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -479,6 +478,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -551,12 +556,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zI0L56ED4I4qsJXE.pbwNWEsWRVmOiSiG'
   - name: Swarm
     type: feat
@@ -595,12 +601,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zI0L56ED4I4qsJXE.oD7WUe9pKj58VCFW'
   - name: Sting
     type: weapon
@@ -756,12 +763,13 @@ items:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.NXZMDPtl7QVQKHCw.Item.hxO3sZ97dcFv9z5Q
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733342253274
       modifiedTime: 1733342253274
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!zI0L56ED4I4qsJXE.OpmjZuRFdK3QdNHK'
 effects: []
 ownership:
@@ -773,13 +781,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733340694865
   modifiedTime: 1733351676084
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 _id: zI0L56ED4I4qsJXE
 sort: 0
 _key: '!actors!zI0L56ED4I4qsJXE'
-

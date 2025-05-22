@@ -21,8 +21,7 @@ flags:
       value: true
     quickFooter:
       value: true
-  core:
-    sourceId: Item.KJ8mQRcwOcsW1wHm
+  core: {}
 system:
   description:
     value: "<p>You gain domain spells at the cleric levels listed on the Martyr Domain Spells table. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</p><p>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</p><table><thead><tr><th>Cleric Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.uUWb1wZgtMou0TVP]{Cure Wounds},\_@UUID[Compendium.dnd5e.spells.jZ6JNykRtdQ90MOo]{Shield of Faith}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.F0GsG0SJzsIOacwV]{Lesser Restoration},\_@UUID[Compendium.dnd5e.spells.JVhKeanAXZH62DrF]{Warding Bond}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.8HgZEXkHBz2hcDkv]{Invest Life}, @UUID[Compendium.dnd5e.spells.LmRHHMtplpxr9fX6]{Revivify}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.VtCXMdyM6mAdIJZb]{Death Ward}, @UUID[Compendium.dnd5e.spells.1ADstb0Xec6HHRcU]{Resilient Sphere}\_</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.WzvJ7G3cqvIubsLk]{Greater Restoration},\_@UUID[Compendium.dnd5e.spells.Pyzmm8R7rVsNAPsd]{Mass Cure Wounds}</td></tr></tbody></table>"
@@ -48,14 +47,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.KJ8mQRcwOcsW1wHm
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317487734
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 29500000
 ownership:
@@ -64,4 +64,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: 3rG1kkDSa9mQOxxE
 _key: '!items!3rG1kkDSa9mQOxxE'
-

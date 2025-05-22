@@ -419,7 +419,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -475,6 +474,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -547,12 +552,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2Vityu1uWeWaZ0to.PZI0wDXDhSSXbOv8'
   - name: Blink
     type: feat
@@ -591,12 +597,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: 1733338012614
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!2Vityu1uWeWaZ0to.UTStTi8B1uHPMeOl'
   - name: Chomp
     type: weapon
@@ -741,12 +748,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2Vityu1uWeWaZ0to.IHuVmfhXQjrWOCxs'
   - name: Evasion
     type: feat
@@ -787,12 +795,13 @@ items:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.DvqW3GxAaCbqXBJ2.Item.HRX1OemtFDTWkD8a
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733337978882
       modifiedTime: 1733337978882
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!actors.items!2Vityu1uWeWaZ0to.GdgQVlaoZ0AmAzJ5'
 effects: []
 ownership:
@@ -804,13 +813,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1733337394393
   modifiedTime: 1737864885255
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 _id: 2Vityu1uWeWaZ0to
 sort: 1300000
 _key: '!actors!2Vityu1uWeWaZ0to'
-

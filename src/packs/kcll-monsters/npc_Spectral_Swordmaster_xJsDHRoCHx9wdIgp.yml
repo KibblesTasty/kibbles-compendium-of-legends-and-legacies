@@ -444,7 +444,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -500,6 +499,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -572,12 +577,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.uShvLbpbXRLwK9za'
   - name: Spectral Longsword
     type: weapon
@@ -715,12 +721,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.BbRSknQg0diMPk3G'
   - name: Spectral Blade Rush
     type: feat
@@ -834,12 +841,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: 1734041645638
       lastModifiedBy: rWrNJIT5ckSNK1mM
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.I39kdQ01Uk4tOmzI'
   - name: Spectral Blade Wind
     type: feat
@@ -969,12 +977,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: 1734041735637
       lastModifiedBy: rWrNJIT5ckSNK1mM
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.4I3AHiqDAC3dW2ey'
   - name: Spell Cleave
     type: feat
@@ -1051,12 +1060,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.AR3IP34MYdbPcAta'
   - name: Vengeful Strike
     type: feat
@@ -1133,12 +1143,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.Wtux0aVAa9vGThP4'
   - name: Incorporeal Movement
     type: feat
@@ -1177,12 +1188,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.Ox5vTDTXWLLYnF3t'
   - name: Reactive
     type: feat
@@ -1218,12 +1230,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.zmqnCN3GielA271z'
   - name: Unusual Nature
     type: feat
@@ -1259,12 +1272,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.4bUESQoBaJL8LbHN'
 effects: []
 flags:
@@ -1273,15 +1287,15 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733345040090
   modifiedTime: 1733351676084
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
 _key: '!actors!xJsDHRoCHx9wdIgp'
-

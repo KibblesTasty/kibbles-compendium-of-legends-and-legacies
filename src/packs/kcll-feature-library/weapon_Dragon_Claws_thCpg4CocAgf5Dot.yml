@@ -51,8 +51,7 @@ flags:
       value: true
     consumeQuantity:
       value: false
-  core:
-    sourceId: Item.hCqi5ZQEdPNuL9fZ
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -198,14 +197,15 @@ system:
   ammunition: {}
   magicalBonus: null
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.hCqi5ZQEdPNuL9fZ
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317523955
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 85100000
 ownership:
@@ -214,4 +214,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: thCpg4CocAgf5Dot
 _key: '!items!thCpg4CocAgf5Dot'
-

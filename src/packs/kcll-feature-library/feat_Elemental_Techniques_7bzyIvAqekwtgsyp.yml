@@ -16,8 +16,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.a3qiQho5xyPT6R9S
+  core: {}
 system:
   description:
     value: "<p>When you choose this tradition at 3rd level, you learn elements techniques that allow you harness elemental powers to unleash them at your command. You learn three techniques of your choice, which are detailed in the \"Elemental Techniques'' section below. You learn two additional techniques of your choice at 6th, 11th, and 17th level.</p>\n<p>\_</p>\n<p>Elemental Techniques that involve attack rolls can only be performed with unarmed strikes or monk weapons. If an element technique uses a DC, it uses your Ki Save DC. Any spells cast through Elemental Techniques require no verbal or material components, but always require a somatic component.</p>\n<p>Whenever you gain a new level in this class, you can replace one elemental technique you already know with a different technique.</p>\n<p>You can spend a number of ki points on mystical techniques equal to your proficiency bonus, after which you cannot spend more ki on Elemental Techniques until the start of your next turn.</p>"
@@ -43,14 +42,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.a3qiQho5xyPT6R9S
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317490760
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 33900000
 ownership:
@@ -59,4 +59,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: 7bzyIvAqekwtgsyp
 _key: '!items!7bzyIvAqekwtgsyp'
-

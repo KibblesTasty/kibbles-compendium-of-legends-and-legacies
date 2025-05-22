@@ -146,12 +146,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.3.8
       createdTime: 1731452429257
       modifiedTime: 1744834327497
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!ujOBEaxwqL5oc55g.n0jtt9ua1SeQmaZO'
 flags:
   rsr5e:
@@ -161,22 +162,22 @@ flags:
       value: true
     consumeUses:
       value: true
-  core:
-    sourceId: Item.ogOrJHZBmH3cXO08
+  core: {}
   dnd5e:
     riders:
       activity: []
       effect: []
     migratedUses: 1
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.ogOrJHZBmH3cXO08
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317524585
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 86100000
 ownership:
@@ -185,4 +186,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: ujOBEaxwqL5oc55g
 _key: '!items!ujOBEaxwqL5oc55g'
-

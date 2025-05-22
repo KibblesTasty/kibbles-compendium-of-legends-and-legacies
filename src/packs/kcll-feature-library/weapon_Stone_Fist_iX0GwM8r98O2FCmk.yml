@@ -24,12 +24,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     name: Stone Fist AC
     img: icons/magic/earth/strike-fist-stone-light.webp
     type: base
@@ -71,8 +72,7 @@ flags:
         '0': true
       altValue:
         '0': true
-  core:
-    sourceId: Item.MFHrMi6JXzSRgXZC
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -227,14 +227,15 @@ system:
   magicalBonus: null
   mastery: ''
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.MFHrMi6JXzSRgXZC
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317516858
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 73400000
 ownership:
@@ -243,4 +244,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: iX0GwM8r98O2FCmk
 _key: '!items!iX0GwM8r98O2FCmk'
-

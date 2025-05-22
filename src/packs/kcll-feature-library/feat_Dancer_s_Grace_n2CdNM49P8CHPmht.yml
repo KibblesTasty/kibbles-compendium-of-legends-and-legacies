@@ -28,12 +28,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     name: Dancer's Grace
     img: icons/magic/movement/trail-streak-zigzag-yellow.webp
     type: base
@@ -56,8 +57,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.0PHqfSIUKDeZcWaY
+  core: {}
 system:
   description:
     value: >-
@@ -91,14 +91,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.0PHqfSIUKDeZcWaY
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317519638
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 78100000
 ownership:
@@ -107,4 +108,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: n2CdNM49P8CHPmht
 _key: '!items!n2CdNM49P8CHPmht'
-

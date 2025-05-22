@@ -16,8 +16,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.OvYCp2P4QwdUSVPm
+  core: {}
 system:
   description:
     value: "<table><thead><tr><th>Witch Level</th><th>Bonus Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.zNJ43Ho1je7dKswZ]{Binding Curse}, @Compendium[dnd5e.spells.o8Dh7fblk1d16tnO]{Healing Word}\_</td></tr><tr><td>3rd</td><td>@Compendium[dnd5e.spells.3MYDjS6k9IYL0aTj]{Calm Emotions}, @Compendium[dnd5e.spells.3Lo9boi7P2ro6QV4]{Hold Person}</td></tr><tr><td>5th</td><td>@Compendium[dnd5e.spells.LmRHHMtplpxr9fX6]{Revivify}, @Compendium[dnd5e.spells.34ddoYIrnOZ2GFYi]{Mass Healing Word}</td></tr><tr><td>7th</td><td>@Compendium[dnd5e.spells.pxpb2eOB6bv4phAf]{Banishment}, @Compendium[dnd5e.spells.1ADstb0Xec6HHRcU]{Resilient Sphere}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.cEU4zPpsyvvTMQeh]{Curse of Impotence}, @UUID[Compendium.dnd5e.spells.Item.TkJ8Wtg1L7TZtspm]{Dispel Evil and Good}</td></tr></tbody></table>"
@@ -43,14 +42,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.OvYCp2P4QwdUSVPm
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1727317493170
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 37600000
 ownership:
@@ -59,4 +59,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: ASzwuOFRuTFd3Fnv
 _key: '!items!ASzwuOFRuTFd3Fnv'
-

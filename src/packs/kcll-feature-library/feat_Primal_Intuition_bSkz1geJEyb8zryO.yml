@@ -24,12 +24,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     name: Primal Intuition
     img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
     type: base
@@ -52,8 +53,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.TQUeFrTfwRdkhkdF
+  core: {}
 system:
   description:
     value: <p>You gain a blindsight out to a range of 10 feet.</p>
@@ -79,14 +79,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.TQUeFrTfwRdkhkdF
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317511535
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 65000000
 ownership:
@@ -95,4 +96,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: bSkz1geJEyb8zryO
 _key: '!items!bSkz1geJEyb8zryO'
-

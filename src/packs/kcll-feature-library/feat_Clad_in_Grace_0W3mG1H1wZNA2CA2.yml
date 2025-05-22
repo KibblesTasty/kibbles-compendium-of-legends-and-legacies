@@ -28,12 +28,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: 1731712801583
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     name: Unarmored Defense
     img: icons/magic/holy/meditation-chi-focus-blue.webp
     type: base
@@ -56,8 +57,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.Cj5yZ01ziAAH52Ui
+  core: {}
 system:
   description:
     value: >-
@@ -86,14 +86,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.Cj5yZ01ziAAH52Ui
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317485313
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 26100000
 ownership:
@@ -102,4 +103,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: 0W3mG1H1wZNA2CA2
 _key: '!items!0W3mG1H1wZNA2CA2'
-

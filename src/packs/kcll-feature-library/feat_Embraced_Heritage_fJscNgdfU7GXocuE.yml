@@ -28,12 +28,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732126441246
       modifiedTime: 1732126452497
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!fJscNgdfU7GXocuE.ZLv8xN3q0NRTiTOz'
   - name: Eyes of the Fiend
     img: icons/creatures/unholy/demon-horned-winged-laughing.webp
@@ -61,12 +62,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732126441593
       modifiedTime: 1732126463428
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!fJscNgdfU7GXocuE.cOdnLVOVCIVuVxpU'
   - name: Skin of the Fiend
     img: icons/creatures/unholy/demon-horned-winged-laughing.webp
@@ -98,12 +100,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732126442243
       modifiedTime: 1732126481784
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     _key: '!items.effects!fJscNgdfU7GXocuE.9wqXKEscRatjGR78'
 flags:
   betterRolls5e:
@@ -155,8 +158,7 @@ flags:
       type: Boolean
       value: false
       altValue: false
-  core:
-    sourceId: Item.6WVemTwfvGPrYCqT
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -257,14 +259,15 @@ system:
     level: null
   properties: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.6WVemTwfvGPrYCqT
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317514525
   modifiedTime: 1744825720992
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 folder: null
 sort: 69600000
 ownership:
@@ -273,4 +276,3 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _id: fJscNgdfU7GXocuE
 _key: '!items!fJscNgdfU7GXocuE'
-

@@ -18,8 +18,8 @@ Hooks.once("init", () => {
   CONFIG.DND5E.validProperties.spell.add("bloodMagic");
 
   const dazed = {
-    label: "KCLL.Dazed",
-    icon: `${MODULE_PATH}/assets/icons/dazed.svg`,
+    name: "KCLL.Dazed",
+    img: `${MODULE_PATH}/assets/icons/dazed.svg`,
     id: "dazed",
     _id: dnd5e.utils.staticID("dnd5edazed"),
     reference: "Compendium.kibbles-compendium-of-legends-and-legacies.kcll-journals.JournalEntry.NXibCQQFLkrAGE1i.JournalEntryPage.8t64sXFlxtCVP3b1",
@@ -28,9 +28,9 @@ Hooks.once("init", () => {
   CONFIG.DND5E.conditionTypes.dazed = dazed;
 
   CONFIG.statusEffects.push({
-    img: dazed.icon,
+    img: dazed.img,
     id: dazed.id,
-    name: dazed.label,
+    name: dazed.name,
     _id: dazed._id
   })
 })

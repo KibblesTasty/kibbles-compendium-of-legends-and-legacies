@@ -101,6 +101,8 @@ system:
     subtype: spellbladeAegis
   prerequisites:
     level: null
+    items:
+      - spellfist
   properties: []
   requirements: Spellfist
 effects:
@@ -217,11 +219,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1731474987791
-  modifiedTime: 1732221374043
+  modifiedTime: 1755114074556
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!R0ke3A2fxK4HdGw3'

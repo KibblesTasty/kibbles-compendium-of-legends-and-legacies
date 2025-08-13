@@ -47,14 +47,36 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: ItemChoice
+      _id: yJfIaBQkTyvQsZLs
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4
+          - uuid: Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm
+          - uuid: Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
 _stats:
   compendiumSource: Item.raAhUzpDTEK1DH8M
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1727317513617
-  modifiedTime: 1744825720992
+  modifiedTime: 1755112360824
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 folder: null

@@ -1,7 +1,7 @@
 name: Wildcard
 type: feat
 _id: tCafZEYETmqQe8bp
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/sundries/gaming/playing-cards-grey.webp
 system:
   activities: {}
   uses:
@@ -29,6 +29,9 @@ system:
     subtype: occultistRite
   prerequisites:
     level: 12
+    items:
+      - conclusion-of-madness
+      - chaotic-thesis
   properties: []
   requirements: Conclusion of Madness, Chaotic Thesis
 effects: []
@@ -41,11 +44,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1731224997928
-  modifiedTime: 1732221374043
+  modifiedTime: 1755114031183
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!tCafZEYETmqQe8bp'

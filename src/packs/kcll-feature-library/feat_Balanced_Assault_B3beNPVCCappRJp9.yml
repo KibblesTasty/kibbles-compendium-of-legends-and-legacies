@@ -44,14 +44,25 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: ItemGrant
+      _id: i9ldjSFOau5PLkfh
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
 _stats:
   compendiumSource: Item.FyGxduU67uuDAYaj
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1727317493606
-  modifiedTime: 1744825720992
+  modifiedTime: 1755112961896
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 folder: null

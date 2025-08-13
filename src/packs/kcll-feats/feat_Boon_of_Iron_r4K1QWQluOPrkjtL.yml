@@ -24,6 +24,24 @@ system:
     level: null
   properties: []
   requirements: ''
+  advancement:
+    - type: Trait
+      _id: DcgHZrDssDBdwECJ
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:lgt
+          - armor:med
+          - armor:hvy
+          - armor:shl
+          - weapon:sim
+          - weapon:mar
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 effects:
   - name: Boon of Iron
     img: icons/skills/melee/maneuver-sword-katana-yellow.webp
@@ -87,11 +105,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1732297852130
-  modifiedTime: 1732308375082
+  modifiedTime: 1755111939362
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!r4K1QWQluOPrkjtL'

@@ -24,46 +24,24 @@ system:
     subtype: occultistRite
   prerequisites:
     level: null
+    items:
+      - vestments-of-war
   properties: []
   requirements: Vestments of War rite
-effects:
-  - name: Hedge Knight
-    img: icons/equipment/chest/breastplate-helmet-metal.webp
-    _id: CJ5phLOjuRnSGkXm
-    type: base
-    system: {}
-    changes:
-      - key: system.traits.armorProf.value
-        mode: 2
-        value: heavy
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    origin: null
-    tint: '#ffffff'
-    transfer: true
-    statuses: []
-    sort: 0
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731010894956
-      modifiedTime: 1731010962588
-      lastModifiedBy: pJeIW7qCa0HkURWq
-      exportSource: null
-    _key: '!items.effects!Uetb1nMmsl9pcpHB.CJ5phLOjuRnSGkXm'
+  advancement:
+    - type: Trait
+      _id: qeSECEKVtFbJZu1n
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:hvy
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+effects: []
 folder: null
 sort: 9400000
 ownership:
@@ -73,11 +51,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1731010839746
-  modifiedTime: 1732221374043
+  modifiedTime: 1755113372094
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!Uetb1nMmsl9pcpHB'

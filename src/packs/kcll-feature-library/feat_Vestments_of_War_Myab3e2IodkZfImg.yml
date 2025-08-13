@@ -1,44 +1,7 @@
 name: Vestments of War
 type: feat
 img: icons/equipment/chest/breastplate-quilted-brown.webp
-effects:
-  - name: Vestments of War
-    img: icons/equipment/chest/breastplate-quilted-brown.webp
-    _id: goGZvlm7XtUbCKU1
-    type: base
-    system: {}
-    changes:
-      - key: system.traits.armorProf.value
-        mode: 2
-        value: med
-        priority: null
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    origin: null
-    tint: '#ffffff'
-    transfer: true
-    statuses: []
-    sort: 0
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1730494756601
-      modifiedTime: 1730494930971
-      lastModifiedBy: pJeIW7qCa0HkURWq
-      exportSource: null
-    _key: '!items.effects!Myab3e2IodkZfImg.goGZvlm7XtUbCKU1'
+effects: []
 flags:
   betterRolls5e:
     quickDesc:
@@ -83,14 +46,27 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: Trait
+      _id: r753p1jSIYeuT6Rh
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:med
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 _stats:
   compendiumSource: Item.i2Si3hjaLwT8jvLd
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1727317501850
-  modifiedTime: 1744825720992
+  modifiedTime: 1755112286971
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 folder: null

@@ -29,6 +29,8 @@ system:
     subtype: primalManifestation
   prerequisites:
     level: null
+    items:
+      - beasthide
   properties: []
   requirements: Beasthide
 effects:
@@ -82,11 +84,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1731649756200
-  modifiedTime: 1732221374043
+  modifiedTime: 1755114185537
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!u2jhFe8a5IwYaBdB'

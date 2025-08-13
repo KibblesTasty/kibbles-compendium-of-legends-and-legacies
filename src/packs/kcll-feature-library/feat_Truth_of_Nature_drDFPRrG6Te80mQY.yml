@@ -129,6 +129,8 @@ system:
     subtype: occultistRite
   prerequisites:
     level: null
+    items:
+      - mystery-of-nature
   properties: []
   requirements: Mystery of Nature
 effects: []
@@ -145,11 +147,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1731216479579
-  modifiedTime: 1732221374043
+  modifiedTime: 1755113770686
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!drDFPRrG6Te80mQY'

@@ -47,14 +47,33 @@ system:
   prerequisites:
     level: 10
   properties: []
+  advancement:
+    - type: Trait
+      _id: naiGqTmm4ztYoDDL
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:ani
+              - skills:arc
+              - skills:med
+              - skills:nat
+              - skills:sur
+        grants: []
+        mode: upgrade
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 _stats:
   compendiumSource: Item.AJr7R7YOB3HVdaQM
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.0
   createdTime: 1727317489536
-  modifiedTime: 1744825720992
+  modifiedTime: 1755112233664
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 folder: null

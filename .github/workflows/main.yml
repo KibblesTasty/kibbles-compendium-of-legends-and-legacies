@@ -43,7 +43,7 @@ jobs:
 
       # Create zip file.
       - name: Create ZIP archive
-        run: zip -r ./module.zip module.json kcll.mjs assets/ lang/ packs/
+        run: zip -r ./module.zip module.json kcll.mjs kcll.css assets/ lang/ packs/
 
       # Create a release for this specific version.
       - name: Update Release with Files

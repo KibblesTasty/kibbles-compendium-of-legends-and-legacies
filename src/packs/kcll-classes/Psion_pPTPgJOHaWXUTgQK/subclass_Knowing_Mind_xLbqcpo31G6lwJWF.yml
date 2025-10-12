@@ -1,0 +1,120 @@
+folder: pPTPgJOHaWXUTgQK
+name: Knowing Mind
+type: subclass
+_id: xLbqcpo31G6lwJWF
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+system:
+  description:
+    value: >-
+      <p>A Knowing Mind is a psion that grasps that future as intuitively as the
+      present, weaving together strings of casualty and fate in ways that would
+      shatter the mind of a lesser mortal. They live one step ahead and use that
+      advantage to the fullest, bending probability, manipulating fate, and
+      bringing their plans to fruition without room for failure.</p><p>They are
+      remarkable individuals whose clairvoyant abilities stem from a variety of
+      sources—from a lineage of divine oracles, to a connection to beings from
+      another temporal axis, to a mind that has somehow been flung into the
+      future.</p><h5>Additional Talent
+      Options</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZO9sDieCxZfGP9QX]{Knife
+      of
+      Fate}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0kTPhzJNDbzk5ZG3]{Plans
+      within Plans}</p><hr /><p>The following are some optional quirks for a
+      player of this subclass to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.FOHPiOiWbDDrtWTh
+      rollable]</p>
+    chat: ''
+  identifier: knowing-mind
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: tvdcq34lexjLOqIM
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IzwGoJTRKGAGj6kk
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Kq9v0VrwUAu4cXC2
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Psionic Archetype Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.K4EiopcUwhta5JcB
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Psionic Archetype Feature
+      hint: ''
+      _id: Cd6Rqatz8Xmz5RPS
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.oL2EVloJ3gPAfZRJ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Psionic Archetype Feature
+      hint: ''
+      _id: IWtt3fqHHzG2PN4x
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7bxxbXiebM402aaX
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Psionic Archetype Feature
+      hint: ''
+      _id: vySCEoq7WDVxRZuK
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CJEESsGtIf76Dpnr
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Psionic Archetype Feature
+      hint: ''
+      _id: 8wq3CyVQa6QB7Cr6
+  classIdentifier: psion
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1729039460492
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!xLbqcpo31G6lwJWF'

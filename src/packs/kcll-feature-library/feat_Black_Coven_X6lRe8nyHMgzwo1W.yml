@@ -3,25 +3,7 @@ type: feat
 img: icons/equipment/head/hood-cowl-mask-purple.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
-  rsr5e:
-    quickDesc:
-      value: true
-    quickFooter:
-      value: true
 system:
   description:
     value: "<table><thead><tr><th>Witch Level</th><th>Bonus Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.gRydgHWP1tzngSpF]{Rotting Curse}, @UUID[Compendium.dnd5e.spells.Item.BQk5Row4NymMnUQl]{Hideous Laughter}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Blindness/Deafness},\_@UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Darkness}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL]{Bestow Curse},\_@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.G3hHPQwokQ6OVlcd]{Curse of Doom}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.DGONTFbk5eORs5qv]{Black Tentacles}, @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ve07USa0t8CqRq7e]{Devour Shadow}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.Y1JG6RgBaHe6t1XV]{Killing Curse}, @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{Contagion}</td></tr></tbody></table>"
@@ -53,14 +35,12 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1727317508592
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 60800000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: X6lRe8nyHMgzwo1W
 _key: '!items!X6lRe8nyHMgzwo1W'

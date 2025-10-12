@@ -1,0 +1,119 @@
+folder: dEKdIs3BMtY7tMZL
+name: Blood Forger
+type: subclass
+_id: QUdKJlu7qQLRlbuw
+img: icons/magic/symbols/rune-sigil-hook-white-red.webp
+system:
+  description:
+    value: >-
+      <p>Blood Forgers are immediately different from other Wardens, drawing
+      their power from something more visceral but no less primal than the
+      forces of nature: the blood of creatures. Fundamentally tied to the
+      essence of life that beats in the heart of every creature, they are
+      self-appointed guardians and gardeners of it, preserving, curating, and
+      pruning.</p><p>Their comfort with blood and death often makes creatures
+      uncomfortable, but they can be as potent an ally as they are a dangerous
+      enemy, capable of giving life as easily as taking it, able to keep their
+      companions alive against all odds</p>
+    chat: ''
+  identifier: blood-forger
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: LJ1SaUHpRmHvGfYK
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zPrISQ1zklZ8DfsA
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.d32nXTSMa25lbMT8
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UXXK6Gpfe0gi9S0e
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warden Bond Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.I92rCO5CuYOAOvkO
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warden Bond Feature
+      hint: ''
+      _id: fS3GkKNcXl5ZSBIq
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZF5RyUWLh41DXr28
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qunJryfQIeYSR6oe
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warden Bond Feature
+      hint: ''
+      _id: kUVRPjbQ7sEhkvKC
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.O0dJul2bkYJ2nvKX
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Warden Bond Feature
+      hint: ''
+      _id: EJcRb5vih3Gli9xP
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IpJoVSa96FhHLyDu
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Warden Bond Feature
+      hint: ''
+      _id: hVCEBV3XkrZtSmFp
+  classIdentifier: warden
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1729045775377
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!QUdKJlu7qQLRlbuw'

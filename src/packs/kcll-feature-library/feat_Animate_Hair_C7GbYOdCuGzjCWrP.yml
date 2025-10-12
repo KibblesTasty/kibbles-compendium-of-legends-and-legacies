@@ -3,30 +3,6 @@ type: feat
 img: icons/magic/nature/root-vines-silhouette-teal.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickAttack:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
   core: {}
   dnd5e:
     riders:
@@ -248,22 +224,22 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items:
+      - tradition-of-the-witch
   properties: []
 _stats:
   compendiumSource: Item.1qhpyrXXYeGC0Ukc
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317494311
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 39200000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: C7GbYOdCuGzjCWrP
 _key: '!items!C7GbYOdCuGzjCWrP'

@@ -1,0 +1,145 @@
+folder: HUaII7dx2BNLZrSg
+name: Ironbound
+type: subclass
+_id: sgACTD016cnSnBqz
+img: icons/equipment/head/greathelm-slotted-steel.webp
+system:
+  description:
+    value: >-
+      <p>Ironbound Wardens assert that all that comes of earth is born of primal
+      power, embracing forged metal. Often drawn from mining communities,
+      blacksmiths, or otherwise those with deep understanding and appreciation
+      of the fusion of nature and civilization that forged metal represents,
+      they take full advantage of its power to become invincible edifices of
+      iron.</p>
+    chat: ''
+  identifier: ironbound
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: Fh23lYzDsZXt9Lg9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.p6aggUWe7eVAjL4o
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qEzOAfUIFu6YyYly
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.kWHEWAWZ9AEW4yzC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warden Bond Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.89VaDa7SD4nh48yB
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zdRIhVOpNngyTqhs
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warden Bond Feature
+      hint: ''
+      _id: ylN6qWZ6DJlrRY2R
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.PcoDkTG7Xq0SGb7g
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warden Bond Feature
+      hint: ''
+      _id: Pgp2frzuM817lFmD
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VozIhCcOfrdzQvyQ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Warden Bond Feature
+      hint: ''
+      _id: 1uanZ27fiiONi6A5
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2iiomt4yjQcUkahn
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Warden Bond Feature
+      hint: ''
+      _id: Q6BObpQhf3saFXtG
+    - _id: 3sr1l6TSSSIzYb7Y
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:hvy
+          - weapon:mar
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Ironmonger
+      hint: ''
+    - _id: kr5A1eas7JtVWbDH
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '7':
+            value: 1
+          '14':
+            value: 2
+      value: {}
+      title: Spiked Carapace Damage Dice
+      hint: ''
+  classIdentifier: warden
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729046472653
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!sgACTD016cnSnBqz'

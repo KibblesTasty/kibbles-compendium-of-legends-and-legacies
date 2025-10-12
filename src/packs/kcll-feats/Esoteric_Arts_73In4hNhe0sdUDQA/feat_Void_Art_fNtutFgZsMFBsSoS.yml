@@ -1,0 +1,174 @@
+folder: 73In4hNhe0sdUDQA
+name: Void Art
+type: feat
+_id: fNtutFgZsMFBsSoS
+img: icons/magic/unholy/hand-marked-pink.webp
+system:
+  activities:
+    WHV9YAtgTVWN8Yxs:
+      type: save
+      name: Void Strike
+      _id: WHV9YAtgTVWN8Yxs
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: hJahslo3GnHZ8laK
+          onSave: false
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects:
+        - hJahslo3GnHZ8laK
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>After intense study and sudden enlightenment you’ve mastered the true
+      essence of cutting through space itself. You gain the following
+      benefits:</p><ul><li><strong>Part Magic.</strong> When you succeed a
+      Dexterity saving throw against a spell or similar magical effect and you
+      would take half damage, you can use your reaction to cut the effect from
+      existence around you, taking no damage instead.</li><li>You gain the
+      special Void Strike action (below).</li></ul><h5 id="void-strike">Void
+      Strike</h5><p><em>Active Ability (Action, Supernatural)</em></p><p>As an
+      action, you make a special attack that strikes the dimensional boundaries
+      around a creature, disrupting them and potentially briefly pulling the
+      creature into the ethereal plane. The target makes a Charisma saving
+      throw. On failure, they take force damage equal to 2d6 + your Mystic Path
+      modifier and are banished to the ethereal plane until the start of your
+      next turn. On success, they take half as much and are not banished to the
+      ethereal plane.</p><p>The creature cannot move while on the ethereal
+      plane, but can otherwise take any action they can normally take, but they
+      cannot interact with things on the material plane unless they normally
+      could. You can choose to do no damage with this ability, and the target
+      can choose to fail their save. The number of d6 damage the target takes
+      increases when your proficiency bonus increase, remaining equal to your
+      proficiency bonus.</p><p>Once you use this feature, you cannot use it
+      again until you complete a short or long rest.</p>
+    chat: ''
+  identifier: void-art
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Void Art
+    img: icons/magic/unholy/hand-marked-pink.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.fNtutFgZsMFBsSoS
+    transfer: false
+    _id: hJahslo3GnHZ8laK
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732311945501
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!fNtutFgZsMFBsSoS.hJahslo3GnHZ8laK'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729047615866
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!fNtutFgZsMFBsSoS'

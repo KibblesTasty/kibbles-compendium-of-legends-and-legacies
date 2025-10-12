@@ -3,19 +3,6 @@ type: feat
 img: icons/magic/perception/hand-eye-black.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
 system:
   description:
@@ -47,22 +34,22 @@ system:
   enchant: {}
   prerequisites:
     level: 5
+    items:
+      - tradition-of-the-hedge-mage
   properties: []
 _stats:
   compendiumSource: Item.8CieONxg0inLlU74
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317523841
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 84900000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: tdxIUp5XvPwgSvEq
 _key: '!items!tdxIUp5XvPwgSvEq'

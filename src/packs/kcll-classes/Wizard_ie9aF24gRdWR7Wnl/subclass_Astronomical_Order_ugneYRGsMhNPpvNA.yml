@@ -1,0 +1,103 @@
+folder: ie9aF24gRdWR7Wnl
+name: Astronomical Order
+type: subclass
+_id: ugneYRGsMhNPpvNA
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+system:
+  description:
+    value: >-
+      <p>The Astronomical Order are Wizards that specialize in the study of the
+      celestial bodies and their movements, interpreting mystical meaning and
+      understanding aspects of nature and magic from their order. They draw on
+      the stars and the insights they glean from these celestial mysteries
+      empower their magic.</p><p>Often found buried in star charts and ancient
+      tomes, they seek to delve into the secrets of ancient skies and uncover
+      new insights into the infinite depths above.</p><hr /><p>The following are
+      some optional quirks for a player of this Order to choose from—these can
+      be either preexisting, signaling their fated path toward this Order, or
+      appear after they select this
+      Order.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.DcAg6ZQAgIfz8XHf
+      rollable]</p>
+    chat: ''
+  identifier: astronomical-order
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: UyPgcaeVdlC3ps69
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EMqcXSNFACz1Dcvz
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fUM2qr7TxgYZmXs7
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Arcane Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2lAk2kzLBXXo4tsa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Arcane Tradition Feature
+      hint: ''
+      _id: sXWTqzLmKrUyKwQn
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EJuJ3ac3gjDGzYav
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Arcane Tradition Feature
+      hint: ''
+      _id: qJueaUlrzv7IxCF1
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2SIGv5lpHtw33lNe
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Arcane Tradition Feature
+      hint: ''
+      _id: r39wBnRoRZehNmzP
+  classIdentifier: wizard
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729041717511
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!ugneYRGsMhNPpvNA'

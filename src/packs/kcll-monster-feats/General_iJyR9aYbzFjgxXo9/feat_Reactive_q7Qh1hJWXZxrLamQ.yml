@@ -1,0 +1,101 @@
+folder: iJyR9aYbzFjgxXo9
+name: Reactive
+type: feat
+_id: q7Qh1hJWXZxrLamQ
+img: icons/skills/melee/swords-parry-block-yellow.webp
+system:
+  activities:
+    HFf90ZIkHwsQMdgC:
+      type: utility
+      name: Vengeful Blow
+      _id: HFf90ZIkHwsQMdgC
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Some monsters are exceptional at handling many foes at the same time,
+      and core tool of doing so is be able to respond quickly. The monster gains
+      the following features:</p><ul><li><strong>Reactive.</strong> The monster
+      gains an additional reaction per round.</li><li><strong>Vengeful
+      Blow.</strong> When the monster is hit by an attack, it can make one
+      attack as a reaction against the attacker, if the attacker is in range of
+      an available action.</li><li><strong>CR Adjustment:</strong> + 1</li></ul>
+    chat: ''
+  identifier: reactive
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: monster
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733353011078
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!q7Qh1hJWXZxrLamQ'

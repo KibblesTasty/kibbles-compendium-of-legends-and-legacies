@@ -36,8 +36,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.1.0
       createdTime: 1731207203919
-      modifiedTime: 1731207285398
-      lastModifiedBy: pJeIW7qCa0HkURWq
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!DzHfDsG1lBpbfmKq.jpR7LHUUsUtLkfW8'
   - name: Oracle's Sight (Blinded)
@@ -73,25 +73,12 @@ effects:
       systemId: dnd5e
       systemVersion: 4.1.0
       createdTime: 1731207290317
-      modifiedTime: 1731207303218
-      lastModifiedBy: pJeIW7qCa0HkURWq
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _id: b6nLNcfOUwJxnUhC
     _key: '!items.effects!DzHfDsG1lBpbfmKq.b6nLNcfOUwJxnUhC'
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
 system:
   description:
@@ -119,22 +106,22 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items:
+      - tradition-of-the-oracle
   properties: []
 _stats:
   compendiumSource: Item.dEzjZGVllXPOy6QS
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317495788
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 41400000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: DzHfDsG1lBpbfmKq
 _key: '!items!DzHfDsG1lBpbfmKq'

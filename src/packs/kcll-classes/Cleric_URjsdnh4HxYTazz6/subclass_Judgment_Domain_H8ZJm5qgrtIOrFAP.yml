@@ -1,0 +1,229 @@
+folder: URjsdnh4HxYTazz6
+name: Judgment Domain
+type: subclass
+_id: H8ZJm5qgrtIOrFAP
+img: icons/skills/social/trading-justice-scale-yellow.webp
+system:
+  description:
+    value: >-
+      <p>A Judgment Domain cleric is a cleric who oversees the distribution of
+      law and order. They may do so in the name justice itself, or in service to
+      a particular aspect of justice. This might be a lawful god—perhaps
+      compassionate, but they may equally be harsh for those that dispense the
+      iron fist of tyranny the world might need—or at the behest of an
+      institution of justice in the land.</p><p>Employing a Justice Domain
+      cleric is something that any ruling power must consider carefully. While
+      they are almost always Lawful to the extreme, they answer only to their
+      own, higher, ideals of justice.</p><hr /><p>The following are some
+      optional quirks for a player of this Domain to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.6WHdjaK24kaPVZKK
+      rollable]</p>
+    chat: ''
+  identifier: judgment-domain
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: arC0esMCdeljMf6Z
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.P2Iekxogi2CYgGQu
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YRQK2Dwx3PXjbtfn
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Divine Domain Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.X5VxJFnphLJcJOSw
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Divine Domain Feature
+      hint: ''
+      _id: t7D5vNEZn7Qq4VMC
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Q8iQU79lbNhaQV80
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Divine Domain Feature
+      hint: ''
+      _id: 4UuoH96zu8NsIeJ7
+    - _id: dCXMng1iwqatvshJ
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MqkQHqGTWhWqSWht
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Divine Domain Feature
+      hint: ''
+    - _id: nJHGy1Wqss0JQSSN
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 1
+      title: Judgment Domain Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Judgment Domain Spells
+      hint: ''
+      _id: nBIrKlKtO85R3VgH
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.Ek45cBpVXvJdv1Qy
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Judgment Domain Spells
+      hint: ''
+      _id: i8Y5Q8UMNdKNzUdr
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Judgment Domain Spells
+      hint: ''
+      _id: Rq2oKmN0b5T1O0WQ
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.TkJ8Wtg1L7TZtspm
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.JQyigMNPiDnGI18b
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Judgment Domain Spells
+      hint: ''
+      _id: tdM0gNAcHQNlPlPL
+    - _id: 49VEjugrLlnUyK2B
+      type: ItemChoice
+      configuration:
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5dWCOwjkkmvu77qw
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VRw9rtW7tVWVpBp6
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Divine Empowerment
+      hint: ''
+  classIdentifier: cleric
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729038249360
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!H8ZJm5qgrtIOrFAP'

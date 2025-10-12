@@ -1,0 +1,511 @@
+folder: eY6MBIKazfiSmnlA
+name: Dragon Form
+type: feat
+_id: htP7kK6cMeE2xPIf
+img: icons/creatures/reptiles/dragon-winged-blue.webp
+system:
+  activities:
+    uxqaKJK7d5kf3XUD:
+      type: utility
+      name: Dragon Aspect
+      _id: uxqaKJK7d5kf3XUD
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: GuReoMwnNBhUihne
+        - _id: IWcrgyWgFgJDcMC2
+        - _id: jkgbr7auEkoHzHEN
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - GuReoMwnNBhUihne
+        - IWcrgyWgFgJDcMC2
+        - jkgbr7auEkoHzHEN
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You have learned to invoke the powers of a dragon. You gain the
+      following features:</p><ul><li><strong>Ability Score Bonus.</strong>
+      Increase your Strength, Constitution, or Charisma ability score by 1, to a
+      maximum of 20.</li><li><strong>Mystic Language. </strong>You learn
+      draconic. If you already know draconic, you learn one additional language
+      of your choice.</li><li>You gain the Dragon Aspect special transformation
+      ability (below).</li></ul><h5 id="dragon-aspect">Dragon
+      Aspect</h5><p><em>Active Ability (Bonus Action,
+      Supernatural)</em></p><p>As a bonus action, you can physical transform
+      your body, choose number up to your Proficiency bonus of the following
+      draconic features:</p><ul><li><strong>Fangs.</strong> Gain dragon-like
+      fangs, gaining a natural weapon that deals 1d8 piercing
+      damage.</li><li><strong>Claws.</strong> Transform one or both hands into
+      dragonlike claws, gaining natural weapons that deal 1d6 slashing damage
+      and have the Light property.</li><li><strong>Scales.</strong> Gain
+      dragon-like scales. When you aren’t wearing armor, your base AC is 13 +
+      Dexterity modifier. You can use your natural armor to determine your AC if
+      the armor you wear would leave you with a lower AC. A shield’s benefits
+      apply as normal while you use your natural armor. You gain resistance to
+      acid, cold, fire, lightning or poison damage (selected when you take the
+      feat).</li><li><strong>Wings (Requires 9th level).</strong> If you are not
+      wearing armor, dragon-like wings sprout from your back. Until the
+      transformation ends, you have a 30 foot flying
+      speed.</li><li><strong>Eyes. </strong>You gain a darkvision of 60 feet. If
+      you already have a darkvision, you gain a blindsight of 15
+      feet.</li><li><strong>Elemental Damage.</strong> A weapon you are holding
+      or natural weapon of your choice is wreathed in elemental power, changing
+      its damage type to that element. The first time you hit a creature with
+      that weapon on your turn, you deal damage an additional 1d4 damage of that
+      elemental type.</li></ul><p>The transformation lasts 1 minute or until you
+      end it early as a bonus action. If they don’t otherwise have a bonus to
+      attack and damage rolls, natural weapons granted by this transformation
+      gain a bonus to attack and damage rolls equal to half your proficiency
+      bonus (rounded down). Once you use this feature, you cannot use it again
+      until you complete a short or long rest.</p>
+    chat: ''
+  identifier: dragon-form
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties:
+    - mgc
+  requirements: ''
+  advancement:
+    - _id: 9U5xodTjm5rUbFq5
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects:
+  - type: enchantment
+    name: Elemental Damage (Acid)
+    img: icons/creatures/reptiles/dragon-winged-blue.webp
+    disabled: true
+    _id: I51DInprM0vCML0B
+    system: {}
+    changes:
+      - key: system.damage.types
+        mode: 5
+        value: acid
+        priority: null
+      - key: system.damage.bonus
+        mode: 2
+        value: 1d4
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739482055622
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!htP7kK6cMeE2xPIf.I51DInprM0vCML0B'
+  - type: enchantment
+    name: Elemental Damage (Cold)
+    img: icons/creatures/reptiles/dragon-winged-blue.webp
+    disabled: true
+    system: {}
+    changes:
+      - key: system.damage.types
+        mode: 5
+        value: cold
+        priority: null
+      - key: system.damage.bonus
+        mode: 2
+        value: 1d4
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739482222444
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: nrTofbhEB2Owq9Sg
+    _key: '!items.effects!htP7kK6cMeE2xPIf.nrTofbhEB2Owq9Sg'
+  - type: enchantment
+    name: Elemental Damage (Fire)
+    img: icons/creatures/reptiles/dragon-winged-blue.webp
+    disabled: true
+    system: {}
+    changes:
+      - key: system.damage.types
+        mode: 5
+        value: fire
+        priority: null
+      - key: system.damage.bonus
+        mode: 2
+        value: 1d4
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739482224079
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: as5MQzU8VeYohiK8
+    _key: '!items.effects!htP7kK6cMeE2xPIf.as5MQzU8VeYohiK8'
+  - type: enchantment
+    name: Elemental Damage (Lightning)
+    img: icons/creatures/reptiles/dragon-winged-blue.webp
+    disabled: true
+    system: {}
+    changes:
+      - key: system.damage.types
+        mode: 5
+        value: lightning
+        priority: null
+      - key: system.damage.bonus
+        mode: 2
+        value: 1d4
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739482225286
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: rQot9PqSvE2SKokF
+    _key: '!items.effects!htP7kK6cMeE2xPIf.rQot9PqSvE2SKokF'
+  - type: enchantment
+    name: Elemental Damage (Poison)
+    img: icons/creatures/reptiles/dragon-winged-blue.webp
+    disabled: true
+    system: {}
+    changes:
+      - key: system.damage.types
+        mode: 5
+        value: poison
+        priority: null
+      - key: system.damage.bonus
+        mode: 2
+        value: 1d4
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739482226550
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 8EASxxBeCmT50UcW
+    _key: '!items.effects!htP7kK6cMeE2xPIf.8EASxxBeCmT50UcW'
+  - name: Scales
+    img: icons/creatures/reptiles/dragon-winged-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.htP7kK6cMeE2xPIf
+    _id: GuReoMwnNBhUihne
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.calc
+        mode: 5
+        value: natural
+        priority: null
+      - key: system.attributes.ac.flat
+        mode: 4
+        value: '13'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739482475151
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!htP7kK6cMeE2xPIf.GuReoMwnNBhUihne'
+  - name: Eyes
+    img: icons/creatures/reptiles/dragon-winged-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.htP7kK6cMeE2xPIf
+    transfer: true
+    _id: jkgbr7auEkoHzHEN
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.darkvision
+        mode: 4
+        value: '60'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739482653907
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!htP7kK6cMeE2xPIf.jkgbr7auEkoHzHEN'
+  - name: Wings
+    img: icons/creatures/reptiles/dragon-winged-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.htP7kK6cMeE2xPIf
+    transfer: false
+    _id: IWcrgyWgFgJDcMC2
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '30'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.0
+      createdTime: 1739482689273
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!htP7kK6cMeE2xPIf.IWcrgyWgFgJDcMC2'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.3.0
+  createdTime: 1729047666285
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!htP7kK6cMeE2xPIf'

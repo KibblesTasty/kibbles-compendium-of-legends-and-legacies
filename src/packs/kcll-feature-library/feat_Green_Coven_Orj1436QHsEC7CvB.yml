@@ -3,25 +3,7 @@ type: feat
 img: icons/equipment/head/hood-green-horns.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
-  rsr5e:
-    quickDesc:
-      value: true
-    quickFooter:
-      value: true
 system:
   description:
     value: "<table><thead><tr><th>Witch Level</th><th>Bonus Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.ICCvw69mOus2q5MU]{Befuddling Curse},\_@UUID[Compendium.dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.8RTDOt80u8aBv9qx]{Alter Self},\_@UUID[Compendium.dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.dEYBvXvaGCEYHbEU]{Curse of Misfortune}, @UUID[Compendium.dnd5e.spells.nslx2nT3p4lNkmdp]{Major Image}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.tEpDmYZNGc9f5OhJ]{Greater Invisibility},\_@UUID[Compendium.dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph}</td></tr><tr><td>9th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.zOrfSZ2E7IeUoVNY]{Swapping Curse}, @UUID[Compendium.dnd5e.spells.mbFw57uyfLkyiw5k]{Seeming}</td></tr></tbody></table>"
@@ -53,14 +35,12 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1727317503053
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 52600000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: Orj1436QHsEC7CvB
 _key: '!items!Orj1436QHsEC7CvB'

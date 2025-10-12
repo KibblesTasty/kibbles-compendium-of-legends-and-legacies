@@ -3,19 +3,6 @@ type: feat
 img: icons/magic/lightning/bolt-strike-explosion-purple.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
   dnd5e:
     riders:
@@ -89,6 +76,8 @@ system:
   identifier: avatar-of-the-elements
   prerequisites:
     level: 11
+    items:
+      - tradition-of-the-shaman
   activities:
     ZTOJrlJoEBHT7Mvz:
       type: cast
@@ -227,11 +216,11 @@ system:
       img: ''
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
+  systemVersion: 5.1.9
+  coreVersion: '13.350'
   createdTime: 1678742384521
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   compendiumSource: Item.bb3S5sNGZDOeEK0b
   duplicateSource: null
   exportSource: null
@@ -239,6 +228,5 @@ folder: null
 sort: 90500000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
 _id: yvGQQ9YONvYYlNVP
 _key: '!items!yvGQQ9YONvYYlNVP'

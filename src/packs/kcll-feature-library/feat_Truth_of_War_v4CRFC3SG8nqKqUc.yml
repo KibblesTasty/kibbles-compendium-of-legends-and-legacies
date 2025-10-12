@@ -3,25 +3,7 @@ type: feat
 img: icons/skills/melee/weapons-crossed-swords-yellow.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
-  rsr5e:
-    quickDesc:
-      value: true
-    quickFooter:
-      value: true
   dnd5e:
     riders:
       activity: []
@@ -115,23 +97,21 @@ system:
   prerequisites:
     level: 5
     items:
-      - mystery-of-war
+      - revelation-of-war
   properties: []
 _stats:
   compendiumSource: Item.OtFbNmkGA1xrNygh
   duplicateSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.1.0
+  systemVersion: 5.1.9
   createdTime: 1727317525221
-  modifiedTime: 1755113780122
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 86900000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: v4CRFC3SG8nqKqUc
 _key: '!items!v4CRFC3SG8nqKqUc'

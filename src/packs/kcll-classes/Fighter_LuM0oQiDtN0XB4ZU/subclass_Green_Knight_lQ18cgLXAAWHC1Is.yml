@@ -1,0 +1,156 @@
+folder: LuM0oQiDtN0XB4ZU
+name: Green Knight
+type: subclass
+_id: lQ18cgLXAAWHC1Is
+img: icons/equipment/shield/kite-wooden-oak-glow.webp
+system:
+  description:
+    value: >-
+      <p>The Green Knight is a fighter who draws on the power of nature to imbue
+      their attacks with the strength of the earth itself. They are fierce
+      defenders of the natural world, sworn to protect it at all costs.</p><hr
+      /><p>Nature cannot defend itself… but its enemies cannot defend themselves
+      from
+      you.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.8GJVKdoz6e9MqffE
+      rollable]</p>
+    chat: ''
+  identifier: green-knight
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: NhtARWnBZn209Dab
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.E9IQF1EYbWial6zt
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Wm35PpqeueCaLbab
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.WgfELpvUlCX1obdG
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Martial Archetype Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IxgRzDpDGwHimpLh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Martial Archetype Feature
+      hint: ''
+      _id: 2UUplAxJGvPfYnO8
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.134TXkmszlOYHmyc
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Martial Archetype Feature
+      hint: ''
+      _id: jhw3DEtFjHQr6r3u
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.usACNZeQuMDYSbD7
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Martial Archetype Feature
+      hint: ''
+      _id: DD3ClDEi0Kz7KigV
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NC8b5d2Oorlb7eZy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Martial Archetype Feature
+      hint: ''
+      _id: xw8IdluIkKZpGwja
+    - _id: 47MZ254DvIAlIF1v
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 3
+          '5':
+            value: 4
+          '7':
+            value: 5
+          '9':
+            value: 6
+          '11':
+            value: 7
+          '13':
+            value: 8
+          '15':
+            value: 9
+          '17':
+            value: 10
+          '19':
+            value: 11
+      value: {}
+      title: Spells Known
+      hint: ''
+    - _id: EeIi1vSslnzosWCB
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:nat
+        choices: []
+      value:
+        chosen: []
+      level: 3
+      title: Nature's Blessing
+      hint: ''
+  classIdentifier: fighter
+  spellcasting:
+    progression: third
+    preparation:
+      formula: ''
+    ability: wis
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729038391776
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!lQ18cgLXAAWHC1Is'

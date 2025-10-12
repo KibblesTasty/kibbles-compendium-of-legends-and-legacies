@@ -3,40 +3,7 @@ type: feat
 img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickDamage:
-      context: []
-      value:
-        '0': true
-      altValue:
-        '0': true
-    quickCharges:
-      value:
-        resource: true
-      altValue:
-        resource: true
   core: {}
-  rsr5e:
-    quickOther:
-      context: Save Bonus
-      value: true
-    quickDesc:
-      value: true
-    quickFooter:
-      value: true
   dnd5e:
     riders:
       activity: []
@@ -133,14 +100,12 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317512880
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 67100000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: dPpXYIf8h2I9SiIZ
 _key: '!items!dPpXYIf8h2I9SiIZ'

@@ -3,25 +3,7 @@ type: feat
 img: icons/magic/water/projectile-icecicles-salvo.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
-  rsr5e:
-    quickDesc:
-      value: true
-    quickFooter:
-      value: true
   dnd5e:
     riders:
       activity: []
@@ -212,22 +194,22 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items:
+      - tradition-of-the-shaman
   properties: []
 _stats:
   compendiumSource: Item.QQa1ItYWxNylJvg1
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317491505
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 35100000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: 8lkWkNVJOWyll2DY
 _key: '!items!8lkWkNVJOWyll2DY'

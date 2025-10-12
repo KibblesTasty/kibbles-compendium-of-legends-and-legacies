@@ -1,0 +1,214 @@
+folder: oHNnGkIfPY35Nhxf
+name: Weapon Thrower
+type: feat
+_id: gVUYuxBLKOthf2lH
+img: icons/skills/ranged/tracers-triple-orange.webp
+system:
+  activities:
+    llbFr6v6Aa1Mqt2y:
+      type: attack
+      name: Thunderbolt Throw
+      _id: llbFr6v6Aa1Mqt2y
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '180'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    eI8VS5JhZ1xCE1tA:
+      type: save
+      _id: eI8VS5JhZ1xCE1tA
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: str
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You excel at hurling objects, with a remarkably lack of concern for
+      aerodynamics.</p><ul><li><strong>Ability Score Increase.</strong> Increase
+      your Strength or Constitution by 1, to a maximum of
+      20.</li><li><strong>Reckless Aerodynamics.</strong> All melee weapons gain
+      the thrown 20/60 property for you, unless they already had the thrown
+      property with a greater range.</li><li>Gain the Thunderbolt Throw special
+      attack (below)</li></ul><h5 id="thunderbolt-throw">Thunderbolt
+      Throw</h5><p><em>Active Ability (Attack)</em></p><p>When you take the
+      Attack action on your turn, you can replace one of your attacks to hurl a
+      Small or smaller object (including weapons for creatures of Medium size)
+      at a target. Make an attack treating the object as a simple melee weapon
+      with the thrown 60/180 property unless it already has a longer thrown
+      range. On hit, the creature takes 2d6 + your Strength modifier bludgeoning
+      damage (replaced by the weapons damage type when throwing a weapon) and
+      must make a Constitution saving throw or be knocked &amp;Reference[prone]
+      and &amp;Reference[dazed]. The number of d6 increases by one when your
+      proficiency bonus increases (with the total number of d6 equaling your
+      proficiency bonus).</p><p>Once you use this feature, you cannot use it
+      again until you complete a short or long rest.</p>
+    chat: ''
+  identifier: weapon-thrower
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties: []
+  requirements: ''
+  advancement:
+    - _id: AN68BzrjHhPaStms
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729046741988
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!gVUYuxBLKOthf2lH'

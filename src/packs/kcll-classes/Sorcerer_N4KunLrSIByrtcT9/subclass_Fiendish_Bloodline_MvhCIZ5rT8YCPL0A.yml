@@ -1,0 +1,294 @@
+folder: N4KunLrSIByrtcT9
+name: Fiendish Bloodline
+type: subclass
+_id: MvhCIZ5rT8YCPL0A
+img: icons/creatures/unholy/demon-fire-horned-mask.webp
+system:
+  description:
+    value: >-
+      <p>Your innate magic comes from a bloodline tainted by fiendish influence
+      of the lower planes. How directly this blood is inherited varies wildly.
+      Perhaps your lineage includes a Warlock that has made some infernal pact,
+      or you may even have a fiend in your family tree. Such blood lines can
+      express themselves more strongly throughout generations in unpredictable
+      ways. Sometimes it is merely the product of some sort of corruption,
+      perhaps before you were even born.</p><p>The influence is most often seen
+      in races that have obvious fiendish heritage, such as tieflings, but it is
+      not inherently tied to them.</p><h5>Optional: Fiendish Trait</h5><p>You
+      can optionally select to have a physical fiendish trait. Roll or select an
+      option from the table
+      below:</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.rgScemEAdnsYv9SP
+      rollable]</p><hr /><p>The following are some optional quirks for a player
+      of this Bloodline to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.pFlBDVwWxeqpsVb9
+      rollable]</p>
+    chat: ''
+  identifier: fiendish-bloodline
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: KFPSv7k1DRgYDY1q
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ugt8YO0TM4YGSmyL
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zsAy9qOTvbmf2YiB
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yNJWxTHQglhTObCD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Sorcerous Origin Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fJscNgdfU7GXocuE
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Sorcerous Origin Feature
+      hint: ''
+      _id: ymwF8gRq9rxfGQXI
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.G2VFOTNWRijy6s2I
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5ehqviIYsZiaoH5z
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Sorcerous Origin Feature
+      hint: ''
+      _id: 762CwJWYksPTFgT1
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1IJcP3tvMjxmJvap
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Sorcerous Origin Feature
+      hint: ''
+      _id: 0WKx3ZEu2UZuQW7J
+    - _id: DlkyFfwbFvDR1xJL
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F
+          - uuid: Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Fiend Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Fiend Origin Spells table. For each level of spells, you
+        can select one of the two spells to learn. You learn the selected spell
+        and it becomes a sorcerer spell for you, but it doesn’t count against
+        your number of sorcerer spells known.
+    - type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.oC9e6l0u77zR07Hl
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Fiend Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Fiend Origin Spells table. For each level of spells, you
+        can select one of the two spells to learn. You learn the selected spell
+        and it becomes a sorcerer spell for you, but it doesn’t count against
+        your number of sorcerer spells known.
+      _id: cIadUetL7D5myEQZ
+    - type: ItemChoice
+      configuration:
+        choices:
+          '5':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0
+          - uuid: Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Fiend Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Fiend Origin Spells table. For each level of spells, you
+        can select one of the two spells to learn. You learn the selected spell
+        and it becomes a sorcerer spell for you, but it doesn’t count against
+        your number of sorcerer spells known.
+      _id: hQKEtdL9pKUGg6ZG
+    - type: ItemChoice
+      configuration:
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.K2DY7Hweit3gO8hR
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Fiend Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Fiend Origin Spells table. For each level of spells, you
+        can select one of the two spells to learn. You learn the selected spell
+        and it becomes a sorcerer spell for you, but it doesn’t count against
+        your number of sorcerer spells known.
+      _id: 1OnQpNVDrT5GPlgb
+    - type: ItemChoice
+      configuration:
+        choices:
+          '9':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: spell
+        pool:
+          - uuid: Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.hIupiGkjHVVweobC
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Fiend Origin Spells
+      hint: >-
+        You learn additional spells when you reach certain levels in this class,
+        as shown on the Fiend Origin Spells table. For each level of spells, you
+        can select one of the two spells to learn. You learn the selected spell
+        and it becomes a sorcerer spell for you, but it doesn’t count against
+        your number of sorcerer spells known.
+      _id: GkzDYxjX3qnAszrb
+    - _id: w6YGVkLWhv9N0Xcb
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - languages:exotic:abyssal
+              - languages:exotic:infernal
+      value:
+        chosen: []
+      level: 1
+      title: Fiendish Legacy
+      hint: >-
+        At 1st level, you learn Infernal or Abyssal. This choice is most often
+        tied to the origin of your fiendish powers.
+  classIdentifier: sorcerer
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729039556011
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!MvhCIZ5rT8YCPL0A'

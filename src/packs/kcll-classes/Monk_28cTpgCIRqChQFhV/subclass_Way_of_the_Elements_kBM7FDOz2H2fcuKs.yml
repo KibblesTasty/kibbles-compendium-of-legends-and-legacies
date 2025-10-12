@@ -1,0 +1,202 @@
+folder: 28cTpgCIRqChQFhV
+name: Way of the Elements
+type: subclass
+_id: kBM7FDOz2H2fcuKs
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  description:
+    value: >-
+      <p>Monks who follow the Way of the Elements harness the primal forces of
+      nature, blending martial prowess with elemental mastery. These monks
+      attune themselves to the natural world, channeling the raw power of the
+      elements into their physical and spiritual practices. By focusing their
+      ki, they can unleash the fury of fire, the fluidity of water, the
+      stability of earth, and the swiftness of air, transforming themselves into
+      living avatars of elemental energy</p><hr /><p>The following are some
+      optional quirks for a player of this Way to choose from—these can be
+      either preexisting, signaling their fated path toward this Way, or appear
+      after they select this
+      Way</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.gT6w2anrQYoa0Brp
+      rollable]</p>
+    chat: ''
+  identifier: way-of-the-elements
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: K8aqa1N0OhJppiZP
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7bzyIvAqekwtgsyp
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Monastic Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jv5Ujn9JTVBT2vne
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nljswFZxkuhcbQ33
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TY2jbgs3sJOGFhC3
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hXgdk6RPBPBMjryp
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.urOg0xehRNz7S675
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Monastic Tradition Feature
+      hint: ''
+      _id: D4lVui0u0CaQVSVS
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CpfWwjoNwaGw13x5
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Monastic Tradition Feature
+      hint: ''
+      _id: 4G4mV8JCOXReNp9z
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.i4V1R57gFFAWDsjy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Monastic Tradition Feature
+      hint: ''
+      _id: p8f0G75dX24zlKy9
+    - _id: ZJEGpdvdgDKCwGHo
+      type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 3
+            replacement: false
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: null
+            replacement: true
+          '6':
+            count: 2
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: null
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: 2
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: null
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: 2
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.R0qlon3Mky59QwEN
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nljswFZxkuhcbQ33
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TY2jbgs3sJOGFhC3
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nfECEjPovGY508gM
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VIo68F3qAMzkDIHG
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.94ak0Xl3YEEWO4dM
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hXgdk6RPBPBMjryp
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.urOg0xehRNz7S675
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fkmoeRNaOOrnBG1t
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Q1TewgdmdkkxaJUu
+        spell: null
+        restriction:
+          type: class
+          subtype: elementalDiscipline
+      value:
+        added: {}
+        replaced: {}
+      title: Elemental Techniques
+      hint: ''
+  classIdentifier: monk
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729039113949
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!kBM7FDOz2H2fcuKs'

@@ -1,0 +1,112 @@
+folder: Ul0S2zNLp1x7Y6yn
+name: Boon of Sacrifice
+type: feat
+_id: czgVpCWDeaBH0kQl
+img: icons/magic/life/heart-broken-red.webp
+system:
+  activities:
+    XxN5vTStADOuyTN1:
+      type: heal
+      _id: XxN5vTStADOuyTN1
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: 2 * @details.level
+        spellSlot: true
+        targets:
+          - type: attribute
+            value: '1'
+            target: attributes.hp.value
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scaling'
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As an action, you can touch a creature and transfer it a number of your
+      hit points up to twice your character level. You cannot reduce your own
+      hit points below 1 when transferring hit points this way.</p>
+    chat: ''
+  identifier: boon-of-sacrifice
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: supernaturalGift
+    subtype: epicBoon
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732296734896
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!czgVpCWDeaBH0kQl'

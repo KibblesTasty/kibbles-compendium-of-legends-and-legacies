@@ -1,0 +1,143 @@
+folder: WRTVyUK3eHm8joQy
+name: The Ooze
+type: subclass
+_id: 8FT28dVzI7uD2gtm
+img: icons/creatures/slimes/bubbling-purple.webp
+system:
+  description:
+    value: >-
+      <p>You have made a pact with a powerful ooze, gaining the ability to
+      summon and control the primordial essence of slime and ooze. As you gain
+      power, you become more like your patron: your body taking on slimy and
+      gelatinous features.</p><h5>Ooze Expanded
+      Spells</h5><table><thead><tr><th>Spell
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx]{grease},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.H7LET2IUJwus5s1j]{summon
+      ooze}</td></tr><tr><td>2nd</td><td>@UUID[Compendium.dnd5e.spells.Item.4H6YgYdKgnX6ZQ8M]{acid
+      arrow}, @UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alter
+      self}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.WPyc9AsaDre1BX9S]{erode},
+      @UUID[Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I]{protection from
+      energy}</td></tr><tr><td>4th</td><td>@UUID[Compendium.dnd5e.spells.Item.DGONTFbk5eORs5qv]{black
+      tentacles}, @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{freedom
+      of
+      movement}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.RDll5odK6xtxXXgx]{acid
+      rain},
+      @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{contagion}</td></tr></tbody></table><h5>Additional
+      Invocations</h5><p>When you select The Ooze as your otherworldly patron,
+      the following become additional options for your Warlock invocation
+      selections.</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TimHvwyCNQFQnWCW]{Corrosive
+      Consumption}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.pXPW2hObdHRieY6E]{Melting
+      Mimicry}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Cwd3f7n8RmZdGqjX]{Pseudopod
+      Whip}</p><hr /><p>The following are some optional quirks for a player of
+      this Otherworldly Patron to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.zPgr9qcLUk6dYcq0
+      rollable]</p>
+    chat: ''
+  identifier: the-ooze
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: ffvwBfEnlYIcP40n
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sDS1auto2mKPaIY4
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nh6V4qxs1MtETSPj
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Otherworldly Patron Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.aRaihD6lC5tQn81q
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: ta0ZUGPw1ah8iTfI
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qBjRvUD49utwszuV
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: HuvjdTlxCWgn5pV2
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FMtdPhS5nb0MqXQU
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: DwL4PqZNv05vHXJz
+    - _id: uM5eOa01eJmzl898
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:acid
+        choices: []
+      value:
+        chosen: []
+      level: 6
+      title: Corrosive Conduit
+      hint: ''
+    - _id: 6mRsDsEGd3vhYz9q
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - di:acid
+        choices: []
+      value:
+        chosen: []
+      level: 10
+      title: Acidic Adaptation
+      hint: ''
+  classIdentifier: warlock
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1732130768114
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!8FT28dVzI7uD2gtm'

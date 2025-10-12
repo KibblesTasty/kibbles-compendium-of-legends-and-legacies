@@ -1,0 +1,225 @@
+folder: WDc5BXYoZ8r5du1l
+name: Oath of the Goodest Boi
+type: subclass
+_id: ii2MKD1W3JZtvmIn
+img: icons/creatures/mammals/dog-husky-white-blue.webp
+system:
+  description:
+    value: >-
+      <p>Few paths are as demanding as the oath of these dauntless doggos, for
+      they walk not just the path of being good, but being the goodest. These
+      are no man’s second best friend, but man’s best friend itself, in the fur.
+      They allow no evil to go unbarked, no stick to go unfetched, and no tail
+      to go unwagged.</p><p>This prestigious path is so precarious that only a
+      doggo could hope to tread it, though the forms of the doggo are many, from
+      your everyday goodest bois working hard to do their best, to perhaps more
+      erudite awakened doggos, or even demigods in doggo form.</p><h5>Tenets of
+      the Goodest Boi</h5><p>Every goodest boi that follows these paths adheres
+      to certain standards, the goodest of standards.</p><p><strong>Be
+      Good.</strong> Do the goodest thing.</p><p><strong>Be Happy.</strong> The
+      world is just a tail wag from happiness.</p><p><strong>Be
+      Diligent.</strong> Leave no stick to go unfetched.</p><p><strong>Be
+      Friendly.</strong> Never pass up a treat or a
+      headscritch.</p><p><strong>Be Vigilant.</strong> Bark the evil
+      away.</p><hr /><p>The following are some optional quirks for a player of
+      this Oath to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.4wyEYay1mpR7p3Km
+      rollable]</p><section class="secret"
+      id="secret-gQC50g8UD4Rq6W8v"><p><strong>Explaining the
+      Joke</strong></p><p>As is hopefully obvious, 'Oath of the Goodest Boi' is
+      a joke. It was originally written for April Fools, and included in the
+      book because backers thought it would be funny. If you would, for some
+      reason, like to play this option, please consult your DM to see if it
+      would be appropriate for their game before they send me angry letters
+      asking what the hell this is.</p></section>
+    chat: ''
+  identifier: oath-of-the-goodest-boi
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: L0RnxPpjzT2rJzi2
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rPAhpXyOMUAhvMPT
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sLNX5EWGlrDDmWuM
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Sacred Oath Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7AOpvFC1kN1uyp6M
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Sacred Oath Feature
+      hint: ''
+      _id: 1slAtfu5qYSvDE3x
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ycqXrkiZRurryT2X
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Sacred Oath Feature
+      hint: ''
+      _id: vfLW980QPX7aiAFw
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MtSYXglNMJ3ZWeX3
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Sacred Oath Feature
+      hint: ''
+      _id: iUYz7QDUKnsmmuV5
+    - _id: wWN67BWAlTdxVobo
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.7p9IuWrSWFgfyQo2
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Oath Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.3MYDjS6k9IYL0aTj
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.KrM3oHVv13RAALrS
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Oath Spells
+      hint: ''
+      _id: jaomZbZv3AviRIEC
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.PnHBUARpCeASfcJl
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Oath Spells
+      hint: ''
+      _id: hwPRZmcnmcy1d2Mt
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.TkJ8Wtg1L7TZtspm
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.0kTD4RimXtIXcCRK
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Oath Spells
+      hint: ''
+      _id: 1AfmXZh5jDKyvNQ3
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.zslATBRXIUWbPJBF
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Oath Spells
+      hint: ''
+      _id: j2mx7LI85TcFkNWR
+  classIdentifier: paladin
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1729039441517
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!ii2MKD1W3JZtvmIn'

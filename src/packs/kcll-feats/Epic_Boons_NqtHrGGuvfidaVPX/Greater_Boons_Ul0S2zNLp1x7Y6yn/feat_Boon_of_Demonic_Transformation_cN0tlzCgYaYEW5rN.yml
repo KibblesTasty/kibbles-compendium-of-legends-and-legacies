@@ -1,0 +1,180 @@
+folder: Ul0S2zNLp1x7Y6yn
+name: Boon of Demonic Transformation
+type: feat
+_id: cN0tlzCgYaYEW5rN
+img: icons/creatures/unholy/demon-fanged-horned-yellow.webp
+system:
+  activities:
+    1OgCHk9RtHI0fPaw:
+      type: attack
+      _id: 1OgCHk9RtHI0fPaw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - piercing
+            scaling:
+              number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              number: 1
+      name: Demonic Tail
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your creature type becomes fiend (demon). You gain resistance to fire
+      and lightning damage. You sprout a demonic tail that can be used as a
+      natural weapon, dealing 1d6 piercing damage and 1d6 poison damage.
+      </p><p>If you already have resistance to fire or lightning or damage, you
+      gain immunity to the damage type.</p>
+    chat: ''
+  identifier: boon-of-demonic-transformation
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: supernaturalGift
+    subtype: epicBoon
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: '"Boon" of Demonic Transformation'
+    img: icons/creatures/unholy/demon-fanged-horned-yellow.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.cN0tlzCgYaYEW5rN
+    _id: U6u9B4dyM5dFGTku
+    type: base
+    system: {}
+    changes:
+      - key: system.details.type.value
+        mode: 2
+        value: fiend
+        priority: null
+      - key: system.details.type.subtype
+        mode: 2
+        value: demon
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732305286037
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!cN0tlzCgYaYEW5rN.U6u9B4dyM5dFGTku'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732295924794
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!cN0tlzCgYaYEW5rN'

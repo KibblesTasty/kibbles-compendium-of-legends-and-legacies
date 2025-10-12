@@ -3,19 +3,6 @@ type: feat
 img: icons/weapons/axes/axe-battle-orange.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
 system:
   description:
@@ -46,6 +33,8 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items:
+      - tradition-of-the-shaman
   properties: []
   advancement:
     - type: ItemChoice
@@ -72,18 +61,16 @@ system:
 _stats:
   compendiumSource: Item.raAhUzpDTEK1DH8M
   duplicateSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.1.0
+  systemVersion: 5.1.9
   createdTime: 1727317513617
-  modifiedTime: 1755112360824
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 68200000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: eGb8sFwb4XmUpwhm
 _key: '!items!eGb8sFwb4XmUpwhm'

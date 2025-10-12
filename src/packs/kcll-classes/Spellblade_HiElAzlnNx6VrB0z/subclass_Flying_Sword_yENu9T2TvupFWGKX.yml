@@ -1,0 +1,195 @@
+folder: HiElAzlnNx6VrB0z
+name: Flying Sword
+type: subclass
+_id: yENu9T2TvupFWGKX
+img: icons/weapons/swords/sword-broad-serrated-blue.webp
+system:
+  description:
+    value: >-
+      <p>As a Flying Sword Spellblade, you master the art of the floating blade,
+      separating your willpower from your physical body. Your sword is not just
+      a weapon, but an extension of your mind and a manifestation of your arcane
+      prowess.</p><p>Born out of a deep understanding of telekinesis and arcane
+      manipulation, your technique combines mental acuity with martial mastery.
+      Whether a reclusive hermit who honed this art in the solitude of your own
+      thoughts, or a prodigy who has broken the conventional boundaries of
+      weapon use, your chosen path is an unorthodox mix of intellect and combat
+      prowess.</p>
+    chat: ''
+  identifier: flying-sword
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: QqPG14IeiUWrgbTl
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0Qwrn41Nvnp0EGwg
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CfZxW6K8soohSRUW
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tpHAyLJ9h0jeAY7S
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.laPXwhPw3q1CvMKD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: jEbDfQsSSVPNOYXM
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UtIHA2xFQ1GsnNOp
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: xtIOOxO9NeWB609o
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XZJuZge2Z5Fy9E1h
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: ryzn1kkXgetMx92F
+    - _id: gIL4d7Lxg2K87zYA
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.ZrTc23tToJ0JpH2h
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Flying Sword Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.s2Nft5d4ld1wzBzs
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Flying Sword Spells
+      hint: ''
+      _id: F4K12b9N4eo5aAfg
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Flying Sword Spells
+      hint: ''
+      _id: raCktb92ylmrWKYj
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.g5ss8CJwcbc0nAUd
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Flying Sword Spells
+      hint: ''
+      _id: 4aACusHhMfVavXtF
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Flying Sword Spells
+      hint: ''
+      _id: BurPI3NrOPE5L0lk
+  classIdentifier: spellblade
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1729046014570
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!yENu9T2TvupFWGKX'

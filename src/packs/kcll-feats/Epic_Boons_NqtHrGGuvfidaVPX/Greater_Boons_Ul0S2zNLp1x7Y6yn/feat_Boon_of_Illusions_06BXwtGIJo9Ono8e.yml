@@ -1,0 +1,94 @@
+folder: Ul0S2zNLp1x7Y6yn
+name: Boon of Illusions
+type: feat
+_id: 06BXwtGIJo9Ono8e
+img: icons/magic/air/air-burst-spiral-teal-green.webp
+system:
+  activities:
+    knfPJNhasQPNv4wg:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.BrBZdCCrJRIVg7YX
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties: []
+        spellbook: true
+      _id: knfPJNhasQPNv4wg
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You can cast
+      @UUID[Compendium.dnd5e.spells.Item.BrBZdCCrJRIVg7YX]{silent image} at will
+      without expending a spell slot. Additionally, you can see through all
+      illusions, seeing them for what they are.</p>
+    chat: ''
+  identifier: boon-of-illusions
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: supernaturalGift
+    subtype: epicBoon
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732296333871
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!06BXwtGIJo9Ono8e'

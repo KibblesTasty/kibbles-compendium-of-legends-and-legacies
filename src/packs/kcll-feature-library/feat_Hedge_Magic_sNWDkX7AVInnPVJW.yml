@@ -3,19 +3,6 @@ type: feat
 img: icons/magic/nature/beam-hand-leaves-green.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
 system:
   description:
@@ -43,22 +30,23 @@ system:
   enchant: {}
   prerequisites:
     level: 2
+    items:
+      - tradition-of-the-hedge-mage
+    repeatable: true
   properties: []
 _stats:
   compendiumSource: Item.xEsq7X33iVmPp5IR
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317523155
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 83700000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: sNWDkX7AVInnPVJW
 _key: '!items!sNWDkX7AVInnPVJW'

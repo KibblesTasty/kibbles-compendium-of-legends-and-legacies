@@ -1,0 +1,131 @@
+folder: HUaII7dx2BNLZrSg
+name: Astral Guardian
+type: subclass
+_id: AIfmpvacD6v8jKxn
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+system:
+  description:
+    value: >-
+      <p>Embarking on a path less traveled, the Astral Guardian Warden
+      transcends the earthly plane and draws from the power of the infinite
+      planes. Touched by the enigmatic forces of space and energy, they embody
+      the mystery of the universe, controlling spatial distortions and
+      manipulating celestial energies.</p>
+    chat: ''
+  identifier: astral-guardian
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: Fh23lYzDsZXt9Lg9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0mW36cxg5yStSfaJ
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sgSzJXCLsqOaYw9c
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wg7SrWSKlsFAqr7A
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warden Bond Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.oeBksrXcESwK0xHo
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NRTEsrHamtrQ52eS
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warden Bond Feature
+      hint: ''
+      _id: ylN6qWZ6DJlrRY2R
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.swF9WPzqrn0ceqTp
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.iXiQCbVjgOY08vRD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warden Bond Feature
+      hint: ''
+      _id: Pgp2frzuM817lFmD
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BK89qQmuSBsyXQ3n
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Warden Bond Feature
+      hint: ''
+      _id: 1uanZ27fiiONi6A5
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yVoV87XFAy7ZUY2T
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Warden Bond Feature
+      hint: ''
+      _id: Q6BObpQhf3saFXtG
+    - _id: xGj7JraL3rZn4mvX
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:force
+        choices: []
+      value:
+        chosen: []
+      level: 7
+      title: Dimensional Guardian
+      hint: ''
+  classIdentifier: warden
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729046501001
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!AIfmpvacD6v8jKxn'

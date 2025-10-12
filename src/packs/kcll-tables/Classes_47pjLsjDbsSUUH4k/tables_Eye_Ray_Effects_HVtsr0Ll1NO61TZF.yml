@@ -1,0 +1,167 @@
+folder: 47pjLsjDbsSUUH4k
+name: Eye Ray Effects
+_id: HVtsr0Ll1NO61TZF
+img: icons/magic/perception/eye-winged-pink.webp
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: o3FhtvKwZZz56Aa0
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: 1747943694045
+      lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      The targeted creature must make a Wisdom saving throw or become
+      &amp;Reference[frightened] of you until the start of your next turn.
+    name: Fear Ray
+    _key: '!tables.results!HVtsr0Ll1NO61TZF.o3FhtvKwZZz56Aa0'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: NesmTespvVIYqijh
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: 1747943694045
+      lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      The target creature must make a Strength saving throw or be moved 10 feet
+      in a direction of your choice.
+    name: Telekinetic Ray
+    _key: '!tables.results!HVtsr0Ll1NO61TZF.NesmTespvVIYqijh'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: ih9EsZjx3mblCxrU
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: 1747943694045
+      lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: The target’s movement speed is halved until the start of your next turn.
+    name: Slowing Ray
+    _key: '!tables.results!HVtsr0Ll1NO61TZF.ih9EsZjx3mblCxrU'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: Aqsw6UjAR73bQZJC
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: 1747943694045
+      lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      The target must succeed a Constitution saving throw or be affected by the
+      @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{Slow} spell until the
+      start of your next turn.
+    name: Petrification Ray
+    _key: '!tables.results!HVtsr0Ll1NO61TZF.Aqsw6UjAR73bQZJC'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: pSNQVOtovcyXY3m7
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: 1747943694045
+      lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      The target must succeed a Constitution saving throw or take 1d8 + your
+      Charisma modifier necrotic damage.
+    name: Enervation Ray
+    _key: '!tables.results!HVtsr0Ll1NO61TZF.pSNQVOtovcyXY3m7'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: nSE6jjh00l89lRjQ
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: 1747943694045
+      lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      The target must succeed a Constitution saving throw or take 1d10 + your
+      Charisma modifier force damage.
+    name: Disintegration Ray
+    _key: '!tables.results!HVtsr0Ll1NO61TZF.nSE6jjh00l89lRjQ'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732142156105
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+formula: 1d6
+_key: '!tables!HVtsr0Ll1NO61TZF'

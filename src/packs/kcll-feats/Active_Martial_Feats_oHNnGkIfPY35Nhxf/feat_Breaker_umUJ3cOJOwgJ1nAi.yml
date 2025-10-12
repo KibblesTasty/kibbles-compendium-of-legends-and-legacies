@@ -1,0 +1,256 @@
+folder: oHNnGkIfPY35Nhxf
+name: Breaker
+type: feat
+_id: umUJ3cOJOwgJ1nAi
+img: icons/skills/wounds/bone-broken-marrow-yellow.webp
+system:
+  activities:
+    bbEjztFty1EUO8xT:
+      type: damage
+      _id: bbEjztFty1EUO8xT
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @abilities.str.mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    w8jaFH8jQ8S3J3eB:
+      type: save
+      _id: w8jaFH8jQ8S3J3eB
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: ''
+          formula: '10'
+      name: Deny Spell
+      img: ''
+      appliedEffects: []
+    KmeCYEihWTktBHps:
+      type: save
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: str
+          formula: '10'
+      name: End Injury
+      _id: KmeCYEihWTktBHps
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You master the breaking of any creature within your grasp. You gain the
+      following benefits:</p><ul><li><strong>Ability Score Increase.</strong>
+      Increase your Strength or Constitution score by 1, to a maximum of
+      20.</li><li><strong>Punishing Blows.</strong> You have advantage on attack
+      rolls against a creature you are grappling.</li><li>Gain the Merciless
+      Break special attack (below)</li></ul><h5 id="merciless-break">Merciless
+      Break</h5><p><em>Active Ability (Attack)</em></p><p>When you take the
+      Attack action on your turn, you can replace one of your attacks to inflict
+      a debilitating injury on a creature you are grappling.</p><p>The creature
+      takes 2d6 + your Strength modifier bludgeoning damage and suffers an
+      injury for 1 minute. The number of d6 increases by one when your
+      proficiency bonus increases (with the total number of d6 equaling your
+      proficiency bonus). While suffering from this injury, the creature
+      subtracts 1d6 from attack rolls and ability checks, and must pass a DC 10
+      Constitution saving throw to successfully cast a spell.</p><p>The target
+      creature makes a Constitution saving throw at the end of each of their
+      turns, ending the effect of the injury on a success. A creature can spend
+      their action treating their injury to automatically pass the saving throw.
+      Once you use this feature, you cannot use it again until you complete a
+      short or long rest.</p>
+    chat: ''
+  identifier: breaker
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties: []
+  requirements: ''
+  advancement:
+    - _id: AN68BzrjHhPaStms
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729046672813
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!umUJ3cOJOwgJ1nAi'

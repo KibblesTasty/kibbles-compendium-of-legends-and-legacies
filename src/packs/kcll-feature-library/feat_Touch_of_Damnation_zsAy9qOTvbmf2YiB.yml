@@ -3,58 +3,6 @@ type: feat
 img: icons/magic/unholy/strike-hand-glow-pink.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      type: Boolean
-      value: true
-      altValue: true
-    quickAttack:
-      type: Boolean
-      value: true
-      altValue: true
-    quickSave:
-      type: Boolean
-      value: true
-      altValue: true
-    quickDamage:
-      type: Array
-      value:
-        '0': true
-      altValue:
-        '0': true
-      context:
-        '0': ''
-    quickProperties:
-      type: Boolean
-      value: true
-      altValue: true
-    quickCharges:
-      type: Boolean
-      value:
-        use: true
-        resource: true
-        charge: true
-      altValue:
-        use: true
-        resource: true
-        charge: true
-    quickTemplate:
-      type: Boolean
-      value: true
-      altValue: true
-    quickOther:
-      type: Boolean
-      value: true
-      altValue: true
-      context: Debuff
-    quickFlavor:
-      type: Boolean
-      value: true
-      altValue: true
-    quickPrompt:
-      type: Boolean
-      value: false
-      altValue: false
   core: {}
   dnd5e:
     riders:
@@ -204,8 +152,8 @@ _stats:
   systemVersion: 4.1.1
   coreVersion: '13.344'
   createdTime: 1678741869477
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   compendiumSource: Item.ov79oln7Pa4C1iBj
   duplicateSource: null
   exportSource: null
@@ -213,6 +161,5 @@ folder: null
 sort: 91500000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
 _id: zsAy9qOTvbmf2YiB
 _key: '!items!zsAy9qOTvbmf2YiB'

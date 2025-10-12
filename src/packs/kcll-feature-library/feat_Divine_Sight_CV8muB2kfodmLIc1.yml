@@ -3,19 +3,6 @@ type: feat
 img: icons/creatures/eyes/humanoid-single-blind.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
 system:
   description:
@@ -44,22 +31,22 @@ system:
   enchant: {}
   prerequisites:
     level: 15
+    items:
+      - tradition-of-the-oracle
   properties: []
 _stats:
   compendiumSource: Item.KuYX77EOB8wJsr3Z
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317494673
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 39800000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: CV8muB2kfodmLIc1
 _key: '!items!CV8muB2kfodmLIc1'

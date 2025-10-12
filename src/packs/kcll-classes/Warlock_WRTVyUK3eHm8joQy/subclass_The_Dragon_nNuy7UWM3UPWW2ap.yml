@@ -1,0 +1,171 @@
+folder: WRTVyUK3eHm8joQy
+name: The Dragon
+type: subclass
+_id: nNuy7UWM3UPWW2ap
+img: icons/creatures/reptiles/dragon-horned-blue.webp
+system:
+  description:
+    value: >-
+      <p>You’ve made a pact with a mighty dragon, who has bestowed you with a
+      fraction of its terrifying power. The details of the arrangement varies
+      widely—a metallic dragon may have made the pact to create a force of good
+      or save a life, a chromatic dragon may have made their pact with you in
+      exchange for service... or part of some manipulative plan that the minds
+      of lesser mortals would struggle to comprehend.</p><p>Most often, these
+      bonds are granted by ancient dragons steeped in immense power and
+      knowledge, but sometimes partnerships of the lesser mortals and younger
+      dragons have been recorded in more unique cases.</p><h5>Dragon Expanded
+      Spells</h5><p>The Dragon lets you choose from an expanded list of spells
+      when you learn a Warlock spell. The following spells are added to the
+      Warlock spell list for you.</p><table><thead><tr><th>Spell
+      Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.akewLhjVIzM5NDYF]{Aldricor’s
+      elemental rebuke},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.AcB57Bk8aRCQatZC]{elemental
+      orb}</td></tr><tr><td>2nd</td><td>@UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alter
+      self},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.xhZvDpzDLxRk9jog]{elemental
+      exhalation}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.qu7uHTfscuTuXC8x]{meteor
+      jump}, @UUID[Compendium.dnd5e.spells.Item.ew6GA8dJy2spQmFW]{wind
+      wall}</td></tr><tr><td>4th</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{fire
+      shield}, @UUID[Compendium.dnd5e.spells.Item.8sgwRh8NUNkn9Vi0]{secret
+      chest}</td></tr><tr><td>5th</td><td>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.hbrArEjwGETB66hX]{tornado},
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.oVGBZzoCTRRtbq1V]{summon
+      dragon}</td></tr></tbody></table><h5>Additional Invocations</h5><p>The
+      following are some eldritch invocations you can select for this
+      patron.</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.b5qQ5clBUG7viFWs]{Draconic
+      Companion}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lj09C5vvAJ9FCpkG]{Dragon
+      Claws}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.t3jtqZUxkZlSsSbg]{Dragon
+      Wings}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.QVLC03fG5psTtJFM]{Elemental
+      Magic}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2jfqBvz4mf1CZJeE]{True
+      Dragon Form}</p><hr /><p>The following are some optional quirks for a
+      player of this Otherworldly Patron to choose
+      from.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.8IvkYvw7pJpp3NKi
+      rollable]</p>
+    chat: ''
+  identifier: the-dragon
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: ffvwBfEnlYIcP40n
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Ci41iB7YZZgw6dTu
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Otherworldly Patron Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.k44FFCtweKsRs532
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: ta0ZUGPw1ah8iTfI
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jvN7DWeVRfAtFzcV
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: HuvjdTlxCWgn5pV2
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.e6xpii7QFIOqo4I8
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Otherworldly Patron Feature
+      hint: ''
+      _id: DwL4PqZNv05vHXJz
+    - _id: hAelaUNphawtdgz5
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - dr:acid
+              - dr:cold
+              - dr:fire
+              - dr:lightning
+              - dr:poison
+      value:
+        chosen: []
+      level: 10
+      title: Elemental Resistance
+      hint: >-
+        Additionally at 10th level, you gain resistance to the damage type
+        selected for your Draconic Blast.
+    - _id: 9YzJVDCN7iZwbVBY
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 1
+            faces: 8
+            modifiers: []
+          '5':
+            number: 2
+            faces: 8
+            modifiers: []
+          '11':
+            number: 3
+            faces: 8
+            modifiers: []
+          '17':
+            number: 4
+            faces: 8
+            modifiers: []
+      value: {}
+      title: Blast Damage
+      hint: ''
+  classIdentifier: warlock
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1729041633658
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!nNuy7UWM3UPWW2ap'

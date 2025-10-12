@@ -1,0 +1,152 @@
+folder: HUaII7dx2BNLZrSg
+name: Elemental Soul
+type: subclass
+_id: WkjHKL2NxIWT6Sfb
+img: icons/magic/fire/explosion-flame-lightning-strike.webp
+system:
+  description:
+    value: >-
+      <p>Tapping into the endless power of the elemental planes, these Wardens
+      shroud themselves in harsh primal forces, destroying their foes with their
+      very presence.</p>
+    chat: ''
+  identifier: elemental-soul
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: Fh23lYzDsZXt9Lg9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.78Xv2Z1M6Ksue0hl
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zft6jjDg8IyGxFih
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.kGOVdch1PbxQvX33
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warden Bond Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UlE7HxcLMIWKmezC
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.y21zQXP1mMdF4CBM
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warden Bond Feature
+      hint: ''
+      _id: ylN6qWZ6DJlrRY2R
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.02o3zluq489BJ8P6
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.prJX1BNfYJJArdBa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warden Bond Feature
+      hint: ''
+      _id: Pgp2frzuM817lFmD
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7CKq2uLKK39DOfHp
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Warden Bond Feature
+      hint: ''
+      _id: 1uanZ27fiiONi6A5
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.23zvIkkzG3Zu7Q6V
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Warden Bond Feature
+      hint: ''
+      _id: Q6BObpQhf3saFXtG
+    - _id: ZnaviuDdG68TkqF4
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - dr:cold
+              - dr:fire
+              - dr:lightning
+      value:
+        chosen: []
+      level: 7
+      title: Elemental Body
+      hint: |-
+        Starting at 7th level, you gain resistance to your
+        choice of cold, fire, or lightning damage. When you
+        complete a long rest, you can change which damage
+        type you resist.
+    - _id: DExZ0EHt3GvGXd4W
+      type: ScaleValue
+      configuration:
+        identifier: ei-damage-dice
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 1
+          '11':
+            value: 2
+      value: {}
+      title: Elemental Interdiction Damage Dice
+      hint: ''
+  classIdentifier: warden
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729046408384
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!WkjHKL2NxIWT6Sfb'

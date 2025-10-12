@@ -1,0 +1,131 @@
+folder: HUaII7dx2BNLZrSg
+name: Dreadwing
+type: subclass
+_id: UagFv2pSVY81u1RD
+img: icons/creatures/reptiles/dragon-horned-blue.webp
+system:
+  description:
+    value: >-
+      <p>The Dreadwing Warden utilizes and ancient bond that taps into the
+      deeply rooted primal powers that flow within dragonkind. United with the
+      essence of these legendary beings, they embody the draconic virtues of
+      strength, elemental fury, and fear. These Wardens wield the might and
+      majesty of dragons to dominate the battlefield, leaving all that would
+      oppose them in terrified awe of their power.</p>
+    chat: ''
+  identifier: dreadwing
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: Fh23lYzDsZXt9Lg9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TRop9LKdiSLg1uCz
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lYRB0SoJdUcFMlaQ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warden Bond Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VItBSDBosuJibUgB
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Xkbwd0cG3uisva2G
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warden Bond Feature
+      hint: ''
+      _id: ylN6qWZ6DJlrRY2R
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hCyN3tGqEesnRmhx
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Warden Bond Feature
+      hint: ''
+      _id: Pgp2frzuM817lFmD
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YM9vVRWNnwiki3eF
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Warden Bond Feature
+      hint: ''
+      _id: 1uanZ27fiiONi6A5
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.kDi1YnxoWP35fJ1h
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Warden Bond Feature
+      hint: ''
+      _id: Q6BObpQhf3saFXtG
+    - _id: S3eAk7GXcpIojXOz
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:itm
+          - languages:exotic:draconic
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Dragon's Presence
+      hint: |-
+        At 1st level, you learn the draconic language, and gain
+        the ability to channel a fragment of the supernatural
+        dread of dragonkind possess, giving you proficiency
+        in the Intimidation skill.
+  classIdentifier: warden
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729046485052
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!UagFv2pSVY81u1RD'

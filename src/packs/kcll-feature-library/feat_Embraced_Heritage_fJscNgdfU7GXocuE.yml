@@ -32,8 +32,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732126441246
-      modifiedTime: 1732126452497
-      lastModifiedBy: pJeIW7qCa0HkURWq
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!fJscNgdfU7GXocuE.ZLv8xN3q0NRTiTOz'
   - name: Eyes of the Fiend
@@ -66,8 +66,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732126441593
-      modifiedTime: 1732126463428
-      lastModifiedBy: pJeIW7qCa0HkURWq
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!fJscNgdfU7GXocuE.cOdnLVOVCIVuVxpU'
   - name: Skin of the Fiend
@@ -104,60 +104,11 @@ effects:
       systemId: dnd5e
       systemVersion: 4.1.1
       createdTime: 1732126442243
-      modifiedTime: 1732126481784
-      lastModifiedBy: pJeIW7qCa0HkURWq
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!fJscNgdfU7GXocuE.9wqXKEscRatjGR78'
 flags:
-  betterRolls5e:
-    quickDesc:
-      type: Boolean
-      value: true
-      altValue: true
-    quickAttack:
-      type: Boolean
-      value: true
-      altValue: true
-    quickSave:
-      type: Boolean
-      value: true
-      altValue: true
-    quickDamage:
-      type: Array
-      value: []
-      altValue: []
-      context: []
-    quickProperties:
-      type: Boolean
-      value: true
-      altValue: true
-    quickCharges:
-      type: Boolean
-      value:
-        use: true
-        resource: true
-        charge: true
-      altValue:
-        use: true
-        resource: true
-        charge: true
-    quickTemplate:
-      type: Boolean
-      value: true
-      altValue: true
-    quickOther:
-      type: Boolean
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      type: Boolean
-      value: true
-      altValue: true
-    quickPrompt:
-      type: Boolean
-      value: false
-      altValue: false
   core: {}
   dnd5e:
     riders:
@@ -265,14 +216,12 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317514525
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 69600000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: fJscNgdfU7GXocuE
 _key: '!items!fJscNgdfU7GXocuE'

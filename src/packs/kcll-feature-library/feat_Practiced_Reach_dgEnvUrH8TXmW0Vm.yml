@@ -3,19 +3,6 @@ type: feat
 img: icons/magic/light/projectile-beam-yellow.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
 system:
   description:
@@ -42,22 +29,22 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items:
+      - tradition-of-the-hedge-mage
   properties: []
 _stats:
   compendiumSource: Item.rDm8JqOOMj1eH3hU
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317513172
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 67500000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: dgEnvUrH8TXmW0Vm
 _key: '!items!dgEnvUrH8TXmW0Vm'

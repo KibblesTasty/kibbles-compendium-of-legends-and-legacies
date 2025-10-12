@@ -3,19 +3,6 @@ type: feat
 img: icons/magic/defensive/shield-barrier-deflect-teal.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
   dnd5e:
     riders:
@@ -98,22 +85,22 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items:
+      - tradition-of-the-shaman
   properties: []
 _stats:
   compendiumSource: Item.dGhTYpeby4XMNKQP
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317512375
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 66300000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: cWiJuEChEKzMNE1f
 _key: '!items!cWiJuEChEKzMNE1f'

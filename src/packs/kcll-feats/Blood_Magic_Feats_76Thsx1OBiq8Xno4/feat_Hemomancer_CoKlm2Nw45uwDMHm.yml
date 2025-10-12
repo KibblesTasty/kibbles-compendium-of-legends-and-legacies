@@ -1,0 +1,125 @@
+folder: 76Thsx1OBiq8Xno4
+name: Hemomancer
+type: feat
+_id: CoKlm2Nw45uwDMHm
+img: icons/magic/unholy/strike-beam-blood-red-blue.webp
+system:
+  activities:
+    SufRie5ywyJYxRQp:
+      type: damage
+      _id: SufRie5ywyJYxRQp
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: 5 * @scaling
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@details.level'
+  description:
+    value: >-
+      <p>You can sacrifice your essence to cast spells with the "(blood magic)"
+      tag in place of expending a spell slot. To do so, sacrifice 5 hit points
+      per level of the spell. These hit points sacrificed can count towards the
+      hit point cost of the blood Material component of the spell.</p><p>You can
+      cast a total number of spell levels in this manner equal to your character
+      level, but casting a spell of 6th level or higher this way drains your
+      vitality in a more profound way, causing you to gain levels of exhaustion
+      equal to the number of levels over 5th the spell is (1 level for a
+      6th-level spell, 2 for a 7th-level spell, etc.).</p><p>You cannot cast
+      spells over 5th level this way while you have any levels of exhaustion.
+      The total number of spell levels you can cast in this manner resets when
+      you take a long rest.</p>
+    chat: ''
+  identifier: hemomancer
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Spellcasting or Pact Magic Feature
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1730492248634
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!CoKlm2Nw45uwDMHm'

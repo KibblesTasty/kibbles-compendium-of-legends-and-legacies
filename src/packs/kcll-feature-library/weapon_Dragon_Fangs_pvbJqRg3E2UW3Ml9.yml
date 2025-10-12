@@ -3,54 +3,6 @@ type: weapon
 img: icons/creatures/abilities/mouth-teeth-fire-orange.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: false
-      altValue: false
-    quickProperties:
-      value: true
-      altValue: true
-    quickVersatile:
-      value: false
-      altValue: false
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickAttack:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
-  rsr5e:
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-    quickOther:
-      context: ''
-    quickDesc:
-      value: false
-    quickFooter:
-      value: true
-    quickAttack:
-      value: true
-    consumeQuantity:
-      value: false
   core: {}
   dnd5e:
     riders:
@@ -203,14 +155,12 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.1
   createdTime: 1727317522023
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 82000000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: pvbJqRg3E2UW3Ml9
 _key: '!items!pvbJqRg3E2UW3Ml9'

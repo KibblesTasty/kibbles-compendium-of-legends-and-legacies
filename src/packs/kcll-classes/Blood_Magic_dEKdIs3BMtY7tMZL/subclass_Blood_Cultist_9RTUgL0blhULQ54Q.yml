@@ -1,0 +1,238 @@
+folder: dEKdIs3BMtY7tMZL
+name: Blood Cultist
+type: subclass
+_id: 9RTUgL0blhULQ54Q
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  description:
+    value: >-
+      <p>The dark tradition of a Blood Cultist is one that seeks power at any
+      cost. They are those prepared to give up everything for power, dedicated
+      themselves to mysterious rituals, forbidden techniques, and whispered
+      taboos in order to grasp hold of ancient and terrible powers. Masters of
+      sacrifice, blood magic, and willing to cast aside their humanity (or
+      relevant equivalent!), they are driven beyond what most would consider
+      rational, natural, or even possible on their eternal quest to go beyond
+      the limiting walls of mortality to find new dark powers.</p><h5>Cultist
+      Specific
+      Rites</h5><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AHCldxV5Gdn7AJ52]{Abandoned
+      Humanity}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dGFIQ7K6E312hi3W]{Blood
+      Leeching}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.6mTPshLaJVkjF8um]{Boon
+      Seeker}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZeTQXiDRzEgetdil]{Cultist's
+      Touch}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.uRKC4ZrFtx5oxDzQ]{Demon
+      Within}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CAF8CTBBTEl5Lc9t]{Empowered
+      Blood
+      Magic}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ktGnOFcMB15kI7Of]{Sacrificial
+      Absolution}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5iSjBLtYCQ6hgsx1]{Unholy
+      Gift}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jM5BAOW3etgIikIF]{Wretched
+      Resilience}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9kzBGNPdQivJdrMw]{Zealous
+      Conviction}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.U0JeCsVuKdkIZixC]{Zealous
+      Dedication}</p><p></p><blockquote><h5>Unusual Resources</h5><p>Cultists
+      are a unique type of full caster. They sacrifice the majority of their
+      spell slots to empower themselves, which would normally leave them with
+      little room to cast spells, but make up for that shortcoming through being
+      able to more freely sacrifice their own hit points through Blood
+      Magic.</p><h5>Variable Casting Stat</h5><p>There’s a reasonable argument
+      for Intelligence, Wisdom, or Charisma as a casting stat for the Cultist
+      subclass. It’s perfectly fine if you allow them to use any casting stat,
+      but it’s recommended to disallow multiclassing if allowing them to select
+      casting stats other than Wisdom.</p></blockquote>
+    chat: ''
+  identifier: blood-cultist
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: jeAJoF134uFuxJcb
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4i59mhw4J4jgMyAP
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.epHkCwimMBPHfGL3
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Occult Tradition Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.C07iQjPbWyLJ8Kun
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.CoKlm2Nw45uwDMHm
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Occult Tradition Feature
+      hint: ''
+      _id: otPeILSuqhNKdWzt
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CmfNeJpULWO9ZpIt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Occult Tradition Feature
+      hint: ''
+      _id: cXyoj28oZANppksh
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.BvSQPgk8r6Ut61dA
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Occult Tradition Feature
+      hint: ''
+      _id: Iy2K9U5ifv6fLxBR
+    - _id: qVDsw4blFTqyqSLK
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.9GgLfzH08fhCb47o
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.bJ1J7xiKmxmGjp5s
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Z8zyFokc1Uicvm8P
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 1
+      title: Blood Casting
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Ywbrg3zSxTTGIjqY
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.cSIG4ABQW9IIsmIM
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Blood Casting
+      hint: ''
+      _id: YQlTYcqmkbTdsUkg
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.hrp4QbFEhc6mZQQS
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.JYTzsnZp2sJtVcaq
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Blood Casting
+      hint: ''
+      _id: 7TZC6qaw0RQ6Ijn3
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.zJDJ3CwnwLWhUb0r
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.u0TkV2eL0NRHHL3E
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Blood Casting
+      hint: ''
+      _id: fzVo6VEGHFALt2xt
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.pZaYJykZeb9YkpRv
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.kBeMDWIQ50fx6ALn
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Blood Casting
+      hint: ''
+      _id: L7n4bwB9wejXBewH
+  classIdentifier: occultist
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1729045744644
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!9RTUgL0blhULQ54Q'

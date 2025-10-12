@@ -1,0 +1,203 @@
+folder: HiElAzlnNx6VrB0z
+name: Guardian
+type: subclass
+_id: x88Hpp6EeshsAoVk
+img: icons/equipment/head/helm-sallet-worn.webp
+system:
+  description:
+    value: >-
+      <p>Specializing in defending their allies, spell blades following this
+      technique make broad use of abjuration and self-enhancing magics, often
+      specializing more toward their physical skills. They place themselves at
+      the front of combat, but are a highly mobile line of defense.</p>
+    chat: ''
+  identifier: guardian
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: QqPG14IeiUWrgbTl
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EXOrquFj38ywafhO
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.OL87MPYKAcN6dTg7
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Pr6PMT18IxGqViGe
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Specialization Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KuFAepwWZQcDYx8y
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Specialization Feature
+      hint: ''
+      _id: jEbDfQsSSVPNOYXM
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.n6TeDkRJBhKvlQrZ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Specialization Feature
+      hint: ''
+      _id: xtIOOxO9NeWB609o
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MP5jBU6ld8T3sQgh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Specialization Feature
+      hint: ''
+      _id: ryzn1kkXgetMx92F
+    - _id: bDhoonVaOQElqgwb
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.JVhKeanAXZH62DrF
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Guardian Spellblade Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.hJhqF63LIPLsrR4Z
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Guardian Spellblade Spells
+      hint: ''
+      _id: wO2m966H6V0qiWa3
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Guardian Spellblade Spells
+      hint: ''
+      _id: mfrvSoRvMfuYhh2A
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.1ADstb0Xec6HHRcU
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Guardian Spellblade Spells
+      hint: ''
+      _id: jl3EWlBxACQxM6Bf
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Guardian Spellblade Spells
+      hint: ''
+      _id: OY5qbXfYGO7b3aeM
+    - _id: wWzN93WkA941f7yF
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:hvy
+          - armor:shl
+        choices: []
+      value:
+        chosen: []
+      level: 3
+      title: Guardian Proficiency
+      hint: ''
+  classIdentifier: spellblade
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1729045963215
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!x88Hpp6EeshsAoVk'

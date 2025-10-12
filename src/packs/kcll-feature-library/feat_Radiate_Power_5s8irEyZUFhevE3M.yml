@@ -3,19 +3,6 @@ type: feat
 img: icons/creatures/abilities/cougar-roar-rush-orange.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
   core: {}
   dnd5e:
     riders:
@@ -117,22 +104,22 @@ system:
   enchant: {}
   prerequisites:
     level: 15
+    items:
+      - tradition-of-the-shaman
   properties: []
 _stats:
   compendiumSource: Item.lLwq2JDuKkuOywEt
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317489171
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 folder: null
 sort: 31600000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 _id: 5s8irEyZUFhevE3M
 _key: '!items!5s8irEyZUFhevE3M'

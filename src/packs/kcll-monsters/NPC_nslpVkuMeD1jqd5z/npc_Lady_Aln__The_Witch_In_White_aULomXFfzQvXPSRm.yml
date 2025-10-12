@@ -1,0 +1,5395 @@
+name: Lady Aln, The Witch In White
+type: npc
+folder: nslpVkuMeD1jqd5z
+_id: aULomXFfzQvXPSRm
+img: >-
+  modules/kibbles-compendium-of-legends-and-legacies/assets/Character%20Tokens/WhiteCovenWitch.png
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 12
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 19
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 22
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 19
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    psi:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 4
+      override: 4
+    spell2:
+      value: 3
+      override: 3
+    spell3:
+      value: 3
+      override: 3
+    spell4:
+      value: 3
+      override: 3
+    spell5:
+      value: 3
+      override: 3
+    spell6:
+      value: 1
+      override: 1
+    spell7:
+      value: 1
+      override: 1
+    spell8:
+      value: 1
+      override: 1
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: 120
+      units: null
+      special: ''
+    spellcasting: wis
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 18
+      calc: flat
+    hd:
+      spent: 0
+    hp:
+      value: 228
+      max: 228
+      temp: 0
+      tempmax: 0
+      formula: 24d8 + 120
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Neutral Good
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+      subtype: Human
+    environment: ''
+    cr: 17
+    spellLevel: 18
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 3
+      max: 3
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Flee, Mortals!
+    custom: XP
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value:
+        - cold
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+        - charmed
+        - frightened
+        - poisoned
+      custom: ''
+    languages:
+      value:
+        - celestial
+        - common
+        - elvish
+        - primordial
+        - sylvan
+      custom: ''
+prototypeToken:
+  name: Lady Aln, The Witch In White
+  displayName: 40
+  actorLink: true
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: >-
+      modules/kibbles-compendium-of-legends-and-legacies/assets/Character%20Tokens/WhiteCovenWitch.png
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: Multiattack
+    type: feat
+    system:
+      description:
+        value: >-
+          Lady Aln takes the Cast a Spell action and uses one other ability of
+          her choice.
+        chat: ''
+      activities:
+        rFZ4IWltBfFDYSgd:
+          _id: rFZ4IWltBfFDYSgd
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    _id: leXn1JahUW0p7TnT
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.leXn1JahUW0p7TnT'
+  - name: Cat Slap
+    type: weapon
+    system:
+      description:
+        value: >-
+          Lady Aln's familiar moves to the target and attacks it. Melee Weapon
+          Attack: +12 to hit, reach 15 ft. , one target. Hit: 28 (4d12) force
+          damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        nyikzRsW9c8dovaX:
+          _id: nyikzRsW9c8dovaX
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+            condition: ''
+          attack:
+            ability: wis
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: ''
+            bonus: ''
+          damage:
+            includeBase: false
+            parts:
+              - custom:
+                  enabled: true
+                  formula: '1'
+                number: 4
+                denomination: 12
+                bonus: ''
+                types:
+                  - slashing
+                scaling:
+                  number: 1
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 4
+                denomination: 12
+                bonus: ''
+                types:
+                  - force
+                scaling:
+                  number: 1
+            critical:
+              bonus: ''
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          name: ''
+      damage:
+        base:
+          number: 4
+          denomination: 12
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: true
+            formula: '1'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 15
+        units: ft
+        long: null
+        reach: null
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      identifier: cat-slap
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+      mastery: ''
+    img: icons/svg/sword.svg
+    _id: sn893iSlgcaMETGp
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.sn893iSlgcaMETGp'
+  - name: Binding Curse
+    type: feat
+    system:
+      description:
+        value: >-
+          One creature of Lady Aln's choice within 30 feet of her must a DC 20
+          Wisdom saving throw. On failure, its movement speed is reduced to 0
+          for 1 minute. It can repeat the save at the end of each of its turns,
+          ending the effect on success.
+        chat: ''
+      activities:
+        hAu8Le6yiqxXFdeO:
+          _id: hAu8Le6yiqxXFdeO
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: binding-curse
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/light/beam-deflect-path-yellow.webp
+    _id: NnwaNkrAmvhVcSZO
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.NnwaNkrAmvhVcSZO'
+  - name: Enfeebling Curse
+    type: feat
+    system:
+      description:
+        value: >-
+          One target of Lady Aln's choice within 30 feet of her must make a DC
+          20 Wisdom saving throw. On failure, it becomes enfeebled for 1 minute,
+          halving its movement speed and damage dealt. It can repeat the save at
+          the end of each of its turns, ending the effect on success.
+        chat: ''
+      activities:
+        vJOQVEohtp3XE7FU:
+          _id: vJOQVEohtp3XE7FU
+          type: save
+          activation:
+            type: action
+            value: 1
+            override: false
+          save:
+            ability:
+              - wis
+            dc:
+              formula: '20'
+              calculation: initial
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          damage:
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: enfeebling-curse
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+    _id: m6VPUdCYvfrSfi0k
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.m6VPUdCYvfrSfi0k'
+  - name: Karmic Curse
+    type: feat
+    system:
+      description:
+        value: >-
+          One target of Lady Aln's choice within 30 feet of her must a DC 20
+          Wisdom saving throw. On failure, any time it deals damage for the next
+          minute, it takes 11 (2d10) psychic damage. It can repeat the save at
+          the end of each of its turns, ending the effect on success.
+        chat: ''
+      activities:
+        A1vM7iDHkM6EeDW4:
+          _id: A1vM7iDHkM6EeDW4
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: karmic-curse
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/control/energy-stream-link-large-orange.webp
+    _id: Hwo0nRr7D9Oum9oL
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.Hwo0nRr7D9Oum9oL'
+  - name: Cast A Spell
+    type: feat
+    system:
+      description:
+        value: Lady Aln casts a spell from her spellcasting feature.
+        chat: ''
+      activities:
+        1XQNo4sBgpX54RnB:
+          _id: 1XQNo4sBgpX54RnB
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: cast-a-spell
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/light/hand-sparks-glow-yellow.webp
+    _id: C7bvRKjhQbCId9mt
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.C7bvRKjhQbCId9mt'
+  - name: Legendary Actions
+    type: feat
+    system:
+      description:
+        value: >-
+          Lady Aln can take 3 legendary actions, choosing from the options
+          below. Only one legendary action can be used at a time and only at the
+          end of another creature's turn. The Lady Aln regains spent legendary
+          actions at the start of its turn. If Lady Aln has any Ice Clones after
+          taking a Legendary Action, she can switch place with one them.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: legendary-actions
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: legendary
+    img: icons/magic/light/hand-sparks-glow-yellow.webp
+    _id: ZsZGdlQki7q5SgHj
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.ZsZGdlQki7q5SgHj'
+  - name: Teleport
+    type: feat
+    system:
+      description:
+        value: Lady Aln teleports up to 30 feet.
+        chat: ''
+      activities:
+        KqbM6Tiu7XXkBMnw:
+          _id: KqbM6Tiu7XXkBMnw
+          type: utility
+          activation:
+            type: legendary
+            value: 1
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: teleport
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+    _id: OYRUeIMaGF6BD77H
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.OYRUeIMaGF6BD77H'
+  - name: Frozen Domain
+    type: feat
+    system:
+      description:
+        value: >-
+          Lady Aln forces creatures (beside her and her familiar) within 30 feet
+          of her to make DC 20 Constitution saving throw or become restrained
+          until the end of her next turn.
+        chat: ''
+      activities:
+        lALdU07zGsQIVaIU:
+          _id: lALdU07zGsQIVaIU
+          type: utility
+          activation:
+            type: legendary
+            value: 2
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '2'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: frozen-domain
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: svVVq6QqGSvb5QK7
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.svVVq6QqGSvb5QK7'
+  - name: Cantrip
+    type: feat
+    system:
+      description:
+        value: Lady Aln casts a cantrip from her spellcasting feature.
+        chat: ''
+      activities:
+        zCHbhVnDwTvMR87J:
+          _id: zCHbhVnDwTvMR87J
+          type: utility
+          activation:
+            type: legendary
+            value: 1
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: cantrip
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/combat.svg
+    _id: DLllrQJisrdogKa0
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.DLllrQJisrdogKa0'
+  - name: Manipulate Fate
+    type: feat
+    img: icons/sundries/gaming/dice-pair-white-green.webp
+    system:
+      description:
+        value: >-
+          As a reaction to any character rolling a d20 for an attack roll,
+          saving throw, or ability check within 120 feet of her, Lady Aln can
+          force them to reroll with her choice of advantage or disadvantage.
+        chat: ''
+      activities:
+        ZDhFdi5FOKWB2VFM:
+          _id: ZDhFdi5FOKWB2VFM
+          type: utility
+          activation:
+            type: reaction
+            value: null
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: manipulate-fate
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: 3jr2yknCQNEE28Ul
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.3jr2yknCQNEE28Ul'
+  - name: Ice Clones
+    type: feat
+    system:
+      description:
+        value: >-
+          At the end of each of her turns, Lady Aln teleports to an empty space
+          within 30 feet, and creates 3 ice clones that also teleport to empty
+          spaces within 30 feet. The ice clones look identical to Lady Aln and
+          cannot be told apart from her, but cannot take any actions and have 1
+          hit point. If one of them is destroyed, it explodes, forcing creatures
+          within 5 feet to make Constitution saving throw, taking 9 (2d8) cold
+          damage and becoming restrained until the end of Lady Aln's next turn
+          on failure, or half as much damage and not restraining on success. Any
+          that remain at the start of her turn melt into harmless puddles.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ice-clones
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: xH7S62WZ6pgnj8RW
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.xH7S62WZ6pgnj8RW'
+  - name: Legendary Resistance
+    type: feat
+    system:
+      description:
+        value: If the breaker fails a saving throw, it can choose to succeed instead.
+        chat: ''
+      activities:
+        6LTHtNWYFR39JfO9:
+          _id: 6LTHtNWYFR39JfO9
+          type: utility
+          activation:
+            type: special
+            value: null
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legres.value
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          sort: 0
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+        w8BNIXpp8K4tdBka:
+          _id: w8BNIXpp8K4tdBka
+          type: utility
+          activation:
+            type: special
+            value: null
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        max: '3'
+        spent: 0
+        recovery: []
+      identifier: legendary-resistance
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/equipment/shield/kite-wooden-oak-glow.webp
+    _id: xWpFJ6oNW6dmDSPH
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.xWpFJ6oNW6dmDSPH'
+  - name: Magic Resistance
+    type: feat
+    system:
+      description:
+        value: >-
+          Lady Aln has advantage on saving throws against spells and other
+          magical effects.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: magic-resistance
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    _id: lm3Nt82zcfSUaEiv
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.lm3Nt82zcfSUaEiv'
+  - name: Malifax
+    type: feat
+    system:
+      description:
+        value: >-
+          Lady Aln has a cat familiar that acts on her turn. It functions as per
+          the find familiar spell. Its movement does not provoke opportunity
+          attacks, and if it dies from anything besides the Parting Gift
+          feature, it reappears in Lady Aln's space at the start of her next
+          turn.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: malifax
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: qt28J6k1xuUwCECS
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.qt28J6k1xuUwCECS'
+  - name: Parting Gift
+    type: feat
+    system:
+      description:
+        value: >-
+          The Lady Aln's spirit familiar sacrifices itself, teleporting to Lady
+          Aln and vanishing in a flash of blinding light. All creatures other
+          than Lady Aln within 120 feet of her must make a DC 20 Constitution
+          saving throw or be blinded until the end of the Lady Aln's next turn.
+          Lady Aln gains 100 temporary hit points and loses the Malifax trait
+          and Cat Slap action.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: parting-gift
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/svg/book.svg
+    _id: gw2XGPsmaEsT04G0
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.gw2XGPsmaEsT04G0'
+  - name: Spellcasting
+    type: feat
+    system:
+      description:
+        value: >-
+          Lady Aln is an 18th-level spellcaster. Her spellcasting ability is
+          Wisdom (spell save DC 20, +12 to hit with spell attacks). She has the
+          following spells known: <br />Cantrips (at will): Chill Touch,
+          Freezek, Light, Mage Hand, Ray Of Frost, Shocking Grasp<br />1st level
+          (4 slots): Cold Snapk, Detect Magic, Healing Word, Find Familiar,
+          Feather Fall, Karmic Reflectionk<br />2nd level (3 slots): Detect
+          Thoughts, Mirror Image, Misty Step<br />3rd level (3 slots): Bestow
+          Curse, Counterspell, Flash Freezek, Mass Healing Word, Fly<br />4th
+          level (3 slots): Banishment, Blight, Greater Invisibility<br />5th
+          level (3 slots): Cone Of Cold, Greater Restoration, Mass Cure
+          Wounds<br />6th level (1 slot): Blizzardk, Harm, Heal<br />7th level
+          (1 slot): Finger Of Death, Teleport<br />8th level (1 slot): Power
+          Word Stun<br />9th level (1 slot): True Polymorph (Favors Adult Silver
+          Dragon When Targeting Herself) Bloodied
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: ''
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    img: icons/magic/fire/explosion-embers-orange.webp
+    _id: fEO5i57n8vgpt0UP
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.fEO5i57n8vgpt0UP'
+  - _id: dOeEEVYiguHtthJL
+    name: Chill Touch
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You create a ghostly, skeletal hand in the space of a creature
+          within range. Make a ranged spell attack against the creature to
+          assail it with the chill of the grave. On a hit, the target takes 1d8
+          Necrotic damage, and it can't regain hit points until the start of
+          your next turn. Until then, the hand clings to the target.</p><p>If
+          you hit an undead target, it also has disadvantage on attack rolls
+          against you until the end of your next turn.</p><p>This spell's damage
+          increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and
+          17th level (4d8).</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: round
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '120'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 0
+      school: nec
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - necrotic
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: chill-touch
+    sort: 0
+    flags: {}
+    img: icons/magic/water/projectile-ice-faceted-blue.webp
+    effects: []
+    folder: Z8kZlnggh1PtuF3Y
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.dOeEEVYiguHtthJL'
+  - _id: gdb8ykT8B7gemaE5
+    name: Light
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You touch one object that is no larger than 10 feet in any
+          dimension. Until the spell ends, the object sheds bright light in a
+          20-foot radius and dim light for an additional 20 feet. The light can
+          be colored as you like. Completely covering the object with something
+          opaque blocks the light. The spell ends if you cast it again or
+          dismiss it as an action.</p><p>If you target an object held or worn by
+          a hostile creature, that creature must succeed on a Dexterity saving
+          throw to avoid the spell.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: object
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: touch
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 0
+      school: evo
+      materials:
+        value: A firefly or phosphorescent moss.
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - material
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: none
+            parts: []
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: light
+    sort: 0
+    flags: {}
+    img: icons/magic/light/explosion-star-small-blue-yellow.webp
+    effects: []
+    folder: Z8kZlnggh1PtuF3Y
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.gdb8ykT8B7gemaE5'
+  - _id: NYB3pszPq0wc01Oe
+    name: Mage Hand
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>A spectral, floating hand appears at a point you choose within
+          range. The hand lasts for the duration or until you dismiss it as an
+          action. The hand vanishes if it is ever more than 30 feet away from
+          you or if you cast this spell again.</p><p>You can use your action to
+          control the hand. You can use the hand to manipulate an object, open
+          an unlocked door or container, stow or retrieve an item from an open
+          container, or pour the contents out of a vial. You can move the hand
+          up to 30 feet each time you use it.</p><p>The hand can't attack,
+          activate magic items, or carry more than 10 pounds.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: space
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '30'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 0
+      school: con
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - mgc
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: summon
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          bonuses:
+            ac: ''
+            hp: ''
+            attackDamage: ''
+            saveDamage: ''
+            healing: ''
+          creatureSizes: []
+          creatureTypes: []
+          match:
+            attacks: false
+            proficiency: false
+            saves: false
+          profiles:
+            - name: ''
+              _id: H4LmY7OuwtEQFipO
+              uuid: Compendium.dnd5e.monsters.Actor.zwT2WjWo7cTm2631
+              level:
+                min: null
+                max: null
+              types: []
+          summon:
+            identifier: ''
+            mode: ''
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          effects: []
+      identifier: mage-hand
+    sort: 0
+    flags: {}
+    img: icons/magic/water/water-hand.webp
+    effects: []
+    folder: Z8kZlnggh1PtuF3Y
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.NYB3pszPq0wc01Oe'
+  - _id: Lo9E4HITPst7oeaO
+    name: Ray of Frost
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>A frigid beam of blue-white light streaks toward a creature within
+          range. Make a ranged spell attack against the target. On a hit, it
+          takes 1d8 cold damage, and its speed is reduced by 10 feet until the
+          start of your next turn.</p><p>The spell's damage increases by 1d8
+          when you reach 5th level (2d8), 11th level (3d8), and 17th level
+          (4d8).</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 0
+      school: evo
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - cold
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: ray-of-frost
+    sort: 0
+    flags: {}
+    img: icons/magic/light/beam-rays-blue-small.webp
+    effects: []
+    folder: Z8kZlnggh1PtuF3Y
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.Lo9E4HITPst7oeaO'
+  - _id: GMYuDLNXotJ4kq73
+    name: Shocking Grasp
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>Lightning springs from your hand to deliver a shock to a creature
+          you try to touch. Make a melee spell attack against the target. You
+          have advantage on the attack roll if the target is wearing armor made
+          of metal. On a hit, the target takes 1d8 lightning damage, and it
+          can't take reactions until the start of its next turn.</p><p>The
+          spell's damage increases by 1d8 when you reach 5th level (2d8), 11th
+          level (3d8), and 17th level (4d8).</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: touch
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 0
+      school: evo
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - lightning
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: shocking-grasp
+    sort: 0
+    flags: {}
+    img: icons/magic/lightning/bolt-forked-blue.webp
+    effects: []
+    folder: Z8kZlnggh1PtuF3Y
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.GMYuDLNXotJ4kq73'
+  - _id: 1ITbqbePC3CSLNym
+    name: Detect Magic
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>For the duration, you sense the presence of magic within 30 feet of
+          you. If you sense magic in this way, you can use your action to see a
+          faint aura around any visible creature or object in the area that
+          bears magic, and you learn its school of magic, if any.</p><p>The
+          spell can penetrate most barriers, but it is blocked by 1 foot of
+          stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood
+          or dirt.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: radius
+          size: '30'
+          contiguous: false
+      range:
+        units: self
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: div
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - ritual
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: detect-magic
+    sort: 0
+    flags: {}
+    img: icons/magic/light/explosion-star-blue.webp
+    effects: []
+    folder: ERuXllkhTQF51rDJ
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.1ITbqbePC3CSLNym'
+  - _id: cHiEwylZPFPaBVYK
+    name: Healing Word
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>A creature of your choice that you can see within range regains hit
+          points equal to 1d4 + your spellcasting ability modifier. This spell
+          has no effect on undead or constructs.</p><p><strong>Higher
+          Levels.</strong> When you cast this spell using a spell slot of 2nd
+          level or higher, the healing increases by 1d4 for each slot level
+          above 1st.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: bonus
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: evo
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          healing:
+            number: 1
+            denomination: 4
+            bonus: '@mod'
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: healing-word
+    sort: 0
+    flags: {}
+    img: icons/magic/life/heart-cross-green.webp
+    effects: []
+    folder: ERuXllkhTQF51rDJ
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.cHiEwylZPFPaBVYK'
+  - _id: h5MWJmr6yZaToOiN
+    name: Find Familiar
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You gain the service of a familiar, a spirit that takes an animal
+          form you choose:
+          @UUID[Compendium.dnd5e.monsters.Actor.qav2dvMIUiMQCCsy]{bat},
+          @UUID[Compendium.dnd5e.monsters.Actor.hIf83RD3ZVW4Egfi]{cat},
+          @UUID[Compendium.dnd5e.monsters.Actor.8RgUhb31VvjUNZU1]{crab},
+          @UUID[Compendium.dnd5e.monsters.Actor.EZgiprHXA2D7Uyb3]{frog} (toad),
+          @UUID[Compendium.dnd5e.monsters.Actor.fnkPNfIpS62LqOu4]{hawk},
+          @UUID[Compendium.dnd5e.monsters.Actor.I2x01hzOjVN4NUjf]{lizard},
+          @UUID[Compendium.dnd5e.monsters.Actor.3UUNbGiG2Yf1ZPxM]{octopus},
+          @UUID[Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec]{owl},
+          @UUID[Compendium.dnd5e.monsters.Actor.D5rwVIxmfFrdyyxT]{poisonous
+          snake}, fish
+          (@UUID[Compendium.dnd5e.monsters.Actor.nkyCGJ9wXeAZkyyz]{quipper}),
+          @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox]{rat},
+          @UUID[Compendium.dnd5e.monsters.Actor.LPdX5YLlwci0NDZx]{raven},
+          @UUID[Compendium.dnd5e.monsters.Actor.FWSDiq9SZsdiBAa8]{sea horse},
+          @UUID[Compendium.dnd5e.monsters.Actor.28gU50HtG8Kp7uIz]{spider}, or
+          @UUID[Compendium.dnd5e.monsters.Actor.WOdeacKCYVhgLDuN]{weasel}.
+          Appearing in an unoccupied space within range, the familiar has the
+          statistics of the chosen form, though it is a celestial, fey, or fiend
+          (your choice) instead of a beast.</p><p>Your familiar acts
+          independently of you, but it always obeys your commands. In combat, it
+          rolls its own initiative and acts on its own turn. A familiar can't
+          attack, but it can take other actions as normal.</p><p>When the
+          familiar drops to 0 hit points, it disappears, leaving behind no
+          physical form. It reappears after you cast this spell
+          again.</p><p>While your familiar is within 100 feet of you, you can
+          communicate with it telepathically. Additionally, as an action, you
+          can see through your familiar's eyes and hear what it hears until the
+          start of your next turn, gaining the benefits of any special senses
+          that the familiar has. During this time, you are deaf and blind with
+          regard to your own senses.</p><p>As an action, you can temporarily
+          dismiss your familiar. It disappears into a pocket dimension where it
+          awaits your summons. Alternatively, you can dismiss it forever. As an
+          action while it is temporarily dismissed, you can cause it to reappear
+          in any unoccupied space within 30 feet of you.</p><p>You can't have
+          more than one familiar at a time. If you cast this spell while you
+          already have a familiar, you instead cause it to adopt a new form.
+          Choose one of the forms from the above list. Your familiar transforms
+          into the chosen creature.</p><p>Finally, when you cast a spell with a
+          range of touch, your familiar can deliver the spell as if it had cast
+          the spell. Your familiar must be within 100 feet of you, and it must
+          use its reaction to deliver the spell when you cast it. If the spell
+          requires an attack roll, you use your action modifier for the
+          roll.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: pg. 143
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: hour
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: space
+          choice: false
+        template:
+          units: any
+          contiguous: false
+      range:
+        value: '10'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: con
+      materials:
+        value: >-
+          10 gp worth of charcoal, incense, and herbs that must be consumed by
+          fire in a brass brazier
+        consumed: true
+        cost: 10
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+        - ritual
+        - mgc
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: summon
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          bonuses:
+            ac: ''
+            hp: ''
+            attackDamage: ''
+            saveDamage: ''
+            healing: ''
+          creatureSizes: []
+          creatureTypes:
+            - celestial
+            - fey
+            - fiend
+          match:
+            attacks: false
+            proficiency: false
+            saves: false
+          profiles:
+            - name: ''
+              _id: HShhzdPtYkhNleyj
+              uuid: Compendium.dnd5e.monsters.Actor.qav2dvMIUiMQCCsy
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: NIHXnk03LvysDp7t
+              uuid: Compendium.dnd5e.monsters.Actor.hIf83RD3ZVW4Egfi
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: L59Xqchh128r45Rc
+              uuid: Compendium.dnd5e.monsters.Actor.8RgUhb31VvjUNZU1
+              level:
+                min: null
+                max: null
+              types: []
+            - name: Fish
+              _id: kaiiJrnUWOqlQHt3
+              uuid: Compendium.dnd5e.monsters.Actor.nkyCGJ9wXeAZkyyz
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: zGRnQq2EkrfRb14O
+              uuid: Compendium.dnd5e.monsters.Actor.EZgiprHXA2D7Uyb3
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: n2fhgnH9XTc8MbKt
+              uuid: Compendium.dnd5e.monsters.Actor.fnkPNfIpS62LqOu4
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: bZJcnv1H2Vjm5XI6
+              uuid: Compendium.dnd5e.monsters.Actor.I2x01hzOjVN4NUjf
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: aqC42mfjOB5PB5JU
+              uuid: Compendium.dnd5e.monsters.Actor.3UUNbGiG2Yf1ZPxM
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: 9sLcKSCGrnG7gO7O
+              uuid: Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: IxXkUKUna11rHprj
+              uuid: Compendium.dnd5e.monsters.Actor.D5rwVIxmfFrdyyxT
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: 0t4KAcZWZ7fY9A5u
+              uuid: Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: op4FTfM9QWefJxOJ
+              uuid: Compendium.dnd5e.monsters.Actor.LPdX5YLlwci0NDZx
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: 1gJGQBWi5LJYjONw
+              uuid: Compendium.dnd5e.monsters.Actor.FWSDiq9SZsdiBAa8
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: 7hgp23Fe02ITFtIw
+              uuid: Compendium.dnd5e.monsters.Actor.28gU50HtG8Kp7uIz
+              level:
+                min: null
+                max: null
+              types: []
+            - name: ''
+              _id: czhL1VUn6ecvG0WV
+              uuid: Compendium.dnd5e.monsters.Actor.WOdeacKCYVhgLDuN
+              level:
+                min: null
+                max: null
+              types: []
+          summon:
+            identifier: ''
+            mode: ''
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          effects: []
+      identifier: find-familiar
+    sort: 0
+    flags: {}
+    img: icons/magic/nature/wolf-paw-glow-purple-teal.webp
+    effects: []
+    folder: ERuXllkhTQF51rDJ
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.h5MWJmr6yZaToOiN'
+  - _id: l1EcB2iAGHCumGej
+    name: Feather Fall
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>Choose up to five falling creatures within range. A falling
+          creature's rate of descent slows to 60 feet per round until the spell
+          ends. If the creature lands before the spell ends, it takes no falling
+          damage and can land on its feet, and the spell ends for that
+          creature.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: reaction
+        condition: which you take when you or a creature within 60 feet of you falls
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '5'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: trs
+      materials:
+        value: A small feather or piece of down
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - material
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: feather-fall
+    sort: 0
+    flags: {}
+    img: icons/magic/air/wind-swirl-pink-purple.webp
+    effects: []
+    folder: ERuXllkhTQF51rDJ
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.l1EcB2iAGHCumGej'
+  - _id: G6VcYUzZgsuhOKGf
+    name: Detect Thoughts
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>For the duration, you can read the thoughts of certain creatures.
+          When you cast the spell and as your action on each turn until the
+          spell ends, you can focus your mind on any one creature that you can
+          see within 30 feet of you. If the creature you choose has an
+          Intelligence of 3 or lower or doesn't speak any language, the creature
+          is unaffected.</p><p>You initially learn the surface thoughts of the
+          creature—what is most on its mind in that moment. As an action, you
+          can either shift your attention to another creature's thoughts or
+          attempt to probe deeper into the same creature's mind. If you probe
+          deeper, the target must make a Wisdom saving throw. If it fails, you
+          gain insight into its reasoning (if any), its emotional state, and
+          something that looms large in its mind (such as something it worries
+          over, loves, or hates). If it succeeds, the spell ends. Either way,
+          the target knows that you are probing into its mind, and unless you
+          shift your attention to another creature's thoughts, the creature can
+          use its action on its turn to make an Intelligence check contested by
+          your Intelligence check; if it succeeds, the spell
+          ends.</p><p>Questions verbally directed at the target creature
+          naturally shape the course of its thoughts, so this spell is
+          particularly effective as part of an interrogation.</p><p>You can also
+          use this spell to detect the presence of thinking creatures you can't
+          see. When you cast the spell or as your action during the duration,
+          you can search for thoughts within 30 feet of you. The spell can
+          penetrate barriers, but 2 feet of rock, 2 inches of any metal other
+          than lead, or a thin sheet of lead blocks you. You can't detect a
+          creature with an Intelligence of 3 or lower or one that doesn't speak
+          any language.</p><p>Once you detect the presence of a creature in this
+          way, you can read its thoughts for the rest of the duration as
+          described above, even if you can't see it, but it must still be within
+          range.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '30'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: div
+      materials:
+        value: A copper piece
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: detect-thoughts
+    sort: 0
+    flags: {}
+    img: icons/magic/light/explosion-star-teal-purple.webp
+    effects: []
+    folder: Qi4Se3we69ukl2V9
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.G6VcYUzZgsuhOKGf'
+  - _id: ZOaDwvdmBnxzrMA9
+    name: Mirror Image
+    type: spell
+    img: icons/magic/control/debuff-energy-hold-levitate-pink.webp
+    system:
+      description:
+        value: >-
+          <p>Three illusory duplicates of yourself appear in your space. Until
+          the spell ends, the duplicates move with you and mimic your actions,
+          shifting position so it's impossible to track which image is real. You
+          can use your action to dismiss the illusory duplicates.</p>
+
+          <p>Each time a creature targets you with an attack during the spell's
+          duration, roll a [[/r 1d20 # Mirror Image Check]] to determine whether
+          the attack instead targets one of your duplicates.</p>
+
+          <p>If you have three duplicates, you must roll a 6 or higher to change
+          the attack's target to a duplicate. With two duplicates, you must roll
+          an 8 or higher. With one duplicate, you must roll an 11 or higher.</p>
+
+          <p>A duplicate's AC equals 10 + your Dexterity modifier. If an attack
+          hits a duplicate, the duplicate is destroyed. A duplicate can be
+          destroyed only by an attack that hits it. It ignores all other damage
+          and effects. The spell ends when all three duplicates are
+          destroyed.</p>
+
+          <p>A creature is unaffected by this spell if it can't see, if it
+          relies on senses other than sight, such as blindsight, or if it can
+          perceive illusions as false, as with truesight.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: self
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: self
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: ill
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: 1d20
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: mirror-image
+    effects: []
+    folder: Qi4Se3we69ukl2V9
+    sort: 0
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    flags: {}
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.ZOaDwvdmBnxzrMA9'
+  - _id: a9oh4G6pGevlIUm6
+    name: Misty Step
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>Briefly surrounded by silvery mist, you teleport up to 30 feet to
+          an unoccupied space that you can see.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: bonus
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: space
+          count: '30'
+          choice: false
+        template:
+          units: ft
+          contiguous: false
+      range:
+        units: self
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: con
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: misty-step
+    sort: 0
+    flags: {}
+    img: icons/magic/control/debuff-energy-snare-brown.webp
+    effects: []
+    folder: Qi4Se3we69ukl2V9
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.a9oh4G6pGevlIUm6'
+  - _id: eNiPhDZLxaFX5FLV
+    name: Bestow Curse
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You touch a creature, and that creature must succeed on a Wisdom
+          saving throw or become cursed for the duration of the spell. When you
+          cast this spell, choose the nature of the curse from the following
+          options:</p>
+
+          <ul>
+
+          <li>Choose one ability score. While cursed, the target has
+          disadvantage on ability checks and saving throws made with that
+          ability score.</li>
+
+          <li>While cursed, the target has disadvantage on attack rolls against
+          you.</li>
+
+          <li>While cursed, the target must make a Wisdom saving throw at the
+          start of each of its turns. If it fails, it wastes its action that
+          turn doing nothing.</li>
+
+          <li>While the target is cursed, your attacks and spells deal an extra
+          1d8 necrotic damage to the target.</li>
+
+          </ul>
+
+          <p>A remove curse spell ends this effect. At the DM's option, you may
+          choose an alternative curse effect, but it should be no more powerful
+          than those described above. The DM has final say on such a curse's
+          effect.</p><p><strong>At Higher Levels.</strong> If you cast this
+          spell using a spell slot of 4th level or higher, the duration is
+          concentration, up to 10 minutes. If you use a spell slot of 5th level
+          or higher, the duration is 8 hours. If you use a spell slot of 7th
+          level or higher, the duration is 24 hours. If you use a 9th level
+          spell slot, the spell lasts until it is dispelled. Using a spell slot
+          of 5th level or higher grants a duration that doesn't require
+          concentration.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: touch
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 3
+      school: nec
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: bestow-curse
+    sort: 0
+    flags: {}
+    img: icons/magic/control/buff-flight-wings-runes-red.webp
+    effects: []
+    folder: 5Si35RRLLaaoWvC3
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.eNiPhDZLxaFX5FLV'
+  - _id: mEeAulceFEXOIc4a
+    name: Counterspell
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: "<p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><p><strong>Higher Levels.\_</strong>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p>"
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: reaction
+        condition: >-
+          which you take when you see a creature within 60 feet of you casting a
+          spell
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 3
+      school: abj
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: 1d20 + @mod
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: counterspell
+    sort: 0
+    flags: {}
+    img: icons/skills/melee/strike-blade-hooked-orange-blue.webp
+    effects: []
+    folder: 5Si35RRLLaaoWvC3
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.mEeAulceFEXOIc4a'
+  - _id: 2Qi3eP4F1gp4rhz4
+    name: Mass Healing Word
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>As you call out words of restoration, up to six creatures of your
+          choice that you can see within range regain hit points equal to 1d4 +
+          your spellcasting ability modifier. This spell has no effect on undead
+          or constructs.</p><p><strong>At Higher Levels.</strong> When you cast
+          this spell using a spell slot of 4th level or higher, the healing
+          increases by 1d4 for each slot level above 3rd.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: bonus
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '6'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 3
+      school: evo
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          healing:
+            number: 1
+            denomination: 4
+            bonus: '@mod'
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: mass-healing-word
+    sort: 0
+    flags: {}
+    img: icons/magic/life/heart-cross-strong-flame-green.webp
+    effects: []
+    folder: 5Si35RRLLaaoWvC3
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.2Qi3eP4F1gp4rhz4'
+  - _id: XhPTWNUv8NbFWXrS
+    name: Fly
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You touch a willing creature. The target gains a flying speed of 60
+          feet for the Duration. When the spell ends, the target falls if it is
+          still aloft, unless it can stop the fall.</p><p><strong>At Higher
+          Levels.</strong> When you cast this spell using a spell slot of 4th
+          level or higher, you can target one additional creature for each slot
+          level above 3rd.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: touch
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 3
+      school: trs
+      materials:
+        value: A wing feather from any bird
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: fly
+    sort: 0
+    flags: {}
+    img: icons/magic/control/energy-stream-link-white.webp
+    effects: []
+    folder: 5Si35RRLLaaoWvC3
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.XhPTWNUv8NbFWXrS'
+  - _id: zKPwiR1V1byx7oNn
+    name: Banishment
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You attempt to send one creature that you can see within range to
+          another plane of existence. The target must succeed on a Charisma
+          saving throw or be banished.</p><p>If the target is native to the
+          plane of existence you're on, you banish the target to a harmless
+          demiplane. While there, the target is &amp;Reference[incapacitated].
+          The target remains there until the spell ends, at which point the
+          target reappears in the space it left or in the nearest unoccupied
+          space if that space is occupied.</p><p>If the target is native to a
+          different plane of existence than the one you're on, the target is
+          banished with a faint popping noise, returning to its home plane. If
+          the spell ends before 1 minute has passed, the target reappears in the
+          space it left or in the nearest unoccupied space if that space is
+          occupied. Otherwise, the target doesn't return.</p><p><strong>At
+          Higher Levels.</strong> When you cast this spell using a spell slot of
+          5th level or higher, you can target one additional creature for each
+          slot level above 4th.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 4
+      school: abj
+      materials:
+        value: An item distasteful to the target
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: bckYDthT7sAOQBNO
+              onSave: false
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - cha
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: banishment
+    sort: 0
+    flags: {}
+    img: icons/magic/control/energy-stream-link-spiral-teal.webp
+    effects:
+      - name: Banishment
+        origin: Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf
+        duration:
+          startTime: null
+          seconds: 60
+          combat: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: true
+        _id: bckYDthT7sAOQBNO
+        changes: []
+        description: >-
+          <p>The target native to this plane is banished to a harmless demiplane
+          plane and is Incapacitated for the duration.</p>
+        transfer: false
+        statuses:
+          - incapacitated
+        flags: {}
+        tint: '#ffffff'
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.344'
+          systemId: dnd5e
+          systemVersion: 4.1.2
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          exportSource: null
+        img: icons/magic/control/energy-stream-link-spiral-teal.webp
+        type: base
+        system: {}
+        sort: 0
+        _key: >-
+          !actors.items.effects!aULomXFfzQvXPSRm.zKPwiR1V1byx7oNn.bckYDthT7sAOQBNO
+    folder: 5auWSClKMDUIV5Ni
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.zKPwiR1V1byx7oNn'
+  - _id: 97VV3J60X0e6XYAo
+    name: Blight
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>Necromantic energy washes over a creature of your choice that you
+          can see within range, draining moisture and vitality from it. The
+          target must make a Constitution saving throw. The target takes 8d8
+          necrotic damage on a failed save, or half as much damage on a
+          successful one. This spell has no effect on undead or
+          constructs.</p><p>If you target a plant creature or a magical plant,
+          it makes the saving throw with disadvantage, and the spell deals
+          maximum damage to it.</p><p>If you target a nonmagical plant that
+          isn't a creature, such as a tree or shrub, it doesn't make a saving
+          throw, it simply withers and dies.</p><p><strong>At Higher
+          Levels.</strong> When you cast this spell using a spell slot of 5th
+          level or higher, the damage increases by 1d8 for each slot level above
+          4th.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '30'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 4
+      school: nec
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 8
+                denomination: 8
+                bonus: ''
+                types:
+                  - necrotic
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: blight
+    sort: 0
+    flags: {}
+    img: icons/magic/unholy/strike-beam-blood-large-red-green.webp
+    effects: []
+    folder: 5auWSClKMDUIV5Ni
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.97VV3J60X0e6XYAo'
+  - _id: d7SQQ76pCGc6pUf5
+    name: Greater Invisibility
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You or a creature you touch becomes Invisible until the spell ends.
+          Anything the target is wearing or carrying is Invisible as long as it
+          is on the target's person.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: touch
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 4
+      school: ill
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: lhYVl4DD9jyS5gcn
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: greater-invisibility
+    sort: 0
+    flags: {}
+    img: icons/magic/air/fog-gas-smoke-swirling-gray.webp
+    effects:
+      - name: Greater Invisibility
+        origin: Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ
+        duration:
+          startTime: null
+          seconds: 60
+          combat: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: true
+        _id: lhYVl4DD9jyS5gcn
+        changes: []
+        description: >-
+          <p>The target becomes Invisible until the spell ends. Anything the
+          target is wearing or carrying is Invisible as long as it is on the
+          target's person.</p>
+        transfer: false
+        statuses:
+          - invisible
+        flags: {}
+        tint: '#ffffff'
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.344'
+          systemId: dnd5e
+          systemVersion: 4.1.2
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          exportSource: null
+        img: icons/magic/air/fog-gas-smoke-swirling-gray.webp
+        type: base
+        system: {}
+        sort: 0
+        _key: >-
+          !actors.items.effects!aULomXFfzQvXPSRm.d7SQQ76pCGc6pUf5.lhYVl4DD9jyS5gcn
+    folder: 5auWSClKMDUIV5Ni
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.d7SQQ76pCGc6pUf5'
+  - _id: S5epguKTwysTsGD6
+    name: Cone of Cold
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: "<p>A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one.</p><p>A creature killed by this spell becomes a frozen statue until it thaws.</p><p><strong>Higher Levels.\_</strong>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>"
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: cone
+          size: '60'
+          contiguous: false
+      range:
+        units: self
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 5
+      school: evo
+      materials:
+        value: A small crystal or glass cone
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 8
+                denomination: 8
+                bonus: ''
+                types:
+                  - cold
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: cone-of-cold
+    sort: 0
+    flags: {}
+    img: icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp
+    effects: []
+    folder: bG9QTayc46rfNkv2
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.S5epguKTwysTsGD6'
+  - _id: VrVwfsYnOBsOaY6H
+    name: Greater Restoration
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You imbue a creature you touch with positive energy to undo a
+          debilitating effect. You can reduce the target's Exhaustion level by
+          one, or end one of the following Effects on the target:</p>
+
+          <ul>
+
+          <li>One effect that Charmed or Petrified the target</li>
+
+          <li>One curse, including the target's Attunement to a cursed magic
+          item</li>
+
+          <li>Any reduction to one of the target's Ability Scores</li>
+
+          <li>One effect reducing the target's hit point maximum</li>
+
+          </ul>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: touch
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 5
+      school: abj
+      materials:
+        value: diamond dust worth at least 100gp, which the spell consumes
+        consumed: true
+        cost: 100
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: greater-restoration
+    sort: 0
+    flags: {}
+    img: icons/magic/life/heart-cross-strong-flame-blue.webp
+    effects: []
+    folder: bG9QTayc46rfNkv2
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.VrVwfsYnOBsOaY6H'
+  - _id: Wdnu2qjIdGdh48jT
+    name: Mass Cure Wounds
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>A wave of Healing energy washes out from a point of your choice
+          within range. Choose up to six creatures in a 30-foot-radius Sphere
+          centered on that point. Each target regains Hit Points equal to 3d8 +
+          your Spellcasting ability modifier. This spell has no effect on Undead
+          or constructs.</p><p><strong>At Higher Levels.</strong> When you cast
+          this spell using a spell slot of 6th level or higher, the Healing
+          increases by 1d8 for each slot level above 5th.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: sphere
+          size: '30'
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 5
+      school: evo
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          healing:
+            number: 3
+            denomination: 8
+            bonus: '@mod'
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: mass-cure-wounds
+    sort: 0
+    flags: {}
+    img: icons/magic/life/heart-cross-strong-green.webp
+    effects: []
+    folder: bG9QTayc46rfNkv2
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.Wdnu2qjIdGdh48jT'
+  - _id: E6q8g6HcbYj9HneM
+    name: Harm
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You unleash a virulent disease on a creature that you can see
+          within range. The target must make a Constitution saving throw. On a
+          failed save, it takes 14d6 necrotic damage, or half as much damage on
+          a successful save. The damage can't reduce the target's Hit Points
+          below 1. If the target fails the saving throw, its hit point maximum
+          is reduced for 1 Hour by an amount equal to the necrotic damage it
+          took. Any effect that removes a disease allows a creature's hit point
+          maximum to return to normal before that time passes.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 6
+      school: nec
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 14
+                denomination: 6
+                bonus: ''
+                types:
+                  - necrotic
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: ''
+                  number: null
+                  formula: ''
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: harm
+    sort: 0
+    flags: {}
+    img: icons/magic/unholy/strike-beam-blood-large-red-purple.webp
+    effects: []
+    folder: 0pdesvXqKd55VOh2
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.E6q8g6HcbYj9HneM'
+  - _id: nr7MXAH9UVozyGfq
+    name: Heal
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>Choose a creature that you can see within range. A surge of
+          positive energy washes through the creature, causing it to regain 70
+          Hit Points. This spell also ends blindness, deafness, and any Diseases
+          affecting the target. This spell has no effect on constructs or
+          Undead.</p><p><strong>At Higher Levels.</strong> When you cast this
+          spell using a spell slot of 7th level or higher, the amount of Healing
+          increases by 10 for each slot level above 6th.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 6
+      school: evo
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          healing:
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - healing
+            custom:
+              enabled: true
+              formula: '70'
+            scaling:
+              mode: whole
+              number: null
+              formula: '10'
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: heal
+    sort: 0
+    flags: {}
+    img: icons/magic/life/heart-cross-strong-flame-green.webp
+    effects: []
+    folder: 0pdesvXqKd55VOh2
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.nr7MXAH9UVozyGfq'
+  - _id: sMFI1518V1Y19CV6
+    name: Finger of Death
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You send negative energy coursing through a creature that you can
+          see within range, causing it searing pain. The target must make a
+          Constitution saving throw. It takes 7d8 + 30 necrotic damage on a
+          failed save, or half as much damage on a successful one.</p><p>A
+          humanoid killed by this spell rises at the start of your next turn as
+          a Zombie that is permanently under your command, following your verbal
+          orders to the best of its ability.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 7
+      school: nec
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 7
+                denomination: 8
+                bonus: '30'
+                types:
+                  - necrotic
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: ''
+                  number: null
+                  formula: ''
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: finger-of-death
+    sort: 0
+    flags: {}
+    img: icons/magic/unholy/strike-beam-blood-large-red-purple.webp
+    effects: []
+    folder: irCSpQWIMtp978TA
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.sMFI1518V1Y19CV6'
+  - _id: 7wLQTncPEO57IwFO
+    name: Power Word Stun
+    ownership:
+      default: 0
+      pJeIW7qCa0HkURWq: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You speak a word of power that can overwhelm the mind of one
+          creature you can see within range, leaving it dumbfounded. If the
+          target has 150 Hit Points or fewer, it is &amp;Reference[Stunned].
+          Otherwise, the spell has no effect.</p><p>The stunned target must make
+          a Constitution saving throw at the end of each of its turns. On a
+          successful save, this stunning effect ends.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 8
+      school: enc
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: false
+      properties:
+        - vocal
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: XUk41wJR26neJaic
+              onSave: false
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: power-word-stun
+    sort: 0
+    flags: {}
+    img: icons/magic/control/debuff-chains-ropes-red.webp
+    effects:
+      - name: Power Word Stun
+        origin: Compendium.dnd5e.spells.Item.35j2QIMmIk6aEdxj
+        duration:
+          startTime: null
+          seconds: null
+          combat: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: true
+        _id: XUk41wJR26neJaic
+        changes: []
+        description: >-
+          <p>The target is Stunned. The stunned target must make a Constitution
+          saving throw at the end of each of its turns. On a successful save,
+          this stunning effect ends.</p>
+        transfer: false
+        statuses:
+          - stunned
+          - incapacitated
+        flags: {}
+        tint: '#ffffff'
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '13.344'
+          systemId: dnd5e
+          systemVersion: 4.1.2
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          exportSource: null
+        img: icons/magic/control/debuff-chains-ropes-red.webp
+        type: base
+        system: {}
+        sort: 0
+        _key: >-
+          !actors.items.effects!aULomXFfzQvXPSRm.7wLQTncPEO57IwFO.XUk41wJR26neJaic
+    folder: x1XTiOgx4DJ34wc5
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!aULomXFfzQvXPSRm.7wLQTncPEO57IwFO'
+effects: []
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733345040090
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+sort: 900000
+ownership:
+  default: 0
+_key: '!actors!aULomXFfzQvXPSRm'

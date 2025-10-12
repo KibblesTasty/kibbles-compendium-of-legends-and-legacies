@@ -1,0 +1,162 @@
+folder: iD1OKYjdAcPe0h8l
+name: Wind Slash
+type: feat
+_id: PmggTgHhnWb6OLDk
+img: icons/magic/air/air-pressure-shield-blue.webp
+system:
+  activities:
+    1MmUoYZzu1vUWY6f:
+      type: attack
+      name: Wind Slash
+      _id: 1MmUoYZzu1vUWY6f
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        ability: spellcasting
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - slashing
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>The wind conveys the will of your attacks, granting you the following
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Strength, Dexterity or Wisdom ability score by 1, to a maximum of
+      20.</li><li><strong>Cloudbreaker.</strong> You can cut dust, fog, or
+      clouds. As an attack as part of the attack action, you can clear a 30 foot
+      cone of dust, fog, or cloud. Depending on the source of the obscuring
+      effect, the area may become obscured again after 1d4 rounds.</li><li>You
+      gain the Wind Slash special attack (below).</li></ul><h5
+      id="wind-slash">Wind Slash</h5><p><em>Active Ability (Attack,
+      Supernatural)</em></p><p>When you take the Attack action on your turn, you
+      can replace one of your attacks with a special attack, launching a blades
+      of wind at targets within 60 feet. You launch a number of blades equal to
+      your proficiency modifier, but can increase the number of attacks made by
+      giving up additional attacks you can make as part of the Attack action
+      (launching one additional attack for each attack forgone). The blades are
+      ranged weapon attacks using your Mystic Path modifier. Each blade deals
+      1d6 + your Mystic Path modifier slashing damage on damage on
+      hit.</p><p>Once you use this feature, you cannot use it again until you
+      complete a short or long rest.</p>
+    chat: ''
+  identifier: wind-slash
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: null
+  properties:
+    - mgc
+  requirements: ''
+  advancement:
+    - _id: Xg2aeMkRilVwwCeR
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - con
+          - int
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729047529964
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!PmggTgHhnWb6OLDk'

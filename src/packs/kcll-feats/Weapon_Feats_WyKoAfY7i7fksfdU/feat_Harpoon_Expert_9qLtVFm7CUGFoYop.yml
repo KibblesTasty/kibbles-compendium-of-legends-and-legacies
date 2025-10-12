@@ -1,0 +1,136 @@
+folder: WyKoAfY7i7fksfdU
+name: Harpoon Expert
+type: feat
+_id: 9qLtVFm7CUGFoYop
+img: icons/weapons/polearms/spear-simple-hooked-grey.webp
+system:
+  activities:
+    JsTkvQ5HDBzTs4PB:
+      type: save
+      name: Harpoon
+      _id: JsTkvQ5HDBzTs4PB
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You are resourceful and skilled when it comes the use of harpoons,
+      gaining the following benefits:</p><ul><li><strong>Ability Score
+      Increase.</strong> Increase your Strength or Constitution ability score by
+      1, to a maximum of 20.</li><li><strong>Throwing Arm.</strong> The normal
+      range of your thrown weapons is doubled.</li><li><strong>Harpoon.</strong>
+      As an action, you can use 30 feet of rope to turn any javelin, spear, or
+      trident into a harpoon. When you throw that harpoon at a target 30 feet or
+      less from you, you can pull it back to your hand as a bonus action. If the
+      attack hit the target and the target is no more than one size larger than
+      you, when you pull the harpoon back to you, you can force the target to
+      make a Strength saving throw against a DC of 8 + your Strength modifier +
+      your proficiency bonus. On failure, you drag the target up to 20 feet
+      toward you.</li></ul>
+    chat: ''
+  identifier: harpoon-expert
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  advancement:
+    - _id: AN68BzrjHhPaStms
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729047367058
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!9qLtVFm7CUGFoYop'

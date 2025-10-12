@@ -1,0 +1,239 @@
+folder: eY6MBIKazfiSmnlA
+name: Dragon Breath Art
+type: feat
+_id: gJkEiJsq2rSfhE3M
+img: icons/creatures/abilities/dragon-ice-breath-blue.webp
+system:
+  activities:
+    PZK9FTyr2um0kxHH:
+      type: save
+      name: Dragon Breath (Cone)
+      _id: PZK9FTyr2um0kxHH
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cube
+          size: '15'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof + 1)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - poison
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+    2trBaQVfk3jCL2BW:
+      type: save
+      name: Dragon Breath (Line)
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: line
+          size: '30'
+          width: '5'
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof + 1)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - poison
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: 2trBaQVfk3jCL2BW
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You master the art of gathering elemental power within yourself to
+      unleash in blasts akin to a dragon’s breath. You gain the following
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Constitution, or Charisma ability score by 1, to a maximum of
+      20.</li><li><strong>Familiarity.</strong> You gain advantage on saving
+      throws against the breath weapons of dragons.</li></ul><h5
+      id="dragon-breath">Dragon Breath</h5><p><em>Active Ability (Attack,
+      Supernatural)</em></p><p>As an attack as part of the attack action, you
+      can unleash a cone of elemental devastation. Creatures in a 15 foot cone
+      or 5 by 30 foot line (your choice) must make a Dexterity (for acid, fire
+      or lightning) or Constitution (for cold or poison) saving throw. On
+      failure, they take 3d6 acid, cold, fire, lightning, or poison damage
+      (select when you take this feat), or half as much on a successful one. The
+      number of d6 increases when your proficiency bonus increases (to 4d6 at
+      5th level, 5d6 at 9th level, 6d6 at 13th level, and 7d6 at 17th
+      level).</p><p>If you are transformed by the Dragon Aspect of the Dragon
+      Form feat, the area of effect is doubled (to a 30 foot cone or 60 foot
+      line).</p><p>Once you use this feature, you cannot use it again until you
+      complete a short or long rest.</p>
+    chat: ''
+  identifier: dragon-breath-art
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties:
+    - mgc
+  requirements: ''
+  advancement:
+    - _id: uETPyRGHcJclRc8J
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+          - int
+          - wis
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729047677738
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!gJkEiJsq2rSfhE3M'

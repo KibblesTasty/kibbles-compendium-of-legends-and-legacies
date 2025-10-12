@@ -1,0 +1,110 @@
+folder: L1AVkVBpIkOauAsa
+name: Path of the Bladestorm
+type: subclass
+_id: HpF3zPPmzVNNAclx
+img: icons/skills/melee/strikes-sword-scimitar.webp
+system:
+  description:
+    value: >-
+      <p>Barbarians are notorious for being engines of destruction on the
+      battlefield, and for none is this more an apt description than those that
+      have chosen the Path of the Bladestorm. They are Barbarians whose rage is
+      such a transcendent force that their very weapons are restless embodiments
+      of their destructive wrath.</p><p>When a Path of the Bladestorm Barbarian
+      walks onto a battlefield, those unprepared to withstand the rain of sharp
+      steel ought to run and hide until the storm passes. The ones who stay will
+      have to face the winds of destruction and will soon be drenched by flying
+      droplets of blood as the barbarian at the center of the maelstrom smashes,
+      hacks and slashes at the strength of primal winds.</p><p>Woe to the fool
+      who would stand before the storm.</p><hr /><p>The following are some
+      optional quirks for a player of this Path to choose from—these can be
+      either preexisting, signaling their fated path toward this Path, or appear
+      after you commit yourself to this
+      Path.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.FS8r9YZ0ruotPiFM
+      rollable]</p>
+    chat: ''
+  identifier: path-of-the-bladestorm
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: 8vw792ec7neMegAX
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UZqSxZOFgFX90i6S
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.H0gNGh6Fj3mmfi7y
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Path Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GVZjlTQRerD3OAlt
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RL0EYhesACHFJYml
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Path Feature
+      hint: ''
+      _id: zV4lFfuM8eInofXg
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.H5SaLc4fOVCtlahm
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Path Feature
+      hint: ''
+      _id: 4WqUsTdM3wTgbZbw
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zEiRVLLL7X4MnLft
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Path Feature
+      hint: ''
+      _id: JbDIJhEQCKB1unYW
+  classIdentifier: barbarian
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729038165970
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!HpF3zPPmzVNNAclx'

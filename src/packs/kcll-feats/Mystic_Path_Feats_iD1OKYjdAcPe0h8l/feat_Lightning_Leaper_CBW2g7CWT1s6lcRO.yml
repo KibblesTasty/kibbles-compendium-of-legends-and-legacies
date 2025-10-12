@@ -1,0 +1,157 @@
+folder: iD1OKYjdAcPe0h8l
+name: Lightning Leaper
+type: feat
+_id: CBW2g7CWT1s6lcRO
+img: icons/magic/lightning/bolt-strike-beam-yellow.webp
+system:
+  activities:
+    sQBRPnmefcjx6gvG:
+      type: save
+      name: Lightning Leap
+      _id: sQBRPnmefcjx6gvG
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: 5 * @prof
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You master the art of moving like lightning... literally. You gain the
+      following benefits:</p><ul><li><strong>Ability Score Bonus.</strong>
+      Increase your Strength, Dexterity, or Intelligence ability score by 1, to
+      a maximum of 20.</li><li><strong>Lightning Dodge.</strong> When you
+      succeed a dexterity saving throw, you can teleport up to 5
+      feet</li><li>You gain the Lightning Leap special attack
+      (below).</li></ul><h5 id="lightning-leap">Lightning Leap</h5><p><em>Active
+      Ability (Attack, Supernatural)</em></p><p>When you take the Attack action
+      on your turn, you can replace one attack by turning into lightning,
+      leaping (as lightning) to a creature or empty space within 10 feet. If you
+      target a creature, you can target a chain of creatures within 10 feet of
+      the previous target, targeting a number of creatures equal to your
+      proficiency bonus. Each creature you target makes a Dexterity saving,
+      taking 2d6 lightning damage on a failed save, or half as much on a
+      successful save. You then teleport to an empty spot of your choice
+      adjacent to the last target of the chain. The damage increases by 1d6 and
+      the range (initial and jump distance) increases by 5 feet whenever your
+      proficiency bonus increases.</p><p>Once you use this feature, you cannot
+      use it again until you complete a short or long rest.</p>
+    chat: ''
+  identifier: lightning-leaper
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties:
+    - mgc
+  requirements: ''
+  advancement:
+    - _id: rANEAL49iAzKmHsj
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - con
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729047560714
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!CBW2g7CWT1s6lcRO'

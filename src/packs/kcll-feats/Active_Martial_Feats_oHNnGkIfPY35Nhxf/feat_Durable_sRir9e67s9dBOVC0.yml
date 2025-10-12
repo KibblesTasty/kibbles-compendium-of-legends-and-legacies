@@ -1,0 +1,243 @@
+folder: oHNnGkIfPY35Nhxf
+name: Durable
+type: feat
+_id: sRir9e67s9dBOVC0
+img: icons/magic/defensive/armor-stone-skin.webp
+system:
+  activities:
+    HIpsqlvguzxJxgNN:
+      type: utility
+      name: Unyielding Endurance
+      _id: HIpsqlvguzxJxgNN
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: qvu02Z18cQ6TObko
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You possess an implausible resilience and are capable of amazing feats
+      of endurance. You gain the following the following
+      benefits:</p><ul><li><strong>Ability Score Increase.</strong> Increase
+      your Strength or Constitution score by 1, to a maximum of
+      20.</li><li><strong>Rapid Recovery.</strong> When you roll a Hit Die to
+      regain hit points, the minimum number of hit points you regain from the
+      roll equals twice your Constitution modifier (minimum of 2).</li><li>Gain
+      the Unyielding Endurance special reaction (below)</li></ul><h5
+      id="unyielding-endurance">Unyielding Endurance</h5><p><em>Active Ability
+      (Reaction)</em></p><p>As a reaction to taking damage, you can brace
+      yourself to weather the blow and any additional blows. Until the start of
+      your next turn, you can reduce all damage taken (including from the damage
+      that triggered this reaction) by your Proficiency bonus and gain advantage
+      on Strength and Constitution saving throws. Additionally for the duration,
+      if an attack would reduce you to 0, you can make a Constitution saving
+      throw with a DC to the amount of damage taken. On a success, you are
+      reduced to 1 instead. If you are not incapacitated at the start of your
+      next turn after using this feature, you can expend a number of hit dice up
+      to your proficiency bonus, rolling them to regain hit points as
+      normal</p><p>Once you use this feature, you cannot use it again until you
+      complete a short or long rest.</p>
+    chat: ''
+  identifier: durable
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties: []
+  requirements: ''
+  advancement:
+    - _id: AN68BzrjHhPaStms
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects:
+  - name: Durable
+    img: icons/magic/defensive/armor-stone-skin.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.sRir9e67s9dBOVC0
+    transfer: false
+    _id: qvu02Z18cQ6TObko
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.acid
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.cold
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.fire
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.force
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.lightning
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.necrotic
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.poison
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.psychic
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.radiant
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-@prof'
+        priority: null
+      - key: system.abilities.str.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.con.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1732228023986
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!sRir9e67s9dBOVC0.qvu02Z18cQ6TObko'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729046693541
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!sRir9e67s9dBOVC0'

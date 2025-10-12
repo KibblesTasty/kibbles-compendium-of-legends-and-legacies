@@ -1,0 +1,270 @@
+folder: O5lvID4VIFxLwduI
+name: Circle of the City
+type: subclass
+_id: 6GFzQW1hVbFbpI7U
+img: icons/environment/settlement/watchtower-city.webp
+system:
+  description:
+    value: >-
+      <p>The circle of the city is about adaption. The adaption of nature to
+      cities, and the adaption of cities to nature. Druids of the circle see the
+      teeming life of the city as just another ecosystem, one adapted to a
+      special type of life, feeling kinship with the creatures that thrive in
+      such an environment, particularly that which remains wild in the heart of
+      the city, such as rats, pigeons, and cats.</p><p>While more primeval
+      druids may view them as scarcely different to other city-dwellers, they
+      are no less in tune with nature that other druids, simply tuning into a
+      different, more subtle and pervasive, frequency</p><hr /><p>The following
+      are some optional quirks for a player of this Circle to choose from—these
+      can be either preexisting, signaling their fated path toward this Circle,
+      or appear after they select this
+      Circle.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.Jq7puTSxUT4eVlqU
+      rollable]</p>
+    chat: ''
+  identifier: circle-of-the-city
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: nMMcfSCMH7YElqos
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Im0Y8s8JENNIXSe6
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TVgPF2ynuTwr3RjB
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Druid Circle Features
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qJ6BTYelLfIoNVf8
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Druid Circle Features
+      hint: ''
+      _id: N6gh7ryBuRLNtKNZ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Z6zZSB0cHPKJTKLr
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Druid Circle Features
+      hint: ''
+      _id: Scy7vmAHYUXux9F1
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VJqpKgEru9wY58kg
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.B2oiafxzjHJDuvrJ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Druid Circle Features
+      hint: ''
+      _id: hudBZVJN9CmM6iQh
+    - _id: wv2Fbgyww7nT3vo5
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 2
+      title: Circle Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Circle Spells
+      hint: ''
+      _id: Q04ENcgfUXM8dEFW
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.cg50KpBkBdPK6vPL
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.pB7XVYwdGNcUG935
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Circle Spells
+      hint: ''
+      _id: m1gBIL1smFMkjJu5
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.7Fw7Bf1k3xxDVr5L
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.QvGcdRUSNRKEQJlK
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Circle Spells
+      hint: ''
+      _id: 0YOpDX9B0SpiL8Tv
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.MBMaQLwoy05qzMJ3
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Circle Spells
+      hint: ''
+      _id: J1tq2e5nl7dNyGPr
+    - _id: ZlYngXkk8ejVWwdc
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - skills:ins
+              - skills:per
+              - skills:slt
+              - skills:ste
+      value:
+        chosen: []
+      level: 10
+      title: Urban Adaptation
+      hint: >-
+        You gain one skill of your choice from Insight, Perception, Persuasion,
+        Sleight of Hand, or Stealth. If you have all the listed skills, you can
+        select any skill of your choice instead.
+    - _id: CJCZ1UemlcozOiHW
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - ci:diseased
+          - ci:poisoned
+          - di:poison
+        choices: []
+      value:
+        chosen: []
+      level: 10
+      title: Urban Adaptation
+      hint: ''
+    - type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - skills:ins
+              - skills:per
+              - skills:slt
+              - skills:ste
+      value:
+        chosen: []
+      level: 14
+      title: Urban Adaptation
+      hint: >-
+        You gain one skill of your choice from Insight, Perception, Persuasion,
+        Sleight of Hand, or Stealth. If you have all the listed skills, you can
+        select any skill of your choice instead.
+      _id: oMVhvGOcUb6qR8Ye
+  classIdentifier: druid
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729038310070
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!6GFzQW1hVbFbpI7U'

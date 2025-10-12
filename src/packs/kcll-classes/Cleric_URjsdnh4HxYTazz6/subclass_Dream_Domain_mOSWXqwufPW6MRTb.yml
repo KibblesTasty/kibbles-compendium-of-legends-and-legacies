@@ -1,0 +1,218 @@
+folder: URjsdnh4HxYTazz6
+name: Dream Domain
+type: subclass
+_id: mOSWXqwufPW6MRTb
+img: icons/magic/control/debuff-energy-hold-pink.webp
+system:
+  description:
+    value: >-
+      <p>Clerics of the Dream Domain draw upon the power of the ethereal realm
+      of dreams, using their connection to this mystical place to heal allies,
+      control enemies, and shape the dreams of those around them.</p><p>They
+      follow gods of dreams, creativity, art, music, and the moon.</p><hr
+      /><p>The following are some optional quirks for a player of this Domain to
+      choose
+      from</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.4BKJ0qBG0rHXUw1Q
+      rollable]</p>
+    chat: ''
+  identifier: dream-domain
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: arC0esMCdeljMf6Z
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FwFmkpB1ZaS0HShJ
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.uc2TbBOP29bt4bsD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Divine Domain Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Ki9fdn5FAkgyKZaa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Divine Domain Feature
+      hint: ''
+      _id: t7D5vNEZn7Qq4VMC
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5dWCOwjkkmvu77qw
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 8
+      title: Divine Domain Feature
+      hint: ''
+      _id: MeC60EFHrd1WKaLt
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bg8gF6j1nNnErdSs
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Divine Domain Feature
+      hint: ''
+      _id: 4UuoH96zu8NsIeJ7
+    - _id: dCXMng1iwqatvshJ
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.b5UMdUUOc4nse0OC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Divine Domain Feature
+      hint: ''
+    - _id: AkBxs118HcQmEUEH
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.BQk5Row4NymMnUQl
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 1
+      title: Dream Domain Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.30ZgXtijJVCxQk5N
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.6cFfHnF9WfDGESQV
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Dream Domain Spells
+      hint: ''
+      _id: gIf7TFc2JKDN4YIZ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.6g3WLOZ2u0EbaLAd
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.nslx2nT3p4lNkmdp
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Dream Domain Spells
+      hint: ''
+      _id: b3e3Q90guLFpOrJT
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Dream Domain Spells
+      hint: ''
+      _id: XLpTzVZuIPg2Fmfo
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.kSPRpeIx3w3nihrF
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.r3243JU4AyQJyfX4
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Dream Domain Spells
+      hint: ''
+      _id: Lt0Ap3hAgSeg85sc
+  classIdentifier: cleric
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1729038237062
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!mOSWXqwufPW6MRTb'

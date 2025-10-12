@@ -1,0 +1,134 @@
+folder: HUaII7dx2BNLZrSg
+name: Beasthide
+type: subclass
+_id: DkGtRBnmWyE4o9i3
+img: icons/creatures/abilities/bear-roar-bite-brown-green.webp
+system:
+  description:
+    value: >-
+      <p>Tapping into the primal ferocity of beasts, Beasthide Wardens are
+      capable of fighting with a primal ferocity. They specialize in unleashing
+      terrible wrath on any that would attack them or their companions.</p>
+    chat: ''
+  identifier: beasthide
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: Fh23lYzDsZXt9Lg9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FouDnj6raZbcZHQc
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rVXp1jvKxodhtLBq
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Warden Bond Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tu21vzG7K1NS1aoD
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.OfoczlrIabrQa7N1
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Warden Bond Feature
+      hint: ''
+      _id: ylN6qWZ6DJlrRY2R
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.WveuRGVdQ6T2fr9y
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Warden Bond Feature
+      hint: ''
+      _id: Q6BObpQhf3saFXtG
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.H93BAzkCnKzX2Qc5
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Ovorpaxbg0o2W79F
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Warden Bond Feature
+      hint: ''
+      _id: 1uanZ27fiiONi6A5
+    - _id: QzxdZtUWk7hZ7S9e
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:ani
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Bond of the Wild
+      hint: |-
+        At 1st level, you gain proficiency in Animal Handling.
+        If you already have proficiency in Animal Handling,
+        you gain expertise in the Animal Handling skill,
+        allowing you to add twice your proficiency bonus to
+        checks made with it.
+    - _id: h3yD80py527z5yvU
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - saves:dex
+              - saves:con
+      value:
+        chosen: []
+      level: 7
+      title: Path of Survival
+      hint: ''
+  classIdentifier: warden
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729046433891
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!DkGtRBnmWyE4o9i3'

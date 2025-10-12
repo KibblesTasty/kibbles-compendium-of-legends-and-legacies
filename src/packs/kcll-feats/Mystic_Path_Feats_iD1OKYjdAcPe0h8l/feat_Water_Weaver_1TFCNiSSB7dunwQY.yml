@@ -1,0 +1,154 @@
+folder: iD1OKYjdAcPe0h8l
+name: Water Weaver
+type: feat
+_id: 1TFCNiSSB7dunwQY
+img: icons/magic/water/water-jet-wave-blue.webp
+system:
+  activities:
+    2FDes2tItFiIYtSP:
+      type: save
+      name: Water Whip
+      _id: 2FDes2tItFiIYtSP
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d8
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You have mastered a special connection to water and can beckon it to
+      your call. You gain the following benefits:</p><ul><li><strong>Ability
+      Score Bonus.</strong> Increase your Strength, Dexterity, or Wisdom ability
+      score by 1, to a maximum of 20.</li><li><strong>Water Walker.</strong> You
+      can walk on top of surfaces made of water as if they are solid
+      ground.</li><li>You gain the Water Whip special attack
+      (below).</li></ul><h5 id="water-whip">Water Whip</h5><p><em>Active Ability
+      (Attack, Supernatural)</em></p><p>When you take the Attack action on your
+      turn, you can replace one of your attacks with creating and using a whip
+      of water. You can slam this into a creature within 30 feet of you, forcing
+      it to make a Strength saving throw. On a failed save, the target takes a
+      number of d8 damage equal to your proficiency bonus, and is knocked 10
+      feet in a direction of your choice (including straight up, if you so
+      choose). On a successful save, the target takes half as much damage and
+      isn’t moved.</p><p>Once you use this ability, you cannot use it again
+      until you complete a short or long rest.</p>
+    chat: ''
+  identifier: water-weaver
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties:
+    - mgc
+  requirements: ''
+  advancement:
+    - _id: G0MhABvEcAyyBNza
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - con
+          - int
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729047593518
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!1TFCNiSSB7dunwQY'

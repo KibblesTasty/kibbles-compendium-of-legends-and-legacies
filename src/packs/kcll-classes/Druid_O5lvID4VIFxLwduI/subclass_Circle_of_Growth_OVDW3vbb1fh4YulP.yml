@@ -1,0 +1,214 @@
+folder: O5lvID4VIFxLwduI
+name: Circle of Growth
+type: subclass
+_id: OVDW3vbb1fh4YulP
+img: icons/magic/nature/leaf-elm-sparkle-glow-green.webp
+system:
+  description:
+    value: >-
+      <p>Druids within the Circle of Growth are among the most direct emissaries
+      of nature, speaking for the forests and wilderness in order to bring its
+      will to the rest of the world.. They can be kind and nurturing presences
+      that seek to ease the suffering all living things, or militant wardens
+      that seek to end the exploitation of natural resources.</p><hr /><p>The
+      following are some optional quirks for a player of this Circle to choose
+      from—these can be either preexisting, signaling their fated path toward
+      this Circle, or appear after the first time they’ve assumed Tree
+      shape.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.CIKQpWzQcQIGR6m0
+      rollable]</p>
+    chat: ''
+  identifier: circle-of-growth
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: nMMcfSCMH7YElqos
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jXacu5qZ6wGVW54x
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4OTiUc2Sj8mWLBF3
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Druid Circle Features
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.I1AMcOLu6a4KsiTs
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Druid Circle Features
+      hint: ''
+      _id: N6gh7ryBuRLNtKNZ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UNMsjF4OCJDeM5AD
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZqByXkYBOmKQlylp
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Druid Circle Features
+      hint: ''
+      _id: Scy7vmAHYUXux9F1
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.g2ztw2P82BXLaoDa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Druid Circle Features
+      hint: ''
+      _id: hudBZVJN9CmM6iQh
+    - _id: amM2Gvw0TZKTJnTg
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.KfG3ib4M4V65TUpf
+          - optional: false
+            uuid: Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 2
+      title: Circle Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.3UqdbA1eJhdX142L
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Circle Spells
+      hint: ''
+      _id: may658Uu66mEwzQA
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Circle Spells
+      hint: ''
+      _id: S48HpNNVmG55lHU0
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.VNjahL7xK5zkD1LU
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.WzABrBTSH2EIVfAX
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Circle Spells
+      hint: ''
+      _id: ZbTzi4lPyiWJInY1
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.DUBgwHPakcLDkB6W
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.Ld86H55nvBhmon9Z
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Circle Spells
+      hint: ''
+      _id: kbCvOSkVsJ8yF4S5
+  classIdentifier: druid
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729038327774
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!OVDW3vbb1fh4YulP'

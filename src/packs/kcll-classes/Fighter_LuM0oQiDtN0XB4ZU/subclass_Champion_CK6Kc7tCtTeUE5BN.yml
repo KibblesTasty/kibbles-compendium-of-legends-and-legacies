@@ -1,0 +1,154 @@
+folder: LuM0oQiDtN0XB4ZU
+name: Champion
+type: subclass
+_id: CK6Kc7tCtTeUE5BN
+img: icons/skills/social/diplomacy-peace-alliance.webp
+system:
+  description:
+    value: >-
+      <p>Champions strive for perfection—exemplars of form and fitness, they
+      represent masters of straightforward martial prowess.</p><hr /><p>The
+      following are some optional quirks for a player of this Archetype to
+      choose from—these can be either preexisting, signaling their fated path
+      toward this Archetype, or appear after they select this
+      Archetype</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.Fjfgt4EfqpHoF1Pc
+      rollable]</p>
+    chat: ''
+  identifier: champion
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: NhtARWnBZn209Dab
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.pNl8TlpgUtlG0eUS
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.QgbRbd1pgvYIkN4X
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Martial Archetype Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YE4b7aYrL5uSCGi5
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Martial Archetype Feature
+      hint: ''
+      _id: 2UUplAxJGvPfYnO8
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vmtTeFKjCqLJEm64
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Martial Archetype Feature
+      hint: ''
+      _id: DD3ClDEi0Kz7KigV
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lrhNrtX6T3nOePlX
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UPlWBS1kq6r3kZyT
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Martial Archetype Feature
+      hint: ''
+      _id: xw8IdluIkKZpGwja
+    - _id: DDqfOiw4IQMv4bAi
+      type: ItemChoice
+      configuration:
+        choices:
+          '10':
+            count: 1
+            replacement: false
+          '18':
+            count: 4
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: Compendium.dnd5e.classfeatures.8YwPFv3UAPjWVDNf
+          - uuid: Compendium.dnd5e.classfeatures.zSlV0O2rQMdoq6pB
+          - uuid: Compendium.dnd5e.classfeatures.hCop9uJrWhF1QPb4
+          - uuid: Compendium.dnd5e.classfeatures.3Nc6u9pyStByuJsm
+          - uuid: Compendium.dnd5e.classfeatures.06NVMYf58Z76O85O
+          - uuid: Compendium.dnd5e.classfeatures.mHcSjcHJ8oZu3hkb
+        spell:
+          ability: []
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          type: class
+          subtype: fightingStyle
+          level: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Additional Fighting Style
+      hint: >-
+        At 10th level, you can choose a second option from the Fighting Style
+        class feature. You gain the benefits of Improved Fighting Style with
+        this second Fighting Style as well.
+                
+                At 18th level, you learn all the Fighting Styles available to the Fighter.
+    - _id: cFs765RLyYXebaQC
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:ath
+        choices: []
+      value:
+        chosen: []
+      level: 7
+      title: Athletic Champion
+      hint: ''
+  classIdentifier: fighter
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729038379851
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!CK6Kc7tCtTeUE5BN'

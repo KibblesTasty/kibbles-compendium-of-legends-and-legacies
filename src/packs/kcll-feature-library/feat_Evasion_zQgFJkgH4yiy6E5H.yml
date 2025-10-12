@@ -3,55 +3,6 @@ type: feat
 img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 effects: []
 flags:
-  betterRolls5e:
-    quickDesc:
-      type: Boolean
-      value: true
-      altValue: true
-    quickAttack:
-      type: Boolean
-      value: true
-      altValue: true
-    quickSave:
-      type: Boolean
-      value: true
-      altValue: true
-    quickDamage:
-      type: Array
-      value: []
-      altValue: []
-      context: []
-    quickProperties:
-      type: Boolean
-      value: true
-      altValue: true
-    quickCharges:
-      type: Boolean
-      value:
-        use: true
-        resource: true
-        charge: true
-      altValue:
-        use: true
-        resource: true
-        charge: true
-    quickTemplate:
-      type: Boolean
-      value: true
-      altValue: true
-    quickOther:
-      type: Boolean
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      type: Boolean
-      value: true
-      altValue: true
-    quickPrompt:
-      type: Boolean
-      value: false
-      altValue: false
   core: {}
 system:
   description:
@@ -124,8 +75,8 @@ _stats:
   systemVersion: 4.1.1
   coreVersion: '13.344'
   createdTime: 1678741859532
-  modifiedTime: 1744825720992
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   compendiumSource: Item.tXlgLLYqNfMyhZnn
   duplicateSource: null
   exportSource: null
@@ -133,6 +84,5 @@ folder: null
 sort: 90900000
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
 _id: zQgFJkgH4yiy6E5H
 _key: '!items!zQgFJkgH4yiy6E5H'

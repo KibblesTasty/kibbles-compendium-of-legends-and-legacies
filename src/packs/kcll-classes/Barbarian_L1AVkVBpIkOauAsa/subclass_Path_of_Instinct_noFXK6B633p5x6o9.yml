@@ -1,0 +1,137 @@
+folder: L1AVkVBpIkOauAsa
+name: Path of Instinct
+type: subclass
+_id: noFXK6B633p5x6o9
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  description:
+    value: >-
+      <p>While many Barbarians lose control when they rage, flying into wild
+      tantrums, some operate in a state of cold absolute focus, becoming
+      creatures of pure instinct and finely honed reflexes. Entering a void-like
+      state of mind, they act almost without conscious thought, accomplishing
+      superhuman feats and shrugging off hits.</p><p>Though utter calm might
+      seem less frightening than the frothing rage of their counterparts, true
+      terror sets in once their foes witness the destruction such perfect focus
+      can bring.</p><hr /><p>The following are some optional quirks for a player
+      of this Path to choose from—these can be either preexisting, signaling
+      their fated path toward this Path, or appear after you commit yourself to
+      this
+      Path.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.4MMRS46HzpSJNbBo
+      rollable]</p>
+    chat: ''
+  identifier: path-of-instinct
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: 8vw792ec7neMegAX
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.XrtDSi7MNJPGOeN9
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Path Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GZNCajiiaQwDkWqK
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Path Feature
+      hint: ''
+      _id: zV4lFfuM8eInofXg
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zQgFJkgH4yiy6E5H
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Path Feature
+      hint: ''
+      _id: 4WqUsTdM3wTgbZbw
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9fmnzmFGrJUAf92m
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Path Feature
+      hint: ''
+      _id: JbDIJhEQCKB1unYW
+    - _id: hsHDK1YvTA15S96S
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:ins
+        choices: []
+      value:
+        chosen: []
+      level: 3
+      title: Instinctive Insight
+      hint: |-
+        Additionally at 3rd level, your natural intuition and
+                ability to read creature behavior grants you
+                proficiency in the Insight skill. If you are already
+                proficient in Insight, you gain expertise in it, allowing
+                you to add twice your proficiency bonus to Insight
+                checks.
+    - _id: BUxcngYVl6azPPkj
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '6':
+            value: 10
+          '10':
+            value: 20
+          '14':
+            value: 30
+      value: {}
+      title: Blindsight
+      hint: ''
+  classIdentifier: barbarian
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729038193813
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!noFXK6B633p5x6o9'

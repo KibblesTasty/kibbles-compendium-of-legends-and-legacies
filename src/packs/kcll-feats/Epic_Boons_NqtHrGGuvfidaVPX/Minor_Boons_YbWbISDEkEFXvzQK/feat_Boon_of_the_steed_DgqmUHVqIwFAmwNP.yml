@@ -1,0 +1,99 @@
+folder: YbWbISDEkEFXvzQK
+name: Boon of the steed
+type: feat
+_id: DgqmUHVqIwFAmwNP
+img: icons/magic/nature/wolf-paw-glow-teal-blue.webp
+system:
+  activities:
+    he49KGAfUUaMYoaB:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties: []
+        spellbook: true
+      _id: he49KGAfUUaMYoaB
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You gain the ability to cast
+      @UUID[Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H]{find steed} without
+      any components or expending a spell slot. Once you do so, you cannot do so
+      again until you complete a long rest.</p>
+    chat: ''
+  identifier: boon-of-the-steed
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: supernaturalGift
+    subtype: blessing
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732298074301
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!DgqmUHVqIwFAmwNP'

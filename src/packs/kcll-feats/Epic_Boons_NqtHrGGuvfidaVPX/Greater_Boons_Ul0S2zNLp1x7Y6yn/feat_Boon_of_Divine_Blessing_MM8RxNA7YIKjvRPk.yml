@@ -1,0 +1,98 @@
+folder: Ul0S2zNLp1x7Y6yn
+name: Boon of Divine Blessing
+type: feat
+_id: MM8RxNA7YIKjvRPk
+img: icons/magic/control/buff-flight-wings-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You are permanently under the effect of the
+      @UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{bless} spell.</p>
+    chat: ''
+  identifier: boon-of-divine-blessing
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: supernaturalGift
+    subtype: epicBoon
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: Boon of Divine Blessing
+    img: icons/magic/control/buff-flight-wings-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.MM8RxNA7YIKjvRPk
+    _id: rrmTRflFJF69Gj4X
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.abilities.save
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.mwak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rwak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.msak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rsak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732305743563
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!MM8RxNA7YIKjvRPk.rrmTRflFJF69Gj4X'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732295850015
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!MM8RxNA7YIKjvRPk'

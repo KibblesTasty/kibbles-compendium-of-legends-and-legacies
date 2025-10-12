@@ -1,0 +1,196 @@
+folder: LuM0oQiDtN0XB4ZU
+name: Adventurer
+type: subclass
+_id: NYvbrYUgUFsnHvyZ
+img: icons/containers/bags/pack-leather-brown.webp
+system:
+  description:
+    value: >-
+      <p>An adventurer is a well rounded fighter that specializes in
+      preparation. They are resourceful survivors that excel at tackling a wide
+      range of situations with preparation.</p><p>They are generalists who are
+      always useful to have around. They come from any walk of life, sharing
+      only a spirit of adventure and knack for being useful.</p><hr /><p>The
+      following are some optional quirks for a player of this Archetype to
+      choose from—these can be either preexisting, signaling their fated path
+      toward this Archetype, or appear after they select this
+      Archetype.</p><p>@Embed[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-tables.RollTable.xqBbf5k6EueUOnmy
+      rollable]</p>
+    chat: ''
+  identifier: adventurer
+  source:
+    revision: 1
+    rules: '2014'
+  advancement:
+    - _id: NhtARWnBZn209Dab
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.gJsQ8SInPzCKUe5S
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wBPiyooCnzMFDRJb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Martial Archetype Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hYQodnuX9mcSYM2K
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Martial Archetype Feature
+      hint: ''
+      _id: 2UUplAxJGvPfYnO8
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.E7YlVGb5e8qcTjBd
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Martial Archetype Feature
+      hint: ''
+      _id: DD3ClDEi0Kz7KigV
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9ck7pWsgHXYfXjXa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Martial Archetype Feature
+      hint: ''
+      _id: xw8IdluIkKZpGwja
+    - _id: kbgOcu15MRPsOebI
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 2
+          '9':
+            value: 3
+          '15':
+            value: 4
+      value: {}
+      title: Improvised Resources
+      hint: ''
+    - _id: ajGKwcscShS4aRW0
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 2
+            pool:
+              - skills:*
+              - languages:*
+              - tool:*
+      value:
+        chosen: []
+      level: 3
+      title: Well Rounded
+      hint: ''
+    - type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - languages:*
+              - tool:*
+              - skills:*
+      value:
+        chosen: []
+      level: 9
+      title: Well Rounded
+      hint: ''
+      _id: XqveZG9JCX6tDO97
+    - type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+              - skills:*
+              - languages:*
+      value:
+        chosen: []
+      level: 15
+      title: Well Rounded
+      hint: ''
+      _id: iY8wB5G7hQKOUWVS
+    - _id: wuLESHMzXlvz7OHA
+      type: ItemChoice
+      configuration:
+        choices:
+          '10':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zPqpmldJzu3kafAV
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Ud3VU9l02YBvWDTi
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UhKvfC1fqBof5V89
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.SdloZyvsIOBUNXjN
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RdisQMszpQUsNjCK
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Acquired Knack
+      hint: 'At 10th level, you can select one of the following abilities:'
+  classIdentifier: fighter
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1729038363804
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!NYvbrYUgUFsnHvyZ'

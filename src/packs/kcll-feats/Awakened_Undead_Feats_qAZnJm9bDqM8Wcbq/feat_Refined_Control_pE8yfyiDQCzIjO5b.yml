@@ -1,0 +1,77 @@
+folder: qAZnJm9bDqM8Wcbq
+name: Refined Control
+type: feat
+_id: pE8yfyiDQCzIjO5b
+img: icons/magic/death/hand-withered-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You gain more granular control over your body, even when it is not all
+      attached, allowing it to take advantage of its unnatural properties. You
+      gain the following benefits:</p><ul><li><strong>Ability Score
+      Increase.</strong> Increase your Intelligence, Wisdom, or Charisma ability
+      score by 1, to a maximum of 20.</li><li><strong>Removable Parts.</strong>
+      You can remove a limb and continue to control it. It gains the statistics
+      of a Crawling Claw, but has a blindsight of 5 × your proficiency bonus
+      instead of 30 feet. This crawling claw gains all the abilities of a
+      familiar as per the find familiar spell. You lose use of the limb for
+      anything else while it is not attached. If it is destroyed, you can attach
+      a new limb over the course of a long
+      rest.</li><li><strong>Dullahan.</strong> Being beheaded (for example, by a
+      vorpal sword) is no longer fatal to you, though your body cannot move more
+      than 120 feet from your head.</li></ul>
+    chat: ''
+  identifier: refined-control
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Awakened Undead
+  advancement:
+    - _id: CJeOwSYB9j6oREYe
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1732224769842
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!pE8yfyiDQCzIjO5b'

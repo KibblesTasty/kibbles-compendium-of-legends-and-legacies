@@ -5,13 +5,12 @@ img: icons/magic/symbols/mask-yellow-orange.webp
 system:
   description:
     value: >-
-      <p style="box-sizing:border-box;user-select:text;margin:0.5em 0px"><span
-      style="font-family:Signika, sans-serif">When you create the totem, it
-      attempts to bind a Large or smaller creature of your choice within 10
-      feet, forcing them to make a Dexterity saving throw against your spell
-      save DC. On failure, they are pulled to within 5 feet of the totem and
-      grappled by it (escape DC equals your spell save DC). This totem cannot be
-      made mobile by other effects or features.</span></p>
+      <p>When you create the totem, it attempts to bind a Large or smaller
+      creature of your choice within 10 feet, forcing them to make a Dexterity
+      saving throw against your spell save DC. On failure, they are pulled to
+      within 5 feet of the totem and grappled by it (escape DC equals your spell
+      save DC). This totem cannot be made mobile by other effects or
+      features.</p>
     chat: ''
   source:
     custom: ''
@@ -93,20 +92,7 @@ system:
 effects: []
 ownership:
   default: 0
-  ZltBRX3qCs8ZDdsL: 3
-  pJeIW7qCa0HkURWq: 3
 flags:
-  rsr5e:
-    quickDesc:
-      value: true
-    quickFooter:
-      value: true
-    quickOther:
-      context: ''
-    quickSave:
-      value: true
-    quickTemplate:
-      value: true
   core: {}
   dnd5e:
     riders:
@@ -115,12 +101,12 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.1
+  systemVersion: 5.1.9
   createdTime: 1727317507006
-  modifiedTime: 1732221374043
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: VAiKxZnRJi39iFSz
 sort: 23200000

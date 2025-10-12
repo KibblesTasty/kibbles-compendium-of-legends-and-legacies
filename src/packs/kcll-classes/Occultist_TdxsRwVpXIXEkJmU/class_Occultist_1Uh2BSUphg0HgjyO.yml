@@ -1,0 +1,925 @@
+name: Occultist
+type: class
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+effects: []
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Wisps of purple smoke and dancing shadows rise from the ritual as the
+      young human woman with strange magical markings tattooed across her hands
+      whispers words in a language long forgotten, calling forth ancient powers.
+      The woods creak and bend, black wings beating as a raven alights on the
+      outstretched hand of an ancient elf, her eyes as black as the raven’s.
+      Soft words are spoken, and the elf nods in agreement.</p><p>A young orc
+      lets out a bellowing roar and flames burst into a form taller than an
+      ogre, causing her enemies to flee. She holds up her spear and the flames
+      pour from the roaring fire spirit to it, swirling about it, causing it to
+      roar alight with searing magical flames.</p><p>The mysterious halfling
+      woman gives a knowing smile, her unseeing eyes focused on you. She knows
+      what you’ve come for, and tosses a handful of incense into the fire; what
+      it is she sees in there? Your fate? Your destiny? As she speaks, it is
+      only in riddle.</p><p>Occultists are those that follow the old ways: a
+      path of ritual and wisdom long known yet oft forgotten. Rather than force
+      magic to obey, they bind, twist, manipulate, and compromise with it. They
+      follow ancient agreements and techniques to produce results that few fully
+      understand, even those that use them, but that they know it will work, for
+      it always has.</p><h2>Ancient Traditions</h2><p>Occultists are
+      spellcasters following legacies that go far back. While they may or may
+      not be directly tutored or influenced by another member of their
+      tradition, their path to magic involves unearthing ancient secrets, old
+      ways, and knowledge gleaned from spirits, ghosts, and
+      elementals.</p><p>They often personify aspects of their magic in ways that
+      other casters find odd, coaxing and manipulating magic forces by ancient
+      laws and bargains. Occultists tread between the arcane and the divine, not
+      necessarily worshiping any god, but treating gods and spirits alike with
+      cautious respect for their domains, asking for what they take, and
+      carefully giving thought to their actions.</p><p>Each tradition that
+      appears in the Occultist is an ancient legacy of magic, found deep within
+      folklore and story. Every villager could tell you stories of Occultists
+      and their traditions, and they are often seen in this context. Though
+      villagers and the superstitious might fear them and their magic, they may
+      be more likely to turn to them than a Wizard; at least an Occultist makes
+      sense to them, even if they are scared by their powers.</p><h2>Spiritual
+      Magic</h2><p>A common thread of the magic wielded by the Occultist is the
+      spiritual connection of it; the demidivine nature of magic that taps into
+      the weave of magic, oft through intermediaries such as gods, spirits,
+      elementals, and more.</p><p>Frequently an Occultist may call upon their
+      magic through the mediums of spirits quite directly, even having names for
+      the spirits it calls about to bring about certain magical effects. The
+      verbal component of an Occultist’s spell might be calling upon a spirit to
+      work their wish, an invocation of their ancient bargain, or words in a
+      language designed to bind and persuade.</p><h2>Creating an
+      Occultist</h2><p>When creating an Occultist, the most important decision
+      will be what Tradition you follow. Each Tradition of an Occultist is
+      distinct, with divergent flavor and calling upon a different aspect of
+      folklore.</p><h3>Quick Build</h3><p>You can make an Occultist quickly by
+      following these suggestions.</p><p>First, Wisdom should be your highest
+      ability score, followed by Constitution or Dexterity. Second, choose a
+      background that lives on the fringes of society. Third, choose the chill
+      touch, guidance, and poison spray cantrips, along with the following
+      1st-level spells: burning hands, cure wounds, and hideous laughter.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCLL
+    page: ''
+    custom: ''
+    license: ''
+    rules: '2014'
+  identifier: occultist
+  levels: 1
+  hitDice: d6
+  hitDiceUsed: 0
+  advancement:
+    - _id: 0sre44tz9bzgu4v3
+      type: HitPoints
+      configuration: {}
+      value: {}
+    - _id: Z9MzbAEFOW16MMG9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Mt6bYEbNe3ryWyw1
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: ''
+    - _id: XBQcYhTXLWFQO9U8
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bbEdih4rJG8YUckl
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+    - _id: 59nwYj03LwP6gSL2
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.WV95IfJies0yV1Ub
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: ''
+    - _id: 3OIOOldOACOyK5wi
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.o4UMPnykdqf8jXbJ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - type: Trait
+      level: 1
+      configuration:
+        grants:
+          - saves:wis
+          - saves:cha
+        mode: default
+        allowReplacements: false
+        choices: []
+      value:
+        chosen:
+          - saves:wis
+          - saves:cha
+      _id: cS7aqmzhpJsZB2mP
+      title: ''
+      hint: ''
+      classRestriction: primary
+    - type: Trait
+      level: 1
+      configuration:
+        choices:
+          - count: 2
+            pool:
+              - skills:ani
+              - skills:arc
+              - skills:dec
+              - skills:his
+              - skills:inv
+              - skills:med
+              - skills:nat
+              - skills:rel
+              - skills:slt
+              - skills:ste
+              - skills:sur
+        mode: default
+        allowReplacements: false
+        grants: []
+      _id: mIYlD0If7tipMLDG
+      value:
+        chosen: []
+      title: ''
+      hint: ''
+      classRestriction: primary
+    - _id: 7KqG14J3HiOJYlcc
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:lgt
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: ''
+      hint: ''
+    - _id: olBkfH6767nRcZgN
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:sim:dagger
+          - weapon:sim:lightcrossbow
+          - weapon:sim:quarterstaff
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: ''
+      hint: ''
+      classRestriction: primary
+    - _id: BsTZ9ws9E8BSaPfm
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - tool:herb
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: ''
+      hint: ''
+      classRestriction: primary
+    - _id: AJl3mSJ78qj41Ju4
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 3
+          '4':
+            value: 4
+          '10':
+            value: 5
+          '12':
+            value: 6
+          '15':
+            value: 7
+          '18':
+            value: 8
+      value: {}
+      title: Cantrips Known
+      hint: ''
+    - _id: RNdmpD5b5CegoOWE
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 3
+          '2':
+            value: 4
+          '3':
+            value: 5
+          '4':
+            value: 6
+          '5':
+            value: 7
+          '6':
+            value: 8
+          '7':
+            value: 9
+          '8':
+            value: 10
+          '9':
+            value: 11
+          '10':
+            value: 12
+          '11':
+            value: 13
+          '12':
+            value: 14
+          '13':
+            value: 15
+          '14':
+            value: 16
+          '15':
+            value: 17
+          '16':
+            value: 18
+          '17':
+            value: 19
+          '18':
+            value: 20
+      value: {}
+      title: Spells Known
+      hint: ''
+    - _id: dZHMy3530RPCjzvD
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      title: ''
+    - _id: dBMWU3h8MBO4PcEm
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      title: ''
+    - _id: nROeTbeO8vrGjqAp
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      title: ''
+    - _id: prZMkvcCNoLvF4yB
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      title: ''
+    - _id: puDaUsYrlks0z5gm
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 19
+      title: ''
+    - _id: RLpwUuxYNZp32f2n
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 1
+      title: Occultist Tradition
+      hint: |-
+        Choose an occult tradition, shaping your the
+            techniques, features, and rites available to you from
+            the following: Witch, Hedge Mage, Oracle, Shaman,
+            Spiritualist, or Voidwatcher.
+            Your choice grants you features at 1st level, 3rd
+            level, 6th level, and 14th level.
+    - _id: 5TW4J51O5KQhDwA9
+      type: ItemChoice
+      configuration:
+        choices:
+          '2':
+            count: 2
+            replacement: false
+          '3':
+            count: null
+            replacement: true
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: 1
+            replacement: true
+          '6':
+            count: null
+            replacement: true
+          '7':
+            count: 1
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: 1
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: 1
+            replacement: true
+          '13':
+            count: null
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: 1
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: null
+            replacement: true
+          '18':
+            count: 1
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AHCldxV5Gdn7AJ52
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.OluAMtboTUgeRuTJ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KmTXhNSnpwDn7Jy7
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.C7GbYOdCuGzjCWrP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yvGQQ9YONvYYlNVP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.oJnHuLZNbpcFBkDZ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dGFIQ7K6E312hi3W
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nrw5IaGvs9flWUbH
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.6mTPshLaJVkjF8um
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.aDc0bYJiG5TOWtE6
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hCQziWnDhpW2DuEG
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.67HVRUOiPkEcQ9aH
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.iKLzseDw87u22hjn
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8rtxUFdu3x1iFMFM
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9b0TII6H883NQ2WE
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.764Y5e2QHvPvf8da
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.JsBm19eoiVt6qpV6
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZeTQXiDRzEgetdil
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8rfwz50IL430jlfM
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cVUWH3pwxfRi4AY3
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mucJWFFRvdKtbJ5M
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3NZk9hzqTLAYsjNc
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.HAzOQzNshjQQxtra
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.uRKC4ZrFtx5oxDzQ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Xyk1GUsQEux6GIA0
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KuooQ06rQOC5OYrr
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0JFccPhJYBfpN97S
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nmJcr1ezBGqwCLQ8
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.aXnv0ASozO7cuuL9
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CV8muB2kfodmLIc1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LE8FIf4tkaO2nI7Q
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Soaem1f2CwORnuuC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tMozmEnonNvqceo2
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CAF8CTBBTEl5Lc9t
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NIR8U41f9F4HF9QE
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rBdQ97WmZmLmF9MK
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.O2uKa8cMsDE3N3p7
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.gilcOHcBSTlZvMQ0
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LN1u7ONjuE1EY3Z3
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.6If5I00U0GNQtce6
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sjqrAwnacU4yXshT
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bhR7P9Rh3ixs9w3y
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MQ9Ai5rvq2p7JcEC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sPvmAdwkcVEIyHtO
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.7UqHExVQeyJiUqI0
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AQxfkP9OpXyQMHSM
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.HmuOl58NKxNkK8Db
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Uetb1nMmsl9pcpHB
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.sNWDkX7AVInnPVJW
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.qMLfvz4vXQ00u0O1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mIZgaK1gvuUxXd67
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yunZ4QZAY0nzTacC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.oL5AUgepOf39XAOd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3hLsjLw9LsUtEbeM
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NsZnZApy0bxg3AbT
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KBmnN3KkV5Deb2XZ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tdxIUp5XvPwgSvEq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.zcLOxdoYysATM484
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9n9Rf9tFlv8Ls5f2
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.frtq7yqCDufTxDIP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wwHSJuwA0OcqoxX8
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YKdZct0BQlHkDys1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.EaCi55fb7uOtUQMM
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.j70dH7C9sTHZIz9H
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.DzHfDsG1lBpbfmKq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ahCohC4eu1489LM0
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GNqGInK5jRtDMWWi
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.l9kTtjR1aNafbG1k
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.dgEnvUrH8TXmW0Vm
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.623Sa5ldWg2yckct
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Xl9ocvy2yvZvTIfP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.8lkWkNVJOWyll2DY
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MNUC3VkMQ6Ogrjip
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.OiZsLb58sORgz3Ul
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5s8irEyZUFhevE3M
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.GckjHGRi1plYqWFq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5bDYtcuR7Q29Gbg8
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5BS4ebGhOOE9s46j
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2VUD7uK7jezpIkoc
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cd1AfZMkmd0tI1wC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.3UspuLUk1NEgBW2E
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.JvsAwWoU1P6IeHvG
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.KmJwBiZ4pFW74ZYw
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4qDKdvBJZw0Dc3lm
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.c3CczriFkoGOew0E
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.b1jM3yPazzchGp4a
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lNh8fEzm2cTasRzG
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.urThx7MQFs7QFL13
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.h41OnpeuU6cjGSob
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eGb8sFwb4XmUpwhm
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yobkUb2CtQuJC5my
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.SqMovrdVZGxxVd7c
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ktGnOFcMB15kI7Of
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.OhpXmOFemzQLyZDa
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.lrNvwhJnf6IKIbEN
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.etENdU8dVgHAx5KV
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wHfXhxbmoYcaKTZr
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.W2tCKZhomrsBTPtm
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.0w1tcnoXvdyZtK3z
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mTMKlZnNGHTH9Gl5
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eiRkSumvhGFW85iC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.PLxuKL7ERZ0XdXxJ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Lw7HS8DVwqqwJPfV
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.A357aGQF0A3dEhT3
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.4fvMO72ivIMk1uVd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.bABXZDZ26Ox7nKEs
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.hp9bwAroktP0CANq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.1QLnH8HOTL5C3nsh
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.v8jldd3mdUYifr4T
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FMRTwc1TDgjW7xj9
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AE87QZMNIoahMssQ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Yz6SWQZaqEtGwFzO
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.j4p3VaFnCjIUmZ85
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.nsxq7kenuK5hEeqD
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.oLXltnRBD8tEfp3r
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.YCdtSCd3zfmm4h2A
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.SNznmwZdtip7OnWm
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VZ6HoZFCQjvqypRi
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wTS4A9JrE1PDKrg2
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UzSox3H2W767vpW3
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.rLgUKHPTA00wFiKe
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cSIpFLSA9VG8YFqD
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.AB6cXsvc23HSB77Z
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.df8v2up4LxrAlctk
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.I7ZCNaDd7OwLMXHq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.IX6p6AZYc8IcWlTz
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Ak9snmdkli7oOHxP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.drDFPRrG6Te80mQY
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.NFl8doa21eBvTn7t
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.v4CRFC3SG8nqKqUc
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.CTHMjy5LkrOEHLrb
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.pQDMeQ2LwgzR3YFX
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.FMLZDOpV3bi74T8f
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.5iSjBLtYCQ6hgsx1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.vwKrUWvzf7G9cJvC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wrecamJJNqi2VMIB
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Myab3e2IodkZfImg
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.cWiJuEChEKzMNE1f
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jX81eoxBMeYRPQLo
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tCafZEYETmqQe8bp
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ZX9zMaUKgjJzoNyU
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.ulS3nFYEFs6sCTEb
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mhTIT9ZUYdsmi0r9
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.mxGB3NGRCKWTb5ig
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.jM5BAOW3etgIikIF
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.9kzBGNPdQivJdrMw
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.U0JeCsVuKdkIZixC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.yYxXk2FxIZhI5Nvr
+        spell: null
+        restriction:
+          type: class
+          subtype: occultistRite
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Occult Rites
+      hint: ''
+    - _id: asx2BTTXB8S49n5S
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - skills:ani
+              - skills:arc
+              - skills:med
+              - skills:nat
+              - skills:rel
+              - skills:sur
+      value:
+        chosen: []
+      level: 10
+      title: Traditional Expertise
+      hint: |-
+        Starting at 10th level, your passed down knowledge
+                                                                        of tradition gives you expertise in a skill of your
+                                                                        tradition; choose one of your skill proficiencies from
+                                                                        among Animal Handling, Arcana, Medicine, Nature,
+                                                                        Religion, or Survival. Your proficiency bonus is
+                                                                        doubled for any ability check you make that uses the
+                                                                        chosen proficiency. If you do not have proficiency in
+                                                                        any of the selected skills, you instead gain proficiency
+                                                                        in one of your choice.
+  saves:
+    - wis
+    - cha
+  skills:
+    number: 2
+    choices:
+      - ani
+      - arc
+      - dec
+      - his
+      - inv
+      - med
+      - nat
+      - rel
+      - slt
+      - ste
+      - sur
+    value: []
+  spellcasting:
+    progression: full
+    ability: wis
+    preparation:
+      formula: ''
+  subclass: Tradition of the Oracle
+  critical:
+    threshold: null
+    damage: null
+  wealth: 4d4 * 10
+  startingEquipment:
+    - type: OR
+      requiresProficiency: false
+      _id: FwT5st1KtMrRNx8b
+      group: ''
+      sort: 100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.g2dWN7PQiMRYWzyk
+      requiresProficiency: false
+      _id: Ij0ELDMXXLQFLCHx
+      group: FwT5st1KtMrRNx8b
+      sort: 200000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2
+      requiresProficiency: false
+      _id: kGJ3LIULXaZPkZrv
+      group: FwT5st1KtMrRNx8b
+      sort: 300000
+    - type: weapon
+      count: null
+      key: sim
+      requiresProficiency: false
+      _id: Wn1STksi20OIMNB5
+      group: FwT5st1KtMrRNx8b
+      sort: 400000
+    - type: OR
+      requiresProficiency: false
+      _id: 1lhkMdjb2xmozVkX
+      group: ''
+      sort: 500000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.eZGmdOhaTWMicXPW
+      requiresProficiency: false
+      _id: epawHZ1mD1Qq9q5Y
+      group: 1lhkMdjb2xmozVkX
+      sort: 600000
+    - type: linked
+      count: null
+      key: >-
+        Compendium.kibbles-compendium-of-legends-and-legacies.kcll-items.Item.6q1U0Dcw2e8KTiJG
+      requiresProficiency: false
+      _id: Ofz4zKLYIUb3jRoU
+      group: 1lhkMdjb2xmozVkX
+      sort: 700000
+    - type: OR
+      requiresProficiency: false
+      _id: lMcxkgj7palcXRUu
+      group: ''
+      sort: 800000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.UOE8RGOpgv2oWIvM
+      requiresProficiency: false
+      _id: 6oaorpBehN9Q2pq0
+      group: lMcxkgj7palcXRUu
+      sort: 900000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP
+      requiresProficiency: false
+      _id: EZxdvqFWUv77zWnO
+      group: lMcxkgj7palcXRUu
+      sort: 1000000
+    - type: OR
+      requiresProficiency: false
+      _id: Sa6Zmi7jKokZcqSK
+      group: ''
+      sort: 1100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5
+      requiresProficiency: false
+      _id: iBRhWGwSLitXn5xF
+      group: Sa6Zmi7jKokZcqSK
+      sort: 1150000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.XmnlF5fgIO3tg6TG
+      requiresProficiency: true
+      _id: VZYJxbzP9thGxtsI
+      group: Sa6Zmi7jKokZcqSK
+      sort: 1200000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.i89okN7GFTWHsvPy
+      requiresProficiency: false
+      _id: BgcEYsiJypdiJNut
+      group: ''
+      sort: 1400000
+  primaryAbility:
+    value:
+      - wis
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  coreVersion: '13.350'
+  createdTime: 1682023488524
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.HoOaXrGI9QmZj7qK
+  duplicateSource: null
+  exportSource: null
+folder: TdxsRwVpXIXEkJmU
+sort: 100000
+ownership:
+  default: 0
+_id: 1Uh2BSUphg0HgjyO
+_key: '!items!1Uh2BSUphg0HgjyO'

@@ -23,6 +23,8 @@ system:
     subtype: occultistRite
   prerequisites:
     level: null
+    items:
+      - blood-cultist
   properties: []
   requirements: Humanoid Creature Type
 effects: []
@@ -30,16 +32,15 @@ folder: null
 sort: 0
 ownership:
   default: 0
-  pJeIW7qCa0HkURWq: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 5.1.9
   createdTime: 1733114428799
-  modifiedTime: 1733351678102
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _key: '!items!AHCldxV5Gdn7AJ52'

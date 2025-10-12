@@ -1,0 +1,253 @@
+folder: iD1OKYjdAcPe0h8l
+name: Burning Soul
+type: feat
+_id: wrew39noeho2aozc
+img: icons/magic/fire/flame-burning-yellow-orange.webp
+system:
+  activities:
+    oEY3lONkSU1uTqHc:
+      type: heal
+      name: Explosive Rejuvenation
+      _id: oEY3lONkSU1uTqHc
+      sort: -100000
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 2
+        denomination: '4'
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: (@prof)d4
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+    ddzwKWAxYf0NKnbw:
+      type: save
+      name: Explosive Rejuvenation
+      _id: ddzwKWAxYf0NKnbw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d4
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You harbor within your soul an ember of the flame of life akin to the
+      power of a phoenix. You gain the following
+      benefits:</p><ul><li><strong>Ability Score Bonus.</strong> Increase your
+      Strength, Constitution or Charisma ability score by 1, to a maximum of
+      20.</li><li><strong>Resilient Life.</strong> You gain advantage on death
+      saving throws. If you have Explosive Rejuvenation available when you would
+      fail your 3rd death saving throw, it automatically activates instead.
+      </li><li>You gain the Explosive Rejuvenation special bonus action
+      (below).</li></ul><h5 id="explosive-rejuvenation">Explosive
+      Rejuvenation</h5><p><em>Active Ability (Bonus Action,
+      Supernatural)</em></p><p>As a bonus action, you can unleash the power of
+      the ember within your soul, exploding with fire. You regain 2d4 hit
+      points, and all creatures within 10 feet of you must make a Dexterity
+      saving throw, taking 2d4 fire damage on a failed save, or half as much on
+      a successful one.</p><p>The fire damage and hit points regard increase by
+      1d4 each time your proficiency increases (remaining equal to your
+      proficiency bonus).</p><p>Once you use this ability, you cannot use it
+      again until you complete a long rest.</p>
+    chat: ''
+  identifier: burning-soul
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties:
+    - mgc
+  requirements: ''
+  advancement:
+    - _id: 0ehwVZGk5DxZJYZb
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects:
+  - name: Burning Soul
+    img: icons/magic/fire/flame-burning-yellow-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.wrew39noeho2aozc
+    _id: NBhH1sPqVirbOeiT
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.death.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744829819101
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!wrew39noeho2aozc.NBhH1sPqVirbOeiT'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729047545029
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!wrew39noeho2aozc'

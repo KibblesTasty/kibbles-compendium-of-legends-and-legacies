@@ -1,0 +1,157 @@
+folder: oHNnGkIfPY35Nhxf
+name: Destroyer
+type: feat
+_id: hWMxt26PafZoLVwh
+img: icons/skills/melee/shield-damaged-broken-brown.webp
+system:
+  activities:
+    yBxMmxsXscPTHynn:
+      type: save
+      name: Whirlwind Slash
+      _id: yBxMmxsXscPTHynn
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '5'
+          count: ''
+        affects:
+          choice: true
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @abilities.str.mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: str
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You bring ruin to the battlefield, cleaving through hordes. You gain
+      the following benefits:</p><ul><li><strong>Ability Score
+      Increase.</strong> Increase your Strength or Constitution score by 1, to a
+      maximum of 20.</li><li><strong>Cleaving Blows.</strong> When you reduce a
+      creature to 0 hit points with an attack, you can apply any overflow damage
+      (damage dealt by the attack over what was required to bring the target to
+      zero) to another creature within 5 feet of the target, if the attack roll
+      would also hit that target.</li><li>Gain the Whirlwind Slash special
+      attack (below).</li></ul><h5 id="whirlwind-slash">Whirlwind
+      Slash</h5><p><em>Active Ability (Attack)</em></p><p>When you take the
+      Attack action on your turn, you can replace one of your attacks with
+      spinning your weapon in a massive arc with great force. All creatures of
+      your choice within 5 feet of you must make a Dexterity saving throw. On
+      failure, they take 2d6 + your Strength modifier damage, or half as much on
+      a successful save. The number of d6 increases by one when your proficiency
+      bonus increases (with the total number of d6 equaling your proficiency
+      bonus).</p><p>Once you use this feature, you cannot use it again until you
+      complete a short or long rest.</p>
+    chat: ''
+  identifier: destroyer
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties: []
+  requirements: ''
+  advancement:
+    - _id: AN68BzrjHhPaStms
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729046688690
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!hWMxt26PafZoLVwh'

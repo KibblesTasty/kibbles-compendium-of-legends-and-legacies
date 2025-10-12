@@ -1,0 +1,162 @@
+folder: oHNnGkIfPY35Nhxf
+name: Striker
+type: feat
+_id: wPq6ch0q4lEnl4Mk
+img: icons/skills/melee/strike-sword-blood-red.webp
+system:
+  activities:
+    iU1d2GXy4f1m7Ycn:
+      type: save
+      name: Slashing Dash
+      _id: iU1d2GXy4f1m7Ycn
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: line
+          size: '30'
+          count: ''
+          width: '5'
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: (@prof)d6 + @mod
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: dex
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You move like the wind, striking faster than your foes can see. You
+      gain the following benefits:</p><ul><li><strong>Ability Score
+      Increase.</strong> Increase your Strength, Dexterity, or Constitution
+      score by 1, to a maximum of 20.</li><li><strong>Battlefield
+      Dancer.</strong> Each time you hit a creature, your movement speed
+      increases by 5 feet until the end of your turn. If you attack and hit a
+      creature with a melee weapon attack, you can pass through its space,
+      treating it as difficult terrain.</li><li>Gain the Slashing Dash special
+      attack (below)</li></ul><h5 id="slashing-dash">Slashing
+      Dash</h5><p><em>Active Ability (Attack)</em></p><p>When you take the
+      Attack action on your turn, you can replace one of your attacks with a
+      rapid burst of movement, moving up to 30 feet along any surface in a
+      straight line.</p><p>You can move on vertical or horizontal surfaces with
+      this movement, can pass through creatures, and do not provoke attacks of
+      opportunity, but cannot pass through objects or terrain. If you are
+      carrying a weapon you are proficient with when you take this action, each
+      time you pass through a creature, it must make a Dexterity saving throw. A
+      creature takes 2d6 + your Strength or Dexterity modifier (your choice)
+      damage of your weapon type on a failed save, or half as much on a
+      successful save. The number of d6 increases by one when your proficiency
+      bonus increases (with the total number of d6 equaling your proficiency
+      bonus).</p><p>Once you use this feature, you cannot use it again until you
+      complete a short or long rest.</p>
+    chat: ''
+  identifier: striker
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: feat
+    subtype: ''
+  prerequisites:
+    level: 4
+  properties: []
+  requirements: ''
+  advancement:
+    - _id: RTtB9thGazGGp484
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - int
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1729046725073
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!wPq6ch0q4lEnl4Mk'

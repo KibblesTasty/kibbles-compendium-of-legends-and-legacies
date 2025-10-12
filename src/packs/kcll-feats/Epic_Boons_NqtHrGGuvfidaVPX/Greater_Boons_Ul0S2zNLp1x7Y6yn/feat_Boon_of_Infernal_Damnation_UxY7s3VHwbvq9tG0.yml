@@ -1,0 +1,96 @@
+folder: Ul0S2zNLp1x7Y6yn
+name: Boon of Infernal Damnation
+type: feat
+_id: UxY7s3VHwbvq9tG0
+img: icons/creatures/unholy/demon-female-succubus-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your creature type becomes fiend (devil). You gain resistance to fire
+      and poison damage. You sprout infernal horns.</p><p>If you already have
+      resistance to fire or poison damage, they gain immunity to the damage
+      type.</p>
+    chat: ''
+  identifier: boon-of-infernal-damnation
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: supernaturalGift
+    subtype: epicBoon
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects:
+  - name: '"Boon" of Infernal Damnation'
+    img: icons/creatures/unholy/demon-female-succubus-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.UxY7s3VHwbvq9tG0
+    _id: H1RwLioH85PvOG4b
+    type: base
+    system: {}
+    changes:
+      - key: system.details.type.value
+        mode: 5
+        value: fiend
+        priority: null
+      - key: system.details.type.subtype
+        mode: 5
+        value: devil
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.1.1
+      createdTime: 1732304482569
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!UxY7s3VHwbvq9tG0.H1RwLioH85PvOG4b'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1732296369658
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!UxY7s3VHwbvq9tG0'

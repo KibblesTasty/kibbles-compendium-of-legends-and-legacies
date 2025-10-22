@@ -806,7 +806,7 @@ system:
     progression: full
     ability: wis
     preparation:
-      formula: ''
+      formula: '@scale.occultist.spells-known'
   subclass: Tradition of the Oracle
   critical:
     threshold: null

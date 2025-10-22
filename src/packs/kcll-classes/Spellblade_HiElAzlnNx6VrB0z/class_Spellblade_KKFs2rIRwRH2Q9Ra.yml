@@ -475,7 +475,7 @@ system:
     progression: half
     ability: int
     preparation:
-      formula: ''
+      formula: '@scale.spellblade.spells-known'
   wealth: 5d4 * 10
   primaryAbility:
     value:
@@ -578,8 +578,8 @@ system:
       sort: 1500000
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.4
-  coreVersion: '13.344'
+  systemVersion: 5.1.9
+  coreVersion: '13.350'
   createdTime: 1682023319852
   modifiedTime: null
   lastModifiedBy: null

@@ -27,7 +27,7 @@ system:
               mode: ''
           - type: itemUses
             value: '0'
-            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            target: font-of-magic
             scaling:
               mode: amount
               formula: '2'
@@ -80,7 +80,7 @@ system:
         targets:
           - type: itemUses
             value: '2'
-            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            target: font-of-magic
             scaling: {}
       description:
         chatFlavor: ''

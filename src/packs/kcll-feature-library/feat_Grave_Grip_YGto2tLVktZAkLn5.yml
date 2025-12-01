@@ -61,8 +61,12 @@ system:
         dc:
           calculation: str
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     jLTxYGQiIpsUBe2F:
       type: save
       name: Break Free
@@ -116,8 +120,12 @@ system:
           calculation: str
           formula: ''
       _id: jLTxYGQiIpsUBe2F
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     zv8bRVZ4ty8auXiE:
       type: damage
       _id: zv8bRVZ4ty8auXiE
@@ -173,8 +181,12 @@ system:
             scaling:
               number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -211,8 +223,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Bone Binder 14
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 10600000
@@ -226,11 +242,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731645698620
+  systemVersion: 5.2.0
+  createdTime: 1764610578406
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!YGto2tLVktZAkLn5'

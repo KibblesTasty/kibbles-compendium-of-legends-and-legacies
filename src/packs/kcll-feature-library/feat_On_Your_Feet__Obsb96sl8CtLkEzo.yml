@@ -76,7 +76,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -90,7 +90,7 @@ system:
         recovery: []
       healing:
         number: 1
-        denomination: '6'
+        denomination: 6
         bonus: ''
         types:
           - healing
@@ -103,23 +103,31 @@ system:
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: on-your-feet
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.IkgWo3kjQQX8FKFc
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317502624
+  systemVersion: 5.2.0
+  createdTime: 1764610569944
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 51900000
 ownership:

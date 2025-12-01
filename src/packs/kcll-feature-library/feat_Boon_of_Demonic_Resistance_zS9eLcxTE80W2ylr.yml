@@ -8,75 +8,43 @@ system:
       acid, cold, fire, or poison damage. You can select this boon multiple
       times.</p>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: cultistBoon
   requirements: ''
-  recharge:
-    value: null
-    charged: false
   identifier: boon-of-demonic-resistance-4th-level
+  activities: {}
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 effects: []
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: 1674890273962
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.xpeacWgwIP035mGb
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610602981
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 91000000
 ownership:

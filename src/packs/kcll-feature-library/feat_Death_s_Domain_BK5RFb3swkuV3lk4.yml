@@ -38,6 +38,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -51,7 +52,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     oM9MUvDf8XBzDzyM:
       type: utility
       name: Project Domain
@@ -78,6 +84,7 @@ system:
         override: false
       effects:
         - _id: 6KwLO0tObhv07lPu
+          level: {}
       range:
         override: false
         units: self
@@ -102,8 +109,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -140,8 +151,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Bone Binder 17
+  advancement: []
+  crewed: false
 effects:
   - name: Death's Domain
     img: icons/magic/death/skull-energy-light-purple.webp
@@ -173,13 +188,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731692179723
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!BK5RFb3swkuV3lk4.6KwLO0tObhv07lPu'
 folder: null
 sort: 3800000
@@ -193,11 +207,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731645716845
+  systemVersion: 5.2.0
+  createdTime: 1764610558400
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!BK5RFb3swkuV3lk4'

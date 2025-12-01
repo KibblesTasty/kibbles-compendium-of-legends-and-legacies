@@ -105,11 +105,12 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 3
       title: Oath Spells
@@ -125,11 +126,12 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 5
       title: Oath Spells
@@ -147,11 +149,12 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 9
       title: Oath Spells
@@ -169,11 +172,12 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 17
       title: Oath Spells
@@ -191,11 +195,12 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 13
       title: Oath Spells
@@ -215,11 +220,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1729039441517
+  systemVersion: 5.2.0
+  createdTime: 1764610605815
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ii2MKD1W3JZtvmIn'

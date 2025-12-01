@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: z3dqtvgHWaCNdlii
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -41,7 +43,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - temphp
         custom:
@@ -52,8 +54,12 @@ system:
           mode: ''
         bonus: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -85,9 +91,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -104,6 +107,8 @@ system:
       choice: false
       count: ''
       type: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Become Stone
     img: icons/magic/defensive/armor-stone-skin.webp
@@ -140,13 +145,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733255061512
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!D678DwGhaklDyNsi.z3dqtvgHWaCNdlii'
 folder: null
 sort: 3200000
@@ -160,11 +164,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732556458082
+  systemVersion: 5.2.0
+  createdTime: 1764610618910
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!D678DwGhaklDyNsi'

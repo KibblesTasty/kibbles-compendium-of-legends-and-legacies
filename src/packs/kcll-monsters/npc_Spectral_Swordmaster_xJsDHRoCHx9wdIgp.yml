@@ -19,6 +19,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 18
       proficient: 0
@@ -26,6 +36,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 16
       proficient: 0
@@ -33,6 +53,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 10
       proficient: 0
@@ -40,6 +70,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 14
       proficient: 0
@@ -47,6 +87,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 10
       proficient: 0
@@ -54,6 +104,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -305,13 +365,10 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
-      walk: 35
+      walk: '35'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -344,13 +401,20 @@ system:
       tempmax: 0
       formula: 8d8 + 24
     death:
-      ability: ''
       roll:
         min: null
         max: null
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -362,19 +426,23 @@ system:
     race: null
     type:
       value: undead
-    environment: ''
     cr: 6
-    spellLevel: 0
+    habitat:
+      custom: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
-      value: 0
       max: 0
+      spent: 0
     legres:
-      value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   source:
     revision: 1
     rules: '2014'
@@ -423,6 +491,8 @@ system:
     languages:
       value: []
       custom: Understands all languages it spoke in life;but can’t speak
+      communication: {}
+    important: false
 prototypeToken:
   name: Spectral Swordmaster
   displayName: 0
@@ -536,6 +606,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -550,6 +621,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -563,8 +640,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/skills/melee/blade-tips-triple-steel.webp
     _id: uShvLbpbXRLwK9za
     effects: []
@@ -577,13 +658,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.uShvLbpbXRLwK9za'
   - name: Spectral Longsword
     type: weapon
@@ -641,6 +721,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -652,6 +733,12 @@ items:
           uses:
             spent: 0
             recovery: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       damage:
         base:
           number: 1
@@ -700,7 +787,6 @@ items:
       armor:
         value: null
       cover: null
-      crewed: false
       hp:
         value: null
         max: null
@@ -709,6 +795,8 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      crew:
+        value: []
     img: icons/svg/sword.svg
     _id: BbRSknQg0diMPk3G
     effects: []
@@ -721,13 +809,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.BbRSknQg0diMPk3G'
   - name: Spectral Blade Rush
     type: feat
@@ -804,8 +891,12 @@ items:
             recovery: []
             max: ''
           name: ''
-          img: ''
-          appliedEffects: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery:
@@ -823,8 +914,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/combat.svg
     _id: I39kdQ01Uk4tOmzI
     effects: []
@@ -841,13 +936,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.I39kdQ01Uk4tOmzI'
   - name: Spectral Blade Wind
     type: feat
@@ -940,8 +1034,12 @@ items:
                 scaling:
                   number: 1
           name: ''
-          img: ''
-          appliedEffects: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery:
@@ -959,8 +1057,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/combat.svg
     _id: 4I3AHiqDAC3dW2ey
     effects: []
@@ -977,13 +1079,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.4I3AHiqDAC3dW2ey'
   - name: Spell Cleave
     type: feat
@@ -1017,6 +1118,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1031,6 +1133,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1044,8 +1152,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     flags:
       adnd5e:
         itemInfo:
@@ -1060,13 +1172,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.AR3IP34MYdbPcAta'
   - name: Vengeful Strike
     type: feat
@@ -1100,6 +1211,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1114,6 +1226,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1127,8 +1245,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     flags:
       adnd5e:
         itemInfo:
@@ -1143,13 +1265,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.Wtux0aVAa9vGThP4'
   - name: Incorporeal Movement
     type: feat
@@ -1174,8 +1295,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/air/air-wave-gust-blue.webp
     _id: Ox5vTDTXWLLYnF3t
     effects: []
@@ -1188,13 +1313,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.Ox5vTDTXWLLYnF3t'
   - name: Reactive
     type: feat
@@ -1216,8 +1340,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/symbols/rune-sigil-black-pink.webp
     _id: zmqnCN3GielA271z
     effects: []
@@ -1230,13 +1358,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.zmqnCN3GielA271z'
   - name: Unusual Nature
     type: feat
@@ -1258,8 +1385,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/book.svg
     _id: 4bUESQoBaJL8LbHN
     effects: []
@@ -1272,13 +1403,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!xJsDHRoCHx9wdIgp.4bUESQoBaJL8LbHN'
 effects: []
 flags:
@@ -1287,13 +1417,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733345040090
+  systemVersion: 5.2.0
+  createdTime: 1764610544756
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 sort: 0
 ownership:
   default: 0

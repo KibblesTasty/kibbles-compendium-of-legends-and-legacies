@@ -27,8 +27,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Heightened Awareness
     img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
@@ -60,13 +64,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731958190531
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!zPqpmldJzu3kafAV.BjSC7IzrjqJ1nIRc'
 folder: null
 sort: 18700000
@@ -76,11 +79,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731957913626
+  systemVersion: 5.2.0
+  createdTime: 1764610602733
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!zPqpmldJzu3kafAV'

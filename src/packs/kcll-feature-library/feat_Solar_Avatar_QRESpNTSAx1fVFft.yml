@@ -67,6 +67,7 @@ system:
         value: '1'
       effects:
         - _id: jpZ6GgejxVPnQcBm
+          level: {}
       range:
         override: false
         units: self
@@ -92,9 +93,12 @@ system:
         name: ''
         formula: ''
       name: Embody the Sun
-      img: ''
-      appliedEffects:
-        - jpZ6GgejxVPnQcBm
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     VwJLx88QjGSRvwev:
       type: save
       name: Empowered Radiance
@@ -160,12 +164,20 @@ system:
         dc:
           calculation: str
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Solar Avatar
     img: icons/magic/light/explosion-star-glow-silhouette.webp
@@ -193,13 +205,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731621266466
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!QRESpNTSAx1fVFft.jpZ6GgejxVPnQcBm'
 flags:
   core: {}
@@ -210,13 +221,13 @@ flags:
 _stats:
   compendiumSource: Item.T7pspWIWhOO5e9xa
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317504138
+  systemVersion: 5.2.0
+  createdTime: 1764610571786
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 54200000
 ownership:

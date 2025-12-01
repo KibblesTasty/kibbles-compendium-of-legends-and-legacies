@@ -39,13 +39,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1731617335715
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!84CvdbfHvXPv6xf1.M5jLNSwy2La1dTva'
 flags:
   core: {}
@@ -116,6 +115,7 @@ system:
         override: false
       effects:
         - _id: M5jLNSwy2La1dTva
+          level: {}
       range:
         units: self
         special: ''
@@ -128,7 +128,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -147,8 +147,12 @@ system:
         visible: false
       sort: 0
       name: Strength of the World
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     R198ig1T1RUlHfey:
       type: heal
       name: Endless Vitality
@@ -192,7 +196,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - healing
         custom:
@@ -201,23 +205,31 @@ system:
         scaling:
           number: 1
         bonus: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: primordial-avatar
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.i8fbRzHrVmZDtvbQ
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317490826
+  systemVersion: 5.2.0
+  createdTime: 1764610554909
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 34000000
 ownership:

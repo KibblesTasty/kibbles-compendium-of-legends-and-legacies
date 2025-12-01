@@ -12,7 +12,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -41,6 +41,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -56,7 +57,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     braHefuuDGuK1av1:
       type: cast
       spell:
@@ -65,7 +71,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -94,6 +100,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -109,7 +116,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     9RPWLKWdR3JQtCVw:
       type: cast
       spell:
@@ -118,7 +130,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - somatic
@@ -147,6 +159,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -162,7 +175,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     sIsgqJfoksX9h4tf:
       type: forward
       name: Detect Magic
@@ -190,9 +208,12 @@ system:
         max: ''
       activity:
         id: EUPgFqDqECP9IaAJ
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     EcuwCmRAkoi8OqZS:
       type: forward
       name: Misty Step
@@ -220,9 +241,12 @@ system:
         max: ''
       activity:
         id: braHefuuDGuK1av1
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     JQ1AGhKLWKjc96kU:
       type: forward
       name: Dimension Door
@@ -250,9 +274,12 @@ system:
         max: ''
       activity:
         id: 9RPWLKWdR3JQtCVw
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     iUkP1rOpnhNNwPBe:
       type: cast
       spell:
@@ -262,7 +289,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -291,6 +318,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -306,7 +334,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ldR4B2YAErgsxiEZ:
       type: cast
       spell:
@@ -316,7 +349,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -345,6 +378,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -360,7 +394,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     x0CEtyWz4gucJqCd:
       type: cast
       spell:
@@ -370,7 +409,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - somatic
@@ -399,6 +438,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -414,7 +454,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     YfUhP9oSvdMHaISP:
       type: forward
       name: Arcane Conduit
@@ -442,9 +487,12 @@ system:
         max: ''
       activity:
         id: iUkP1rOpnhNNwPBe
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Tjonmoep0YYEY9sc:
       type: forward
       name: Ghost Step
@@ -472,9 +520,12 @@ system:
         max: ''
       activity:
         id: ldR4B2YAErgsxiEZ
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     cKKRwEmCNJBZ01Rp:
       type: forward
       name: Dimension Cutter
@@ -502,9 +553,12 @@ system:
         max: ''
       activity:
         id: x0CEtyWz4gucJqCd
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -541,8 +595,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Astral Guardian 1
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 17800000
@@ -556,11 +614,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1731640396114
+  systemVersion: 5.2.0
+  createdTime: 1764610600422
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!wg7SrWSKlsFAqr7A'

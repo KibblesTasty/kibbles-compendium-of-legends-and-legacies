@@ -19,6 +19,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 14
       proficient: 0
@@ -26,6 +36,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 14
       proficient: 0
@@ -33,6 +53,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 12
       proficient: 0
@@ -40,6 +70,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 20
       proficient: 1
@@ -47,6 +87,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 14
       proficient: 1
@@ -54,6 +104,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -305,13 +365,10 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
-      walk: 30
+      walk: '30'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -344,13 +401,20 @@ system:
       tempmax: 0
       formula: 15d8 + 30
     death:
-      ability: ''
       roll:
         min: null
         max: null
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 7
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -363,19 +427,23 @@ system:
     type:
       value: humanoid
       subtype: Any Race
-    environment: ''
     cr: 6
-    spellLevel: 7
+    habitat:
+      custom: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
-      value: 0
       max: 0
+      spent: 0
     legres:
-      value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   source:
     revision: 1
     rules: '2014'
@@ -408,6 +476,8 @@ system:
         - common
         - celestial
       custom: ''
+      communication: {}
+    important: false
 prototypeToken:
   name: Voidwatcher
   displayName: 0
@@ -519,6 +589,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -533,6 +604,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -546,8 +623,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/skills/melee/blade-tips-triple-steel.webp
     _id: hKQAXzqXz9RBzXE4
     effects: []
@@ -560,13 +641,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.hKQAXzqXz9RBzXE4'
   - name: Gaze Of Annihilation
     type: weapon
@@ -618,6 +698,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -629,6 +710,12 @@ items:
           uses:
             spent: 0
             recovery: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       damage:
         base:
           number: 2
@@ -677,7 +764,6 @@ items:
       armor:
         value: null
       cover: null
-      crewed: false
       hp:
         value: null
         max: null
@@ -686,6 +772,8 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      crew:
+        value: []
     img: icons/svg/sword.svg
     _id: TPbZSQhqtjcCVf4q
     effects: []
@@ -698,13 +786,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.TPbZSQhqtjcCVf4q'
   - name: Crumbling World
     type: feat
@@ -737,6 +824,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -751,6 +839,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -764,8 +858,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     flags:
       adnd5e:
         itemInfo:
@@ -780,13 +878,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.PgHi7DtVGmiwXZNq'
   - name: Gaze Of Entropy
     type: feat
@@ -810,8 +907,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/book.svg
     _id: 7kEJkURhvBRYYpaE
     effects: []
@@ -824,13 +925,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.7kEJkURhvBRYYpaE'
   - name: Spellcasting
     type: feat
@@ -877,8 +977,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/fire/explosion-embers-orange.webp
     _id: ha8ybq1Nnhtiweuv
     effects: []
@@ -891,13 +995,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.ha8ybq1Nnhtiweuv'
   - name: Burn
     type: spell
@@ -1003,7 +1106,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: touch
@@ -1019,9 +1122,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1054,6 +1154,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1093,7 +1194,15 @@ items:
                   number: 1
                   formula: ''
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: burn
+      method: spell
+      prepared: 0
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1101,13 +1210,12 @@ items:
     _stats:
       compendiumSource: Item.alZa3eB3Mtef9mQE
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.3nhyrZSmMoFFHPrJ'
   - name: Decaying Touch
     type: spell
@@ -1137,6 +1245,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1176,6 +1285,12 @@ items:
                   number: 1
                   formula: ''
           name: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
         vHyR4qS9HFz157Uj:
           type: damage
           name: Secondary
@@ -1199,6 +1314,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1226,6 +1342,12 @@ items:
                 scaling:
                   mode: whole
                   number: 1
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1258,9 +1380,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1279,6 +1398,8 @@ items:
           count: ''
           type: creature
           special: ''
+      method: spell
+      prepared: 0
     effects: []
     folder: null
     sort: 9300000
@@ -1293,13 +1414,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.2bdhMWW9Is2FVNkw'
   - _id: ps0uYaI5RQYAgkJf
     name: Fire Bolt
@@ -1337,7 +1457,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '120'
@@ -1353,9 +1473,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1382,6 +1499,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1420,7 +1538,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: fire-bolt
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/fire/projectile-fireball-smoke-orange.webp
@@ -1429,13 +1555,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.ps0uYaI5RQYAgkJf'
   - _id: oEIbC0OAr00xGmcR
     name: Message
@@ -1475,7 +1600,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '120'
@@ -1491,9 +1616,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1521,6 +1643,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1538,7 +1661,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: message
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/commodities/currency/coin-engraved-sun-smile-copper.webp
@@ -1547,13 +1678,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.oEIbC0OAr00xGmcR'
   - _id: VKNG3OKylNr9ILft
     name: Hellish Rebuke
@@ -1595,7 +1725,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -1611,9 +1741,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1640,6 +1767,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1673,7 +1801,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: hellish-rebuke
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/control/fear-fright-shadow-monster-red.webp
@@ -1682,13 +1818,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.VKNG3OKylNr9ILft'
   - _id: RhUysgI7rxiohDFf
     name: Shatter
@@ -1747,9 +1882,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1777,6 +1909,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1810,7 +1943,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: shatter
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/fire/explosion-fireball-medium-blue.webp
@@ -1819,13 +1960,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!SxSzQ8INEBRYvrw0.RhUysgI7rxiohDFf'
 effects: []
 flags:
@@ -1834,13 +1974,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733345040090
+  systemVersion: 5.2.0
+  createdTime: 1764610543381
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 sort: 1200000
 ownership:
   default: 0

@@ -57,8 +57,12 @@ system:
         dc:
           calculation: str
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -86,8 +90,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Free grappling appendage (an open hand, tentacle, or similar)
+  advancement: []
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -100,11 +108,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733352656000
+  systemVersion: 5.2.0
+  createdTime: 1764610624695
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!UKXtbj6av7OfPV3B'

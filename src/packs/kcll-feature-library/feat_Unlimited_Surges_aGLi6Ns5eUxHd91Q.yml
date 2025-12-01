@@ -28,21 +28,16 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731435451154
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!aGLi6Ns5eUxHd91Q.o8Y7T7dncV1gWtx5'
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -93,13 +88,14 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects:
         - _id: o8Y7T7dncV1gWtx5
+          level: {}
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -110,7 +106,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -128,21 +124,31 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: unlimited-surges
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.Yeo5eJJgVpS8g5i0
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317510496
+  systemVersion: 5.2.0
+  createdTime: 1764610579998
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 63400000
 ownership:

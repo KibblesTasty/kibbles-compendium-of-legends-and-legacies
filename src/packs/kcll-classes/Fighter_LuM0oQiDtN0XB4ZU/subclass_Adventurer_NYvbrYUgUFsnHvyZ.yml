@@ -166,7 +166,8 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.RdisQMszpQUsNjCK
         spell: null
-        restriction: {}
+        restriction:
+          list: []
       value:
         added: {}
         replaced: {}
@@ -186,11 +187,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729038363804
+  systemVersion: 5.2.0
+  createdTime: 1764610605175
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!NYvbrYUgUFsnHvyZ'

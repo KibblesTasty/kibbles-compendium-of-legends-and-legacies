@@ -50,7 +50,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -79,6 +79,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -94,7 +95,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     1HLou1jOosjhLAjs:
       type: cast
       spell:
@@ -103,7 +109,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -132,6 +138,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -147,7 +154,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     cKqXlQe1Eq0jkEhF:
       type: cast
       spell:
@@ -156,7 +168,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -185,6 +197,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -200,7 +213,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     v0wuzdIe2AjBLF09:
       type: cast
       spell:
@@ -209,7 +227,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -238,6 +256,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -253,7 +272,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     4VY7FnSq3vwGSv9X:
       type: cast
       spell:
@@ -262,7 +286,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - somatic
@@ -291,6 +315,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -306,7 +331,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     z6UXWLfi8WVKDdUh:
       type: forward
       name: Speak with Animals
@@ -334,9 +364,12 @@ system:
         max: ''
       activity:
         id: 7CTev48ykWK0FvJJ
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     53jsSMGw4stRm7FG:
       type: forward
       name: Animal Messenger
@@ -364,9 +397,12 @@ system:
         max: ''
       activity:
         id: 1HLou1jOosjhLAjs
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     q7DHfgoMHBexVro9:
       type: forward
       name: Alter Self
@@ -394,9 +430,12 @@ system:
         max: ''
       activity:
         id: cKqXlQe1Eq0jkEhF
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     7ZcCwVlpGJMLN7Ws:
       type: forward
       name: Enlarge/Reduce
@@ -424,9 +463,12 @@ system:
         max: ''
       activity:
         id: v0wuzdIe2AjBLF09
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     khEzQbYZS8KSgNi0:
       type: forward
       name: Polymorph
@@ -454,9 +496,12 @@ system:
         max: ''
       activity:
         id: 4VY7FnSq3vwGSv9X
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     lGv3eP3dacjni33C:
       type: cast
       spell:
@@ -466,7 +511,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -495,6 +540,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -510,7 +556,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     weSVl25EZiOWwFmr:
       type: forward
       name: Mutate
@@ -538,23 +589,30 @@ system:
         max: ''
       activity:
         id: lGv3eP3dacjni33C
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.pRtXN8U24uTwHxYx
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1727317522945
+  systemVersion: 5.2.0
+  createdTime: 1764610596175
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 83300000
 ownership:

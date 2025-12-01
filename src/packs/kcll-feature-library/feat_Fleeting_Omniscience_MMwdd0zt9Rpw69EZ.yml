@@ -29,6 +29,7 @@ system:
         override: false
       effects:
         - _id: qK4gMLgmY8sycxKp
+          level: {}
       range:
         override: false
         units: self
@@ -54,9 +55,12 @@ system:
         name: ''
         formula: ''
       name: ''
-      img: ''
-      appliedEffects:
-        - qK4gMLgmY8sycxKp
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -85,8 +89,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: The Knowledge Keeper 14
+  advancement: []
+  crewed: false
 effects:
   - name: Fleeting Omniscience
     img: icons/magic/symbols/runes-star-pentagon-blue.webp
@@ -130,13 +138,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732141726209
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!MMwdd0zt9Rpw69EZ.qK4gMLgmY8sycxKp'
 folder: null
 sort: 6700000
@@ -150,11 +157,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732133266477
+  systemVersion: 5.2.0
+  createdTime: 1764610568167
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!MMwdd0zt9Rpw69EZ'

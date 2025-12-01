@@ -23,8 +23,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Catfolk Remains
+  advancement: []
+  crewed: false
 effects:
   - name: Climbing Configured
     img: icons/creatures/mammals/cat-hunched-glowing-red.webp
@@ -56,13 +60,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732224370903
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!85fllWLdZyfq1P4o.BU0aaAfuuCQMqyJq'
 folder: null
 sort: 19700000
@@ -72,11 +75,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732220518957
+  systemVersion: 5.2.0
+  createdTime: 1764610555076
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!85fllWLdZyfq1P4o'

@@ -73,13 +73,12 @@ effects:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.wAbdYdPTLKq76Fr2.ActiveEffect.t4YHkml34BhthtCv
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1730864436846
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!67Ezcc8gtdDZbilV.FELtCTf3FSBSwasO'
 flags:
   core: {}
@@ -109,17 +108,21 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.U7UFgQxuPaUhzE9j
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317489412
+  systemVersion: 5.2.0
+  createdTime: 1764610553151
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 32000000
 ownership:

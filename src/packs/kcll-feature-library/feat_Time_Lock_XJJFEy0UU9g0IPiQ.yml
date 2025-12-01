@@ -12,7 +12,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '9'
+        level: 9
         properties: []
         spellbook: true
       _id: GA3zgG2XtXuTPOto
@@ -37,6 +37,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -50,7 +51,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -78,8 +84,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Timetwister 17
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 10200000
@@ -93,11 +103,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731639575028
+  systemVersion: 5.2.0
+  createdTime: 1764610577471
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!XJJFEy0UU9g0IPiQ'

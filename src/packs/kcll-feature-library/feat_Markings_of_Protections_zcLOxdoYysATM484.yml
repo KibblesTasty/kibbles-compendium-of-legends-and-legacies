@@ -35,13 +35,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1730493256917
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!zcLOxdoYysATM484.iWfx2VHMca1T3Lql'
 flags:
   core: {}
@@ -52,74 +51,41 @@ system:
       from harm. While you are not wearing any armor, your AC becomes 11 + your
       Wisdom modifier. You can use a shield and still gain this benefit.</p>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: occultistRite
   requirements: ''
-  recharge:
-    value: null
-    charged: false
   identifier: markings-of-protections
   prerequisites:
     level: null
+    items: []
+    repeatable: false
+  activities: {}
+  advancement: []
+  enchant: {}
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1678742372118
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.2oVENNttjm54Vy0O
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610603108
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 91100000
 ownership:

@@ -32,13 +32,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731207203919
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!DzHfDsG1lBpbfmKq.jpR7LHUUsUtLkfW8'
   - name: Oracle's Sight (Blinded)
     img: icons/creatures/eyes/humanoid-single-yellow.webp
@@ -69,13 +68,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731207290317
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: b6nLNcfOUwJxnUhC
     _key: '!items.effects!DzHfDsG1lBpbfmKq.b6nLNcfOUwJxnUhC'
 flags:
@@ -108,17 +106,20 @@ system:
     level: null
     items:
       - tradition-of-the-oracle
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.dEzjZGVllXPOy6QS
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317495788
+  systemVersion: 5.2.0
+  createdTime: 1764610561165
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 41400000
 ownership:

@@ -59,8 +59,12 @@ system:
             types: []
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -88,6 +92,8 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
   advancement:
@@ -108,11 +114,13 @@ system:
           - wis
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -125,11 +133,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729047394384
+  systemVersion: 5.2.0
+  createdTime: 1764610608218
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!5TTqLO7cI1dTIj6A'

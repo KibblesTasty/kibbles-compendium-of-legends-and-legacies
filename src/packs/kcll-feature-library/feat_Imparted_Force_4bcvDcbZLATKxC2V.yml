@@ -98,23 +98,31 @@ system:
           calculation: wis
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: imparted-force
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.Mbwhg0wpCxiHL8De
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317488359
+  systemVersion: 5.2.0
+  createdTime: 1764610551877
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 30400000
 ownership:

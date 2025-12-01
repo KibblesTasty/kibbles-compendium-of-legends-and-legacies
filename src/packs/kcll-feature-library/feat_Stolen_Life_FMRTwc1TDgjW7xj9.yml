@@ -47,7 +47,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - healing
         custom:
@@ -58,8 +58,12 @@ system:
           mode: ''
         bonus: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -86,8 +90,11 @@ system:
     level: 5
     items:
       - tradition-of-the-witch
+    repeatable: false
   properties: []
   requirements: Red Coven
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 0
@@ -101,11 +108,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1733172627550
+  systemVersion: 5.2.0
+  createdTime: 1764610562534
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!FMRTwc1TDgjW7xj9'

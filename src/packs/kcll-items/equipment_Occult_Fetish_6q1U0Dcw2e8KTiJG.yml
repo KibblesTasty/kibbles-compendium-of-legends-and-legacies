@@ -25,6 +25,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -45,6 +46,12 @@ system:
         critical: {}
         includeBase: true
         parts: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -78,8 +85,8 @@ system:
   equipped: false
   armor:
     value: null
+    dex: null
   cover: null
-  crewed: false
   hp:
     value: null
     max: null
@@ -88,35 +95,12 @@ system:
   type:
     value: simpleM
     baseItem: ''
-  ammunition: {}
-  damage:
-    base:
-      number: null
-      denomination: 0
-      types: []
-      custom:
-        enabled: false
-      scaling:
-        number: 1
-      bonus: ''
-    versatile:
-      number: null
-      denomination: null
-      types: []
-      custom:
-        enabled: false
-      scaling:
-        number: 1
-  magicalBonus: null
   properties:
     - foc
   proficient: null
-  range:
-    value: null
-    long: null
-    reach: null
-    units: ''
-  mastery: ''
+  crew:
+    value: []
+  strength: null
 effects: []
 folder: null
 sort: 0
@@ -126,11 +110,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1730490438287
+  systemVersion: 5.2.0
+  createdTime: 1764610624280
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!6q1U0Dcw2e8KTiJG'

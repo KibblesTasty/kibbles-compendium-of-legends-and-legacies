@@ -27,6 +27,7 @@ system:
     items:
       - tradition-of-the-hedge-mage
       - vestments-of-war
+    repeatable: false
   properties: []
   requirements: Vestments of War rite
   advancement:
@@ -42,6 +43,7 @@ system:
       title: ''
       hint: ''
       value: {}
+  crewed: false
 effects: []
 folder: null
 sort: 9400000
@@ -51,11 +53,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1731010839746
+  systemVersion: 5.2.0
+  createdTime: 1764610574907
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!Uetb1nMmsl9pcpHB'

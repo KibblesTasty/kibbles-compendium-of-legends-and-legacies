@@ -26,7 +26,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: 'Resilient Aegis: Strength'
     img: icons/magic/defensive/shield-barrier-blades-teal.webp
@@ -58,13 +62,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731473805675
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!1MeRSkS8n4D2C0Ez.8UJRi0R6KEArV1oC'
   - name: 'Resilient Aegis: Dexterity'
     img: icons/magic/defensive/shield-barrier-blades-teal.webp
@@ -95,13 +98,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731473924709
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: TxAmQ4LrYljC4CLI
     _key: '!items.effects!1MeRSkS8n4D2C0Ez.TxAmQ4LrYljC4CLI'
   - name: 'Resilient Aegis: Wisdom'
@@ -133,13 +135,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731473940830
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: IAZpMzt1uWO2qDyi
     _key: '!items.effects!1MeRSkS8n4D2C0Ez.IAZpMzt1uWO2qDyi'
   - name: 'Resilient Aegis: Charisma'
@@ -171,13 +172,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731473961093
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: ycdZSTXINkqTcTBy
     _key: '!items.effects!1MeRSkS8n4D2C0Ez.ycdZSTXINkqTcTBy'
 flags:
@@ -185,13 +185,13 @@ flags:
 _stats:
   compendiumSource: Item.stItHPHwtiePjX9l
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317486073
+  systemVersion: 5.2.0
+  createdTime: 1764610549078
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 27200000
 ownership:

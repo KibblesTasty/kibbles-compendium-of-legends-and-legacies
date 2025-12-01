@@ -115,14 +115,19 @@ system:
             scaling:
               number: 1
       save:
-        ability: dex
+        ability:
+          - dex
         dc:
           calculation: spellcasting
           formula: ''
       sort: 100000
       name: Line
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ztCtxm5Va56zq7eS:
       type: save
       activation:
@@ -202,8 +207,12 @@ system:
       sort: 300000
       name: Empowered Line
       _id: ztCtxm5Va56zq7eS
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     tsjRoPHhNNKngOQw:
       type: save
       activation:
@@ -275,8 +284,12 @@ system:
       sort: 0
       name: Cone
       _id: tsjRoPHhNNKngOQw
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     OJIeZHW1ms64tuwD:
       type: save
       activation:
@@ -356,24 +369,32 @@ system:
       sort: 200000
       name: Empowered Cone
       _id: OJIeZHW1ms64tuwD
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: draconic-blast
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties:
     - mgc
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.4i3ChGq3yjNTsRlk
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317494924
+  systemVersion: 5.2.0
+  createdTime: 1764610559939
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 40100000
 ownership:

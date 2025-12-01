@@ -27,8 +27,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Assassin 9
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 1700000
@@ -38,11 +42,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732077881822
+  systemVersion: 5.2.0
+  createdTime: 1764610552465
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!5YYrlTWLPXxwZLXc'

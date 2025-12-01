@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: EHo0MBJy8wbsxj51
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -41,6 +43,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -71,9 +79,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
   range:
@@ -89,6 +94,8 @@ system:
       choice: false
       count: ''
       type: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Windsense
     img: icons/magic/perception/eye-ringed-green.webp
@@ -127,13 +134,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744836278471
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!r5vAWLIQafFIZBwc.EHo0MBJy8wbsxj51'
 folder: null
 sort: 14200000
@@ -147,11 +153,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1732561076530
+  systemVersion: 5.2.0
+  createdTime: 1764610623002
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!r5vAWLIQafFIZBwc'

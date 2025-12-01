@@ -12,7 +12,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -41,6 +41,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -56,7 +57,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     yDcQQ5aivJeUvGJK:
       type: cast
       spell:
@@ -65,7 +71,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -94,6 +100,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -109,7 +116,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     qzu6S4lvHMRP0Fuh:
       type: cast
       spell:
@@ -118,7 +130,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -147,6 +159,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -162,7 +175,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Rx4n9EQowQSOL7KK:
       type: cast
       spell:
@@ -171,7 +189,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -200,6 +218,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -215,7 +234,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     irdGM9HOQGHd1NvW:
       type: forward
       name: False Life
@@ -243,9 +267,12 @@ system:
         max: ''
       activity:
         id: Wmxe13Q2VVRt1HQk
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     gfXvKlLLozcRtPO0:
       type: forward
       name: Augury
@@ -273,9 +300,12 @@ system:
         max: ''
       activity:
         id: yDcQQ5aivJeUvGJK
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     qAdNTEnhUnYwLKrB:
       type: forward
       name: Speak with Dead
@@ -303,9 +333,12 @@ system:
         max: ''
       activity:
         id: qzu6S4lvHMRP0Fuh
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     EO8XpuBIB5nzzQXF:
       type: cast
       spell:
@@ -315,7 +348,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -344,6 +377,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -359,7 +393,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ZvtLWF5li4nTdF35:
       type: cast
       spell:
@@ -369,7 +408,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - somatic
@@ -398,6 +437,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -413,7 +453,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     2oekDtJkaWEBdRlN:
       type: forward
       name: Grip of the Dead
@@ -441,9 +486,12 @@ system:
         max: ''
       activity:
         id: EO8XpuBIB5nzzQXF
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     cC1HDtkexwGWOFCS:
       type: forward
       name: Ribcage
@@ -471,9 +519,12 @@ system:
         max: ''
       activity:
         id: ZvtLWF5li4nTdF35
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -512,8 +563,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Bone Binder 1
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 17900000
@@ -527,11 +582,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1731640405985
+  systemVersion: 5.2.0
+  createdTime: 1764610601074
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!xObSPdYy0qbOl5oC'

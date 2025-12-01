@@ -42,7 +42,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties: []
         spellbook: true
       _id: GKiqWKp4xwpRYgO3
@@ -84,7 +84,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     QCK7APnv1joXyleg:
       type: attack
       name: Open Hole
@@ -143,22 +148,30 @@ system:
           bonus: ''
         includeBase: true
         parts: []
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: 6
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.0vRs1I0ANv5ovy62
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317517097
+  systemVersion: 5.2.0
+  createdTime: 1764610587816
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 73800000
 ownership:

@@ -32,21 +32,16 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732127255072
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!8mHP2nW9PLHqXMTQ.XqU5fpSPqAtYp5Xi'
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 2
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -111,6 +106,7 @@ system:
         override: false
       effects:
         - _id: XqU5fpSPqAtYp5Xi
+          level: {}
       range:
         override: false
         units: self
@@ -132,15 +128,19 @@ system:
         max: ''
       healing:
         number: 1
-        denomination: '6'
+        denomination: 6
         types: []
         custom:
           enabled: false
         scaling:
           number: 1
         bonus: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     aM3SPEMZZ3MXoS7A:
       type: forward
       name: Sorcery Points
@@ -167,22 +167,31 @@ system:
         max: ''
       activity:
         id: DTdXnTGpXfzixavp
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: phoenix-spark
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.4QwE2d19Vlajb3Xn
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317491570
+  systemVersion: 5.2.0
+  createdTime: 1764610555805
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 35200000
 ownership:

@@ -76,7 +76,7 @@ system:
         recovery: []
       healing:
         number: null
-        denomination: '6'
+        denomination: 6
         bonus: ''
         types:
           - healing
@@ -89,13 +89,21 @@ system:
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: life-totem
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 ownership:
   default: 0
@@ -108,13 +116,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317508135
+  systemVersion: 5.2.0
+  createdTime: 1764610576859
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: WjWKU4fgv6Ie0J8J
 sort: 23300000
 _key: '!items!WjWKU4fgv6Ie0J8J'

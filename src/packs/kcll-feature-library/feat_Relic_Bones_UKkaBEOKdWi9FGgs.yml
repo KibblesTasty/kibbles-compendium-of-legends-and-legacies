@@ -23,8 +23,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Angelic Remains
+  advancement: []
+  crewed: false
 effects:
   - name: Relic Bones
     img: icons/magic/holy/angel-wings-gray.webp
@@ -56,13 +60,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732224560213
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!UKkaBEOKdWi9FGgs.Pv7XeB89r6ILJ0Nf'
 folder: null
 sort: 20100000
@@ -72,11 +75,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732220575833
+  systemVersion: 5.2.0
+  createdTime: 1764610574464
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!UKkaBEOKdWi9FGgs'

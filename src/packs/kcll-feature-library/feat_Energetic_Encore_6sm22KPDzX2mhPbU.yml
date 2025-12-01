@@ -81,12 +81,20 @@ system:
         name: ''
         formula: ''
       name: Expend Bardic Inspiration
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 flags:
   core: {}
@@ -97,13 +105,13 @@ flags:
 _stats:
   compendiumSource: Item.YRm0r7DcDGgA6DBG
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317489916
+  systemVersion: 5.2.0
+  createdTime: 1764610553682
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 32800000
 ownership:

@@ -91,7 +91,7 @@ system:
         recovery: []
       healing:
         number: 1
-        denomination: '6'
+        denomination: 6
         bonus: '@mod'
         types:
           - temphp
@@ -104,23 +104,31 @@ system:
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: warcry
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.hifvFWbqJHNpVIzo
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317493545
+  systemVersion: 5.2.0
+  createdTime: 1764610558226
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 38100000
 ownership:

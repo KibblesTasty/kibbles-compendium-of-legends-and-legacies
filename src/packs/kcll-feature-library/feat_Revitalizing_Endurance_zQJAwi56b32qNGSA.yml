@@ -14,64 +14,27 @@ system:
       <p>When you start your turn with 0 hit points, you can expend an Endurance
       die, rolling it and regaining hit points equal to the number rolled.</p>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: primalManifestation
   requirements: ''
-  recharge:
-    value: null
-    charged: false
   identifier: revitalizing-endurance
   prerequisites:
     level: 12
+    items: []
+    repeatable: false
   activities:
     LyGuDenLVNCaiACj:
       type: heal
@@ -120,7 +83,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - healing
         custom:
@@ -130,18 +93,25 @@ system:
           number: 1
         bonus: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: []
+  enchant: {}
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1678742793587
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.PYHvAY27XghjT8kF
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610602857
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 90800000
 ownership:

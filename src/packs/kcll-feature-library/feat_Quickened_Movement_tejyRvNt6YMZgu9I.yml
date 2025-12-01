@@ -24,7 +24,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Quickened Movement
     img: icons/skills/movement/arrow-upward-yellow.webp
@@ -57,26 +61,25 @@ effects:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.TopoWSvpWZQslpV9.ActiveEffect.17OggzrdDaZDsuPT
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731473112134
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!tejyRvNt6YMZgu9I.xAEg4m5WfqYCoWRe'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.nuLIddCzA3m9W7bt
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317523895
+  systemVersion: 5.2.0
+  createdTime: 1764610597918
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 85000000
 ownership:

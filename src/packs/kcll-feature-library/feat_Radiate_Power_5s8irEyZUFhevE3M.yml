@@ -99,24 +99,31 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: 15
     items:
       - tradition-of-the-shaman
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.lLwq2JDuKkuOywEt
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317489171
+  systemVersion: 5.2.0
+  createdTime: 1764610552907
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 31600000
 ownership:

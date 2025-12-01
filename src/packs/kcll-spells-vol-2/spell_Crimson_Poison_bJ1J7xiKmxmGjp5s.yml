@@ -76,6 +76,7 @@ system:
             item: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -88,7 +89,8 @@ system:
         spent: 0
         recovery: []
         max: ''
-      enchant: {}
+      enchant:
+        self: false
       restrictions:
         allowMagical: false
         categories:
@@ -97,6 +99,12 @@ system:
         properties: []
         type: weapon
       name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     uB15DrxnSG5v7lvF:
       type: damage
       name: Ichor
@@ -125,6 +133,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -152,6 +161,12 @@ system:
             scaling:
               mode: ''
               number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -160,9 +175,6 @@ system:
   source:
     revision: 1
     rules: '2014'
-  preparation:
-    mode: prepared
-    prepared: false
   target:
     template:
       contiguous: false
@@ -173,6 +185,8 @@ system:
       count: ''
       type: object
       special: ''
+  method: spell
+  prepared: 0
 folder: null
 _id: bJ1J7xiKmxmGjp5s
 effects:
@@ -201,13 +215,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!bJ1J7xiKmxmGjp5s.7VyxiZnZ1aGLjkGa'
 flags:
   dnd5e:
@@ -218,13 +231,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733250986488
+  systemVersion: 5.2.0
+  createdTime: 1764610621324
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 sort: 0
 ownership:
   default: 0

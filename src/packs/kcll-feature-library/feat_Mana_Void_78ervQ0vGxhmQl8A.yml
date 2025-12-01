@@ -61,6 +61,7 @@ system:
         value: '1'
       effects:
         - _id: YGEVL25GTqtYs0lD
+          level: {}
       range:
         override: false
         units: self
@@ -87,13 +88,20 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - YGEVL25GTqtYs0lD
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Mana Void
     img: icons/magic/unholy/orb-swirling-teal.webp
@@ -121,13 +129,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731439415904
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!78ervQ0vGxhmQl8A.YGEVL25GTqtYs0lD'
 flags:
   core: {}
@@ -138,13 +145,13 @@ flags:
 _stats:
   compendiumSource: Item.hR10CsnxIHot6TTD
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317490141
+  systemVersion: 5.2.0
+  createdTime: 1764610554094
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 33200000
 ownership:

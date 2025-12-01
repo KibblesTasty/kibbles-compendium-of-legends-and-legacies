@@ -22,8 +22,12 @@ system:
     subtype: blessing
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Boon of Swiftness
     img: icons/skills/movement/feet-winged-boots-blue.webp
@@ -55,13 +59,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732299749527
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!VVA2Q2cNpESIZSvl.tRyTgTHe1WBBDHxX'
 sort: 0
 ownership:
@@ -70,11 +73,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732297930569
+  systemVersion: 5.2.0
+  createdTime: 1764610609048
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!VVA2Q2cNpESIZSvl'

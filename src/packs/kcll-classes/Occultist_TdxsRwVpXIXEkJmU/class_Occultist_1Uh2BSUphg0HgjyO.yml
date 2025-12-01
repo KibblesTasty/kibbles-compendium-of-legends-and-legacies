@@ -61,17 +61,15 @@ system:
       touch, guidance, and poison spray cantrips, along with the following
       1st-level spells: burning hands, cure wounds, and hideous laughter.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCLL
     page: ''
     custom: ''
     license: ''
     rules: '2014'
+    revision: 1
   identifier: occultist
   levels: 1
-  hitDice: d6
-  hitDiceUsed: 0
   advancement:
     - _id: 0sre44tz9bzgu4v3
       type: HitPoints
@@ -784,33 +782,11 @@ system:
                                                                         chosen proficiency. If you do not have proficiency in
                                                                         any of the selected skills, you instead gain proficiency
                                                                         in one of your choice.
-  saves:
-    - wis
-    - cha
-  skills:
-    number: 2
-    choices:
-      - ani
-      - arc
-      - dec
-      - his
-      - inv
-      - med
-      - nat
-      - rel
-      - slt
-      - ste
-      - sur
-    value: []
   spellcasting:
     progression: full
     ability: wis
     preparation:
       formula: '@scale.occultist.spells-known'
-  subclass: Tradition of the Oracle
-  critical:
-    threshold: null
-    damage: null
   wealth: 4d4 * 10
   startingEquipment:
     - type: OR
@@ -907,16 +883,22 @@ system:
   primaryAbility:
     value:
       - wis
+    all: true
+  hd:
+    denomination: d6
+    spent: 0
+    additional: ''
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: 1682023488524
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.HoOaXrGI9QmZj7qK
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610604435
+  modifiedTime: null
+  lastModifiedBy: null
 folder: TdxsRwVpXIXEkJmU
 sort: 100000
 ownership:

@@ -52,7 +52,7 @@ system:
         max: ''
       healing:
         number: 2
-        denomination: '4'
+        denomination: 4
         types:
           - healing
         custom:
@@ -61,8 +61,12 @@ system:
         scaling:
           number: 1
         bonus: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ddzwKWAxYf0NKnbw:
       type: save
       name: Explosive Rejuvenation
@@ -126,8 +130,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -165,6 +173,8 @@ system:
     subtype: ''
   prerequisites:
     level: 4
+    items: []
+    repeatable: false
   properties:
     - mgc
   requirements: ''
@@ -185,11 +195,13 @@ system:
           - int
           - wis
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects:
   - name: Burning Soul
     img: icons/magic/fire/flame-burning-yellow-orange.webp
@@ -224,13 +236,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744829819101
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!wrew39noeho2aozc.NBhH1sPqVirbOeiT'
 sort: 0
 ownership:
@@ -243,11 +254,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729047545029
+  systemVersion: 5.2.0
+  createdTime: 1764610610030
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!wrew39noeho2aozc'

@@ -76,7 +76,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -114,8 +114,12 @@ system:
               number: 1
       sort: -200000
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Z3mUClfOtGUq2Ont:
       type: utility
       name: Animate Hair
@@ -167,8 +171,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ePwICZ5ZYTDMH5sj:
       type: check
       name: Grapple
@@ -218,25 +226,32 @@ system:
           calculation: ''
           formula: '10'
         ability: wis
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: animate-hair
   enchant: {}
   prerequisites:
     level: null
     items:
       - tradition-of-the-witch
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.1qhpyrXXYeGC0Ukc
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317494311
+  systemVersion: 5.2.0
+  createdTime: 1764610559258
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 39200000
 ownership:

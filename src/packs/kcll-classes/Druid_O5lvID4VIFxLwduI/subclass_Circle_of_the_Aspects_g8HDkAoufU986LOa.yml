@@ -97,11 +97,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 5
       title: Circle Spells
@@ -119,11 +120,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 3
       title: Circle Spells
@@ -140,11 +142,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 7
       title: Circle Spells
@@ -162,11 +165,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 9
       title: Circle Spells
@@ -186,11 +190,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1729038298276
+  systemVersion: 5.2.0
+  createdTime: 1764610605757
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!g8HDkAoufU986LOa'

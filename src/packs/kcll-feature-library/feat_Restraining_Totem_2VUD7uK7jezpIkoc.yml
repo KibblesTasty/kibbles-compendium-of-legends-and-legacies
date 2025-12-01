@@ -29,7 +29,10 @@ system:
     level: null
     items:
       - grasping-totem
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 ownership:
   default: 0
@@ -38,13 +41,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317486794
+  systemVersion: 5.2.0
+  createdTime: 1764610550039
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: 2VUD7uK7jezpIkoc
 sort: 22200000
 _key: '!items!2VUD7uK7jezpIkoc'

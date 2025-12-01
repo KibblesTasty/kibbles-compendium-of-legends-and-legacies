@@ -99,13 +99,15 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
         restriction:
           level: ''
+          list: []
       value:
         added: {}
         replaced: {}
@@ -128,13 +130,15 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
         restriction:
           level: ''
+          list: []
       value:
         added: {}
         replaced: {}
@@ -158,13 +162,15 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
         restriction:
           level: ''
+          list: []
       value:
         added: {}
         replaced: {}
@@ -189,13 +195,15 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
         restriction:
           level: ''
+          list: []
       value:
         added: {}
         replaced: {}
@@ -220,13 +228,15 @@ system:
         spell:
           ability:
             - cha
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
         restriction:
           level: ''
+          list: []
       value:
         added: {}
         replaced: {}
@@ -252,11 +262,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729039585436
+  systemVersion: 5.2.0
+  createdTime: 1764610604483
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!4FcUjhZ728TiRl21'

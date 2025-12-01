@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: 1dvmTdKwMsSnfWeO
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -41,6 +43,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     IjaNtenheYwFp6Ta:
       type: save
       _id: IjaNtenheYwFp6Ta
@@ -63,6 +71,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -102,8 +111,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -141,9 +154,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -161,6 +171,8 @@ system:
       choice: false
       count: ''
       type: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Form of Ice
     img: icons/magic/water/elemental-water.webp
@@ -192,13 +204,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733262478188
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!6EP3SxjKQH1LYT0Y.1dvmTdKwMsSnfWeO'
 folder: null
 sort: 1600000
@@ -212,11 +223,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732557916680
+  systemVersion: 5.2.0
+  createdTime: 1764610618199
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!6EP3SxjKQH1LYT0Y'

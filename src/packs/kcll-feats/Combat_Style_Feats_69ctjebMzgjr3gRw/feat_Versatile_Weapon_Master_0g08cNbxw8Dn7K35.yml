@@ -40,8 +40,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -50,11 +54,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729047462584
+  systemVersion: 5.2.0
+  createdTime: 1764610608034
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!0g08cNbxw8Dn7K35'

@@ -31,13 +31,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731441318404
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!yTZQjtOAK82rWBA4.FkU53u0bF5jPQ8Zd'
 flags:
   core: {}
@@ -53,61 +52,22 @@ system:
       consume no ammunition when firing an ranged weapon with the ammunition
       property, and your weapon damage becomes force damage.</p>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Spellshot 15
-  recharge:
-    value: null
-    charged: false
   identifier: arcane-bolts
   activities:
     2xL2l795dR12iebw:
@@ -159,7 +119,7 @@ system:
         recovery: []
         max: ''
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: false
         categories: []
@@ -167,19 +127,28 @@ system:
           - amm
         type: weapon
       name: ''
-      img: ''
-      appliedEffects:
-        - FkU53u0bF5jPQ8Zd
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1678742985938
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.p531VlCGAQ7FInna
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610601707
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 89900000
 ownership:

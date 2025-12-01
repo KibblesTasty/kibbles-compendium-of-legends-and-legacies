@@ -33,6 +33,7 @@ system:
       effects:
         - _id: uMlikStXM6NTfDus
           onSave: false
+          level: {}
       range:
         override: false
         units: ft
@@ -74,9 +75,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects:
-        - uMlikStXM6NTfDus
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     F4SS1n0bBr57vALg:
       type: damage
       name: Ignite
@@ -131,8 +135,12 @@ system:
             types: []
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -172,6 +180,8 @@ system:
     subtype: ''
   prerequisites:
     level: 4
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
   advancement:
@@ -191,11 +201,13 @@ system:
           - int
           - wis
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects:
   - name: Fire Dancer
     img: icons/magic/fire/barrier-wall-flame-ring-yellow.webp
@@ -224,13 +236,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732309514314
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!1wQEl45VDSS8sf8t.uMlikStXM6NTfDus'
 sort: 0
 ownership:
@@ -243,11 +254,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729047535750
+  systemVersion: 5.2.0
+  createdTime: 1764610608128
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!1wQEl45VDSS8sf8t'

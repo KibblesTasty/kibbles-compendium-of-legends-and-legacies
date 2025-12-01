@@ -12,7 +12,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties: []
         spellbook: true
       _id: DUggHOlgQLBHXc8V
@@ -34,6 +34,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -47,7 +48,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     nc1EeGsCOD9vTrWb:
       type: cast
       spell:
@@ -56,7 +62,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '5'
+        level: 5
         properties:
           - material
         spellbook: true
@@ -79,6 +85,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -92,7 +99,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -121,8 +133,11 @@ system:
     level: null
     items:
       - blood-cultist
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 0
@@ -136,11 +151,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1733114595851
+  systemVersion: 5.2.0
+  createdTime: 1764610589652
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ktGnOFcMB15kI7Of'

@@ -35,6 +35,7 @@ system:
     level: null
     items:
       - tradition-of-the-shaman
+    repeatable: false
   properties: []
   advancement:
     - type: ItemChoice
@@ -58,16 +59,17 @@ system:
         replaced: {}
       title: ''
       hint: ''
+  crewed: false
 _stats:
   compendiumSource: Item.raAhUzpDTEK1DH8M
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317513617
+  systemVersion: 5.2.0
+  createdTime: 1764610583929
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 68200000
 ownership:

@@ -110,7 +110,8 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.Q0dkEH6GXK93sGyF
         spell: null
-        restriction: {}
+        restriction:
+          list: []
       value:
         added: {}
         replaced: {}
@@ -164,6 +165,7 @@ system:
         restriction:
           type: class
           subtype: occultistRite
+          list: []
       value:
         added: {}
         replaced: {}
@@ -186,11 +188,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.4
-  createdTime: 1729045864135
+  systemVersion: 5.2.0
+  createdTime: 1764610606130
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!uVGRCLacTtuFVDIl'

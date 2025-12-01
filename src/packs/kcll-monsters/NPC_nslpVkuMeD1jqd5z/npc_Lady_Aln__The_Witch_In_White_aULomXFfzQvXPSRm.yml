@@ -19,6 +19,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 12
       proficient: 1
@@ -26,6 +36,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 19
       proficient: 1
@@ -33,6 +53,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 18
       proficient: 1
@@ -40,6 +70,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 22
       proficient: 1
@@ -47,6 +87,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 19
       proficient: 0
@@ -54,6 +104,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -305,13 +365,10 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
-      walk: 30
+      walk: '30'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -344,13 +401,20 @@ system:
       tempmax: 0
       formula: 24d8 + 120
     death:
-      ability: ''
       roll:
         min: null
         max: null
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 18
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -363,19 +427,23 @@ system:
     type:
       value: humanoid
       subtype: Human
-    environment: ''
     cr: 17
-    spellLevel: 18
+    habitat:
+      custom: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
-      value: 3
       max: 3
+      spent: 0
     legres:
-      value: 3
       max: 3
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   source:
     revision: 1
     rules: '2014'
@@ -413,6 +481,8 @@ system:
         - primordial
         - sylvan
       custom: ''
+      communication: {}
+    important: false
 prototypeToken:
   name: Lady Aln, The Witch In White
   displayName: 40
@@ -526,6 +596,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -540,6 +611,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -553,8 +630,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/skills/melee/blade-tips-triple-steel.webp
     _id: leXn1JahUW0p7TnT
     effects: []
@@ -567,13 +648,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.leXn1JahUW0p7TnT'
   - name: Cat Slap
     type: weapon
@@ -650,6 +730,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -666,6 +747,12 @@ items:
             recovery: []
             max: ''
           name: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       damage:
         base:
           number: 4
@@ -715,7 +802,6 @@ items:
       armor:
         value: null
       cover: null
-      crewed: false
       hp:
         value: null
         max: null
@@ -725,6 +811,8 @@ items:
       magicalBonus: null
       properties: []
       mastery: ''
+      crew:
+        value: []
     img: icons/svg/sword.svg
     _id: sn893iSlgcaMETGp
     effects: []
@@ -741,13 +829,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.sn893iSlgcaMETGp'
   - name: Binding Curse
     type: feat
@@ -781,6 +868,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -795,6 +883,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -808,8 +902,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/light/beam-deflect-path-yellow.webp
     _id: NnwaNkrAmvhVcSZO
     effects: []
@@ -822,13 +920,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.NnwaNkrAmvhVcSZO'
   - name: Enfeebling Curse
     type: feat
@@ -868,6 +965,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -881,6 +979,13 @@ items:
             recovery: []
           damage:
             parts: []
+            onSave: none
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -894,8 +999,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
     _id: m6VPUdCYvfrSfi0k
     effects: []
@@ -908,13 +1017,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.m6VPUdCYvfrSfi0k'
   - name: Karmic Curse
     type: feat
@@ -948,6 +1056,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -962,6 +1071,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -975,8 +1090,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/control/energy-stream-link-large-orange.webp
     _id: Hwo0nRr7D9Oum9oL
     effects: []
@@ -989,13 +1108,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.Hwo0nRr7D9Oum9oL'
   - name: Cast A Spell
     type: feat
@@ -1025,6 +1143,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1039,6 +1158,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1052,8 +1177,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/light/hand-sparks-glow-yellow.webp
     _id: C7bvRKjhQbCId9mt
     effects: []
@@ -1066,13 +1195,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.C7bvRKjhQbCId9mt'
   - name: Legendary Actions
     type: feat
@@ -1099,8 +1227,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     flags:
       adnd5e:
         itemInfo:
@@ -1116,13 +1248,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.ZsZGdlQki7q5SgHj'
   - name: Teleport
     type: feat
@@ -1156,6 +1287,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1170,6 +1302,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1183,8 +1321,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/symbols/runes-star-pentagon-magenta.webp
     _id: OYRUeIMaGF6BD77H
     effects: []
@@ -1197,13 +1339,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.OYRUeIMaGF6BD77H'
   - name: Frozen Domain
     type: feat
@@ -1240,6 +1381,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1254,6 +1396,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1267,8 +1415,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/combat.svg
     _id: svVVq6QqGSvb5QK7
     effects: []
@@ -1281,13 +1433,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.svVVq6QqGSvb5QK7'
   - name: Cantrip
     type: feat
@@ -1321,6 +1472,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1335,6 +1487,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1348,8 +1506,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/combat.svg
     _id: DLllrQJisrdogKa0
     effects: []
@@ -1362,13 +1524,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.DLllrQJisrdogKa0'
   - name: Manipulate Fate
     type: feat
@@ -1402,6 +1563,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1416,6 +1578,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1429,8 +1597,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     flags:
       adnd5e:
         itemInfo:
@@ -1445,13 +1617,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.3jr2yknCQNEE28Ul'
   - name: Ice Clones
     type: feat
@@ -1482,8 +1653,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/book.svg
     _id: xH7S62WZ6pgnj8RW
     effects: []
@@ -1496,13 +1671,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.xH7S62WZ6pgnj8RW'
   - name: Legendary Resistance
     type: feat
@@ -1536,6 +1710,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1550,6 +1725,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
         w8BNIXpp8K4tdBka:
           _id: w8BNIXpp8K4tdBka
           type: utility
@@ -1571,6 +1752,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1585,6 +1767,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         max: '3'
         spent: 0
@@ -1599,8 +1787,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/equipment/shield/kite-wooden-oak-glow.webp
     _id: xWpFJ6oNW6dmDSPH
     effects: []
@@ -1613,13 +1805,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.xWpFJ6oNW6dmDSPH'
   - name: Magic Resistance
     type: feat
@@ -1643,8 +1834,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     _id: lm3Nt82zcfSUaEiv
     effects: []
@@ -1657,13 +1852,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.lm3Nt82zcfSUaEiv'
   - name: Malifax
     type: feat
@@ -1690,8 +1884,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/book.svg
     _id: qt28J6k1xuUwCECS
     effects: []
@@ -1704,13 +1902,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.qt28J6k1xuUwCECS'
   - name: Parting Gift
     type: feat
@@ -1738,8 +1935,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/book.svg
     _id: gw2XGPsmaEsT04G0
     effects: []
@@ -1752,13 +1953,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.gw2XGPsmaEsT04G0'
   - name: Spellcasting
     type: feat
@@ -1794,8 +1994,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/fire/explosion-embers-orange.webp
     _id: fEO5i57n8vgpt0UP
     effects: []
@@ -1808,13 +2012,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.fEO5i57n8vgpt0UP'
   - _id: dOeEEVYiguHtthJL
     name: Chill Touch
@@ -1855,7 +2058,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '120'
@@ -1871,9 +2074,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1900,6 +2100,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1938,7 +2139,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: chill-touch
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/water/projectile-ice-faceted-blue.webp
@@ -1947,13 +2156,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.dOeEEVYiguHtthJL'
   - _id: gdb8ykT8B7gemaE5
     name: Light
@@ -1993,7 +2201,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: touch
@@ -2008,9 +2216,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - material
@@ -2037,6 +2242,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -2058,7 +2264,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: light
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/light/explosion-star-small-blue-yellow.webp
@@ -2067,13 +2281,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.gdb8ykT8B7gemaE5'
   - _id: NYB3pszPq0wc01Oe
     name: Mage Hand
@@ -2114,7 +2327,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '30'
@@ -2130,9 +2343,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -2159,6 +2369,7 @@ items:
             override: false
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -2179,6 +2390,7 @@ items:
             attacks: false
             proficiency: false
             saves: false
+            disposition: false
           profiles:
             - name: ''
               _id: H4LmY7OuwtEQFipO
@@ -2188,7 +2400,6 @@ items:
                 max: null
               types: []
           summon:
-            identifier: ''
             mode: ''
             prompt: true
           uses:
@@ -2196,7 +2407,15 @@ items:
             recovery: []
           sort: 0
           effects: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: mage-hand
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/water/water-hand.webp
@@ -2205,13 +2424,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.NYB3pszPq0wc01Oe'
   - _id: Lo9E4HITPst7oeaO
     name: Ray of Frost
@@ -2249,7 +2467,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -2265,9 +2483,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -2294,6 +2509,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -2332,7 +2548,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: ray-of-frost
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/light/beam-rays-blue-small.webp
@@ -2341,13 +2565,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.Lo9E4HITPst7oeaO'
   - _id: GMYuDLNXotJ4kq73
     name: Shocking Grasp
@@ -2386,7 +2609,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: touch
@@ -2401,9 +2624,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -2430,6 +2650,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -2468,7 +2689,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: shocking-grasp
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/lightning/bolt-forked-blue.webp
@@ -2477,13 +2706,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.GMYuDLNXotJ4kq73'
   - _id: 1ITbqbePC3CSLNym
     name: Detect Magic
@@ -2537,9 +2765,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -2568,6 +2793,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -2585,7 +2811,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: detect-magic
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/light/explosion-star-blue.webp
@@ -2594,13 +2828,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.1ITbqbePC3CSLNym'
   - _id: cHiEwylZPFPaBVYK
     name: Healing Word
@@ -2638,7 +2871,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -2654,9 +2887,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
       activities:
@@ -2682,6 +2912,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -2707,7 +2938,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: healing-word
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/life/heart-cross-green.webp
@@ -2716,13 +2955,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.cHiEwylZPFPaBVYK'
   - _id: h5MWJmr6yZaToOiN
     name: Find Familiar
@@ -2816,9 +3054,6 @@ items:
         consumed: true
         cost: 10
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -2847,6 +3082,7 @@ items:
             override: false
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -2870,6 +3106,7 @@ items:
             attacks: false
             proficiency: false
             saves: false
+            disposition: false
           profiles:
             - name: ''
               _id: HShhzdPtYkhNleyj
@@ -2977,7 +3214,6 @@ items:
                 max: null
               types: []
           summon:
-            identifier: ''
             mode: ''
             prompt: true
           uses:
@@ -2985,7 +3221,15 @@ items:
             recovery: []
           sort: 0
           effects: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: find-familiar
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/nature/wolf-paw-glow-purple-teal.webp
@@ -2994,13 +3238,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.h5MWJmr6yZaToOiN'
   - _id: l1EcB2iAGHCumGej
     name: Feather Fall
@@ -3037,7 +3280,7 @@ items:
           count: '5'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -3053,9 +3296,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - material
@@ -3082,6 +3322,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -3099,7 +3340,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: feather-fall
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/air/wind-swirl-pink-purple.webp
@@ -3108,13 +3357,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.l1EcB2iAGHCumGej'
   - _id: G6VcYUzZgsuhOKGf
     name: Detect Thoughts
@@ -3176,7 +3424,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '30'
@@ -3192,9 +3440,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -3223,6 +3468,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -3244,7 +3490,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: detect-thoughts
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/light/explosion-star-teal-purple.webp
@@ -3253,13 +3507,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.G6VcYUzZgsuhOKGf'
   - _id: ZOaDwvdmBnxzrMA9
     name: Mirror Image
@@ -3310,7 +3563,7 @@ items:
           type: self
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: self
@@ -3325,9 +3578,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -3354,6 +3604,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -3371,7 +3622,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: mirror-image
+      method: spell
+      prepared: 0
     effects: []
     folder: Qi4Se3we69ukl2V9
     sort: 0
@@ -3382,13 +3641,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.ZOaDwvdmBnxzrMA9'
   - _id: a9oh4G6pGevlIUm6
     name: Misty Step
@@ -3437,9 +3695,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
       activities:
@@ -3465,6 +3720,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -3482,7 +3738,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: misty-step
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/control/debuff-energy-snare-brown.webp
@@ -3491,13 +3755,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.a9oh4G6pGevlIUm6'
   - _id: eNiPhDZLxaFX5FLV
     name: Bestow Curse
@@ -3563,7 +3826,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: touch
@@ -3578,9 +3841,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -3608,6 +3868,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -3629,7 +3890,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: bestow-curse
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/control/buff-flight-wings-runes-red.webp
@@ -3638,13 +3907,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.eNiPhDZLxaFX5FLV'
   - _id: mEeAulceFEXOIc4a
     name: Counterspell
@@ -3678,7 +3946,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -3694,9 +3962,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - somatic
       activities:
@@ -3722,6 +3987,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -3739,7 +4005,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: counterspell
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/skills/melee/strike-blade-hooked-orange-blue.webp
@@ -3748,13 +4022,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.mEeAulceFEXOIc4a'
   - _id: 2Qi3eP4F1gp4rhz4
     name: Mass Healing Word
@@ -3792,7 +4065,7 @@ items:
           count: '6'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -3808,9 +4081,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
       activities:
@@ -3836,6 +4106,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -3861,7 +4132,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: mass-healing-word
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/life/heart-cross-strong-flame-green.webp
@@ -3870,13 +4149,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.2Qi3eP4F1gp4rhz4'
   - _id: XhPTWNUv8NbFWXrS
     name: Fly
@@ -3914,7 +4192,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: touch
@@ -3929,9 +4207,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -3960,6 +4235,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -3977,7 +4253,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: fly
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/control/energy-stream-link-white.webp
@@ -3986,13 +4270,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.XhPTWNUv8NbFWXrS'
   - _id: zKPwiR1V1byx7oNn
     name: Banishment
@@ -4040,7 +4323,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -4056,9 +4339,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -4087,8 +4367,10 @@ items:
           effects:
             - _id: bckYDthT7sAOQBNO
               onSave: false
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -4110,7 +4392,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: banishment
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/control/energy-stream-link-spiral-teal.webp
@@ -4139,13 +4429,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.344'
-          systemId: dnd5e
-          systemVersion: 4.1.2
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
           exportSource: null
+          coreVersion: '13.351'
+          systemId: dnd5e
+          systemVersion: 5.2.0
+          lastModifiedBy: null
         img: icons/magic/control/energy-stream-link-spiral-teal.webp
         type: base
         system: {}
@@ -4156,13 +4444,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.zKPwiR1V1byx7oNn'
   - _id: 97VV3J60X0e6XYAo
     name: Blight
@@ -4207,7 +4494,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '30'
@@ -4223,9 +4510,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -4252,6 +4536,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -4285,7 +4570,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: blight
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/unholy/strike-beam-blood-large-red-green.webp
@@ -4294,13 +4587,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.97VV3J60X0e6XYAo'
   - _id: d7SQQ76pCGc6pUf5
     name: Greater Invisibility
@@ -4335,7 +4627,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: touch
@@ -4350,9 +4642,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -4379,8 +4668,10 @@ items:
             override: false
           effects:
             - _id: lhYVl4DD9jyS5gcn
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -4398,7 +4689,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: greater-invisibility
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/air/fog-gas-smoke-swirling-gray.webp
@@ -4428,13 +4727,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.344'
-          systemId: dnd5e
-          systemVersion: 4.1.2
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
           exportSource: null
+          coreVersion: '13.351'
+          systemId: dnd5e
+          systemVersion: 5.2.0
+          lastModifiedBy: null
         img: icons/magic/air/fog-gas-smoke-swirling-gray.webp
         type: base
         system: {}
@@ -4445,13 +4742,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.d7SQQ76pCGc6pUf5'
   - _id: S5epguKTwysTsGD6
     name: Cone of Cold
@@ -4498,9 +4794,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -4528,6 +4821,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -4561,7 +4855,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: cone-of-cold
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp
@@ -4570,13 +4872,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.S5epguKTwysTsGD6'
   - _id: VrVwfsYnOBsOaY6H
     name: Greater Restoration
@@ -4624,7 +4925,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: touch
@@ -4639,9 +4940,6 @@ items:
         consumed: true
         cost: 100
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -4669,6 +4967,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -4686,7 +4985,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: greater-restoration
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/life/heart-cross-strong-flame-blue.webp
@@ -4695,13 +5002,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.VrVwfsYnOBsOaY6H'
   - _id: Wdnu2qjIdGdh48jT
     name: Mass Cure Wounds
@@ -4756,9 +5062,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -4785,6 +5088,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -4810,7 +5114,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: mass-cure-wounds
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/life/heart-cross-strong-green.webp
@@ -4819,13 +5131,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.Wdnu2qjIdGdh48jT'
   - _id: E6q8g6HcbYj9HneM
     name: Harm
@@ -4865,7 +5176,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -4881,9 +5192,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -4910,6 +5218,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -4943,7 +5252,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: harm
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/unholy/strike-beam-blood-large-red-purple.webp
@@ -4952,13 +5269,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.E6q8g6HcbYj9HneM'
   - _id: nr7MXAH9UVozyGfq
     name: Heal
@@ -4997,7 +5313,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -5013,9 +5329,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -5042,6 +5355,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -5067,7 +5381,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: heal
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/life/heart-cross-strong-flame-green.webp
@@ -5076,13 +5398,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.nr7MXAH9UVozyGfq'
   - _id: sMFI1518V1Y19CV6
     name: Finger of Death
@@ -5121,7 +5442,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -5137,9 +5458,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -5166,6 +5484,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -5199,7 +5518,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: finger-of-death
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/unholy/strike-beam-blood-large-red-purple.webp
@@ -5208,13 +5535,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.sMFI1518V1Y19CV6'
   - _id: 7wLQTncPEO57IwFO
     name: Power Word Stun
@@ -5252,7 +5578,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '60'
@@ -5268,9 +5594,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: prepared
-        prepared: false
       properties:
         - vocal
       activities:
@@ -5296,8 +5619,10 @@ items:
           effects:
             - _id: XUk41wJR26neJaic
               onSave: false
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -5319,7 +5644,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: power-word-stun
+      method: spell
+      prepared: 0
     sort: 0
     flags: {}
     img: icons/magic/control/debuff-chains-ropes-red.webp
@@ -5350,13 +5683,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.344'
-          systemId: dnd5e
-          systemVersion: 4.1.2
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
           exportSource: null
+          coreVersion: '13.351'
+          systemId: dnd5e
+          systemVersion: 5.2.0
+          lastModifiedBy: null
         img: icons/magic/control/debuff-chains-ropes-red.webp
         type: base
         system: {}
@@ -5367,13 +5698,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!aULomXFfzQvXPSRm.7wLQTncPEO57IwFO'
 effects: []
 flags:
@@ -5382,13 +5712,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733345040090
+  systemVersion: 5.2.0
+  createdTime: 1764610543782
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 sort: 900000
 ownership:
   default: 0

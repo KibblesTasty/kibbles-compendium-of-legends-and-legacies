@@ -39,7 +39,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties: []
         spellbook: true
       _id: 70r4urO3mIQ8HmZX
@@ -68,6 +68,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -81,23 +82,31 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
     items:
       - tradition-of-the-shaman
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.dGhTYpeby4XMNKQP
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317512375
+  systemVersion: 5.2.0
+  createdTime: 1764610582505
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 66300000
 ownership:

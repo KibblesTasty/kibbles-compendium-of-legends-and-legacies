@@ -43,13 +43,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     name: Gigantification
     img: icons/creatures/magical/construct-iron-stomping-yellow.webp
     type: base
@@ -60,11 +59,7 @@ effects:
     _key: '!items.effects!WveuRGVdQ6T2fr9y.jSKLH1YAjgfccAfk'
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -138,6 +133,7 @@ system:
         override: false
       effects:
         - _id: jSKLH1YAjgfccAfk
+          level: {}
       range:
         units: self
         special: ''
@@ -150,7 +146,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -169,24 +165,31 @@ system:
         visible: false
       sort: 0
       name: Unleash Bestial Power
-      img: ''
-      appliedEffects:
-        - jSKLH1YAjgfccAfk
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: gigantification
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.G6XoWLGp8WEzUAzr
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317508419
+  systemVersion: 5.2.0
+  createdTime: 1764610577179
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 60500000
 ownership:

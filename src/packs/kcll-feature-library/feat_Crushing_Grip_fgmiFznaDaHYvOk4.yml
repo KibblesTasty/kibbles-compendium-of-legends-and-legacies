@@ -85,22 +85,30 @@ system:
             scaling:
               number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: 12
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.hE3Xwg8K8F5s86FQ
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317514700
+  systemVersion: 5.2.0
+  createdTime: 1764610585014
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 69800000
 ownership:

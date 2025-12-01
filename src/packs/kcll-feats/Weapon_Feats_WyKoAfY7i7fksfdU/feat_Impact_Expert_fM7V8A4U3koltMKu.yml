@@ -59,8 +59,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     K47ZZXKo7mYy4ShC:
       type: save
       name: Take Down
@@ -117,8 +121,12 @@ system:
         dc:
           calculation: str
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     EfcqWrw30tG6sAcy:
       type: damage
       name: Bonk!
@@ -182,8 +190,12 @@ system:
               mode: whole
               number: 1
               formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -218,8 +230,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -232,11 +248,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729047372489
+  systemVersion: 5.2.0
+  createdTime: 1764610609337
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!fM7V8A4U3koltMKu'

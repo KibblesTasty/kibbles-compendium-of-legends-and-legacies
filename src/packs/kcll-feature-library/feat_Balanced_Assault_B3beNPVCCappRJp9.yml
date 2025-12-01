@@ -30,6 +30,8 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   advancement:
     - type: ItemGrant
@@ -42,16 +44,17 @@ system:
         spell: null
       value: {}
       level: 0
+  crewed: false
 _stats:
   compendiumSource: Item.FyGxduU67uuDAYaj
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1727317493606
+  systemVersion: 5.2.0
+  createdTime: 1764610558284
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 38200000
 ownership:

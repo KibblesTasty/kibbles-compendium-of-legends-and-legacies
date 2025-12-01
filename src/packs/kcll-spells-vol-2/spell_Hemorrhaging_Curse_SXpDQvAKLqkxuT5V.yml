@@ -66,8 +66,10 @@ system:
         override: false
       effects:
         - _id: pXMlQ0g8YmSemGqn
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -85,9 +87,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - pXMlQ0g8YmSemGqn
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -96,9 +101,6 @@ system:
   source:
     revision: 1
     rules: '2014'
-  preparation:
-    mode: prepared
-    prepared: false
   target:
     template:
       contiguous: false
@@ -109,6 +111,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 folder: null
 effects:
   - name: Hemorrhaging Curse
@@ -136,13 +140,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!SXpDQvAKLqkxuT5V.pXMlQ0g8YmSemGqn'
 ownership:
   default: 0
@@ -154,13 +157,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733176688417
+  systemVersion: 5.2.0
+  createdTime: 1764610620544
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: SXpDQvAKLqkxuT5V
 sort: 0
 _key: '!items!SXpDQvAKLqkxuT5V'

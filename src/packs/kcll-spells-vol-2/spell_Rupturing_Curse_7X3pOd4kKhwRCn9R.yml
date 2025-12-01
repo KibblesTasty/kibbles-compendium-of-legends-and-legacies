@@ -63,8 +63,10 @@ system:
         override: false
       effects:
         - _id: Zk68oKV9JMIkFHYx
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -82,9 +84,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - Zk68oKV9JMIkFHYx
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -93,9 +98,6 @@ system:
   source:
     revision: 1
     rules: '2014'
-  preparation:
-    mode: prepared
-    prepared: false
   target:
     template:
       contiguous: false
@@ -106,6 +108,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 folder: null
 effects:
   - name: Rupturing Curse
@@ -133,13 +137,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!7X3pOd4kKhwRCn9R.Zk68oKV9JMIkFHYx'
 ownership:
   default: 0
@@ -151,13 +154,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733176689646
+  systemVersion: 5.2.0
+  createdTime: 1764610618404
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: 7X3pOd4kKhwRCn9R
 sort: 0
 _key: '!items!7X3pOd4kKhwRCn9R'

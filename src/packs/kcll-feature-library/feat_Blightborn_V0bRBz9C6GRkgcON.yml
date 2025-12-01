@@ -26,8 +26,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Blight Growth
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 20500000
@@ -37,11 +41,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732221300240
+  systemVersion: 5.2.0
+  createdTime: 1764610575386
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!V0bRBz9C6GRkgcON'

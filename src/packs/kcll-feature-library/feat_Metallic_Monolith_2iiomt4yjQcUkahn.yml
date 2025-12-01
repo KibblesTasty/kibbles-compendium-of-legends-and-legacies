@@ -61,6 +61,7 @@ system:
         override: false
       effects:
         - _id: YjZyHebUA9Lk0goR
+          level: {}
       range:
         override: false
         units: self
@@ -85,13 +86,20 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - YjZyHebUA9Lk0goR
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Metallic Monolith
     img: icons/equipment/chest/breastplate-helmet-metal.webp
@@ -135,13 +143,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731622731464
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!2iiomt4yjQcUkahn.YjZyHebUA9Lk0goR'
 flags:
   core: {}
@@ -152,13 +159,13 @@ flags:
 _stats:
   compendiumSource: Item.xg3PTWbepOqflPCA
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317486857
+  systemVersion: 5.2.0
+  createdTime: 1764610550147
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 28300000
 ownership:

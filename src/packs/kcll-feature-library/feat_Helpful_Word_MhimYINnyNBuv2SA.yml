@@ -72,7 +72,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -91,23 +91,31 @@ system:
         visible: false
       sort: 0
       name: Help
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: helpful-word
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.J3OOXTuCIq5kMQQw
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317501671
+  systemVersion: 5.2.0
+  createdTime: 1764610568614
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 50400000
 ownership:

@@ -45,7 +45,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties: []
         spellbook: true
       _id: M1mOIkYPdzJfG8zo
@@ -74,6 +74,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -87,7 +88,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     XyKOLXCGo61ctfqD:
       type: cast
       spell:
@@ -96,7 +102,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties: []
         spellbook: true
       _id: XyKOLXCGo61ctfqD
@@ -124,6 +130,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -137,7 +144,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     pK99tANwJklix4Tz:
       type: cast
       spell:
@@ -146,7 +158,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties: []
         spellbook: true
       _id: pK99tANwJklix4Tz
@@ -175,6 +187,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -188,7 +201,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Tls5t6mBCNBVQeEC:
       type: cast
       spell:
@@ -197,7 +215,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties: []
         spellbook: true
       _id: Tls5t6mBCNBVQeEC
@@ -226,6 +244,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -239,23 +258,31 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
     items:
       - tradition-of-the-shaman
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.cCPmX2B3Y07i3AJA
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317508820
+  systemVersion: 5.2.0
+  createdTime: 1764610577812
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 61200000
 ownership:

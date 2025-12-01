@@ -26,8 +26,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Dreadwing 14
+  advancement: []
+  crewed: false
 effects:
   - name: Empowered Wings
     img: icons/creatures/abilities/wing-batlike-red-pink.webp
@@ -59,13 +63,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731638808125
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!YM9vVRWNnwiki3eF.NFnos3oaNAGSiREa'
 folder: null
 sort: 10800000
@@ -75,11 +78,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731638785293
+  systemVersion: 5.2.0
+  createdTime: 1764610578612
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!YM9vVRWNnwiki3eF'

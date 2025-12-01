@@ -36,13 +36,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731226339145
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!urThx7MQFs7QFL13.Otf1FM2yFvxDMLer'
 flags:
   core: {}
@@ -107,6 +106,7 @@ system:
         value: '8'
       effects:
         - _id: Otf1FM2yFvxDMLer
+          level: {}
       range:
         override: false
         units: any
@@ -132,25 +132,31 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - Otf1FM2yFvxDMLer
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
     items:
       - tradition-of-the-witch
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.6kYrrXtik8O4cuXY
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317524803
+  systemVersion: 5.2.0
+  createdTime: 1764610598916
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 86400000
 ownership:

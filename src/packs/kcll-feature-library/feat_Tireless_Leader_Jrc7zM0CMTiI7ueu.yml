@@ -73,7 +73,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -105,8 +105,12 @@ system:
       sort: 0
       name: Rallying Mark
       _id: cHt06dtGp8cD8Vdc
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     7l7ziNyZCLTcbsFv:
       type: heal
       sort: 0
@@ -172,8 +176,12 @@ system:
         bonus: ''
       name: Urgent Orders
       _id: 7l7ziNyZCLTcbsFv
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     oqo0sVHBpZh05lUZ:
       type: utility
       sort: 0
@@ -225,8 +233,12 @@ system:
         name: Expert Instructions
       name: 'Helpful Word: Expert Instructions'
       _id: oqo0sVHBpZh05lUZ
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     gw7LBVgcgB8dqVKX:
       type: heal
       sort: 0
@@ -291,22 +303,30 @@ system:
         bonus: ''
       name: Prepare for Battle
       _id: gw7LBVgcgB8dqVKX
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.ZbnZYyblyILSbKHr
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317499142
+  systemVersion: 5.2.0
+  createdTime: 1764610565666
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 46700000
 ownership:

@@ -4,11 +4,7 @@ img: icons/magic/life/cross-beam-green.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 3
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -83,7 +79,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -102,8 +98,12 @@ system:
         visible: false
       sort: 0
       name: Transfer Conditions
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     WFpfIY3YNBu74QNg:
       type: heal
       name: Transfer Hit Points
@@ -154,7 +154,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types: []
         custom:
           enabled: true
@@ -163,23 +163,31 @@ system:
           number: 1
           mode: ''
         bonus: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: relieve-suffering
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.OY1ADXZmzkBNLwqW
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317502807
+  systemVersion: 5.2.0
+  createdTime: 1764610570162
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 52200000
 ownership:

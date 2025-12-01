@@ -131,7 +131,8 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.2JF8RuBwj4kGX0bX
         spell: null
-        restriction: {}
+        restriction:
+          list: []
       value:
         added: {}
         replaced: {}
@@ -156,7 +157,8 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.F4L1VAAris3QipIm
         spell: null
-        restriction: {}
+        restriction:
+          list: []
       value:
         added: {}
         replaced: {}
@@ -176,11 +178,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1729045851178
+  systemVersion: 5.2.0
+  createdTime: 1764610604803
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!FJJGTpjHS50BMwVH'

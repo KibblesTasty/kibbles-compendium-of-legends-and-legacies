@@ -97,23 +97,31 @@ system:
           calculation: wis
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: sundering-strike
   enchant: {}
   prerequisites:
     level: 11
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.FVYW6OF120DKtLsV
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317526487
+  systemVersion: 5.2.0
+  createdTime: 1764610600802
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 88800000
 ownership:

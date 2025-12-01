@@ -66,7 +66,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -80,7 +80,7 @@ system:
         recovery: []
       healing:
         number: 1
-        denomination: '6'
+        denomination: 6
         bonus: ''
         types:
           - healing
@@ -93,23 +93,31 @@ system:
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: immortal-body
   enchant: {}
   prerequisites:
     level: 16
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.FJkHxb32lLBIcYnq
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317507243
+  systemVersion: 5.2.0
+  createdTime: 1764610576071
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 58900000
 ownership:

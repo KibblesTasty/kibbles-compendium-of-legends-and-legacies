@@ -18,6 +18,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 22
       proficient: 1
@@ -25,6 +35,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 19
       proficient: 1
@@ -32,6 +52,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 18
       proficient: 0
@@ -39,6 +69,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 18
       proficient: 1
@@ -46,6 +86,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 14
       proficient: 1
@@ -53,6 +103,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -304,13 +364,10 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
-      walk: 40
+      walk: '40'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -343,13 +400,20 @@ system:
       tempmax: 0
       formula: 29d8 + 116
     death:
-      ability: ''
       roll:
         min: null
         max: null
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -361,19 +425,23 @@ system:
     race: null
     type:
       value: construct
-    environment: ''
     cr: 14
-    spellLevel: 0
+    habitat:
+      custom: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
-      value: 0
       max: 0
+      spent: 0
     legres:
-      value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   source:
     revision: 1
     rules: '2014'
@@ -413,6 +481,8 @@ system:
       value:
         - common
       custom: ''
+      communication: {}
+    important: false
 prototypeToken:
   name: Time Terminator
   displayName: 0
@@ -525,6 +595,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -539,6 +610,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -552,8 +629,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/skills/melee/blade-tips-triple-steel.webp
     _id: okgim4ebolitYpYc
     effects: []
@@ -566,13 +647,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.okgim4ebolitYpYc'
   - name: Severing Strike
     type: weapon
@@ -630,6 +710,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -641,6 +722,12 @@ items:
           uses:
             spent: 0
             recovery: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       damage:
         base:
           number: 1
@@ -689,7 +776,6 @@ items:
       armor:
         value: null
       cover: null
-      crewed: false
       hp:
         value: null
         max: null
@@ -698,6 +784,8 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      crew:
+        value: []
     img: icons/svg/sword.svg
     _id: vvO1Z1StXYVrPr03
     effects: []
@@ -710,13 +798,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.vvO1Z1StXYVrPr03'
   - name: Heat Ray
     type: weapon
@@ -768,6 +855,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -779,6 +867,12 @@ items:
           uses:
             spent: 0
             recovery: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       damage:
         base:
           number: 2
@@ -827,7 +921,6 @@ items:
       armor:
         value: null
       cover: null
-      crewed: false
       hp:
         value: null
         max: null
@@ -836,6 +929,8 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      crew:
+        value: []
     img: icons/svg/sword.svg
     _id: Q5W6DRaUgpY4pvnj
     effects: []
@@ -848,13 +943,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.Q5W6DRaUgpY4pvnj'
   - name: Predetermined Strike
     type: feat
@@ -895,6 +989,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -909,6 +1004,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: predetermined-strike
       source:
         revision: 1
@@ -919,8 +1020,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/combat.svg
     _id: 3i5RNzHJfSuMARIJ
     effects: []
@@ -933,13 +1038,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.3i5RNzHJfSuMARIJ'
   - name: Fractured Existence
     type: feat
@@ -997,8 +1101,12 @@ items:
             name: Flicker
             formula: 1d4
           name: ''
-          img: ''
-          appliedEffects: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1013,8 +1121,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: Bloodied
+      advancement: []
+      crewed: false
     img: icons/svg/combat.svg
     _id: koz0dP6fhrUcA8Dq
     effects: []
@@ -1031,13 +1143,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.koz0dP6fhrUcA8Dq'
   - name: Undo
     type: feat
@@ -1071,6 +1182,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
@@ -1085,6 +1197,12 @@ items:
           roll:
             prompt: false
             visible: false
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -1098,8 +1216,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     flags:
       adnd5e:
         itemInfo:
@@ -1114,13 +1236,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.g51OFgSxzSNrZpLn'
   - name: Displacement
     type: feat
@@ -1145,8 +1266,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/book.svg
     _id: ee73J7nQXjWKPtrc
     effects: []
@@ -1159,13 +1284,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.ee73J7nQXjWKPtrc'
   - name: Rewind
     type: feat
@@ -1192,8 +1316,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/svg/book.svg
     _id: Bcsf9A2pHnw2xVaA
     effects: []
@@ -1206,13 +1334,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.Bcsf9A2pHnw2xVaA'
   - name: Innate Spellcasting
     type: feat
@@ -1238,8 +1365,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: []
+      crewed: false
     img: icons/magic/light/projectiles-star-purple.webp
     _id: ZdztAZFaHktLtnll
     effects: []
@@ -1252,13 +1383,12 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.ZdztAZFaHktLtnll'
   - _id: td7Zq6xinz30tBM5
     name: Haste
@@ -1298,7 +1428,7 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         value: '30'
@@ -1314,9 +1444,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: innate
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1344,8 +1471,10 @@ items:
             override: false
           effects:
             - _id: DEPrzDiNHOqKj4Hj
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1363,7 +1492,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: haste
+      method: innate
+      prepared: 0
     sort: 0
     flags:
       dnd5e:
@@ -1422,13 +1559,11 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
           duplicateSource: null
-          coreVersion: '13.344'
-          systemId: dnd5e
-          systemVersion: 4.1.2
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
           exportSource: null
+          coreVersion: '13.351'
+          systemId: dnd5e
+          systemVersion: 5.2.0
+          lastModifiedBy: null
         img: icons/magic/control/buff-flight-wings-runes-purple.webp
         type: base
         system: {}
@@ -1439,13 +1574,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.td7Zq6xinz30tBM5'
   - _id: qqQnbmD1VghuR5bX
     name: Slow
@@ -1507,9 +1641,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: innate
-        prepared: false
       properties:
         - vocal
         - somatic
@@ -1538,8 +1669,10 @@ items:
           effects:
             - _id: YtN8kTDQyxFaxpEx
               onSave: false
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1561,6 +1694,12 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
         dnd5eactivity300:
           _id: dnd5eactivity300
           type: utility
@@ -1582,8 +1721,10 @@ items:
             override: false
           effects:
             - _id: YtN8kTDQyxFaxpEx
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1601,7 +1742,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: slow
+      method: innate
+      prepared: 0
     sort: 0
     flags:
       dnd5e:
@@ -1658,13 +1807,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.344'
-          systemId: dnd5e
-          systemVersion: 4.1.2
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
           exportSource: null
+          coreVersion: '13.351'
+          systemId: dnd5e
+          systemVersion: 5.2.0
+          lastModifiedBy: null
         img: icons/magic/air/fog-gas-smoke-dense-pink.webp
         type: base
         system: {}
@@ -1675,13 +1822,12 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.qqQnbmD1VghuR5bX'
   - _id: 0YnVEJ3SqzntgtRq
     name: Time Stop
@@ -1720,7 +1866,7 @@ items:
           type: self
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
       range:
         units: self
@@ -1735,9 +1881,6 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: innate
-        prepared: false
       properties:
         - vocal
       activities:
@@ -1763,6 +1906,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -1780,7 +1924,15 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: time-stop
+      method: innate
+      prepared: 0
     sort: 0
     flags:
       dnd5e:
@@ -1791,26 +1943,25 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!iQFrUugM1XFPAgXT.0YnVEJ3SqzntgtRq'
 effects: []
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733345040090
+  systemVersion: 5.2.0
+  createdTime: 1764610544243
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 sort: 0
 ownership:
   default: 0

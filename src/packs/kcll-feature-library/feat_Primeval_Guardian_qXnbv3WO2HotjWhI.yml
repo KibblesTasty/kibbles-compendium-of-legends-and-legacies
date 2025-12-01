@@ -51,13 +51,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1731615761077
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!qXnbv3WO2HotjWhI.ENgNk7IO26Z7JUYz'
 flags:
   core: {}
@@ -116,6 +115,7 @@ system:
         override: false
       effects:
         - _id: ENgNk7IO26Z7JUYz
+          level: {}
       range:
         units: self
         special: ''
@@ -128,7 +128,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -147,8 +147,12 @@ system:
         visible: false
       sort: 0
       name: Root
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     EHwSgwx4Wqe00G4H:
       type: utility
       name: Uproot
@@ -171,6 +175,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -185,21 +190,31 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: primeval-guardian
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.jC8bTk9O19TWGfFy
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317522526
+  systemVersion: 5.2.0
+  createdTime: 1764610595336
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 82700000
 ownership:

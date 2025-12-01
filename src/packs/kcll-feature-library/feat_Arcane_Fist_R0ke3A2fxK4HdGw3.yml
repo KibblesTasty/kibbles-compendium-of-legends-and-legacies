@@ -67,7 +67,7 @@ system:
         recovery: []
         max: ''
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: false
         categories: []
@@ -75,10 +75,12 @@ system:
         type: ''
       _id: gf4ykvEQ4G4r7P1G
       name: ''
-      img: ''
-      appliedEffects:
-        - qBioEOwgpX6D3XzQ
-        - r9bB0A1xiizbfwT1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -103,8 +105,11 @@ system:
     level: null
     items:
       - spellfist
+    repeatable: false
   properties: []
   requirements: Spellfist
+  advancement: []
+  crewed: false
 effects:
   - type: enchantment
     name: Arcane Fist (1d10)
@@ -148,13 +153,12 @@ effects:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tEtzBFlai0wC71uK.ActiveEffect.J9cZ9lqZQ4qSVkzf
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731475055606
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!R0ke3A2fxK4HdGw3.qBioEOwgpX6D3XzQ'
   - type: enchantment
     name: Arcane Fist (1d12)
@@ -197,13 +201,12 @@ effects:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.tEtzBFlai0wC71uK.ActiveEffect.J9cZ9lqZQ4qSVkzf
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731475085795
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: r9bB0A1xiizbfwT1
     _key: '!items.effects!R0ke3A2fxK4HdGw3.r9bB0A1xiizbfwT1'
 folder: null
@@ -218,11 +221,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1731474987791
+  systemVersion: 5.2.0
+  createdTime: 1764610572010
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!R0ke3A2fxK4HdGw3'

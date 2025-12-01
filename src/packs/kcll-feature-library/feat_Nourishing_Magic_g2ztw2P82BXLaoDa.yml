@@ -32,13 +32,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731878103001
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!g2ztw2P82BXLaoDa.gLgGIht3xCkAm8TB'
   - name: Nourishing Magic (Huge)
     img: icons/magic/nature/tree-twisted-glow-yellow.webp
@@ -69,13 +68,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731878161119
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: 1mqDKZh7qbnBsHJl
     _key: '!items.effects!g2ztw2P82BXLaoDa.1mqDKZh7qbnBsHJl'
 flags:
@@ -132,7 +130,9 @@ system:
         override: false
       effects:
         - _id: gLgGIht3xCkAm8TB
+          level: {}
         - _id: 1mqDKZh7qbnBsHJl
+          level: {}
       range:
         override: false
         units: spec
@@ -154,7 +154,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - healing
         custom:
@@ -165,24 +165,30 @@ system:
           mode: ''
         bonus: ''
       name: ''
-      img: ''
-      appliedEffects:
-        - gLgGIht3xCkAm8TB
-        - 1mqDKZh7qbnBsHJl
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.CONLpc4gApCiAUbG
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317515202
+  systemVersion: 5.2.0
+  createdTime: 1764610585551
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 70700000
 ownership:

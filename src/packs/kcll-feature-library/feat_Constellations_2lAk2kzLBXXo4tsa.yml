@@ -56,8 +56,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Astronomical Order 6
+  advancement: []
+  crewed: false
 effects:
   - name: Constellation of the Eye
     img: icons/skills/trades/academics-astronomy-navigation-purple.webp
@@ -92,13 +96,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744830652333
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!2lAk2kzLBXXo4tsa.nRme2PCc6c4b5twz'
   - name: Constellation of Mystery
     img: icons/skills/trades/academics-astronomy-navigation-purple.webp
@@ -133,13 +136,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744830683202
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!2lAk2kzLBXXo4tsa.c44hRmw2FnMZbgFQ'
 folder: null
 sort: 1100000
@@ -149,11 +151,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732135392749
+  systemVersion: 5.2.0
+  createdTime: 1764610550261
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!2lAk2kzLBXXo4tsa'

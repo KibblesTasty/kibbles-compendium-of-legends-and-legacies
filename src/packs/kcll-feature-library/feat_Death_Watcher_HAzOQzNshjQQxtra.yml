@@ -86,7 +86,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types: []
         custom:
           enabled: false
@@ -94,24 +94,31 @@ system:
           number: 1
         bonus: '1'
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: 12
     items:
       - tradition-of-the-oracle
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.AkuFYI3U1FWdTJfJ
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317498024
+  systemVersion: 5.2.0
+  createdTime: 1764610564125
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 44800000
 ownership:

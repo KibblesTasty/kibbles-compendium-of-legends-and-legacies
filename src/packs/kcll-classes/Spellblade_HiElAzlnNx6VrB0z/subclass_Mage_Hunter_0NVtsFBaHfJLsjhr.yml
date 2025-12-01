@@ -83,11 +83,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 5
       title: Mage Hunter Spells
@@ -101,11 +102,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 3
       title: Mage Hunter Spells
@@ -119,11 +121,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 9
       title: Mage Hunter Spells
@@ -138,11 +141,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 13
       title: Mage Hunter Spells
@@ -156,11 +160,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 17
       title: Mage Hunter Spells
@@ -180,11 +185,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1729045981954
+  systemVersion: 5.2.0
+  createdTime: 1764610604382
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!0NVtsFBaHfJLsjhr'

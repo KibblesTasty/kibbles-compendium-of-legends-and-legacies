@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: Vmx4p8MDeSSzNbD8
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -56,8 +58,12 @@ system:
               number: 1
               formula: ''
       name: Initial Damage
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     lkasjbuRoOOswoQZ:
       type: damage
       name: Ongoing Damage
@@ -82,6 +88,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -110,8 +117,12 @@ system:
               mode: whole
               number: 1
               formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -150,9 +161,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -170,6 +178,8 @@ system:
       choice: false
       count: ''
       type: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Burning Strike
     img: icons/magic/fire/projectile-bolt-zigzag-orange.webp
@@ -197,13 +207,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733258292003
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!rcWgc9syRcZeFLTz.Vmx4p8MDeSSzNbD8'
 folder: null
 sort: 14500000
@@ -217,11 +226,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732556632123
+  systemVersion: 5.2.0
+  createdTime: 1764610623125
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!rcWgc9syRcZeFLTz'

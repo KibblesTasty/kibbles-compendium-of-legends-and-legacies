@@ -70,7 +70,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -99,8 +99,12 @@ system:
               number: 1
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     YeVi3KwYalY5TktQ:
       type: damage
       activation:
@@ -137,7 +141,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -167,23 +171,31 @@ system:
       sort: 0
       name: ''
       _id: YeVi3KwYalY5TktQ
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: wolfpack-tactics
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.SgwZPGQq2STwbnq5
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317492381
+  systemVersion: 5.2.0
+  createdTime: 1764610556661
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 36400000
 ownership:

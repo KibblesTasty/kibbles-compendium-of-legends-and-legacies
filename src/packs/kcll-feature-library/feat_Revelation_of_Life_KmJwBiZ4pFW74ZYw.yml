@@ -78,7 +78,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -105,25 +105,32 @@ system:
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: revelation-of-life
   enchant: {}
   prerequisites:
     level: null
     items:
       - mystery-of-life
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.9wbSL2YSsESVF3Dr
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317499734
+  systemVersion: 5.2.0
+  createdTime: 1764610566353
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 47500000
 ownership:

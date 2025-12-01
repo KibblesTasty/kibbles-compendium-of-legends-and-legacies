@@ -4,11 +4,7 @@ img: icons/sundries/flags/banner-flag-red-white.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: "<p>At 18th level, you can perform legendary feats that defy all common sense. Before you make an attack roll, saving throw, or Strength, Dexterity, or Constitution ability check, you can make it a legendary feat, adding your Fighter level to the roll.</p><p>\_Once you do so, you cannot do so again until you complete a short or long rest.</p>"
@@ -68,7 +64,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -87,23 +83,31 @@ system:
         visible: false
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: legendary-feat
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.qQkz29gM4icGWWsz
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317519187
+  systemVersion: 5.2.0
+  createdTime: 1764610591021
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 77400000
 ownership:

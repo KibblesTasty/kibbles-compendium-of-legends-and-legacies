@@ -64,17 +64,15 @@ system:
       your highest ability score, followed by Wisdom. For a Tactician, select
       Intelligence as your highest ability score, followed by Constitution.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCLL
     page: ''
     custom: ''
     license: ''
     rules: '2014'
+    revision: 1
   identifier: warlord
   levels: 1
-  hitDice: d8
-  hitDiceUsed: 0
   advancement:
     - _id: 2bf6huoni5lzljik
       type: HitPoints
@@ -444,6 +442,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 4
@@ -461,6 +460,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 8
@@ -478,6 +478,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 12
@@ -495,6 +496,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 16
@@ -512,37 +514,16 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 19
       title: ''
-  saves:
-    - wis
-    - cha
-  skills:
-    number: 3
-    choices:
-      - ath
-      - dec
-      - his
-      - ins
-      - itm
-      - inv
-      - med
-      - prf
-      - per
-    value: []
   spellcasting:
     progression: none
     ability: ''
     preparation:
       formula: ''
-  subclass: Commander's Presence
-  damage:
-    parts: []
-  critical:
-    threshold: null
-    damage: null
   wealth: 5d4 * 10
   primaryAbility:
     value:
@@ -651,16 +632,21 @@ system:
       _id: ojLUbWC7vyC1ZUau
       group: qRiySUwS8as7g2MA
       sort: 1600000
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.3.8
-  coreVersion: '13.344'
-  createdTime: 1682022640155
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Compendium.dnd5e.classes.ABEBgWyRhVlDUIfq
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610605637
+  modifiedTime: null
+  lastModifiedBy: null
 folder: iq2yIqBIoLBEd3dB
 sort: 100000
 ownership:

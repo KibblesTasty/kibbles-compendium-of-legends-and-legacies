@@ -30,7 +30,6 @@ system:
   rarity: common
   identified: true
   cover: null
-  crewed: false
   uses:
     max: ''
     spent: 0
@@ -47,6 +46,7 @@ system:
   speed:
     value: null
     conditions: ''
+    units: ft
   strength: 0
   proficient: 1
   identifier: frost-shield
@@ -59,16 +59,18 @@ system:
   container: null
   attuned: false
   properties: []
+  crew:
+    value: []
 _stats:
   compendiumSource: Item.yWn1JRfcm0I2g6qC
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317493293
+  systemVersion: 5.2.0
+  createdTime: 1764610557834
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 37700000
 ownership:

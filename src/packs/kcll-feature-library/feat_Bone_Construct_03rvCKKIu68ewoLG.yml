@@ -26,6 +26,7 @@ system:
         override: false
       effects:
         - _id: i8uz25HFJ7gWc86k
+          level: {}
       range:
         override: false
         units: self
@@ -61,6 +62,7 @@ system:
         proficiency: true
         saves: false
         ability: ''
+        disposition: false
       profiles:
         - count: ''
           name: ''
@@ -74,10 +76,13 @@ system:
       summon:
         prompt: true
         mode: ''
-        identifier: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -125,8 +130,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Bone Binder 1
+  advancement: []
+  crewed: false
 effects:
   - name: Bone Construct
     img: icons/magic/death/skeleton-reptile-while-purple.webp
@@ -158,13 +167,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731692582265
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!03rvCKKIu68ewoLG.i8uz25HFJ7gWc86k'
 folder: null
 sort: 300000
@@ -178,11 +186,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731642214818
+  systemVersion: 5.2.0
+  createdTime: 1764610547867
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!03rvCKKIu68ewoLG'

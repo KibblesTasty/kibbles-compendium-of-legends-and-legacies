@@ -26,8 +26,10 @@ system:
       effects:
         - _id: SCOLUAqaObGRSvdw
           onSave: false
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -61,8 +63,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     QxeztfTeWlvZe7a3:
       type: damage
       name: Rip Free
@@ -120,8 +126,12 @@ system:
               mode: whole
               number: 1
               formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -156,9 +166,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -177,6 +184,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Bramble Binding
     img: icons/magic/nature/root-vine-entangle-foot-green.webp
@@ -209,13 +218,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1732644543560
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!KfG3ib4M4V65TUpf.SCOLUAqaObGRSvdw'
 folder: null
 sort: 5400000
@@ -229,11 +237,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732556615607
+  systemVersion: 5.2.0
+  createdTime: 1764610619704
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!KfG3ib4M4V65TUpf'

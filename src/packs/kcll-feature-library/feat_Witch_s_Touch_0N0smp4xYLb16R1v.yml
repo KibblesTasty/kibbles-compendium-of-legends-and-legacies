@@ -86,7 +86,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types: []
         custom:
           enabled: true
@@ -94,8 +94,12 @@ system:
         scaling:
           number: 1
         bonus: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     1ny1DMpYeS8pvsi6:
       type: damage
       name: Bonus Damage
@@ -150,22 +154,30 @@ system:
             types: []
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.DExlt95yRy70WpWG
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317485123
+  systemVersion: 5.2.0
+  createdTime: 1764610548109
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 25800000
 ownership:

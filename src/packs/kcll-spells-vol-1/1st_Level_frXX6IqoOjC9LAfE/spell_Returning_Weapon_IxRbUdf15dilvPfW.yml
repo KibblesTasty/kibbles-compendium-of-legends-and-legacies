@@ -5,13 +5,13 @@ effects:
   - name: Returning Weapon
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
             max: null
           riders:
             effect: []
+        persistSourceMigration: true
     _id: mhKPVwYEdOdjFTpD
     changes:
       - key: system.properties
@@ -54,17 +54,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/weapons/thrown/shuriken-triple-purple.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!IxRbUdf15dilvPfW.mhKPVwYEdOdjFTpD'
@@ -72,10 +71,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 1100000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _id: IxRbUdf15dilvPfW
 system:
   description:
@@ -85,81 +81,42 @@ system:
       gains the "returning" property. After being thrown it automatically
       reappears in the throwers hand.</p>
     chat: ''
-    unidentified: ''
   source:
     book: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
-    value: 24
-    units: hour
-  cover: null
-  crewed: false
-  target:
     value: 1
-    width: null
-    units: ''
-    type: object
+  duration:
+    value: '24'
+    units: hour
+  target:
     affects:
       special: ''
+      type: object
+      count: '1'
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
     special: ''
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: ench
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: null
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 1
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
-  enchantment:
-    restrictions:
-      allowMagical: true
-      type: ''
   properties:
     - vocal
     - somatic
@@ -194,6 +151,7 @@ system:
             item: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -207,23 +165,32 @@ system:
         max: ''
         recovery: []
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         type: ''
         categories: []
         properties: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: returning-weapon
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: 1721351321060
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.4SZAods2ts8OCJDe
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610613653
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!IxRbUdf15dilvPfW'

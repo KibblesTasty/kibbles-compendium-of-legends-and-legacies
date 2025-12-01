@@ -56,13 +56,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732138765152
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!e6xpii7QFIOqo4I8.rP6Jk8c9m1E10TQQ'
 flags:
   core: {}
@@ -143,6 +142,7 @@ system:
       effects:
         - _id: rP6Jk8c9m1E10TQQ
           onSave: false
+          level: {}
       range:
         override: false
         units: self
@@ -174,23 +174,31 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: dragon-form
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.qh9PPgI6woi2UVxp
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317513447
+  systemVersion: 5.2.0
+  createdTime: 1764610583710
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 67900000
 ownership:

@@ -83,8 +83,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     l5mIKY9UD13kW9J8:
       type: utility
       name: Reaction
@@ -137,13 +141,21 @@ system:
         formula: ''
         name: ''
       _id: l5mIKY9UD13kW9J8
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties:
     - mgc
+  advancement: []
+  crewed: false
 effects: []
 flags:
   core: {}
@@ -154,13 +166,13 @@ flags:
 _stats:
   compendiumSource: Item.QHNw0DGoJOoEkP43
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317502871
+  systemVersion: 5.2.0
+  createdTime: 1764610570221
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 52300000
 ownership:

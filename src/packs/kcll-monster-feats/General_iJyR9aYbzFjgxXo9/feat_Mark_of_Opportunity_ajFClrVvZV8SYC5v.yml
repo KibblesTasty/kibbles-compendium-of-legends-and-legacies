@@ -28,6 +28,7 @@ system:
         value: '1'
       effects:
         - _id: zOArRPZcRq65daZM
+          level: {}
       range:
         override: false
         units: ft
@@ -53,9 +54,12 @@ system:
         name: ''
         formula: ''
       name: ''
-      img: ''
-      appliedEffects:
-        - zOArRPZcRq65daZM
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -83,8 +87,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Mark of Opportunity
     img: icons/skills/targeting/crosshair-pointed-orange.webp
@@ -115,13 +123,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739485447148
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!ajFClrVvZV8SYC5v.zOArRPZcRq65daZM'
 sort: 0
 ownership:
@@ -134,11 +141,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.0
-  createdTime: 1733352976846
+  systemVersion: 5.2.0
+  createdTime: 1764610624732
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ajFClrVvZV8SYC5v'

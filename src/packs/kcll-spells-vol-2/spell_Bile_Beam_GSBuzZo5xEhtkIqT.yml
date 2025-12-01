@@ -26,6 +26,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -60,8 +61,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     SWKEBjUkFDKSqHKV:
       type: damage
       _id: SWKEBjUkFDKSqHKV
@@ -85,6 +90,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -116,8 +122,12 @@ system:
               mode: ''
               number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -152,9 +162,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -175,6 +182,8 @@ system:
       choice: false
       count: ''
       type: ''
+  method: spell
+  prepared: 0
 effects: []
 folder: null
 sort: 4100000
@@ -188,11 +197,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732556505553
+  systemVersion: 5.2.0
+  createdTime: 1764610619292
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!GSBuzZo5xEhtkIqT'

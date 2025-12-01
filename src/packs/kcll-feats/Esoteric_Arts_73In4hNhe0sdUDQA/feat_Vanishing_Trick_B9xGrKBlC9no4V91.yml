@@ -60,8 +60,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -101,9 +105,13 @@ system:
     subtype: ''
   prerequisites:
     level: 8
+    items: []
+    repeatable: false
   properties:
     - mgc
   requirements: ''
+  advancement: []
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -116,11 +124,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729047621342
+  systemVersion: 5.2.0
+  createdTime: 1764610608420
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!B9xGrKBlC9no4V91'

@@ -52,7 +52,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -81,6 +81,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -96,7 +97,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     qMtUTudrEtBity42:
       type: forward
       name: Create Pit
@@ -124,23 +130,30 @@ system:
         max: ''
       activity:
         id: yM2jtpjtlnxIS0gj
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.EpgCsqqyEDEo41mu
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1727317497852
+  systemVersion: 5.2.0
+  createdTime: 1764610563791
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 44500000
 ownership:

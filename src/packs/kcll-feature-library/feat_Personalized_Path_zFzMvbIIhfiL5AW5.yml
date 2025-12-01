@@ -10,72 +10,40 @@ system:
       <p>At 3rd level, you gain one additional Occult Rite. This can come from
       the Hedge Mage Rites or from the general Occultist Rites.</p>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   requirements: Hedge Mage 3
-  recharge:
-    value: null
-    charged: false
   identifier: personalized-path
+  activities: {}
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1678742351367
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.onIHBaJFIZmJfFjx
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610602554
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 90600000
 ownership:

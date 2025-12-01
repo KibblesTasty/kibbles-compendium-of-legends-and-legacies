@@ -28,8 +28,11 @@ system:
     level: null
     items:
       - tradition-of-the-voidwatcher
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: This is Fine
     img: icons/magic/fire/flame-burning-creature-skeleton.webp
@@ -61,13 +64,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731224838021
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!oLXltnRBD8tEfp3r.8E6gXxJ4Cvgxj0Z4'
 folder: null
 sort: 15500000
@@ -77,11 +79,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1731224829076
+  systemVersion: 5.2.0
+  createdTime: 1764610593446
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!oLXltnRBD8tEfp3r'

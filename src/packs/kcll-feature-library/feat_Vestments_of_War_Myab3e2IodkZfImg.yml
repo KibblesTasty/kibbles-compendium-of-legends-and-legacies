@@ -27,6 +27,8 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   advancement:
     - type: Trait
@@ -41,16 +43,17 @@ system:
       title: ''
       hint: ''
       value: {}
+  crewed: false
 _stats:
   compendiumSource: Item.i2Si3hjaLwT8jvLd
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1727317501850
+  systemVersion: 5.2.0
+  createdTime: 1764610568831
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 50700000
 ownership:

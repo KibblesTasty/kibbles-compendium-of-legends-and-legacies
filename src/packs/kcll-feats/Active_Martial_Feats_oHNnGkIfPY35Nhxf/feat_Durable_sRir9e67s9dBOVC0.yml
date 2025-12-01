@@ -29,6 +29,7 @@ system:
         value: '1'
       effects:
         - _id: qvu02Z18cQ6TObko
+          level: {}
       range:
         override: false
         units: self
@@ -53,8 +54,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -95,6 +100,8 @@ system:
     subtype: ''
   prerequisites:
     level: 4
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
   advancement:
@@ -115,11 +122,13 @@ system:
           - wis
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects:
   - name: Durable
     img: icons/magic/defensive/armor-stone-skin.webp
@@ -214,13 +223,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1732228023986
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!sRir9e67s9dBOVC0.qvu02Z18cQ6TObko'
 sort: 0
 ownership:
@@ -233,11 +241,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729046693541
+  systemVersion: 5.2.0
+  createdTime: 1764610609821
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!sRir9e67s9dBOVC0'

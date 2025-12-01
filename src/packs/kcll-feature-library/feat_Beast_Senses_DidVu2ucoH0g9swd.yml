@@ -31,20 +31,24 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 flags:
   core: {}
 _stats:
   compendiumSource: Item.di9pHHzpv7L6FAtO
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317495674
+  systemVersion: 5.2.0
+  createdTime: 1764610561056
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 41200000
 ownership:

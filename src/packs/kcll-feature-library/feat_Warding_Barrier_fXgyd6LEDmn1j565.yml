@@ -24,7 +24,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Warding Barrier
     img: icons/magic/lightning/barrier-shield-orb-pink.webp
@@ -104,26 +108,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731472429915
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!fXgyd6LEDmn1j565.rwz9kdrRWQ5ztUNj'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.ZFOJQdtuSNHhM0Cr
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317514642
+  systemVersion: 5.2.0
+  createdTime: 1764610584962
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 69700000
 ownership:

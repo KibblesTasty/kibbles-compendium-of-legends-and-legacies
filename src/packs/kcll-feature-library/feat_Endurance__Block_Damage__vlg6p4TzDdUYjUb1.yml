@@ -69,7 +69,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -95,21 +95,31 @@ system:
           number: null
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: endurance-block-damage
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.VSZT36Ve1LvR6A5U
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317525555
+  systemVersion: 5.2.0
+  createdTime: 1764610599752
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 87400000
 ownership:

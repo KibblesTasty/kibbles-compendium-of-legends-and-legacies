@@ -27,8 +27,11 @@ system:
         override: false
       effects:
         - _id: l5eH7nSOSmc2njiV
+          level: {}
         - _id: NVcIyHEVmJNUFlXg
+          level: {}
         - _id: Yh7cfvlJF9EyajV0
+          level: {}
       range:
         override: false
         units: self
@@ -53,8 +56,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     NikNkdFr0PqWBy4Y:
       type: heal
       name: Aspect of the Turtle
@@ -98,7 +105,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - temphp
         custom:
@@ -107,8 +114,12 @@ system:
         scaling:
           number: 1
         bonus: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -154,8 +165,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Circle of the Aspects 2
+  advancement: []
+  crewed: false
 effects:
   - name: Aspect of the Bear
     img: icons/magic/nature/wolf-paw-glow-large-purple-teal.webp
@@ -195,13 +210,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731781838373
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!i6zCBmIqwwKrEnnP.l5eH7nSOSmc2njiV'
   - name: Aspect of the Tiger
     img: icons/magic/nature/wolf-paw-glow-large-purple-teal.webp
@@ -233,13 +247,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731781921056
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!i6zCBmIqwwKrEnnP.NVcIyHEVmJNUFlXg'
   - name: Aspect of the Turtle
     img: icons/magic/nature/wolf-paw-glow-large-purple-teal.webp
@@ -271,13 +284,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731781930594
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!i6zCBmIqwwKrEnnP.Yh7cfvlJF9EyajV0'
 folder: null
 sort: 13200000
@@ -291,11 +303,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731780925249
+  systemVersion: 5.2.0
+  createdTime: 1764610587113
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!i6zCBmIqwwKrEnnP'

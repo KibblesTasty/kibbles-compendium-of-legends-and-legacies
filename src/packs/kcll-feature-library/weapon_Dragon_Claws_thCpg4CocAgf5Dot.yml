@@ -30,7 +30,6 @@ system:
   rarity: ''
   identified: true
   cover: null
-  crewed: false
   range:
     value: 5
     long: null
@@ -116,7 +115,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -143,21 +142,29 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: dragon-claws
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
+  crew:
+    value: []
 _stats:
   compendiumSource: Item.hCqi5ZQEdPNuL9fZ
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317523955
+  systemVersion: 5.2.0
+  createdTime: 1764610597979
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 85100000
 ownership:

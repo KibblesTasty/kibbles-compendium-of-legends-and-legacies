@@ -57,8 +57,10 @@ system:
         override: false
       effects:
         - _id: Aq0BfROpOq9VohhT
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -73,6 +75,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     d74MPjbjr0HL5Cwp:
       type: save
       name: Resist Curse
@@ -97,6 +105,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -118,6 +127,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -126,9 +141,6 @@ system:
   source:
     revision: 1
     rules: '2014'
-  preparation:
-    mode: prepared
-    prepared: false
   target:
     template:
       contiguous: false
@@ -139,6 +151,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 folder: null
 _id: pRj5UhX4YEzSwsWB
 effects:
@@ -167,13 +181,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!pRj5UhX4YEzSwsWB.Aq0BfROpOq9VohhT'
 flags:
   dnd5e:
@@ -183,13 +196,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733168417035
+  systemVersion: 5.2.0
+  createdTime: 1764610622731
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 sort: 13400000
 ownership:
   default: 0

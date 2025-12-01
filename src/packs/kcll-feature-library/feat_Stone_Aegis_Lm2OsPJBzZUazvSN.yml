@@ -24,7 +24,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Stone Aegis
     img: icons/magic/defensive/armor-stone-skin.webp
@@ -105,26 +109,25 @@ effects:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.fXgyd6LEDmn1j565.ActiveEffect.rwz9kdrRWQ5ztUNj
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731474006041
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!Lm2OsPJBzZUazvSN.p9Dkxdi8nMbsXNVC'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.gkzPwQHNEkE8U1AJ
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317500644
+  systemVersion: 5.2.0
+  createdTime: 1764610567381
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 48800000
 ownership:

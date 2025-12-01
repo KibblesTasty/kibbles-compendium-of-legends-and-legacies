@@ -53,8 +53,12 @@ system:
         name: ''
         formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -86,8 +90,11 @@ system:
     level: null
     items:
       - timetwister
+    repeatable: false
   properties: []
   requirements: Timetwister
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 2600000
@@ -101,11 +108,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1731649075851
+  systemVersion: 5.2.0
+  createdTime: 1764610554792
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!7x5C2ljKXqURL5rD'

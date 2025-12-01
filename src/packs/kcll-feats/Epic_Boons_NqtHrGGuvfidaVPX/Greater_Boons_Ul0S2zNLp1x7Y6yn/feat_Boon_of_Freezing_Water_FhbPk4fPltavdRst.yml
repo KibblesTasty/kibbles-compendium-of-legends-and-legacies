@@ -26,8 +26,12 @@ system:
     subtype: epicBoon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Boon of Freezing Water
     img: icons/magic/water/water-iceberg-bubbles.webp
@@ -59,13 +63,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732304663878
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!FhbPk4fPltavdRst.9pcAoO4vm9jd42wh'
 sort: 0
 ownership:
@@ -74,11 +77,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732296313840
+  systemVersion: 5.2.0
+  createdTime: 1764610608616
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!FhbPk4fPltavdRst'

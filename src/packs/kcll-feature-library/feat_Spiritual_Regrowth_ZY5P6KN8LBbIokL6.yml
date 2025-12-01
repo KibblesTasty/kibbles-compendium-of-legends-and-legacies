@@ -46,7 +46,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - healing
         custom:
@@ -56,8 +56,12 @@ system:
           number: 1
         bonus: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -81,8 +85,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Circle of the Aspects 6
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 11200000
@@ -96,11 +104,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731780970728
+  systemVersion: 5.2.0
+  createdTime: 1764610579311
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ZY5P6KN8LBbIokL6'

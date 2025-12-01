@@ -33,8 +33,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: A monster with a bite attack
+  advancement: []
+  crewed: false
 effects:
   - name: Multiheaded
     img: icons/creatures/eyes/icy-cluster-blue.webp
@@ -77,13 +81,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744834879918
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!tApGYutp3RUAHd5e.xTGZ5Z8tcl3Mo31R'
 sort: 0
 ownership:
@@ -92,11 +95,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733353489130
+  systemVersion: 5.2.0
+  createdTime: 1764610624808
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!tApGYutp3RUAHd5e'

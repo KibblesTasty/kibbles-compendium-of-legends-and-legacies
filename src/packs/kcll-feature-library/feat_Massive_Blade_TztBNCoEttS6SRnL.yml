@@ -28,13 +28,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731436516559
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!TztBNCoEttS6SRnL.ISOUpiDPmt9GTvlL'
 flags:
   core: {}
@@ -100,6 +99,7 @@ system:
         override: false
       effects:
         - _id: ISOUpiDPmt9GTvlL
+          level: {}
       range:
         override: false
         units: self
@@ -125,22 +125,30 @@ system:
         name: ''
         formula: ''
       name: Overcharge Aether Blade
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.pnmJ4vRKKpm3FbdH
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317506057
+  systemVersion: 5.2.0
+  createdTime: 1764610574268
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 57200000
 ownership:

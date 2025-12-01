@@ -43,13 +43,12 @@ effects:
       compendiumSource: >-
         Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT.ActiveEffect.OnWa3f4IQ3pneB5T
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744833253499
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/skills/melee/strike-blade-knife-white-red.webp
     type: base
     system: {}
@@ -109,6 +108,7 @@ system:
         value: '1'
       effects:
         - _id: OzohK52jMZFPKlRx
+          level: {}
       range:
         override: false
         units: self
@@ -133,23 +133,30 @@ system:
         name: ''
         formula: ''
       name: ''
-      img: ''
-      appliedEffects:
-        - OzohK52jMZFPKlRx
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.6NW25StZmLoye1ou
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1727317514409
+  systemVersion: 5.2.0
+  createdTime: 1764610584685
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 69400000
 ownership:

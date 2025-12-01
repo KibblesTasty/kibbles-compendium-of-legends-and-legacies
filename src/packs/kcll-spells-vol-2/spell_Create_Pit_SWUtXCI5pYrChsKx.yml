@@ -26,6 +26,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -59,8 +60,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -98,9 +103,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -121,6 +123,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 effects: []
 folder: null
 sort: 7800000
@@ -134,11 +138,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732556693097
+  systemVersion: 5.2.0
+  createdTime: 1764610620485
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!SWUtXCI5pYrChsKx'

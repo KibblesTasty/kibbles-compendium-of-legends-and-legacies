@@ -32,7 +32,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Lingering Gaze
     img: icons/magic/perception/eye-tendrils-web-purple.webp
@@ -67,26 +71,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744832594746
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!hQkiQVtvbFnqsTVO.rxat4lgPuRZIcLu1'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.d9cQowaU2ID3RDVJ
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317516029
+  systemVersion: 5.2.0
+  createdTime: 1764610586436
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 72000000
 ownership:

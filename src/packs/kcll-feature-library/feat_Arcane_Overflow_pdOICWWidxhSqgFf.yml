@@ -28,8 +28,12 @@ system:
     subtype: spellbladeAegis
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - type: enchantment
     name: Arcane Overflow
@@ -60,13 +64,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731475999902
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!pdOICWWidxhSqgFf.k8aatOzccbidWJAG'
 folder: null
 sort: 15800000
@@ -80,11 +83,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731475966078
+  systemVersion: 5.2.0
+  createdTime: 1764610594300
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!pdOICWWidxhSqgFf'

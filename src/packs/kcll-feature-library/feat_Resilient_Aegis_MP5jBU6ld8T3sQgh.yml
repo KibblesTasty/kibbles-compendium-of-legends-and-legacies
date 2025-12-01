@@ -80,13 +80,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731437898338
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!MP5jBU6ld8T3sQgh.3eOAxl6hAdk7qRe1'
 flags:
   core: {}
@@ -143,6 +142,7 @@ system:
         value: '1'
       effects:
         - _id: 3eOAxl6hAdk7qRe1
+          level: {}
       range:
         override: false
         units: self
@@ -168,23 +168,30 @@ system:
         name: ''
         formula: ''
       name: Fortify
-      img: ''
-      appliedEffects:
-        - 3eOAxl6hAdk7qRe1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.AgRSyLbWHkEJYWK6
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317501429
+  systemVersion: 5.2.0
+  createdTime: 1764610568403
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 50100000
 ownership:

@@ -51,7 +51,6 @@ system:
   rarity: common
   identified: true
   cover: null
-  crewed: false
   range:
     value: 10
     long: null
@@ -140,7 +139,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -167,6 +166,12 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     zn4fNV3yVNrcknSX:
       type: check
       name: Grapple
@@ -191,6 +196,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -213,24 +219,30 @@ system:
           calculation: ''
           formula: '10'
         ability: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: lashing-vine
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
   mastery: ''
+  crew:
+    value: []
 _stats:
   compendiumSource: Item.5j095Jlu3IGvX1a8
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317492066
+  systemVersion: 5.2.0
+  createdTime: 1764610556302
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 35900000
 ownership:

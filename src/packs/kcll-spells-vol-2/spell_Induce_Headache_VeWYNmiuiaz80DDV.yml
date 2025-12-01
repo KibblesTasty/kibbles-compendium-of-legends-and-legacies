@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: EmkXmFePEPyGwmsj
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -41,6 +43,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     sWMa89oeNZPbFFlX:
       type: damage
       _id: sWMa89oeNZPbFFlX
@@ -64,6 +72,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -92,8 +101,12 @@ system:
               mode: ''
               number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -123,9 +136,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -146,6 +156,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Induce Headache
     img: icons/magic/perception/eye-slit-orange.webp
@@ -173,13 +185,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733008877702
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!VeWYNmiuiaz80DDV.EmkXmFePEPyGwmsj'
 folder: null
 sort: 8700000
@@ -193,11 +204,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732558666743
+  systemVersion: 5.2.0
+  createdTime: 1764610620809
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!VeWYNmiuiaz80DDV'

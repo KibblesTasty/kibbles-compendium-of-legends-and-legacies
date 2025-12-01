@@ -30,7 +30,6 @@ system:
   rarity: ''
   identified: true
   cover: null
-  crewed: false
   range:
     value: 10
     long: null
@@ -117,7 +116,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -144,21 +143,29 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: dragon-tail
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
+  crew:
+    value: []
 _stats:
   compendiumSource: Item.uscCG2m69brPL2fr
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317486003
+  systemVersion: 5.2.0
+  createdTime: 1764610549019
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 27100000
 ownership:

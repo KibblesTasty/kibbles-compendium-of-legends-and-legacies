@@ -79,16 +79,19 @@ system:
         recovery: []
         max: ''
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: false
         categories:
           - simpleM
         properties: []
         type: weapon
-      img: ''
-      appliedEffects:
-        - pJU6EHe5Km67y85T
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     xKMfCMOblzPZhk3g:
       type: cast
       spell:
@@ -119,6 +122,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -132,11 +136,20 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - type: enchantment
     name: Solar Fragment
@@ -171,13 +184,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731619846996
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!txbbZQcl11GZMweE.pJU6EHe5Km67y85T'
 flags:
   core: {}
@@ -188,13 +200,13 @@ flags:
 _stats:
   compendiumSource: Item.CJB7hFJKyUn6LCEn
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317524170
+  systemVersion: 5.2.0
+  createdTime: 1764610598231
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 85500000
 ownership:

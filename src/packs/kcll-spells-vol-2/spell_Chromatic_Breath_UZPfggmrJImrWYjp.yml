@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: vGWjq8xPzFGLN2ia
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -41,6 +43,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     1NzKpkL8996GyJh0:
       type: save
       _id: 1NzKpkL8996GyJh0
@@ -110,8 +118,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -146,9 +158,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -168,6 +177,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Chromatic Breath
     img: icons/creatures/abilities/dragon-ice-breath-blue.webp
@@ -195,13 +206,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733258706807
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!UZPfggmrJImrWYjp.vGWjq8xPzFGLN2ia'
 folder: null
 sort: 8500000
@@ -215,11 +225,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732556654964
+  systemVersion: 5.2.0
+  createdTime: 1764610620746
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!UZPfggmrJImrWYjp'

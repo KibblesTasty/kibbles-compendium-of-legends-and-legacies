@@ -71,7 +71,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: object
@@ -90,23 +90,31 @@ system:
         visible: false
       sort: 0
       name: Infuse Weapon
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: dancing-weapon
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.oAKm82nIh8QNngJ1
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317513503
+  systemVersion: 5.2.0
+  createdTime: 1764610583816
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 68000000
 ownership:

@@ -87,12 +87,20 @@ system:
         name: ''
         formula: ''
       name: Create Spectral Eyes
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 ownership:
   default: 0
@@ -105,13 +113,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317487050
+  systemVersion: 5.2.0
+  createdTime: 1764610550530
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: 3Cz4P3OrJs1ZCrLb
 sort: 24400000
 _key: '!items!3Cz4P3OrJs1ZCrLb'

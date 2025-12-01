@@ -32,6 +32,7 @@ system:
         value: '1'
       effects:
         - _id: T64Q4k9cnoG8I6wY
+          level: {}
       range:
         override: false
         units: self
@@ -56,8 +57,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     OgSodyBrDWC3Ph9e:
       type: damage
       name: Aura
@@ -115,8 +120,12 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     NP5x5oDs7YwKtxc9:
       type: damage
       name: Hit or Deal Fire Damage
@@ -172,8 +181,12 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -202,8 +215,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Infernal Energy
+  advancement: []
+  crewed: false
 effects:
   - name: Flaming Skeleton
     img: icons/magic/fire/flame-burning-creature-skeleton.webp
@@ -235,13 +252,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732221729436
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!39AJycuGUOxJVi3i.T64Q4k9cnoG8I6wY'
 folder: null
 sort: 20800000
@@ -255,11 +271,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732221340052
+  systemVersion: 5.2.0
+  createdTime: 1764610550473
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!39AJycuGUOxJVi3i'

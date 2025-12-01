@@ -28,8 +28,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: The Knowledge Keeper 10
+  advancement: []
+  crewed: false
 effects:
   - name: Single-Minded Focus
     img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
@@ -61,13 +65,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732141653239
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!NbEZmYKO6uAcRdAq.OOc9MoT9uuVBCUPK'
 folder: null
 sort: 7100000
@@ -77,11 +80,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732133028457
+  systemVersion: 5.2.0
+  createdTime: 1764610569449
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!NbEZmYKO6uAcRdAq'

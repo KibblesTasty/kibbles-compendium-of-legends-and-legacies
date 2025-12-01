@@ -97,8 +97,12 @@ system:
               - bludgeoning
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     9kS6SvuAgUeEEsX6:
       type: utility
       name: Unexpected Technique
@@ -149,12 +153,20 @@ system:
         visible: false
         name: Martial Arts
         formula: 1@scale.monk.die.die
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 flags:
   core: {}
@@ -165,13 +177,13 @@ flags:
 _stats:
   compendiumSource: Item.hZo0qeJ23A97L6Xl
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317518375
+  systemVersion: 5.2.0
+  createdTime: 1764610589874
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 75900000
 ownership:

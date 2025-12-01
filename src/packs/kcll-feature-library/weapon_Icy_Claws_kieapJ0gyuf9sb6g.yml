@@ -38,7 +38,6 @@ system:
   rarity: common
   identified: true
   cover: null
-  crewed: false
   range:
     value: null
     long: null
@@ -126,7 +125,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -153,6 +152,12 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     5cKbrB9AR3fw9iL3:
       type: damage
       name: Grapple Damage
@@ -176,6 +181,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -206,24 +212,30 @@ system:
             scaling:
               number: 1
       _id: 5cKbrB9AR3fw9iL3
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: icy-claws
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
   mastery: ''
+  crew:
+    value: []
 _stats:
   compendiumSource: Item.TYCDc2MsiFBrQwe3
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317518108
+  systemVersion: 5.2.0
+  createdTime: 1764610589422
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 75500000
 ownership:

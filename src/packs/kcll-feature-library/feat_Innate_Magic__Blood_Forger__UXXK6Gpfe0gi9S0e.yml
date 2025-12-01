@@ -38,6 +38,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -49,6 +50,12 @@ system:
       uses:
         spent: 0
         recovery: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     1rUjEarnuPwIfjN4:
       type: forward
       name: Blood Transfusion
@@ -76,9 +83,12 @@ system:
         max: ''
       activity:
         id: x7ZNbJq4ArkybY7D
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -112,8 +122,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Blood Forger 1
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 0
@@ -127,11 +141,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1733177074094
+  systemVersion: 5.2.0
+  createdTime: 1764610574640
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!UXXK6Gpfe0gi9S0e'

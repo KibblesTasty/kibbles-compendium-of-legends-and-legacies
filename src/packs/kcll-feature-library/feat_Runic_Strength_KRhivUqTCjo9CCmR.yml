@@ -29,7 +29,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Runic Strength
     img: icons/magic/control/buff-strength-muscle-damage-orange.webp
@@ -61,26 +65,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731473676716
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!KRhivUqTCjo9CCmR.WsazoTbc7S5aDKDC'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.uAel8B9tKKYLSKAN
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317499442
+  systemVersion: 5.2.0
+  createdTime: 1764610566056
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 47100000
 ownership:

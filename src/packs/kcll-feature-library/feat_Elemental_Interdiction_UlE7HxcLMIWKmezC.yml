@@ -98,8 +98,12 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ysdHxaYIuZw5VSe4:
       type: damage
       name: Static Field
@@ -155,22 +159,30 @@ system:
             scaling:
               number: 1
       _id: ysdHxaYIuZw5VSe4
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.6Lsnga68CMWvAZRh
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317506512
+  systemVersion: 5.2.0
+  createdTime: 1764610575111
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 57900000
 ownership:

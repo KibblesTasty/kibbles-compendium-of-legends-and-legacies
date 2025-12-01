@@ -24,8 +24,12 @@ system:
     subtype: epicBoon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Boon of Crafting
     img: icons/skills/trades/smithing-anvil-silver-red.webp
@@ -120,13 +124,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744827959215
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!3ItU6D3BGi6HuxUn.i8EEIQhOlEU8zEZA'
 sort: 0
 ownership:
@@ -135,11 +138,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732295830826
+  systemVersion: 5.2.0
+  createdTime: 1764610608166
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!3ItU6D3BGi6HuxUn'

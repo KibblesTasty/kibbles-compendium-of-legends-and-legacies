@@ -56,8 +56,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     iwrM74SpRS6uVVxM:
       type: utility
       name: 'Stonewall: Line'
@@ -111,8 +115,12 @@ system:
         formula: ''
         name: ''
       _id: iwrM74SpRS6uVVxM
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -147,6 +155,8 @@ system:
     subtype: ''
   prerequisites:
     level: 4
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
   advancement:
@@ -166,11 +176,13 @@ system:
           - int
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -183,11 +195,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729047571946
+  systemVersion: 5.2.0
+  createdTime: 1764610609261
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!cgr4z4ECxyTyJoHk'

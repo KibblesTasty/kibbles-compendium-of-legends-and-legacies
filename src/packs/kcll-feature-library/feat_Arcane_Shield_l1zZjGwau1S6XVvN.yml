@@ -28,7 +28,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Arcane Shield
     img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
@@ -60,26 +64,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731473227549
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!l1zZjGwau1S6XVvN.IMLaajdjjalsnlAe'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.yyHAA6iQY6J8TWSt
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317518274
+  systemVersion: 5.2.0
+  createdTime: 1764610589708
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 75700000
 ownership:

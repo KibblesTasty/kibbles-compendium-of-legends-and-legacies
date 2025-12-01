@@ -29,6 +29,7 @@ system:
         value: '10'
       effects:
         - _id: XcMy6d57o4J5Cxdy
+          level: {}
       range:
         override: false
         units: any
@@ -56,8 +57,12 @@ system:
           calculation: ''
           formula: '@scaling'
         ability: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -92,8 +97,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Surgeon 3
+  advancement: []
+  crewed: false
 effects:
   - name: Surgical Assessment
     img: icons/skills/melee/hand-grip-sword-strike-orange.webp
@@ -128,13 +137,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732079915745
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!1RFpDjhCuI9DC0v5.XcMy6d57o4J5Cxdy'
 folder: null
 sort: 700000
@@ -148,11 +156,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732077526754
+  systemVersion: 5.2.0
+  createdTime: 1764610549191
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!1RFpDjhCuI9DC0v5'

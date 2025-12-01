@@ -25,8 +25,11 @@ system:
     level: null
     items:
       - tradition-of-the-witch
+    repeatable: false
   properties: []
   requirements: Red Coven
+  advancement: []
+  crewed: false
 effects:
   - name: Sanguine Vitality
     img: icons/magic/life/heart-pink.webp
@@ -58,13 +61,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733173033590
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!etENdU8dVgHAx5KV.BQWZapodbqGXiWS3'
 folder: null
 sort: 0
@@ -74,11 +76,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1733172613334
+  systemVersion: 5.2.0
+  createdTime: 1764610584403
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!etENdU8dVgHAx5KV'

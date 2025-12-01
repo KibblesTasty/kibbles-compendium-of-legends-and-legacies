@@ -34,6 +34,8 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
   advancement:
@@ -53,11 +55,13 @@ system:
           - int
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -66,11 +70,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729047419831
+  systemVersion: 5.2.0
+  createdTime: 1764610609138
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!Z0dFWEJUHocbbdXV'

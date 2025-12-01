@@ -71,8 +71,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ZNiQQIqR051FZgIk:
       type: save
       name: 'Earthen Wave: Earth Grip'
@@ -100,6 +104,7 @@ system:
       effects:
         - _id: vyuSvcMFMJ3K0n8a
           onSave: false
+          level: {}
       range:
         override: false
         value: '30'
@@ -131,8 +136,12 @@ system:
           calculation: spellcasting
           formula: ''
       _id: ZNiQQIqR051FZgIk
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     5lMl3tBc9wXmVvpr:
       type: save
       name: 'Earthen Wave: Earth Spike'
@@ -199,8 +208,12 @@ system:
           calculation: spellcasting
           formula: ''
       _id: 5lMl3tBc9wXmVvpr
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -245,6 +258,8 @@ system:
     subtype: ''
   prerequisites:
     level: 4
+    items: []
+    repeatable: false
   properties:
     - mgc
   requirements: ''
@@ -265,11 +280,13 @@ system:
           - int
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects:
   - name: Earth Grip
     img: icons/magic/earth/projectile-stone-landslide.webp
@@ -301,13 +318,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732309243632
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!ro4am5JV7O4pAvM6.vyuSvcMFMJ3K0n8a'
 sort: 0
 ownership:
@@ -320,11 +336,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729047577447
+  systemVersion: 5.2.0
+  createdTime: 1764610609780
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ro4am5JV7O4pAvM6'

@@ -30,7 +30,6 @@ system:
   rarity: ''
   identified: true
   cover: null
-  crewed: false
   range:
     value: 5
     long: null
@@ -99,7 +98,7 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
@@ -116,7 +115,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -143,21 +142,29 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: dragon-fangs
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
+  crew:
+    value: []
 _stats:
   compendiumSource: Item.rGNclT7XsYoX7huI
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317522023
+  systemVersion: 5.2.0
+  createdTime: 1764610594612
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 82000000
 ownership:

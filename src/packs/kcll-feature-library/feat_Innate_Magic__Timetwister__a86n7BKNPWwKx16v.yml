@@ -12,7 +12,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -41,6 +41,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -56,7 +57,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     LSIviKynQCfSiszM:
       type: cast
       spell:
@@ -65,7 +71,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -94,6 +100,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -109,7 +116,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dS4OCzAcCWJR1Cw7:
       type: cast
       spell:
@@ -118,7 +130,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -147,6 +159,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -162,7 +175,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     8NWbOukxo31lzxdD:
       type: cast
       spell:
@@ -171,7 +189,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -200,6 +218,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -215,7 +234,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     4uzrlDkKFSYv97kS:
       type: cast
       spell:
@@ -224,7 +248,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '5'
+        level: 5
         properties:
           - vocal
           - somatic
@@ -253,6 +277,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -268,7 +293,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     cxaRoXTq6KJ1yKCn:
       type: forward
       name: Longstrider
@@ -296,9 +326,12 @@ system:
         max: ''
       activity:
         id: NJB7AOb8elafkqXv
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     0nQ9nuJz9wrBbQdo:
       type: forward
       name: Hold Person
@@ -326,9 +359,12 @@ system:
         max: ''
       activity:
         id: LSIviKynQCfSiszM
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     HTYVMi71EsBLhc4S:
       type: forward
       name: Slow
@@ -356,9 +392,12 @@ system:
         max: ''
       activity:
         id: dS4OCzAcCWJR1Cw7
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     IZitz0fb8ZrNRXhq:
       type: forward
       name: Haste
@@ -386,9 +425,12 @@ system:
         max: ''
       activity:
         id: 8NWbOukxo31lzxdD
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     3yV4hdxdZ6w5fNlN:
       type: forward
       name: Hold Monster
@@ -416,9 +458,12 @@ system:
         max: ''
       activity:
         id: 4uzrlDkKFSYv97kS
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     bkZJVmR2o9u62MOw:
       type: cast
       spell:
@@ -428,7 +473,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -457,6 +502,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -472,7 +518,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     4k6Nm7DZKBSaSUOl:
       type: forward
       name: Alacrity
@@ -500,9 +551,12 @@ system:
         max: ''
       activity:
         id: bkZJVmR2o9u62MOw
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -535,8 +589,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Timetwister 1
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 11400000
@@ -550,11 +608,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1731639482506
+  systemVersion: 5.2.0
+  createdTime: 1764610579865
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!a86n7BKNPWwKx16v'

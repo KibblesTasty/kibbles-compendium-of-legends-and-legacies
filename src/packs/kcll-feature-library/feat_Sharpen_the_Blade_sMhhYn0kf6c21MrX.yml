@@ -31,13 +31,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731991976913
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!sMhhYn0kf6c21MrX.MFnZd53PbTTpno04'
   - type: enchantment
     name: Sharpen the Blade (+2)
@@ -67,13 +66,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731992013299
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: Pcx5RB6yYkEP6AB0
     _key: '!items.effects!sMhhYn0kf6c21MrX.Pcx5RB6yYkEP6AB0'
   - type: enchantment
@@ -104,13 +102,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731992015006
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: gzJSymXlQTet8ZJv
     _key: '!items.effects!sMhhYn0kf6c21MrX.gzJSymXlQTet8ZJv'
 flags:
@@ -211,32 +208,37 @@ system:
         recovery: []
         max: ''
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         categories: []
         properties: []
         type: weapon
       name: ''
-      img: ''
-      appliedEffects:
-        - MFnZd53PbTTpno04
-        - Pcx5RB6yYkEP6AB0
-        - gzJSymXlQTet8ZJv
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: 6
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.A1sqbAXY5AebkYvE
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317523103
+  systemVersion: 5.2.0
+  createdTime: 1764610596722
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 83600000
 ownership:

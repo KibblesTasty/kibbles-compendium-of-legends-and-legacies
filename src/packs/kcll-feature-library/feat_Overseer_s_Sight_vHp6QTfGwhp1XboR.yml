@@ -27,7 +27,11 @@ system:
   enchant: {}
   prerequisites:
     level: 15
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Overseer's Sight
     img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
@@ -59,26 +63,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732143136245
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!vHp6QTfGwhp1XboR.3VxRTSCb6VFj3L9d'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.e1xzH35MM6GjnKGy
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317525386
+  systemVersion: 5.2.0
+  createdTime: 1764610599574
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 87200000
 ownership:

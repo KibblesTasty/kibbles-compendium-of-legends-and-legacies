@@ -69,7 +69,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -88,23 +88,31 @@ system:
         visible: false
       sort: 0
       name: Weapon Attack
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: rapid-surge
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.gmRfkQk5D2kBwHtB
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317515917
+  systemVersion: 5.2.0
+  createdTime: 1764610586329
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 71800000
 ownership:

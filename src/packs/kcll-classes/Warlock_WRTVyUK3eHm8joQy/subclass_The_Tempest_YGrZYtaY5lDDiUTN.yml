@@ -65,11 +65,12 @@ system:
         spell:
           ability:
             - cha
-          preparation: pact
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: pact
+          prepared: 0
       value: {}
       level: 6
       title: Otherworldly Patron Feature
@@ -115,11 +116,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729041686579
+  systemVersion: 5.2.0
+  createdTime: 1764610605548
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!YGrZYtaY5lDDiUTN'

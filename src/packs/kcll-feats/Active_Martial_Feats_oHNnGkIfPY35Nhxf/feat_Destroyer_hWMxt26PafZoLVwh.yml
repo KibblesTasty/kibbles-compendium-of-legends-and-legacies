@@ -71,8 +71,12 @@ system:
         dc:
           calculation: str
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -110,6 +114,8 @@ system:
     subtype: ''
   prerequisites:
     level: 4
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
   advancement:
@@ -130,11 +136,13 @@ system:
           - wis
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -147,11 +155,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729046688690
+  systemVersion: 5.2.0
+  createdTime: 1764610609466
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!hWMxt26PafZoLVwh'

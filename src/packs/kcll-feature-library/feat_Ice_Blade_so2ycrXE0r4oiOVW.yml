@@ -84,7 +84,7 @@ system:
         recovery: []
         max: ''
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         categories: []
@@ -92,10 +92,20 @@ system:
         type: weapon
       name: ''
       _id: puFCOYvren4qEBoZ
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - type: enchantment
     name: Ice Blade
@@ -130,13 +140,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731442051600
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!so2ycrXE0r4oiOVW.9MvADlVLLSi6RSaC'
 flags:
   core: {}
@@ -147,13 +156,13 @@ flags:
 _stats:
   compendiumSource: Item.5MJdWONIAn1I5Otk
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317523363
+  systemVersion: 5.2.0
+  createdTime: 1764610597238
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 84100000
 ownership:

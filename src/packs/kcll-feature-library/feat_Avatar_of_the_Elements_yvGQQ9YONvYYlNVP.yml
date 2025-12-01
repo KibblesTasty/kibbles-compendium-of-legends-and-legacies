@@ -18,66 +18,28 @@ system:
       the spell to 1 minute. When you do so, the spell does not require
       concentration.</p>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: occultistRite
   requirements: Shaman 11
-  recharge:
-    value: null
-    charged: false
   identifier: avatar-of-the-elements
   prerequisites:
     level: 11
     items:
       - tradition-of-the-shaman
+    repeatable: false
   activities:
     ZTOJrlJoEBHT7Mvz:
       type: cast
@@ -102,6 +64,7 @@ system:
         value: '1'
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -123,7 +86,12 @@ system:
         properties: []
         spellbook: true
         uuid: null
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     6Uosr0PxVCwRy3vx:
       type: cast
       name: Form of Ice
@@ -146,6 +114,7 @@ system:
         value: '1'
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -168,7 +137,12 @@ system:
         spellbook: true
         uuid: null
       _id: 6Uosr0PxVCwRy3vx
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Rtn4EkYuob7Lqzwm:
       type: cast
       name: Form of Stone
@@ -191,6 +165,7 @@ system:
         value: '1'
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -213,17 +188,25 @@ system:
         spellbook: true
         uuid: null
       _id: Rtn4EkYuob7Lqzwm
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: []
+  enchant: {}
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: 1678742384521
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.bb3S5sNGZDOeEK0b
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610602378
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 90500000
 ownership:

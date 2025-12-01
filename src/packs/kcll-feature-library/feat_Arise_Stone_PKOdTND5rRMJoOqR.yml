@@ -39,7 +39,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '5'
+        level: 5
         properties: []
         spellbook: true
       _id: soz4DRVaEmpVe0Ie
@@ -64,6 +64,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -79,21 +80,30 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: 12
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.Fzf3YqiqLIqHHPAW
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317503335
+  systemVersion: 5.2.0
+  createdTime: 1764610570767
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 53000000
 ownership:

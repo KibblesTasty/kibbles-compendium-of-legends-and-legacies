@@ -44,7 +44,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -73,6 +73,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -88,7 +89,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     zP1Wr4vm5G1VO5kw:
       type: forward
       name: Protection from Energy
@@ -116,9 +122,12 @@ system:
         max: ''
       activity:
         id: 7yZ1VFDj3TbOrQRU
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     oWeH1U97gl59Fv6q:
       type: cast
       spell:
@@ -128,7 +137,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -157,6 +166,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -172,7 +182,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     QtuNrvnuYN7xbNEb:
       type: forward
       name: Unburden
@@ -200,9 +215,12 @@ system:
         max: ''
       activity:
         id: oWeH1U97gl59Fv6q
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     0EwTqTekAPiRoVn3:
       type: cast
       spell:
@@ -212,7 +230,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -241,6 +259,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -256,7 +275,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     tEcv2hrOEfTL3HFH:
       type: forward
       name: Arcane Ablation
@@ -284,9 +308,12 @@ system:
         max: ''
       activity:
         id: 0EwTqTekAPiRoVn3
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Fh1LBuuv29b5jK4H:
       type: cast
       spell:
@@ -296,7 +323,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -325,6 +352,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -340,7 +368,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     V1t6hq2Mmbs3zp17:
       type: forward
       name: Clay Touch
@@ -368,9 +401,12 @@ system:
         max: ''
       activity:
         id: Fh1LBuuv29b5jK4H
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     rNjXyHMxMFYyIDHg:
       type: cast
       spell:
@@ -380,7 +416,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - somatic
@@ -409,6 +445,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -424,7 +461,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     zITjxHGQK1b0IVsP:
       type: forward
       name: Iron Garden
@@ -452,9 +494,12 @@ system:
         max: ''
       activity:
         id: rNjXyHMxMFYyIDHg
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     APthMqNNjLl1pUKb:
       type: cast
       spell:
@@ -464,7 +509,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - somatic
@@ -493,6 +538,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -508,7 +554,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     BiIdN8U9SR77cUbQ:
       type: forward
       name: Repair
@@ -536,13 +587,20 @@ system:
         max: ''
       activity:
         id: APthMqNNjLl1pUKb
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 flags:
   core: {}
@@ -553,13 +611,13 @@ flags:
 _stats:
   compendiumSource: Item.iC7R7WcOZQJ53udJ
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1727317518055
+  systemVersion: 5.2.0
+  createdTime: 1764610589359
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 75400000
 ownership:

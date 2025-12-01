@@ -33,13 +33,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732079453065
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!1szvioWP6n7hd2wS.4cxeDu0OGu9bhYGs'
   - name: Alive
     img: icons/sundries/documents/document-symbol-skull-tan.webp
@@ -71,13 +70,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732079453376
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!1szvioWP6n7hd2wS.sFmtP6hMJigyYWGG'
 flags:
   core: {}
@@ -141,7 +139,9 @@ system:
         value: '1'
       effects:
         - _id: 4cxeDu0OGu9bhYGs
+          level: {}
         - _id: sFmtP6hMJigyYWGG
+          level: {}
       range:
         override: false
         units: ft
@@ -168,24 +168,30 @@ system:
         name: ''
         formula: ''
       name: ''
-      img: ''
-      appliedEffects:
-        - 4cxeDu0OGu9bhYGs
-        - sFmtP6hMJigyYWGG
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.Vozft15HCHjpFcpi
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317486363
+  systemVersion: 5.2.0
+  createdTime: 1764610549479
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 27600000
 ownership:

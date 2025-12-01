@@ -72,8 +72,10 @@ system:
         override: false
       effects:
         - _id: eHxduahdfGtWP8AP
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -92,6 +94,12 @@ system:
         name: ''
         formula: ''
       name: Transform
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ip3VBVThZZLtiTCP:
       type: save
       _id: ip3VBVThZZLtiTCP
@@ -115,6 +123,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -148,6 +157,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -156,9 +171,6 @@ system:
   source:
     revision: 1
     rules: '2014'
-  preparation:
-    mode: prepared
-    prepared: false
   target:
     template:
       contiguous: false
@@ -168,6 +180,8 @@ system:
       choice: false
       count: ''
       type: ''
+  method: spell
+  prepared: 0
 folder: null
 _id: Dds69EuLiv8ETLCa
 effects:
@@ -240,13 +254,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!Dds69EuLiv8ETLCa.eHxduahdfGtWP8AP'
 flags:
   dnd5e:
@@ -256,13 +269,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733250986488
+  systemVersion: 5.2.0
+  createdTime: 1764610619024
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 sort: 0
 ownership:
   default: 0

@@ -4,11 +4,7 @@ img: icons/magic/fire/projectile-wave-arrow.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -115,23 +111,31 @@ system:
               number: 1
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: in-flames-reborn
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.YrKz1UB9N6myLdSd
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317519695
+  systemVersion: 5.2.0
+  createdTime: 1764610591741
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 78200000
 ownership:

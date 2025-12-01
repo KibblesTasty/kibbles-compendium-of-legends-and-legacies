@@ -51,17 +51,15 @@ system:
       Hunter, Rimeblade, Spellshot, or Swiftblade, put your highest ability
       score in Dexterity, followed by Intelligence, and then Constitution.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCLL
     page: ''
     custom: ''
     license: ''
     rules: '2014'
+    revision: 1
   identifier: spellblade
   levels: 1
-  hitDice: d8
-  hitDiceUsed: 0
   advancement:
     - _id: 630wui03x05wm00b
       type: HitPoints
@@ -277,7 +275,9 @@ system:
     - _id: Y8XkV7YT6zYd54AK
       type: Subclass
       configuration: {}
-      value: {}
+      value:
+        document: null
+        uuid: null
       level: 3
       title: Spellblade Technique
       hint: >-
@@ -329,11 +329,12 @@ system:
         spell:
           ability:
             - int
-          preparation: always
           uses:
             max: '1'
             per: sr
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 2
       title: Arcane Deflection
@@ -355,6 +356,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 4
@@ -372,6 +374,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 8
@@ -389,6 +392,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 12
@@ -406,6 +410,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 16
@@ -423,6 +428,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 19
@@ -464,13 +470,6 @@ system:
       value: {}
       title: Spells Known
       hint: ''
-  saves:
-    - con
-    - int
-  skills:
-    number: 2
-    choices: []
-    value: []
   spellcasting:
     progression: half
     ability: int
@@ -480,6 +479,7 @@ system:
   primaryAbility:
     value:
       - int
+    all: true
   startingEquipment:
     - type: weapon
       count: null
@@ -576,16 +576,21 @@ system:
       _id: 985nXEtOdUqDbvbG
       group: ''
       sort: 1500000
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: 1682023319852
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.mqNh9qnV4yqHATvg
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610604993
+  modifiedTime: null
+  lastModifiedBy: null
 folder: HiElAzlnNx6VrB0z
 sort: 100000
 ownership:

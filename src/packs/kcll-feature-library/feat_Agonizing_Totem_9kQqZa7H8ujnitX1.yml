@@ -91,11 +91,21 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: agonizing-totem
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 ownership:
   default: 0
@@ -108,13 +118,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317492683
+  systemVersion: 5.2.0
+  createdTime: 1764610557089
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: 9kQqZa7H8ujnitX1
 sort: 23000000
 _key: '!items!9kQqZa7H8ujnitX1'

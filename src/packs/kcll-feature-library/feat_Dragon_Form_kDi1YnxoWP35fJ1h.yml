@@ -30,6 +30,7 @@ system:
         value: '10'
       effects:
         - _id: P3XH9S0AJQsKaaYy
+          level: {}
       range:
         override: false
         units: self
@@ -55,8 +56,12 @@ system:
         name: ''
         formula: ''
       name: Transform
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -103,8 +108,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Dreadwing 17
+  advancement: []
+  crewed: false
 effects:
   - name: Dragon Form
     img: icons/creatures/reptiles/dragon-winged-blue.webp
@@ -136,13 +145,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731638995713
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!kDi1YnxoWP35fJ1h.P3XH9S0AJQsKaaYy'
 folder: null
 sort: 14100000
@@ -156,11 +164,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731638854270
+  systemVersion: 5.2.0
+  createdTime: 1764610589230
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!kDi1YnxoWP35fJ1h'

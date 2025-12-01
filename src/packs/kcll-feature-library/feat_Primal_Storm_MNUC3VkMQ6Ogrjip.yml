@@ -46,7 +46,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties: []
         spellbook: true
       _id: OIwRQGfatLSKlKAB
@@ -75,6 +75,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -88,7 +89,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     1zkvZxY9HClStQxQ:
       type: cast
       spell:
@@ -97,7 +103,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties: []
         spellbook: true
       _id: 1zkvZxY9HClStQxQ
@@ -126,6 +132,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -139,7 +146,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     LiOr4J42hspIzGzj:
       type: cast
       spell:
@@ -148,7 +160,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties: []
         spellbook: true
       _id: LiOr4J42hspIzGzj
@@ -177,6 +189,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -190,23 +203,31 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
     items:
       - tradition-of-the-shaman
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.my4EgKUlK1atpfxR
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317501312
+  systemVersion: 5.2.0
+  createdTime: 1764610568278
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 49900000
 ownership:

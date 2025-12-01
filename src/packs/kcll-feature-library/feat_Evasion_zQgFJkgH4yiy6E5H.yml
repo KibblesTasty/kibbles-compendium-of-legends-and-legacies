@@ -14,72 +14,40 @@ system:
       damage if you succeed on the saving throw, and only half damage if you
       fail.</p>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Path of Instinct 10
-  recharge:
-    value: null
-    charged: false
   identifier: evasion
+  activities: {}
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1678741859532
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.tXlgLLYqNfMyhZnn
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610602919
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 90900000
 ownership:

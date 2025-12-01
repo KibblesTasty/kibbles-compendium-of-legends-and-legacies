@@ -31,13 +31,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731015199684
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!nxIEBRitIADlGmhI.nE2ohKX4ergxM8U4'
 flags:
   core: {}
@@ -69,17 +68,21 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.ne7shyohb0gBvZow
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317520830
+  systemVersion: 5.2.0
+  createdTime: 1764610593080
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 80100000
 ownership:

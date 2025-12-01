@@ -36,7 +36,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Radiant Aura
     img: icons/magic/light/explosion-beam-impact-silhouette.webp
@@ -72,26 +76,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731620354348
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!puTpf3xG3J5R6uY0.xB9sn6KB3oZpPm9K'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.hfBYgGzj33d6XJs3
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317521970
+  systemVersion: 5.2.0
+  createdTime: 1764610594556
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 81900000
 ownership:

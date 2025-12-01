@@ -28,13 +28,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732126441246
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!fJscNgdfU7GXocuE.ZLv8xN3q0NRTiTOz'
   - name: Eyes of the Fiend
     img: icons/creatures/unholy/demon-horned-winged-laughing.webp
@@ -62,13 +61,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732126441593
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!fJscNgdfU7GXocuE.cOdnLVOVCIVuVxpU'
   - name: Skin of the Fiend
     img: icons/creatures/unholy/demon-horned-winged-laughing.webp
@@ -100,13 +98,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732126442243
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!fJscNgdfU7GXocuE.9wqXKEscRatjGR78'
 flags:
   core: {}
@@ -177,8 +174,11 @@ system:
         value: '1'
       effects:
         - _id: ZLv8xN3q0NRTiTOz
+          level: {}
         - _id: cOdnLVOVCIVuVxpU
+          level: {}
         - _id: 9wqXKEscRatjGR78
+          level: {}
       range:
         override: false
         units: self
@@ -203,22 +203,30 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.6WVemTwfvGPrYCqT
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317514525
+  systemVersion: 5.2.0
+  createdTime: 1764610584789
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 69600000
 ownership:

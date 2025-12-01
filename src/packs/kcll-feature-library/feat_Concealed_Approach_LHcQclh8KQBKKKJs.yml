@@ -36,13 +36,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731536490259
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!LHcQclh8KQBKKKJs.pt3k365qxphbc9v3'
 flags:
   core: {}
@@ -102,6 +101,7 @@ system:
         override: false
       effects:
         - _id: pt3k365qxphbc9v3
+          level: {}
       range:
         override: false
         units: ft
@@ -128,22 +128,30 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.hyCsKgdwoWh1fzvD
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317500132
+  systemVersion: 5.2.0
+  createdTime: 1764610566809
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 48100000
 ownership:

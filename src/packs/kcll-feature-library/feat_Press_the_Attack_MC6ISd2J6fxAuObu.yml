@@ -91,22 +91,30 @@ system:
         name: Expert Instructions
         formula: 1@scale.warlord.leadership-die.die
       name: Expend Leadership Die
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.EZ3ex4tyHDv0pLer
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317501146
+  systemVersion: 5.2.0
+  createdTime: 1764610568002
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 49600000
 ownership:

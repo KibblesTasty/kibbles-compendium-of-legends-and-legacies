@@ -81,22 +81,30 @@ system:
         name: ''
         formula: ''
       name: Opportunity Attack
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.5pYGCPGCkFtMy2ZN
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317502327
+  systemVersion: 5.2.0
+  createdTime: 1764610569609
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 51400000
 ownership:

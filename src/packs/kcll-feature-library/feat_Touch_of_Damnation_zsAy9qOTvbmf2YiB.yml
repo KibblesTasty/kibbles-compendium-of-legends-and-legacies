@@ -18,67 +18,24 @@ system:
       total, possibly changing the outcome.</p><p>Once you use this feature, you
       can’t use it again until you finish a short or long rest.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     revision: 1
     rules: '2014'
     book: ''
     license: CC-BY-4.0
-  activation:
-    type: reaction
-    cost: 1
-    condition: >-
-      s a reaction to a creature you can see within 30 feet making an attack
-      roll or saving throw.
-  duration:
-    value: null
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: 30
-    long: null
-    units: ft
   uses:
-    value: null
     max: '1'
-    per: ''
     recovery:
       - period: sr
         type: recoverAll
     spent: 0
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: other
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: 1d6
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   type:
     value: class
     subtype: ''
   requirements: Fiendish Bloodline 1
-  recharge:
-    value: null
-    charged: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -121,7 +78,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: creature
@@ -140,23 +97,30 @@ system:
         visible: false
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: touch-of-damnation
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1678741869477
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.ov79oln7Pa4C1iBj
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610603417
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 91500000
 ownership:

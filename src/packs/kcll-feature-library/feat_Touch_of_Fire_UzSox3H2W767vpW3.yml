@@ -34,13 +34,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731209629455
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!UzSox3H2W767vpW3.3RR9HQikdA1iucUo'
 flags:
   core: {}
@@ -128,31 +127,37 @@ system:
         recovery: []
         max: ''
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         categories: []
         properties: []
         type: weapon
-      img: ''
-      appliedEffects:
-        - 3RR9HQikdA1iucUo
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
     items:
       - mystery-of-fire
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.gNbpcbUW0CqPUmIO
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317506829
+  systemVersion: 5.2.0
+  createdTime: 1764610575326
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 58300000
 ownership:

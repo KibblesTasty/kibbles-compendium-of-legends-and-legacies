@@ -29,8 +29,11 @@ system:
     level: 6
     items:
       - knowing-mind
+    repeatable: false
   properties: []
   requirements: Knowing Mind 6
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 500000
@@ -40,11 +43,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1732077440063
+  systemVersion: 5.2.0
+  createdTime: 1764610548562
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!0kTPhzJNDbzk5ZG3'

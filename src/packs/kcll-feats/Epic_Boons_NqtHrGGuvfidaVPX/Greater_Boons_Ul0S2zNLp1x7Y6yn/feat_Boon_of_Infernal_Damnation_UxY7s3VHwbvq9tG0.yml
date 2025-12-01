@@ -26,8 +26,12 @@ system:
     subtype: epicBoon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: '"Boon" of Infernal Damnation'
     img: icons/creatures/unholy/demon-female-succubus-orange.webp
@@ -71,13 +75,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732304482569
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!UxY7s3VHwbvq9tG0.H1RwLioH85PvOG4b'
 sort: 0
 ownership:
@@ -86,11 +89,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732296369658
+  systemVersion: 5.2.0
+  createdTime: 1764610608997
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!UxY7s3VHwbvq9tG0'

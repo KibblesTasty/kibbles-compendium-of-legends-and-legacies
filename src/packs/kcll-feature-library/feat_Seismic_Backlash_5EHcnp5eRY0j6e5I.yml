@@ -4,11 +4,7 @@ img: icons/magic/earth/explosion-lava-stone-red.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 0
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -103,29 +99,38 @@ system:
               mode: ''
               number: 1
       save:
-        ability: str
+        ability:
+          - str
         dc:
           calculation: str
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: seismic-backlash
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.iSBy7aUjL5oT1Z2D
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317488801
+  systemVersion: 5.2.0
+  createdTime: 1764610552403
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 31000000
 ownership:

@@ -26,8 +26,12 @@ system:
     subtype: epicBoon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Boon of Wind
     img: icons/magic/air/wind-tornado-wall-blue.webp
@@ -59,13 +63,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732302328853
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!K5eza6wO91sur9FO.gH3xW4rqJIKmTXMy'
 sort: 0
 ownership:
@@ -74,11 +77,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732297541824
+  systemVersion: 5.2.0
+  createdTime: 1764610608781
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!K5eza6wO91sur9FO'

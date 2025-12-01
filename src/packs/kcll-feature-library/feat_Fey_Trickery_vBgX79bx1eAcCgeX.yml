@@ -4,11 +4,7 @@ img: icons/magic/nature/leaf-hand-green.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -76,7 +72,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -95,23 +91,31 @@ system:
         visible: false
       sort: 0
       name: Teleport
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: fey-trickery
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.YFWrD7yeKWNix0qG
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317525277
+  systemVersion: 5.2.0
+  createdTime: 1764610599387
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 87000000
 ownership:

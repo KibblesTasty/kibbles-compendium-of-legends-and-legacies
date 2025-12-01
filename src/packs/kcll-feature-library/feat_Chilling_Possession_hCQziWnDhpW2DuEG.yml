@@ -29,7 +29,10 @@ system:
     level: null
     items:
       - tradition-of-the-spiritualist
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Chilling Possession
     img: icons/magic/water/water-elemental-blue-teeth.webp
@@ -61,13 +64,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731221846914
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!hCQziWnDhpW2DuEG.MrWLfDs9Q2MgkxGK'
 ownership:
   default: 0
@@ -76,13 +78,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317515861
+  systemVersion: 5.2.0
+  createdTime: 1764610586224
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: hCQziWnDhpW2DuEG
 sort: 21000000
 _key: '!items!hCQziWnDhpW2DuEG'

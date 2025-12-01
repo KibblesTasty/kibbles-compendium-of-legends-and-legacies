@@ -32,6 +32,7 @@ system:
         value: '1'
       effects:
         - _id: inTtI1PPvk6i13gY
+          level: {}
       range:
         override: false
         units: self
@@ -56,9 +57,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - inTtI1PPvk6i13gY
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -93,8 +97,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: The Bloodbound 14
+  advancement: []
+  crewed: false
 effects:
   - name: The Hunger
     img: icons/creatures/abilities/fang-tooth-blood-red.webp
@@ -138,13 +146,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733180745969
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!j7e635JfP60ZtbGZ.inTtI1PPvk6i13gY'
 folder: null
 sort: 0
@@ -158,11 +165,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733180449439
+  systemVersion: 5.2.0
+  createdTime: 1764610588158
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!j7e635JfP60ZtbGZ'

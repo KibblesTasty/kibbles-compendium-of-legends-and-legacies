@@ -79,14 +79,21 @@ system:
           formula: 5 + @scaling
         ability: spellcasting
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: 12
     items:
       - blood-cultist
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 flags:
   core: {}
@@ -97,13 +104,13 @@ flags:
 _stats:
   compendiumSource: Item.O8nGIjQ5u06XaQRv
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317506112
+  systemVersion: 5.2.0
+  createdTime: 1764610574334
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 57300000
 ownership:

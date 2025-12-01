@@ -54,8 +54,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -83,8 +87,11 @@ system:
     level: null
     items:
       - mystery-of-nature
+    repeatable: false
   properties: []
   requirements: Mystery of Nature
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 12100000
@@ -98,11 +105,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1731216317640
+  systemVersion: 5.2.0
+  createdTime: 1764610581900
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!c3CczriFkoGOew0E'

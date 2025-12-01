@@ -72,19 +72,27 @@ system:
         recovery: []
         max: ''
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         categories: []
         properties: []
         type: weapon
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - type: enchantment
     name: Weapon Focus
@@ -115,13 +123,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731472660729
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!8YfLLZcNlrnhXTZr.0FoAusI24KywdSDN'
 flags:
   core: {}
@@ -132,13 +139,13 @@ flags:
 _stats:
   compendiumSource: Item.fVxwPHkTH0TjdSm0
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317491322
+  systemVersion: 5.2.0
+  createdTime: 1764610555437
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 34800000
 ownership:

@@ -28,13 +28,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731209504893
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!JvsAwWoU1P6IeHvG.laxFKFx84WkyBp6W'
 flags:
   core: {}
@@ -126,8 +125,12 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     JPKZSNqR5wSHVQ6m:
       type: damage
       name: Enshroud in Flames
@@ -151,6 +154,7 @@ system:
         override: false
       effects:
         - _id: laxFKFx84WkyBp6W
+          level: {}
       range:
         override: false
         units: self
@@ -184,24 +188,31 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
     items:
       - mystery-of-fire
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.tpIrKyzl5Ivd0s5f
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317499202
+  systemVersion: 5.2.0
+  createdTime: 1764610565777
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 46800000
 ownership:

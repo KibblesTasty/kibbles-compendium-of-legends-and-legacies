@@ -92,23 +92,31 @@ system:
         visible: false
       sort: 0
       name: Reckless Defense
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: primal-interdiction
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.1pCQXOYIsdxlglpm
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317500183
+  systemVersion: 5.2.0
+  createdTime: 1764610566948
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 48200000
 ownership:

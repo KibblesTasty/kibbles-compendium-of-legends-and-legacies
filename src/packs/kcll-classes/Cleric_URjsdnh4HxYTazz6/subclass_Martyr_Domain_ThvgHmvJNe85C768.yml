@@ -90,11 +90,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 1
       title: Martyr Domain Spells
@@ -110,11 +111,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 3
       title: Martyr Domain Spells
@@ -132,11 +134,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 5
       title: Martyr Domain Spells
@@ -153,11 +156,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 7
       title: Martyr Domain Spells
@@ -174,11 +178,12 @@ system:
         spell:
           ability:
             - wis
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 9
       title: Martyr Domain Spells
@@ -199,7 +204,8 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.VRw9rtW7tVWVpBp6
         spell: null
-        restriction: {}
+        restriction:
+          list: []
       value:
         added: {}
         replaced: {}
@@ -219,11 +225,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1729038279764
+  systemVersion: 5.2.0
+  createdTime: 1764610605444
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ThvgHmvJNe85C768'

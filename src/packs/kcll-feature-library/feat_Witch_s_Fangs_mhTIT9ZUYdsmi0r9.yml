@@ -80,8 +80,12 @@ system:
             scaling:
               number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -108,8 +112,11 @@ system:
     level: null
     items:
       - tradition-of-the-witch
+    repeatable: false
   properties: []
   requirements: Red Coven
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 0
@@ -123,11 +130,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1733172728424
+  systemVersion: 5.2.0
+  createdTime: 1764610591239
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!mhTIT9ZUYdsmi0r9'

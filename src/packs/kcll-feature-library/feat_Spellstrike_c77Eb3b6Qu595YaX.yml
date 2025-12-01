@@ -119,7 +119,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -138,23 +138,31 @@ system:
         visible: false
       sort: 0
       name: Infuse Spell
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: spellstrike
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.PhCWICj2Ct1C2EfW
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317512034
+  systemVersion: 5.2.0
+  createdTime: 1764610582012
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 65900000
 ownership:

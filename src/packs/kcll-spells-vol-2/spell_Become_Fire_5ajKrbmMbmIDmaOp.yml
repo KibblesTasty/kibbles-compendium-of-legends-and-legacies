@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: H3vywsyMahSz7i8U
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -41,6 +43,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     eRjsjnqlc4Nw8RZt:
       type: damage
       _id: eRjsjnqlc4Nw8RZt
@@ -64,6 +72,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -92,8 +101,12 @@ system:
               mode: ''
               number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -128,9 +141,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -148,6 +158,8 @@ system:
       count: ''
       type: self
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Become Fire
     img: icons/magic/fire/elemental-fire-humanoid.webp
@@ -195,13 +207,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1732997041704
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!5ajKrbmMbmIDmaOp.H3vywsyMahSz7i8U'
 folder: null
 sort: 1300000
@@ -215,11 +226,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732556453310
+  systemVersion: 5.2.0
+  createdTime: 1764610618090
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!5ajKrbmMbmIDmaOp'

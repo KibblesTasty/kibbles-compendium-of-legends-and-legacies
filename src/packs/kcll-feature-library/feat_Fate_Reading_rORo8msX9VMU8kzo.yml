@@ -4,11 +4,7 @@ img: icons/magic/perception/orb-crystal-ball-scrying.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 2
+  dnd5e: {}
 system:
   description:
     value: "<p>Starting at 3rd level, your connection to the flow of fate gives you the ability to read from it, tracing outcomes and glimpsing the unknowable future. When you are hit by an attack, you can use your reaction to add your Wisdom modifier to your AC until the start of your next turn (including against the triggering attack). You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p><p>Additionally, you learn the spell @Compendium[dnd5e.spells.4v2H3hHb3Ph9XLNd]{Augury} and can cast it at will without expending spell slot.</p><blockquote><p><strong>Winding Paths of Fate</strong></p><p>This does not negate the normal drawback of casting augury multiple times. As you delve further for more information, it becomes harder to read as the flow becomes more turbulent for your changes to it.</p></blockquote><p>\_</p>"
@@ -69,7 +65,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -88,23 +84,31 @@ system:
         visible: false
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: fate-reading
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.8Vn58l3cfSizM22v
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317522789
+  systemVersion: 5.2.0
+  createdTime: 1764610595855
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 83000000
 ownership:

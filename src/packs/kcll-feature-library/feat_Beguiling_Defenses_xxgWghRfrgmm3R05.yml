@@ -4,10 +4,7 @@ img: icons/magic/control/hypnosis-mesmerism-swirl.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -22,65 +19,24 @@ system:
       complete a long rest. You can use it again early by expending a use of Fey
       Burst.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     revision: 1
     rules: '2014'
     book: ''
     license: CC-BY-4.0
-  activation:
-    type: reaction
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
   uses:
-    value: 1
     max: '1'
-    per: sr
     recovery:
       - period: lr
         type: recoverAll
     spent: 0
-  consume:
-    type: charges
-    target: ''
-    amount: 1
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   type:
     value: class
     subtype: ''
   requirements: The Fey 10
-  recharge:
-    value: null
-    charged: false
   activities:
     wFaS9TvvE9cfghJ7:
       type: save
@@ -133,8 +89,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     9sPyIP4mmlkaQqvq:
       type: forward
       name: Fey Burst
@@ -162,22 +122,30 @@ system:
         max: ''
       activity:
         id: wFaS9TvvE9cfghJ7
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: beguiling-defenses
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1678741777323
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.KXSenJ94vlrGLaHZ
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610601330
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 89400000
 ownership:

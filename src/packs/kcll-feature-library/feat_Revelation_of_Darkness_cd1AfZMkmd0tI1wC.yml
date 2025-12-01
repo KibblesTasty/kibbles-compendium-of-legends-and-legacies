@@ -43,7 +43,7 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
@@ -60,7 +60,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -78,13 +78,22 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: revelation-of-darkness
   enchant: {}
   prerequisites:
     level: null
     items:
       - mystery-of-darkness
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 flags:
   core: {}
@@ -95,13 +104,13 @@ flags:
 _stats:
   compendiumSource: Item.TyQSeZVRrTClvEIt
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317512489
+  systemVersion: 5.2.0
+  createdTime: 1764610582614
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 66500000
 ownership:

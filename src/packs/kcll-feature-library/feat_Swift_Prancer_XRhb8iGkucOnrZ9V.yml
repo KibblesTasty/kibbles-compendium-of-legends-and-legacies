@@ -34,8 +34,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Steed 2
+  advancement: []
+  crewed: false
 effects:
   - name: Swift Prancer
     img: icons/skills/movement/figure-running-gray.webp
@@ -67,13 +71,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731566104804
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!XRhb8iGkucOnrZ9V.JdoBHQfbTU2ob3sy'
 folder: null
 sort: 10300000
@@ -83,11 +86,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731565578792
+  systemVersion: 5.2.0
+  createdTime: 1764610577529
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!XRhb8iGkucOnrZ9V'

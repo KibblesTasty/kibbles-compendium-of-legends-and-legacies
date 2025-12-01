@@ -53,16 +53,19 @@ system:
         recovery: []
         max: ''
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         categories: []
         properties: []
         type: weapon
       name: ''
-      img: ''
-      appliedEffects:
-        - t7wzHf8PSFQlccOQ
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -85,8 +88,12 @@ system:
     subtype: spellbladeAegis
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - type: enchantment
     name: Elemental Enchantment
@@ -128,13 +135,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1731475464293
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!zLFJjk0LTkCnrvSk.t7wzHf8PSFQlccOQ'
 folder: null
 sort: 18600000
@@ -148,11 +154,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.0
-  createdTime: 1731475388898
+  systemVersion: 5.2.0
+  createdTime: 1764610602615
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!zLFJjk0LTkCnrvSk'

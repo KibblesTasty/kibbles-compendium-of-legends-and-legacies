@@ -4,11 +4,7 @@ img: icons/skills/melee/weapons-crossed-swords-white-blue.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -50,17 +46,21 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.vF4qyXvaCbIv324X
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317504892
+  systemVersion: 5.2.0
+  createdTime: 1764610572728
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 55400000
 ownership:

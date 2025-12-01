@@ -6,10 +6,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 700000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _id: AETBBPIXA6ST4nzt
 system:
   description:
@@ -48,71 +45,38 @@ system:
       is magically imbued for 1 minute, gaining an DC of 15, an AC 20, and 20
       hit points.</p>
     chat: ''
-    unidentified: ''
   source:
     book: ''
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
     value: 1
-    width: null
-    units: ''
-    type: object
+  duration:
+    units: inst
+  target:
+    affects:
+      type: object
+      count: '1'
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 1
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: true
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: 10 to 60 feet of cord or rope, worth at least 1 cp
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -140,6 +104,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -158,16 +123,25 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: awaken-rope
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.zbxu5rzhOEsskahF
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610613366
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!AETBBPIXA6ST4nzt'

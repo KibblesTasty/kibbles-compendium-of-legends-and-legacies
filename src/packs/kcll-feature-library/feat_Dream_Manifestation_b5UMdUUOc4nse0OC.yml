@@ -100,8 +100,12 @@ system:
         visible: false
       sort: 0
       name: Manifest Dreams
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     gSdUaXtXVkURuHUI:
       type: forward
       _id: gSdUaXtXVkURuHUI
@@ -128,30 +132,35 @@ system:
       activity:
         id: dnd5eactivity000
       name: Expend Spell Slot
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: dream-manifestation
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 _stats:
   compendiumSource: Item.UfCIV6De1FI3DK8o
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317511119
+  systemVersion: 5.2.0
+  createdTime: 1764610580685
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 64400000
 ownership:

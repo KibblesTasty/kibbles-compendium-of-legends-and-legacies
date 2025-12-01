@@ -71,8 +71,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     8Wr88bJh6CNBdk9k:
       type: save
       name: Quaking Smash (Large)
@@ -140,8 +144,12 @@ system:
           calculation: spellcasting
           formula: ''
       _id: 8Wr88bJh6CNBdk9k
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -175,6 +183,8 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
   advancement:
@@ -195,11 +205,13 @@ system:
           - wis
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -212,11 +224,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729047688069
+  systemVersion: 5.2.0
+  createdTime: 1764610608746
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!IYrF4leZPTIytnEJ'

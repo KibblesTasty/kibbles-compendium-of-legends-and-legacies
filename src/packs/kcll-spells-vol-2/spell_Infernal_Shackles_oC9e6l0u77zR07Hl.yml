@@ -26,10 +26,13 @@ system:
       effects:
         - _id: FrWRawEYPbaIv53Q
           onSave: false
+          level: {}
         - _id: SIWkEfgnbpyjJs24
           onSave: false
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -62,9 +65,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: Initial
-      img: ''
-      appliedEffects:
-        - FrWRawEYPbaIv53Q
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ZYR2NSQAmNyi3IO8:
       type: save
       sort: 0
@@ -86,6 +92,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -119,8 +126,12 @@ system:
           formula: ''
       name: Secondary
       _id: ZYR2NSQAmNyi3IO8
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -156,9 +167,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -179,6 +187,8 @@ system:
       count: '@scaling'
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Infernal Shackles
     img: icons/magic/control/debuff-chains-red.webp
@@ -210,13 +220,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1732650291452
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!oC9e6l0u77zR07Hl.SIWkEfgnbpyjJs24'
 folder: null
 sort: 12900000
@@ -230,11 +239,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732558676030
+  systemVersion: 5.2.0
+  createdTime: 1764610622572
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!oC9e6l0u77zR07Hl'

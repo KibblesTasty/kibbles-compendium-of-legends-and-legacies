@@ -57,6 +57,12 @@ system:
         formula: ''
         name: ''
       _id: 3OygWffL8nsMuxpJ
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -86,8 +92,11 @@ system:
     level: null
     items:
       - tradition-of-the-shaman
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 17700000
@@ -101,11 +110,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1731221555379
+  systemVersion: 5.2.0
+  createdTime: 1764610600358
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!wTS4A9JrE1PDKrg2'

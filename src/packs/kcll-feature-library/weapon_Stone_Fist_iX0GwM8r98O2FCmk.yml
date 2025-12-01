@@ -24,13 +24,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     name: Stone Fist AC
     img: icons/magic/earth/strike-fist-stone-light.webp
     type: base
@@ -73,7 +72,6 @@ system:
   rarity: ''
   identified: true
   cover: null
-  crewed: false
   range:
     value: null
     long: null
@@ -161,7 +159,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -188,22 +186,30 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: stone-fist
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
   mastery: ''
+  crew:
+    value: []
 _stats:
   compendiumSource: Item.MFHrMi6JXzSRgXZC
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317516858
+  systemVersion: 5.2.0
+  createdTime: 1764610587492
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 73400000
 ownership:

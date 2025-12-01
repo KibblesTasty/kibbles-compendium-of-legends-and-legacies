@@ -32,13 +32,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731535436619
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!FuswXro6WJ7Vz7QH.gmxNstioz55foMbG'
 flags:
   core: {}
@@ -81,7 +80,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties: []
         spellbook: true
       _id: NvS8JHjFuombGMQN
@@ -111,6 +110,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -124,21 +124,30 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.kE08gx3oaDmupfpp
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317497112
+  systemVersion: 5.2.0
+  createdTime: 1764610562998
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 43400000
 ownership:

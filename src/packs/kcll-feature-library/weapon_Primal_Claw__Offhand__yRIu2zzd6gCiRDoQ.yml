@@ -19,7 +19,6 @@ system:
       purposes of grappling. When you succeed a grapple check with it, the
       target takes [[/r 1d6]] slashing damage.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     revision: 1
@@ -37,46 +36,17 @@ system:
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
   cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
   range:
     value: 5
     long: null
     units: ft
     reach: null
   uses:
-    value: null
     max: ''
-    per: ''
     recovery: []
     spent: 0
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: mwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
   damage:
-    parts:
-      - - 1d8
-        - slashing
     versatile:
       number: null
       denomination: null
@@ -102,11 +72,6 @@ system:
         mode: ''
         number: null
         formula: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   armor:
     value: 10
   hp:
@@ -114,8 +79,6 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: natural
-  baseItem: ''
   properties:
     - lgt
   proficient: 1
@@ -160,7 +123,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -187,21 +150,29 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: primal-claw-offhand
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
+  crew:
+    value: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1678742814468
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.gPUGzQpdAiCoCkuO
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610601639
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 89800000
 ownership:

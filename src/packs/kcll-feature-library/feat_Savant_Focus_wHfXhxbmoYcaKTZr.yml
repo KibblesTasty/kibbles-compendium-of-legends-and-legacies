@@ -28,13 +28,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731010438006
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!wHfXhxbmoYcaKTZr.Yc8G9pXwMRl7pcdd'
 flags:
   core: {}
@@ -91,6 +90,7 @@ system:
         value: '1'
       effects:
         - _id: Yc8G9pXwMRl7pcdd
+          level: {}
       range:
         override: false
         units: self
@@ -115,24 +115,31 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: 7
     items:
       - tradition-of-the-hedge-mage
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.Mb6AzqrY3cJkRG4d
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317525970
+  systemVersion: 5.2.0
+  createdTime: 1764610600238
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 88000000
 ownership:

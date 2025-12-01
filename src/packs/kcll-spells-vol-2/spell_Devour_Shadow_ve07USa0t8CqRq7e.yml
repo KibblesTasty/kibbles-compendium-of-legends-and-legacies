@@ -26,10 +26,13 @@ system:
       effects:
         - _id: kYasTuIZJllIllV7
           onSave: false
+          level: {}
         - _id: zHo434HtYmtF3QHs
           onSave: false
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -63,10 +66,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects:
-        - kYasTuIZJllIllV7
-        - zHo434HtYmtF3QHs
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -105,9 +110,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -127,6 +129,8 @@ system:
       count: '@scaling'
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Devour Shadow Buff
     img: icons/magic/unholy/orb-hands-pink.webp
@@ -178,13 +182,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733260188159
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!ve07USa0t8CqRq7e.kYasTuIZJllIllV7'
   - name: Devour Shadow Debuff
     img: icons/magic/unholy/orb-hands-pink.webp
@@ -235,13 +238,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733260301985
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: zHo434HtYmtF3QHs
     _key: '!items.effects!ve07USa0t8CqRq7e.zHo434HtYmtF3QHs'
 folder: null
@@ -256,11 +258,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732557042767
+  systemVersion: 5.2.0
+  createdTime: 1764610623554
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ve07USa0t8CqRq7e'

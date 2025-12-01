@@ -21,61 +21,22 @@ system:
       raging.</p><table><thead><tr><th>Dragon Color</th><th>Element
       Type</th></tr></thead><tbody><tr><td>Black</td><td>Acid</td></tr><tr><td>Blue</td><td>Lightning</td></tr><tr><td>Green</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>White</td><td>Cold</td></tr></tbody></table>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Path of the Dragon 3
-  recharge:
-    value: null
-    charged: false
   identifier: draconic-wrath
   activities:
     Kiph5mFeL8YYcWFK:
@@ -145,8 +106,12 @@ system:
               - slashing
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Jzo1nxjG4p6d59YH:
       type: attack
       name: Fangs
@@ -214,8 +179,12 @@ system:
             scaling:
               number: 1
       _id: Jzo1nxjG4p6d59YH
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     GbDre96gn92xQrZm:
       type: attack
       name: Tail
@@ -283,8 +252,18 @@ system:
             scaling:
               number: 1
       _id: GbDre96gn92xQrZm
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 effects: []
 flags:
   core: {}
@@ -293,15 +272,15 @@ flags:
       activity: []
       effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1681846959365
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.7YTL5bRdn6QCVWJj
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610601892
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 90000000
 ownership:

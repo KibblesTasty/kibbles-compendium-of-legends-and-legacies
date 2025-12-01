@@ -12,7 +12,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -41,6 +41,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -56,7 +57,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     1cGqxIJQYDBCOguA:
       type: cast
       spell:
@@ -65,7 +71,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -94,6 +100,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -109,7 +116,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     SCKYFMsgksaMdCMr:
       type: cast
       spell:
@@ -118,7 +130,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - somatic
@@ -147,6 +159,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -162,7 +175,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Ma0SSoXMSHLj5oju:
       type: forward
       name: Fly
@@ -189,10 +207,13 @@ system:
         recovery: []
         max: '4'
       activity:
-        id: ''
-      img: ''
-      spell:
-        ability: wis
+        id: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     OPI0xjSxbb0nxwTY:
       type: forward
       name: Fear
@@ -219,10 +240,13 @@ system:
         recovery: []
         max: ''
       activity:
-        id: ''
-      img: ''
-      spell:
-        ability: wis
+        id: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     3e4jHSQi3feQRx4W:
       type: forward
       name: Secret Chest
@@ -249,10 +273,13 @@ system:
         recovery: []
         max: ''
       activity:
-        id: ''
-      img: ''
-      spell:
-        ability: wis
+        id: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     wQf9IbzTY8PrOujM:
       type: cast
       spell:
@@ -262,7 +289,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -291,6 +318,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -306,7 +334,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     wsY6mGD7egYxj0tK:
       type: forward
       name: Elemental Orb
@@ -334,9 +367,12 @@ system:
         max: ''
       activity:
         id: wQf9IbzTY8PrOujM
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     BmLIBSlhqT5ZOXTa:
       type: cast
       spell:
@@ -346,7 +382,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -375,6 +411,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -390,7 +427,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     9uLaBRtvcm1z1us8:
       type: forward
       name: Dragon Surge
@@ -418,9 +460,12 @@ system:
         max: ''
       activity:
         id: BmLIBSlhqT5ZOXTa
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Ol3nQT7IhSPpI3lm:
       type: cast
       spell:
@@ -430,7 +475,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -459,6 +504,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -474,7 +520,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     KAE8cgGJ5p5EFaqS:
       type: forward
       name: Elemental Exhalation
@@ -502,9 +553,12 @@ system:
         max: ''
       activity:
         id: Ol3nQT7IhSPpI3lm
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -539,8 +593,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Dreadwing 1
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 14400000
@@ -554,11 +612,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1731637068797
+  systemVersion: 5.2.0
+  createdTime: 1764610590097
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!lYRB0SoJdUcFMlaQ'

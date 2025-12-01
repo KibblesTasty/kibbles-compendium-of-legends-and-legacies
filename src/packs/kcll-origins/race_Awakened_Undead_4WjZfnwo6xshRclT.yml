@@ -106,6 +106,7 @@ system:
         locked:
           - con
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
@@ -169,6 +170,7 @@ system:
         spell: null
         restriction:
           type: race
+          list: []
       value:
         added: {}
         replaced: {}
@@ -201,6 +203,7 @@ system:
         spell: null
         restriction:
           type: race
+          list: []
       value:
         added: {}
         replaced: {}
@@ -248,6 +251,7 @@ system:
           cha: 0
         locked: []
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
@@ -275,13 +279,10 @@ system:
       hint: ''
       icon: icons/magic/death/skull-horned-worn-fire-blue.webp
   movement:
-    burrow: null
-    climb: null
-    fly: null
-    swim: null
-    walk: 30
+    walk: '30'
     units: null
     hover: false
+    ignoredDifficultTerrain: []
   senses:
     darkvision: 60
     blindsight: null
@@ -302,11 +303,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729041755265
+  systemVersion: 5.2.0
+  createdTime: 1764610607393
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!4WjZfnwo6xshRclT'

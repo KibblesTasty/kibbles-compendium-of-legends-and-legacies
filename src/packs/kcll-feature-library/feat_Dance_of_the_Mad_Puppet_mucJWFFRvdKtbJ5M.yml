@@ -32,7 +32,10 @@ system:
     level: null
     items:
       - tradition-of-the-voidwatcher
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 ownership:
   default: 0
@@ -41,13 +44,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317519424
+  systemVersion: 5.2.0
+  createdTime: 1764610591465
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: mucJWFFRvdKtbJ5M
 sort: 25400000
 _key: '!items!mucJWFFRvdKtbJ5M'

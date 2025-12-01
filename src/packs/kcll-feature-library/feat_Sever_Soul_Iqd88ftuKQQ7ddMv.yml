@@ -71,7 +71,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -97,29 +97,38 @@ system:
             scaling:
               number: 1
       save:
-        ability: con
+        ability:
+          - con
         dc:
           calculation: wis
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: sever-soul
   enchant: {}
   prerequisites:
     level: 17
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.M9rarQMzqrJNqByt
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317498898
+  systemVersion: 5.2.0
+  createdTime: 1764610565304
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 46300000
 ownership:

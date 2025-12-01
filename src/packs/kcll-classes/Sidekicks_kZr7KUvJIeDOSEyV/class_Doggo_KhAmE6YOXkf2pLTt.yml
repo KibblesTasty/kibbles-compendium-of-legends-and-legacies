@@ -24,8 +24,6 @@ system:
   primaryAbility:
     value: []
     all: true
-  hitDice: d8
-  hitDiceUsed: 0
   advancement:
     - _id: IKTTPUfmJYDXmWyq
       type: ItemGrant
@@ -78,6 +76,7 @@ system:
           cha: 0
         locked: []
         points: 0
+        recommendation: null
       value:
         type: asi
       level: 3
@@ -114,6 +113,7 @@ system:
           cha: 0
         locked: []
         points: 2
+        recommendation: null
       value:
         type: asi
       level: 4
@@ -132,6 +132,7 @@ system:
           cha: 0
         locked: []
         points: 2
+        recommendation: null
       value:
         type: asi
       level: 8
@@ -150,6 +151,7 @@ system:
           cha: 0
         locked: []
         points: 2
+        recommendation: null
       value:
         type: asi
       level: 12
@@ -168,6 +170,7 @@ system:
           cha: 0
         locked: []
         points: 2
+        recommendation: null
       value:
         type: asi
       level: 16
@@ -186,6 +189,7 @@ system:
           cha: 0
         locked: []
         points: 2
+        recommendation: null
       value:
         type: asi
       level: 19
@@ -300,6 +304,10 @@ system:
   wealth: ''
   properties:
     - sidekick
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
 effects: []
 sort: 0
 ownership:
@@ -308,11 +316,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1729038065489
+  systemVersion: 5.2.0
+  createdTime: 1764610605037
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!KhAmE6YOXkf2pLTt'

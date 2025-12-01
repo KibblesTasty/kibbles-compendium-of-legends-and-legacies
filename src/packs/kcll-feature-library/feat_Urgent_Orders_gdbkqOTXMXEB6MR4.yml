@@ -87,7 +87,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - temphp
         custom:
@@ -99,23 +99,31 @@ system:
           formula: ''
         bonus: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: urgent-orders
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.bDt7wyJY7RrKUUJ2
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317515639
+  systemVersion: 5.2.0
+  createdTime: 1764610585999
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 71400000
 ownership:

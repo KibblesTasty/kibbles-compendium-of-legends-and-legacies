@@ -24,13 +24,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     name: Improved Critical
     img: icons/skills/melee/blade-tip-chipped-blood-red.webp
     type: base
@@ -68,17 +67,21 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Compendium.dnd5e.classfeatures.YgLQV1O849wE5TgM
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317521440
+  systemVersion: 5.2.0
+  createdTime: 1764610593927
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 81200000
 ownership:

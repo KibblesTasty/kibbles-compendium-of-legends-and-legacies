@@ -51,6 +51,7 @@ system:
         value: '1'
       effects:
         - _id: w113gfree9xPEXYG
+          level: {}
       range:
         units: self
         special: ''
@@ -63,7 +64,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -82,14 +83,21 @@ system:
         visible: false
       sort: 0
       name: Tranquility
-      img: ''
-      appliedEffects:
-        - w113gfree9xPEXYG
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: ordered-world
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Ordered World
     img: icons/magic/light/explosion-glow-spiral-yellow.webp
@@ -121,13 +129,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731993121300
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!DdQCSzEwhc8LfzRT.w113gfree9xPEXYG'
 flags:
   core: {}
@@ -138,13 +145,13 @@ flags:
 _stats:
   compendiumSource: Item.qKxcDvLeB9VeTBQB
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317495613
+  systemVersion: 5.2.0
+  createdTime: 1764610560991
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 41100000
 ownership:

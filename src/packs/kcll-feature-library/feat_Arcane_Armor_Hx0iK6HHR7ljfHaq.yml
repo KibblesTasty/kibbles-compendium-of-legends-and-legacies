@@ -27,7 +27,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - _id: D4LegmaiKcPLa8LR
     changes:
@@ -56,13 +60,12 @@ effects:
       compendiumSource: >-
         Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731471550287
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
     type: base
     system: {}
@@ -73,13 +76,13 @@ flags:
 _stats:
   compendiumSource: Item.ZYVCQoSlHLwYIyuY
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317498250
+  systemVersion: 5.2.0
+  createdTime: 1764610564460
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 45200000
 ownership:

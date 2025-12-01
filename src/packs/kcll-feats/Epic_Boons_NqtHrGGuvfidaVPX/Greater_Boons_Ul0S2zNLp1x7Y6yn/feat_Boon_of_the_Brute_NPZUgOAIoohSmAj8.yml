@@ -24,8 +24,12 @@ system:
     subtype: epicBoon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Boon of the Brute
     img: icons/magic/control/buff-strength-muscle-damage-orange.webp
@@ -65,13 +69,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732302794540
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!NPZUgOAIoohSmAj8.OVPFkbPWQc1DBUZT'
 sort: 0
 ownership:
@@ -80,11 +83,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732296766199
+  systemVersion: 5.2.0
+  createdTime: 1764610608874
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!NPZUgOAIoohSmAj8'

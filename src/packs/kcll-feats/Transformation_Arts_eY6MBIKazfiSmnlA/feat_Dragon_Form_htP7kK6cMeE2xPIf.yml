@@ -23,6 +23,7 @@ system:
           - type: itemUses
             value: '1'
             target: ''
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -32,8 +33,11 @@ system:
         value: '1'
       effects:
         - _id: GuReoMwnNBhUihne
+          level: {}
         - _id: IWcrgyWgFgJDcMC2
+          level: {}
         - _id: jkgbr7auEkoHzHEN
+          level: {}
       range:
         override: false
         units: self
@@ -58,11 +62,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - GuReoMwnNBhUihne
-        - IWcrgyWgFgJDcMC2
-        - jkgbr7auEkoHzHEN
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -117,6 +122,8 @@ system:
     subtype: ''
   prerequisites:
     level: 4
+    items: []
+    repeatable: false
   properties:
     - mgc
   requirements: ''
@@ -137,11 +144,13 @@ system:
           - int
           - wis
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects:
   - type: enchantment
     name: Elemental Damage (Acid)
@@ -179,13 +188,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739482055622
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!htP7kK6cMeE2xPIf.I51DInprM0vCML0B'
   - type: enchantment
     name: Elemental Damage (Cold)
@@ -222,13 +230,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739482222444
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: nrTofbhEB2Owq9Sg
     _key: '!items.effects!htP7kK6cMeE2xPIf.nrTofbhEB2Owq9Sg'
   - type: enchantment
@@ -266,13 +273,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739482224079
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: as5MQzU8VeYohiK8
     _key: '!items.effects!htP7kK6cMeE2xPIf.as5MQzU8VeYohiK8'
   - type: enchantment
@@ -310,13 +316,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739482225286
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: rQot9PqSvE2SKokF
     _key: '!items.effects!htP7kK6cMeE2xPIf.rQot9PqSvE2SKokF'
   - type: enchantment
@@ -354,13 +359,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739482226550
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _id: 8EASxxBeCmT50UcW
     _key: '!items.effects!htP7kK6cMeE2xPIf.8EASxxBeCmT50UcW'
   - name: Scales
@@ -400,13 +404,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739482475151
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!htP7kK6cMeE2xPIf.GuReoMwnNBhUihne'
   - name: Eyes
     img: icons/creatures/reptiles/dragon-winged-blue.webp
@@ -441,13 +444,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739482653907
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!htP7kK6cMeE2xPIf.jkgbr7auEkoHzHEN'
   - name: Wings
     img: icons/creatures/reptiles/dragon-winged-blue.webp
@@ -482,13 +484,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.0
-      createdTime: 1739482689273
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!htP7kK6cMeE2xPIf.IWcrgyWgFgJDcMC2'
 sort: 0
 ownership:
@@ -501,11 +502,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.0
-  createdTime: 1729047666285
+  systemVersion: 5.2.0
+  createdTime: 1764610609491
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!htP7kK6cMeE2xPIf'

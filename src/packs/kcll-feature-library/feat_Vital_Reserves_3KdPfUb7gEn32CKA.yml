@@ -23,8 +23,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: The Bloodbound 10
+  advancement: []
+  crewed: false
 effects:
   - name: Vital Reserves
     img: icons/magic/life/heart-cross-strong-purple-orange.webp
@@ -56,13 +60,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733180419988
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!3KdPfUb7gEn32CKA.NbCe0UyEVkOzcwsP'
 folder: null
 sort: 0
@@ -72,11 +75,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733180346854
+  systemVersion: 5.2.0
+  createdTime: 1764610550814
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!3KdPfUb7gEn32CKA'

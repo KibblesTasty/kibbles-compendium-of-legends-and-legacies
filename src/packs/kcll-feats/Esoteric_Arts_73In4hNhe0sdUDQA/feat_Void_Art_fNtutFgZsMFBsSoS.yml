@@ -33,6 +33,7 @@ system:
       effects:
         - _id: hJahslo3GnHZ8laK
           onSave: false
+          level: {}
       range:
         override: false
         units: ft
@@ -72,9 +73,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects:
-        - hJahslo3GnHZ8laK
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -116,8 +120,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Void Art
     img: icons/magic/unholy/hand-marked-pink.webp
@@ -145,13 +153,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732311945501
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!fNtutFgZsMFBsSoS.hJahslo3GnHZ8laK'
 sort: 0
 ownership:
@@ -164,11 +171,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729047615866
+  systemVersion: 5.2.0
+  createdTime: 1764610609359
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!fNtutFgZsMFBsSoS'

@@ -66,6 +66,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -83,6 +84,12 @@ system:
         visible: false
         name: ''
         formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -91,9 +98,6 @@ system:
   source:
     revision: 1
     rules: '2014'
-  preparation:
-    mode: prepared
-    prepared: false
   target:
     template:
       contiguous: false
@@ -104,6 +108,8 @@ system:
       count: ''
       type: object
       special: ''
+  method: spell
+  prepared: 0
 folder: null
 _id: Z15SDOep9cG4la1L
 effects: []
@@ -115,13 +121,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1733250986488
+  systemVersion: 5.2.0
+  createdTime: 1764610621047
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 sort: 0
 ownership:
   default: 0

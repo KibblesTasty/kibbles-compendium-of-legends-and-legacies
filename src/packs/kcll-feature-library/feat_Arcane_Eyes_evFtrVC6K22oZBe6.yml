@@ -26,7 +26,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Arcane Eyes
     img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
@@ -58,26 +62,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731472868734
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!evFtrVC6K22oZBe6.rzZgTmPPGCcWg8kG'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.A8FPQRc9O95djvmj
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317514138
+  systemVersion: 5.2.0
+  createdTime: 1764610584519
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 69100000
 ownership:

@@ -14,61 +14,22 @@ system:
       a 30 foot cone), at 14th level (10d6 in a 45 foot cone), and at 18th level
       (12d6 in a 60 foot cone)</p>
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
     book: ''
     custom: ''
     license: CC-BY-4.0
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: '1'
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Path of the Dragon 6
-  recharge:
-    value: null
-    charged: false
   identifier: unleashed-savagery
   activities:
     KDytnjnA42AylwVp:
@@ -142,8 +103,18 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 effects: []
 flags:
   core: {}
@@ -152,15 +123,15 @@ flags:
       activity: []
       effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.1
-  coreVersion: '13.344'
-  createdTime: 1681846971541
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.4pAWzCpyVBgKf6FF
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610601449
+  modifiedTime: null
+  lastModifiedBy: null
 folder: null
 sort: 89600000
 ownership:

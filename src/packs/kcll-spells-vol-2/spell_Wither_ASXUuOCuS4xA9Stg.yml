@@ -26,8 +26,10 @@ system:
       effects:
         - _id: k22Em5uPtRii6LGX
           onSave: false
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -61,8 +63,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -96,9 +102,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -118,6 +121,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Wither
     img: icons/magic/unholy/projectile-flame-white-purple.webp
@@ -149,13 +154,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733293549644
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!ASXUuOCuS4xA9Stg.k22Em5uPtRii6LGX'
 folder: null
 sort: 2500000
@@ -169,11 +173,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732561084688
+  systemVersion: 5.2.0
+  createdTime: 1764610618728
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ASXUuOCuS4xA9Stg'

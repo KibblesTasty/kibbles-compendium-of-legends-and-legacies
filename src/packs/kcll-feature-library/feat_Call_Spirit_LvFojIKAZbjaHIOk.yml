@@ -32,13 +32,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731047277697
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!LvFojIKAZbjaHIOk.QV7FNbI0WIrrdVdH'
 flags:
   core: {}
@@ -106,6 +105,7 @@ system:
         override: false
       effects:
         - _id: QV7FNbI0WIrrdVdH
+          level: {}
       range:
         value: '30'
         units: ft
@@ -138,8 +138,12 @@ system:
         visible: false
       sort: 0
       name: Call Spirit
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     VkHhCV19GooiWg1Z:
       type: attack
       _id: VkHhCV19GooiWg1Z
@@ -209,23 +213,31 @@ system:
             scaling:
               number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: call-spirit
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.B9LSQaxEn8tesecu
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317500825
+  systemVersion: 5.2.0
+  createdTime: 1764610567728
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 49100000
 ownership:

@@ -61,6 +61,7 @@ system:
             item: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -72,15 +73,26 @@ system:
       uses:
         spent: 0
         recovery: []
-      enchant: {}
+      enchant:
+        self: false
       restrictions:
         allowMagical: false
         categories: []
         properties: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - type: enchantment
     name: Kinetic Magic
@@ -123,13 +135,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731451619299
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!tEtzBFlai0wC71uK.J9cZ9lqZQ4qSVkzf'
 flags:
   core: {}
@@ -140,13 +151,13 @@ flags:
 _stats:
   compendiumSource: Item.yYwopwPzskJnHseA
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317523467
+  systemVersion: 5.2.0
+  createdTime: 1764610597482
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 84300000
 ownership:

@@ -27,8 +27,11 @@ system:
     level: null
     items:
       - blood-cultist
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 0
@@ -38,11 +41,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1733114523127
+  systemVersion: 5.2.0
+  createdTime: 1764610582998
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!dGFIQ7K6E312hi3W'

@@ -22,8 +22,12 @@ system:
     subtype: epicBoon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: Boon of Attunement
     img: icons/magic/symbols/rune-sigil-horned-blue.webp
@@ -55,13 +59,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732305855581
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!MoA33gWtjk9Pb3GP.poBCKu6aCy1FEClU'
 sort: 0
 ownership:
@@ -70,11 +73,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732295685444
+  systemVersion: 5.2.0
+  createdTime: 1764610608841
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!MoA33gWtjk9Pb3GP'

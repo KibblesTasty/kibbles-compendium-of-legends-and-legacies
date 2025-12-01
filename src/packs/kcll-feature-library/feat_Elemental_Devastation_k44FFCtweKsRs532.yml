@@ -105,8 +105,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     hRYqd9NsX60mJ8lT:
       type: damage
       name: Fire
@@ -166,8 +170,12 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     0VBhhFBK32pdRe9x:
       type: save
       name: Lightning
@@ -223,8 +231,12 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     rVtfHt9xKLQzmOWz:
       type: save
       name: Poison
@@ -280,8 +292,12 @@ system:
           calculation: spellcasting
           formula: ''
       _id: rVtfHt9xKLQzmOWz
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     FrIrOQqsPUVWOal7:
       type: utility
       name: Acid
@@ -332,22 +348,30 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.fAXUETNSWoEG1R4d
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317517884
+  systemVersion: 5.2.0
+  createdTime: 1764610589120
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 75100000
 ownership:

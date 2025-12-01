@@ -61,6 +61,7 @@ system:
         value: '1'
       effects:
         - _id: n0jtt9ua1SeQmaZO
+          level: {}
       range:
         units: self
         special: ''
@@ -92,14 +93,21 @@ system:
         visible: false
       sort: 0
       name: ''
-      img: ''
-      appliedEffects:
-        - n0jtt9ua1SeQmaZO
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: unlimited-power
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Unlimited Power
     img: icons/skills/social/intimidation-impressing.webp
@@ -146,31 +154,26 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1731452429257
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!ujOBEaxwqL5oc55g.n0jtt9ua1SeQmaZO'
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 _stats:
   compendiumSource: Item.ogOrJHZBmH3cXO08
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317524585
+  systemVersion: 5.2.0
+  createdTime: 1764610598717
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 86100000
 ownership:

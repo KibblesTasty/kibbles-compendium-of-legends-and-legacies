@@ -31,7 +31,10 @@ system:
     level: 5
     items:
       - tradition-of-the-spiritualist
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 ownership:
   default: 0
@@ -40,13 +43,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317491632
+  systemVersion: 5.2.0
+  createdTime: 1764610555929
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: 8rtxUFdu3x1iFMFM
 sort: 21700000
 _key: '!items!8rtxUFdu3x1iFMFM'

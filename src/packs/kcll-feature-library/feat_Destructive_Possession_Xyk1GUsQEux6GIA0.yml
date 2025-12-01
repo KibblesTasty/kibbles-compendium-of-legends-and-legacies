@@ -88,14 +88,21 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
     items:
       - tradition-of-the-spiritualist
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects: []
 ownership:
   default: 0
@@ -108,13 +115,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1727317509114
+  systemVersion: 5.2.0
+  createdTime: 1764610578088
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: Xyk1GUsQEux6GIA0
 sort: 21800000
 _key: '!items!Xyk1GUsQEux6GIA0'

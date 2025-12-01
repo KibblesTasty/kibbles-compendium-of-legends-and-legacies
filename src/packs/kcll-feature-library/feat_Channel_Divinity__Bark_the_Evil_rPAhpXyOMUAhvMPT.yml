@@ -31,6 +31,7 @@ system:
       effects:
         - _id: NNNRflxZPZI0l5OQ
           onSave: false
+          level: {}
       range:
         override: false
         units: self
@@ -64,8 +65,12 @@ system:
           calculation: cha
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -96,8 +101,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Oath of the Goodest Boi 3
+  advancement: []
+  crewed: false
 effects:
   - name: Turned
     img: icons/magic/sonic/scream-wail-shout-teal.webp
@@ -130,13 +139,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732078356371
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!rPAhpXyOMUAhvMPT.NNNRflxZPZI0l5OQ'
 folder: null
 sort: 16400000
@@ -150,11 +158,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732074543457
+  systemVersion: 5.2.0
+  createdTime: 1764610595917
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!rPAhpXyOMUAhvMPT'

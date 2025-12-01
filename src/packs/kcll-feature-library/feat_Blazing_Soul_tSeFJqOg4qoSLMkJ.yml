@@ -32,13 +32,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732127547824
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!tSeFJqOg4qoSLMkJ.EEHzapqyHgvSgNxe'
 flags:
   core: {}
@@ -108,6 +107,7 @@ system:
         value: '1'
       effects:
         - _id: EEHzapqyHgvSgNxe
+          level: {}
       range:
         override: false
         units: self
@@ -132,8 +132,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     3Dx3zxTkfb1tlh04:
       type: forward
       name: Sorcery Points
@@ -160,7 +164,12 @@ system:
         max: ''
       activity:
         id: gllUFRlHecDIMmUu
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     BGAfTyzdyP0UcMJq:
       type: heal
       name: Regeneration
@@ -204,15 +213,19 @@ system:
         max: ''
       healing:
         number: 1
-        denomination: '6'
+        denomination: 6
         types: []
         custom:
           enabled: false
         scaling:
           number: 1
         bonus: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     mixjG19Y7NYQ71AG:
       type: damage
       name: Flaming Aura
@@ -270,22 +283,30 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.Dyv57zREN0j3aRbc
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317523676
+  systemVersion: 5.2.0
+  createdTime: 1764610597729
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 84700000
 ownership:

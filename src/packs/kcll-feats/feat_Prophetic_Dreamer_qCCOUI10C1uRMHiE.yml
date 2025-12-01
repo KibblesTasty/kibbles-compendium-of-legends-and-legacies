@@ -12,7 +12,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties: []
         spellbook: true
       _id: Kjo0FL0ph6QothlZ
@@ -37,6 +37,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -52,7 +53,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     nMIoG2UsmB5N1GOV:
       type: cast
       spell:
@@ -61,7 +67,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '5'
+        level: 5
         properties: []
         spellbook: true
       _id: nMIoG2UsmB5N1GOV
@@ -86,6 +92,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -101,7 +108,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -133,8 +145,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 0
@@ -148,11 +164,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1729047737368
+  systemVersion: 5.2.0
+  createdTime: 1764610609720
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!qCCOUI10C1uRMHiE'

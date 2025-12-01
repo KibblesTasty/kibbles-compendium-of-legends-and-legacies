@@ -150,7 +150,8 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.UHCaEDZgXtbmAsRo
         spell: null
-        restriction: {}
+        restriction:
+          list: []
       value:
         added: {}
         replaced: {}
@@ -173,11 +174,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.0
-  createdTime: 1729045877269
+  systemVersion: 5.2.0
+  createdTime: 1764610604508
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!4gL2SraUE73OSMeQ'

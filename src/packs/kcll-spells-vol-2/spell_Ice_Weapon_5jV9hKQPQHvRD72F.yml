@@ -26,6 +26,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -40,6 +41,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     jk0KiFUVlLwPV90n:
       type: attack
       name: Ice Spear
@@ -104,8 +111,12 @@ system:
             scaling:
               mode: ''
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     LapERckhwDEZNJq3:
       type: attack
       name: Ice Sword (1H)
@@ -170,8 +181,12 @@ system:
               mode: ''
               number: 1
       _id: LapERckhwDEZNJq3
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     AijADp17QFnJfbx5:
       type: attack
       name: Ice Lance
@@ -236,8 +251,12 @@ system:
               mode: ''
               number: 1
       _id: AijADp17QFnJfbx5
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     nWUABCZzNlVkcR6D:
       type: attack
       name: Ice Hammer
@@ -302,8 +321,12 @@ system:
               mode: ''
               number: 1
       _id: nWUABCZzNlVkcR6D
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     D8gFESfB9EIHHyjg:
       type: attack
       name: Ice Dagger
@@ -368,8 +391,12 @@ system:
               mode: ''
               number: 1
       _id: D8gFESfB9EIHHyjg
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ma5pLToM1QpSEsoJ:
       type: attack
       name: Ice Sword (2H)
@@ -434,8 +461,12 @@ system:
               mode: ''
               number: 1
       _id: ma5pLToM1QpSEsoJ
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -475,9 +506,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -495,6 +523,8 @@ system:
       choice: false
       count: ''
       type: ''
+  method: spell
+  prepared: 0
 effects: []
 folder: null
 sort: 1500000
@@ -508,11 +538,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732558560140
+  systemVersion: 5.2.0
+  createdTime: 1764610618162
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!5jV9hKQPQHvRD72F'

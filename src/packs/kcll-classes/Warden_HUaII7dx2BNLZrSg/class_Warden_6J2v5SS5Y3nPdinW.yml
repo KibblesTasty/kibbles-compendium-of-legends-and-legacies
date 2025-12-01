@@ -58,17 +58,15 @@ system:
       Constitution and Wisdom. Second, choose a wilderness-related
       background.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCLL
     page: ''
     custom: ''
     license: ''
     rules: '2014'
+    revision: 1
   identifier: warden
   levels: 1
-  hitDice: d12
-  hitDiceUsed: 0
   advancement:
     - _id: jkaius7tttltf1dl
       type: HitPoints
@@ -511,6 +509,7 @@ system:
         restriction:
           type: class
           subtype: primalManifestation
+          list: []
       value:
         added: {}
         replaced: {}
@@ -542,6 +541,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 4
@@ -559,6 +559,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 8
@@ -576,6 +577,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 12
@@ -593,6 +595,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 16
@@ -610,37 +613,16 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 19
       title: ''
-  saves:
-    - str
-    - wis
-  skills:
-    number: 2
-    choices:
-      - ani
-      - ath
-      - ins
-      - itm
-      - inv
-      - med
-      - nat
-      - prc
-      - sur
-    value: []
   spellcasting:
     progression: none
     ability: wis
     preparation:
       formula: ''
-  subclass: ''
-  damage:
-    parts: []
-  critical:
-    threshold: null
-    damage: null
   wealth: 5d4 * 10
   primaryAbility:
     value:
@@ -724,16 +706,21 @@ system:
       _id: fsPY0YoyFSM0vsHh
       group: 3v30ZuxN3aV7I50h
       sort: 1300000
+  hd:
+    denomination: d12
+    spent: 0
+    additional: ''
+  properties: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.3.8
-  coreVersion: '13.344'
-  createdTime: 1680650622405
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Compendium.dnd5e.classes.pvEzGSv71zBhaolc
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610604581
+  modifiedTime: null
+  lastModifiedBy: null
 folder: HUaII7dx2BNLZrSg
 sort: 100000
 ownership:

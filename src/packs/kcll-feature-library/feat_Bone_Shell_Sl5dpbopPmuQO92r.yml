@@ -26,8 +26,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Turtlefolk Remains
+  advancement: []
+  crewed: false
 effects:
   - name: Bone Shell
     img: icons/creatures/reptiles/turtle-shell-glowing-green.webp
@@ -63,13 +67,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732224657176
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!Sl5dpbopPmuQO92r.1vcaj27Fu4SewX7t'
 folder: null
 sort: 19600000
@@ -79,11 +82,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732220501649
+  systemVersion: 5.2.0
+  createdTime: 1764610573219
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!Sl5dpbopPmuQO92r'

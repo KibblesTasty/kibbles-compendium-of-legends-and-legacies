@@ -52,7 +52,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -81,6 +81,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -96,7 +97,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     W3hiWd8SsaeF8CWl:
       type: forward
       _id: W3hiWd8SsaeF8CWl
@@ -126,9 +132,12 @@ system:
       activity:
         id: vNVjhwUR66mtyifN
       name: Sleet Storm
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     qDUOfzmMJBvOolyE:
       type: cast
       spell:
@@ -137,7 +146,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - somatic
@@ -167,6 +176,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -182,7 +192,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     x767QUbMXBern4lz:
       type: forward
       name: Fire Shield
@@ -209,10 +224,13 @@ system:
         recovery: []
         max: ''
       activity:
-        id: ''
-      img: ''
-      spell:
-        ability: wis
+        id: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     oXs30GGa2AEhKh5S:
       type: cast
       spell:
@@ -222,7 +240,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -251,6 +269,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -266,7 +285,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Q5m1TnTZBs1IdIM1:
       type: forward
       name: Aldricor's Elemental Rebuke
@@ -294,9 +318,12 @@ system:
         max: ''
       activity:
         id: oXs30GGa2AEhKh5S
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ixEOttHWSPYmGl89:
       type: cast
       spell:
@@ -306,7 +333,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -335,6 +362,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -350,7 +378,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     WuDmL5Rz0ExDMZij:
       type: forward
       name: Entomb
@@ -378,9 +411,12 @@ system:
         max: ''
       activity:
         id: ixEOttHWSPYmGl89
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     zZoArlBOlLRWZnW4:
       type: cast
       spell:
@@ -390,7 +426,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -419,6 +455,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -434,7 +471,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     m32ph351bUT8dGPy:
       type: forward
       name: Cold Snap
@@ -462,9 +504,12 @@ system:
         max: ''
       activity:
         id: zZoArlBOlLRWZnW4
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     8GbNDsEbPvTZ9UDV:
       type: cast
       spell:
@@ -474,7 +519,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -503,6 +548,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -518,7 +564,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     sjgxGMMyCbrD737F:
       type: forward
       name: Fire Cyclone
@@ -546,23 +597,30 @@ system:
         max: ''
       activity:
         id: 8GbNDsEbPvTZ9UDV
-      img: ''
-      spell:
-        ability: wis
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.YpNwif3IhEk0djbx
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1727317518002
+  systemVersion: 5.2.0
+  createdTime: 1764610589293
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 75300000
 ownership:

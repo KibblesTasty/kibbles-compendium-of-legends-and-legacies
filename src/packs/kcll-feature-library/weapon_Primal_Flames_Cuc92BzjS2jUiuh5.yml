@@ -39,7 +39,6 @@ system:
   rarity: common
   identified: true
   cover: null
-  crewed: false
   range:
     value: 30
     long: 90
@@ -128,7 +127,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -155,6 +154,12 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     a7Nz08kdCJscJWBp:
       type: damage
       name: Grapple Damage
@@ -179,6 +184,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -208,24 +214,30 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: primal-flames
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
   mastery: ''
+  crew:
+    value: []
 _stats:
   compendiumSource: Item.dLDnNmmqJNRpbbDQ
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317495120
+  systemVersion: 5.2.0
+  createdTime: 1764610560506
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 40400000
 ownership:

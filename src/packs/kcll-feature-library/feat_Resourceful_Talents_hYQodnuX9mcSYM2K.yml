@@ -82,22 +82,30 @@ system:
         visible: false
         name: Use Spell Scroll
         formula: 1d20 + @prof
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.U8nQXGd8YEPIVfeo
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317516190
+  systemVersion: 5.2.0
+  createdTime: 1764610586593
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 72300000
 ownership:

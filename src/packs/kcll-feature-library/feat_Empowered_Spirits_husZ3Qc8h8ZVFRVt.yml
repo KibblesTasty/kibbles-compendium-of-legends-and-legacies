@@ -36,13 +36,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731047798678
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.RGTnaZtA2nxOgfsg'
   - name: Empowered Spirits (2nd)
     img: icons/creatures/magical/construct-golem-stone-blue.webp
@@ -78,13 +77,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731047803876
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.1vEV6iBq5cvFpzlT'
   - name: Empowered Spirits (3rd)
     img: icons/creatures/magical/construct-golem-stone-blue.webp
@@ -120,13 +118,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731047804352
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.ZxYNgx7M5VGlmUNC'
   - name: Empowered Spirits (4th)
     img: icons/creatures/magical/construct-golem-stone-blue.webp
@@ -162,13 +159,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731047804690
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.SWBRqZFwR0fSxW0D'
   - name: Empowered Spirits (5th)
     img: icons/creatures/magical/construct-golem-stone-blue.webp
@@ -204,13 +200,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.4
-      createdTime: 1731047805235
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!husZ3Qc8h8ZVFRVt.pu7AP2ZyVA3HnT5p'
 flags:
   core: {}
@@ -276,10 +271,15 @@ system:
         override: false
       effects:
         - _id: RGTnaZtA2nxOgfsg
+          level: {}
         - _id: 1vEV6iBq5cvFpzlT
+          level: {}
         - _id: ZxYNgx7M5VGlmUNC
+          level: {}
         - _id: SWBRqZFwR0fSxW0D
+          level: {}
         - _id: pu7AP2ZyVA3HnT5p
+          level: {}
       range:
         override: false
         units: self
@@ -301,7 +301,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - temphp
         custom:
@@ -313,27 +313,30 @@ system:
           formula: '1'
         bonus: '@scaling'
       name: ''
-      img: ''
-      appliedEffects:
-        - RGTnaZtA2nxOgfsg
-        - 1vEV6iBq5cvFpzlT
-        - ZxYNgx7M5VGlmUNC
-        - SWBRqZFwR0fSxW0D
-        - pu7AP2ZyVA3HnT5p
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.9IOIZyo6CqLDTzYF
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.0
-  createdTime: 1727317516406
+  systemVersion: 5.2.0
+  createdTime: 1764610586950
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 72700000
 ownership:

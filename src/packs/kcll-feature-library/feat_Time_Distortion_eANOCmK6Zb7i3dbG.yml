@@ -29,8 +29,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Timetwister 3
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 12700000
@@ -40,11 +44,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731639513851
+  systemVersion: 5.2.0
+  createdTime: 1764610583765
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!eANOCmK6Zb7i3dbG'

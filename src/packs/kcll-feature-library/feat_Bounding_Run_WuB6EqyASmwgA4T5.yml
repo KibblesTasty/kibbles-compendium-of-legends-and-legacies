@@ -28,8 +28,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Doggo 18
+  advancement: []
+  crewed: false
 effects:
   - name: Bounding Run
     img: icons/skills/movement/ball-spinning-blue.webp
@@ -61,13 +65,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731565296090
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!WuB6EqyASmwgA4T5.Dact22hEE9KJErMy'
 folder: null
 sort: 10100000
@@ -77,11 +80,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731552405749
+  systemVersion: 5.2.0
+  createdTime: 1764610577123
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!WuB6EqyASmwgA4T5'

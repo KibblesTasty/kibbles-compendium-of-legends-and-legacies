@@ -113,8 +113,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     zI8eqXgz376vwfQc:
       type: save
       name: Coalesced Lightning
@@ -177,8 +181,12 @@ system:
         dc:
           calculation: ''
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     YFEuUvIsfI7Ri0dJ:
       type: damage
       name: Wildfire
@@ -234,22 +242,30 @@ system:
               - fire
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.EZg1dlfEkSjJnOK2
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317502089
+  systemVersion: 5.2.0
+  createdTime: 1764610569105
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 51000000
 ownership:

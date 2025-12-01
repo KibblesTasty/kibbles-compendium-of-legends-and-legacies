@@ -25,6 +25,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -45,6 +46,12 @@ system:
         critical: {}
         includeBase: true
         parts: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     HvyH6RxjT1yT8R6K:
       type: damage
       name: Grapple Damage
@@ -69,6 +76,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -98,8 +106,12 @@ system:
               - slashing
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -138,7 +150,6 @@ system:
   armor:
     value: null
   cover: null
-  crewed: false
   hp:
     value: null
     max: null
@@ -176,8 +187,10 @@ system:
     value: null
     long: null
     reach: null
-    units: ''
+    units: ft
   mastery: ''
+  crew:
+    value: []
 effects: []
 folder: null
 sort: 8600000
@@ -191,11 +204,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731636955268
+  systemVersion: 5.2.0
+  createdTime: 1764610573374
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!Svf6Wmd4TPFGMZ2q'

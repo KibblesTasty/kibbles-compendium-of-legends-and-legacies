@@ -30,7 +30,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Aura of Serenity
     img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
@@ -62,26 +66,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731992940168
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!lwwM1shOBH8mW3qG.XdZ7y8uPcAqj5Euz'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.2EiMQWtQo6e18dVf
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317518974
+  systemVersion: 5.2.0
+  createdTime: 1764610590633
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 77000000
 ownership:

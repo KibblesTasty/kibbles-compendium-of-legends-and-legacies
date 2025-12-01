@@ -27,6 +27,7 @@ system:
         override: false
       effects:
         - _id: w6mPQ2arvBDCjBgz
+          level: {}
       range:
         override: false
         units: ft
@@ -52,8 +53,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     5Dv0JWmZui78PkSC:
       type: utility
       name: Decelerate
@@ -76,6 +81,7 @@ system:
         override: false
       effects:
         - _id: sVGI6xrpFfTtQSyq
+          level: {}
       range:
         override: false
         value: '60'
@@ -103,9 +109,12 @@ system:
         formula: ''
         name: ''
       _id: 5Dv0JWmZui78PkSC
-      img: ''
-      appliedEffects:
-        - w6mPQ2arvBDCjBgz
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -141,8 +150,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Timetwister 1
+  advancement: []
+  crewed: false
 effects:
   - name: Accelerated Time
     img: icons/magic/time/day-night-sunset-sunrise.webp
@@ -174,13 +187,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731650365154
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!LKgK9Nd6QTEMgu90.w6mPQ2arvBDCjBgz'
   - name: Decelerated Time
     img: icons/magic/time/day-night-sunset-sunrise.webp
@@ -224,13 +236,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731650416276
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!LKgK9Nd6QTEMgu90.sVGI6xrpFfTtQSyq'
 folder: null
 sort: 6400000
@@ -244,11 +255,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731639447825
+  systemVersion: 5.2.0
+  createdTime: 1764610566882
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!LKgK9Nd6QTEMgu90'

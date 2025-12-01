@@ -56,8 +56,12 @@ system:
         dc:
           calculation: ''
           formula: 5 + @scaling
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -81,8 +85,12 @@ system:
     subtype: epicBoon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: '"Boon" of Undeath'
     img: icons/magic/death/skull-horned-worn-fire-blue.webp
@@ -118,13 +126,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732302355184
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!w3RD7jKxYQ9izhja.MN19ROhFTkFUI60T'
 sort: 0
 ownership:
@@ -137,11 +144,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732297513418
+  systemVersion: 5.2.0
+  createdTime: 1764610609973
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!w3RD7jKxYQ9izhja'

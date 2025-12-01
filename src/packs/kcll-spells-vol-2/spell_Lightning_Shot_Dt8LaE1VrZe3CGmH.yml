@@ -26,6 +26,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -65,8 +66,12 @@ system:
               number: 1
               formula: ''
       name: Strength Attack
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dDP8Ad6L1bvPTHMQ:
       type: attack
       sort: 0
@@ -88,6 +93,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -128,8 +134,12 @@ system:
               formula: ''
       name: Dexterity Attack
       _id: dDP8Ad6L1bvPTHMQ
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -167,9 +177,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -188,6 +195,8 @@ system:
       count: ''
       type: object
       special: a piece of ammunition or a weapon with the thrown property
+  method: spell
+  prepared: 0
 effects: []
 folder: null
 sort: 3500000
@@ -201,11 +210,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732559195028
+  systemVersion: 5.2.0
+  createdTime: 1764610619061
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!Dt8LaE1VrZe3CGmH'

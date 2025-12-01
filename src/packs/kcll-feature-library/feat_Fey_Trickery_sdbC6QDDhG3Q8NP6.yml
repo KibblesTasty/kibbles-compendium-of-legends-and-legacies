@@ -30,6 +30,7 @@ system:
         override: false
       effects:
         - _id: aMD7yubAWEnaoapN
+          level: {}
       range:
         override: false
         units: self
@@ -54,8 +55,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -93,8 +98,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Fey Warped 1
+  advancement: []
+  crewed: false
 effects:
   - name: Glamorous Presence
     img: icons/magic/nature/leaf-hand-green.webp
@@ -137,13 +146,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744832165747
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!sdbC6QDDhG3Q8NP6.aMD7yubAWEnaoapN'
 folder: null
 sort: 16800000
@@ -157,11 +165,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1732124818229
+  systemVersion: 5.2.0
+  createdTime: 1764610597052
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!sdbC6QDDhG3Q8NP6'

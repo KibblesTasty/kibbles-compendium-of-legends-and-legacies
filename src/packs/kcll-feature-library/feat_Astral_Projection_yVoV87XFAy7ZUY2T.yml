@@ -30,6 +30,7 @@ system:
         override: false
       effects:
         - _id: Zcgd1wDDXfLnfeiN
+          level: {}
       range:
         override: false
         units: self
@@ -54,8 +55,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -100,8 +105,12 @@ system:
     subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Astral Guardian 17
+  advancement: []
+  crewed: false
 effects:
   - name: Astral Projection
     img: icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp
@@ -149,13 +158,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1731691011987
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!yVoV87XFAy7ZUY2T.Zcgd1wDDXfLnfeiN'
 folder: null
 sort: 18000000
@@ -169,11 +177,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1731641968364
+  systemVersion: 5.2.0
+  createdTime: 1764610601770
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!yVoV87XFAy7ZUY2T'

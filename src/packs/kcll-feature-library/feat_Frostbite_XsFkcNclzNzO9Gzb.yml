@@ -57,6 +57,7 @@ system:
         override: false
       effects:
         - _id: t9tNR7CwmXOUBTUc
+          level: {}
       range:
         units: any
         special: ''
@@ -69,7 +70,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -88,14 +89,21 @@ system:
         visible: false
       sort: 0
       name: ''
-      img: ''
-      appliedEffects:
-        - t9tNR7CwmXOUBTUc
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: frostbite
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Frostbite
     img: icons/magic/water/snowflake-ice-blue.webp
@@ -123,13 +131,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.0
-      createdTime: 1731442564091
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!XsFkcNclzNzO9Gzb.t9tNR7CwmXOUBTUc'
 flags:
   core: {}
@@ -140,13 +147,13 @@ flags:
 _stats:
   compendiumSource: Item.v90WJWFtXcHClgoY
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317508996
+  systemVersion: 5.2.0
+  createdTime: 1764610577975
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 61500000
 ownership:

@@ -83,11 +83,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 5
       title: Guardian Spellblade Spells
@@ -101,11 +102,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 3
       title: Guardian Spellblade Spells
@@ -119,11 +121,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 9
       title: Guardian Spellblade Spells
@@ -137,11 +140,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 13
       title: Guardian Spellblade Spells
@@ -155,11 +159,12 @@ system:
         optional: false
         spell:
           ability: []
-          preparation: always
           uses:
             max: ''
             per: ''
             requireSlot: false
+          method: spell
+          prepared: 2
       value: {}
       level: 17
       title: Guardian Spellblade Spells
@@ -193,11 +198,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1729045963215
+  systemVersion: 5.2.0
+  createdTime: 1764610606299
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!x88Hpp6EeshsAoVk'

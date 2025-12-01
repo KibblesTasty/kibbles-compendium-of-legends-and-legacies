@@ -67,8 +67,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -99,8 +103,11 @@ system:
     level: null
     items:
       - tradition-of-the-voidwatcher
+    repeatable: false
   properties: []
   requirements: Conclusion of Annihilation
+  advancement: []
+  crewed: false
 effects: []
 folder: null
 sort: 1600000
@@ -114,11 +121,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1731224651435
+  systemVersion: 5.2.0
+  createdTime: 1764610552345
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!5BS4ebGhOOE9s46j'

@@ -32,6 +32,7 @@ system:
         value: '1'
       effects:
         - _id: 3nn00zKJhWyzgnZB
+          level: {}
       range:
         override: false
         units: ft
@@ -58,9 +59,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - 3nn00zKJhWyzgnZB
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery:
@@ -106,6 +110,8 @@ system:
     subtype: ''
   prerequisites:
     level: 4
+    items: []
+    repeatable: false
   properties: []
   requirements: fighting style that uses your reaction to defend an allied creature
   advancement:
@@ -125,11 +131,13 @@ system:
           - wis
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 effects:
   - name: Heroic Intervention
     img: icons/magic/defensive/shield-barrier-blue.webp
@@ -210,13 +218,12 @@ effects:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.MP5jBU6ld8T3sQgh.ActiveEffect.3eOAxl6hAdk7qRe1
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732225738358
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!FJBrEIf93FxUaG5i.3nn00zKJhWyzgnZB'
 sort: 0
 ownership:
@@ -229,11 +236,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1729046667603
+  systemVersion: 5.2.0
+  createdTime: 1764610608581
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!FJBrEIf93FxUaG5i'

@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: JU46tRg86G9Wh3dG
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -41,6 +43,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     EXQrIshP35peuvHG:
       type: save
       _id: EXQrIshP35peuvHG
@@ -64,6 +72,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -86,8 +95,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -119,9 +132,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -142,6 +152,8 @@ system:
       count: ''
       type: creature
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Curse of Impotence
     img: icons/magic/symbols/runes-carved-stone-purple.webp
@@ -169,13 +181,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.2
-      createdTime: 1733259354873
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!cEU4zPpsyvvTMQeh.JU46tRg86G9Wh3dG'
 folder: null
 sort: 9900000
@@ -189,11 +200,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1732556966842
+  systemVersion: 5.2.0
+  createdTime: 1764610621389
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!cEU4zPpsyvvTMQeh'

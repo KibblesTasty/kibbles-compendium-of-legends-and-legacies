@@ -13,7 +13,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties: []
         spellbook: true
       _id: 0jbaCX8RyJMXvL0V
@@ -38,6 +38,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -53,7 +54,12 @@ system:
             type: recoverAll
         max: '1'
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -79,8 +85,12 @@ system:
     subtype: epicBoon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: ''
+  advancement: []
+  crewed: false
 effects:
   - name: '"Boon" of the Spiderqueen'
     img: icons/magic/control/debuff-chains-ropes-blue.webp
@@ -116,13 +126,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732302480472
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!U5gFe5GEriI3srwD.oBkSwbgZ9SnpiMuZ'
 sort: 0
 ownership:
@@ -135,11 +144,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1732296860469
+  systemVersion: 5.2.0
+  createdTime: 1764610608979
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!U5gFe5GEriI3srwD'

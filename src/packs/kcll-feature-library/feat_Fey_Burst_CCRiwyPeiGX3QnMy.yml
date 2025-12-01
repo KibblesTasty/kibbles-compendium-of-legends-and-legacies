@@ -32,21 +32,16 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732140753240
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!CCRiwyPeiGX3QnMy.J78wCymutdVEaIX0'
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 2
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -95,7 +90,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties: []
         spellbook: true
       _id: siEtio1fJTKoSa6v
@@ -121,6 +116,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -134,7 +130,12 @@ system:
         recovery: []
         max: ''
       name: Glamour
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     PTBcC99Tgz81sxwW:
       type: utility
       name: Fairy Lights
@@ -161,6 +162,7 @@ system:
         override: false
       effects:
         - _id: J78wCymutdVEaIX0
+          level: {}
       range:
         override: false
         units: self
@@ -185,9 +187,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - J78wCymutdVEaIX0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     NYHwefEUW27mGCHO:
       type: utility
       name: Amplify
@@ -237,8 +242,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     EmwClPH5mkEi1sy8:
       type: save
       name: Bedazzle
@@ -297,23 +306,31 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: fey-burst
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _stats:
   compendiumSource: Item.vO0apnvYcuIcJSHE
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317494438
+  systemVersion: 5.2.0
+  createdTime: 1764610559379
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 39400000
 ownership:

@@ -28,7 +28,11 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 effects:
   - name: Patron's Paranoia
     img: icons/magic/perception/eye-slit-red-orange.webp
@@ -60,26 +64,25 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.1.1
-      createdTime: 1732142921661
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!To4DUDglJpWrPlym.IgbdxYxcD5OL64Qq'
 flags:
   core: {}
 _stats:
   compendiumSource: Item.w98ct4ffivtz5vwn
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1727317505877
+  systemVersion: 5.2.0
+  createdTime: 1764610574102
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 folder: null
 sort: 56900000
 ownership:

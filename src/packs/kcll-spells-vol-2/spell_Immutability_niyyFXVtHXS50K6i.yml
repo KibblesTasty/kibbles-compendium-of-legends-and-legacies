@@ -25,8 +25,10 @@ system:
         override: false
       effects:
         - _id: 4MF4qqa4xf66zL8Y
+          level: {}
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -45,9 +47,12 @@ system:
         name: ''
         formula: ''
       name: Cast
-      img: ''
-      appliedEffects:
-        - 4MF4qqa4xf66zL8Y
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -81,9 +86,6 @@ system:
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
   properties:
     - vocal
     - somatic
@@ -102,6 +104,8 @@ system:
       count: ''
       type: ''
       special: ''
+  method: spell
+  prepared: 0
 effects:
   - name: Immutability
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
@@ -140,13 +144,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744835778045
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!niyyFXVtHXS50K6i.4MF4qqa4xf66zL8Y'
 folder: null
 sort: 12600000
@@ -160,11 +163,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1732558633308
+  systemVersion: 5.2.0
+  createdTime: 1764610622480
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!niyyFXVtHXS50K6i'

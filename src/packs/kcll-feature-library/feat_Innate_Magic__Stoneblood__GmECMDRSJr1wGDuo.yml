@@ -4,10 +4,7 @@ img: icons/magic/earth/projectile-boulder-dust.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -60,7 +57,7 @@ system:
         spellbook: true
         ability: wis
       _id: yM2jtpjtlnxIS0gj
-      sort: 0
+      sort: 100000
       activation:
         type: action
         value: null
@@ -72,7 +69,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -99,7 +95,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -107,7 +104,7 @@ system:
       type: forward
       name: Create Pit
       _id: qMtUTudrEtBity42
-      sort: 0
+      sort: 200000
       activation:
         type: action
         value: null
@@ -132,10 +129,451 @@ system:
         id: yM2jtpjtlnxIS0gj
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+    SnCiBagA6KyN60xw:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.QsFND6hqcN35t99g
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: SnCiBagA6KyN60xw
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 3
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    NmfnpC1fTDHwgNJf:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.D678DwGhaklDyNsi
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: NmfnpC1fTDHwgNJf
+      sort: 500000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 5
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    bKkJGmMqejQduZpy:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.TXTNQVT7XHpmBZGo
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: bKkJGmMqejQduZpy
+      sort: 600000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 9
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    5mKuzUYCQocioohG:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.eGyG7KfONP3ZHqHC
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 5mKuzUYCQocioohG
+      sort: 700000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 13
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    NlNMacAIzTKU2P7E:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.b3BPK7kvSBIhMOZ9
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: NlNMacAIzTKU2P7E
+      sort: 800000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 17
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    eOUGmXOCcWIzghTW:
+      type: forward
+      name: Earth Ripple
+      _id: eOUGmXOCcWIzghTW
+      sort: 400000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 3
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: SnCiBagA6KyN60xw
+      img: ''
+    IBeoOR9radDaiPy9:
+      type: forward
+      name: Become Stone
+      _id: IBeoOR9radDaiPy9
+      sort: 550000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 5
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: NmfnpC1fTDHwgNJf
+      img: ''
+    SAwdApON6vl13Oaz:
+      type: forward
+      name: Quicksand
+      _id: SAwdApON6vl13Oaz
+      sort: 650000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 9
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: bKkJGmMqejQduZpy
+      img: ''
+    8sZmQ7Kq1eysMJKe:
+      type: forward
+      name: Stone Coffin
+      _id: 8sZmQ7Kq1eysMJKe
+      sort: 750000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: 5mKuzUYCQocioohG
+      img: ''
+    Si0SUr3kVKyd0ByY:
+      type: forward
+      name: Orbital Stones
+      _id: Si0SUr3kVKyd0ByY
+      sort: 900000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 17
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: NlNMacAIzTKU2P7E
+      img: ''
   enchant: {}
   prerequisites:
     level: null

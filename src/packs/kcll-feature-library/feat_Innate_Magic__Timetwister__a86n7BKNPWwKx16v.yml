@@ -32,7 +32,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -59,7 +58,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -91,7 +91,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -118,7 +117,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -150,7 +150,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -177,7 +176,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -209,7 +209,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -236,7 +235,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -268,7 +268,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -295,7 +294,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -328,7 +328,8 @@ system:
         id: NJB7AOb8elafkqXv
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -361,7 +362,8 @@ system:
         id: LSIviKynQCfSiszM
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -394,7 +396,8 @@ system:
         id: dS4OCzAcCWJR1Cw7
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -427,7 +430,8 @@ system:
         id: 8NWbOukxo31lzxdD
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -460,7 +464,8 @@ system:
         id: 4uzrlDkKFSYv97kS
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -493,7 +498,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -520,7 +524,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -553,7 +558,8 @@ system:
         id: bkZJVmR2o9u62MOw
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -601,10 +607,7 @@ sort: 11400000
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null

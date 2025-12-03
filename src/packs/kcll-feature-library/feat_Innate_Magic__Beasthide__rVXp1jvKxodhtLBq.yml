@@ -4,10 +4,7 @@ img: icons/creatures/abilities/paw-print-yellow.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -70,7 +67,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -97,7 +93,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -129,7 +126,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -156,7 +152,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -188,7 +185,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -215,7 +211,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -247,7 +244,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -274,7 +270,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -306,7 +303,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -333,7 +329,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -366,7 +363,8 @@ system:
         id: 7CTev48ykWK0FvJJ
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -399,7 +397,8 @@ system:
         id: 1HLou1jOosjhLAjs
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -432,7 +431,8 @@ system:
         id: cKqXlQe1Eq0jkEhF
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -465,7 +465,8 @@ system:
         id: v0wuzdIe2AjBLF09
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -498,7 +499,8 @@ system:
         id: 4VY7FnSq3vwGSv9X
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -531,7 +533,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -558,7 +559,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -591,7 +593,8 @@ system:
         id: lGv3eP3dacjni33C
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
         requireAttunement: false
         requireIdentification: false
         requireMagic: false

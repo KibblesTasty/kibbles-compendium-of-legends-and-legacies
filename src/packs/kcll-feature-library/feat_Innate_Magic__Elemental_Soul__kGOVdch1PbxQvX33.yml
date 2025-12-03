@@ -4,10 +4,7 @@ img: icons/magic/fire/explosion-flame-blue.webp
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -72,7 +69,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -99,7 +95,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -134,7 +131,8 @@ system:
       name: Sleet Storm
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -166,8 +164,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            target: ''
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -194,7 +190,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -216,7 +213,6 @@ system:
             value: '5'
             target: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
-            scaling: {}
       description:
         chatFlavor: ''
       uses:
@@ -224,13 +220,17 @@ system:
         recovery: []
         max: ''
       activity:
-        id: null
+        id: qDUOfzmMJBvOolyE
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      img: ''
     oXs30GGa2AEhKh5S:
       type: cast
       spell:
@@ -260,7 +260,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -287,7 +286,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -320,7 +320,8 @@ system:
         id: oXs30GGa2AEhKh5S
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -353,7 +354,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -380,7 +380,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -413,7 +414,8 @@ system:
         id: ixEOttHWSPYmGl89
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -446,7 +448,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -473,7 +474,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -506,7 +508,8 @@ system:
         id: zZoArlBOlLRWZnW4
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -539,7 +542,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -566,7 +568,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -599,7 +602,8 @@ system:
         id: 8GbNDsEbPvTZ9UDV
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
         requireAttunement: false
         requireIdentification: false
         requireMagic: false

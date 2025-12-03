@@ -63,7 +63,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -90,7 +89,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -122,7 +122,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -149,7 +148,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -181,7 +181,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -208,7 +207,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -241,7 +241,8 @@ system:
       name: Heroism
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -274,7 +275,8 @@ system:
         id: N97cteP1lhUjxEya
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -307,7 +309,8 @@ system:
         id: zYyFZ15vyTyktdVM
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -340,7 +343,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -367,7 +369,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -400,10 +403,185 @@ system:
         id: qEUZSahaRzoNSeA0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+    9v5Wf2LIFDYJsiGa:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ncPnLiLE9bBUYs7R
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 9v5Wf2LIFDYJsiGa
+      sort: 700000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 13
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    wPUQ21j3UQcmUZP4:
+      type: forward
+      name: Brilliant Blade
+      _id: wPUQ21j3UQcmUZP4
+      sort: 800000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '4'
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: 9v5Wf2LIFDYJsiGa
+      img: ''
+    jPRN9aTEA9k6WLOw:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.zslATBRXIUWbPJBF
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: jPRN9aTEA9k6WLOw
+      sort: 900000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 17
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    rinlV8W9iHwvlsNz:
+      type: forward
+      name: Heavenly Ray
+      _id: rinlV8W9iHwvlsNz
+      sort: 1000000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 17
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: jPRN9aTEA9k6WLOw
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -415,10 +593,7 @@ system:
 effects: []
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _stats:
   compendiumSource: Item.uBND573Ph6Us1UAM
   duplicateSource: null

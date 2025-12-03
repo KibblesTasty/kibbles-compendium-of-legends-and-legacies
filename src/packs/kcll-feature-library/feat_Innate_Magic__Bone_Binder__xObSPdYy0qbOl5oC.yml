@@ -32,7 +32,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -59,7 +58,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -91,7 +91,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -118,7 +117,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -150,7 +150,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -177,7 +176,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -209,7 +209,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -236,7 +235,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -269,7 +269,8 @@ system:
         id: Wmxe13Q2VVRt1HQk
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -302,7 +303,8 @@ system:
         id: yDcQQ5aivJeUvGJK
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -335,7 +337,8 @@ system:
         id: qzu6S4lvHMRP0Fuh
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -368,7 +371,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -395,7 +397,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -428,7 +431,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -455,7 +457,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -488,7 +491,8 @@ system:
         id: EO8XpuBIB5nzzQXF
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -496,7 +500,7 @@ system:
       type: forward
       name: Ribcage
       _id: cC1HDtkexwGWOFCS
-      sort: 0
+      sort: 700000
       activation:
         type: action
         value: null
@@ -521,7 +525,8 @@ system:
         id: ZvtLWF5li4nTdF35
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -575,10 +580,7 @@ sort: 17900000
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null

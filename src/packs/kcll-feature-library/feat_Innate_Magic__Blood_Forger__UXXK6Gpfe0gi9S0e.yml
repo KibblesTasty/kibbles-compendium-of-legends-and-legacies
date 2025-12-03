@@ -13,7 +13,7 @@ system:
           attack: null
           save: null
           override: false
-        level: null
+        level: 1
         properties:
           - vocal
           - somatic
@@ -30,8 +30,11 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets: []
-      description: {}
+        targets:
+          - type: activityUses
+            value: '1'
+      description:
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
@@ -49,13 +52,21 @@ system:
         prompt: true
       uses:
         spent: 0
-        recovery: []
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      name: ''
+      img: ''
     1rUjEarnuPwIfjN4:
       type: forward
       name: Blood Transfusion
@@ -85,10 +96,464 @@ system:
         id: x7ZNbJq4ArkybY7D
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+    XBDu18XSRacArW1N:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Z8zyFokc1Uicvm8P
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: wis
+        level: 1
+      _id: XBDu18XSRacArW1N
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 3
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+      img: ''
+    kGgZfwYFnJbg695B:
+      type: forward
+      name: Sense Blood
+      _id: kGgZfwYFnJbg695B
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 3
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: XBDu18XSRacArW1N
+      img: ''
+    FjiJHt2abE4djEAi:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.cSIG4ABQW9IIsmIM
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: ''
+        level: 2
+      _id: FjiJHt2abE4djEAi
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 5
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+      img: ''
+    gAEiewO7SpkkQgFU:
+      type: forward
+      name: Morbid Puppet
+      _id: gAEiewO7SpkkQgFU
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 5
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: FjiJHt2abE4djEAi
+      img: ''
+    VTwEN7WndXN3y92d:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.ps4Qg1vATUAlX4Sw
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: VTwEN7WndXN3y92d
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 9
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    XPhjoNw6soGNOKCt:
+      type: forward
+      name: Crimson Tide
+      _id: XPhjoNw6soGNOKCt
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 9
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: VTwEN7WndXN3y92d
+      img: ''
+    0AFqQc1WhJBHJd04:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 0AFqQc1WhJBHJd04
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 13
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    Fyd556NswVJx5uMn:
+      type: forward
+      name: Locate Creature
+      _id: Fyd556NswVJx5uMn
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: 0AFqQc1WhJBHJd04
+      img: ''
+    36Jd6P1arPoZM29E:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.XYlNm2hWK5pNq2sz
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: 36Jd6P1arPoZM29E
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: 17
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    AoZJGkibriC6AB2X:
+      type: forward
+      name: Ichorous Blood
+      _id: AoZJGkibriC6AB2X
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '6'
+            target: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
+      description:
+        chatFlavor: ''
+      flags: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 17
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      activity:
+        id: 36Jd6P1arPoZM29E
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -134,10 +599,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null

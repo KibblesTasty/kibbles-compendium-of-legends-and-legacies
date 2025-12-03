@@ -32,7 +32,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -59,7 +58,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -91,7 +91,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -118,7 +117,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -150,7 +150,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -177,7 +176,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -199,7 +199,6 @@ system:
             value: '1'
             target: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
-            scaling: {}
       description:
         chatFlavor: ''
       uses:
@@ -207,13 +206,17 @@ system:
         recovery: []
         max: '4'
       activity:
-        id: null
+        id: pyQSPeiwiLbpXpej
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      img: ''
     OPI0xjSxbb0nxwTY:
       type: forward
       name: Fear
@@ -232,7 +235,6 @@ system:
             value: '4'
             target: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
-            scaling: {}
       description:
         chatFlavor: ''
       uses:
@@ -240,13 +242,17 @@ system:
         recovery: []
         max: ''
       activity:
-        id: null
+        id: 1cGqxIJQYDBCOguA
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 13
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      img: ''
     3e4jHSQi3feQRx4W:
       type: forward
       name: Secret Chest
@@ -265,7 +271,6 @@ system:
             value: '5'
             target: >-
               Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.M9Hd7FvIRs06IDmg
-            scaling: {}
       description:
         chatFlavor: ''
       uses:
@@ -273,13 +278,17 @@ system:
         recovery: []
         max: ''
       activity:
-        id: null
+        id: SCKYFMsgksaMdCMr
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 17
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      img: ''
     wQf9IbzTY8PrOujM:
       type: cast
       spell:
@@ -309,7 +318,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -336,7 +344,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -369,7 +378,8 @@ system:
         id: wQf9IbzTY8PrOujM
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -402,7 +412,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -429,7 +438,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -462,7 +472,8 @@ system:
         id: BmLIBSlhqT5ZOXTa
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -495,7 +506,6 @@ system:
         targets:
           - type: activityUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -522,7 +532,8 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -555,7 +566,8 @@ system:
         id: Ol3nQT7IhSPpI3lm
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -605,10 +617,7 @@ sort: 14400000
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null

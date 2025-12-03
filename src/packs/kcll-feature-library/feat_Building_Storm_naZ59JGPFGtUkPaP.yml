@@ -30,7 +30,10 @@ system:
         concentration: true
         override: false
         value: '1'
-      effects: []
+      effects:
+        - _id: CRnEx4522CYu2rkL
+          level: {}
+        - _id: igLz7mjK1TSJOJjb
       range:
         override: false
         units: self
@@ -147,7 +150,7 @@ system:
       reaction to impose disadvantage on a ranged weapon attack made against a
       target within 15 feet of you.</td></tr><tr><td>3</td><td>You gain a flying
       speed of 15 feet, though cannot fly more than 15 feet above the ground
-      with this flying speed. </td></tr><tr><td>4</td><td>If a creature ends
+      with this flying speed.</td></tr><tr><td>4</td><td>If a creature ends
       their turn within 15 feet of you or strikes you with a melee attack, you
       can use your reaction to deal 1d8 lightning damage to
       them.</td></tr><tr><td>5</td><td>You gain flying speed equal to your
@@ -177,16 +180,99 @@ system:
   requirements: The Tempest 1
   advancement: []
   crewed: false
-effects: []
+effects:
+  - name: Storm 3
+    img: icons/magic/lightning/bolt-strike-explosion-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.naZ59JGPFGtUkPaP
+    transfer: false
+    _id: CRnEx4522CYu2rkL
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '15'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain a flying speed of 15 feet, though cannot fly more than 15 feet
+      above the ground with this flying speed.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      createdTime: 1764790003700
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!naZ59JGPFGtUkPaP.CRnEx4522CYu2rkL'
+  - name: Storm 5
+    img: icons/magic/lightning/bolt-strike-explosion-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.naZ59JGPFGtUkPaP
+    transfer: false
+    _id: igLz7mjK1TSJOJjb
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '@attributes.movement.walk'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain flying speed equal to your movement speed and are not longer
+      restricted in how you can fly.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      createdTime: 1764790004993
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!naZ59JGPFGtUkPaP.igLz7mjK1TSJOJjb'
 folder: null
 sort: 15100000
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null

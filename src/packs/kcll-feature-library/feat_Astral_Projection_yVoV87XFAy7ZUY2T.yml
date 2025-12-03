@@ -123,7 +123,7 @@ effects:
     changes:
       - key: system.attributes.movement.fly
         mode: 4
-        value: '1'
+        value: '@attributes.movement.walk'
         priority: null
       - key: system.attributes.movement.hover
         mode: 2
@@ -150,11 +150,28 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>While in your astral form, you have the following
+      benefits:</p><ul><li><strong>Astral Form.</strong> Your astral form is
+      resistant to bludgeoning, piercing, and slashing
+      damage.</li><li><strong>Flying Speed.</strong> You gain a flying speed
+      equal to your movement speed, and can
+      hover.</li><li><strong>Ethereal.</strong> You can pass through physical
+      objects and creatures as if they are difficult terrain, but cannot end
+      your turn inside another creatures or objects’ space, being moved to the
+      last unoccupied space you occupied if you try.</li><li><strong>Planar
+      Shift.</strong> You can move between your current plane and the ethereal
+      plane as an action. While on the ethereal plane, you can see and hear the
+      plane you originated from, which is cast in shades of gray, and you can’t
+      see anything there more than 60 feet away.</li></ul><p>Otherwise, your
+      astral form shares all abilities and statistics with your normal form.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null

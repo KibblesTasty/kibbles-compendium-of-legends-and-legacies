@@ -36,7 +36,50 @@ system:
   properties: []
   advancement: []
   crewed: false
-effects: []
+effects:
+  - name: Tyrant of the Skies
+    img: icons/creatures/abilities/wing-batlike-purple-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.LQCuCwlwn7mwZDpP
+    _id: ypxs0lSFa8WYtTG6
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 4
+        value: '@attributes.movement.walk'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>If you are not wearing heavy armor, you gain a flying speed equal to
+      your movement speed.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      createdTime: 1764789837219
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!LQCuCwlwn7mwZDpP.ypxs0lSFa8WYtTG6'
 flags:
   core: {}
 _stats:

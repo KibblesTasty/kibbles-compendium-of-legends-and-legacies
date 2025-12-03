@@ -71,7 +71,89 @@ system:
       title: ''
       hint: ''
   crewed: false
-effects: []
+effects:
+  - name: Athletic Movement (Climb)
+    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.x9QINVPYbUt3D32W
+    _id: HMAHKysh1sHZaZtH
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.climb
+        mode: 4
+        value: '@attributes.movement.walk'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      createdTime: 1764790568181
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!x9QINVPYbUt3D32W.HMAHKysh1sHZaZtH'
+  - name: Athletic Movement (Swim)
+    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feats.Item.x9QINVPYbUt3D32W
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.swim
+        mode: 4
+        value: '@attributes.movement.walk'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      createdTime: 1764790598508
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: Mb3c2Jo04jhDd1Rc
+    _key: '!items.effects!x9QINVPYbUt3D32W.Mb3c2Jo04jhDd1Rc'
 sort: 0
 ownership:
   default: 0

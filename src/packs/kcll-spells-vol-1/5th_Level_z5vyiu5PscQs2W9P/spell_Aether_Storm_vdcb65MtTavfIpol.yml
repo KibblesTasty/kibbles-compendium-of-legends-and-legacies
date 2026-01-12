@@ -35,7 +35,8 @@ system:
     condition: ''
     value: 1
   duration:
-    units: inst
+    units: minute
+    value: '1'
   target:
     affects:
       count: ''
@@ -139,7 +140,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.2.3
   createdTime: 1764610615257
   modifiedTime: null
   lastModifiedBy: null

@@ -1,0 +1,193 @@
+name: Baba's Walking Hut
+type: spell
+_id: k0TuLWkmRqUW0fpa
+img: icons/environment/settlement/house-poles.webp
+system:
+  activities:
+    FSwklXiinXeT3hIe:
+      type: utility
+      _id: FSwklXiinXeT3hIe
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Cast
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    Xb1Asr5p3kobHxO7:
+      type: save
+      _id: Xb1Asr5p3kobHxO7
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 10
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You touch a hut, cabin, or other building no more than 15 feet by 15
+      feet by 10 feet. On completion of the spell, the building grows legs large
+      enough to support it, as well as the structural integrity needed stand and
+      move, and becomes a gargantuan creature. It has 250 hit points, an AC of
+      12, and a walking speed of 20 feet. If it drops to 0 hit points, the spell
+      ends.</p><p>On your turn, you can direct it to move (no action required)
+      and it will continue to move as directed until you direct it to stop or
+      reaches its destination. It can take no actions, but if it walks over a
+      Large or smaller creature, you can direct it to attempt to step on that
+      creature, and that creature must succeed a Dexterity saving throw, or take
+      2d10 bludgeoning damage and be knocked &amp;Reference[prone].</p><p>If you
+      cast this spell on the same building every day for a year, the spell lasts
+      until dispelled, or you cast it on another building.</p>
+    chat: ''
+  identifier: babas-walking-hut
+  source:
+    revision: 1
+    rules: '2014'
+  activation:
+    type: minute
+    value: 10
+    condition: ''
+  duration:
+    units: hour
+    value: '24'
+  level: 6
+  materials:
+    value: a chicken leg
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+  range:
+    units: touch
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: ''
+  method: spell
+  prepared: 0
+effects: []
+folder: HbarnhypYaK0jiCt
+sort: 11300000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610621994
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!items!k0TuLWkmRqUW0fpa'

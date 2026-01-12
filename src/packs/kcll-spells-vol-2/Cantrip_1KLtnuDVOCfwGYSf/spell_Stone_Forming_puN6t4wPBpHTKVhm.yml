@@ -1,0 +1,197 @@
+name: Stone Forming
+type: spell
+_id: puN6t4wPBpHTKVhm
+img: icons/magic/earth/projectile-boulder-debris.webp
+system:
+  activities:
+    Y4gl0IqJWKRUAtkr:
+      type: utility
+      name: Cast
+      _id: Y4gl0IqJWKRUAtkr
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    OTNIXPXQuvXyrzdT:
+      type: attack
+      name: Unarmed Attack
+      _id: OTNIXPXQuvXyrzdT
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: str
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You lay your hand on dirt or rock and call on the stone to shape itself
+      to your command. You can make any roughly shaped Small or Tiny item from
+      the stone, including functional simple or martial melee weapons. Created
+      items possess magical durability to resist shattering or breaking. This
+      spell can't be used to carve significant amounts of material away from
+      stone walls, doors, or other large objects.</p><p>Alternatively you can
+      encase your limbs in stone, causing your unarmed strikes to deal 1d8
+      bludgeoning damage for the duration of the spell.</p><p>Items made this
+      way lose any magical durability after one hour, and become easily broken
+      if they would not normally be functional in that shape. You can have three
+      items or effects created by this cantrip at a time, and upon creating a
+      fourth the oldest one loses its magical durability and becomes easily
+      broken.</p>
+    chat: ''
+  identifier: stone-forming
+  source:
+    revision: 1
+    rules: '2014'
+  activation:
+    type: bonus
+    value: null
+    condition: ''
+  duration:
+    units: hour
+    value: '1'
+  level: 0
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: touch
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: object
+      special: ''
+  method: spell
+  prepared: 0
+effects: []
+folder: 1KLtnuDVOCfwGYSf
+sort: 13700000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610622854
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!items!puN6t4wPBpHTKVhm'

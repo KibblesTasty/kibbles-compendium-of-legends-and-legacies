@@ -1,0 +1,173 @@
+name: Immutability
+type: spell
+_id: niyyFXVtHXS50K6i
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  activities:
+    Yd1QGaihNMa2g6DB:
+      type: utility
+      _id: Yd1QGaihNMa2g6DB
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 4MF4qqa4xf66zL8Y
+          level: {}
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Cast
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You assume an immutable form. You become immune to other transmutation
+      spells or magical effects that would alter your form. </p><p>If you don’t
+      move during your turn, you gain advantage on Strength or Constitution
+      saving throws made before the start of your next turn, and cannot be moved
+      or knocked down against your will. </p><p>While the spell is active, as a
+      reaction to taking bludgeoning, piercing, or slashing damage you can gain
+      resistance to that damage type (Including the triggering damage) until the
+      end of your next turn, but your movement speed becomes zero until the end
+      of your next turn.</p>
+    chat: ''
+  identifier: immutability
+  source:
+    revision: 1
+    rules: '2014'
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 3
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: self
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: ''
+      special: ''
+  method: spell
+  prepared: 0
+effects:
+  - name: Immutability
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.niyyFXVtHXS50K6i
+    transfer: false
+    _id: 4MF4qqa4xf66zL8Y
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.str.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.attributes.con.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
+    _key: '!items.effects!niyyFXVtHXS50K6i.4MF4qqa4xf66zL8Y'
+folder: Ur9tIpJzt5Y9caPY
+sort: 12600000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610622480
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!items!niyyFXVtHXS50K6i'

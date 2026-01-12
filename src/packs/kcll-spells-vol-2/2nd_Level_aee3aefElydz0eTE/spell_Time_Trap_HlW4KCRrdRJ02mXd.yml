@@ -1,0 +1,171 @@
+name: Time Trap
+type: spell
+_id: HlW4KCRrdRJ02mXd
+img: icons/magic/time/clock-analog-gray.webp
+system:
+  activities:
+    2cwByiBzGHbDq2gR:
+      type: save
+      _id: 2cwByiBzGHbDq2gR
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: QllpzZVqQDxBHFGt
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You disrupt time in an empty 5-foot cube you can see within range. The
+      first time a creature enters the area, it must make a Wisdom saving throw.
+      On a failure, a creature that is completely inside the cube is
+      &amp;Reference[stunned], while a creature that is only partly within the
+      cube (e.g. a Large or larger creature) is &amp;Reference[restrained], as
+      part of its body becomes frozen in time. On a success, the creature’s
+      speed is halved instead. Any affected creature recovers at the start of
+      its next turn. The trap can only be sprung once, and the spell ends at the
+      start of the trapped creature’s next turn.</p><p>The trapped area is
+      subtly distorted, and any creature that can’t see the area at the time the
+      spell is cast must make a Wisdom (Perception) check against your spell
+      save DC to detect the trap.</p>
+    chat: ''
+  identifier: time-trap
+  source:
+    revision: 1
+    rules: '2014'
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    units: hour
+    value: '1'
+  level: 2
+  materials:
+    value: handful of sand from an hourglass
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+  range:
+    units: ft
+    special: ''
+    value: '60'
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: '1'
+      type: space
+      special: ''
+  method: spell
+  prepared: 0
+effects:
+  - name: Half Speed
+    img: icons/magic/time/clock-analog-gray.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.HlW4KCRrdRJ02mXd
+    transfer: false
+    _id: QllpzZVqQDxBHFGt
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The creature's speed is halved until the start of its next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.3
+      createdTime: 1768256584257
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!HlW4KCRrdRJ02mXd.QllpzZVqQDxBHFGt'
+folder: aee3aefElydz0eTE
+sort: 4700000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1764610619467
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!items!HlW4KCRrdRJ02mXd'

@@ -1,0 +1,131 @@
+name: Form of Familiar
+type: spell
+_id: 2Sl0G12XT7CZQf8O
+img: icons/creatures/birds/corvid-call-sound-glowing.webp
+system:
+  activities:
+    U1fS0IBqOiNGyQkh:
+      type: utility
+      name: Cast
+      _id: U1fS0IBqOiNGyQkh
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You assume the form of the familiar that provided the material
+      component to the spell. This transformation lasts for the duration or
+      until you drop to 0 hit points or die. Your game statistics are replaced
+      by the statistics of the chosen creature, though you retain your alignment
+      and Intelligence, Wisdom, and Charisma scores.</p><p>You assume the hit
+      points and hit dice of the new form. When you revert to your normal form,
+      you return to the number of hit points you had before you transformed. If
+      you revert as a result of dropping to 0 hit points, any excess damage
+      carries over to your normal form. As long as the excess damage doesn’t
+      reduce your normal form to 0 hit points, you aren’t knocked unconscious.
+      You can use an action to revert to your normal form at any time.</p><p>
+      You are limited in the actions you can perform by the nature of your new
+      form, and you can’t speak, cast spells, or take any other action that
+      requires hands or speech. Your gear melds into the new form. You cannot
+      activate, use, wield, or otherwise benefit from any of your equipment.</p>
+    chat: ''
+  identifier: form-of-familiar
+  source:
+    revision: 1
+    rules: '2014'
+  activation:
+    type: minute
+    value: 1
+    condition: ''
+  duration:
+    units: hour
+    value: '1'
+  level: 2
+  materials:
+    value: >-
+      a piece of your familiar such as fur, feathers, or scales, which the spell
+      consumes
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+  range:
+    units: self
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: self
+      special: ''
+  method: spell
+  prepared: 0
+effects: []
+folder: aee3aefElydz0eTE
+sort: 600000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610617894
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!items!2Sl0G12XT7CZQf8O'

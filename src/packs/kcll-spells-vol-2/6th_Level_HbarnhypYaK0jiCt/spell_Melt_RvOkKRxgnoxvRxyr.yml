@@ -1,0 +1,199 @@
+name: Melt
+type: spell
+_id: RvOkKRxgnoxvRxyr
+img: icons/magic/fire/flame-burning-earth-yellow.webp
+system:
+  activities:
+    RzNGcfuowmA4Ii3F:
+      type: save
+      _id: RzNGcfuowmA4Ii3F
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 10
+            denomination: 10
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: Creature
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    Rv6w9VnB6IreHvNY:
+      type: damage
+      name: Object
+      _id: Rv6w9VnB6IreHvNY
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 20
+            denomination: 10
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You point at a creature or Large or smaller object that is not being
+      worn or carried within range, and attempt to make it melt into a puddle of
+      slag. If the target is a creature, it makes a Constitution saving throw.
+      On a failure, it takes 10d10 fire damage. On a success, it takes half as
+      much damage. If the target is an object, it takes 20d10 fire damage. If
+      this reduces it to 0 hit points, it is melted into a puddle of
+      slag.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 7th level or higher, the damage increases by 1d10
+      for each slot level above 6th.</p>
+    chat: ''
+  identifier: melt
+  source:
+    revision: 1
+    rules: '2014'
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    units: inst
+  level: 6
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '60'
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creatureOrObject
+      special: ''
+  method: spell
+  prepared: 0
+effects: []
+folder: HbarnhypYaK0jiCt
+sort: 7400000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610620373
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!items!RvOkKRxgnoxvRxyr'

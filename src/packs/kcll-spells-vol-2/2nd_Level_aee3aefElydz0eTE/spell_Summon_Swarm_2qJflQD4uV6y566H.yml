@@ -1,0 +1,178 @@
+name: Summon Swarm
+type: spell
+_id: 2qJflQD4uV6y566H
+img: icons/creatures/invertebrates/wasp-swarm-movement.webp
+system:
+  activities:
+    gllbY3fPx1Dytr5D:
+      type: summon
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 5 * @scaling.increase
+        attackDamage: '@item.level'
+        saveDamage: '@item.level'
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: false
+        saves: true
+        ability: ''
+        disposition: false
+      profiles:
+        - count: ''
+          name: ''
+          _id: XuIYkiIWQPbmexSD
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.jkbkg3SUCPdHUzur
+          level:
+            min: null
+            max: null
+          types: []
+        - count: ''
+          name: ''
+          _id: Xrlzb9vmDwJK8nQ4
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.NXZMDPtl7QVQKHCw
+          level:
+            min: null
+            max: null
+          types: []
+        - count: ''
+          name: ''
+          _id: aA2INxECfEfFwXYB
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.zI0L56ED4I4qsJXE
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      _id: gllbY3fPx1Dytr5D
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You call forth a magical swarm, which manifests in an unoccupied space
+      that you can see within range. It uses the Swarm Spirit stat block, and
+      you select either the Quippers, Spiders, or Wasps option when you cast the
+      spell. The creature disappears when it drops to 0 hit points or when the
+      spell ends.</p><p>The creature is an ally to you and your companions. In
+      combat, it shares your initiative count, and takes its turn immediately
+      after yours. It obeys your verbal commands. If you don’t issue any
+      command, it takes the Dodge action and moves only to avoid
+      hazards.</p><p><em><strong>At Higher Levels.</strong></em> When you cast
+      this spell using a spell slot of 3rd level or higher, certain values
+      increase in its stat
+      block.</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.jkbkg3SUCPdHUzur]{Swarm
+      Spirit
+      (Quippers)}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.NXZMDPtl7QVQKHCw]{Swarm
+      Spirit
+      (Spiders)}</p><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.zI0L56ED4I4qsJXE]{Swarm
+      Spirit (Wasps)}</p>
+    chat: ''
+  identifier: summon-swarm
+  source:
+    revision: 1
+    rules: '2014'
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    units: hour
+    value: '1'
+  level: 2
+  materials:
+    value: a golden insect worth at least 200 gp
+    consumed: false
+    cost: 0
+    supply: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  range:
+    units: ft
+    special: ''
+    value: '90'
+  school: con
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: space
+      special: ''
+  method: spell
+  prepared: 0
+effects: []
+folder: aee3aefElydz0eTE
+sort: 700000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1764610617921
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!items!2qJflQD4uV6y566H'

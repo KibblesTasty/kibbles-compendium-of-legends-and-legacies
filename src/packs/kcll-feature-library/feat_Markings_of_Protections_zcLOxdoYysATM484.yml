@@ -9,11 +9,11 @@ effects:
     system: {}
     changes:
       - key: system.attributes.ac.calc
-        mode: 2
+        mode: 5
         value: custom
         priority: null
       - key: system.attributes.ac.formula
-        mode: 2
+        mode: 5
         value: 11 + @abilities.wis.mod
         priority: null
     disabled: false
@@ -25,20 +25,26 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: >-
+      <p>You mark yourself with magical symbols and patterns, protecting you
+      from harm. While you are not wearing any armor, your AC becomes 11 + your
+      Wisdom modifier. You can use a shield and still gain this benefit.</p>
     origin: null
     tint: '#ffffff'
     transfer: true
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 5.3.0
       lastModifiedBy: null
       modifiedTime: null
     _key: '!items.effects!zcLOxdoYysATM484.iWfx2VHMca1T3Lql'

@@ -2,7 +2,7 @@ const MODULE_PATH = "modules/kibbles-compendium-of-legends-and-legacies"
 
 Hooks.once("init", () => {
   // Add new class feature types for validation
-  foundry.utils.mergeObject(CONFIG.DND5E.featureTypes.class.subtypes, {
+  Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, {
     cultistBoon: "KCLL.CultistBoon",
     occultistRite: "KCLL.OccultistRite",
     spellbladeAegis: "KCLL.SpellbladeAegis",

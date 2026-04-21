@@ -14,8 +14,8 @@ system:
       You retain some of the skills you had in life. You can select one of the
       following:</p><ul><li>Proficiency in a simple or martial weapon of your
       choice.</li><li>Proficiency in two skills or tools of your
-      choice.</li><li>You additionally gain proficiency in one artisan’s tool or
-      language of your choice.</li></ul>
+      choice.</li></ul><p>You additionally gain proficiency in one artisan’s
+      tool or language of your choice.</p>
     chat: ''
   identifier: remembrance
   source:
@@ -31,7 +31,43 @@ system:
     repeatable: false
   properties: []
   requirements: Returned Spirit
-  advancement: []
+  advancement:
+    hqZ0cVejsToS5Fq6:
+      type: Trait
+      _id: hqZ0cVejsToS5Fq6
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:*
+              - tool:*
+              - weapon:sim
+              - weapon:mar
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+      title: ''
+    E3BOmwxAQRihy7lW:
+      type: Trait
+      _id: E3BOmwxAQRihy7lW
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:*
+              - tool:art
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+      title: ''
   crewed: false
 effects: []
 folder: null
@@ -45,7 +81,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610550096
   modifiedTime: null
   lastModifiedBy: null

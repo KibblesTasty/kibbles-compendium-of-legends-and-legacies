@@ -88,23 +88,24 @@ system:
       Increase.</strong> Increase your Strength or Constitution score by 1, to a
       maximum of 20.</li><li><strong>Heavy Momentum.</strong> If you move at
       least 20 feet in a direction before making your first melee weapon attack
-      roll on your turn, the attack deals an additional 1d8 damage.</li><li>Gain
-      the Wild Charge special attack (below).</li></ul><h5 id="wild-charge">Wild
-      Charge</h5><p><em>Active Ability (Attack)</em></p><p>When you take the
-      Attack action on your turn, you can replace one of your attacks with
-      making a charge. You or a mount you are controlling can move up to 30 feet
-      in a straight line, flinging your enemies out of your path.</p><p>This
-      movement does not provoke attacks of opportunity. Large or smaller
-      creatures in your path must make a Strength saving throw, or be knocked
-      out of your way and prone. If a creature has no where they can move, they
-      are knocked prone but not moved, and you pass over them. A creature takes
-      2d6 + your Strength modifier bludgeoning damage on a failed save. The
-      number of d6 increases by one when your proficiency bonus increases (with
-      the total number of d6 equaling your proficiency bonus). Your charge ends
-      early if a creature passes their save. Creatures with a CR equal to less
-      than half of your character level automatically fail their
-      save.</p><p>Once you use this feature, you cannot use it again until you
-      complete a short or long rest.</p>
+      roll on your turn, the attack deals an additional [[/r 1d8
+      damage]].</li><li>Gain the Wild Charge special attack
+      (below).</li></ul><h5 id="wild-charge">Wild Charge</h5><p><em>Active
+      Ability (Attack)</em></p><p>When you take the Attack action on your turn,
+      you can replace one of your attacks with making a charge. You or a mount
+      you are controlling can move up to 30 feet in a straight line, flinging
+      your enemies out of your path.</p><p>This movement does not provoke
+      attacks of opportunity. Large or smaller creatures in your path must make
+      a Strength saving throw, or be knocked out of your way and prone. If a
+      creature has no where they can move, they are knocked prone but not moved,
+      and you pass over them. A creature takes 2d6 + your Strength modifier
+      bludgeoning damage on a failed save. The number of d6 increases by one
+      when your proficiency bonus increases (with the total number of d6
+      equaling your proficiency bonus). Your charge ends early if a creature
+      passes their save. Creatures with a CR equal to less than half of your
+      character level automatically fail their save.</p><p>Once you use this
+      feature, you cannot use it again until you complete a short or long
+      rest.</p>
     chat: ''
   identifier: charger
   source:
@@ -160,7 +161,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610609172
   modifiedTime: null
   lastModifiedBy: null

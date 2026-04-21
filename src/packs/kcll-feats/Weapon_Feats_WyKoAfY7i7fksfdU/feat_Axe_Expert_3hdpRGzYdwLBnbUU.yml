@@ -4,7 +4,69 @@ type: feat
 _id: 3hdpRGzYdwLBnbUU
 img: icons/weapons/axes/axe-battle.webp
 system:
-  activities: {}
+  activities:
+    weggeRSG3x3aEdEO:
+      type: damage
+      name: Axe Rush
+      _id: weggeRSG3x3aEdEO
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - slashing
   uses:
     spent: 0
     recovery: []
@@ -69,7 +131,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610608184
   modifiedTime: null
   lastModifiedBy: null

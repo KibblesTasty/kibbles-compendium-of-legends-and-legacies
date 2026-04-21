@@ -38,55 +38,7 @@ effects:
     type: base
     system: {}
     changes:
-      - key: system.traits.dm.amount.acid
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.bludgeoning
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.cold
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.fire
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.force
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.lightning
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.necrotic
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.piercing
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.poison
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.psychic
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.radiant
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.slashing
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.traits.dm.amount.thunder
+      - key: system.traits.dm.amount.ALL
         mode: 2
         value: '-1'
         priority: null
@@ -99,19 +51,22 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: ''
+    description: <p>You reduce all damage taken by 1.</p>
     tint: '#ffffff'
     transfer: true
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 5.3.0
       lastModifiedBy: null
       modifiedTime: null
     _key: '!items.effects!fXgyd6LEDmn1j565.rwz9kdrRWQ5ztUNj'

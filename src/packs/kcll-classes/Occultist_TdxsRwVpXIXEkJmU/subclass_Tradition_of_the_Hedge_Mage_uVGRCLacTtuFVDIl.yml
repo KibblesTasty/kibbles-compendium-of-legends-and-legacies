@@ -38,7 +38,8 @@ system:
     revision: 1
     rules: '2014'
   advancement:
-    - _id: SDWysJ8wsfaoDB9G
+    SDWysJ8wsfaoDB9G:
+      _id: SDWysJ8wsfaoDB9G
       type: ItemGrant
       configuration:
         items:
@@ -54,9 +55,14 @@ system:
       level: 1
       title: Occult Tradition Feature
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    e6b6bXbos7exCJdd:
+      type: ItemGrant
       configuration:
-        items: []
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-legends-and-legacies.kcll-feature-library.Item.eD8JQQRtYznqFDqG
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -64,7 +70,9 @@ system:
       title: Occult Tradition Feature
       hint: ''
       _id: e6b6bXbos7exCJdd
-    - type: ItemGrant
+      flags: {}
+    mQK6RJS1pv2VAZOQ:
+      type: ItemGrant
       configuration:
         items:
           - uuid: >-
@@ -80,7 +88,9 @@ system:
       title: Occult Tradition Feature
       hint: ''
       _id: mQK6RJS1pv2VAZOQ
-    - type: ItemGrant
+      flags: {}
+    J6eClmYM0mv7AZRn:
+      type: ItemGrant
       configuration:
         items:
           - uuid: >-
@@ -93,7 +103,9 @@ system:
       title: Occult Tradition Feature
       hint: ''
       _id: J6eClmYM0mv7AZRn
-    - _id: 5vKzymHokqx6pNSL
+      flags: {}
+    5vKzymHokqx6pNSL:
+      _id: 5vKzymHokqx6pNSL
       type: ItemChoice
       configuration:
         choices:
@@ -119,7 +131,9 @@ system:
       hint: >-
         Additionally, your self-taught casting style has  resulted in some
         practical advantages. Select one of the following casting styles:
-    - _id: orM6r1QEvEIEBHVy
+      flags: {}
+    orM6r1QEvEIEBHVy:
+      _id: orM6r1QEvEIEBHVy
       type: ItemChoice
       configuration:
         choices:
@@ -171,9 +185,11 @@ system:
         replaced: {}
       title: Personalized Path
       hint: >-
-        At 3rd level, you gain one additional one additional Occult Rite known.
-        This rite can come from the Hedge Mage rites or from the general
-        Occultist rites.
+        <p>At 3rd level, you gain one additional spell known and one additional
+        Occult Rite known. This rite can come from the Hedge Mage rites or from
+        the general Occultist rites. These do not count against your spells or
+        rites known.</p>
+      flags: {}
   classIdentifier: occultist
   spellcasting:
     progression: none
@@ -191,7 +207,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610606130
   modifiedTime: null
   lastModifiedBy: null
